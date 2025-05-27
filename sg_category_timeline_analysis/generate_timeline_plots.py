@@ -10,11 +10,11 @@ from collections import Counter, defaultdict
 from tqdm import tqdm
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-POI_FILE = os.path.join(BASE_DIR, '..', 'dataset_TIST2015_POIs.txt')
+POI_FILE = os.path.join(BASE_DIR, '..', '..', 'main_files_fsq', 'dataset_TIST2015_POIs.txt')
 CHECKINS_FILE = os.path.join(BASE_DIR, '..', 'singapore_checkins.txt')
 # Change to correct relative path from current script location
 if not os.path.exists(POI_FILE):
-    POI_FILE = os.path.join(BASE_DIR, '..', '..', 'dataset_TIST2015_POIs.txt')
+    POI_FILE = os.path.join(BASE_DIR, '..', '..', 'main_files_fsq', 'dataset_TIST2015_POIs.txt')
 if not os.path.exists(CHECKINS_FILE):
     CHECKINS_FILE = os.path.join(BASE_DIR, '..', '..', 'singapore_checkins.txt')
 
@@ -66,7 +66,9 @@ with open(CHECKINS_FILE, 'r', encoding='utf-8') as f:
             if sub_cat in maincat_to_top_subcats[main_cat]:
                 try:
                     dt = datetime.datetime.strptime(raw_time, '%a %b %d %H:%M:%S %z %Y')
-                    subcat_to_times[(main_cat, sub_cat)].append(dt)
+                    # Convert to Singapore local time (UTC+8)
+                    dt_sgt = dt.astimezone(datetime.timezone(datetime.timedelta(hours=8)))
+                    subcat_to_times[(main_cat, sub_cat)].append(dt_sgt)
                 except Exception:
                     continue
 
@@ -97,7 +99,7 @@ for main_cat in tqdm(top20_maincats, desc='Main categories'):
         plt.plot(days, counts, marker='o')
         plt.xlabel('Date')
         plt.ylabel('Number of Check-ins')
-        plt.title(f'Check-ins Over Time: {sub_cat} (Top 10 in {main_cat})')
+        plt.title(f'Check-ins Over Time: {sub_cat} (Top 10 in {main_cat}, SGT)')
         plt.tight_layout()
         fname = f'{sub_cat.replace("/", "_").replace(" ", "_")}_timeline.png'
         plt.savefig(os.path.join(out_dir, fname))
@@ -108,9 +110,9 @@ for main_cat in tqdm(top20_maincats, desc='Main categories'):
         hour_counts = [hour_counter.get(h, 0) for h in hours]
         plt.figure(figsize=(10, 5))
         plt.bar(hours, hour_counts, color='teal')
-        plt.xlabel('Hour of Day (0-23)')
+        plt.xlabel('Hour of Day (SGT)')
         plt.ylabel('Number of Check-ins')
-        plt.title(f'Check-ins by Hour: {sub_cat} (Top 10 in {main_cat})')
+        plt.title(f'Check-ins by Hour: {sub_cat} (Top 10 in {main_cat}, SGT)')
         plt.xticks(hours)
         plt.tight_layout()
         fname = f'{sub_cat.replace("/", "_").replace(" ", "_")}_hourly.png'

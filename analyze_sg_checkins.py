@@ -68,7 +68,9 @@ with open(SG_CHECKINS_FILE, 'r', encoding='utf-8') as f:
         raw_time = parts[2]
         try:
             dt = datetime.datetime.strptime(raw_time, '%a %b %d %H:%M:%S %z %Y')
-            hour_counter[dt.hour] += 1
+            # Convert to Singapore local time (UTC+8)
+            dt_sgt = dt.astimezone(datetime.timezone(datetime.timedelta(hours=8)))
+            hour_counter[dt_sgt.hour] += 1
         except Exception:
             continue
 
@@ -76,9 +78,9 @@ hours = list(range(24))
 counts = [hour_counter.get(h, 0) for h in hours]
 plt.figure(figsize=(10, 5))
 plt.bar(hours, counts, color='skyblue')
-plt.xlabel('Hour of Day (UTC)')
+plt.xlabel('Hour of Day (SGT)')
 plt.ylabel('Number of Check-ins')
-plt.title('Distribution of Singapore Check-ins by Hour (All POIs)')
+plt.title('Distribution of Singapore Check-ins by Hour (All POIs, SGT)')
 plt.xticks(hours)
 plt.tight_layout()
 plt.savefig('sg_checkins_by_hour_all.png')
@@ -108,16 +110,18 @@ for place_id in top5_places:
             raw_time = parts[2]
             try:
                 dt = datetime.datetime.strptime(raw_time, '%a %b %d %H:%M:%S %z %Y')
-                place_hour_counter[dt.hour] += 1
+                # Convert to Singapore local time (UTC+8)
+                dt_sgt = dt.astimezone(datetime.timezone(datetime.timedelta(hours=8)))
+                place_hour_counter[dt_sgt.hour] += 1
             except Exception:
                 continue
     place_counts = [place_hour_counter.get(h, 0) for h in hours]
     poi_name = poi_id_to_name.get(place_id, 'Unknown')
     plt.figure(figsize=(10, 5))
     plt.bar(hours, place_counts, color='orange')
-    plt.xlabel('Hour of Day (UTC)')
+    plt.xlabel('Hour of Day (SGT)')
     plt.ylabel('Number of Check-ins')
-    plt.title(f'Check-ins by Hour for POI {place_id} ({poi_name})')
+    plt.title(f'Check-ins by Hour for POI {place_id} ({poi_name}), SGT')
     plt.xticks(hours)
     plt.tight_layout()
     plt.savefig(f'sg_checkins_by_hour_{place_id}.png')
@@ -158,15 +162,17 @@ for cat in top_categories:
             raw_time = parts[2]
             try:
                 dt = datetime.datetime.strptime(raw_time, '%a %b %d %H:%M:%S %z %Y')
-                cat_hour_counter[dt.hour] += 1
+                # Convert to Singapore local time (UTC+8)
+                dt_sgt = dt.astimezone(datetime.timezone(datetime.timedelta(hours=8)))
+                cat_hour_counter[dt_sgt.hour] += 1
             except Exception:
                 continue
     cat_counts = [cat_hour_counter.get(h, 0) for h in hours]
     plt.figure(figsize=(10, 5))
     plt.bar(hours, cat_counts, color=np.random.rand(3,))
-    plt.xlabel('Hour of Day (UTC)')
+    plt.xlabel('Hour of Day (SGT)')
     plt.ylabel('Number of Check-ins')
-    plt.title(f'Check-ins by Hour for Category: {cat}')
+    plt.title(f'Check-ins by Hour for Category: {cat} (SGT)')
     plt.xticks(hours)
     plt.tight_layout()
     plt.savefig(f'sg_checkins_by_hour_cat_{cat.replace(" ", "_").replace("/", "_")}.png')
