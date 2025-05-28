@@ -56,19 +56,63 @@ for user in top_users:
     user_dir = os.path.join(OUTPUT_BASE, user)
     os.makedirs(user_dir, exist_ok=True)
     for day, checkins in user_day_checkins[user].items():
+        if len(checkins) <= 2:
+            continue  # Only analyze days with more than 2 check-ins
         checkins.sort()  # sort by datetime
-        # Only show POI category (not venue ID) for clarity
         times = [dt.strftime('%H:%M') for dt, vid in checkins]  # 24-hour format
         categories = [venue_to_cat[vid] if vid in venue_to_cat else 'Unknown' for dt, vid in checkins]
         plt.figure(figsize=(10, 2))
-        # plt.plot(times, venues, marker='o', linestyle='-')  # Commented: venue ID + category
         plt.plot(times, categories, marker='o', linestyle='-')
         plt.xlabel('Time (SGT, 24h)')
         plt.ylabel('POI Category')
-        plt.title(f'User {user} Trajectory on {day}')
+        plt.title(f'User {user} Trajectory on {day} (n={len(checkins)})')
         plt.tight_layout()
         fname = f'{day}_trajectory.png'
         plt.savefig(os.path.join(user_dir, fname))
         plt.close()
 
-print('Trajectory plots generated for top 15 users.')
+# Step 4: Create histograms for each user (day, noon, evening)
+HIST_BASE = 'histograms'
+os.makedirs(HIST_BASE, exist_ok=True)
+time_bins = {
+    'day': (6, 12),      # 06:00 to 11:59
+    'noon': (12, 18),    # 12:00 to 17:59
+    'evening': (18, 24)  # 18:00 to 23:59
+}
+for user in top_users:
+    hist_dir = os.path.join(HIST_BASE, user)
+    os.makedirs(hist_dir, exist_ok=True)
+    # Collect all check-ins for this user, grouped by category and time bin
+    bin_cat_counts = {bin_name: defaultdict(list) for bin_name in time_bins}
+    for day, checkins in user_day_checkins[user].items():
+        for dt, vid in checkins:
+            hour = dt.hour
+            cat = venue_to_cat[vid] if vid in venue_to_cat else 'Unknown'
+            for bin_name, (start, end) in time_bins.items():
+                if start <= hour < end:
+                    bin_cat_counts[bin_name][cat].append(day)
+    # For each bin, plot histogram of POI type vs avg check count per day
+    for bin_name in time_bins:
+        cat_avg = {}
+        for cat, days in bin_cat_counts[bin_name].items():
+            # Average check-ins per day for this category in this bin
+            day_counts = defaultdict(int)
+            for d in days:
+                day_counts[d] += 1
+            if day_counts:
+                avg = sum(day_counts.values()) / len(day_counts)
+                cat_avg[cat] = avg
+        if not cat_avg:
+            continue
+        plt.figure(figsize=(10, 4))
+        cats = list(cat_avg.keys())
+        avgs = [cat_avg[c] for c in cats]
+        plt.barh(cats, avgs, color='skyblue')
+        plt.xlabel('Avg Check-ins per Day')
+        plt.ylabel('POI Category')
+        plt.title(f'User {user} - {bin_name.capitalize()} Histogram')
+        plt.tight_layout()
+        plt.savefig(os.path.join(hist_dir, f'{bin_name}_hist.png'))
+        plt.close()
+
+print('Trajectory plots and histograms generated for top 15 users.')
