@@ -114,5 +114,13 @@ for user in top_users:
         plt.tight_layout()
         plt.savefig(os.path.join(hist_dir, f'{bin_name}_hist.png'))
         plt.close()
+        # Save histogram data as CSV for summary script
+        import csv
+        csv_path = os.path.join(hist_dir, f'{bin_name}_hist.csv')
+        with open(csv_path, 'w', encoding='utf-8', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+            writer.writerow(['POI Category', 'Avg Check-ins per Day'])
+            for c in cats:
+                writer.writerow([c, cat_avg[c]])
 
 print('Trajectory plots and histograms generated for top 15 users.')

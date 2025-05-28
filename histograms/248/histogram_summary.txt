@@ -1,0 +1,16 @@
+User: 248
+
+Top 3 POI categories for day (by avg check-ins per day):
+  1. POI Category: Skate Park | Avg Check-ins/Day: 2.00
+  2. POI Category: Asian Restaurant | Avg Check-ins/Day: 2.00
+  3. POI Category: Subway | Avg Check-ins/Day: 1.64
+
+Top 3 POI categories for noon (by avg check-ins per day):
+  1. POI Category: Theme Park | Avg Check-ins/Day: 5.00
+  2. POI Category: Subway | Avg Check-ins/Day: 1.89
+  3. POI Category: Government Building | Avg Check-ins/Day: 1.67
+
+Top 3 POI categories for evening (by avg check-ins per day):
+  1. POI Category: Diner | Avg Check-ins/Day: 2.00
+  2. POI Category: Middle Eastern Restaurant | Avg Check-ins/Day: 2.00
+  3. POI Category: Malaysian Restaurant | Avg Check-ins/Day: 2.00

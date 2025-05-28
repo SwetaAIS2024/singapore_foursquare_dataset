@@ -1,0 +1,16 @@
+User: 1054
+
+Top 3 POI categories for day (by avg check-ins per day):
+  1. POI Category: Hospital | Avg Check-ins/Day: 2.50
+  2. POI Category: Bus Line | Avg Check-ins/Day: 1.95
+  3. POI Category: Bus Station | Avg Check-ins/Day: 1.78
+
+Top 3 POI categories for noon (by avg check-ins per day):
+  1. POI Category: Sporting Goods Shop | Avg Check-ins/Day: 3.00
+  2. POI Category: Train Station | Avg Check-ins/Day: 2.12
+  3. POI Category: Furniture / Home Store | Avg Check-ins/Day: 2.00
+
+Top 3 POI categories for evening (by avg check-ins per day):
+  1. POI Category: Clothing Store | Avg Check-ins/Day: 2.00
+  2. POI Category: Design Studio | Avg Check-ins/Day: 2.00
+  3. POI Category: Bus Station | Avg Check-ins/Day: 1.86

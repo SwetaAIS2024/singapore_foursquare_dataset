@@ -1,0 +1,16 @@
+User: 467
+
+Top 3 POI categories for day (by avg check-ins per day):
+  1. POI Category: Train Station | Avg Check-ins/Day: 2.07
+  2. POI Category: Airport | Avg Check-ins/Day: 1.50
+  3. POI Category: Cafeteria | Avg Check-ins/Day: 1.50
+
+Top 3 POI categories for noon (by avg check-ins per day):
+  1. POI Category: Theme Park | Avg Check-ins/Day: 9.00
+  2. POI Category: Train Station | Avg Check-ins/Day: 2.62
+  3. POI Category: Light Rail | Avg Check-ins/Day: 2.00
+
+Top 3 POI categories for evening (by avg check-ins per day):
+  1. POI Category: Theme Park | Avg Check-ins/Day: 3.00
+  2. POI Category: Bank | Avg Check-ins/Day: 2.25
+  3. POI Category: Train Station | Avg Check-ins/Day: 2.18
