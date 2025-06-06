@@ -10,7 +10,7 @@ import pandas as pd
 import numpy as np
 from calendar import day_name
 
-CHECKINS_FILE = 'singapore_checkins.txt'
+CHECKINS_FILE = 'singapore_checkins_filtered.txt'
 OUTPUT_DIR = 'analysis_set2/Feature_engineering/user_activity_trends'
 OUTPUT_DIR_SUMMARY = 'analysis_set2/Feature_engineering/user_activity_trends_summary'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -36,7 +36,7 @@ with open(CHECKINS_FILE, 'r', encoding='utf-8') as f:
 # --- Only include users with >=42 average check-ins ---
 # Load users with >=42 check-ins
 valid_users = set()
-with open('sg_checkins_per_user.txt', 'r', encoding='utf-8') as f:
+with open('preprocessing/sg_checkins_per_user.txt', 'r', encoding='utf-8') as f:
     for line in f:
         user, count = line.strip().split('\t')
         if int(count) >= 42:
@@ -113,7 +113,7 @@ def get_peak_month(month_counts):
 
 # Load POI ID to category mapping
 poi_id_to_cat = {}
-with open('sg_poi_id_name.txt', 'r', encoding='utf-8') as f:
+with open('preprocessing/sg_poi_id_name.txt', 'r', encoding='utf-8') as f:
     for line in f:
         parts = line.strip().split('\t')
         if len(parts) >= 2:
