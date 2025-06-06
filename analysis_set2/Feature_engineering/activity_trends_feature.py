@@ -185,16 +185,18 @@ with open(trend_summary_path, 'w', encoding='utf-8') as f:
 print(f"User trend summary written to {trend_summary_path}")
 
 # --- CSV summary for user activity trends with POI encoding ---
-# 1. Collect all unique POI categories
-all_poi_cats = set()
+# 1. Collect POI category counts for valid users
+poi_cat_counter = defaultdict(int)
 for user, checkins in user_checkins.items():
     if user not in valid_users:
         continue
     for dt, vid in checkins:
-        all_poi_cats.add(poi_id_to_cat.get(vid, 'Unknown'))
-all_poi_cats = sorted(all_poi_cats)
+        cat = poi_id_to_cat.get(vid, 'Unknown')
+        poi_cat_counter[cat] += 1
+# 2. Select top 50 POI categories
+all_poi_cats = [cat for cat, _ in sorted(poi_cat_counter.items(), key=lambda x: -x[1])[:50]]
 
-# 2. For each user, create a row with encoded POI counts for peak hour, day, and month
+# 3. For each user, create a row with encoded POI counts for peak hour, day, and month (only top 50 types)
 encoding_csv_path = os.path.join(OUTPUT_DIR_SUMMARY, 'user_activity_trend_encoded.csv')
 with open(encoding_csv_path, 'w', encoding='utf-8', newline='') as csvfile:
     fieldnames = [
@@ -203,7 +205,7 @@ with open(encoding_csv_path, 'w', encoding='utf-8', newline='') as csvfile:
         'peak_day_of_week', 'peak_day_checkins',
         'peak_month', 'peak_month_checkins'
     ]
-    # Add POI columns for each bin
+    # Add POI columns for each bin (only top 50)
     fieldnames += [f'peak_hour_POI_{cat}' for cat in all_poi_cats]
     fieldnames += [f'peak_day_POI_{cat}' for cat in all_poi_cats]
     fieldnames += [f'peak_month_POI_{cat}' for cat in all_poi_cats]
@@ -225,21 +227,24 @@ with open(encoding_csv_path, 'w', encoding='utf-8', newline='') as csvfile:
         for dt, vid in user_checkins[user]:
             if h1 <= dt.hour <= h2:
                 cat = poi_id_to_cat.get(vid, 'Unknown')
-                hour_poi_counter[cat] += 1
+                if cat in all_poi_cats:
+                    hour_poi_counter[cat] += 1
         # Daily trend
         peak_day, peak_day_count = get_peak_day(day_counts)
         day_poi_counter = defaultdict(int)
         for dt, vid in user_checkins[user]:
             if day_name[dt.weekday()] == peak_day:
                 cat = poi_id_to_cat.get(vid, 'Unknown')
-                day_poi_counter[cat] += 1
+                if cat in all_poi_cats:
+                    day_poi_counter[cat] += 1
         # Monthly trend
         peak_month, peak_month_count = get_peak_month(month_counts)
         month_poi_counter = defaultdict(int)
         for dt, vid in user_checkins[user]:
             if f"{dt.year:04d}-{dt.month:02d}" == peak_month:
                 cat = poi_id_to_cat.get(vid, 'Unknown')
-                month_poi_counter[cat] += 1
+                if cat in all_poi_cats:
+                    month_poi_counter[cat] += 1
         row = {
             'user_id': user,
             'peak_hour_range': f"{hour_range_str(h1, h2)}",
@@ -249,7 +254,7 @@ with open(encoding_csv_path, 'w', encoding='utf-8', newline='') as csvfile:
             'peak_month': peak_month,
             'peak_month_checkins': peak_month_count
         }
-        # POI encoding for each bin
+        # POI encoding for each bin (only top 50)
         for cat in all_poi_cats:
             row[f'peak_hour_POI_{cat}'] = hour_poi_counter.get(cat, 0)
             row[f'peak_day_POI_{cat}'] = day_poi_counter.get(cat, 0)
