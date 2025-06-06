@@ -12,6 +12,7 @@ from calendar import day_name
 
 CHECKINS_FILE = 'singapore_checkins.txt'
 OUTPUT_DIR = 'analysis_set2/Feature_engineering/user_activity_trends'
+OUTPUT_DIR_SUMMARY = 'analysis_set2/Feature_engineering/user_activity_trends_summary'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # user -> {(year, month, day, hour): count}
@@ -54,7 +55,7 @@ for user, time_counts in user_time_counts.items():
 print(f"Done. Per-user activity trend CSVs written to {OUTPUT_DIR}/ (users with >=42 check-ins)")
 
 # Write a single CSV: one row per user, with user_id and total check-ins per hour, per day, per month
-summary_path = os.path.join(OUTPUT_DIR, 'user_hour_day_month_summary.csv')
+summary_path = os.path.join(OUTPUT_DIR_SUMMARY, 'user_hour_day_month_summary.csv')
 summary_rows = []
 for user, time_counts in user_time_counts.items():
     if user not in valid_users:
@@ -135,7 +136,7 @@ with open(CHECKINS_FILE, 'r', encoding='utf-8') as f:
         except Exception:
             continue
 
-trend_summary_path = os.path.join(OUTPUT_DIR, 'user_activity_trend_summary.txt')
+trend_summary_path = os.path.join(OUTPUT_DIR_SUMMARY, 'user_activity_trend_summary.txt')
 with open(trend_summary_path, 'w', encoding='utf-8') as f:
     for user, time_counts in user_time_counts.items():
         if user not in valid_users:
@@ -194,7 +195,7 @@ for user, checkins in user_checkins.items():
 all_poi_cats = sorted(all_poi_cats)
 
 # 2. For each user, create a row with encoded POI counts for peak hour, day, and month
-encoding_csv_path = os.path.join(OUTPUT_DIR, 'user_activity_trend_encoded.csv')
+encoding_csv_path = os.path.join(OUTPUT_DIR_SUMMARY, 'user_activity_trend_encoded.csv')
 with open(encoding_csv_path, 'w', encoding='utf-8', newline='') as csvfile:
     fieldnames = [
         'user_id',
