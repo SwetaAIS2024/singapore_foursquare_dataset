@@ -1,0 +1,16 @@
+User: 377
+
+Top 3 POI categories for day (by avg check-ins per day):
+  1. POI Category: Flower Shop | Avg Check-ins/Day: 2.00
+  2. POI Category: College Cafeteria | Avg Check-ins/Day: 2.00
+  3. POI Category: Home (private) | Avg Check-ins/Day: 1.58
+
+Top 3 POI categories for noon (by avg check-ins per day):
+  1. POI Category: Baseball Stadium | Avg Check-ins/Day: 2.00
+  2. POI Category: School | Avg Check-ins/Day: 2.00
+  3. POI Category: Home (private) | Avg Check-ins/Day: 1.64
+
+Top 3 POI categories for evening (by avg check-ins per day):
+  1. POI Category: Ice Cream Shop | Avg Check-ins/Day: 4.00
+  2. POI Category: Diner | Avg Check-ins/Day: 2.00
+  3. POI Category: Fried Chicken Joint | Avg Check-ins/Day: 1.67

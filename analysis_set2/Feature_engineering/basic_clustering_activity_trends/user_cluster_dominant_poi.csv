@@ -1,0 +1,2295 @@
+user_id,cluster,dominant_poi_type,aux_poi_types
+21418,0,Subway,Mall;Clothing Store;Grocery Store;Chinese Restaurant;Fried Chicken Joint
+49530,0,Mall,Nightclub;Train Station;Airport;Subway;Multiplex
+82310,2,Mall,Church;Chinese Restaurant;Airport Terminal;Asian Restaurant;Restaurant
+74138,0,Mall,Nightclub;Clothing Store;Bar;Caf;Coffee Shop
+56776,0,Mall,Nightclub;Trade School;Bar;Asian Restaurant;Food Court
+198384,0,Hospital,Mall;Food Court;Train Station;Bus Line;Bus Station
+105049,0,Subway,Trade School;Bus Station;Mall;Coffee Shop;Food Court
+174198,0,Coffee Shop,Mall;Food Court;Fast Food Restaurant;Nightclub;Caf
+72021,0,Mall,Chinese Restaurant;Airport Terminal;American Restaurant;Coffee Shop;Food Court
+203821,0,Nightclub,Mall;Bar;Coffee Shop
+126,4,Subway,Bus Line;Fast Food Restaurant;Mall;Train Station;Bus Station
+4678,2,Bus Station,Mall;Train Station;Coffee Shop;Bus Line;Subway
+64094,0,Train Station,Subway;Trade School;Bus Station;Mall;Department Store
+122278,0,Mall,Subway;Chinese Restaurant;Department Store;Grocery Store;Bar
+126476,0,Bus Line,School;Subway;Train Station;Food Court;Grocery Store
+38192,4,Train Station,Bus Station;Bus Line;Subway;Mall;Grocery Store
+198469,0,High School,Train Station;General College & University;Government Building;Mall;Bus Station
+38475,4,Bus Line,High School;Bus Station;Coffee Shop;Chinese Restaurant;Food Court
+24592,2,General College & University,American Restaurant;Bar;Food Court;Burger Joint;Caf
+23956,0,Mall,Train Station;Church;Subway;Asian Restaurant;Grocery Store
+37027,0,Train Station,Mall;Bus Station;Fast Food Restaurant;Subway;Multiplex
+56817,0,Bus Station,Subway;Food Court;Mall;Church;Train Station
+1054,4,Bus Station,Bus Line;Train Station;High School;Mall;Subway
+148499,0,Mall,Dessert Shop;Asian Restaurant;Food Court;Multiplex;Airport Terminal
+136926,0,Bus Line,Bus Station;Subway;Japanese Restaurant
+2967,4,Subway,Mall;Bus Station;Train Station;Government Building;Food Court
+259148,0,Seafood Restaurant,Caf;Italian Restaurant;Japanese Restaurant;University;Coffee Shop
+33397,0,Airport,Mall;Airport Terminal;Burger Joint;School;Caf
+912,4,Bus Line,Bus Station;Mall;High School;Subway;Food Court
+41607,0,Mall,Subway;Hotel;Bus Line;Tea Room;Department Store
+140074,0,Mall,Food Court;Chinese Restaurant;High School;Government Building;Fast Food Restaurant
+34402,0,Subway,Church;Mall;Train Station;High School;Food Court
+221155,0,Bus Station,Trade School;Mall;Caf;Airport Terminal;Fried Chicken Joint
+37295,0,Church,Mall;Multiplex;High School;Airport Terminal;School
+4441,4,Train Station,High School;Bus Station;Mall;Coffee Shop;Fried Chicken Joint
+18563,0,High School,Mall;Bus Station;Food Court;Hospital;Fast Food Restaurant
+12763,4,Subway,Mall;Bus Line;Bus Station;High School;College Cafeteria
+49984,0,Bus Station,Government Building;Food Court;Mall;High School;Subway
+259162,3,General College & University,
+159705,0,Italian Restaurant,Caf;Church;Coffee Shop;Ice Cream Shop;Mall
+201191,0,Mall,Train Station;Bus Line;Subway;Airport Terminal;Boutique
+234049,0,Mall,Food Court;Church;High School;Coffee Shop;Fast Food Restaurant
+52987,0,High School,Bus Line;Mall;American Restaurant;Chinese Restaurant;Asian Restaurant
+259167,0,Bus Line,High School;Bus Station;Mall;Train Station;College Cafeteria
+79974,0,High School,Mall;Subway;Bus Station;Flea Market;Burger Joint
+1865,2,Church,Hospital;General College & University;Mall;Event Space;Food Court
+240807,0,Hotel,Food Court;High School;Mall;Tea Room;Airport Terminal
+12764,2,Mall,Bus Station;High School;Bus Line;Subway;Tea Room
+7532,4,Bus Station,Bus Line;Mall;Subway;Food Court;Hotel
+34664,0,High School,Church;School;Fast Food Restaurant;Mall;Ramen /  Noodle House
+71426,0,Mall,High School;Bus Station;Subway;Bus Line;Church
+21942,2,Subway,Gym;Chinese Restaurant;Church;Mall;Trade School
+221167,0,Food Court,Mall;School;Boutique;Coffee Shop;Government Building
+93761,3,General College & University,
+47580,0,Nightclub,Mall;Asian Restaurant;Hospital;Chinese Restaurant;Food Court
+61854,3,General College & University,Mall;Fast Food Restaurant;Food Court;Fried Chicken Joint;Government Building
+4876,0,Nightclub,Bus Station;Mall;Hospital;Subway;Resort
+35446,0,High School,Mall;Bus Station;Coffee Shop;Fried Chicken Joint;Ice Cream Shop
+119623,0,Mall,High School;Burger Joint;Fast Food Restaurant;Subway;Grocery Store
+14922,0,High School,Bus Station;General Entertainment;Church;Coffee Shop;Mall
+135375,0,High School,School;Coffee Shop;Hospital;American Restaurant;General Entertainment
+237343,0,Mall,High School;Church;General Entertainment;School
+76341,0,Bus Station,Mall;Fast Food Restaurant;Subway;High School;Food Court
+22080,2,Coffee Shop,High School;Food Court;Fast Food Restaurant;Mall;Multiplex
+41936,2,Mall,Subway;Tea Room;Fast Food Restaurant;High School;Food Court
+117018,0,Mall,High School;Bus Line;Bus Station;Food Court;Multiplex
+57358,0,High School,Caf;Fast Food Restaurant;Mall;Italian Restaurant;Bus Station
+20633,2,Subway,Train Station;Sushi Restaurant;Coffee Shop;Hospital;Bus Station
+34662,0,Bus Station,Bus Line;High School;College Cafeteria;Mall;Fast Food Restaurant
+255377,2,Mall,Hotel;Chinese Restaurant;Church;Tea Room;Sushi Restaurant
+76342,0,Mall,Park;Department Store;Event Space;American Restaurant;Food Court
+122331,2,Mall,High School;Food Court;Ice Cream Shop;Multiplex;Japanese Restaurant
+141764,0,Mall,High School;Chinese Restaurant;Italian Restaurant;American Restaurant;Hospital
+21292,4,Bus Line,Bus Station;High School;Mall;Food Court;Subway
+3955,4,Bus Station,Mall;Bus Line;Grocery Store;Asian Restaurant;American Restaurant
+23632,2,Mall,Caf;Flea Market;Food Court;General Entertainment;High School
+167825,0,High School,Bus Line;Bus Station;Chinese Restaurant;Mall;School
+12443,2,Mall,Fast Food Restaurant;Food Court;Asian Restaurant;Bus Station;Bar
+169979,0,Hospital,Airport;Japanese Restaurant;American Restaurant;General Entertainment;Ice Cream Shop
+22634,4,Mall,High School;Bus Line;Fast Food Restaurant;Bus Station;Food Court
+190717,0,Gym,High School;Multiplex;Caf;Chinese Restaurant;Coffee Shop
+150355,0,Mall,High School;Flea Market;Nightclub;Coffee Shop;Hotel
+106250,0,Bus Station,Train Station;Mall;Fast Food Restaurant;Food Court;Subway
+10665,4,High School,Bus Station;Train Station;Mall;Fast Food Restaurant;Asian Restaurant
+248000,0,Mall,Coffee Shop;High School;Chinese Restaurant;Fast Food Restaurant;Flea Market
+67694,0,Subway,Mall;Food Court;Train Station;Caf;Airport Terminal
+13904,2,Mall,Subway;Bus Station;Boutique;Multiplex;Dessert Shop
+5221,4,High School,Train Station;Mall;Fast Food Restaurant;Bus Station;Subway
+31536,0,High School,Bus Station;Mall;General College & University;Fast Food Restaurant;Train Station
+12830,4,Bus Station,Subway;Train Station;Coffee Shop;Food Court;Government Building
+255389,0,High School,Mall;Fried Chicken Joint;Food Court;Burger Joint;Bus Station
+123717,2,Mall,Fast Food Restaurant;Japanese Restaurant;Dessert Shop;High School;Boutique
+3671,3,High School,College Cafeteria;College Academic Building;Mall;Department Store;Food Court
+12304,2,Mall,Coffee Shop;School;Food Court;Subway;Church
+105124,0,High School,Fast Food Restaurant;Mall;Bus Station;Food Court;Coffee Shop
+19370,0,Asian Restaurant,Mall;High School;Bus Station;Grocery Store;Food Court
+195938,0,Mall,Food Court;Fast Food Restaurant;Furniture / Home Store;Seafood Restaurant;Burger Joint
+48792,0,High School,Mall;Fast Food Restaurant;Food Court;American Restaurant;Burger Joint
+39404,0,Bus Station,High School;Mall;School;Bus Line;Coffee Shop
+16222,0,School,High School;Park;Fast Food Restaurant;Mall;Flea Market
+45986,0,High School,Bus Line;College Cafeteria;Bus Station
+10351,4,Bus Station,Train Station;Mall;Bus Line;Food Court;Subway
+126525,0,High School,Mall;Bus Line;Coffee Shop;Food Court;Bus Station
+79241,0,Mall,Subway;Train Station;Hospital;Japanese Restaurant;Tea Room
+44634,0,Government Building,Event Space;Food Court;Resort;Coffee Shop;Flea Market
+2820,0,Train Station,Subway;Mall;Bus Station;General Entertainment;Ramen /  Noodle House
+183486,0,Church,Coffee Shop;High School;Mall;American Restaurant;Boutique
+234093,0,High School,Mall;Train Station;Food Court;American Restaurant;Clothing Store
+155914,0,High School,Mall;Fast Food Restaurant;Hotel;American Restaurant;College Academic Building
+31086,2,Mall,Food Court;High School;Multiplex;Coffee Shop;Fast Food Restaurant
+67708,0,Mall,Subway;Food Court;Asian Restaurant;Caf;Event Space
+259232,0,School,Mall;Caf;Chinese Restaurant;Food Court;Hotel
+176562,2,Food Court,Government Building;Chinese Restaurant;Caf;Italian Restaurant;Japanese Restaurant
+4047,4,Government Building,Bus Station;Coffee Shop;Mall;Bus Line;Food Court
+9446,2,Gym,Mall;Airport Terminal;Food Court;Asian Restaurant;Caf
+212275,0,Bus Station,Bus Line;Mall;Train Station;Asian Restaurant;Grocery Store
+46405,0,Government Building,Mall;Subway;Food Court;College Academic Building;Event Space
+138564,0,Mall,Government Building;Multiplex;Burger Joint;Park;Dessert Shop
+412,4,Bus Station,High School;Train Station;Mall;Subway;Fast Food Restaurant
+33177,2,American Restaurant,Bus Station;Food Court;Mall;Event Space;General Entertainment
+86536,2,Mall,General College & University;Airport Terminal;Church;Chinese Restaurant;Caf
+206604,0,Mall,Gym;Nightclub;Hospital;Burger Joint;Hotel
+5354,2,Mall,Subway;Multiplex;Coffee Shop;Food Court;Tea Room
+41323,4,Bus Station,Coffee Shop;Asian Restaurant;Bus Line;Train Station;Mall
+135418,0,Mall,Asian Restaurant;Italian Restaurant;Japanese Restaurant;Train Station;Coffee Shop
+437,4,Bus Station,Food Court;Train Station;Mall;Asian Restaurant;Subway
+28416,3,College Cafeteria,Bus Station;Food Court;General College & University;Hospital;Train Station
+59342,0,Mall,Fast Food Restaurant;Boutique;Asian Restaurant;Bus Station;Flea Market
+4029,2,Coffee Shop,Sushi Restaurant;Burger Joint;Ramen /  Noodle House;Ice Cream Shop;Dessert Shop
+110957,0,Mall,Fast Food Restaurant;Food Court;High School;Chinese Restaurant;Dessert Shop
+30666,2,Mall,Multiplex;Nightclub;Caf;Bar;Chinese Restaurant
+190754,0,High School,Mall;Caf;Fast Food Restaurant;Multiplex;Asian Restaurant
+467,4,Mall,Subway;Train Station;Food Court;Bus Station;Grocery Store
+77081,0,Bus Line,Bus Station;University;Mall;Subway;Caf
+119660,0,Mall,Gym;Resort;General College & University;Chinese Restaurant;Government Building
+115804,0,College Cafeteria,Fast Food Restaurant;High School;Government Building;Mall;American Restaurant
+46019,2,Gym,Mall;Coffee Shop;Train Station;Fast Food Restaurant;Caf
+10887,0,Mall,Japanese Restaurant;Church;Food Court;Subway;Train Station
+143,4,Subway,Train Station;Mall;Bus Station;Food Court;Government Building
+259256,0,University,Mall;Subway;Airport Terminal;Asian Restaurant;Department Store
+172138,0,University,Mall;Multiplex;Church;Chinese Restaurant;Food Court
+50817,0,Mall,Fast Food Restaurant;Food Court;Subway;Chinese Restaurant;Boutique
+84027,0,Asian Restaurant,Coffee Shop;Fast Food Restaurant;Mall;Bus Station;Chinese Restaurant
+154135,0,High School,Mall;College Academic Building;Fried Chicken Joint;Bus Line;Bus Station
+19031,4,Bus Station,Subway;Church;Mall;Gym;Food Court
+112117,2,Mall,Church;American Restaurant;Asian Restaurant;Furniture / Home Store;Gym
+5287,4,Flea Market,Bus Line;Mall;Food Court;Subway;Church
+115810,2,Japanese Restaurant,Chinese Restaurant;Hotel;Asian Restaurant;Grocery Store;Italian Restaurant
+118349,0,Mall,Nightclub;Hotel;Bar;Asian Restaurant;Food Court
+40055,0,Subway,University;Mall;Train Station;Boutique;Tea Room
+218177,0,Food Court,Asian Restaurant;Grocery Store;Chinese Restaurant;Mall;Hospital
+90135,2,Mall,Multiplex;Chinese Restaurant;High School;Ice Cream Shop;Airport
+85698,2,Mall,Chinese Restaurant;Japanese Restaurant;Caf;Dessert Shop;High School
+78498,0,Subway,High School;Food Court;Train Station;General College & University;Mall
+4215,0,Subway,Park;Bus Station;Bus Line;Mall;Government Building
+218184,2,Mall,American Restaurant;Food Court;Subway;Trade School;Asian Restaurant
+7179,2,Mall,Food Court;Burger Joint;Bus Station;Italian Restaurant;Coffee Shop
+27760,4,Train Station,Mall;Subway;College Cafeteria;Trade School;Bus Station
+78501,2,Mall,Department Store;Bus Station;High School;Coffee Shop;Multiplex
+60853,0,Gym,Mall;Asian Restaurant;Caf;Airport Terminal;Department Store
+59347,2,Subway,General College & University;Caf;Mall;Train Station;Department Store
+244491,0,Subway,Mall;Train Station;Coffee Shop;Hospital;Grocery Store
+178865,0,Gym,Chinese Restaurant;Mall;Food Court;Japanese Restaurant;Restaurant
+377,4,Fried Chicken Joint,Gym;Event Space;Nightclub;Food Court;Resort
+127996,0,Mall,Church;High School;Airport Terminal;Restaurant;Event Space
+2391,4,Park,Mall;Food Court;Tea Room;Fast Food Restaurant;Subway
+248072,0,Mall,High School;Ice Cream Shop;School;Subway;Chinese Restaurant
+73,5,Bus Station,Mall;Food Court;Subway;Coffee Shop;Fast Food Restaurant
+37636,2,Airport Terminal,Bar;Asian Restaurant;Mall;Coffee Shop;Food Court
+140146,0,Mall,Bus Line;Bus Station;Chinese Restaurant;Clothing Store;Food Court
+240909,0,Gym,Coffee Shop;Sushi Restaurant;Hospital;Japanese Restaurant;Ramen /  Noodle House
+174351,0,Food Court,Coffee Shop;Fast Food Restaurant;Mall;Asian Restaurant;Chinese Restaurant
+117078,0,Mall,Caf;General College & University;Coffee Shop;Airport;Bar
+63554,2,Chinese Restaurant,Caf;Restaurant;Hotel;Asian Restaurant;Japanese Restaurant
+204008,0,Trade School,
+234135,0,Train Station,School;Trade School;Multiplex;Caf;General College & University
+181170,0,Restaurant,Food Court;Mall;Coffee Shop;Asian Restaurant;Department Store
+227594,0,Caf,Chinese Restaurant;Ice Cream Shop;Mall;Asian Restaurant;Italian Restaurant
+240920,0,Boutique,Chinese Restaurant;Asian Restaurant;Ramen /  Noodle House;Caf;Fast Food Restaurant
+96714,2,Subway,Mall;Department Store;Flea Market;University;Dessert Shop
+201311,0,Mall,School;Event Space;Food Court;Fast Food Restaurant;Hospital
+15783,2,Mall,College Academic Building;Hotel;Caf;Train Station;Fast Food Restaurant
+117085,0,Mall,Coffee Shop;Multiplex;Sushi Restaurant;Chinese Restaurant;Flea Market
+82417,0,Mall,Food Court;Train Station;Fast Food Restaurant;Gym;High School
+215286,0,Mall,Tea Room;Flea Market;Italian Restaurant;Ramen /  Noodle House;Bus Line
+129438,0,Mall,University;Chinese Restaurant;Ice Cream Shop;Nightclub;American Restaurant
+123770,0,Mall,Subway;Flea Market;Food Court;Hotel;Airport Terminal
+100781,2,Mall,Department Store;Boutique;Coffee Shop;High School;Hotel
+117088,0,Coffee Shop,Ice Cream Shop;Mall;Food Court;Caf;American Restaurant
+42910,0,Subway,Mall;Train Station;Fast Food Restaurant;General College & University;High School
+161739,0,Mall,Train Station;Food Court;Coffee Shop;Fast Food Restaurant
+198613,0,Mall,Coffee Shop;Food Court;Seafood Restaurant;American Restaurant;Multiplex
+119692,0,Mall,Tea Room;Coffee Shop;Sushi Restaurant;Multiplex;Ramen /  Noodle House
+48739,0,Mall,Caf;Food Court;Chinese Restaurant;Grocery Store;Boutique
+193360,0,High School,Mall;Food Court;Coffee Shop;Fast Food Restaurant;Bus Line
+118368,2,Chinese Restaurant,Food Court;Event Space;Airport Terminal;Asian Restaurant;Caf
+3797,2,Mall,Subway;Food Court;Nightclub;Grocery Store;Flea Market
+193361,0,Mall,Caf;Chinese Restaurant;Hotel;Burger Joint;Fast Food Restaurant
+26471,2,Mall,Chinese Restaurant;Food Court;Grocery Store;Fast Food Restaurant;Asian Restaurant
+53467,0,Mall,Asian Restaurant;Train Station;Food Court;Japanese Restaurant;Caf
+234158,0,School,Bus Station;College Cafeteria;Mall;Bus Line;High School
+2400,4,Mall,Train Station;Subway;Chinese Restaurant;Resort;Multiplex
+101860,2,Mall,Food Court;Seafood Restaurant;Department Store;Bar;Boutique
+110989,3,General College & University,Trade School;College Academic Building;Mall;Coffee Shop;Food Court
+70870,0,Nightclub,Mall;Restaurant;Chinese Restaurant;General Entertainment;Multiplex
+75687,0,Nightclub,Mall;Italian Restaurant;Department Store;Japanese Restaurant;Restaurant
+14144,2,Mall,Coffee Shop;Chinese Restaurant;College Academic Building;Bus Station;General College & University
+68967,0,Bus Station,Coffee Shop;General College & University;Mall;College Academic Building;Food Court
+98734,0,Government Building,Food Court;Mall;Bus Station;Event Space;Train Station
+63022,0,General College & University,Mall;School;Church;Caf;Food Court
+11063,2,Coffee Shop,Food Court;Asian Restaurant;Mall;Gym;Caf
+161755,0,General College & University,College Cafeteria;Fast Food Restaurant;Train Station;Coffee Shop;Mall
+150430,0,Multiplex,Asian Restaurant;Chinese Restaurant;Mall;Nightclub;Bus Station
+138603,2,Mall,Subway;Caf;Resort;Bar;Chinese Restaurant
+41964,0,Mall,Airport Terminal;Asian Restaurant;Boutique;Flea Market;Caf
+16510,0,Subway,Mall;Government Building;Coffee Shop;Fast Food Restaurant;Fried Chicken Joint
+170058,0,Mall,General College & University;Church;College Cafeteria;Hotel;Resort
+255497,0,Caf,Fast Food Restaurant;Food Court;Mall;Ramen /  Noodle House;Tea Room
+4978,2,Mall,Seafood Restaurant;Food Court;University;Church;Coffee Shop
+97704,0,Bus Station,Hospital;Food Court;Mall;Grocery Store;Resort
+196036,2,Mall,Chinese Restaurant;Multiplex;Subway;Park;Asian Restaurant
+48815,2,Mall,Chinese Restaurant;Food Court;Fast Food Restaurant;General College & University;Asian Restaurant
+2108,0,Bus Line,Mall;Subway;Airport;Airport Terminal;Fast Food Restaurant
+115846,0,Mall,Hotel;Chinese Restaurant;Fast Food Restaurant;Ramen /  Noodle House;Asian Restaurant
+77805,0,Fast Food Restaurant,Caf;Chinese Restaurant;Bar;Tea Room;American Restaurant
+7973,0,Mall,Food Court;Bus Station;Fast Food Restaurant;Gym;Train Station
+41001,0,General College & University,Train Station;Bus Station;Food Court;Bus Line;Mall
+96736,0,Mall,Bus Station;Train Station;Food Court;Grocery Store;Government Building
+185934,0,Mall,Flea Market;Food Court;Caf;Dessert Shop;Hotel
+53042,2,Mall,Japanese Restaurant;Chinese Restaurant;Ice Cream Shop;Asian Restaurant;Multiplex
+150435,0,Mall,Flea Market;Coffee Shop;Multiplex;Caf;Fast Food Restaurant
+71476,0,Mall,Coffee Shop;Bar;School;Boutique;Caf
+109825,2,Mall,Coffee Shop;Chinese Restaurant;Fast Food Restaurant;Food Court;Ramen /  Noodle House
+185935,2,Coffee Shop,Caf;Chinese Restaurant;Dessert Shop;Ice Cream Shop;Clothing Store
+82433,0,Mall,Trade School;Church;School;Sushi Restaurant;Caf
+224441,0,Mall,Bar;Chinese Restaurant;Multiplex;Coffee Shop;College Academic Building
+72795,2,Church,Tea Room;Ramen /  Noodle House;Park;Food Court;Hotel
+95750,0,Subway,Mall;Bus Station;Fast Food Restaurant;Train Station;Bus Line
+19030,0,Hotel,Mall;Resort;Food Court;Fast Food Restaurant;Furniture / Home Store
+91049,0,Church,Mall;Hospital;Sushi Restaurant;Airport Terminal;Ice Cream Shop
+178914,0,Mall,Church;Chinese Restaurant;Caf;Coffee Shop;General Entertainment
+145144,2,Sushi Restaurant,Mall;Chinese Restaurant;Caf;Department Store;Hotel
+36819,2,Boutique,Mall;Coffee Shop;Fast Food Restaurant;Multiplex;School
+152322,0,Mall,Furniture / Home Store;Food Court;Park;Caf;Fast Food Restaurant
+14847,0,Mall,Caf;Boutique;Department Store;Food Court;Multiplex
+132329,0,Hotel,Chinese Restaurant;Asian Restaurant;Mall;Bar;Caf
+53476,0,High School,Mall;Trade School;School;Fast Food Restaurant;Airport
+15439,2,Mall,Bus Station;Clothing Store;Flea Market;Subway;Boutique
+19626,2,Train Station,Mall;Subway;Food Court;Coffee Shop;Multiplex
+138623,0,Government Building,Subway;Burger Joint;Flea Market;Grocery Store;Bus Line
+73526,0,Mall,General College & University;University;College Academic Building;Fast Food Restaurant;Food Court
+77808,0,High School,Bus Line;Bus Station;College Cafeteria;Mall;Fried Chicken Joint
+27989,0,Train Station,Mall;Bus Station;Fast Food Restaurant;Food Court;Multiplex
+99693,0,Mall,Subway;High School;Fast Food Restaurant;Seafood Restaurant;Food Court
+84059,0,Bar,Airport Terminal;Caf;Coffee Shop;Food Court;Restaurant
+125208,0,Gym,Caf;Coffee Shop;Mall;Food Court;Church
+92882,0,Mall,Caf;Train Station;Bus Station;Japanese Restaurant;Ramen /  Noodle House
+157878,0,Mall,Multiplex;College Academic Building;Dessert Shop;Chinese Restaurant;Subway
+84885,0,Mall,Food Court;University;Subway;Nightclub;Asian Restaurant
+20509,0,Mall,Hotel;Seafood Restaurant;Chinese Restaurant;Food Court;Ramen /  Noodle House
+44304,2,Bus Line,Food Court;Bus Station;High School;Mall;Chinese Restaurant
+99784,2,Mall,High School;Italian Restaurant;Train Station;Bus Line;School
+201357,0,Mall,High School;Coffee Shop;College Academic Building;Fast Food Restaurant;Hospital
+237516,0,Hospital,Mall;Japanese Restaurant;Food Court;American Restaurant;Asian Restaurant
+130907,0,General College & University,Mall;High School;American Restaurant;College Cafeteria;Bus Station
+14388,2,Mall,Bus Station;General College & University;College Cafeteria;Bus Line;Train Station
+263249,0,High School,Mall;Chinese Restaurant;Event Space;Multiplex;Airport Terminal
+68331,2,Asian Restaurant,Food Court;Caf;Fast Food Restaurant;Church;Burger Joint
+115870,0,Airport Terminal,Mall;General Entertainment;Airport;Flea Market;Bus Station
+121067,2,Boutique,Caf;Chinese Restaurant;Coffee Shop;Fast Food Restaurant;Multiplex
+83280,0,Trade School,Mall;Train Station;Tea Room;Food Court;Hospital
+87480,0,Hotel,Caf;Coffee Shop;Japanese Restaurant;Mall;Food Court
+102900,2,Mall,Grocery Store;Food Court;Ice Cream Shop;Caf;Coffee Shop
+24939,2,Coffee Shop,Chinese Restaurant;Mall;Caf;Food Court;Hotel
+198649,0,Bus Station,Mall;Coffee Shop;Event Space;Multiplex;Resort
+92890,0,Mall,General Entertainment;College Academic Building;Chinese Restaurant;Furniture / Home Store;Sushi Restaurant
+85692,0,Bus Station,Mall;Subway;Bus Line;Coffee Shop;Train Station
+84064,0,Mall,Bus Station;Coffee Shop;Train Station;Bus Line;Fast Food Restaurant
+100822,0,College Academic Building,Ice Cream Shop;Restaurant;American Restaurant;Caf;Food Court
+1402,4,Subway,Tea Room;Mall;Chinese Restaurant;Clothing Store;Boutique
+263258,2,Chinese Restaurant,Caf;Coffee Shop;Asian Restaurant;Furniture / Home Store;Hotel
+101905,0,High School,Mall;Fast Food Restaurant;Bus Station;Multiplex;Coffee Shop
+50042,0,Mall,Subway;Fast Food Restaurant;Trade School;Tea Room;Bus Station
+114600,0,Mall,Department Store;Burger Joint;Food Court;Asian Restaurant;High School
+24615,0,Church,Mall;School;High School;Subway;Fast Food Restaurant
+17745,4,Train Station,Subway;University;Multiplex;Tea Room;Coffee Shop
+4667,4,Mall,Train Station;Subway;Trade School;Bus Station;Department Store
+56325,0,Mall,Subway;Burger Joint;Chinese Restaurant;Asian Restaurant;Flea Market
+95766,2,Mall,Flea Market;Dessert Shop;Caf;Chinese Restaurant;Food Court
+50828,0,Bus Station,Mall;Food Court;Japanese Restaurant;Italian Restaurant;Subway
+11915,4,Bus Station,Mall;Trade School;Train Station;Food Court;College Cafeteria
+15098,0,High School,General Entertainment;Asian Restaurant;Church;Fast Food Restaurant;Mall
+45019,2,Mall,Hotel;General College & University;Department Store;Asian Restaurant;Caf
+159845,0,Coffee Shop,Chinese Restaurant;Japanese Restaurant;Mall;Bus Station;Fast Food Restaurant
+13322,2,Mall,General College & University;Clothing Store;Department Store;Boutique;College Cafeteria
+16135,2,Mall,Subway;Train Station;Bus Station;Flea Market;Multiplex
+201374,0,High School,Bus Station;Chinese Restaurant;Coffee Shop;Fast Food Restaurant
+21033,0,Church,Mall;Coffee Shop;Fried Chicken Joint;Asian Restaurant;Bar
+33690,2,Coffee Shop,Food Court;Hospital;Mall;Chinese Restaurant;Multiplex
+237442,0,Food Court,Hotel;Asian Restaurant;Caf;Mall;Airport Terminal
+121082,0,Mall,Fast Food Restaurant;Seafood Restaurant;Chinese Restaurant;Event Space;Food Court
+26826,2,Chinese Restaurant,Coffee Shop;Sushi Restaurant;Food Court;Fast Food Restaurant;Caf
+9975,0,Mall,Bus Station;High School;Airport;Airport Terminal;Train Station
+248188,0,Bus Station,Mall;Food Court;General College & University;College Cafeteria;Fast Food Restaurant
+123725,0,High School,Mall;Asian Restaurant;Flea Market;Food Court;Subway
+221362,0,Subway,Gym;Train Station;Bus Station;Mall;Fast Food Restaurant
+60881,0,Mall,Subway;Bus Line;Flea Market;Caf;Fast Food Restaurant
+65914,0,Mall,Hospital;Tea Room;Bus Line;Fast Food Restaurant;Flea Market
+104049,0,Mall,Nightclub;Trade School;General Entertainment;Hotel;College Cafeteria
+64150,2,Caf,Chinese Restaurant;Airport Terminal;Dessert Shop;Ramen /  Noodle House;Food Court
+163839,0,Mall,Japanese Restaurant;Seafood Restaurant;Chinese Restaurant;Airport Terminal;Bar
+7050,2,Mall,Coffee Shop;Caf;Airport;Chinese Restaurant;Church
+56334,0,Mall,Train Station;High School;Japanese Restaurant;Subway;Hotel
+141897,0,Mall,Chinese Restaurant;Food Court;Hotel;Japanese Restaurant;Restaurant
+51280,0,Multiplex,General Entertainment;Mall;Subway;Boutique;Hotel
+24468,0,High School,College Cafeteria;Train Station;Bus Line;Mall;Bus Station
+19503,0,Mall,Coffee Shop;Trade School;Fast Food Restaurant;Multiplex;Event Space
+114613,0,Mall,Food Court;Subway;American Restaurant;Coffee Shop;Park
+126532,0,Nightclub,Bar;Fast Food Restaurant
+156033,0,Nightclub,General College & University;Mall;Chinese Restaurant;College Cafeteria;Event Space
+51697,0,Mall,Train Station;Bus Line;Subway;Furniture / Home Store;University
+67113,0,Coffee Shop,General College & University;Fast Food Restaurant;Food Court;High School;Multiplex
+4095,0,Seafood Restaurant,Coffee Shop;General Entertainment;Mall;Asian Restaurant
+11431,2,Mall,Hotel;Fast Food Restaurant;Gym;Clothing Store;Boutique
+227689,0,Train Station,Mall;Subway;Food Court;Coffee Shop;Fast Food Restaurant
+36271,2,Mall,College Cafeteria;General College & University;Tea Room;Burger Joint;Caf
+19261,4,Subway,Bus Line;Trade School;Bus Station;Mall;Church
+95782,0,Mall,Hospital;University;Caf;Hotel;Coffee Shop
+83156,0,University,Mall;Ice Cream Shop;Food Court;Government Building;Japanese Restaurant
+148677,0,General College & University,Mall;Asian Restaurant;Fast Food Restaurant
+37970,0,Tea Room,Mall;Gym;Chinese Restaurant;Church;Fast Food Restaurant
+2768,4,Bus Line,Bus Station;Train Station;Mall;Food Court;Multiplex
+209590,0,Food Court,Mall;Hospital;Japanese Restaurant;Boutique;Clothing Store
+104055,0,Mall,Chinese Restaurant;General College & University;Nightclub;Restaurant;Airport
+77124,2,Nightclub,Mall;Coffee Shop;Multiplex;Food Court;General College & University
+150491,0,Hotel,Caf;College Academic Building;General College & University;Food Court;Fried Chicken Joint
+19044,0,Mall,Coffee Shop;Clothing Store;Boutique;Multiplex;Airport
+172258,0,Church,Mall;Burger Joint;Hotel;Italian Restaurant;Chinese Restaurant
+29651,2,Mall,Tea Room;Multiplex;Bus Station;Department Store;Fast Food Restaurant
+145185,0,Mall,Japanese Restaurant;Caf;General College & University;Hospital;Airport Terminal
+45032,2,Mall,Church;Coffee Shop;Caf;High School;Japanese Restaurant
+108728,0,Mall,American Restaurant;Coffee Shop;Food Court;Nightclub;Caf
+125255,0,Mall,Chinese Restaurant;Coffee Shop;Food Court;Italian Restaurant;Asian Restaurant
+132372,0,Mall,Asian Restaurant;Coffee Shop;Nightclub;Resort;Chinese Restaurant
+16,2,Mall,Nightclub;Multiplex;University;Food Court;High School
+237604,0,High School,Food Court;Fast Food Restaurant;Fried Chicken Joint;Bus Station;Church
+263321,0,Clothing Store,Tea Room;Food Court;Trade School;American Restaurant;Asian Restaurant
+55363,2,Mall,Multiplex;Chinese Restaurant;Japanese Restaurant;Subway;Coffee Shop
+251854,0,Government Building,
+212439,0,Asian Restaurant,Clothing Store;Coffee Shop;Seafood Restaurant
+42943,2,Mall,Hotel;Caf;American Restaurant;Chinese Restaurant;Dessert Shop
+145197,0,Multiplex,Tea Room;Asian Restaurant;Church;Fast Food Restaurant;Grocery Store
+89325,0,Mall,Fast Food Restaurant;Gym;Subway;Bus Line;Chinese Restaurant
+38520,2,Clothing Store,Nightclub;Mall;Chinese Restaurant;Food Court;Caf
+221402,0,Ice Cream Shop,Coffee Shop;Multiplex;Nightclub;American Restaurant;Boutique
+99819,2,Mall,Italian Restaurant;Fast Food Restaurant;Multiplex;Coffee Shop;Asian Restaurant
+12517,2,Train Station,Mall;Subway;Bus Line;Fast Food Restaurant;Chinese Restaurant
+234251,2,Caf,College Academic Building;Dessert Shop;Ramen /  Noodle House;Chinese Restaurant;Furniture / Home Store
+3785,4,Gym,Mall;Grocery Store;Food Court;Train Station;Asian Restaurant
+106370,2,Mall,Japanese Restaurant;Multiplex;Clothing Store;Bar;Coffee Shop
+212239,0,Dessert Shop,Coffee Shop;Caf;General Entertainment;Mall;Multiplex
+174465,0,Mall,Food Court;Event Space;Multiplex;Ramen /  Noodle House;Fast Food Restaurant
+78564,0,Mall,Train Station;Subway;Bus Station;Chinese Restaurant;Flea Market
+186027,0,High School,Chinese Restaurant;Fast Food Restaurant;Mall;Asian Restaurant;Caf
+84093,2,Coffee Shop,Caf;Food Court;Multiplex;Chinese Restaurant;Restaurant
+91098,0,Mall,General College & University;Multiplex;College Cafeteria;Subway;Train Station
+165956,0,Mall,Chinese Restaurant;Coffee Shop;American Restaurant;Airport Terminal;Asian Restaurant
+56351,2,Bar,Mall;Caf;Coffee Shop;Italian Restaurant;American Restaurant
+112206,0,Chinese Restaurant,Japanese Restaurant;Restaurant;Airport Terminal;Ramen /  Noodle House;Airport
+23222,2,Mall,Chinese Restaurant;Church;Japanese Restaurant;Furniture / Home Store;Hotel
+121116,0,Mall,Chinese Restaurant;Japanese Restaurant;Airport Terminal;Department Store;Food Court
+2126,2,Mall,Coffee Shop;Subway;Multiplex;Hotel;Restaurant
+128076,0,Mall,Train Station;Government Building;High School;Fast Food Restaurant;Furniture / Home Store
+10194,2,Mall,Chinese Restaurant;Japanese Restaurant;Multiplex;Asian Restaurant;Dessert Shop
+32251,0,Bus Station,Trade School;Subway;College Cafeteria;College Academic Building;Mall
+138678,0,Mall,Hospital;Bus Station;Fast Food Restaurant;Subway;Ice Cream Shop
+96788,0,Mall,Hotel;Government Building;Subway;Bus Line;Bus Station
+53035,2,Mall,Multiplex;Chinese Restaurant;Food Court;Ice Cream Shop;Nightclub
+51288,0,Clothing Store,General Entertainment;General College & University;College Academic Building;Mall;Event Space
+75741,0,Trade School,College Academic Building;Clothing Store;General College & University;General Entertainment;Italian Restaurant
+64208,0,Mall,Food Court;Subway;Coffee Shop;Government Building;Fast Food Restaurant
+10071,2,Mall,Bus Station;Multiplex;Italian Restaurant;Food Court;Chinese Restaurant
+30892,0,Nightclub,Mall;Coffee Shop;Multiplex;Asian Restaurant;Bus Station
+44677,2,Gym,Mall;Subway;Food Court;Caf;Bar
+37305,0,Subway,Mall;Food Court;Coffee Shop;Train Station;Bus Station
+156078,0,Food Court,Chinese Restaurant;Hotel;Bar;Mall;Asian Restaurant
+26489,0,Mall,General Entertainment;Chinese Restaurant;Subway;Fried Chicken Joint;Boutique
+104079,0,Mall,Multiplex;Fast Food Restaurant;Furniture / Home Store;Chinese Restaurant;Subway
+56896,2,Mall,Food Court;Chinese Restaurant;Grocery Store;Hotel;Multiplex
+54926,2,Church,Japanese Restaurant;Coffee Shop;Asian Restaurant;Mall;Chinese Restaurant
+141931,0,Mall,Subway;Asian Restaurant;General Entertainment;Nightclub;Event Space
+28443,2,Mall,Boutique;Nightclub;Chinese Restaurant;Airport Terminal;Department Store
+150427,2,Chinese Restaurant,Coffee Shop;Japanese Restaurant;Caf;Food Court;Government Building
+248,6,Food Court,Mall;Coffee Shop;Chinese Restaurant;Fast Food Restaurant;Japanese Restaurant
+20504,2,Chinese Restaurant,Church;School;Ramen /  Noodle House;Caf;High School
+53505,2,Mall,Food Court;Fast Food Restaurant;Bus Station;High School;Caf
+255636,0,Church,Mall;Asian Restaurant;Hospital;Food Court;American Restaurant
+54415,0,Bus Station,Bus Line;Mall;Ramen /  Noodle House;Fast Food Restaurant;Fried Chicken Joint
+1410,4,Bus Station,Mall;Train Station;Church;Bus Line;Coffee Shop
+161879,0,High School,Hospital;Mall;Bus Line;Trade School;Fast Food Restaurant
+4860,2,Subway,Mall;Tea Room;Coffee Shop;Ramen /  Noodle House;Bus Station
+54464,0,Mall,University;Church;Subway;Chinese Restaurant;Caf
+24144,2,Mall,Fast Food Restaurant;Caf;Food Court;Chinese Restaurant;Coffee Shop
+74283,2,Church,Mall;Food Court;Ramen /  Noodle House;Train Station;American Restaurant
+170161,2,Food Court,Coffee Shop;Mall;School;Asian Restaurant;Sushi Restaurant
+145229,0,Mall,Hotel;Boutique;Subway;Clothing Store;Asian Restaurant
+150528,2,Mall,Multiplex;Caf;Nightclub;Asian Restaurant;Fast Food Restaurant
+60896,0,Mall,Fried Chicken Joint;Department Store;Event Space;Fast Food Restaurant;General Entertainment
+188471,2,Mall,Ice Cream Shop;Sushi Restaurant;Boutique;Japanese Restaurant;Clothing Store
+59403,2,Mall,Boutique;Caf;College Cafeteria;Japanese Restaurant;Multiplex
+70277,2,Mall,College Academic Building;Nightclub;Bar;Japanese Restaurant;Department Store
+63073,0,Trade School,School;Airport Terminal;Coffee Shop;Event Space;Fast Food Restaurant
+170166,0,Chinese Restaurant,Gym;Multiplex;Hotel;Mall;Dessert Shop
+88356,0,Nightclub,Mall;Subway;Department Store;Seafood Restaurant;Bar
+186055,2,Mall,Chinese Restaurant;Food Court;Furniture / Home Store;Japanese Restaurant;Multiplex
+4400,2,Mall,Chinese Restaurant;Food Court;Nightclub;Train Station;Bus Station
+215458,0,Fried Chicken Joint,Mall;Hotel;Coffee Shop;Asian Restaurant;Boutique
+80836,0,College Academic Building,General College & University;Mall;Food Court;Nightclub;Chinese Restaurant
+100835,2,Ice Cream Shop,Mall;Multiplex;Food Court;Ramen /  Noodle House;Caf
+212484,0,Mall,Chinese Restaurant;General College & University;Food Court;Coffee Shop;Multiplex
+150541,0,Mall,Caf;Chinese Restaurant;Department Store;Fast Food Restaurant;Hotel
+141950,0,Church,Food Court;Fast Food Restaurant;Caf;Mall;Multiplex
+2746,2,Mall,Food Court;Nightclub;Chinese Restaurant;Fast Food Restaurant;Subway
+8173,2,Mall,Department Store;Subway;Tea Room;Food Court;Chinese Restaurant
+125224,0,Mall,Multiplex;Chinese Restaurant;Asian Restaurant;Burger Joint;Event Space
+234307,0,Nightclub,Restaurant;Chinese Restaurant;Hotel;Ice Cream Shop;Caf
+55371,2,Fried Chicken Joint,Coffee Shop;Hotel;Restaurant;Bar;Multiplex
+237691,2,Mall,Caf;Chinese Restaurant;Nightclub;Coffee Shop;Bar
+58434,0,Mall,General College & University;Nightclub;College Academic Building;College Cafeteria;Japanese Restaurant
+157991,0,Gym,Nightclub;Coffee Shop;Mall;Hotel;Burger Joint
+174313,0,Subway,Mall;Burger Joint;Food Court;Hotel;Asian Restaurant
+154286,0,High School,Bus Station;Coffee Shop;Fast Food Restaurant;Food Court;Dessert Shop
+78426,0,Mall,Flea Market;Department Store;Food Court;Hotel;Multiplex
+10672,0,Mall,Airport;Clothing Store;Multiplex;Food Court;Boutique
+231043,0,Mall,Coffee Shop;Bus Station;General Entertainment;Train Station;Airport Terminal
+251944,0,Mall,College Academic Building;Food Court;American Restaurant;Nightclub;Fast Food Restaurant
+146995,0,Mall,Chinese Restaurant;Clothing Store;Food Court;Nightclub;Sushi Restaurant
+241154,0,Bus Station,Train Station;Mall;Airport Terminal;Subway;Caf
+141969,0,Bus Station,Government Building;High School;Subway;Mall;Food Court
+174532,0,Mall,Nightclub;Multiplex;Coffee Shop;College Academic Building;Gym
+27201,2,Hotel,Bar;Food Court;Caf;Mall;Italian Restaurant
+174534,0,Trade School,Nightclub;Chinese Restaurant;Mall;Multiplex;Coffee Shop
+113460,0,Mall,Nightclub;Fast Food Restaurant;Food Court;School;Dessert Shop
+263427,0,Chinese Restaurant,Mall;Japanese Restaurant;Seafood Restaurant;Bar;Food Court
+31561,2,Mall,Fast Food Restaurant;Food Court;Resort;Chinese Restaurant;Event Space
+93919,2,Mall,Coffee Shop;Food Court;College Academic Building;Ice Cream Shop;Ramen /  Noodle House
+13554,2,Mall,Fast Food Restaurant;Department Store;Coffee Shop;Tea Room;General Entertainment
+76462,0,Subway,Bus Line;Mall;Bus Station;Caf;Restaurant
+45041,0,Bus Station,Bus Line;Subway;Grocery Store;Park;Train Station
+98846,0,Nightclub,Multiplex;Hotel;Asian Restaurant;University;Airport Terminal
+22906,2,Airport Terminal,Mall;Coffee Shop;Food Court;Chinese Restaurant;Dessert Shop
+241179,0,Mall,Nightclub;Coffee Shop;Furniture / Home Store;Chinese Restaurant;Japanese Restaurant
+224644,0,Nightclub,Mall;Multiplex;Bar;Chinese Restaurant;Coffee Shop
+94860,0,Nightclub,Bar;Hotel;Fast Food Restaurant;Japanese Restaurant;Bus Line
+67789,2,Bar,Restaurant;Mall;Chinese Restaurant;Hotel;Japanese Restaurant
+51236,2,Mall,Multiplex;Nightclub;Train Station;Chinese Restaurant;Coffee Shop
+109775,0,Mall,Nightclub;Caf;Train Station;Hotel;Restaurant
+41640,2,Mall,Nightclub;Multiplex;Subway;Asian Restaurant;Chinese Restaurant
+34376,0,Nightclub,Mall;Fried Chicken Joint;Chinese Restaurant;Fast Food Restaurant;Hotel
+234374,0,Bar,Mall;Subway;Chinese Restaurant;Food Court;Airport
+147028,0,Mall,Chinese Restaurant;Food Court;Coffee Shop;Subway;Furniture / Home Store
+181371,0,Nightclub,Mall;Bar;Coffee Shop;Food Court;Event Space
+59831,0,Nightclub,Mall;Bar;Food Court;Coffee Shop;Fried Chicken Joint
+4687,4,Bus Line,Mall;Bus Station;Food Court;Coffee Shop;Subway
+8796,2,Mall,Subway;Train Station;Tea Room;Hospital;Burger Joint
+176806,0,Mall,Coffee Shop;Fast Food Restaurant;Japanese Restaurant;Event Space;Food Court
+29462,0,Food Court,Airport Terminal;Mall;Multiplex;Seafood Restaurant;Airport
+44312,0,Mall,Nightclub;Boutique;Bus Station;Subway;Caf
+98887,0,Bus Line,Bus Station;Chinese Restaurant;Fast Food Restaurant;Mall;Food Court
+63113,0,Hotel,Mall;Gym;American Restaurant;Asian Restaurant;Fast Food Restaurant
+212610,0,Mall,Bus Line;Bus Station;Coffee Shop;Event Space;Food Court
+106453,0,Mall,High School;Chinese Restaurant;Hotel;Burger Joint;Airport Terminal
+248418,0,Mall,High School;Bus Station;Fast Food Restaurant;Food Court;General Entertainment
+179128,0,School,Hospital;Fast Food Restaurant;Hotel
+191115,0,Church,High School;Airport Terminal;Mall;Airport;American Restaurant
+154382,0,High School,Mall;Caf;Hotel;Airport;Church
+65412,0,Mall,Bus Station;Food Court;Seafood Restaurant;Asian Restaurant;Bus Line
+134059,0,High School,Mall;Train Station;Subway;Airport Terminal;Asian Restaurant
+36060,2,Subway,Mall;Gym;Bus Line;Church;High School
+135576,0,Mall,Food Court;High School;Sushi Restaurant;Bus Station;Fried Chicken Joint
+31525,2,Mall,Multiplex;Fast Food Restaurant;Chinese Restaurant;High School;Fried Chicken Joint
+47967,0,Mall,Gym;Train Station;Hotel;Subway;Bus Station
+322,2,Subway,Mall;Food Court;Ramen /  Noodle House;Chinese Restaurant;Hotel
+80103,0,School,Mall;Chinese Restaurant;Grocery Store;Train Station;Asian Restaurant
+75686,0,Mall,Furniture / Home Store;Japanese Restaurant;Chinese Restaurant;Church;Food Court
+241143,0,High School,
+41692,2,Bus Station,Mall;Train Station;Food Court;Restaurant;Coffee Shop
+68427,0,Bus Line,Bus Station;Subway;Hospital;Fast Food Restaurant;Food Court
+23237,2,Mall,Food Court;Bus Line;Coffee Shop;Japanese Restaurant;Department Store
+25462,2,Mall,Chinese Restaurant;Dessert Shop;Department Store;Japanese Restaurant;Boutique
+121211,0,High School,Train Station;Mall;Food Court;Resort;Burger Joint
+94759,0,Mall,Church;Bus Line;Seafood Restaurant;Coffee Shop;Department Store
+5607,0,Subway,Mall;Gym;Hotel;Airport;American Restaurant
+8273,2,Mall,Japanese Restaurant;Food Court;Multiplex;Fast Food Restaurant;Airport Terminal
+91183,0,Mall,College Academic Building;Food Court;Japanese Restaurant;Bus Station;Coffee Shop
+121213,2,Ice Cream Shop,Mall;Chinese Restaurant;Nightclub;Coffee Shop;Dessert Shop
+23679,2,Mall,Chinese Restaurant;Coffee Shop;Ramen /  Noodle House;Caf;Food Court
+2317,2,Mall,Subway;Coffee Shop;Train Station;Food Court;Bus Station
+188599,0,Train Station,Mall;High School;Tea Room;Fast Food Restaurant
+59443,0,Bus Station,Trade School;Mall;Train Station;Fast Food Restaurant;Fried Chicken Joint
+204298,0,Mall,Department Store;Italian Restaurant;Tea Room;Bus Station;Food Court
+52170,2,Mall,Subway;Church;Train Station;Food Court;Coffee Shop
+49649,0,Bus Station,Mall;Train Station;Fast Food Restaurant;Restaurant;Bus Line
+172431,2,Japanese Restaurant,Caf;Ramen /  Noodle House;Italian Restaurant;Chinese Restaurant;Coffee Shop
+78571,2,Mall,Coffee Shop;Caf;American Restaurant;Chinese Restaurant;Dessert Shop
+34492,2,Hotel,Coffee Shop;Airport;Chinese Restaurant;Government Building;Italian Restaurant
+128194,0,Bus Station,Mall;High School;Grocery Store;Airport Terminal;Bus Line
+206766,0,Subway,Mall;High School;Burger Joint;Tea Room;Coffee Shop
+132499,0,Caf,Furniture / Home Store;Chinese Restaurant;Mall;Fast Food Restaurant;Grocery Store
+255839,0,Mall,Multiplex;Chinese Restaurant;Fast Food Restaurant;Furniture / Home Store;High School
+201430,0,Mall,Bus Station;Grocery Store;Multiplex;Department Store;Dessert Shop
+204095,0,Mall,Hospital;Caf;Clothing Store;Japanese Restaurant;Burger Joint
+67085,0,Mall,Subway;Fast Food Restaurant;Flea Market;Event Space;Train Station
+181433,0,Mall,Subway;Airport;Airport Terminal;Food Court;Multiplex
+29031,2,Bus Line,Mall;Bus Station;Chinese Restaurant;Food Court;Dessert Shop
+95885,0,Food Court,Mall;Fast Food Restaurant;Bus Station;College Cafeteria;Fried Chicken Joint
+137248,0,Clothing Store,Mall;Fast Food Restaurant;Food Court;Airport;Airport Terminal
+121218,2,Mall,Food Court;Caf;Coffee Shop;Event Space;Asian Restaurant
+1011,4,Subway,Bus Line;Bus Station;Mall;Train Station;Park
+61979,0,Mall,Nightclub;Bus Station;Food Court;Hotel;Train Station
+201609,0,Train Station,University;Airport Terminal;Caf;Bus Station;Coffee Shop
+193663,0,Mall,Coffee Shop;Burger Joint;Chinese Restaurant;General College & University;General Entertainment
+51677,0,College Academic Building,Mall;Bus Station;Chinese Restaurant;Dessert Shop;Fast Food Restaurant
+40340,0,Mall,Train Station;Grocery Store;American Restaurant;Clothing Store;Flea Market
+89399,2,Mall,Subway;Fast Food Restaurant;Tea Room;Caf;Italian Restaurant
+11922,2,Mall,Bus Station;Subway;Flea Market;High School;Caf
+81706,2,Mall,Multiplex;Caf;Resort;Japanese Restaurant;Park
+29055,2,Mall,Fast Food Restaurant;Bar;Nightclub;Caf;Department Store
+9318,2,Mall,Subway;Chinese Restaurant;Food Court;Bus Line;Japanese Restaurant
+23519,2,Mall,Nightclub;Chinese Restaurant;Food Court;Multiplex;Sushi Restaurant
+227953,0,Mall,School;Caf;Nightclub;Dessert Shop;Hotel
+15259,0,High School,Mall;Government Building;Park;Bus Station;Coffee Shop
+196302,0,Mall,Coffee Shop;Food Court;Japanese Restaurant;Train Station;Asian Restaurant
+174642,0,Mall,Caf;Seafood Restaurant;Coffee Shop;Food Court;Boutique
+58923,0,Food Court,Mall;Chinese Restaurant;Department Store;Fast Food Restaurant;Multiplex
+201230,0,Mall,Coffee Shop;Food Court;Hotel;Ramen /  Noodle House;Resort
+101864,0,Mall,American Restaurant;Chinese Restaurant;Fast Food Restaurant;Hotel;Nightclub
+231218,0,Multiplex,Chinese Restaurant;Burger Joint;Caf;Food Court;Asian Restaurant
+140390,0,Caf,Asian Restaurant;Mall;Nightclub;Restaurant;Chinese Restaurant
+163814,0,Mall,Japanese Restaurant;Bar;Dessert Shop;Caf;Chinese Restaurant
+94912,0,Mall,Fast Food Restaurant;Caf;Japanese Restaurant;Coffee Shop;Fried Chicken Joint
+107530,2,Mall,Burger Joint;Food Court;Nightclub;Train Station;Department Store
+37073,0,Mall,Hotel;Airport Terminal;Ice Cream Shop;Fast Food Restaurant;Government Building
+164055,0,Mall,Food Court;Event Space;Ramen /  Noodle House;Airport;Multiplex
+69692,0,Mall,Food Court;Tea Room;Chinese Restaurant;Dessert Shop;Fried Chicken Joint
+150404,0,Mall,General College & University;Japanese Restaurant;Subway;Airport;Asian Restaurant
+64258,2,Caf,Japanese Restaurant;Food Court;Italian Restaurant;Mall;Restaurant
+206976,0,Mall,Hotel;Event Space;Food Court;Furniture / Home Store;Ramen /  Noodle House
+9234,2,Mall,Bus Station;Trade School;Multiplex;Restaurant;Coffee Shop
+74343,0,Mall,Train Station;Food Court;Grocery Store;Flea Market;Fast Food Restaurant
+84995,2,Church,Food Court;Mall;Caf;Chinese Restaurant;Coffee Shop
+154420,0,Ramen /  Noodle House,Boutique;Fast Food Restaurant;Restaurant;Bar;Caf
+23992,2,Mall,Chinese Restaurant;Caf;Coffee Shop;Dessert Shop;Nightclub
+2770,4,Mall,Subway;Bus Station;Dessert Shop;Food Court;Fast Food Restaurant
+37715,0,Subway,Mall;Bus Station;Food Court;Fast Food Restaurant;Grocery Store
+30288,2,Mall,Caf;Food Court;Multiplex;Coffee Shop;Fast Food Restaurant
+241341,0,Mall,Church;Coffee Shop;Bus Line;Park;Resort
+215409,0,Mall,Subway;Coffee Shop;Train Station;Food Court;Airport
+131069,2,Japanese Restaurant,Caf;Mall;Chinese Restaurant;Burger Joint;American Restaurant
+1997,4,Mall,Subway;Food Court;Trade School;Dessert Shop;Fast Food Restaurant
+15681,2,Mall,Nightclub;Multiplex;Food Court;Coffee Shop;Hotel
+186243,0,Mall,Chinese Restaurant;Clothing Store;Dessert Shop;Food Court;Burger Joint
+193368,2,Japanese Restaurant,Chinese Restaurant;Asian Restaurant;Food Court;Mall;Airport Terminal
+44010,2,Restaurant,Coffee Shop;Chinese Restaurant;Ramen /  Noodle House;Food Court;Park
+27362,0,Mall,Subway;Clothing Store;Food Court;Boutique;Chinese Restaurant
+34497,2,Food Court,Mall;Asian Restaurant;Hospital;Chinese Restaurant;Coffee Shop
+73636,0,Mall,General College & University;High School;Multiplex;Airport Terminal;Burger Joint
+37378,2,Gym,Fast Food Restaurant;Fried Chicken Joint;Food Court;Chinese Restaurant;Department Store
+157990,0,Mall,Multiplex;Caf;Chinese Restaurant;Gym;Resort
+209842,0,Mall,Park;Ice Cream Shop;Multiplex;Train Station;Coffee Shop
+111152,2,Mall,Food Court;Chinese Restaurant;Hotel;Airport Terminal;Ramen /  Noodle House
+6147,0,Subway,Mall;Hotel;Food Court;Furniture / Home Store;Fast Food Restaurant
+47295,0,Mall,Trade School;Multiplex;Train Station;Subway;Bus Station
+123988,0,Bus Station,Mall;Fried Chicken Joint;Food Court;Fast Food Restaurant;Restaurant
+224175,0,Coffee Shop,Mall;Bus Station;Fast Food Restaurant;Asian Restaurant;Food Court
+75820,0,Nightclub,Mall;Chinese Restaurant;Multiplex;Food Court;Ramen /  Noodle House
+114754,0,Coffee Shop,Mall;Department Store;Dessert Shop;Food Court;Furniture / Home Store
+168228,2,Mall,Multiplex;Japanese Restaurant;Chinese Restaurant;Food Court;Flea Market
+188354,2,Mall,Food Court;Dessert Shop;Bus Station;College Academic Building;Flea Market
+148889,0,Train Station,Subway;Department Store;Bus Station;Mall;Coffee Shop
+176906,2,Coffee Shop,Ice Cream Shop;Burger Joint;Furniture / Home Store;Caf;Multiplex
+310,4,Mall,Bus Line;Bus Station;Multiplex;Food Court;Event Space
+888,4,Train Station,Church;Subway;Mall;General College & University;Bus Line
+34229,0,Church,Mall;Train Station;High School;Bus Station;Coffee Shop
+130797,0,Subway,Mall;Food Court;General Entertainment;Bus Station;Clothing Store
+23686,2,Mall,Chinese Restaurant;Boutique;Food Court;Department Store;Church
+75704,0,Mall,Flea Market;Japanese Restaurant;Subway;Chinese Restaurant;Dessert Shop
+48070,0,Gym,Bus Station;Coffee Shop;Chinese Restaurant;Mall;Resort
+18246,0,Train Station,Mall;Church;Subway;Bus Station;Chinese Restaurant
+85783,2,Caf,Coffee Shop;Mall;Chinese Restaurant;Nightclub;Fast Food Restaurant
+207010,0,Mall,General Entertainment;Tea Room;Bus Station;Nightclub;Department Store
+2062,0,Mall,Subway;Food Court;Clothing Store;Multiplex;Hotel
+128235,0,Mall,Fried Chicken Joint;Asian Restaurant;Coffee Shop;American Restaurant;Caf
+183893,0,Mall,Asian Restaurant;Bar;Food Court;Chinese Restaurant;Caf
+72908,2,Mall,Multiplex;Ramen /  Noodle House;Chinese Restaurant;Fried Chicken Joint;Japanese Restaurant
+193721,0,Mall,High School;Multiplex;Park;Bus Station;Japanese Restaurant
+10957,0,Mall,Train Station;Bus Station;Airport Terminal;Bus Line;Event Space
+76266,0,Japanese Restaurant,Mall;General Entertainment;Asian Restaurant;Bar;Boutique
+140431,0,Mall,Asian Restaurant;Nightclub;Chinese Restaurant;Multiplex;Bar
+227585,0,Mall,Fast Food Restaurant;Coffee Shop;Food Court;Fried Chicken Joint;Government Building
+162054,0,College Academic Building,Caf;Boutique;Fried Chicken Joint;Restaurant;Tea Room
+56295,0,Mall,Nightclub;Bar;Coffee Shop;Airport;Burger Joint
+53918,2,Mall,Flea Market;Nightclub;Event Space;Train Station;Fried Chicken Joint
+166153,0,Food Court,Dessert Shop;American Restaurant;Mall;Chinese Restaurant;Nightclub
+2252,4,Mall,Subway;Train Station;Ice Cream Shop;Chinese Restaurant;Tea Room
+108848,0,Nightclub,Bar;Food Court;Mall;Chinese Restaurant;Asian Restaurant
+28039,0,Nightclub,Mall;Coffee Shop;Bar;General College & University;Multiplex
+984,4,Mall,Bus Station;Subway;Food Court;Flea Market;Fast Food Restaurant
+38263,0,Mall,Asian Restaurant;Tea Room;Fast Food Restaurant;Hospital;Flea Market
+145403,0,Train Station,Mall;Bus Station;Trade School;Burger Joint;Fast Food Restaurant
+3544,0,Mall,Fast Food Restaurant;Bus Station;Subway;Bus Line;Church
+88495,2,Mall,Food Court;Gym;Multiplex;Asian Restaurant;Church
+24118,0,Mall,Grocery Store;Fast Food Restaurant;Event Space;Subway;Food Court
+215706,2,Mall,American Restaurant;Seafood Restaurant;Ice Cream Shop;Train Station;Burger Joint
+115688,0,Mall,Seafood Restaurant;Furniture / Home Store;Airport;American Restaurant;Event Space
+209891,2,Mall,Multiplex;Chinese Restaurant;Japanese Restaurant;Coffee Shop;Food Court
+20385,2,Chinese Restaurant,Japanese Restaurant;Mall;Airport Terminal;Food Court;Multiplex
+105198,2,Mall,Fast Food Restaurant;Boutique;Caf;Event Space;General College & University
+6845,0,Hotel,College Academic Building;Mall;College Cafeteria;Nightclub;Bus Station
+118605,0,Multiplex,Bar;Hotel;Seafood Restaurant;Italian Restaurant;Park
+228036,0,High School,Fast Food Restaurant;Multiplex;Food Court;Mall;Resort
+44382,2,Mall,Dessert Shop;Japanese Restaurant;Chinese Restaurant;Department Store;Flea Market
+179236,2,Food Court,Multiplex;Caf;Chinese Restaurant;Mall;Nightclub
+98776,2,School,Mall;Japanese Restaurant;Food Court;Grocery Store;Subway
+204187,0,Mall,Department Store;Coffee Shop;Dessert Shop;Chinese Restaurant;Fast Food Restaurant
+12390,0,Mall,Food Court;Fast Food Restaurant;Italian Restaurant;Subway;Bus Station
+28042,0,Trade School,Train Station;College Cafeteria;Mall;Bus Station;Caf
+62004,2,Mall,Gym;Asian Restaurant;Hospital;Multiplex;Flea Market
+195978,0,Government Building,Fried Chicken Joint;Italian Restaurant;Food Court;Multiplex
+45086,2,Nightclub,Chinese Restaurant;Mall;Government Building;Caf;School
+201693,0,Mall,Food Court;Caf;Hotel;Chinese Restaurant;Event Space
+80154,0,Fast Food Restaurant,Mall;Restaurant;Trade School;Event Space;Fried Chicken Joint
+143564,2,Mall,Resort;Airport Terminal;Caf;American Restaurant;Fast Food Restaurant
+191064,0,Mall,Multiplex;Fast Food Restaurant;Bus Station;Government Building;Chinese Restaurant
+188274,0,Nightclub,Mall;Dessert Shop;Food Court;Bar
+122631,2,Japanese Restaurant,Asian Restaurant;Mall;Chinese Restaurant;Food Court;Fast Food Restaurant
+66005,0,Mall,General Entertainment;Ice Cream Shop;Fast Food Restaurant;Clothing Store;Coffee Shop
+4774,2,Caf,Chinese Restaurant;Subway;Mall;Asian Restaurant;Bar
+234595,0,Caf,Mall;Chinese Restaurant;Coffee Shop;Fast Food Restaurant;Multiplex
+122487,0,Mall,Coffee Shop;Caf;General Entertainment;Hotel;Furniture / Home Store
+31380,2,Mall,Fast Food Restaurant;Food Court;Asian Restaurant;Chinese Restaurant;Coffee Shop
+100989,0,Mall,High School;Coffee Shop;Department Store;Gym;Multiplex
+69723,2,Mall,Multiplex;Chinese Restaurant;Hospital;Coffee Shop;Caf
+188703,0,Chinese Restaurant,Mall;Nightclub;High School;Hotel;Bar
+106404,0,Mall,Multiplex;Bus Line;General Entertainment;Seafood Restaurant;Train Station
+121270,0,Mall,Train Station;Chinese Restaurant;Subway;Airport Terminal;Asian Restaurant
+7076,0,Mall,Food Court;Grocery Store;Trade School;Resort;Train Station
+159969,2,Mall,Food Court;Asian Restaurant;Caf;Coffee Shop;Department Store
+255445,0,Nightclub,Mall;Bar;Event Space;Fast Food Restaurant;Food Court
+3606,0,Mall,Food Court;Subway;Department Store;Airport Terminal;Fast Food Restaurant
+18252,0,Mall,Subway;Airport;Dessert Shop;Airport Terminal;Caf
+209888,0,Mall,High School;Bus Station;Food Court;College Academic Building;General College & University
+4264,0,Mall,General Entertainment;Hotel;Fast Food Restaurant;Subway;Department Store
+31511,0,Nightclub,Mall;Bus Station;Flea Market;Hotel;Coffee Shop
+165989,2,Sushi Restaurant,Japanese Restaurant;Italian Restaurant;Caf;Food Court;American Restaurant
+126794,0,Multiplex,Resort;Nightclub;Bar;Caf;Clothing Store
+259818,0,Caf,Food Court;Chinese Restaurant;Coffee Shop;Bar;Asian Restaurant
+145438,0,Nightclub,Chinese Restaurant;Food Court;Mall;Asian Restaurant;Coffee Shop
+89442,2,Chinese Restaurant,Mall;Caf;Hotel;Dessert Shop;Japanese Restaurant
+3172,0,Gym,Mall;Food Court;General Entertainment;Ice Cream Shop
+55918,2,Mall,Japanese Restaurant;Chinese Restaurant;Gym;Subway;Church
+132593,0,Mall,Nightclub;Food Court;Clothing Store;Bus Station;Church
+86754,0,Mall,Multiplex;Bus Station;Burger Joint;Grocery Store;Bus Line
+119932,0,Bus Station,Trade School;Mall;Bus Line;Coffee Shop;Dessert Shop
+53428,2,Chinese Restaurant,Nightclub;Mall;Japanese Restaurant;Multiplex;Asian Restaurant
+24008,2,Mall,Nightclub;Chinese Restaurant;College Academic Building;Food Court;Department Store
+77891,0,Mall,Bus Station;Chinese Restaurant;Food Court;Subway;Coffee Shop
+85872,0,Mall,Subway;Department Store;Caf;Coffee Shop;Fast Food Restaurant
+91238,0,Nightclub,Mall;Bar;Hotel;Airport;Restaurant
+238028,0,Mall,Nightclub;Subway;Fast Food Restaurant;Food Court;Caf
+164172,0,Mall,Nightclub;American Restaurant;Asian Restaurant;Coffee Shop;Event Space
+89315,0,Chinese Restaurant,Coffee Shop;Nightclub;Mall;Asian Restaurant;Train Station
+259878,0,Caf,Asian Restaurant;Nightclub;Chinese Restaurant;Mall;Bar
+47153,2,Nightclub,Chinese Restaurant;Multiplex;Food Court;Mall;Caf
+241565,0,Mall,Subway;Airport Terminal;Asian Restaurant;Caf;Clothing Store
+85890,0,Mall,Caf;Asian Restaurant;Hotel;Boutique;Clothing Store
+160042,0,Mall,Fried Chicken Joint;Fast Food Restaurant;Bus Station;Food Court;Bus Line
+99727,0,Mall,Bus Station;Chinese Restaurant;Food Court;Burger Joint;Department Store
+41303,0,Mall,Church;Food Court;Resort
+86707,2,Mall,Food Court;Nightclub;Fast Food Restaurant;Furniture / Home Store;Multiplex
+174407,0,Church,Gym;Food Court;Dessert Shop;Ice Cream Shop;School
+199131,0,College Academic Building,Mall;Food Court
+22620,0,Subway,Train Station;College Cafeteria;Trade School;Bus Station;Food Court
+147131,0,Mall,Caf;Chinese Restaurant;Church;Dessert Shop;Food Court
+91257,0,Mall,Asian Restaurant;Hotel;Japanese Restaurant;Multiplex;Restaurant
+13826,2,Mall,Church;Airport Terminal;Asian Restaurant;Dessert Shop;Event Space
+55783,0,Hospital,Gym;Multiplex
+212442,0,Japanese Restaurant,American Restaurant;Chinese Restaurant;Restaurant;Church;Dessert Shop
+212858,0,Church,Mall;Dessert Shop;School;Chinese Restaurant;High School
+241598,0,Gym,Fast Food Restaurant;Multiplex;Ice Cream Shop;Mall;Coffee Shop
+22809,0,Bus Station,Mall;Bus Line;Grocery Store;Fast Food Restaurant;Food Court
+207076,0,Mall,Bus Line;General College & University;General Entertainment
+221847,0,Caf,Fast Food Restaurant;Burger Joint;General College & University;American Restaurant;Chinese Restaurant
+263302,0,Mall,Government Building;Event Space;Fast Food Restaurant;High School;School
+74407,2,Mall,Food Court;Coffee Shop;Fast Food Restaurant;Tea Room;Furniture / Home Store
+204504,0,Bus Station,Train Station;Mall;Subway;Hotel;Department Store
+31758,0,Mall,Bus Station;Fast Food Restaurant;Department Store;Subway;Fried Chicken Joint
+138816,0,Bus Station,General College & University;Mall;Bus Line;Asian Restaurant;Fast Food Restaurant
+61491,2,Mall,Department Store;Airport;Chinese Restaurant;Coffee Shop;Caf
+154193,0,Mall,Church;Fast Food Restaurant;Coffee Shop;High School;Caf
+156352,0,Bar,Hotel;Chinese Restaurant;Event Space;Italian Restaurant;Seafood Restaurant
+41716,2,Chinese Restaurant,Mall;Food Court;Ramen /  Noodle House;Asian Restaurant;Coffee Shop
+124075,0,Subway,Mall;Fried Chicken Joint;Food Court;Hospital
+244730,0,Mall,Train Station;Clothing Store;Dessert Shop;Tea Room;Caf
+85064,0,Mall,American Restaurant
+52185,0,Mall,Multiplex;Gym;Asian Restaurant;Boutique;Bar
+234298,0,Mall,Fast Food Restaurant;Restaurant;Food Court;Subway;Train Station
+41416,0,Mall,Coffee Shop;High School;Park;Seafood Restaurant;Grocery Store
+174442,0,Mall,Food Court;Furniture / Home Store;Asian Restaurant;Flea Market;Hospital
+111241,0,Mall,Airport Terminal;Food Court;Department Store;Event Space;Grocery Store
+98971,0,School,Mall;Food Court;Chinese Restaurant;Restaurant;American Restaurant
+146894,2,Mall,Fried Chicken Joint;High School;Sushi Restaurant;Dessert Shop;Caf
+40405,0,Mall,Food Court;Chinese Restaurant;Seafood Restaurant;Coffee Shop;Fast Food Restaurant
+11546,2,Subway,Train Station;Coffee Shop;Caf;Mall;Department Store
+245136,0,Mall,Chinese Restaurant;Seafood Restaurant;Japanese Restaurant;Fast Food Restaurant;Food Court
+11135,2,Mall,Chinese Restaurant;Japanese Restaurant;Coffee Shop;Fast Food Restaurant;Burger Joint
+138926,0,Mall,Asian Restaurant;Bus Station;Chinese Restaurant;Food Court;Fried Chicken Joint
+42300,0,Mall,Subway;Coffee Shop;Boutique;Department Store;Chinese Restaurant
+135827,2,Mall,Coffee Shop;Chinese Restaurant;American Restaurant;Hotel;Multiplex
+19071,2,Mall,Sushi Restaurant;Asian Restaurant;Caf;Japanese Restaurant;Seafood Restaurant
+87514,0,Mall,Burger Joint;Food Court;Asian Restaurant;Chinese Restaurant;Fast Food Restaurant
+179347,2,Chinese Restaurant,Multiplex;Japanese Restaurant;Restaurant;Sushi Restaurant;Asian Restaurant
+241640,0,Food Court,Mall;Japanese Restaurant;Asian Restaurant;Coffee Shop;Airport Terminal
+36087,0,Mall,Multiplex;Church;Bus Line;Food Court;Hotel
+166303,0,Mall,Seafood Restaurant;Airport Terminal;Asian Restaurant;Chinese Restaurant;Event Space
+17272,2,Church,School;Mall;Government Building;Subway;Hotel
+20528,0,Mall,High School;Fast Food Restaurant;Fried Chicken Joint;Tea Room;General Entertainment
+65359,0,Dessert Shop,Subway;Coffee Shop;Food Court;High School;Japanese Restaurant
+84069,0,Mall,Fast Food Restaurant;Flea Market;Food Court;Restaurant;Tea Room
+58342,0,Mall,Bus Station;Clothing Store;Coffee Shop;Fast Food Restaurant;Food Court
+251770,0,Mall,Food Court;Chinese Restaurant;Japanese Restaurant;Boutique;Caf
+10585,0,University,Train Station;Hotel;Mall;Subway;Bus Line
+46062,0,Mall,Airport;Subway;Chinese Restaurant;Coffee Shop;Italian Restaurant
+125515,0,Church,Coffee Shop;Mall;Bus Station;Subway;Grocery Store
+152304,0,Bar,Hotel;Seafood Restaurant;Subway;Food Court;American Restaurant
+116092,0,Mall,Chinese Restaurant;School;Boutique;Department Store;Event Space
+125516,0,Mall,Asian Restaurant;Coffee Shop;Fried Chicken Joint;Department Store;Food Court
+85007,0,Mall,Coffee Shop;Fast Food Restaurant;Caf;Department Store;Food Court
+72738,2,Food Court,Mall;Coffee Shop;Multiplex;Asian Restaurant;Airport Terminal
+158281,0,Mall,Tea Room;Event Space;Fast Food Restaurant;Government Building;Bus Line
+16143,0,Mall,Subway;Italian Restaurant;Caf;Food Court;Airport
+263879,0,Mall,Church;Fast Food Restaurant;Dessert Shop;Multiplex;Chinese Restaurant
+78704,0,Park,Gym;Mall;Bar;Multiplex;Asian Restaurant
+16524,2,Mall,General College & University;Bus Station;Food Court;Chinese Restaurant;College Academic Building
+193901,0,Mall,Asian Restaurant;Hospital;American Restaurant;Department Store;Food Court
+46881,0,Mall,Subway;Airport;Bus Station;Food Court;Airport Terminal
+29890,0,General College & University,Mall;College Academic Building;Train Station;College Cafeteria;Subway
+160232,0,Subway,Hotel;Mall;Nightclub;Bus Station;Resort
+256183,2,Chinese Restaurant,Japanese Restaurant;Mall;Multiplex;American Restaurant;Bar
+107741,2,Japanese Restaurant,General Entertainment;Caf;Coffee Shop;Ramen /  Noodle House;Mall
+181559,0,Bus Line,High School;Mall;Multiplex;Chinese Restaurant;Coffee Shop
+1495,0,Mall,Subway;Flea Market;Chinese Restaurant;Bus Line;Hotel
+224842,0,Church,Chinese Restaurant;Caf;Park;Furniture / Home Store;Boutique
+74946,0,Mall,Caf;Event Space;Food Court;Hotel;American Restaurant
+221440,0,Government Building,Food Court;Asian Restaurant;Mall
+157873,0,Mall,Flea Market;Subway;Food Court;Resort;Restaurant
+170494,2,Fast Food Restaurant,Mall;Multiplex;American Restaurant;Asian Restaurant;Food Court
+218768,0,Mall,Coffee Shop;Restaurant;Asian Restaurant;Tea Room;Chinese Restaurant
+48098,0,Mall,Food Court;Coffee Shop;Church;Bus Line;Burger Joint
+16045,2,Mall,Food Court;Boutique;Subway;Park;Bus Station
+53601,0,Mall,Fast Food Restaurant;Fried Chicken Joint;Hospital;School;Boutique
+7659,2,Church,Mall;Subway;Fast Food Restaurant;Restaurant;Train Station
+59931,0,School,Mall;Chinese Restaurant;Asian Restaurant;Fried Chicken Joint;Japanese Restaurant
+53057,0,Subway,Train Station;Food Court;Bus Station;General Entertainment;Government Building
+188795,0,Mall,Subway;Flea Market;Chinese Restaurant;Food Court;Boutique
+184060,2,Mall,Ramen /  Noodle House;Seafood Restaurant;Japanese Restaurant;Chinese Restaurant;Nightclub
+17488,2,Mall,Subway;Bus Station;Coffee Shop;Airport;Department Store
+112098,0,Mall,Government Building;Chinese Restaurant;Hotel;Nightclub;Ramen /  Noodle House
+46106,0,Mall,Coffee Shop;Food Court;Bus Station;Fried Chicken Joint;Park
+114855,2,Coffee Shop,Mall;Caf;Food Court;Government Building;Hospital
+50849,0,High School,Mall;Caf;Fast Food Restaurant;Burger Joint;Fried Chicken Joint
+67045,0,Mall,Food Court;Event Space;Chinese Restaurant;Coffee Shop;Bus Line
+215871,0,Chinese Restaurant,Restaurant;American Restaurant;Coffee Shop;Hotel;Ice Cream Shop
+148763,0,Mall,Coffee Shop;Food Court;Hotel;American Restaurant;Chinese Restaurant
+11061,0,Mall,Subway;Fast Food Restaurant;Food Court;Hotel;Airport
+72947,0,Mall,Food Court;Fast Food Restaurant;Event Space;School;Asian Restaurant
+45424,0,High School,Church;School;Food Court;Mall;Dessert Shop
+170401,0,College Cafeteria,High School;Mall;Bus Station;Food Court;Airport
+4068,4,Bus Station,Bus Line;Subway;Food Court;Train Station;Mall
+244459,0,Caf,General College & University;Event Space;Hotel;Resort;Airport
+154566,2,Mall,Asian Restaurant;Chinese Restaurant;Coffee Shop;Food Court;Caf
+78593,0,Subway,Trade School;Mall;Fast Food Restaurant;Gym;Bus Station
+121338,2,Mall,Bar;Caf;Food Court;Resort;American Restaurant
+117331,0,Train Station,Mall;Subway;Food Court;Bus Station;Coffee Shop
+174836,0,Mall,Subway;Asian Restaurant;General Entertainment;Fast Food Restaurant;Food Court
+27976,0,Train Station,Church;Subway;Mall;Bus Line;Bus Station
+46509,2,Food Court,Mall;Coffee Shop;Chinese Restaurant;Japanese Restaurant;Asian Restaurant
+43932,0,Mall,Subway;Flea Market;Coffee Shop;Train Station;Park
+21990,0,Mall,Subway;Train Station;Boutique;Fast Food Restaurant;Government Building
+36853,0,Mall,Subway;Bus Station;Train Station;Fast Food Restaurant;Food Court
+48933,2,Mall,Gym;Asian Restaurant;Grocery Store;Chinese Restaurant;General Entertainment
+57367,0,Hospital,Mall;Japanese Restaurant;Airport Terminal;Multiplex;Seafood Restaurant
+128238,0,General Entertainment,Mall;Coffee Shop;Subway;Ice Cream Shop;Japanese Restaurant
+4041,2,Furniture / Home Store,Asian Restaurant;Mall;Chinese Restaurant;Hotel;Food Court
+159859,0,Bus Station,Event Space;Resort;Fast Food Restaurant;Food Court;Mall
+157944,0,Mall,Nightclub;Department Store;Fast Food Restaurant;Food Court;Hospital
+263575,0,Mall,Hotel;Multiplex;Chinese Restaurant;Food Court;Ramen /  Noodle House
+91021,0,Mall,Airport Terminal;Asian Restaurant;Burger Joint;Bus Station;Hospital
+156235,0,Mall,Multiplex;School;Bus Line;Bus Station;Church
+34417,0,Mall,Train Station;General Entertainment;Fast Food Restaurant;Clothing Store;Food Court
+256220,0,Mall,Coffee Shop;Department Store;Dessert Shop;Furniture / Home Store;High School
+138849,0,Chinese Restaurant,Furniture / Home Store;Asian Restaurant;Japanese Restaurant;Airport Terminal;Event Space
+55462,0,Subway,Mall;Train Station;Bar;Bus Station;Restaurant
+193935,2,Chinese Restaurant,Restaurant;Caf;Dessert Shop;Multiplex;Japanese Restaurant
+215831,0,Mall,College Cafeteria;General College & University;Coffee Shop;Hospital;Chinese Restaurant
+210119,0,Food Court,Italian Restaurant;University;Hotel;Ice Cream Shop;Multiplex
+140551,0,Mall,Event Space;Boutique;Fast Food Restaurant;Coffee Shop;Furniture / Home Store
+51305,2,Mall,American Restaurant;Gym;Hotel;Multiplex;Sushi Restaurant
+68453,0,Mall,High School;Bus Line;Bus Station;Fast Food Restaurant;Flea Market
+135852,0,Mall,Chinese Restaurant;Park;Food Court;Nightclub;Resort
+199195,0,Caf,Mall;Restaurant;Coffee Shop;Ice Cream Shop;Subway
+120026,0,Hospital,Mall;Airport Terminal;Bus Station;Fried Chicken Joint;Fast Food Restaurant
+13173,0,Mall,Church;Multiplex;Chinese Restaurant;Dessert Shop;Subway
+179388,0,Mall,Clothing Store;Nightclub;Caf;Fast Food Restaurant;Park
+110087,0,Mall,Food Court;Chinese Restaurant;Hotel;Seafood Restaurant;Caf
+207233,0,College Academic Building,Mall;Food Court
+6305,4,Mall,High School;Train Station;Bus Line;Bus Station;Fast Food Restaurant
+43891,0,Airport,
+32094,2,Mall,Food Court;Caf;Department Store;General Entertainment;Coffee Shop
+119916,0,Mall,Chinese Restaurant;Airport;Burger Joint;Italian Restaurant;Japanese Restaurant
+140557,0,Mall,Subway;Bus Station;Flea Market;Fast Food Restaurant;Seafood Restaurant
+228249,0,Hotel,Chinese Restaurant;Asian Restaurant;Tea Room;Nightclub;Ramen /  Noodle House
+11655,0,Train Station,Mall;Subway;Boutique;Clothing Store;Food Court
+121168,0,Mall,Food Court;College Academic Building;University;Asian Restaurant;Caf
+2736,4,Subway,Food Court;Train Station;Mall;Gym;Grocery Store
+234163,0,Coffee Shop,Food Court;Hospital;Event Space;Fast Food Restaurant;Multiplex
+161989,0,High School,Mall;Church;Caf;Dessert Shop;General Entertainment
+12934,0,Train Station,Mall;Bus Line;Subway;Trade School;American Restaurant
+113421,0,Mall,Bus Station;Train Station;University;Fast Food Restaurant;Resort
+164312,2,Mall,Ice Cream Shop;Clothing Store;Ramen /  Noodle House;Coffee Shop;Department Store
+39191,2,Food Court,Chinese Restaurant;Bus Station;Mall;Train Station;Fried Chicken Joint
+14139,0,Subway,Mall;Food Court;Train Station;Airport;Park
+58006,2,Mall,College Academic Building;Food Court;Chinese Restaurant;Multiplex;Coffee Shop
+42375,0,Mall,Nightclub;Bus Station;Bus Line;Hotel;Resort
+126928,0,Mall,Food Court;Chinese Restaurant;Multiplex;Resort;Asian Restaurant
+99807,0,Mall,Flea Market;Sushi Restaurant;Chinese Restaurant;Nightclub;Boutique
+210163,0,High School,Mall;Asian Restaurant;Chinese Restaurant;Coffee Shop;Hospital
+201901,0,Mall,University;Gym;Chinese Restaurant;Furniture / Home Store;Asian Restaurant
+212933,0,Mall,School;Subway;Airport Terminal;Grocery Store;Church
+142250,0,Mall,General College & University;College Academic Building;Japanese Restaurant;Furniture / Home Store;Asian Restaurant
+221305,0,Mall,Park;Church;Chinese Restaurant;Seafood Restaurant;Coffee Shop
+152473,0,Mall,Trade School;Train Station;Event Space;Nightclub;Coffee Shop
+150406,0,Mall,Airport Terminal;Food Court;Ice Cream Shop;Burger Joint;Church
+174870,2,Ice Cream Shop,American Restaurant;Caf;Coffee Shop;Sushi Restaurant;Bar
+65349,2,Airport,Food Court;Japanese Restaurant;Coffee Shop;Multiplex;Sushi Restaurant
+39397,0,Mall,Coffee Shop;Government Building;Multiplex;Bus Station;Fast Food Restaurant
+188256,0,Mall,Coffee Shop;Bar;Grocery Store;Hospital;School
+196565,0,Gym,Japanese Restaurant;Coffee Shop;Restaurant;Asian Restaurant;Caf
+204615,0,Mall,Food Court;Nightclub;Bus Station;Fried Chicken Joint;Subway
+67265,2,Mall,Italian Restaurant;Multiplex;Tea Room;Chinese Restaurant;Sushi Restaurant
+218206,0,University,Airport;Fast Food Restaurant;Hospital;Resort
+53624,0,Mall,Bus Station;University;Coffee Shop;Multiplex;Airport
+63734,0,Trade School,Bus Station;Mall;College Cafeteria;Event Space;Grocery Store
+179429,0,Mall,Chinese Restaurant;Hotel;Bar;Multiplex;Burger Joint
+72791,2,Food Court,Chinese Restaurant;Fast Food Restaurant;Grocery Store;Multiplex;Restaurant
+62409,0,University,Subway;Chinese Restaurant;Mall;Caf;Dessert Shop
+137464,0,Mall,Church;Coffee Shop;Fast Food Restaurant;Chinese Restaurant;Grocery Store
+70133,0,College Cafeteria,General College & University;Mall;Food Court;Coffee Shop;Gym
+143888,0,Mall,Coffee Shop;Caf;Subway;Department Store;Japanese Restaurant
+174879,0,Mall,Flea Market;Furniture / Home Store;General College & University;Multiplex;Caf
+61928,2,Food Court,Mall;Multiplex;Caf;Chinese Restaurant;Seafood Restaurant
+252556,0,Seafood Restaurant,Italian Restaurant;Bar;Burger Joint;General Entertainment;Mall
+179441,0,Nightclub,College Academic Building;Mall;Food Court;Multiplex;Bar
+140609,0,Mall,Food Court;Coffee Shop;Fast Food Restaurant;High School;Bus Station
+245270,0,Mall,Coffee Shop;Multiplex;Bar;Hotel;Ice Cream Shop
+51792,0,Mall,Seafood Restaurant;Chinese Restaurant;Coffee Shop;Bus Station;Furniture / Home Store
+180961,0,Chinese Restaurant,Food Court;Coffee Shop;Japanese Restaurant;Mall;Nightclub
+80240,0,Bus Station,High School;Train Station;Mall;College Cafeteria;Coffee Shop
+85101,2,Chinese Restaurant,Airport;Caf;Asian Restaurant;Mall;Resort
+172378,0,High School,College Cafeteria;Mall
+185841,0,Mall,General College & University;High School;Fried Chicken Joint;Ice Cream Shop;Italian Restaurant
+59952,0,Trade School,Subway;Airport Terminal;Department Store;Fast Food Restaurant;Multiplex
+238295,0,Mall,Airport;American Restaurant;Asian Restaurant;Coffee Shop;Japanese Restaurant
+14174,4,Bus Station,Train Station;Subway;Mall;Trade School;Food Court
+126674,0,Mall,High School;Hotel;Sushi Restaurant;Bar;Department Store
+199279,0,Trade School,Mall;Food Court;American Restaurant;Fried Chicken Joint;Italian Restaurant
+101081,0,College Academic Building,Mall;General College & University;Food Court;American Restaurant;Asian Restaurant
+149113,0,General College & University,College Cafeteria;Train Station;College Academic Building;Bus Line;Food Court
+30313,0,Bus Station,Trade School;Mall;Subway;Food Court;Tea Room
+156452,2,Mall,Japanese Restaurant;Sushi Restaurant;Chinese Restaurant;Train Station;Clothing Store
+93959,0,Mall,Multiplex;Ramen /  Noodle House;Burger Joint;Fried Chicken Joint;Italian Restaurant
+174756,0,Trade School,Mall
+132207,0,Caf,Nightclub;Mall;Hotel;Coffee Shop;Bar
+237665,0,Government Building,Event Space;Resort;Asian Restaurant;Chinese Restaurant;Mall
+75866,0,University,Mall;Nightclub;Hotel;Bus Station;Coffee Shop
+90407,0,High School,Bus Station;Mall;Boutique;Coffee Shop;Sushi Restaurant
+143461,0,Bus Station,Trade School;Tea Room;Coffee Shop;Event Space;Italian Restaurant
+13323,0,Mall,General Entertainment;Boutique;Clothing Store;Department Store;Flea Market
+210217,0,Mall,Food Court;Chinese Restaurant;Ice Cream Shop;Caf;General Entertainment
+47727,2,Train Station,Mall;Caf;University;Subway;Flea Market
+105475,0,General Entertainment,University;Fast Food Restaurant;Mall;Multiplex;Burger Joint
+89526,0,Bus Station,Bus Line;Mall;Food Court;Subway;Fast Food Restaurant
+40774,2,Mall,Food Court;Dessert Shop;Asian Restaurant;Fried Chicken Joint;Chinese Restaurant
+154310,0,Mall,General Entertainment;Bar;Caf;Japanese Restaurant;American Restaurant
+142283,0,Church,Food Court;Mall;Subway;Caf;Chinese Restaurant
+14852,0,Mall,High School;College Cafeteria;Coffee Shop;Department Store;Subway
+201784,0,Mall,Chinese Restaurant;Bar;Caf;Coffee Shop;Furniture / Home Store
+179397,0,Food Court,Mall;University;Coffee Shop;Bus Station;Hotel
+30720,0,Mall,Train Station;Subway;Trade School;Bus Station;Fast Food Restaurant
+40775,2,Bus Station,Mall;Fast Food Restaurant;Food Court;Coffee Shop;High School
+11195,2,Mall,Multiplex;Chinese Restaurant;Coffee Shop;Hospital;Clothing Store
+91194,2,Mall,Coffee Shop;Japanese Restaurant;Fast Food Restaurant;General College & University;Multiplex
+162282,0,Mall,Burger Joint;American Restaurant;Food Court;Hotel;Italian Restaurant
+248440,0,Mall,Asian Restaurant;Chinese Restaurant;Japanese Restaurant;Food Court;Furniture / Home Store
+231609,0,General College & University,College Academic Building;College Cafeteria;Food Court;Coffee Shop;Fast Food Restaurant
+16621,0,Bus Station,Mall;Fast Food Restaurant;Trade School;Coffee Shop;College Cafeteria
+18823,2,Mall,Train Station;Bus Station;Coffee Shop;Food Court;Multiplex
+241828,0,Restaurant,Mall;Food Court;General Entertainment;Subway;Bar
+31774,0,Subway,Mall;Japanese Restaurant;Bus Line;Bus Station;Ramen /  Noodle House
+154158,0,Mall,Clothing Store;Japanese Restaurant;Food Court;Boutique;Coffee Shop
+62621,2,Mall,Chinese Restaurant;Multiplex;Restaurant;University;Bar
+18733,0,Mall,Flea Market;Nightclub;Subway;Boutique;Burger Joint
+179335,2,Mall,Chinese Restaurant;Caf;Japanese Restaurant;Boutique;Airport Terminal
+19522,0,Mall,Clothing Store;General College & University;Boutique;Burger Joint;Caf
+80219,2,Chinese Restaurant,Japanese Restaurant;Mall;Sushi Restaurant;Food Court;Restaurant
+67874,0,Fast Food Restaurant,Mall;Coffee Shop;Italian Restaurant;American Restaurant;Bar
+5427,0,Mall,Multiplex;Bus Station;Boutique;Chinese Restaurant;Coffee Shop
+800,2,Mall,Subway;Food Court;Japanese Restaurant;Train Station;Bus Station
+66067,0,Bus Station,Event Space;Grocery Store;Mall;Food Court;Train Station
+264102,0,Italian Restaurant,Caf;Coffee Shop;Bus Line;Food Court;Fried Chicken Joint
+110150,0,Mall,American Restaurant;Multiplex;Tea Room;Asian Restaurant;Chinese Restaurant
+156472,0,Mall,Food Court;Bus Station;Coffee Shop;Dessert Shop;High School
+63664,0,High School,Mall;School;College Academic Building;Bus Station;Hospital
+68446,0,Hospital,Bar;University;Coffee Shop;Food Court;Government Building
+125172,0,Mall,Caf;Coffee Shop;Hotel;Italian Restaurant;Airport
+259218,0,Mall,General College & University;Asian Restaurant;Department Store;Event Space;Multiplex
+245177,2,Multiplex,Ramen /  Noodle House;Chinese Restaurant;Dessert Shop;Food Court;American Restaurant
+145604,0,Mall,Chinese Restaurant;Food Court;Bus Station;Flea Market;Sushi Restaurant
+44271,0,Nightclub,Mall;Chinese Restaurant;Multiplex;Dessert Shop;Subway
+164380,0,Government Building,Mall;Department Store;Hotel;Bus Station;Nightclub
+102137,0,Mall,Food Court;Restaurant;Asian Restaurant;Multiplex;Chinese Restaurant
+139020,0,Church,School;High School;Airport Terminal;Mall;Trade School
+260177,0,Hotel,Asian Restaurant;General College & University;Chinese Restaurant;Japanese Restaurant;Ramen /  Noodle House
+48415,0,Mall,Grocery Store;Caf;Chinese Restaurant;Airport Terminal;Dessert Shop
+135491,0,Restaurant,Food Court;Bar;Boutique;Caf;Coffee Shop
+114740,0,Food Court,Mall;Asian Restaurant;Bus Station;Clothing Store;Coffee Shop
+95038,0,Mall,Fried Chicken Joint;General Entertainment;Flea Market;Train Station;Asian Restaurant
+77773,0,Mall,Nightclub;Subway;Chinese Restaurant;Fried Chicken Joint;Train Station
+212899,0,Mall,Coffee Shop;Fast Food Restaurant;Government Building;American Restaurant;Chinese Restaurant
+212913,0,Subway,Trade School;Bus Station;Sushi Restaurant;Fast Food Restaurant;Mall
+142110,0,Mall,Grocery Store;Train Station;Coffee Shop;Government Building;High School
+47349,2,Hotel,Mall;Chinese Restaurant;Caf;Nightclub;Restaurant
+57001,0,Trade School,Bus Station;Train Station;Mall;Fast Food Restaurant;Bus Line
+59856,0,Mall,Boutique;Flea Market;Bar;Hospital;Ramen /  Noodle House
+59018,0,Fast Food Restaurant,Airport Terminal;Airport;Burger Joint;Bus Line;Food Court
+41738,0,High School,College Cafeteria;Church;Mall;Fast Food Restaurant;Coffee Shop
+44035,0,Mall,Food Court;Trade School;Burger Joint;Caf;Fast Food Restaurant
+249015,0,Mall,Coffee Shop;Food Court;Train Station;School;Bus Station
+193664,0,Mall,Caf;Church;Food Court;Bus Station;Coffee Shop
+48380,0,Mall,Coffee Shop;Asian Restaurant;Fast Food Restaurant;Grocery Store;Ice Cream Shop
+260238,0,Food Court,Asian Restaurant;Japanese Restaurant;Fast Food Restaurant;Mall;Multiplex
+67281,0,Bus Station,Mall;Boutique;Food Court;Fried Chicken Joint;School
+77191,2,Food Court,Asian Restaurant;Burger Joint;Coffee Shop;Japanese Restaurant;Ramen /  Noodle House
+216053,0,Coffee Shop,Mall;Asian Restaurant;Chinese Restaurant;Japanese Restaurant;Ramen /  Noodle House
+142319,0,Bar,Multiplex;Japanese Restaurant;Seafood Restaurant;Caf;Chinese Restaurant
+252664,2,Japanese Restaurant,Mall;Caf;Chinese Restaurant;Burger Joint;Coffee Shop
+259687,0,Mall,Food Court;Furniture / Home Store;Government Building;Multiplex;Asian Restaurant
+58421,0,Mall,Grocery Store;Fast Food Restaurant;Seafood Restaurant;Airport;Asian Restaurant
+100081,0,Mall,Nightclub;Chinese Restaurant;Coffee Shop;Italian Restaurant;Bar
+23635,0,Train Station,Mall;Coffee Shop;Food Court;Fast Food Restaurant;Restaurant
+26131,0,Mall,Chinese Restaurant;Grocery Store;Multiplex
+105493,0,Mall,General Entertainment;Hotel;School;American Restaurant;General College & University
+99041,0,Mall,Fast Food Restaurant;Fried Chicken Joint;Multiplex;Subway;Dessert Shop
+27836,0,Bus Station,Trade School;Train Station;Park;Airport Terminal;Mall
+50041,2,Caf,Subway;Mall;Furniture / Home Store;Bus Station;Restaurant
+204520,0,Mall,Multiplex;Grocery Store;Hospital;Boutique;Dessert Shop
+64278,2,Caf,Mall;Chinese Restaurant;Coffee Shop;Bar;Boutique
+196319,0,Mall,Flea Market;Food Court;Multiplex;Nightclub;Chinese Restaurant
+68293,0,University,Bus Line;Mall;Caf;Restaurant;American Restaurant
+150932,0,Bus Station,School;Bus Line;Food Court;Fried Chicken Joint;Mall
+13547,0,Mall,Hospital;American Restaurant;Fast Food Restaurant;Food Court;Furniture / Home Store
+213103,0,Airport Terminal,Coffee Shop;College Academic Building;Sushi Restaurant;Food Court;Ice Cream Shop
+20682,2,Mall,Flea Market;Chinese Restaurant;Dessert Shop;Coffee Shop;Department Store
+162212,0,Hotel,General College & University;Seafood Restaurant;Church;Mall;Department Store
+50570,0,Mall,Subway;Bus Station;Coffee Shop;Seafood Restaurant;Airport Terminal
+172443,0,Bus Line,Mall;Asian Restaurant;Food Court;Bar;Dessert Shop
+72289,0,Mall,Bar;Chinese Restaurant;Coffee Shop;Food Court;Flea Market
+193511,0,Nightclub,Ramen /  Noodle House;Asian Restaurant;Bar;Caf
+47626,2,Chinese Restaurant,Italian Restaurant;Japanese Restaurant;Hotel;Restaurant;Food Court
+210292,0,Airport Terminal,Bus Station;Coffee Shop;General Entertainment
+78479,0,Bus Station,Government Building;Train Station;Caf;Event Space;Food Court
+107828,0,School,Mall;Seafood Restaurant;Train Station;Multiplex;Airport Terminal
+181822,0,Chinese Restaurant,Seafood Restaurant;Coffee Shop;Hospital;Hotel;Asian Restaurant
+238389,0,Gym,Caf;Nightclub;Boutique;Restaurant;Government Building
+8253,0,Bus Station,Mall;Subway;Bus Line;High School;Hospital
+152374,0,Mall,Hospital;Multiplex;Italian Restaurant;Event Space;Japanese Restaurant
+62076,2,Asian Restaurant,Caf;Japanese Restaurant;Chinese Restaurant;Airport;Dessert Shop
+156521,0,Mall,Italian Restaurant;Multiplex;Coffee Shop;Flea Market;Hotel
+122616,0,Mall,Airport;Japanese Restaurant;Subway;Department Store;Park
+218421,0,Mall,Chinese Restaurant;Restaurant;Airport Terminal;Burger Joint;Food Court
+221896,0,Grocery Store,Bus Station;Food Court;Coffee Shop;Fast Food Restaurant;Asian Restaurant
+57517,0,Mall,Food Court;Nightclub;Coffee Shop;Flea Market;Furniture / Home Store
+43668,0,Fast Food Restaurant,Subway;Bus Station;Department Store;Mall;Airport Terminal
+13409,0,Clothing Store,Mall;Food Court;Bus Station;Flea Market;Park
+83197,0,Food Court,Mall;Airport Terminal;Subway;Airport;Asian Restaurant
+86730,0,Food Court,Mall;Coffee Shop;Airport Terminal;Subway;Train Station
+42025,0,Mall,University;Multiplex;Nightclub;Burger Joint;Chinese Restaurant
+105413,0,Nightclub,Subway;Asian Restaurant;Burger Joint;Hotel;Multiplex
+212595,0,Food Court,Resort;Seafood Restaurant;American Restaurant;Coffee Shop;Mall
+122431,0,General Entertainment,Coffee Shop;General College & University;University;Mall;Tea Room
+98033,0,Mall,Coffee Shop;Food Court;Chinese Restaurant;Flea Market;Nightclub
+252729,0,Church,Multiplex;Restaurant;American Restaurant;Mall;Coffee Shop
+150926,0,Mall,Bus Station;Food Court;Multiplex;Event Space;Fast Food Restaurant
+225281,0,Bus Line,Bus Station;Subway;Train Station;Fast Food Restaurant;Food Court
+39182,0,Subway,Mall;Nightclub;Fast Food Restaurant;Food Court;Coffee Shop
+25478,2,Mall,Food Court;Asian Restaurant;Restaurant;Chinese Restaurant;Bus Station
+196661,0,Subway,Train Station;Bus Station;High School;Boutique;Clothing Store
+95058,2,Mall,Department Store;Furniture / Home Store;Clothing Store;Boutique;Coffee Shop
+111347,2,Mall,Dessert Shop;Multiplex;Chinese Restaurant;General Entertainment;Japanese Restaurant
+209574,0,Mall,Airport Terminal;Fast Food Restaurant;Food Court;Chinese Restaurant;Grocery Store
+244922,2,Mall,Food Court;Chinese Restaurant;Bar;Ramen /  Noodle House;American Restaurant
+150957,0,Mall,Food Court;Coffee Shop;Fast Food Restaurant;Fried Chicken Joint;Japanese Restaurant
+202028,0,High School,Hospital;Fast Food Restaurant;Coffee Shop;Mall;Airport Terminal
+113557,0,Mall,Park;Gym
+122764,2,Mall,Chinese Restaurant;Sushi Restaurant;Coffee Shop;Food Court;Multiplex
+40776,0,Train Station,Mall;General College & University;Chinese Restaurant;Fast Food Restaurant;American Restaurant
+174983,0,Mall,Food Court;Multiplex;Church;Fast Food Restaurant;Flea Market
+221876,0,Mall,Sushi Restaurant;Coffee Shop;Chinese Restaurant;Gym;Japanese Restaurant
+90256,0,Mall,Chinese Restaurant;Boutique;Coffee Shop;Japanese Restaurant;Nightclub
+199386,2,Sushi Restaurant,Dessert Shop;Mall;Restaurant;Ramen /  Noodle House;University
+86739,0,Mall,Subway;Food Court;Fast Food Restaurant;Grocery Store;Multiplex
+24323,0,Mall,Subway;Train Station;Bus Station;Fast Food Restaurant;Asian Restaurant
+105512,0,Mall,Clothing Store;Chinese Restaurant;Department Store;Caf;Hotel
+139083,0,High School,Mall;Food Court;American Restaurant;Burger Joint;Asian Restaurant
+70438,0,Bus Station,Bus Line;Mall;Trade School;Asian Restaurant;Food Court
+28891,2,Bus Station,Mall;Burger Joint;High School;Subway;Bus Line
+118695,0,Trade School,Bus Station;Mall;College Academic Building;Train Station;College Cafeteria
+45021,4,Train Station,Subway;Mall;Food Court;Bus Line;Burger Joint
+89553,0,Trade School,Train Station;College Academic Building;College Cafeteria;Subway;Mall
+2877,2,Mall,Hotel;Bus Station;Food Court;Caf;General College & University
+184272,0,Asian Restaurant,Japanese Restaurant;Caf;Coffee Shop;Furniture / Home Store;Hospital
+224598,0,College Academic Building,General College & University;Government Building;Hotel;Nightclub;Tea Room
+107485,0,Mall,Food Court;Fast Food Restaurant;Hospital;Bar;Dessert Shop
+31623,2,Mall,High School;Fast Food Restaurant;Bus Station;Coffee Shop;Food Court
+260347,0,Trade School,Mall;Fast Food Restaurant;Subway;Bus Station;Fried Chicken Joint
+76631,0,Caf,Trade School;Bar;College Cafeteria;Tea Room;Mall
+53658,0,Mall,Department Store;Clothing Store;General College & University;Flea Market;Hotel
+238460,0,Nightclub,Mall
+185906,0,Bus Station,Bus Line;Mall;Train Station;Clothing Store;Airport
+10474,0,Mall,Japanese Restaurant;Flea Market;Bus Station;Burger Joint;Food Court
+209386,0,Church,Mall;Coffee Shop;Food Court;Italian Restaurant;Japanese Restaurant
+212882,0,Mall,Coffee Shop;Subway;Hotel;General Entertainment;Multiplex
+170699,0,Bus Station,Mall;College Academic Building;General College & University;Subway;Chinese Restaurant
+248210,0,Mall,Resort;Boutique;Caf;Chinese Restaurant;Coffee Shop
+142258,0,Mall,High School;Boutique;Clothing Store;Airport Terminal;Event Space
+41081,2,Mall,Train Station;Japanese Restaurant;Fast Food Restaurant;Asian Restaurant;Multiplex
+48954,0,Mall,Trade School;Subway;Chinese Restaurant;Food Court;Government Building
+164225,0,Mall,Coffee Shop;High School;Subway;Fast Food Restaurant;Burger Joint
+240964,0,Mall,Asian Restaurant;American Restaurant;Food Court;Restaurant;Department Store
+174478,0,Mall,Subway;Airport Terminal;Caf;Food Court;Fried Chicken Joint
+60380,0,Subway,Mall;Bus Line;Bus Station;Tea Room;High School
+168398,0,Asian Restaurant,Caf;Japanese Restaurant;Seafood Restaurant;Fast Food Restaurant;Food Court
+78766,2,Mall,Subway;Clothing Store;Boutique;Caf;Dessert Shop
+19386,2,Chinese Restaurant,Mall;Gym;Italian Restaurant;Japanese Restaurant;Caf
+216140,0,Mall,Italian Restaurant;Food Court;Chinese Restaurant;Clothing Store;Multiplex
+249134,0,Mall,Seafood Restaurant;Chinese Restaurant;Multiplex;General Entertainment;Japanese Restaurant
+81858,2,Hotel,Caf;Chinese Restaurant;Coffee Shop;Mall;Food Court
+64335,0,Mall,Food Court;Multiplex;Dessert Shop;Fast Food Restaurant;Ramen /  Noodle House
+135822,0,Mall,Department Store;Food Court;Government Building;Asian Restaurant;Multiplex
+234818,0,Fried Chicken Joint,Food Court;Hospital;Asian Restaurant;Fast Food Restaurant;Flea Market
+58912,0,Mall,Government Building;Subway;Church;Food Court;Airport
+107428,0,Mall,Restaurant;Boutique;Department Store;Fast Food Restaurant;Food Court
+186656,0,Mall,Chinese Restaurant;American Restaurant;Coffee Shop;Event Space;Fast Food Restaurant
+194150,0,Mall,Multiplex;Hotel;Asian Restaurant;General College & University;Caf
+260366,0,Mall,High School;Bus Station;Fried Chicken Joint;Subway;Event Space
+17593,0,Mall,Food Court;Nightclub;Coffee Shop;Bar;Caf
+33914,0,Mall,Multiplex;Burger Joint;Coffee Shop;Department Store
+85717,0,Food Court,Japanese Restaurant;Nightclub;Restaurant;Airport Terminal;Chinese Restaurant
+31165,0,Mall,Subway;Airport Terminal;Chinese Restaurant;Food Court;Asian Restaurant
+181228,2,Mall,Ice Cream Shop;Chinese Restaurant;University;Japanese Restaurant;American Restaurant
+162184,0,Chinese Restaurant,Mall;Hotel;Church;Japanese Restaurant;Park
+252814,0,Mall,Chinese Restaurant;Park;General Entertainment;Japanese Restaurant;Event Space
+60830,0,Mall,Boutique;American Restaurant;General Entertainment;Department Store;Dessert Shop
+218285,2,Caf,Dessert Shop;Food Court;Mall;Park;Furniture / Home Store
+64349,2,Japanese Restaurant,Caf;Mall;Coffee Shop;Ramen /  Noodle House;Chinese Restaurant
+24999,0,Mall,Caf;Food Court;Japanese Restaurant;Subway;Coffee Shop
+221956,0,Mall,Subway;Fast Food Restaurant;Government Building;Food Court;Bus Line
+121464,0,High School,Food Court;Caf;Asian Restaurant;Burger Joint;Bus Station
+74478,0,Bus Station,Hospital;Subway;Mall;Airport;Grocery Store
+147391,0,Park,American Restaurant;Caf;Asian Restaurant;Burger Joint;College Academic Building
+109811,0,University,Mall;Food Court
+81046,0,Train Station,Subway;Bus Station;Dessert Shop;School;Italian Restaurant
+150369,0,Mall,Coffee Shop;Bar;Dessert Shop;Ice Cream Shop;Nightclub
+53390,0,Mall,Department Store;Hotel;Food Court;Hospital;Subway
+125637,0,Subway,Mall;Train Station;High School;Bus Station;School
+43391,2,Mall,Church;Caf;Food Court;Japanese Restaurant;Multiplex
+24109,0,Mall,Resort;Fast Food Restaurant;Hotel;Food Court;Ice Cream Shop
+80292,0,Mall,Trade School;General Entertainment;Food Court;Flea Market;Fried Chicken Joint
+118435,2,Japanese Restaurant,Caf;Ramen /  Noodle House;Chinese Restaurant;College Academic Building;Asian Restaurant
+28616,0,Mall,Subway;Train Station;Department Store;Furniture / Home Store;High School
+100788,2,Mall,Chinese Restaurant;Tea Room;Coffee Shop;Furniture / Home Store;Japanese Restaurant
+117522,0,Bus Station,Subway;Mall;Train Station;General College & University;Asian Restaurant
+99087,2,Mall,Bar;Food Court;Coffee Shop;Nightclub;Burger Joint
+207520,0,Mall,Church;Coffee Shop;Japanese Restaurant;Asian Restaurant;Caf
+25572,0,Mall,Subway;Coffee Shop;Flea Market;Furniture / Home Store;Burger Joint
+238369,0,Mall,Chinese Restaurant;Grocery Store;Airport Terminal;Food Court;Caf
+102166,0,Mall,Multiplex;Hotel;Chinese Restaurant;Event Space;Furniture / Home Store
+19787,0,Mall,Subway;Coffee Shop;Flea Market;Japanese Restaurant;Tea Room
+172886,0,Church,Mall;Fast Food Restaurant;Coffee Shop;Seafood Restaurant;Airport Terminal
+188359,0,Mall,Nightclub;Restaurant;Bar;Dessert Shop;Subway
+256594,0,Mall,Coffee Shop;Bus Station;Subway;Asian Restaurant;Fried Chicken Joint
+112416,0,Mall,Food Court;Seafood Restaurant;Chinese Restaurant;Subway;Fast Food Restaurant
+238510,0,Mall,Bar;Nightclub;Food Court;Coffee Shop;Japanese Restaurant
+124238,0,Bus Station,Mall;Church;Coffee Shop;Food Court;Grocery Store
+191217,0,Church,Food Court;Fast Food Restaurant;Asian Restaurant;Burger Joint;Hotel
+147368,0,Mall,Clothing Store;Bus Station;Fast Food Restaurant;Hospital;Ramen /  Noodle House
+221,1,Bus Station,Mall;Park;Subway;Clothing Store;Fast Food Restaurant
+102842,0,Government Building,General Entertainment;Hotel;Chinese Restaurant;Nightclub;Park
+39863,2,Coffee Shop,Mall;Chinese Restaurant;Church;Multiplex;Bar
+86879,0,Bus Station,Mall;Fast Food Restaurant;High School;Bus Line;Chinese Restaurant
+104441,2,Mall,Department Store;Food Court;Boutique;Sushi Restaurant;Japanese Restaurant
+95044,0,Mall,Food Court;Chinese Restaurant;Coffee Shop;Hotel;Fast Food Restaurant
+7541,2,Mall,Food Court;Burger Joint;Asian Restaurant;Caf;Coffee Shop
+90419,2,Japanese Restaurant,Mall;Caf;Dessert Shop;Chinese Restaurant;Hotel
+256620,0,Trade School,Bus Station;Fast Food Restaurant;College Cafeteria;Fried Chicken Joint;Mall
+170694,2,Chinese Restaurant,Sushi Restaurant;Mall;Seafood Restaurant;Fried Chicken Joint;Multiplex
+354,4,Subway,Bus Station;Bus Line;Mall;General Entertainment;Train Station
+129909,2,Chinese Restaurant,Japanese Restaurant;Multiplex;Burger Joint;American Restaurant;Boutique
+191607,0,Asian Restaurant,Chinese Restaurant;Food Court;Government Building;Bus Station;Japanese Restaurant
+111371,0,Mall,Fried Chicken Joint;Burger Joint;Fast Food Restaurant;Caf
+256587,0,Mall,Caf;Hotel;Coffee Shop;Asian Restaurant;Chinese Restaurant
+32945,2,Mall,Food Court;Subway;Multiplex;Fast Food Restaurant;General Entertainment
+8127,0,Mall,Subway;Flea Market;Train Station;Burger Joint;Bus Station
+77211,2,Mall,Multiplex;American Restaurant;Caf;Chinese Restaurant;Asian Restaurant
+101029,0,Mall,Coffee Shop;Chinese Restaurant;Hotel;Asian Restaurant;Flea Market
+191377,0,Subway,Mall;Train Station;Coffee Shop;Bus Station;Flea Market
+228596,0,Mall,Gym;Government Building;High School;Fast Food Restaurant;Nightclub
+264394,2,Japanese Restaurant,Ramen /  Noodle House;Mall;Chinese Restaurant;Caf;Seafood Restaurant
+127046,0,Fast Food Restaurant,Chinese Restaurant;Coffee Shop;High School;Food Court;Mall
+57025,0,Mall,Multiplex;Nightclub;Bus Station;Japanese Restaurant;Bar
+225420,0,Mall,General Entertainment;High School;Church;Fast Food Restaurant;Ice Cream Shop
+166540,0,Fried Chicken Joint,Mall;Dessert Shop;Food Court;Hospital;Flea Market
+116260,0,High School,Mall;Fast Food Restaurant;Bus Station;Fried Chicken Joint;Tea Room
+174670,0,Bus Station,Bus Line;Train Station;College Academic Building;Mall;Chinese Restaurant
+26711,2,Mall,Food Court;Fast Food Restaurant;Japanese Restaurant;Fried Chicken Joint;Italian Restaurant
+65506,0,Mall,Food Court;Fast Food Restaurant;Asian Restaurant;Bus Station;Fried Chicken Joint
+91936,0,Mall,Fast Food Restaurant;Food Court;General Entertainment;Burger Joint;Chinese Restaurant
+225447,0,Park,Subway;Mall;Flea Market;Hospital;Airport
+156608,0,Mall,Bus Station;Bus Line;Subway;Church;Department Store
+29903,2,Mall,Nightclub;Asian Restaurant;Chinese Restaurant;Multiplex;American Restaurant
+222303,0,Mall,Flea Market;School;Government Building;Nightclub;Clothing Store
+202129,0,Gym,Trade School;Food Court;Mall;Coffee Shop;Grocery Store
+81882,0,Bus Station,College Cafeteria;Food Court;General College & University;Coffee Shop;Church
+140757,0,Coffee Shop,Mall;Fast Food Restaurant;Food Court;Fried Chicken Joint;Ice Cream Shop
+248637,0,Mall,Church;Food Court;Chinese Restaurant;General Entertainment;Burger Joint
+186760,0,College Cafeteria,Mall;Subway;Train Station;Government Building;Seafood Restaurant
+81821,0,Mall,Clothing Store;Flea Market;American Restaurant;Multiplex;General Entertainment
+58552,0,Food Court,Mall;Chinese Restaurant;Coffee Shop;Asian Restaurant;Fast Food Restaurant
+224795,0,Gym,Food Court;Asian Restaurant;Chinese Restaurant;Subway;Fast Food Restaurant
+70461,0,Mall,Caf;Multiplex;Restaurant;American Restaurant;Chinese Restaurant
+218744,0,Multiplex,Chinese Restaurant;Mall;Asian Restaurant;Event Space;Fast Food Restaurant
+166559,0,Mall,Train Station;Subway;Coffee Shop;Chinese Restaurant;General Entertainment
+139145,0,Fast Food Restaurant,Mall;Boutique;Bus Station;Multiplex;Subway
+74228,0,Train Station,University;Mall;Subway;Bus Station;Food Court
+62654,0,Mall,Train Station;Subway;Trade School;Bus Station;Caf
+85731,2,Mall,Chinese Restaurant;Food Court;Multiplex;Airport;Asian Restaurant
+22156,0,Trade School,College Cafeteria;Mall;Food Court;Park;Bus Station
+40460,0,High School,Mall;Park;Coffee Shop;Hotel;Airport Terminal
+37968,0,Caf,Hospital
+10082,0,Mall,Bus Station;Subway;Airport;Airport Terminal;Asian Restaurant
+168665,0,Gym,Japanese Restaurant;Caf;Chinese Restaurant;Ramen /  Noodle House;Airport
+216264,0,Mall,Fast Food Restaurant;Caf;Chinese Restaurant;Italian Restaurant;Multiplex
+50117,0,Mall,Flea Market;Bus Station;General Entertainment;Resort;Clothing Store
+8139,2,Mall,Chinese Restaurant;Asian Restaurant;Food Court;Event Space;Grocery Store
+204737,0,Church,Caf;Chinese Restaurant;Coffee Shop;Japanese Restaurant;Mall
+46391,0,Mall,Flea Market;Coffee Shop;Department Store;Fast Food Restaurant;Fried Chicken Joint
+104443,0,Mall,Trade School;Chinese Restaurant;Coffee Shop;Flea Market;Nightclub
+241433,0,General College & University,Chinese Restaurant;Mall;Multiplex;Nightclub;Park
+86901,2,Mall,Caf;Furniture / Home Store;Fast Food Restaurant;Government Building;Italian Restaurant
+61930,0,Train Station,Mall;Airport;Subway;Airport Terminal;American Restaurant
+97963,0,College Cafeteria,College Academic Building;Train Station;General College & University;Fast Food Restaurant;Coffee Shop
+225481,0,Caf,Mall;Airport Terminal;Ramen /  Noodle House;Subway;Bus Station
+245598,0,College Academic Building,Subway;Food Court;Hotel;Mall;Fried Chicken Joint
+95096,0,Mall,College Academic Building;Park;Flea Market;High School;Multiplex
+207522,0,Mall,Chinese Restaurant;Food Court;Event Space;Japanese Restaurant;Italian Restaurant
+105568,0,High School,Bus Station;Bus Line;Mall;Fried Chicken Joint;Train Station
+210,4,Bus Station,Bus Line;Mall;Subway;Train Station;Tea Room
+27038,2,Hotel,Mall;Department Store;Coffee Shop;Japanese Restaurant;Airport Terminal
+179676,0,Train Station,Coffee Shop;Bus Station;Chinese Restaurant;Mall
+62656,0,Food Court,Mall;Trade School;Nightclub;Hotel;Subway
+186395,0,Chinese Restaurant,Mall;Boutique;Caf;Hospital;Hotel
+237558,0,Mall,University;Asian Restaurant;Bus Station;College Cafeteria;Nightclub
+94114,0,Bus Line,Bus Station;Mall;Tea Room;Fried Chicken Joint;Flea Market
+107384,0,Caf,Chinese Restaurant;Multiplex;Asian Restaurant;Coffee Shop;Japanese Restaurant
+256717,0,Mall,Chinese Restaurant;Furniture / Home Store;Department Store;Airport;Food Court
+118864,2,Coffee Shop,General College & University;Gym;Mall;Multiplex;American Restaurant
+1470,4,Bus Station,Subway;Train Station;Bus Line;Mall;Coffee Shop
+28002,0,Trade School,College Academic Building;Caf;Mall;Event Space;Fried Chicken Joint
+124258,0,Subway,Bus Station;Food Court;Chinese Restaurant;Fast Food Restaurant;Mall
+17702,2,Church,Subway;Caf;Mall;Food Court;Coffee Shop
+156649,0,Mall,Subway;Boutique;Clothing Store;Airport Terminal;Department Store
+161866,0,Mall,Fast Food Restaurant;Caf;High School;Fried Chicken Joint;Subway
+18473,0,Mall,Caf;Resort;Subway;Burger Joint;Bus Line
+186796,0,Mall,High School;Fast Food Restaurant;Church;Ice Cream Shop;Furniture / Home Store
+119723,0,Mall,Seafood Restaurant;Multiplex;Clothing Store;Fast Food Restaurant;Hospital
+228676,0,Mall,Sushi Restaurant;Coffee Shop;Bar;Ice Cream Shop;Italian Restaurant
+231755,0,Mall,Flea Market;Boutique;Fast Food Restaurant;Italian Restaurant;Chinese Restaurant
+219221,0,Department Store,Mall;Caf;Furniture / Home Store;Boutique;Event Space
+47167,0,Mall,Tea Room;Multiplex;Resort;Coffee Shop;Subway
+106718,0,Caf,Airport Terminal;Nightclub;Hospital;Furniture / Home Store;Mall
+235239,0,Church,Mall;Asian Restaurant;Fast Food Restaurant;Department Store;Grocery Store
+105544,0,General College & University,Subway;Fast Food Restaurant;Mall;Resort;Coffee Shop
+122793,0,Asian Restaurant,Airport;Japanese Restaurant;Sushi Restaurant;Airport Terminal;Boutique
+105225,0,Bus Line,Park;Bus Station;High School;Coffee Shop;College Cafeteria
+235091,0,Mall,Coffee Shop;Nightclub;Department Store;Food Court;Restaurant
+99113,0,Mall,Bus Line;Subway;Park;Asian Restaurant;Hotel
+31581,2,Mall,Caf;Boutique;Hospital;Airport Terminal;Coffee Shop
+164571,0,Bus Station,Mall;Food Court;Asian Restaurant;Gym;Multiplex
+199541,0,Hospital,Food Court;Mall;Chinese Restaurant;Tea Room;Ramen /  Noodle House
+194276,0,Mall,Train Station;Subway;Food Court;Furniture / Home Store;Bus Station
+238494,0,Asian Restaurant,Chinese Restaurant;Caf;American Restaurant;Food Court;Japanese Restaurant
+264523,0,Coffee Shop,Chinese Restaurant;Mall;Caf;Hotel;Restaurant
+196854,0,Event Space,Asian Restaurant;Chinese Restaurant;Food Court;High School;Hotel
+97027,0,Hotel,Mall;Asian Restaurant;Fast Food Restaurant;Multiplex;Coffee Shop
+46185,2,Mall,Church;Seafood Restaurant;Asian Restaurant;Multiplex;Caf
+58515,0,Mall,General Entertainment;Coffee Shop;Dessert Shop;Fast Food Restaurant;Flea Market
+191669,0,Mall,Bus Station;Food Court;Fried Chicken Joint;Fast Food Restaurant;Restaurant
+67190,0,Mall,Fast Food Restaurant;Japanese Restaurant;Dessert Shop;Fried Chicken Joint;Event Space
+139174,0,Mall,Event Space;Coffee Shop;Nightclub;General Entertainment;Food Court
+30095,0,Mall,General Entertainment;Boutique;Coffee Shop;Subway;Bus Station
+149290,0,Restaurant,Airport;Bar;Caf;Nightclub;Seafood Restaurant
+199184,0,Mall,Hospital;Hotel;Fast Food Restaurant;Food Court;Park
+249329,0,Coffee Shop,Mall;Dessert Shop;Bar;Tea Room;Burger Joint
+213330,0,Mall,Food Court;Asian Restaurant;Caf;Event Space;Japanese Restaurant
+86902,0,Coffee Shop,Seafood Restaurant;Asian Restaurant;Fried Chicken Joint;General Entertainment;Ice Cream Shop
+256639,0,Food Court,Nightclub;Mall;Bus Line;Ice Cream Shop;Asian Restaurant
+82742,0,Mall,Furniture / Home Store;General Entertainment;Government Building;Ice Cream Shop;Park
+202218,2,Mall,Chinese Restaurant;Food Court;Asian Restaurant;Department Store;Japanese Restaurant
+213336,0,Subway,Mall;High School;College Academic Building;Government Building;Asian Restaurant
+92897,2,Mall,Japanese Restaurant;Burger Joint;Department Store;Dessert Shop;Furniture / Home Store
+35300,0,Mall,College Academic Building;General College & University;Food Court;Multiplex;Flea Market
+245690,0,Mall,Church;Food Court;Italian Restaurant;Clothing Store;Restaurant
+99937,0,Mall,Hotel;Food Court;Subway;Dessert Shop;Boutique
+26147,0,Mall,Tea Room;Asian Restaurant;Caf;Food Court;Restaurant
+86904,0,Subway,Bus Line;Church;Mall;Bus Station;Food Court
+78074,2,Mall,Seafood Restaurant;Caf;Chinese Restaurant;Furniture / Home Store;Italian Restaurant
+36653,0,Mall,Flea Market;Chinese Restaurant;Department Store;Ramen /  Noodle House;Boutique
+4813,0,Mall,Airport
+162161,2,Multiplex,Chinese Restaurant;Japanese Restaurant;Airport Terminal;Seafood Restaurant;Sushi Restaurant
+35841,0,Bus Line,Bus Station;School;Mall;Coffee Shop;Grocery Store
+235241,0,Mall,Train Station;Asian Restaurant;Fried Chicken Joint
+196928,0,Mall,Coffee Shop;Tea Room;Grocery Store
+27066,0,High School,Mall;Subway;Bus Station;Event Space;Fast Food Restaurant
+189223,0,College Cafeteria,Mall;School;College Academic Building;Food Court;Park
+156213,0,College Academic Building,Mall;Caf;Restaurant;Boutique;Chinese Restaurant
+10968,0,Bus Line,Subway;Bus Station;Hospital;Mall;American Restaurant
+53989,0,Food Court,Hotel;Italian Restaurant;Asian Restaurant;Dessert Shop
+140638,0,Airport,Food Court;Burger Joint;Caf;Multiplex;Ramen /  Noodle House
+38532,2,Mall,Food Court;Bus Station;Caf;University;Chinese Restaurant
+213352,0,Mall,Nightclub;Burger Joint;Coffee Shop;College Academic Building;Event Space
+210529,0,Food Court,Mall;College Academic Building;Seafood Restaurant;Sushi Restaurant;American Restaurant
+77930,0,Airport Terminal,Mall;Boutique;Department Store;Hospital;Multiplex
+106609,0,Bus Station,Airport;Train Station;Food Court;Asian Restaurant;Airport Terminal
+105592,2,Bar,Caf;Italian Restaurant;Seafood Restaurant;Coffee Shop;Restaurant
+2941,4,Bus Line,Bus Station;Mall;High School;Subway;Fast Food Restaurant
+140817,0,Mall,Multiplex;Caf;Boutique;Restaurant;Furniture / Home Store
+2234,0,Mall,Food Court;Trade School;Airport;Airport Terminal;Hotel
+115048,0,Mall,High School;Train Station;Bus Station;Fast Food Restaurant;Fried Chicken Joint
+34530,0,Mall,General Entertainment;Church;Park;Food Court;Fast Food Restaurant
+18739,0,High School,Mall;Food Court;Event Space;Bus Station;College Cafeteria
+132877,0,Coffee Shop,Mall;Resort;Asian Restaurant;Fast Food Restaurant;Multiplex
+25961,4,Train Station,Mall;Subway;Bus Station;Food Court;Hotel
+101196,0,Nightclub,Chinese Restaurant;Food Court;Department Store;Government Building;Japanese Restaurant
+3842,2,Subway,Nightclub;Coffee Shop;Mall;Bus Station;Bar
+93224,0,Mall,Nightclub;Resort;Train Station;Chinese Restaurant;Fast Food Restaurant
+1772,2,Mall,Subway;Bus Station;Bus Line;Japanese Restaurant;Department Store
+186852,0,Train Station,Mall;Grocery Store
+35789,2,Mall,Food Court;Multiplex;Hotel;Train Station;Clothing Store
+69808,0,Mall,Airport Terminal;Fast Food Restaurant;Sushi Restaurant;Fried Chicken Joint;Resort
+166609,0,Mall,Church;Train Station;Food Court;Multiplex;Grocery Store
+177434,0,Boutique,Mall;Hotel;Italian Restaurant;Bus Station;Department Store
+107935,0,Mall,Subway;Fast Food Restaurant;General Entertainment;High School;School
+70484,0,Mall,Church;Fast Food Restaurant;High School;Grocery Store;Food Court
+118400,0,Mall,American Restaurant;Church;Japanese Restaurant;Chinese Restaurant;Sushi Restaurant
+19671,4,Mall,Subway;Train Station;Bus Station;Event Space;Bus Line
+44366,0,Mall,Food Court;Seafood Restaurant;Trade School;Fast Food Restaurant;Hospital
+66605,0,Airport,Airport Terminal;Ice Cream Shop;Mall;Bus Station;Church
+176875,0,College Academic Building,Mall;Train Station;College Cafeteria;Food Court;Hospital
+210546,0,Mall,Food Court;College Cafeteria;Coffee Shop;Fried Chicken Joint;Bus Station
+34987,0,Church,Mall;Food Court;American Restaurant;Bus Station;Fried Chicken Joint
+249389,0,Bus Station,Food Court;Mall;Park;Coffee Shop;Fast Food Restaurant
+105599,0,Mall,Bus Station;Coffee Shop;Asian Restaurant;Bus Line;Fried Chicken Joint
+30328,2,Mall,Chinese Restaurant;Coffee Shop;Caf;Multiplex;Nightclub
+140823,0,Hospital,Church;Food Court;Mall;Airport;Dessert Shop
+149309,0,Mall,Coffee Shop;College Academic Building;Fast Food Restaurant;Government Building;High School
+6601,0,Mall,Boutique;Airport;Chinese Restaurant;Clothing Store;Burger Joint
+225576,0,Nightclub,Church;Asian Restaurant;Chinese Restaurant;Japanese Restaurant;Sushi Restaurant
+156674,0,Mall,Bus Line;Subway;Bus Station;Fast Food Restaurant;Food Court
+91420,0,High School,Mall;General Entertainment;Subway;Flea Market;Government Building
+8876,0,Mall,Dessert Shop;Resort;Subway;Train Station;Clothing Store
+48148,2,Chinese Restaurant,Asian Restaurant;Caf;Mall;Coffee Shop;Food Court
+179735,0,Subway,General College & University;Mall
+235078,0,Mall,Fast Food Restaurant;Hotel;Bus Line;Coffee Shop;Event Space
+97082,0,Mall,Multiplex;Bus Station;Department Store;Dessert Shop;Food Court
+33443,0,Mall,Furniture / Home Store;Subway;Grocery Store;Chinese Restaurant;Flea Market
+37772,0,Event Space,Food Court;Flea Market;General Entertainment;Nightclub
+7153,0,Subway,Mall;Airport Terminal;Tea Room;Train Station;Clothing Store
+34282,0,Subway,Park;Bus Station;Coffee Shop;Mall;Gym
+81913,0,Bus Station,Subway;Mall;Government Building;Bus Line;Fast Food Restaurant
+73775,0,Hotel,Furniture / Home Store;Mall;Fast Food Restaurant;Ice Cream Shop;Train Station
+196885,0,Mall,Restaurant;Furniture / Home Store;Airport;American Restaurant;Clothing Store
+249420,0,Mall,Food Court;Fried Chicken Joint;Caf;General College & University;Burger Joint
+225593,0,College Academic Building,Subway;Mall;Chinese Restaurant;Boutique;Clothing Store
+8849,2,Mall,Hospital;Multiplex;Airport Terminal;Chinese Restaurant;Airport
+256854,0,Mall,Multiplex;Event Space;Fast Food Restaurant;Caf;Chinese Restaurant
+199577,0,Event Space,Caf;Chinese Restaurant;Food Court;Coffee Shop;Multiplex
+117356,0,Mall,Hospital;Multiplex;Ramen /  Noodle House;Sushi Restaurant;American Restaurant
+170877,0,Mall,Coffee Shop;Airport;Clothing Store;Event Space;Flea Market
+82754,0,Bus Station,Mall;High School;Hotel;Department Store;Resort
+207683,0,Gym,Japanese Restaurant;Restaurant;Caf;Chinese Restaurant;Furniture / Home Store
+89624,0,College Academic Building,Coffee Shop;Food Court;Bus Station;Mall;Asian Restaurant
+225189,0,Mall,Caf;Subway;American Restaurant;Boutique;Coffee Shop
+23936,0,Mall,Caf;Hospital;Park
+179752,0,Bus Line,Bus Station;High School;University;Fast Food Restaurant;Burger Joint
+210577,0,Bus Station,Mall;High School;School;Bus Line;General College & University
+12109,0,Mall,Department Store;Asian Restaurant;Food Court;Boutique;Chinese Restaurant
+10748,0,Mall,Government Building;Resort;Tea Room;Coffee Shop;Food Court
+103345,0,Bus Station,Mall;Subway;Gym;Bus Line;Food Court
+128591,0,Mall,Trade School;Flea Market;Subway;Bus Station;Bus Line
+121554,0,College Academic Building,Multiplex;Mall;Bar;Dessert Shop;American Restaurant
+98104,0,Bus Station,Bus Line;Mall;Coffee Shop;Grocery Store;Furniture / Home Store
+238748,0,Trade School,Mall;Bus Line;Fast Food Restaurant;Airport;Coffee Shop
+71720,0,Bus Station,Mall;Church;Hotel;Ramen /  Noodle House;Subway
+3260,0,Bus Station,Mall;Subway;Train Station;Food Court;Event Space
+177466,0,Mall,Food Court;Chinese Restaurant;Burger Joint;Coffee Shop;Flea Market
+199599,0,Bus Station,Trade School;Mall;Caf;Subway;Train Station
+264637,0,Mall,Coffee Shop;College Cafeteria;Food Court;Flea Market;Multiplex
+574,0,Coffee Shop,Caf;Italian Restaurant;Mall;Tea Room;American Restaurant
+1035,2,Hotel,Caf;College Academic Building;Mall;Airport Terminal;Chinese Restaurant
+80339,0,Mall,Subway;High School;General Entertainment;Flea Market;Asian Restaurant
+182072,0,Mall,Coffee Shop;Hospital;Sushi Restaurant;Fast Food Restaurant;Airport
+210599,0,Mall,Ice Cream Shop;Nightclub;American Restaurant;Japanese Restaurant;Coffee Shop
+158618,0,Mall,Subway;Food Court;Fast Food Restaurant;Trade School;Train Station
+18624,2,Mall,Caf;Chinese Restaurant;Burger Joint;Bus Line;Bus Station
+156721,0,Mall,Subway;Coffee Shop;Furniture / Home Store;Fast Food Restaurant;Multiplex
+8029,2,Mall,Food Court;Coffee Shop;Flea Market;Nightclub;Department Store
+69222,4,Train Station,Bus Line;Bus Station;Trade School;Chinese Restaurant;Mall
+18034,0,Mall,Flea Market;Subway;Tea Room;General Entertainment;Train Station
+70501,0,Mall,Food Court;Dessert Shop;Train Station;Fried Chicken Joint;Chinese Restaurant
+57570,0,Mall,Caf;Coffee Shop;Multiplex;Flea Market;Food Court
+94183,0,Mall,Coffee Shop;Nightclub;Caf;Department Store;Burger Joint
+72391,0,Mall,Trade School;Coffee Shop;Fast Food Restaurant;Bus Station;Department Store
+145816,0,Mall,Department Store;Chinese Restaurant;Fast Food Restaurant;Hotel;Airport Terminal
+86929,0,Mall,General College & University;Burger Joint;Bus Station;Caf;Fast Food Restaurant
+13081,0,Mall,Bus Line;Bus Station;Food Court;High School;Subway
+20526,2,Mall,Burger Joint;Fast Food Restaurant;Food Court;Fried Chicken Joint;Ramen /  Noodle House
+191599,0,Mall,Nightclub;Chinese Restaurant;Flea Market
+79585,0,Mall,Food Court;High School;Subway;Burger Joint;Bus Station
+16273,2,Mall,Government Building;Food Court;Coffee Shop;Fried Chicken Joint;Subway
+55088,0,High School,Bus Station;Bus Line;Mall;Multiplex;Resort
+177478,0,Church,Mall;School;Airport;Airport Terminal;Food Court
+260729,0,Mall,Asian Restaurant;Fast Food Restaurant;Furniture / Home Store;Subway;Coffee Shop
+166127,0,Mall,Food Court;Multiplex;Park;General College & University;Resort
+179775,0,Bus Station,Bus Line;College Academic Building;Caf;High School;University
+242313,0,Church,Hotel;Mall;Fast Food Restaurant;Food Court;Tea Room
+69071,0,Mall,Clothing Store;Boutique;Coffee Shop;Hotel;Airport
+213450,2,Mall,Chinese Restaurant;Japanese Restaurant;Flea Market;Italian Restaurant;Nightclub
+96121,0,Mall,Coffee Shop;Bar;Caf;Multiplex;Nightclub
+47780,0,Subway,Bus Line;Mall;Food Court;Bus Station;Chinese Restaurant
+225670,0,Mall,Tea Room;Trade School;Bus Station;Nightclub;Event Space
+166668,0,Mall,College Cafeteria;General College & University;Trade School;Boutique;Dessert Shop
+4989,4,Train Station,Bus Station;Bus Line;Mall;Fast Food Restaurant;Coffee Shop
+59382,2,Mall,Multiplex;Chinese Restaurant;Seafood Restaurant;Airport;Caf
+182016,0,Mall,Fried Chicken Joint;Asian Restaurant;Church;Fast Food Restaurant;Multiplex
+103323,0,Trade School,College Academic Building;Mall;Chinese Restaurant
+53214,4,Train Station,Mall;University;Bus Station;Coffee Shop;Dessert Shop
+4865,2,Mall,Resort;Coffee Shop;Multiplex;Park;Bus Station
+54172,0,Mall,Train Station;Bus Station;Fast Food Restaurant;Food Court;Grocery Store
+56030,2,Mall,Church;Department Store;Resort;Chinese Restaurant;Hotel
+13591,2,Mall,Food Court;Chinese Restaurant;Department Store;Train Station;Coffee Shop
+37170,2,Church,Ice Cream Shop;Mall;Food Court;Tea Room;Coffee Shop
+131467,0,Train Station,Bus Station;Mall;Bus Line;Burger Joint;Chinese Restaurant
+46593,0,General College & University,College Academic Building;Mall;Food Court;College Cafeteria;Fast Food Restaurant
+245845,0,Government Building,Hospital;Resort
+90216,0,Mall,Trade School;Food Court;Furniture / Home Store;Park;Airport
+4402,2,Mall,Gym;University;Coffee Shop;Department Store;Chinese Restaurant
+147549,0,Mall,General College & University;Coffee Shop;Airport Terminal;Chinese Restaurant;Food Court
+231612,2,Bar,Japanese Restaurant;Nightclub;Boutique;Chinese Restaurant;Food Court
+134508,0,Mall,Chinese Restaurant;Fried Chicken Joint;Caf;Coffee Shop;Food Court
+70507,0,Fried Chicken Joint,Mall;Hotel;Subway;Bus Line;Caf
+70511,0,Bus Line,Bus Station;Mall;Food Court;Fast Food Restaurant;Chinese Restaurant
+147520,0,Chinese Restaurant,Hospital;Nightclub;American Restaurant;Fried Chicken Joint;Furniture / Home Store
+69724,0,Bus Station,Mall;Bus Line;Dessert Shop;Chinese Restaurant;Food Court
+13131,0,University,Mall;Subway;Food Court;Bus Line;Bus Station
+260766,0,Mall,Flea Market;Hotel;Bar;Nightclub;Dessert Shop
+216483,0,Coffee Shop,Caf;Fast Food Restaurant;General Entertainment;Burger Joint;High School
+151188,0,Mall,Subway;Flea Market;Coffee Shop;Fast Food Restaurant;Bus Line
+154215,0,Hotel,Airport;Bar;Italian Restaurant
+166689,0,Mall,Flea Market;Church;Coffee Shop;Burger Joint;Clothing Store
+71134,0,Train Station,Mall;Subway;Caf;Coffee Shop;Asian Restaurant
+105636,0,Multiplex,Bar;Nightclub;Mall;Seafood Restaurant;Caf
+25890,0,Mall,Fast Food Restaurant;Airport Terminal;Bus Line;Caf;Flea Market
+170921,0,Mall,Subway;Nightclub;Boutique;Coffee Shop;Department Store
+104081,0,Mall,Hotel;Chinese Restaurant;Department Store;Airport Terminal;Boutique
+139277,0,Mall,Hospital;Subway;Coffee Shop;Train Station;Bus Station
+219404,0,Mall,Clothing Store;Church;Flea Market;Caf;Chinese Restaurant
+20159,2,Mall,Coffee Shop;Multiplex;Fast Food Restaurant;Food Court;Fried Chicken Joint
+199614,2,Mall,Chinese Restaurant;Resort;Japanese Restaurant;Hotel;Airport Terminal
+117080,0,Hotel,Mall;Government Building;Resort;Multiplex
+52761,2,Mall,Food Court;Clothing Store;Nightclub;Tea Room;Chinese Restaurant
+173087,0,Gym,Chinese Restaurant;Coffee Shop;Fast Food Restaurant;Japanese Restaurant;Multiplex
+28903,0,Hospital,Mall;Food Court;Department Store;General College & University;Hotel
+189330,0,Nightclub,Bar;Caf;Food Court;Ice Cream Shop;Seafood Restaurant
+118938,0,Mall,Multiplex;Food Court;Coffee Shop;Asian Restaurant;Bus Station
+25808,0,Mall,University;Fast Food Restaurant;High School;Boutique;Bus Line
+249567,0,Subway,Train Station;Mall;Fast Food Restaurant;Caf;Multiplex
+24525,2,Mall,Subway;Food Court;Event Space;Fast Food Restaurant;Multiplex
+98121,2,Mall,Caf;Chinese Restaurant;Clothing Store;Department Store;Furniture / Home Store
+71133,0,Mall,Church;High School;College Cafeteria;Fast Food Restaurant;American Restaurant
+125605,0,Mall,Event Space;Train Station;Asian Restaurant;Department Store;Italian Restaurant
+232144,0,Mall,Gym;Multiplex;Food Court;Bus Station;Chinese Restaurant
+54169,2,Mall,Caf;Burger Joint;Department Store;Food Court;Boutique
+33780,0,Church,Grocery Store;Train Station;Subway;Clothing Store;Department Store
+73096,0,Subway,Bus Line;Mall;High School;Asian Restaurant;Bus Station
+264723,0,Mall,Bus Station;Dessert Shop;Event Space;Food Court
+8025,0,Mall,Airport;Fast Food Restaurant;Airport Terminal;American Restaurant;Caf
+147570,0,Mall,Chinese Restaurant;American Restaurant;Bar;Fast Food Restaurant;General Entertainment
+111406,0,Mall,University;Dessert Shop;Fast Food Restaurant;American Restaurant;Asian Restaurant
+245883,0,Mall,Gym;Subway;Food Court;Fried Chicken Joint;General Entertainment
+170948,0,Mall,Department Store;High School;Airport Terminal;Bus Station;Multiplex
+140900,0,Mall,Fast Food Restaurant;Burger Joint;Bus Station;Government Building;Grocery Store
+182146,0,High School,College Cafeteria;Mall;Airport Terminal;American Restaurant;Bus Line
+197056,0,Mall,American Restaurant;Caf;Food Court;Multiplex;Burger Joint
+129326,0,Hotel,Caf;Bar;Church;Hospital;Mall
+110334,0,Mall,College Academic Building;Coffee Shop;Hotel;Ice Cream Shop;Food Court
+63023,2,Caf,Multiplex;Church;Mall;Tea Room;Ramen /  Noodle House
+1623,2,Mall,Department Store;General Entertainment;Subway;Chinese Restaurant;Clothing Store
+136131,0,High School,Event Space;Mall;Fast Food Restaurant;Chinese Restaurant;College Cafeteria
+13764,0,High School,Mall;Italian Restaurant;Clothing Store;Airport Terminal;Caf
+28298,0,Mall,High School;Bus Line;Bus Station;Fried Chicken Joint;School
+12128,0,Hotel,General Entertainment;Airport;Resort;Subway;Caf
+219410,0,Multiplex,Asian Restaurant;Caf;Chinese Restaurant;Mall;Airport
+160601,2,Chinese Restaurant,Food Court;Multiplex;Ramen /  Noodle House;Department Store;Japanese Restaurant
+3154,3,General College & University,Train Station;Subway;College Cafeteria;Bus Station;Mall
+54180,0,Mall,Food Court;Chinese Restaurant;Flea Market;Coffee Shop;Asian Restaurant
+118944,0,Mall,Bus Line;General College & University;Multiplex;Subway;Train Station
+134535,0,Mall,Nightclub;Government Building;Chinese Restaurant;Multiplex;Bus Station
+199731,0,School,Mall;Multiplex;Seafood Restaurant;Chinese Restaurant;Restaurant
+61084,0,Mall,Coffee Shop;Subway;Bus Station;Japanese Restaurant;Hospital
+6565,2,Subway,Mall;Clothing Store;Boutique;Department Store;Airport
+184543,0,Dessert Shop,Japanese Restaurant;Restaurant;Coffee Shop;Mall;Caf
+99934,0,Subway,Boutique;Clothing Store;Hospital;Mall;Coffee Shop
+85219,0,Food Court,Mall;Grocery Store;Fast Food Restaurant;Hospital;Bus Station
+45037,0,Subway,Mall;Food Court;Hotel;Department Store;Ice Cream Shop
+158687,0,General College & University,Mall;Train Station;Bus Station;College Academic Building;College Cafeteria
+132949,0,General College & University,Mall;College Cafeteria;Bus Line;Bus Station;Fast Food Restaurant
+245909,0,Mall,High School;Dessert Shop;Burger Joint;School;Asian Restaurant
+110310,0,Mall,Train Station;Food Court;Grocery Store;Bus Line;Church
+25812,2,Nightclub,Mall;Chinese Restaurant;Multiplex;Coffee Shop;Dessert Shop
+88752,0,Train Station,Subway;Mall;Food Court;Boutique;Caf
+94934,2,Caf,Coffee Shop;Airport Terminal;Food Court;American Restaurant;Bar
+78111,0,Bus Station,Bus Line;Mall;Subway;Fast Food Restaurant;Food Court
+22975,4,Bus Line,Trade School;Bus Station;College Academic Building;Church;College Cafeteria
+207789,0,Food Court,Coffee Shop;Nightclub;Dessert Shop;Mall;Resort
+3361,0,Mall,Subway;Boutique;Department Store;Food Court;Hospital
+41759,0,Mall,Fast Food Restaurant;Hotel;Restaurant;Asian Restaurant;College Cafeteria
+1929,0,Chinese Restaurant,General Entertainment;Bus Line;Hospital;Trade School;American Restaurant
+98151,0,Nightclub,Mall;Caf;University;Burger Joint;Food Court
+264807,0,Mall,Airport Terminal;Bus Station;Coffee Shop;Food Court;High School
+78848,0,Mall,Food Court;Multiplex;Flea Market;Nightclub;Subway
+96152,0,High School,Mall;Event Space;Fast Food Restaurant;Multiplex;Bus Station
+36678,0,Bus Station,Mall;Subway;Food Court;Bus Line;Grocery Store
+238886,0,Chinese Restaurant,Caf;Hotel;Japanese Restaurant;Multiplex;Asian Restaurant
+3855,4,Mall,Subway;Bus Station;Fried Chicken Joint;Fast Food Restaurant;Train Station
+89652,0,Mall,Clothing Store;Train Station;Food Court;Resort;Subway
+16892,0,Mall,Coffee Shop;Hotel;Train Station;Food Court;Chinese Restaurant
+25014,0,Mall,Subway;Furniture / Home Store;Train Station;American Restaurant;Boutique
+38921,4,Train Station,Bus Station;Resort;Mall;Bus Line;Fast Food Restaurant
+130036,0,Mall,Subway;Bus Station;Food Court;Fast Food Restaurant;High School
+166728,0,Bus Line,Furniture / Home Store;Bus Station;Grocery Store;Italian Restaurant;Mall
+77397,0,Mall,Furniture / Home Store;Chinese Restaurant;Multiplex;Hotel;Asian Restaurant
+154961,0,Mall,Church;Train Station;Flea Market;Food Court;Bus Station
+23880,0,Mall,Bus Station;Chinese Restaurant;Food Court;Nightclub;Caf
+98159,0,Mall,Bar;Food Court;Asian Restaurant;Event Space;Italian Restaurant
+54189,0,Train Station,Mall;Subway;Hotel;Coffee Shop;Department Store
+86092,0,Mall,Food Court;Nightclub;Chinese Restaurant;Hotel;Flea Market
+245950,0,Mall,Asian Restaurant;Boutique;Food Court;Department Store;Italian Restaurant
+3199,0,Bus Station,High School;Mall;Fast Food Restaurant;Tea Room;Food Court
+140869,0,Train Station,Mall;Bus Line;Government Building;Hospital
+28084,2,Food Court,Subway;Mall;Italian Restaurant;High School;Bus Line
+1304,2,Mall,Subway;Hotel;Coffee Shop;Food Court;Caf
+16809,2,Mall,Bus Station;Food Court;Chinese Restaurant;Grocery Store;Airport Terminal
+108010,0,Bus Station,Bus Line;Mall;College Academic Building;Fast Food Restaurant;Church
+14187,0,Mall,Fast Food Restaurant;Fried Chicken Joint;Multiplex;Chinese Restaurant;Coffee Shop
+93283,0,High School,Mall;American Restaurant;Food Court;Boutique;Bus Station
+13358,2,Gym,High School;Mall;Multiplex;Coffee Shop;Train Station
+49777,0,Gym,Grocery Store;Department Store;Caf;Coffee Shop;Church
+175338,0,Japanese Restaurant,Caf;Chinese Restaurant;Mall;Restaurant;High School
+175340,0,Coffee Shop,Burger Joint;Chinese Restaurant;Mall;Asian Restaurant;Fast Food Restaurant
+245966,0,Clothing Store,Coffee Shop;Tea Room;Asian Restaurant;Caf;Chinese Restaurant
+74568,0,Mall,School;Chinese Restaurant;Department Store;Government Building;Caf
+72423,4,Bus Station,Train Station;Subway;Mall;Food Court;Hotel
+168629,0,Mall,College Cafeteria;Chinese Restaurant;American Restaurant;Asian Restaurant;Fried Chicken Joint
+61595,0,Mall,Government Building;Bus Station;Asian Restaurant;Hospital;Nightclub
+225700,0,Mall,Food Court;Coffee Shop;Fast Food Restaurant;General Entertainment;Government Building
+191885,0,Nightclub,Food Court;Resort
+48575,0,Mall,Flea Market;General Entertainment;Furniture / Home Store;Subway;Bar
+245985,0,Coffee Shop,Mall;Fast Food Restaurant;General Entertainment;Hospital
+238919,0,Coffee Shop,Burger Joint;Bus Line;Clothing Store;Fast Food Restaurant;High School
+27877,0,Train Station,Bus Station;Mall;Government Building;Caf;Coffee Shop
+45166,0,Mall,Bus Station;Government Building;Food Court;Fried Chicken Joint;Train Station
+238927,0,Subway,Bus Station;Mall;Food Court;Department Store;Government Building
+151093,0,Mall,Subway;Department Store;Chinese Restaurant;Boutique;Japanese Restaurant
+133948,0,Mall,Hospital;Flea Market;Multiplex;Fast Food Restaurant;Clothing Store
+179870,0,Mall,Furniture / Home Store;Fast Food Restaurant;Bus Station;Food Court;Resort
+134588,0,Nightclub,Multiplex;Japanese Restaurant;Caf;Mall;Chinese Restaurant
+53224,0,Government Building,Mall;Flea Market;Nightclub;Event Space
+100246,0,Mall,Multiplex;Subway;Fast Food Restaurant;Food Court;Bus Station
+127189,0,Mall,Department Store;Event Space;Hotel;Japanese Restaurant;Restaurant
+202453,0,Mall,Chinese Restaurant;Asian Restaurant;Coffee Shop;Bar;Dessert Shop
+142535,0,Food Court,Mall;American Restaurant;Train Station;Bus Line;Coffee Shop
+6624,0,Bus Station,Clothing Store;Mall;Subway;Resort;Train Station
+47227,2,Mall,Boutique;Hospital;Bus Station;Clothing Store;Multiplex
+7669,0,Event Space,Airport;Food Court;Mall;Burger Joint;Fast Food Restaurant
+134591,0,Mall,Hotel;Fast Food Restaurant;Resort;Sushi Restaurant;Train Station
+72427,0,Mall,Train Station;Subway;Coffee Shop;University;Food Court
+25181,0,Mall,Subway;Flea Market;Train Station;Department Store;Fried Chicken Joint
+260918,0,Mall,Subway;Caf;Hotel
+123037,0,Mall,Flea Market;Department Store;General Entertainment;Food Court;Event Space
+130068,0,Mall,Coffee Shop;Multiplex;Asian Restaurant;Caf;Resort
+229001,0,Mall,Grocery Store;Hotel;Multiplex;Ramen /  Noodle House;Seafood Restaurant
+108021,0,Trade School,Mall;Asian Restaurant;Coffee Shop;Subway;Event Space
+136174,0,Restaurant,Mall;Fried Chicken Joint;Seafood Restaurant;Asian Restaurant;Chinese Restaurant
+109216,0,Mall,Church;Burger Joint;Hotel;Multiplex;Dessert Shop
+194504,2,Mall,Furniture / Home Store;Subway;Chinese Restaurant;Fast Food Restaurant;Japanese Restaurant
+77334,0,Gym,Caf;Coffee Shop;Park;Italian Restaurant;Multiplex
+44805,2,Furniture / Home Store,Bus Station;Mall;Train Station;Bus Line;Asian Restaurant
+13115,0,Mall,Gym;Fast Food Restaurant;Food Court;Burger Joint;Coffee Shop
+242495,0,Mall,Chinese Restaurant;Boutique;Airport;Asian Restaurant;Coffee Shop
+8066,0,Mall,Subway;Food Court;Fried Chicken Joint;High School;Hotel
+213576,0,Mall,Department Store;Burger Joint;Caf;Event Space;Fast Food Restaurant
+14948,2,Mall,Hotel;Airport;Caf;Flea Market;Sushi Restaurant
+89690,0,Coffee Shop,Caf;Fast Food Restaurant;Food Court;Resort;Restaurant
+202455,0,Mall,Japanese Restaurant;Chinese Restaurant;Government Building;Asian Restaurant;General Entertainment
+191904,0,Chinese Restaurant,Event Space;Multiplex;Food Court;Resort;Restaurant
+71167,2,Mall,Bus Line;High School;Flea Market;Food Court;Train Station
+164768,0,Chinese Restaurant,Food Court;Mall;Caf;Grocery Store;Multiplex
+197116,0,Boutique,Bus Station;Clothing Store;Subway;Department Store;Mall
+170372,0,Hotel,Bus Station;Asian Restaurant;Restaurant;Food Court;General Entertainment
+210759,0,Mall,Asian Restaurant;Bus Station;Dessert Shop;High School;Caf
+32345,4,Bus Station,Bus Line;High School;Mall;General Entertainment;Government Building
+63284,0,High School,Bus Station;Mall;School;Fast Food Restaurant;Train Station
+158592,0,Food Court,Mall;Bus Station;Department Store;Airport;Boutique
+202475,0,Food Court,Mall;Coffee Shop;Asian Restaurant;General Entertainment;Chinese Restaurant
+166774,0,Bus Station,Mall;Train Station;Bus Line;Hotel;Coffee Shop
+37184,2,Multiplex,Caf;Coffee Shop;Mall;Tea Room;Department Store
+41779,0,High School,School;Mall;Bus Station;Fast Food Restaurant;College Academic Building
+100253,0,Mall,Department Store;Bus Station;Fast Food Restaurant;Train Station;Food Court
+257124,0,Mall,Fast Food Restaurant;Subway;Airport Terminal;Coffee Shop;Food Court
+219530,0,Multiplex,Mall;Coffee Shop;Seafood Restaurant;American Restaurant;Caf
+13598,0,Mall,Bus Station;Fast Food Restaurant;Clothing Store;Flea Market;General Entertainment
+253389,0,High School,Mall;Food Court;College Cafeteria;Airport;Church
+133023,0,Mall,Chinese Restaurant;Subway;Department Store;Resort;Coffee Shop
+2228,4,Bus Station,Bus Line;Mall;Train Station;Subway;Furniture / Home Store
+205172,0,Mall,Multiplex;Resort;Food Court;Boutique;Bus Station
+229026,0,Mall,Bus Station;Grocery Store;Chinese Restaurant;Department Store;Food Court
+26730,0,Bus Station,Mall;Resort;Chinese Restaurant;Multiplex;Train Station
+166784,2,Mall,Multiplex;Dessert Shop;Caf;Flea Market;Event Space
+1326,0,Subway,Food Court;Mall;Hotel;Airport;Bus Station
+133026,0,Mall,Subway;Tea Room;Chinese Restaurant;Fast Food Restaurant;Flea Market
+41160,0,Mall,Nightclub;Coffee Shop;Hotel;Airport;Caf
+118798,0,Church,Mall;Airport;Fast Food Restaurant;Coffee Shop;Italian Restaurant
+207891,0,Mall,Coffee Shop;Bus Station;Flea Market;Fried Chicken Joint;Resort
+175370,0,Nightclub,Bus Line;Mall;Chinese Restaurant;Dessert Shop;Food Court
+173192,0,Bus Station,Asian Restaurant;Event Space;Food Court;Grocery Store;Mall
+77196,0,Food Court,Chinese Restaurant;Asian Restaurant;Coffee Shop;Bus Station;Fast Food Restaurant
+72276,0,Mall,Subway;Chinese Restaurant;Resort;Flea Market;Food Court
+127226,0,Mall,Coffee Shop;Dessert Shop;Gym;Airport;Boutique
+184653,0,Mall,Fast Food Restaurant;Train Station;High School;Multiplex;Bus Line
+10521,2,Mall,Hotel;Ramen /  Noodle House;Japanese Restaurant;Chinese Restaurant;Dessert Shop
+55120,0,Subway,Trade School;Mall;Airport Terminal;Train Station
+957,4,Subway,Mall;Coffee Shop;Caf;Grocery Store;Hotel
+213607,0,Mall,Subway;Bus Line;Flea Market;Food Court;Department Store
+71769,0,General Entertainment,Train Station;Chinese Restaurant;Mall;Fast Food Restaurant;Food Court
+166789,0,Mall,Train Station;Bus Station;Subway;Caf;Dessert Shop
+13269,0,Mall,Trade School;Bus Station;Train Station;College Cafeteria;Fried Chicken Joint
+177649,0,Chinese Restaurant,Mall;Subway;Hotel;Food Court;Italian Restaurant
+228279,0,Asian Restaurant,Airport Terminal;Gym
+246054,0,Mall,Furniture / Home Store;Airport Terminal;Asian Restaurant;Coffee Shop;Dessert Shop
+12482,4,Mall,Bus Line;Bus Station;Subway;Train Station;Coffee Shop
+87863,0,Mall,High School;Fast Food Restaurant;Flea Market;General College & University;Park
+46216,0,Subway,Hotel;Resort;Event Space;Mall;Park
+101296,0,Mall,Nightclub;Chinese Restaurant;Bar;Government Building;Japanese Restaurant
+24045,2,Mall,Seafood Restaurant;Subway;Food Court;Fast Food Restaurant;Bus Station
+38935,0,Mall,Fast Food Restaurant;Food Court;Tea Room;Subway;Asian Restaurant
+45950,0,Airport,Bar;Government Building;Food Court;Boutique;Chinese Restaurant
+207836,0,Mall,Nightclub;Coffee Shop;Multiplex;Department Store;Clothing Store
+162687,0,High School,Mall;Multiplex;Bus Station;Park
+52788,0,Bus Station,Subway;Mall;General College & University;Fast Food Restaurant;Food Court
+202237,0,Mall,Chinese Restaurant;Fast Food Restaurant;Multiplex;Asian Restaurant;Bus Station
+16073,2,Fast Food Restaurant,Resort;Asian Restaurant;High School;Mall;Seafood Restaurant
+38934,0,Mall,Food Court;Coffee Shop;Multiplex;Subway;Sushi Restaurant
+22446,0,Mall,Department Store;Airport Terminal;Asian Restaurant;Chinese Restaurant;Furniture / Home Store
+232329,0,Coffee Shop,Park;Airport Terminal;Burger Joint;Hotel;Japanese Restaurant
+144227,0,Mall,High School;General Entertainment;Asian Restaurant;Hotel;Train Station
+207931,0,Burger Joint,Subway;Caf;Ice Cream Shop;Mall;American Restaurant
+63847,0,Nightclub,Mall;Chinese Restaurant;Government Building;Sushi Restaurant;Dessert Shop
+213636,0,Bus Line,Mall;High School;College Cafeteria;Flea Market;Fried Chicken Joint
+7087,2,Mall,Food Court;Burger Joint;Department Store;Fast Food Restaurant;Hotel
+85243,0,Mall,College Cafeteria;School;Bus Station;Government Building;High School
+202519,0,Hotel,Bar;Mall;American Restaurant;Burger Joint
+83628,2,Mall,Train Station;Bus Station;Resort;Food Court;Chinese Restaurant
+173219,0,Mall,Asian Restaurant;Department Store;Multiplex;Dessert Shop;Flea Market
+119018,2,Mall,Food Court;Asian Restaurant;Resort;Caf;Chinese Restaurant
+85251,0,Mall,Train Station;Fried Chicken Joint;Coffee Shop;Food Court;Nightclub
+70554,0,Mall,Department Store;Train Station;High School;Chinese Restaurant;Coffee Shop
+235656,0,Mall,Chinese Restaurant;Asian Restaurant;American Restaurant;Caf;Fried Chicken Joint
+101306,0,Mall,Church;Boutique;Hotel;Multiplex;Subway
+38081,0,Mall,Department Store;Airport Terminal;Food Court
+113936,2,Mall,Caf;Department Store;Furniture / Home Store;Hotel;Subway
+253482,2,Mall,Multiplex;Furniture / Home Store;Chinese Restaurant;Japanese Restaurant;American Restaurant
+156552,0,Coffee Shop,Mall;Fast Food Restaurant;Food Court;Caf;Chinese Restaurant
+210835,0,Caf,Ramen /  Noodle House;Church;University;Airport;Dessert Shop
+56573,0,Mall,Department Store;Fast Food Restaurant;Hotel;Resort;Airport Terminal
+57107,0,Mall,High School;Bus Station;Coffee Shop;Tea Room;Fried Chicken Joint
+213640,0,Mall,High School;Chinese Restaurant;College Academic Building;Food Court;Airport
+144247,0,Mall,Bus Station;Hospital;Italian Restaurant;Coffee Shop;Food Court
+149528,0,Food Court,Coffee Shop;Caf;University;Chinese Restaurant;Park
+18277,0,Subway,Mall;Bus Station;High School;Bus Line;Train Station
+261005,0,Church,Clothing Store;Mall;Boutique;Fast Food Restaurant;Department Store
+34305,0,Food Court,Mall;Airport;Italian Restaurant;Bar;Multiplex
+73878,2,Caf,Mall;Bus Station;Trade School;Japanese Restaurant;College Cafeteria
+19914,0,Mall,Church;Food Court;Subway;Airport;Train Station
+265005,0,Mall,Japanese Restaurant;Caf;Bus Station;Chinese Restaurant;Clothing Store
+197208,2,Japanese Restaurant,Multiplex;Resort;Chinese Restaurant;Hotel;Ice Cream Shop
+18633,2,Mall,Hospital;Department Store;Caf;Fast Food Restaurant;Food Court
+71781,0,Hotel,Food Court;Bar;Mall;Subway;Train Station
+164832,2,Coffee Shop,Chinese Restaurant;Mall;Food Court;Multiplex;Gym
+60596,0,Mall,Food Court;American Restaurant;High School;Multiplex;Chinese Restaurant
+2504,0,Subway,Mall;Caf;Hotel;Clothing Store;Food Court
+59514,0,Mall,Airport;Multiplex;Italian Restaurant;Food Court;Furniture / Home Store
+29748,2,Mall,General Entertainment;Burger Joint;Fast Food Restaurant;Italian Restaurant;Dessert Shop
+18045,2,Mall,Subway;Fast Food Restaurant;General College & University;Food Court;Train Station
+202495,0,Mall,Chinese Restaurant;Food Court;American Restaurant;Asian Restaurant;Dessert Shop
+6509,0,Mall,Subway;Airport;Food Court;Tea Room;Airport Terminal
+119033,0,Mall,Chinese Restaurant;High School;Flea Market;Resort;Asian Restaurant
+63277,0,Mall,Subway;Multiplex;Bus Line;Coffee Shop;Department Store
+164843,0,Bus Station,Mall;Subway;Train Station;Hospital;Trade School
+103458,0,Mall,Train Station;Food Court;Caf;Dessert Shop;Fast Food Restaurant
+92394,0,General College & University,College Academic Building;Food Court;Mall;General Entertainment;College Cafeteria
+49801,0,Mall,Food Court;Bus Station;General College & University;School;College Cafeteria
+144270,0,Mall,Coffee Shop;Asian Restaurant;Multiplex;College Academic Building;Flea Market
+197228,0,Mall,Chinese Restaurant;Government Building;Asian Restaurant;Fast Food Restaurant;Food Court
+78157,0,College Academic Building,General College & University;Italian Restaurant;Food Court;Multiplex;American Restaurant
+61108,0,Mall,Chinese Restaurant;Food Court;Airport;Park;Restaurant
+144278,2,Caf,Chinese Restaurant;Mall;Multiplex;Ice Cream Shop;Food Court
+184445,0,Subway,Mall;Bus Station;Bus Line;Train Station;Church
+33557,0,Mall,Train Station;High School;Bus Line;Bus Station;Coffee Shop
+160757,0,American Restaurant,Mall;Hotel;Restaurant;Bar;Caf
+17641,2,Mall,Tea Room;University;Coffee Shop;Department Store;Food Court
+213700,2,Mall,Japanese Restaurant;Chinese Restaurant;Restaurant;Asian Restaurant;Clothing Store
+74605,0,Mall,Coffee Shop;Grocery Store;Food Court;Bus Station;Asian Restaurant
+60490,0,Mall,Coffee Shop;Airport;Airport Terminal;Fast Food Restaurant;Seafood Restaurant
+20072,0,Mall,Hotel;Food Court;Coffee Shop;Subway;Bar
+171108,0,Fast Food Restaurant,Airport Terminal;Church;Asian Restaurant;Coffee Shop;Multiplex
+184726,0,Church,Tea Room;Mall;Subway;Train Station;Food Court
+171109,0,Mall,Restaurant;Airport Terminal;Chinese Restaurant;Multiplex;Coffee Shop
+222806,0,Coffee Shop,Fast Food Restaurant;Mall;Japanese Restaurant;Chinese Restaurant;Food Court
+87016,0,Mall,General Entertainment;Bus Station;Fast Food Restaurant;Subway;Coffee Shop
+208000,0,Mall,Train Station;Flea Market;Subway;Food Court;Asian Restaurant
+210825,0,Mall,Trade School;Chinese Restaurant;Food Court;Resort;Department Store
+239089,0,Mall,Ice Cream Shop;Restaurant;Burger Joint;Dessert Shop;Fast Food Restaurant
+166855,0,Mall,Bus Station;American Restaurant;Event Space;Trade School;Flea Market
+192026,0,Mall,Fast Food Restaurant;Subway;Airport Terminal;Food Court;Multiplex
+142627,0,Bus Station,Mall;Bus Line;Subway;Train Station
+23888,2,Mall,High School;Coffee Shop;Subway;Food Court;Chinese Restaurant
+60087,2,Food Court,Mall;Chinese Restaurant;Clothing Store;Fast Food Restaurant;University
+101275,0,Mall,Coffee Shop;Fast Food Restaurant;Flea Market;Food Court;Fried Chicken Joint
+116439,0,Mall,University;Flea Market;Train Station;Boutique;Chinese Restaurant
+78162,2,Mall,Subway;Dessert Shop;Food Court;General Entertainment;Chinese Restaurant
+182327,0,Mall,Multiplex;Nightclub;Japanese Restaurant;Airport;Airport Terminal
+162738,0,Train Station,Food Court;Fast Food Restaurant;Flea Market;Mall;Restaurant
+50643,0,High School,Church;General College & University;Multiplex;Park;Burger Joint
+213719,0,General College & University,Train Station;Subway;Mall;College Academic Building;Bus Station
+151365,0,Fast Food Restaurant,Mall;Bus Line;Airport Terminal;Burger Joint;Church
+102422,2,Mall,Church;Department Store;Japanese Restaurant;Multiplex;Airport Terminal
+69904,2,Mall,Fried Chicken Joint;Burger Joint;Fast Food Restaurant;Food Court;American Restaurant
+93289,0,Mall,Bus Station;Food Court;Italian Restaurant;Multiplex;Event Space
+5948,4,Mall,Subway;Train Station;Bus Station;Grocery Store;Clothing Store
+7177,2,Hotel,Ice Cream Shop;Multiplex;Hospital;Event Space;Mall
+33298,0,Mall,High School;Food Court;Fast Food Restaurant;Ice Cream Shop;College Cafeteria
+130136,0,High School,Bus Station;Bus Line;Department Store;Fast Food Restaurant;Caf
+164870,2,Japanese Restaurant,Ramen /  Noodle House;Food Court;Ice Cream Shop;Burger Joint;Chinese Restaurant
+202612,0,Mall,Nightclub;Train Station;Asian Restaurant;Bus Station;Clothing Store
+127220,0,Hospital,Fast Food Restaurant;Mall;University;Multiplex;Food Court
+117718,0,High School,College Academic Building;Hospital;Food Court;Government Building;Mall
+96216,0,Mall,Coffee Shop;Tea Room;Bus Station;Food Court;Flea Market
+147728,0,Mall,Train Station;College Cafeteria;Coffee Shop;Bus Station;College Academic Building
+55138,0,Subway,Mall;Trade School;Bus Station;High School;Fast Food Restaurant
+232448,0,College Cafeteria,Mall;General Entertainment;Seafood Restaurant;College Academic Building;Fast Food Restaurant
+92407,0,Mall,Food Court;Fast Food Restaurant;Boutique;Caf;Coffee Shop
+147717,0,Mall,Chinese Restaurant;Nightclub;Boutique;Coffee Shop;Train Station
+208037,2,Chinese Restaurant,Coffee Shop;Caf;Gym;Department Store;Mall
+249825,0,Gym,Nightclub;Bar;Food Court;Seafood Restaurant;Church
+194637,0,Bus Station,Mall;Subway;Train Station;Gym;Asian Restaurant
+44483,0,Subway,Mall;Bus Station;Coffee Shop;Bus Line;Caf
+2739,0,Mall,Hotel;Park;Department Store;Fast Food Restaurant;Grocery Store
+10032,2,Mall,Subway;Bus Station;Chinese Restaurant;Coffee Shop;Ramen /  Noodle House
+153267,0,Subway,Bus Station;High School;Mall;Caf;Coffee Shop
+2862,2,Mall,Subway;Train Station;Multiplex;Food Court;Nightclub
+29467,0,Mall,Hotel;Boutique;Subway;Food Court;Airport
+81193,0,Mall,Multiplex;Asian Restaurant;Clothing Store;Coffee Shop;Subway
+110425,0,Mall,Church;Food Court;Seafood Restaurant;Airport;Flea Market
+86171,2,Mall,Fast Food Restaurant;Food Court;Flea Market;Coffee Shop;Government Building
+69290,2,Mall,Clothing Store;Japanese Restaurant;Boutique;Chinese Restaurant;Caf
+95275,0,Mall,Hotel;Airport Terminal;Food Court;Chinese Restaurant;Fast Food Restaurant
+28914,0,Mall,Subway;Boutique;Department Store;Grocery Store;Food Court
+14106,4,Mall,Bus Line;Food Court;Bus Station;Subway;Train Station
+41798,2,Mall,Food Court;Japanese Restaurant;Seafood Restaurant;Coffee Shop;Multiplex
+202640,0,High School,College Cafeteria;Hospital;General Entertainment;Mall;School
+6909,0,Mall,Nightclub;General Entertainment;Subway;Food Court;Caf
+182303,0,Mall,Subway;Hotel;High School;Hospital;Caf
+169014,0,High School,Church;Subway;Mall;Food Court;Asian Restaurant
+120395,0,High School,Gym;Mall;Chinese Restaurant;Hotel;Asian Restaurant
+109286,0,Train Station,Bus Station;Mall;Trade School;College Cafeteria;Food Court
+261186,0,Mall,High School;Fast Food Restaurant;Event Space;Chinese Restaurant;Boutique
+246052,0,Mall,Church;High School;Burger Joint;Chinese Restaurant;Department Store
+36129,0,Mall,Food Court;Boutique;Clothing Store;Department Store;Flea Market
+90501,0,Mall,Food Court;Hospital;Clothing Store;Coffee Shop;Seafood Restaurant
+75364,0,Mall,Coffee Shop;Flea Market;Food Court;Nightclub;Chinese Restaurant
+226045,0,Mall,Food Court;Caf;Asian Restaurant;Subway;Coffee Shop
+90629,0,Mall,Government Building;Train Station;Food Court;Subway;Airport Terminal
+155118,0,Mall,Nightclub;Multiplex;Sushi Restaurant;Fast Food Restaurant;Asian Restaurant
+226049,0,Food Court,Bus Station;Mall;Train Station;Subway;Caf
+14680,0,Mall,Subway;Department Store;General Entertainment;Caf;Flea Market
+226016,0,Mall,Resort;Chinese Restaurant
+47812,0,Mall,Subway;Food Court;Bus Station;Burger Joint;Government Building
+192111,0,Chinese Restaurant,Food Court;Mall;Sushi Restaurant;College Academic Building;Japanese Restaurant
+257344,0,Bus Station,College Academic Building;Event Space;Train Station;Caf;Fried Chicken Joint
+106573,0,Mall,Chinese Restaurant;Department Store;Ramen /  Noodle House;Subway;University
+67438,0,Mall,Subway;University;Clothing Store;Fast Food Restaurant;Asian Restaurant
+72463,0,Mall,Department Store;Dessert Shop;Food Court;Chinese Restaurant;Ramen /  Noodle House
+3559,0,Subway,Mall;Multiplex;Flea Market;Train Station;Coffee Shop
+180049,0,Mall,Coffee Shop;Bus Station;Department Store;Food Court;Furniture / Home Store
+257357,0,Multiplex,American Restaurant;Japanese Restaurant;Asian Restaurant;Fried Chicken Joint;Italian Restaurant
+87912,0,Mall,Hotel;Department Store;Airport;Caf;Fast Food Restaurant
+7035,0,Subway,Mall;Flea Market;Chinese Restaurant;Department Store;General Entertainment
+103495,2,Church,Mall;Caf;Chinese Restaurant;Gym;Ice Cream Shop
+242773,0,Mall,Caf;Fried Chicken Joint;Grocery Store;School;Subway
+55151,2,Mall,Nightclub;Clothing Store;Boutique;Caf;Coffee Shop
+205351,0,Mall,High School;Dessert Shop;Burger Joint;Fried Chicken Joint;Fast Food Restaurant
+53742,4,Train Station,Subway;Mall;College Academic Building;Bus Station;Food Court
+192131,0,Mall,Nightclub;Government Building;Japanese Restaurant
+141066,0,Mall,Bus Station;Food Court;Multiplex;Subway;Train Station
+83674,0,Mall,University;Coffee Shop;Boutique;Food Court;Department Store
+156937,2,Bar,Japanese Restaurant;Grocery Store;Caf;Tea Room;Airport Terminal
+208110,2,Food Court,Coffee Shop;Dessert Shop;Grocery Store;Gym;Chinese Restaurant
+114003,0,Mall,Airport;Furniture / Home Store;Food Court;Multiplex;Bus Station
+87051,0,Mall,Train Station;Food Court;Event Space;College Academic Building;College Cafeteria
+162311,0,Chinese Restaurant,Grocery Store;Bar;Subway;Bus Station;Mall
+61130,0,High School,Mall;College Academic Building;Airport;Boutique;Fast Food Restaurant
+261248,0,Food Court,Mall;Train Station;Seafood Restaurant;Coffee Shop;Fried Chicken Joint
+192119,0,Food Court,Nightclub;Mall;Bar;Train Station;Multiplex
+3307,0,Nightclub,Mall;Government Building;School;Flea Market;Gym
+149617,0,Mall,Flea Market;General College & University;Coffee Shop;College Academic Building;Ice Cream Shop
+140950,0,Mall,Church;Coffee Shop;Event Space;Multiplex;Subway
+117764,0,Bus Station,High School;Bus Line;Subway;Mall;Food Court
+253599,0,Bus Station,Mall;Caf;Airport Terminal;Burger Joint;Bus Line
+149620,0,General College & University,College Academic Building;Mall;Fast Food Restaurant;Coffee Shop;Department Store
+102439,0,Mall,Nightclub;Chinese Restaurant;Airport;American Restaurant;Event Space
+47826,0,Mall,Bus Line;Bus Station;Food Court;Park;Airport
+2978,4,Mall,Train Station;Bus Station;University;Subway;Department Store
+87925,0,Trade School,Bus Station;Mall;Caf;Fast Food Restaurant;Church
+76783,0,Mall,Caf;Dessert Shop;Subway;Multiplex;Grocery Store
+162809,0,Mall,Hotel;Airport;Food Court;Resort;Airport Terminal
+171186,2,Italian Restaurant,Grocery Store;Furniture / Home Store;Mall;Trade School
+51349,0,Mall,Food Court;Burger Joint;Chinese Restaurant;Hospital;Boutique
+125953,0,Caf,Mall;Coffee Shop;Boutique;Japanese Restaurant;Multiplex
+79653,0,College Academic Building,Nightclub;Tea Room;Church;Dessert Shop;Mall
+257358,0,Mall,Multiplex;Ramen /  Noodle House;Airport;Caf;Coffee Shop
+32825,0,Hotel,Subway;Mall;Coffee Shop;Flea Market;Train Station
+9581,0,Mall,Food Court;Hotel;American Restaurant;Clothing Store;Government Building
+90632,0,Mall,Caf;Bus Line;Flea Market;Subway;Tea Room
+205383,2,Caf,Japanese Restaurant;Mall;Coffee Shop;Event Space;Burger Joint
+219805,0,Bus Line,Bus Station;Mall;Food Court;High School;Park
+123153,0,Mall,Fast Food Restaurant;Coffee Shop;Bus Station;Chinese Restaurant;Restaurant
+169071,0,Hotel,Clothing Store;Mall;Bus Station;Fast Food Restaurant;Coffee Shop
+94361,0,Mall,General College & University;Train Station;Sushi Restaurant;Hotel;Department Store
+121753,0,Mall,Trade School;Department Store;Flea Market;Food Court;Coffee Shop
+106936,2,Mall,Food Court;Chinese Restaurant;General Entertainment;Sushi Restaurant;Flea Market
+232562,0,Hotel,Mall;American Restaurant;Food Court;Park
+261274,0,Multiplex,Caf;University;Asian Restaurant;Bar;Sushi Restaurant
+173339,0,Mall,Chinese Restaurant;Food Court;Asian Restaurant;Seafood Restaurant;Airport
+257420,0,Mall,School;Asian Restaurant;Chinese Restaurant;General College & University;General Entertainment
+132971,0,Mall,Burger Joint;Fried Chicken Joint;Flea Market;Caf;Grocery Store
+153338,0,Mall,Subway;Government Building;Fast Food Restaurant;Hospital;Caf
+17397,0,Mall,Hospital;Subway;Bus Line;Fast Food Restaurant;Food Court
+211016,0,General Entertainment,Mall;Seafood Restaurant;Fast Food Restaurant;High School;Resort
+192172,0,Mall,Ice Cream Shop;Hotel;Bus Line;Department Store;Bus Station
+239290,0,Mall,Bus Station;Bar;College Cafeteria;Department Store;Flea Market
+115263,0,Mall,Bar;Grocery Store;Chinese Restaurant;Fast Food Restaurant;General Entertainment
+153346,0,Mall,Flea Market;Fast Food Restaurant;Food Court;General Entertainment;Airport
+137920,2,Mall,Caf;Department Store;Japanese Restaurant;Fast Food Restaurant;Multiplex
+250047,0,Mall,Trade School;Japanese Restaurant;Chinese Restaurant;College Cafeteria;Dessert Shop
+93193,0,Train Station,Mall;Subway;Resort;Church;High School
+61138,0,Mall,Bus Station;Boutique;Fast Food Restaurant;Food Court;General Entertainment
+46639,0,Mall,Food Court;Bus Line;Chinese Restaurant;Hospital;Multiplex
+226142,0,High School,Fast Food Restaurant;General Entertainment;Mall;Caf;General College & University
+189683,0,Mall,Clothing Store;Bus Station;Department Store;Ramen /  Noodle House;Coffee Shop
+9111,2,Government Building,Mall;Food Court;Event Space;Subway;Boutique
+97286,0,Mall,Multiplex;Tea Room;Flea Market;Gym;Chinese Restaurant
+222321,0,Hotel,Mall;Resort;Italian Restaurant;Ramen /  Noodle House;Airport
+253761,0,Gym,Coffee Shop;Department Store;Tea Room;Airport;Caf
+31672,2,Mall,Furniture / Home Store;Train Station;Food Court;Trade School;Coffee Shop
+147802,2,Mall,Fast Food Restaurant;Food Court;Restaurant;Subway;Italian Restaurant
+87944,0,Mall,Food Court;Nightclub;Gym;Chinese Restaurant;General Entertainment
+20856,0,Mall,Flea Market;Tea Room;Subway;Chinese Restaurant;Food Court
+232592,0,Caf,Chinese Restaurant;Mall;Multiplex;Nightclub;Airport Terminal
+222998,0,Nightclub,Bar;Chinese Restaurant;Department Store;Japanese Restaurant
+82055,0,Church,Mall;Food Court;Clothing Store;Coffee Shop;Subway
+145765,0,College Academic Building,General College & University;Mall;Hotel;Subway;Train Station
+10486,2,Mall,Department Store;Food Court;Church;Bus Station;Chinese Restaurant
+18402,2,Mall,Food Court;Grocery Store;Asian Restaurant;Coffee Shop;Subway
+47402,0,Mall,Subway;Train Station;Food Court;High School;American Restaurant
+153359,0,Mall,Chinese Restaurant;Government Building;Caf;Asian Restaurant;Seafood Restaurant
+245692,0,Nightclub,Mall;Multiplex;Caf;Chinese Restaurant;Hospital
+184880,0,Mall,Bus Station;Grocery Store;Coffee Shop;High School;Multiplex
+155178,2,Boutique,Clothing Store;Food Court;Caf;Mall;Japanese Restaurant
+82056,0,Mall,Train Station;Subway;Multiplex;Trade School;Flea Market
+164968,0,Fried Chicken Joint,Mall;Food Court;Fast Food Restaurant;Italian Restaurant;Multiplex
+67468,2,Asian Restaurant,Mall;Trade School;Church;Bar;Hospital
+146087,0,Mall,Furniture / Home Store;Italian Restaurant;Resort;Chinese Restaurant;Dessert Shop
+84519,0,Hotel,Subway;Mall;Food Court;Park;Flea Market
+66214,0,Mall,Subway;Food Court;Bus Station;Caf;Burger Joint
+289,4,Mall,Subway;Bus Station;Multiplex;Flea Market;Department Store
+123172,0,Mall,High School;Burger Joint;Chinese Restaurant;Food Court;Asian Restaurant
+142749,0,Mall,Department Store;Restaurant;American Restaurant;Asian Restaurant;General Entertainment
+50623,0,Mall,Nightclub;Coffee Shop;Fast Food Restaurant;Fried Chicken Joint;Asian Restaurant
+76811,0,Mall,Coffee Shop;Bus Station;Grocery Store;Trade School;General Entertainment
+171248,0,Caf,Chinese Restaurant;Hotel;Italian Restaurant;Mall;Coffee Shop
+89773,0,University,Mall;Caf;Airport;Chinese Restaurant;College Academic Building
+197408,0,Mall,Department Store;Subway;Asian Restaurant;Tea Room;Bus Station
+64513,2,Mall,Asian Restaurant;Food Court;Japanese Restaurant;Bar;Ramen /  Noodle House
+114043,0,Mall,Nightclub;Chinese Restaurant;Furniture / Home Store;Coffee Shop;Seafood Restaurant
+235954,0,Coffee Shop,Multiplex;Fast Food Restaurant;Food Court;Ice Cream Shop;Chinese Restaurant
+117800,0,Coffee Shop,Mall;Caf;Department Store;Flea Market;Fried Chicken Joint
+109337,0,Mall,Nightclub;Resort;Chinese Restaurant;Department Store;Bar
+182492,0,Mall,General College & University;General Entertainment;American Restaurant;Food Court;Multiplex
+142756,0,Bus Station,Mall;Coffee Shop;Train Station;Trade School;Fast Food Restaurant
+200021,0,Mall,Hotel;Multiplex;Coffee Shop;Bar;Chinese Restaurant
+133157,0,Mall,Nightclub;Park;Coffee Shop;Fried Chicken Joint;Multiplex
+13869,2,Mall,Gym;Fried Chicken Joint;Fast Food Restaurant;High School;Food Court
+48638,0,School,High School;Mall;Multiplex;Fast Food Restaurant;Asian Restaurant
+31452,2,Church,Mall;University;Asian Restaurant;Chinese Restaurant;Subway
+162892,0,Multiplex,Event Space;Hospital;Mall;Airport Terminal;Coffee Shop
+192251,0,Mall,Fast Food Restaurant;Flea Market;Sushi Restaurant;Asian Restaurant;Burger Joint
+199907,0,Mall,High School;Nightclub;Flea Market;Clothing Store;Resort
+165003,0,Mall,Coffee Shop;Chinese Restaurant;Train Station;Bus Station;College Academic Building
+123200,0,Bus Line,Bus Station;High School;Mall;Asian Restaurant;Coffee Shop
+82883,0,Train Station,Bus Station;Mall;Asian Restaurant;Food Court;Event Space
+32841,0,Bus Station,Train Station;Mall;Subway;Church;Bus Line
+101414,2,Mall,Church;Coffee Shop;Chinese Restaurant;Clothing Store;Furniture / Home Store
+15565,0,Mall,Gym;Fast Food Restaurant
+155197,0,Mall,Hospital;Department Store;Food Court;Flea Market;Airport
+120093,0,Food Court,Hotel;Caf;Department Store;Mall;Seafood Restaurant
+194861,0,Mall,Train Station;Food Court;Fast Food Restaurant;Grocery Store;Multiplex
+69328,2,Mall,High School;Caf;Boutique;Hotel;Chinese Restaurant
+142771,0,Mall,Nightclub;Dessert Shop;Food Court;General Entertainment;Subway
+239386,0,Mall,Church;Food Court;Italian Restaurant;Nightclub;Bar
+157041,0,Mall,Food Court;Fast Food Restaurant;Chinese Restaurant;Coffee Shop;College Cafeteria
+78184,2,Mall,Chinese Restaurant;Sushi Restaurant;Boutique;Japanese Restaurant;Restaurant
+6541,2,Caf,Mall;Coffee Shop;Hotel;Department Store;Food Court
+194869,0,Chinese Restaurant,Multiplex;Coffee Shop;Seafood Restaurant;Burger Joint;Caf
+12872,2,Mall,Department Store;Coffee Shop;Food Court;Caf;Chinese Restaurant
+242981,0,School,Mall;Food Court;Park;Chinese Restaurant;Hotel
+158958,0,Mall,Chinese Restaurant;Hotel;Bus Station;Dessert Shop;Event Space
+36409,0,Mall,Japanese Restaurant;Airport;Multiplex;Caf;Coffee Shop
+27098,0,Bus Station,Train Station;Mall;Subway;Airport;Coffee Shop
+153382,0,Mall,Fast Food Restaurant;Trade School;Coffee Shop;Flea Market;Multiplex
+213980,0,Asian Restaurant,Mall;Multiplex;Airport;Bar;Clothing Store
+19569,0,Mall,Italian Restaurant;Hospital;Bus Line;Chinese Restaurant;Subway
+22458,2,Mall,Resort;Gym;General College & University;Caf;Airport
+87103,0,Mall,Airport;Chinese Restaurant;Airport Terminal;General Entertainment;Hotel
+18164,0,Bus Station,Dessert Shop;Event Space;General Entertainment;Tea Room;Asian Restaurant
+158973,0,Mall,University;Food Court;Multiplex;Caf;Nightclub
+246546,0,Resort,Nightclub
+25178,0,Bus Station,Food Court;Church;Mall;Restaurant;Fast Food Restaurant
+167062,0,Hospital,Subway;Coffee Shop;Government Building;Mall
+85338,0,General College & University,College Academic Building;College Cafeteria;Mall;Bus Line;Food Court
+38114,0,High School,Mall;School;Fast Food Restaurant;Airport;Coffee Shop
+205526,0,Mall,Asian Restaurant;American Restaurant;Burger Joint;Coffee Shop;Event Space
+246565,0,Coffee Shop,Airport Terminal;Airport;Train Station;Bar;Italian Restaurant
+236076,0,Mall,Nightclub;General College & University;Subway;Clothing Store;Airport
+229448,0,Mall,Food Court;Ramen /  Noodle House
+37802,0,Mall,Subway;Train Station;Department Store;Gym;Burger Joint
+30794,0,Mall,Food Court;Coffee Shop;Italian Restaurant;Event Space;Furniture / Home Store
+55180,0,Mall,Train Station;Fast Food Restaurant;Food Court;Subway;Trade School
+34315,0,Mall,Coffee Shop;Church;Gym;Train Station;Boutique
+53779,0,Mall,General Entertainment;Event Space;Sushi Restaurant;Chinese Restaurant;Coffee Shop
+257654,0,Mall,Chinese Restaurant;Church;High School;Airport Terminal;Fried Chicken Joint
+200194,0,Mall,Bar;Nightclub;American Restaurant;Chinese Restaurant;Coffee Shop
+223128,0,Subway,Mall;Bus Station;Fast Food Restaurant;Fried Chicken Joint;Burger Joint
+19441,0,Mall,Government Building;Food Court;Hotel;Chinese Restaurant;Nightclub
+100412,0,Mall,High School;College Cafeteria;Fried Chicken Joint;Multiplex;Asian Restaurant
+134846,0,Mall,Fast Food Restaurant;Bus Line;Bus Station;Food Court;Airport
+226221,0,Park,Event Space;Hotel;Mall;Resort
+7667,0,Mall,Park;Government Building;American Restaurant;Department Store;Furniture / Home Store
+76820,0,Multiplex,Mall;Flea Market;Asian Restaurant;Bus Line;Grocery Store
+180238,0,Subway,Hospital;Fast Food Restaurant;Food Court;Furniture / Home Store;Mall
+16460,2,Mall,Coffee Shop;Church;General Entertainment;High School;Boutique
+42027,0,Mall,Train Station;Bus Station;Caf;Department Store;Gym
+253985,0,Mall,Food Court;Subway;Train Station;University
+57172,0,Bus Line,Bus Station;High School;Mall;Boutique;Department Store
+246617,2,Mall,Food Court;Coffee Shop;Caf;Ice Cream Shop;Sushi Restaurant
+124620,2,Mall,Sushi Restaurant;Asian Restaurant;Chinese Restaurant;Gym;Ice Cream Shop
+42793,0,Mall,Food Court;Bus Station;Restaurant;Burger Joint;Coffee Shop
+37841,0,Mall,Nightclub;Food Court;Coffee Shop;High School;Asian Restaurant
+87991,0,Mall,Event Space;Food Court;Fast Food Restaurant;Italian Restaurant;Bus Station
+149766,0,Italian Restaurant,American Restaurant;Bar;Hotel;Sushi Restaurant;Asian Restaurant
+253993,2,Chinese Restaurant,Mall;Ramen /  Noodle House;Japanese Restaurant;Hotel;Subway
+136436,0,Mall,Department Store;Resort;Bar;Coffee Shop;Fried Chicken Joint
+160998,0,Mall,Coffee Shop;Flea Market;Multiplex;Food Court;Airport
+223095,0,Subway,Mall;Department Store;Grocery Store;Caf;Boutique
+155279,0,Mall,Bus Station;Food Court;High School;Dessert Shop;Grocery Store
+239425,0,Mall,Department Store;Clothing Store;Park;Airport Terminal;Caf
+296,2,Subway,Mall;Bus Station;Japanese Restaurant;Food Court;Chinese Restaurant
+38585,0,Hospital,Mall;Church;Asian Restaurant;Furniture / Home Store;Fast Food Restaurant
+88010,0,Mall,Chinese Restaurant;Dessert Shop;Event Space;Ramen /  Noodle House;Airport
+55191,4,Mall,Fast Food Restaurant;Train Station;Subway;General College & University;Bus Station
+6791,2,Mall,Department Store;Gym;Ramen /  Noodle House;Caf;Government Building
+178015,0,Mall,Caf;Multiplex;Japanese Restaurant;Coffee Shop;Food Court
+96344,2,Furniture / Home Store,Bus Line;Food Court;Airport Terminal;Chinese Restaurant;Church
+264306,0,Gym,Subway;Bus Station;Food Court;Mall;Clothing Store
+104774,2,Mall,Food Court;Dessert Shop;Multiplex;Train Station;Chinese Restaurant
+205567,0,Caf,Bus Line;Mall;Bus Station;Food Court
+208384,0,Mall,Multiplex;Fried Chicken Joint;Park;Dessert Shop;Hospital
+16581,2,Mall,Department Store;College Academic Building;Boutique;Clothing Store;Food Court
+22320,4,Tea Room,Bus Station;Train Station;Mall;Bus Line;Subway
+2371,4,Bus Station,Mall;Train Station;Bus Line;Coffee Shop;Fast Food Restaurant
+32621,2,Mall,Subway;Train Station;Food Court;Bus Station;High School
+1256,4,Train Station,Mall;Bus Station;Food Court;Subway;Asian Restaurant
+30163,0,Train Station,Mall;Bus Station;Multiplex;Clothing Store;Fast Food Restaurant
+68106,0,Mall,High School;College Academic Building;Church;Fast Food Restaurant;Clothing Store
+134879,0,Subway,Mall;Train Station;Bus Line;Asian Restaurant;Food Court
+82921,0,Mall,Park;Food Court;Fast Food Restaurant;Asian Restaurant;Hospital
+19579,0,Mall,Trade School;Subway;Bus Station;Fast Food Restaurant;Train Station
+28120,2,Mall,University;Boutique;Japanese Restaurant;Clothing Store;Multiplex
+111692,0,Mall,Nightclub;Subway;Chinese Restaurant;Hotel;Department Store
+31004,0,Mall,Clothing Store;Bar;Fast Food Restaurant;Boutique;Nightclub
+211221,0,Mall,Subway;Tea Room;Fast Food Restaurant;Coffee Shop;College Academic Building
+161035,0,Mall,Coffee Shop;Government Building;Caf;Chinese Restaurant;Asian Restaurant
+239480,0,General College & University,Fast Food Restaurant;College Cafeteria;Mall;Bar;Caf
+144520,2,Mall,Chinese Restaurant;Tea Room;Hotel;Caf;Asian Restaurant
+66263,0,Seafood Restaurant,Mall;Coffee Shop;Trade School;Event Space;Fried Chicken Joint
+60831,0,Mall,Bus Station;Fried Chicken Joint;Train Station;Fast Food Restaurant;Food Court
+100444,0,Mall,Bus Station;Flea Market;Food Court;Nightclub;Airport
+63938,0,Mall,Subway;Nightclub;Coffee Shop;Multiplex;Asian Restaurant
+169220,0,Mall,Subway;Bus Station;Train Station;Asian Restaurant;College Academic Building
+79003,0,Nightclub,Bus Station;Bar;Mall;Coffee Shop;Flea Market
+130318,0,University,Mall;Grocery Store;Hotel;Airport Terminal;Nightclub
+232813,0,Bus Station,Mall;Coffee Shop;Food Court;General Entertainment;Restaurant
+3349,4,Subway,Mall;High School;Fast Food Restaurant;Bus Station;Bus Line
+121908,0,Mall,Coffee Shop;Chinese Restaurant;Flea Market;Grocery Store;Asian Restaurant
+29140,0,Mall,Bus Station;Train Station;Subway;Bus Line;Food Court
+144530,0,Resort,Asian Restaurant;Mall
+226436,0,Mall,High School;Subway;Food Court;Resort;Bus Line
+97359,2,Mall,Coffee Shop;Bus Station;Airport;Subway;Burger Joint
+178074,0,Subway,High School;Bus Line;Fried Chicken Joint;College Academic Building;Multiplex
+1164,4,Bus Station,Train Station;High School;Bus Line;Mall;Fast Food Restaurant
+36723,0,Food Court,Mall;Hotel;General Entertainment;University;Chinese Restaurant
+33591,0,Mall,Bus Station;Fast Food Restaurant;Flea Market;Chinese Restaurant;Resort
+89811,0,Mall,Tea Room;Clothing Store;Flea Market;Event Space;Fast Food Restaurant
+65679,0,Mall,Department Store;College Cafeteria;General College & University;Multiplex;Boutique
+70022,0,High School,Fast Food Restaurant;Train Station;Hospital;Mall;Airport
+128939,0,Bus Station,Food Court;Mall;Flea Market;Subway;Airport Terminal
+124671,0,Bus Line,Bus Station;Subway;Mall;Food Court;Train Station
+265707,0,Mall,Fast Food Restaurant;Chinese Restaurant;Coffee Shop;Flea Market;Train Station
+232929,0,Gym,Mall;Hospital;Subway;Caf;Fast Food Restaurant
+123259,0,Grocery Store,Mall;Fast Food Restaurant;Bus Station;General Entertainment;Asian Restaurant
+65695,0,Coffee Shop,Fast Food Restaurant;College Academic Building;Food Court;Train Station;Multiplex
+149607,0,Nightclub,Mall;Chinese Restaurant;Coffee Shop;Boutique;Caf
+157048,0,Coffee Shop,Bar;Asian Restaurant;Food Court;Mall;Burger Joint
+220176,0,Flea Market,Mall;Bus Station;Hotel;Coffee Shop;Food Court
+16550,0,Mall,Flea Market;Bus Station;Food Court;Coffee Shop;Chinese Restaurant
+77520,0,Asian Restaurant,Food Court;Furniture / Home Store;Airport;Chinese Restaurant;Hotel
+116605,0,Government Building,Asian Restaurant;Food Court;General Entertainment;Multiplex;Coffee Shop
+49607,0,Airport,Mall;Caf;Coffee Shop;Hospital;Multiplex
+246778,0,Mall,Department Store;Clothing Store;Japanese Restaurant;Bus Station;Fast Food Restaurant
+108262,0,Mall,University;Coffee Shop;Multiplex;Hospital;Italian Restaurant
+229640,0,Mall,Flea Market;Food Court;Boutique;Hospital;Airport
+232957,0,Mall,General College & University;Multiplex;Food Court;Furniture / Home Store;Chinese Restaurant
+95427,0,Mall,Train Station;Subway;Food Court;Department Store;American Restaurant
+128959,2,Mall,College Academic Building;Asian Restaurant;Fast Food Restaurant;Caf;Food Court
+236301,0,Mall,Multiplex;Nightclub;Chinese Restaurant;Food Court;Dessert Shop
+6067,4,Bus Station,Bus Line;Mall;Trade School;Coffee Shop;Train Station
+200368,0,Mall,Fast Food Restaurant;High School;Subway;Park
+114154,0,Mall,Asian Restaurant;Bus Station;Dessert Shop;Fast Food Restaurant;Food Court
+217223,0,Gym,Airport;Caf;Government Building;Grocery Store;Hotel
+82971,0,Mall,Train Station;Bus Station;Trade School;Asian Restaurant;Flea Market
+112947,0,Mall,Subway;Coffee Shop;Burger Joint;Bus Station;Caf
+128967,0,Mall,Food Court;Furniture / Home Store;American Restaurant;Japanese Restaurant;Caf
+220219,0,Department Store,Mall;Hotel;Chinese Restaurant;Asian Restaurant;Nightclub
+89865,0,Mall,Nightclub;Caf;General Entertainment;Asian Restaurant;Bar
+128968,0,Mall,Fried Chicken Joint;Church;Fast Food Restaurant;Food Court;High School
+26006,0,Subway,Mall;Bus Station;Train Station;Trade School;Department Store
+41091,0,Bus Line,University;Bus Station;Subway;High School;Mall
+24864,4,Food Court,Mall;Subway;Coffee Shop;Train Station;Fast Food Restaurant
+55210,0,Mall,Bus Station;Subway;Train Station;Fast Food Restaurant;General College & University
+134902,0,Nightclub,Mall;Hotel;Chinese Restaurant;Multiplex
+76143,0,Nightclub,Mall;Tea Room;Coffee Shop;Dessert Shop;Grocery Store
+32629,4,Bus Line,Mall;School;Government Building;Food Court;Fast Food Restaurant
+195117,0,Mall,Nightclub;Chinese Restaurant;Food Court;Multiplex;Bus Station
+43495,0,University,Mall;Train Station;Multiplex;Asian Restaurant;Chinese Restaurant
+197642,0,College Academic Building,Coffee Shop;Fried Chicken Joint
+195121,0,Mall,Food Court;Caf;Subway;Asian Restaurant;Bus Station
+88976,0,Mall,University;Caf;Flea Market;Gym;Fast Food Restaurant
+112941,0,Hotel,Coffee Shop;Bar;Furniture / Home Store;School;Asian Restaurant
+250345,0,Hotel,Food Court;Boutique;Department Store;Resort;Airport
+197727,0,Mall,Multiplex;Asian Restaurant;Bus Station;Resort;Chinese Restaurant
+195027,0,Trade School,Bus Station;Mall;Fast Food Restaurant;Furniture / Home Store;Train Station
+173680,0,Mall,Train Station;High School;Food Court;Hotel;Bus Station
+56681,2,Mall,Subway;Ice Cream Shop;Bus Station;Food Court;Coffee Shop
+214248,0,General College & University,College Cafeteria;College Academic Building;Mall;Event Space;Trade School
+38133,2,Mall,Coffee Shop;Chinese Restaurant;Asian Restaurant;Restaurant;Grocery Store
+233036,0,University,Mall;Airport Terminal;College Academic Building;Fast Food Restaurant;Chinese Restaurant
+257942,0,Bus Station,Food Court;Mall;Department Store;Fast Food Restaurant;Caf
+205748,2,Chinese Restaurant,Mall;Asian Restaurant;Event Space;Church;Food Court
+157242,0,Mall,Department Store;Fast Food Restaurant;Furniture / Home Store;Grocery Store;Resort
+246876,0,Mall,High School;Coffee Shop;Fast Food Restaurant;Flea Market;Fried Chicken Joint
+192258,0,Coffee Shop,Mall;Bar;Caf;Japanese Restaurant;Nightclub
+3524,0,Mall,Subway;Hotel;Asian Restaurant;Grocery Store;Caf
+90634,0,Mall,Food Court;Chinese Restaurant;Caf;Airport;American Restaurant
+141300,0,Mall,Trade School;School;Event Space;Seafood Restaurant;Park
+175856,0,Mall,College Cafeteria;High School;Food Court;Gym;Asian Restaurant
+4000,0,Mall,Subway;Bus Line;Bus Station;Clothing Store;Grocery Store
+171433,0,Mall,American Restaurant;Chinese Restaurant;Dessert Shop;Fast Food Restaurant;Ice Cream Shop
+90754,2,Mall,Church;Caf;Food Court;Asian Restaurant;Department Store
+42177,0,Mall,Flea Market;Coffee Shop;Fast Food Restaurant;Asian Restaurant;Nightclub
+19690,0,Government Building,General College & University;Coffee Shop;College Cafeteria;Mall;Flea Market
+82985,0,Mall,Grocery Store;Resort;Chinese Restaurant;Coffee Shop;Fast Food Restaurant
+221735,2,Mall,University;Multiplex;Chinese Restaurant;Food Court;Japanese Restaurant
+203085,0,Mall,Multiplex;Asian Restaurant;Japanese Restaurant;Furniture / Home Store;Ramen /  Noodle House
+133329,0,Mall,College Academic Building;Subway;School;Flea Market;Government Building
+148024,2,Mall,Food Court;Japanese Restaurant;Bar;Restaurant;American Restaurant
+8568,2,Mall,Airport;Chinese Restaurant;Tea Room;Asian Restaurant;Church
+88844,0,Mall,Dessert Shop;Clothing Store;Food Court;Ice Cream Shop;Tea Room
+97906,0,Mall,Italian Restaurant;Food Court;Grocery Store;Seafood Restaurant;Airport
+253264,0,Event Space,Mall;Chinese Restaurant;Food Court;Nightclub;Japanese Restaurant
+120589,0,Mall,Multiplex;Nightclub;Subway;Dessert Shop;Fast Food Restaurant
+243225,0,Mall,General College & University;Clothing Store;Caf;Food Court;Nightclub
+41534,2,Food Court,Mall;Caf;Multiplex;Subway;Train Station
+110626,0,Mall,Caf;Boutique;American Restaurant;Fast Food Restaurant;General Entertainment
+30378,4,Bus Station,Bus Line;Mall;Subway;Coffee Shop;Fast Food Restaurant
+139680,0,Coffee Shop,Nightclub;Mall;Chinese Restaurant;Government Building;Burger Joint
+14502,0,Bus Line,Bus Station;High School;Food Court;Mall;Coffee Shop
+231050,0,Subway,Bus Station;Japanese Restaurant;Mall
+117969,0,Mall,Church;Clothing Store;Flea Market;Food Court;Nightclub
+165259,0,Food Court,Multiplex;Mall;Nightclub;Coffee Shop;Hotel
+104833,0,Mall,Grocery Store;General Entertainment;Subway;Multiplex;Airport
+117968,0,Mall,Flea Market;Boutique;Clothing Store;Coffee Shop;General Entertainment
+94513,0,Mall,Subway;Flea Market;Hospital;Coffee Shop;Food Court
+79052,2,Mall,Chinese Restaurant;Caf;Japanese Restaurant;Coffee Shop;Multiplex
+151732,0,Mall,Hospital;General Entertainment;Clothing Store;Department Store;Flea Market
+265946,0,Mall,Caf;Coffee Shop;Church;Fried Chicken Joint;Resort
+258051,0,Mall,Subway;Department Store;Flea Market;Food Court;Furniture / Home Store
+182818,0,Multiplex,Boutique;Airport Terminal;Asian Restaurant;Bar;Caf
+30543,0,Train Station,Coffee Shop;Grocery Store;Hotel;Bus Station;Food Court
+220359,0,Mall,Department Store;Bus Station;Boutique;Coffee Shop;Grocery Store
+76165,0,Coffee Shop,Mall;Train Station;Subway;Bus Station;Gym
+65124,0,Mall,Food Court;Flea Market;Subway;Japanese Restaurant;Airport Terminal
+208656,0,Train Station,Event Space;Mall;Trade School;Bus Station;Department Store
+110636,0,Mall,Department Store;Chinese Restaurant;Event Space;Hotel;Airport
+105946,0,Subway,Mall;Bus Station;Ramen /  Noodle House;Dessert Shop;Government Building
+107135,0,Mall,Nightclub;Burger Joint;Japanese Restaurant;Restaurant;School
+200522,0,Asian Restaurant,Food Court;Mall;Chinese Restaurant;Coffee Shop;Fried Chicken Joint
+126196,0,Bar,Caf;Food Court;Burger Joint;Chinese Restaurant;Coffee Shop
+57732,0,Mall,Subway;Bus Station;Chinese Restaurant;Flea Market;Multiplex
+195236,0,Mall,Hospital;Nightclub;Bus Line;Bus Station;Coffee Shop
+120671,0,Mall,Hospital;Coffee Shop;Food Court;Multiplex;American Restaurant
+250710,0,Caf,General Entertainment;Hotel;Mall;Boutique;Burger Joint
+6342,2,Mall,Subway;Bus Station;Food Court;Asian Restaurant;Chinese Restaurant
+171577,0,Mall,Food Court;Dessert Shop;Grocery Store;Asian Restaurant;Caf
+236509,0,Mall,University;Train Station;Coffee Shop;Flea Market;Subway
+175962,0,Mall,Chinese Restaurant;Coffee Shop;Dessert Shop;Furniture / Home Store;General Entertainment
+163215,2,Mall,Fast Food Restaurant;Caf;Chinese Restaurant;Event Space;Food Court
+4119,4,Mall,Bus Station;Food Court;Grocery Store;General College & University;Bus Line
+48263,2,Mall,University;Coffee Shop;Asian Restaurant;Clothing Store;Food Court
+89905,0,Mall,Bus Station;Park;Asian Restaurant;Hotel;School
+9165,0,High School,Mall;College Cafeteria;Fast Food Restaurant;Multiplex;Bus Station
+192640,0,Hotel,Caf;Coffee Shop;Chinese Restaurant;Event Space;High School
+3209,0,Mall,Coffee Shop;Multiplex;Chinese Restaurant;Hotel;Bus Station
+79065,0,Mall,School;Subway;Government Building;High School;Bus Station
+51533,0,Mall,Grocery Store;Ice Cream Shop;Department Store;Caf;Food Court
+148118,0,Mall,Train Station;Subway;Bus Station;Resort;Asian Restaurant
+19222,4,Bus Line,Bus Station;Mall;School
+103700,0,General Entertainment,Hotel;Mall;Government Building;Subway;Caf
+220441,0,Mall,High School;Asian Restaurant;Bus Station;Fast Food Restaurant;Coffee Shop
+211548,0,Nightclub,Mall;Chinese Restaurant;Hotel;Bar;Flea Market
+8490,0,Mall,Bus Station;Coffee Shop;Fast Food Restaurant;Fried Chicken Joint;Bus Line
+197893,0,Train Station,Mall;Subway;Airport Terminal;Multiplex;Park
+75507,0,Mall,Food Court;Train Station;Asian Restaurant;Fried Chicken Joint;General Entertainment
+54295,0,Coffee Shop,Mall
+239984,0,Mall,University;Church;Coffee Shop;Food Court;Airport
+125956,0,Subway,Department Store;Mall;Airport;Coffee Shop;Government Building
+134992,0,Food Court,Mall;Asian Restaurant;Train Station;Caf;Department Store
+33013,0,Mall,Subway;Food Court;Train Station;Grocery Store;Bus Station
+122029,0,Mall,Flea Market;American Restaurant;Caf;Clothing Store;Italian Restaurant
+211560,0,Airport Terminal,Airport;Bus Station;Fast Food Restaurant;Coffee Shop;Food Court
+143019,0,Mall,Clothing Store;Boutique;Caf;Coffee Shop;Ice Cream Shop
+266091,0,Mall,Asian Restaurant;Hotel;Ramen /  Noodle House;Department Store;Dessert Shop
+223574,2,Asian Restaurant,Chinese Restaurant;Japanese Restaurant;Mall;Furniture / Home Store;Coffee Shop
+131923,0,University,Mall;Bar;Chinese Restaurant;Seafood Restaurant;American Restaurant
+86347,0,College Cafeteria,High School;College Academic Building;Mall;Church;Grocery Store
+27236,2,Coffee Shop,Fast Food Restaurant;Mall;Church;Food Court;Bus Station
+157374,0,Subway,Food Court;Caf;Train Station;Mall;Bus Line
+197814,0,Bus Station,Fast Food Restaurant;Bus Line;Coffee Shop;High School;Hospital
+266112,0,Coffee Shop,Boutique;Caf;Nightclub;Chinese Restaurant;Food Court
+236590,0,Airport,Bar;Mall;Food Court;Clothing Store;Coffee Shop
+171635,0,Food Court,Park;Asian Restaurant;Mall;Resort;Coffee Shop
+262147,0,Mall,Burger Joint;Caf;Flea Market
+220461,0,Nightclub,Mall;Chinese Restaurant;Caf;Gym;Multiplex
+4239,2,Mall,Food Court;Gym;Bus Station;Nightclub;Chinese Restaurant
+39625,0,University,Subway;Mall;Coffee Shop;Food Court;Multiplex
+848,2,Nightclub,Restaurant;Mall;Gym;Bus Station;Caf
+60712,0,Mall,Trade School;School;Bus Station;College Cafeteria;Event Space
+5307,0,Mall,Subway;Food Court;Coffee Shop;Dessert Shop;Fast Food Restaurant
+203272,0,Mall,Japanese Restaurant;Bus Station;Train Station;Flea Market;American Restaurant
+83819,0,Dessert Shop,Food Court;Mall;Ice Cream Shop;Nightclub;Chinese Restaurant
+243596,0,Mall,Food Court;Fast Food Restaurant;Event Space;Fried Chicken Joint;Restaurant
+205931,0,Subway,Mall;Nightclub;Food Court;Chinese Restaurant;Hotel
+211555,0,Mall,Bus Station;Bus Line;Furniture / Home Store;Grocery Store;Department Store
+220493,0,Mall,High School;Multiplex;Sushi Restaurant;Chinese Restaurant;Resort
+197930,0,High School,College Cafeteria;Food Court;Mall;Bus Station;Coffee Shop
+243608,0,Mall,Trade School;Resort;Coffee Shop;School;Boutique
+254574,0,Mall,High School;Caf;Coffee Shop;Food Court;Ice Cream Shop
+99511,0,Mall,Ramen /  Noodle House;Airport;Airport Terminal;Chinese Restaurant;Coffee Shop
+143069,0,Food Court,Mall;Asian Restaurant;Coffee Shop;Event Space;Trade School
+165359,0,Subway,Mall;Boutique;Department Store;Train Station;Food Court
+240049,0,Mall,Multiplex;American Restaurant;Dessert Shop;Food Court;Ramen /  Noodle House
+179527,0,Airport,Caf;Resort
+236643,0,Nightclub,Asian Restaurant;Bar;Coffee Shop;Chinese Restaurant;Event Space
+1014,0,Mall,Department Store;Boutique;Subway;Train Station;Clothing Store
+138227,0,Mall,Flea Market;Coffee Shop;Chinese Restaurant;Japanese Restaurant;Ramen /  Noodle House
+74792,2,Mall,Bus Station;Fried Chicken Joint;High School;Caf;Tea Room
+43166,0,Mall,Bus Station;Flea Market;Multiplex;Chinese Restaurant;Boutique
+44557,2,Mall,Nightclub;Chinese Restaurant;Flea Market;Japanese Restaurant;Subway
+163304,0,Boutique,Coffee Shop;Food Court;Fried Chicken Joint;Asian Restaurant;Bus Station
+10530,0,Church,Mall;Fast Food Restaurant;Airport;Multiplex;Burger Joint
+195375,0,Hotel,Caf;Fried Chicken Joint;Nightclub;Asian Restaurant;Fast Food Restaurant
+5845,0,Mall,Subway;Department Store;Food Court;Burger Joint;Clothing Store
+151852,0,Mall,High School;Hotel;Fast Food Restaurant;Flea Market;Bus Station
+108393,2,Mall,Sushi Restaurant;Church;Chinese Restaurant;Furniture / Home Store;Food Court
+9860,0,Subway,High School;Mall;Fast Food Restaurant;Park;Bus Line
+178368,0,Coffee Shop,Restaurant;Mall;Caf;American Restaurant;Gym
+195402,2,Mall,Furniture / Home Store;Chinese Restaurant;Ramen /  Noodle House;Fast Food Restaurant;Food Court
+2390,0,Gym,American Restaurant;Restaurant
+3519,0,Subway,Mall;Grocery Store;Hotel;Train Station;Caf
+118049,2,Mall,Chinese Restaurant;Hotel;American Restaurant;Burger Joint;Food Court
+197870,0,Event Space,Mall;Caf;Nightclub;Asian Restaurant;Bar
+61750,0,Food Court,Train Station;Bus Line;Mall;Dessert Shop;Fast Food Restaurant
+63360,2,Mall,Clothing Store;Asian Restaurant;Food Court;Bar;Burger Joint
+15757,2,Caf,Hotel;Mall;Subway;Bus Station;Airport Terminal
+182965,0,Mall,Food Court;Chinese Restaurant;Caf;Coffee Shop;Ramen /  Noodle House
+250880,0,Hospital,Mall;Bus Station;Train Station;Hotel;Coffee Shop
+163330,0,Food Court,Chinese Restaurant;Coffee Shop;Government Building;Hotel;Mall
+94569,0,Food Court,University;Bus Station;Coffee Shop;Train Station;Mall
+103741,0,Bus Station,Mall;Chinese Restaurant;Coffee Shop;Flea Market;Resort
+109573,0,Mall,Food Court;Train Station;Chinese Restaurant;Airport;General Entertainment
+16746,0,Mall,Bus Line;Food Court;Fast Food Restaurant;Government Building;Bus Station
+150050,0,Mall,Food Court;Subway;Flea Market;Fast Food Restaurant;Multiplex
+8780,0,Mall,Department Store;Boutique;Chinese Restaurant;Clothing Store;Food Court
+52438,2,Mall,Food Court;Bar;Asian Restaurant;Department Store;Caf
+46324,0,Mall,Subway;Bus Line;Bus Station;Train Station;Food Court
+16288,0,Mall,Subway;Department Store;Fast Food Restaurant;Boutique;Chinese Restaurant
+39028,0,Subway,Bus Station;Train Station;Park;Grocery Store;College Academic Building
+157394,0,Mall,Fast Food Restaurant;Flea Market;Airport;Airport Terminal;Caf
+247278,0,College Academic Building,General College & University;Mall;Caf;Bus Station;Gym
+14355,4,Subway,Bus Line;Bus Station;Coffee Shop;Restaurant;Mall
+80605,0,Mall,Nightclub;School;Airport;Airport Terminal;Food Court
+165425,0,Mall,Subway;Train Station;Hotel;Sushi Restaurant;Airport Terminal
+208888,0,Mall,Japanese Restaurant;Asian Restaurant;Dessert Shop;Train Station;Coffee Shop
+197980,0,Food Court,
+25593,0,Mall,Coffee Shop;Furniture / Home Store;Department Store;Japanese Restaurant;Subway
+123439,0,Mall,Coffee Shop;Multiplex;Chinese Restaurant;Food Court;Burger Joint
+22608,4,Bus Line,Bus Station;Government Building;Mall;Subway;Food Court
+262328,0,Mall,General Entertainment;Multiplex;Resort;Sushi Restaurant;Airport
+2135,4,Subway,Mall;Food Court;Train Station;Flea Market;Chinese Restaurant
+80609,0,Nightclub,Mall;Food Court;Fast Food Restaurant;Asian Restaurant;Coffee Shop
+5358,0,Mall,Food Court;Subway;Hotel;Airport;Bus Station
+39997,2,Church,Mall;Grocery Store;American Restaurant;Food Court;Department Store
+114298,0,Bus Station,Hospital;Subway;Fast Food Restaurant;Grocery Store
+183033,0,Mall,Bus Station;Fast Food Restaurant;Subway;Bus Line;Furniture / Home Store
+203457,0,Mall,Flea Market;Food Court;Airport Terminal;Caf;Chinese Restaurant
+79510,0,Mall,Flea Market;Coffee Shop;General College & University;General Entertainment;Restaurant
+176132,0,Mall,Nightclub;Multiplex;American Restaurant;Flea Market;Government Building
+5276,0,Government Building,Caf;Mall;Resort;Hotel;Chinese Restaurant
+233489,0,Caf,Mall;Coffee Shop;Ramen /  Noodle House;Japanese Restaurant;Airport
+151,0,Caf,Chinese Restaurant;Food Court;General Entertainment;Hospital;Fast Food Restaurant
+55249,0,Mall,Subway;Flea Market;Boutique;Bus Station;Church
+258489,0,Train Station,Airport;Seafood Restaurant;Bus Station;Food Court;Multiplex
+266204,0,Mall,Food Court;Seafood Restaurant;Caf;Coffee Shop;Multiplex
+206121,0,Mall,Fried Chicken Joint;Fast Food Restaurant;Bus Station;Chinese Restaurant;Grocery Store
+109603,0,Food Court,Japanese Restaurant;Mall;Coffee Shop;Fast Food Restaurant;Government Building
+178435,0,Mall,Chinese Restaurant;Hotel;Coffee Shop;Clothing Store;Food Court
+233512,2,Mall,Japanese Restaurant;Asian Restaurant;Department Store;Hotel;Caf
+12608,0,Mall,Bus Station;Hotel;Food Court;Train Station;Church
+5511,4,Bus Line,Bus Station;Mall;Event Space;Train Station;Subway
+180736,0,High School,Church;University;Train Station;Caf;Hospital
+10337,0,Mall,Fast Food Restaurant;Food Court;High School;Grocery Store;School
+123495,0,High School,Mall;Government Building;Burger Joint;Subway;Department Store
+200811,0,Mall,Bus Station;Multiplex;Coffee Shop;Grocery Store;Clothing Store
+214730,0,Mall,Train Station;Bus Station;Fast Food Restaurant;Bus Line;High School
+109609,0,Subway,Mall;Bus Station;Food Court;Hospital;Chinese Restaurant
+133548,0,Mall,Train Station;Chinese Restaurant;Coffee Shop;Fried Chicken Joint;School
+153836,0,Bus Station,Mall;Food Court;Multiplex;Train Station;High School
+127737,0,Food Court,Coffee Shop;Bus Station;Fast Food Restaurant;Mall;Park
+39315,4,Bus Line,Bus Station;Mall;High School;Fast Food Restaurant;General Entertainment
+141426,0,Mall,Train Station;School;Bus Station;Asian Restaurant;Park
+93620,0,Mall,Hotel;Food Court;Multiplex;Government Building;Asian Restaurant
+31728,0,Mall,Department Store;Fast Food Restaurant;Food Court;Coffee Shop;Fried Chicken Joint
+105361,0,Mall,Bus Station;Food Court;Boutique;Train Station;Asian Restaurant
+236869,0,College Academic Building,College Cafeteria;Train Station;Bus Line;Bus Station;Asian Restaurant
+176201,0,Coffee Shop,Seafood Restaurant;Caf;Department Store;Mall;Ramen /  Noodle House
+254874,0,Mall,Coffee Shop;Caf;Restaurant;Seafood Restaurant;Airport Terminal
+72632,0,Mall,University;Food Court;Chinese Restaurant;Bus Station;Department Store
+243925,0,Nightclub,Mall;Bar;Event Space;General Entertainment;Japanese Restaurant
+211862,0,Mall,University;Caf;Coffee Shop;Department Store;Food Court
+11160,2,Mall,Subway;Department Store;Food Court;Boutique;Caf
+111894,0,Food Court,Grocery Store;Mall;Italian Restaurant;Restaurant;Caf
+21051,0,Mall,Hotel;General Entertainment;Italian Restaurant;Resort;Restaurant
+174017,2,Mall,Caf;Coffee Shop;Restaurant;Ramen /  Noodle House;Resort
+144834,0,Train Station,Bus Station;Mall;Flea Market;Subway;Coffee Shop
+187922,0,Mall,American Restaurant;Food Court;Flea Market;General Entertainment;High School
+122134,0,Mall,Church;Japanese Restaurant;Restaurant;Bus Station;Chinese Restaurant
+180802,0,Nightclub,Chinese Restaurant;Mall;Bar;Hotel;Seafood Restaurant
+214796,0,Mall,Nightclub;Chinese Restaurant;American Restaurant;Asian Restaurant;Sushi Restaurant
+96539,0,Bus Station,Trade School;Food Court;Mall;Airport Terminal;Coffee Shop
+79128,0,High School,Mall;Bus Station;Subway;Asian Restaurant;General Entertainment
+83083,0,Mall,Food Court;Bus Station;Gym;Fast Food Restaurant;Coffee Shop
+206211,0,Mall,High School;Ice Cream Shop;Dessert Shop;Italian Restaurant;Japanese Restaurant
+104983,0,Mall,Bus Station;Japanese Restaurant;Burger Joint;Coffee Shop;Gym
+87305,2,Mall,Food Court;Department Store;Fast Food Restaurant;Boutique;Chinese Restaurant
+153883,0,Hotel,Mall;Hospital;Fast Food Restaurant;Asian Restaurant;Coffee Shop
+90005,0,Mall,Subway;Fast Food Restaurant;General Entertainment;Chinese Restaurant;General College & University
+50740,2,Mall,Coffee Shop;Caf;Dessert Shop;Chinese Restaurant;Food Court
+74111,0,Food Court,Asian Restaurant;Coffee Shop;Mall;Subway;Hotel
+107292,0,Train Station,Bus Station;Bus Line;Mall;Nightclub;Sushi Restaurant
+254976,0,University,Nightclub;Mall;Bar;Burger Joint;Caf
+89122,0,Mall,Ramen /  Noodle House;Train Station;Asian Restaurant;Burger Joint;Food Court
+12019,0,Department Store,
+173022,0,Gym,Coffee Shop;Subway;Fast Food Restaurant;Food Court;Asian Restaurant
+195623,0,Mall,Fast Food Restaurant;American Restaurant;Flea Market;Fried Chicken Joint;Multiplex
+71992,0,High School,Fast Food Restaurant;Mall;Bus Station;Coffee Shop;Department Store
+29568,0,Mall,Subway;College Academic Building;School;Bus Station;Fried Chicken Joint
+86422,0,Mall,Boutique;Asian Restaurant;Bus Line;Food Court;Coffee Shop
+266683,0,Mall,Nightclub;Food Court;Government Building;Coffee Shop;Department Store
+126363,0,General College & University,Mall;Food Court;Caf;College Cafeteria;High School
+200954,0,Bus Station,Bus Line;Hospital;Subway;Government Building;Mall
+111935,0,Subway,Mall;Nightclub;Bus Station;Train Station;Food Court
+206293,0,Mall,Nightclub;Flea Market;Asian Restaurant;Food Court;General Entertainment
+123556,0,Mall,Government Building;Flea Market;Multiplex;Food Court;Chinese Restaurant
+122186,0,Gym,Restaurant;Bar;Caf;Coffee Shop;Government Building
+39037,4,Bus Station,Train Station;Mall;Subway;Caf;Coffee Shop
+217837,0,Gym,Mall;Trade School;Food Court;American Restaurant;Fried Chicken Joint
+130642,0,Mall,Chinese Restaurant;Food Court;Multiplex;Boutique;Coffee Shop
+266723,0,Bus Line,Train Station;Bus Station;Mall;Coffee Shop;Furniture / Home Store
+82282,0,Mall,School;Multiplex;Event Space;Food Court;Furniture / Home Store
+40994,0,Mall,Coffee Shop;Caf;Food Court;Tea Room;Train Station
+3985,0,Mall,Department Store;Chinese Restaurant;Hotel;Boutique;Italian Restaurant
+907,2,Mall,Caf;Coffee Shop;Clothing Store;Train Station;Burger Joint
+93647,0,Mall,Subway;Chinese Restaurant;Flea Market;Food Court;Multiplex
+20331,0,Mall,College Academic Building;Bus Station;Food Court;Grocery Store;Coffee Shop
+75575,0,Mall,Food Court;Caf;Nightclub;Asian Restaurant;Multiplex
+163337,0,Subway,Train Station;Fast Food Restaurant;Mall;Italian Restaurant;Multiplex
+107315,0,Mall,Subway;Train Station;Food Court;Japanese Restaurant;Caf
+220915,0,Bus Station,Mall;Train Station;Gym;American Restaurant;Coffee Shop
+155730,0,General College & University,College Academic Building;Mall;Train Station;Gym;Airport
+57286,0,Mall,Food Court;Coffee Shop;Fast Food Restaurant;Train Station;Bus Station
+80646,0,Food Court,High School;Mall;Flea Market;Fast Food Restaurant;Coffee Shop
+122205,0,Mall,Food Court;Train Station;Hospital;Trade School;American Restaurant
+155736,0,Train Station,Mall;Food Court;Gym;Boutique;Bus Station
+160621,0,Bus Line,Bus Station;Mall;College Cafeteria;High School;Food Court
+230506,0,Gym,Mall;Food Court;Nightclub;Caf;Department Store
+198313,0,Mall,Food Court;Chinese Restaurant;Fast Food Restaurant;Park;Bus Station
+45284,0,Mall,Subway;Train Station;Bus Station;Food Court;Hotel
+64051,0,Bus Station,Mall;Fried Chicken Joint;Grocery Store;Hotel;Food Court
+171923,0,Mall,High School;Bus Station;Chinese Restaurant;Food Court;Asian Restaurant
+217913,0,Mall,Coffee Shop;Bar;Fast Food Restaurant;Food Court;Chinese Restaurant
+49930,0,Mall,High School;Food Court;Government Building;Train Station;Church
+230552,0,College Academic Building,Nightclub;Mall;Hotel;Coffee Shop;Food Court
+34837,2,Mall,Clothing Store;Boutique;Food Court;Department Store;Fast Food Restaurant
+176370,0,Subway,High School;Food Court;American Restaurant;Grocery Store;Bus Station
+7751,4,Bus Line,Subway;Mall;Bus Station;Train Station;Church
+240584,0,Food Court,Mall;Chinese Restaurant
+183306,0,Subway,Mall;Bus Station;High School;Bus Line;Church
+3364,0,Mall,Tea Room;Church;Subway;Airport;Bus Station
+683,0,Subway,Mall;Resort;Coffee Shop;Hotel;Airport
+92735,0,Mall,Coffee Shop;Nightclub;Park;High School;Bus Line
+155770,0,Subway,Park;Mall;Fast Food Restaurant;General Entertainment;High School
+221004,0,Train Station,Event Space;Mall;Subway
+203757,0,Park,Fast Food Restaurant;Mall;School;Bus Station;Subway
+233890,0,Subway,Mall;Church;Bus Line;Bus Station;Fast Food Restaurant
+150228,0,Bus Station,Train Station;College Cafeteria;Mall;Subway;Trade School
+108510,0,Resort,Mall;Bus Line;Coffee Shop;Caf;Chinese Restaurant

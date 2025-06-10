@@ -1,0 +1,7 @@
+Total check-ins: 356381
+Number of unique users: 8734
+Number of unique places: 33892
+Average check-ins per user: 40.80
+Average check-ins per place: 10.52
+Most active user: 73 with 2735 check-ins
+Most popular place: 4b0bd124f964a520e03323e3 with 4289 check-ins
