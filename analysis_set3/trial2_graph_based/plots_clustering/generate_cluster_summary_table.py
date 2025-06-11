@@ -67,11 +67,12 @@ def get_activity_level(num_edges, num_nodes):
 
 # Improved lifestyle/type assignment using combinations of top features and activity
 LIFESTYLE_MAP = [
+    (['College', 'University'], 'High', 'High-activity students/professionals'),
+    (['College', 'University'], 'Moderate', 'Students/Professionals, balanced'),
     (['Food', 'Shop', 'Service', 'Professional & Other Places', 'Travel & Transport'], 'Very High', 'Urban explorers, highly diverse users'),
     (['Food', 'Shop', 'Service', 'Arts & Entertainment'], 'Very High', 'Active, cosmopolitan, event-goers'),
     (['Food', 'Shop', 'Service', 'Nightlife'], 'Moderate', 'Social, nightlife and shopping fans'),
     (['Food', 'Nightlife', 'Shop', 'Service'], 'Moderate', 'Social, outgoing, nightlife seekers'),
-    (['Food', 'College', 'University', 'Professional & Other Places'], 'Moderate', 'Students/Professionals, balanced'),
     (['Shop', 'Service', 'Professional & Other Places', 'Travel & Transport'], 'Moderate', 'Balanced, work/shopping focused'),
     (['Shop', 'Food'], 'Low', 'Routine, low-activity users'),
 ]
@@ -79,7 +80,7 @@ LIFESTYLE_MAP = [
 def get_lifestyle(main_interests, activity):
     main_list = [x.strip() for x in main_interests.split(",")]
     for keywords, act_level, desc in LIFESTYLE_MAP:
-        if activity == act_level and any(k in main_list for k in keywords):
+        if activity == act_level and any(any(key in m for key in keywords) for m in main_list):
             return desc
     # Fallbacks
     if activity == "Very High":
@@ -103,12 +104,21 @@ for idx, row in centroids_df.iterrows():
     top3 = row[degree_cols].sort_values(ascending=False).head(3)
     main_interests = ', '.join([c.replace('degree_', '') for c in top3.index])
     activity = get_activity_level(num_edges, num_nodes)
+    # Distance metrics if present
+    total_distance = row['total_distance'] if 'total_distance' in centroids_df.columns else None
+    mean_distance = row['mean_distance'] if 'mean_distance' in centroids_df.columns else None
+    max_distance = row['max_distance'] if 'max_distance' in centroids_df.columns else None
+    min_distance = row['min_distance'] if 'min_distance' in centroids_df.columns else None
     lifestyle = get_lifestyle(main_interests, activity)
     summary_rows.append({
         'Cluster': cluster,
         'Activity Level': activity,
         'Main Interests': main_interests,
-        'Lifestyle/Type': lifestyle
+        'Lifestyle/Type': lifestyle,
+        'Total Distance (km)': total_distance,
+        'Mean Distance (km)': mean_distance,
+        'Max Distance (km)': max_distance,
+        'Min Distance (km)': min_distance
     })
 
 summary_df = pd.DataFrame(summary_rows)

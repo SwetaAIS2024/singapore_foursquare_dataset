@@ -15,7 +15,13 @@ for i, fname in enumerate(graph_files[:10]):
         G = pickle.load(f)
     plt.figure(figsize=(8, 6))
     pos = nx.spring_layout(G, seed=42)
-    edge_labels = {(u, v): d['count'] for u, v, d in G.edges(data=True)}
+    # Show both count and distance (weight) on edges if available
+    edge_labels = {}
+    for u, v, d in G.edges(data=True):
+        label = f"c:{d.get('count', 0)}"
+        if 'weight' in d:
+            label += f"\nkm:{d['weight']:.1f}"
+        edge_labels[(u, v)] = label
     nx.draw(G, pos, with_labels=True, node_color='skyblue', node_size=800, edge_color='gray', font_size=10)
     nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_color='red')
     plt.title(f'User {fname.replace(".gpickle", "")} POI Category Transition Graph')

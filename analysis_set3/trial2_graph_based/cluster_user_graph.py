@@ -13,7 +13,9 @@ import os
 from sklearn.metrics import silhouette_score, calinski_harabasz_score, davies_bouldin_score
 
 # 1. Load the feature file
-csv_path = "analysis_set3/trial1_graph_based/user_graph_features_rootcat.csv"  # Use root-category features
+csv_path = "analysis_set3/trial2_graph_based/user_graph_features_rootcat.csv"  # Use root-category features with distance
+if not os.path.exists(csv_path):
+    raise FileNotFoundError(f"Feature file not found: {csv_path}")
 df = pd.read_csv(csv_path)
 
 # 2. Initial analysis
@@ -29,6 +31,14 @@ features = df.drop(columns=['user_id'])
 
 # Optionally, drop columns with zero variance (all zeros)
 features = features.loc[:, features.std() > 0]
+
+# If distance-based features exist, print them for confirmation
+distance_cols = [col for col in features.columns if 'distance' in col or 'weight' in col]
+if distance_cols:
+    print('Distance-based features found:', distance_cols)
+    print('Sample distance feature values:\n', features[distance_cols].head())
+else:
+    print('No distance-based features found in the feature file.')
 
 # Standardize features
 scaler = StandardScaler()
@@ -159,8 +169,8 @@ for row, (X_emb, emb_name) in enumerate(methods):
         ax.set_ylabel(f"{emb_name} 2")
 
 plt.tight_layout()
-os.makedirs("analysis_set3/trial1_graph_based/plots_clustering", exist_ok=True)
-plt.savefig("analysis_set3/trial1_graph_based/plots_clustering/user_clustering_comparison.png")
+os.makedirs("analysis_set3/trial2_graph_based/plots_clustering", exist_ok=True)
+plt.savefig("analysis_set3/trial2_graph_based/plots_clustering/user_clustering_comparison.png")
 plt.show()
 
 # 7. Evaluate clustering results and save to text file
@@ -186,8 +196,8 @@ for (X_emb, emb_name) in methods:
             sil = ch = db = 'NA'
         results.append(f"{emb_name}\t{clust_name}\tSilhouette: {sil}\tCalinski-Harabasz: {ch}\tDavies-Bouldin: {db}")
 
-os.makedirs("analysis_set3/trial1_graph_based/plots_clustering", exist_ok=True)
-eval_path = "analysis_set3/trial1_graph_based/plots_clustering/user_clustering_evaluation.txt"
+os.makedirs("analysis_set3/trial2_graph_based/plots_clustering", exist_ok=True)
+eval_path = "analysis_set3/trial2_graph_based/plots_clustering/user_clustering_evaluation.txt"
 with open(eval_path, "w") as f:
     f.write("Embedding\tClustering\tSilhouette\tCalinski-Harabasz\tDavies-Bouldin\n")
     for line in results:
@@ -205,11 +215,11 @@ cluster_assignments['PCA_GMM'] = labels_gmm
 
 # Merge with original features for interpretability
 features_with_clusters = pd.concat([df, cluster_assignments.drop(columns=['user_id'])], axis=1)
-features_with_clusters.to_csv("analysis_set3/trial1_graph_based/plots_clustering/user_graph_features_with_clusters.csv", index=False)
+features_with_clusters.to_csv("analysis_set3/trial2_graph_based/plots_clustering/user_graph_features_with_clusters.csv", index=False)
 print("Saved user features with cluster assignments to user_graph_features_with_clusters.csv")
 
 # 9. Interpretability tests: print and save mean feature values for each cluster (PCA+KMeans)
-interpret_path = "analysis_set3/trial1_graph_based/plots_clustering/user_clustering_interpretability.txt"
+interpret_path = "analysis_set3/trial2_graph_based/plots_clustering/user_clustering_interpretability.txt"
 with open(interpret_path, "w") as f:
     for cluster in sorted(cluster_assignments['PCA_KMeans'].unique()):
         f.write(f"\nCluster {cluster} (PCA+KMeans):\n")
@@ -225,11 +235,11 @@ centroids = kmeans.cluster_centers_  # In standardized feature space
 centroids_orig = scaler.inverse_transform(centroids)
 centroids_df = pd.DataFrame(centroids_orig, columns=features.columns)
 centroids_df.index.name = 'Cluster'
-centroids_df.to_csv("analysis_set3/trial1_graph_based/plots_clustering/user_cluster_centroids_PCA_KMeans.csv")
+centroids_df.to_csv("analysis_set3/trial2_graph_based/plots_clustering/user_cluster_centroids_PCA_KMeans.csv")
 print("Saved cluster centroids to user_cluster_centroids_PCA_KMeans.csv")
 
 # Create a user profile summary for each cluster
-profile_path = "analysis_set3/trial1_graph_based/plots_clustering/user_cluster_profiles_PCA_KMeans.txt"
+profile_path = "analysis_set3/trial2_graph_based/plots_clustering/user_cluster_profiles_PCA_KMeans.txt"
 with open(profile_path, "w") as f:
     for cluster, row in centroids_df.iterrows():
         f.write(f"\nCluster {cluster} profile (PCA+KMeans):\n")
