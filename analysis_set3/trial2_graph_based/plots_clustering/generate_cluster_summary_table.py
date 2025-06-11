@@ -110,6 +110,8 @@ for idx, row in centroids_df.iterrows():
     mean_distance = row['mean_distance'] if 'mean_distance' in centroids_df.columns else None
     max_distance = row['max_distance'] if 'max_distance' in centroids_df.columns else None
     min_distance = row['min_distance'] if 'min_distance' in centroids_df.columns else None
+    # Temporal metric if present
+    mean_time_between_checkins = row['mean_time_between_checkins'] if 'mean_time_between_checkins' in centroids_df.columns else None
     lifestyle = get_lifestyle(main_interests, activity)
     summary_rows.append({
         'Cluster': cluster,
@@ -119,7 +121,8 @@ for idx, row in centroids_df.iterrows():
         'Total Distance (km)': total_distance,
         'Mean Distance (km)': mean_distance,
         'Max Distance (km)': max_distance,
-        'Min Distance (km)': min_distance
+        'Min Distance (km)': min_distance,
+        'Mean Time Between Check-ins (h)': mean_time_between_checkins
     })
 
 summary_df = pd.DataFrame(summary_rows)

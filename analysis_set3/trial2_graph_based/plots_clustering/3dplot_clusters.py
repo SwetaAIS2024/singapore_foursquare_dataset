@@ -42,6 +42,7 @@ ax.set_yticks(list(range(len(root_categories))))
 ax.set_yticklabels([cat.replace('degree_', '') for cat in root_categories], rotation=30)
 plt.title('Cluster Centroids: Spatial, POI Root Category, and Activity')
 plt.tight_layout()
+plt.savefig('analysis_set3/trial2_graph_based/plots_clustering/3dplot_clusters_activity.png')
 plt.show()
 
 # If you have a temporal feature like mean_time_between_checkins, you can plot it as well:
@@ -67,4 +68,5 @@ if 'mean_time_between_checkins' in df.columns:
     ax.set_yticklabels([cat.replace('degree_', '') for cat in root_categories], rotation=30)
     plt.title('Cluster Centroids: Spatial, POI Root Category, and Temporal (Mean Time Between Check-ins)')
     plt.tight_layout()
+    plt.savefig('analysis_set3/trial2_graph_based/plots_clustering/3dplot_clusters_temporal.png')
     plt.show()

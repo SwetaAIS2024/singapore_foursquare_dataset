@@ -101,7 +101,7 @@ all_root_categories = sorted(set(cat2root.values()))
 header = ['user_id', 'num_nodes', 'num_edges', 'num_self_loops']
 header += [f'cat_{cat}' for cat in all_root_categories]
 header += [f'degree_{cat}' for cat in all_root_categories]
-header += ['total_distance', 'mean_distance', 'max_distance', 'min_distance']
+header += ['total_distance', 'mean_distance', 'max_distance', 'min_distance', 'mean_time_between_checkins']
 
 with open(feature_csv, 'w', newline='') as f:
     writer = csv.writer(f)
@@ -133,6 +133,14 @@ with open(feature_csv, 'w', newline='') as f:
             min_distance = np.min(all_distances)
         else:
             total_distance = mean_distance = max_distance = min_distance = 0.0
-        row = [user_id, num_nodes, num_edges, num_self_loops] + cat_counts + degree_counts + [total_distance, mean_distance, max_distance, min_distance]
+        # Temporal feature: mean time between check-ins (in hours)
+        # Load the user's check-ins (already sorted by time)
+        user_visits = user_checkins[user_id]
+        if len(user_visits) > 1:
+            time_diffs = [(user_visits[i+1][0] - user_visits[i][0]).total_seconds()/3600.0 for i in range(len(user_visits)-1)]
+            mean_time_between_checkins = np.mean(time_diffs)
+        else:
+            mean_time_between_checkins = 0.0
+        row = [user_id, num_nodes, num_edges, num_self_loops] + cat_counts + degree_counts + [total_distance, mean_distance, max_distance, min_distance, mean_time_between_checkins]
         writer.writerow(row)
 print(f'Saved user graph features (root categories + distance features) for clustering to {feature_csv}')

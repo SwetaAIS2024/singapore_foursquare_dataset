@@ -1,126 +1,133 @@
 
 Cluster 0 (PCA+KMeans):
-num_nodes                                9.391304
-num_edges                               51.884058
-num_self_loops                           6.217391
-degree_Arts & Entertainment              5.623188
-degree_College & University              2.884058
-degree_Food                              7.768116
-degree_Great Outdoors                    5.043478
-degree_Nightlife Spot                    3.840580
-degree_Professional & Other Places       5.811594
-degree_Residence                         3.478261
-degree_Shop & Service                    7.913043
-degree_Travel & Transport                6.985507
-total_distance                        1309.564708
-mean_distance                            3.451587
-max_distance                            19.397560
+num_nodes                                9.289655
+num_edges                               49.813793
+num_self_loops                           6.186207
+degree_Arts & Entertainment              5.365517
+degree_College & University              3.558621
+degree_Food                              7.855172
+degree_Great Outdoors                    5.013793
+degree_Nightlife Spot                    3.551724
+degree_Professional & Other Places       5.910345
+degree_Residence                         1.862069
+degree_Shop & Service                    7.648276
+degree_Travel & Transport                6.462069
+total_distance                        1179.496680
+mean_distance                            3.733956
+max_distance                            19.960846
 min_distance                             0.000000
+mean_time_between_checkins              41.490553
 
 Cluster 1 (PCA+KMeans):
-num_nodes                               8.211382
-num_edges                              31.304878
-num_self_loops                          4.394309
-degree_Arts & Entertainment             2.784553
-degree_College & University             4.853659
-degree_Food                             6.093496
-degree_Great Outdoors                   2.260163
-degree_Nightlife Spot                   1.337398
-degree_Professional & Other Places      3.552846
-degree_Residence                        0.284553
-degree_Shop & Service                   5.459350
-degree_Travel & Transport               3.508130
-total_distance                        353.515353
-mean_distance                           3.611324
-max_distance                           17.403050
-min_distance                            0.000825
+num_nodes                               8.070175
+num_edges                              26.606516
+num_self_loops                          3.551378
+degree_Arts & Entertainment             2.759398
+degree_College & University             1.070175
+degree_Food                             6.398496
+degree_Great Outdoors                   1.899749
+degree_Nightlife Spot                   3.010025
+degree_Professional & Other Places      2.298246
+degree_Residence                        0.203008
+degree_Shop & Service                   4.804511
+degree_Travel & Transport               2.596491
+total_distance                        352.446612
+mean_distance                           4.629249
+max_distance                           18.675036
+min_distance                            0.006142
+mean_time_between_checkins            132.524648
 
 Cluster 2 (PCA+KMeans):
-num_nodes                               5.640394
-num_edges                              15.024631
-num_self_loops                          2.697044
-degree_Arts & Entertainment             1.155172
-degree_College & University             0.598522
-degree_Food                             3.344828
-degree_Great Outdoors                   0.884236
-degree_Nightlife Spot                   0.731527
-degree_Professional & Other Places      1.682266
-degree_Residence                        0.128079
-degree_Shop & Service                   3.480296
-degree_Travel & Transport               2.603448
-total_distance                        164.078747
-mean_distance                           3.092330
-max_distance                           14.693000
-min_distance                            0.013358
+num_nodes                               6.589333
+num_edges                              19.013333
+num_self_loops                          3.144000
+degree_Arts & Entertainment             1.744000
+degree_College & University             0.642667
+degree_Food                             4.290667
+degree_Great Outdoors                   1.472000
+degree_Nightlife Spot                   0.669333
+degree_Professional & Other Places      2.434667
+degree_Residence                        0.178667
+degree_Shop & Service                   4.202667
+degree_Travel & Transport               2.856000
+total_distance                        279.428888
+mean_distance                           5.389777
+max_distance                           19.899986
+min_distance                            0.017007
+mean_time_between_checkins            196.792484
 
 Cluster 3 (PCA+KMeans):
-num_nodes                               7.286652
-num_edges                              25.059081
-num_self_loops                          4.041575
-degree_Arts & Entertainment             2.271335
-degree_College & University             0.761488
-degree_Food                             4.711160
-degree_Great Outdoors                   2.137856
-degree_Nightlife Spot                   0.728665
-degree_Professional & Other Places      3.485777
-degree_Residence                        0.461707
-degree_Shop & Service                   5.253829
-degree_Travel & Transport               4.442013
-total_distance                        284.076015
-mean_distance                           3.041911
-max_distance                           15.634879
-min_distance                            0.001543
+num_nodes                               8.421642
+num_edges                              35.813433
+num_self_loops                          4.992537
+degree_Arts & Entertainment             3.511194
+degree_College & University             4.850746
+degree_Food                             6.320896
+degree_Great Outdoors                   2.940299
+degree_Nightlife Spot                   1.358209
+degree_Professional & Other Places      4.350746
+degree_Residence                        0.332090
+degree_Shop & Service                   5.944030
+degree_Travel & Transport               4.746269
+total_distance                        433.350475
+mean_distance                           3.271172
+max_distance                           17.370511
+min_distance                            0.000203
+mean_time_between_checkins             69.679935
 
 Cluster 4 (PCA+KMeans):
-num_nodes                               7.200000
-num_edges                              22.016327
-num_self_loops                          3.181633
-degree_Arts & Entertainment             2.222449
-degree_College & University             0.626531
-degree_Food                             5.273469
-degree_Great Outdoors                   1.791837
-degree_Nightlife Spot                   1.173469
-degree_Professional & Other Places      2.530612
-degree_Residence                        0.185714
-degree_Shop & Service                   4.461224
-degree_Travel & Transport               2.781633
-total_distance                        356.934081
-mean_distance                           5.480492
-max_distance                           20.247315
-min_distance                            0.010989
+num_nodes                               7.163136
+num_edges                              24.406780
+num_self_loops                          3.906780
+degree_Arts & Entertainment             2.133475
+degree_College & University             0.963983
+degree_Food                             4.601695
+degree_Great Outdoors                   2.000000
+degree_Nightlife Spot                   0.555085
+degree_Professional & Other Places      3.372881
+degree_Residence                        0.444915
+degree_Shop & Service                   5.252119
+degree_Travel & Transport               4.328390
+total_distance                        296.339285
+mean_distance                           3.154178
+max_distance                           16.116002
+min_distance                            0.001426
+mean_time_between_checkins             83.207387
 
 Cluster 5 (PCA+KMeans):
-num_nodes                               8.393564
-num_edges                              32.363861
-num_self_loops                          4.445545
-degree_Arts & Entertainment             3.579208
-degree_College & University             0.705446
-degree_Food                             6.457921
-degree_Great Outdoors                   2.851485
-degree_Nightlife Spot                   3.809406
-degree_Professional & Other Places      3.287129
-degree_Residence                        0.445545
-degree_Shop & Service                   5.811881
-degree_Travel & Transport               3.814356
-total_distance                        479.717898
-mean_distance                           4.565583
-max_distance                           19.867942
-min_distance                            0.004939
+num_nodes                               8.395349
+num_edges                              34.904393
+num_self_loops                          4.780362
+degree_Arts & Entertainment             3.935401
+degree_College & University             0.837209
+degree_Food                             6.444444
+degree_Great Outdoors                   3.532300
+degree_Nightlife Spot                   3.046512
+degree_Professional & Other Places      4.160207
+degree_Residence                        0.552972
+degree_Shop & Service                   6.227390
+degree_Travel & Transport               4.666667
+total_distance                        613.145645
+mean_distance                           4.639578
+max_distance                           20.405733
+min_distance                            0.003687
+mean_time_between_checkins             82.327705
 
 Cluster 6 (PCA+KMeans):
-num_nodes                               8.760300
-num_edges                              42.063670
-num_self_loops                          5.610487
-degree_Arts & Entertainment             4.599251
-degree_College & University             3.273408
-degree_Food                             7.056180
-degree_Great Outdoors                   4.213483
-degree_Nightlife Spot                   2.441948
-degree_Professional & Other Places      5.337079
-degree_Residence                        0.415730
-degree_Shop & Service                   6.838951
-degree_Travel & Transport               5.883895
-total_distance                        790.570305
-mean_distance                           3.876755
-max_distance                           19.412357
-min_distance                            0.000084
+num_nodes                               5.532423
+num_edges                              14.784983
+num_self_loops                          2.662116
+degree_Arts & Entertainment             1.156997
+degree_College & University             0.638225
+degree_Food                             3.283276
+degree_Great Outdoors                   0.883959
+degree_Nightlife Spot                   0.744027
+degree_Professional & Other Places      1.668942
+degree_Residence                        0.081911
+degree_Shop & Service                   3.341297
+degree_Travel & Transport               2.532423
+total_distance                        149.532319
+mean_distance                           2.616353
+max_distance                           13.289375
+min_distance                            0.009387
+mean_time_between_checkins            107.843433
