@@ -102,3 +102,26 @@ similar users, clustering POIs into regions of interest (ROIs), and encoding che
 in timestamps to time slots, to realize the reduction of the U, L, and T dimension,
 respectively, is proposed. In this way, CULT-TF reduces the complexity of the recom-
 mendation matrix while integrating the richness of the contextual information.
+
+- similar user clustering :
+
+The core of similar user clustering consists of two parts: selecting clustering centers
+and calculating user similarity. In this paper, we select several users with the highest
+activity as clustering centers based on their social data and check-in data, calculate the user
+similarity based on their social relationship similarity and check-in behavior similarity, and
+then cluster the remaining users in the clustering center with the highest user similarity, as
+detailed in Section 4.1
+
+- modelling
+Unlike the POI recommendation method, which directly uses the user, location, and time
+information of check-in data to construct the tensor model, our proposed method models
+user activity, POI popularity, and time slot popularity as the eigenvalues of the U, L, and T
+dimensions. 
+
+- TF 
+Tensor factorization can
+be used to present and maintain the structural characteristics of high-dimensional data by
+mapping the relationships in the original space to a low-dimensional space and extracting
+the potential relation between different dimensions to calculate the approximate tensor
+of the missing values and compensate for the matrix sparsity problem caused by missing
+data.

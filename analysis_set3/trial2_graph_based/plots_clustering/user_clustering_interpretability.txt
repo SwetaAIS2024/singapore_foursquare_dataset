@@ -1,0 +1,98 @@
+
+Cluster 0 (PCA+KMeans):
+num_nodes                              9.029851
+num_edges                             44.388060
+num_self_loops                         5.462687
+degree_Arts & Entertainment            4.328358
+degree_College & University            2.179104
+degree_Food                            6.776119
+degree_Great Outdoors                  4.044776
+degree_Nightlife Spot                  2.686567
+degree_Professional & Other Places     5.253731
+degree_Residence                       4.522388
+degree_Shop & Service                  6.970149
+degree_Travel & Transport              5.835821
+
+Cluster 1 (PCA+KMeans):
+num_nodes                              7.381551
+num_edges                             21.664570
+num_self_loops                         2.985325
+degree_Arts & Entertainment            2.324948
+degree_College & University            0.631027
+degree_Food                            5.513627
+degree_Great Outdoors                  1.685535
+degree_Nightlife Spot                  1.503145
+degree_Professional & Other Places     1.991614
+degree_Residence                       0.197065
+degree_Shop & Service                  4.471698
+degree_Travel & Transport              2.207547
+
+Cluster 2 (PCA+KMeans):
+num_nodes                              8.202899
+num_edges                             32.460145
+num_self_loops                         4.514493
+degree_Arts & Entertainment            2.949275
+degree_College & University            4.873188
+degree_Food                            5.989130
+degree_Great Outdoors                  2.427536
+degree_Nightlife Spot                  0.989130
+degree_Professional & Other Places     4.010870
+degree_Residence                       0.286232
+degree_Shop & Service                  5.648551
+degree_Travel & Transport              4.184783
+
+Cluster 3 (PCA+KMeans):
+num_nodes                              5.577273
+num_edges                             15.315909
+num_self_loops                         2.813636
+degree_Arts & Entertainment            1.022727
+degree_College & University            0.665909
+degree_Food                            3.186364
+degree_Great Outdoors                  0.886364
+degree_Nightlife Spot                  0.550000
+degree_Professional & Other Places     1.963636
+degree_Residence                       0.145455
+degree_Shop & Service                  3.606818
+degree_Travel & Transport              2.977273
+
+Cluster 4 (PCA+KMeans):
+num_nodes                              9.013453
+num_edges                             45.125561
+num_self_loops                         5.959641
+degree_Arts & Entertainment            4.955157
+degree_College & University            3.206278
+degree_Food                            7.466368
+degree_Great Outdoors                  4.896861
+degree_Nightlife Spot                  3.327354
+degree_Professional & Other Places     5.331839
+degree_Residence                       0.582960
+degree_Shop & Service                  7.170404
+degree_Travel & Transport              5.914798
+
+Cluster 5 (PCA+KMeans):
+num_nodes                              8.427729
+num_edges                             32.616519
+num_self_loops                         4.480826
+degree_Arts & Entertainment            3.666667
+degree_College & University            0.908555
+degree_Food                            6.622419
+degree_Great Outdoors                  2.554572
+degree_Nightlife Spot                  4.463127
+degree_Professional & Other Places     3.070796
+degree_Residence                       0.380531
+degree_Shop & Service                  5.707965
+degree_Travel & Transport              3.589971
+
+Cluster 6 (PCA+KMeans):
+num_nodes                              7.417795
+num_edges                             26.694391
+num_self_loops                         4.222437
+degree_Arts & Entertainment            2.576402
+degree_College & University            0.661509
+degree_Food                            4.978723
+degree_Great Outdoors                  2.518375
+degree_Nightlife Spot                  0.624758
+degree_Professional & Other Places     3.947776
+degree_Residence                       0.301741
+degree_Shop & Service                  5.382979
+degree_Travel & Transport              4.762089
