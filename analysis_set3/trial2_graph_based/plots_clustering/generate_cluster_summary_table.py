@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 
 # Path to the cluster profile file (update if needed)
 profile_path = "analysis_set3/trial1_graph_based/plots_clustering/user_cluster_profiles_PCA_KMeans.txt"
@@ -126,3 +127,35 @@ summary_path = "analysis_set3/trial1_graph_based/plots_clustering/user_cluster_s
 summary_df.to_csv(summary_path, index=False)
 print(f"Summary table saved to {summary_path}")
 print(summary_df)
+
+# --- Additional block: Parse interpretability text file and output as table ---
+interpret_file = "analysis_set3/trial2_graph_based/plots_clustering/user_clustering_interpretability.txt"
+clusters = []
+with open(interpret_file, "r") as f:
+    cluster = {}
+    for line in f:
+        line = line.strip()
+        if line.startswith("Cluster"):
+            if cluster:
+                clusters.append(cluster)
+                cluster = {}
+            match = re.search(r"Cluster (\d+)", line)
+            if match:
+                cluster["Cluster"] = int(match.group(1))
+        elif line and not line.startswith("//"):
+            parts = re.split(r"\s{2,}", line)
+            if len(parts) == 2:
+                key, value = parts
+                try:
+                    cluster[key] = float(value)
+                except ValueError:
+                    cluster[key] = value
+    if cluster:
+        clusters.append(cluster)
+
+interpret_df = pd.DataFrame(clusters)
+interpret_csv = "analysis_set3/trial2_graph_based/plots_clustering/user_clustering_interpretability_table.csv"
+interpret_df.to_csv(interpret_csv, index=False)
+print(f"Interpretability table saved to {interpret_csv}")
+print(interpret_df.to_string(index=False))
+# --- End of additional block ---
