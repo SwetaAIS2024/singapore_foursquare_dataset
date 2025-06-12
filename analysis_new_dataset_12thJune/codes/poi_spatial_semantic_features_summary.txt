@@ -1,0 +1,89 @@
+--- POI Spatial & Semantic Features Summary ---
+Number of POIs: 340097
+Columns: ['cat_4bf58dd8d48988d110951735', 'cat_4bf58dd8d48988d111941735', 'cat_4bf58dd8d48988d120951735', 'cat_4bf58dd8d48988d124941735', 'cat_4bf58dd8d48988d130941735', 'cat_4bf58dd8d48988d142941735', 'cat_4bf58dd8d48988d145941735', 'cat_4bf58dd8d48988d16a941735', 'cat_4bf58dd8d48988d16d941735', 'cat_4bf58dd8d48988d171941735', 'cat_4bf58dd8d48988d177941735', 'cat_4bf58dd8d48988d1a0941735', 'cat_4bf58dd8d48988d1d1941735', 'cat_4bf58dd8d48988d1e0931735', 'cat_4bf58dd8d48988d1e7941735', 'cat_4bf58dd8d48988d1f9931735', 'cat_4bf58dd8d48988d1fe931735', 'cat_4c38df4de52ce0d596b336e1', 'cat_4d954b06a243a5684965b473', 'cat_4f2a210c4b9023bd5841ed28', 'cat_Other', 'latitude', 'longitude', 'fsq_place_id']
+First 5 rows:
+   cat_4bf58dd8d48988d110951735  cat_4bf58dd8d48988d111941735  ...   longitude              fsq_place_id
+0                         False                         False  ...  103.650789  4dc72b7a7d8b14fb46558dab
+1                         False                         False  ...  103.743717  4d2e9d4890cb236a76496678
+2                         False                         False  ...  103.852706  56b5fe6b498e266bd212065a
+3                         False                         False  ...  103.786220  580ef56438faaeedb24c15bc
+4                         False                         False  ...  103.705457  4d5a57db35966dcb04795f28
+
+[5 rows x 24 columns]
+Column types:
+cat_4bf58dd8d48988d110951735       bool
+cat_4bf58dd8d48988d111941735       bool
+cat_4bf58dd8d48988d120951735       bool
+cat_4bf58dd8d48988d124941735       bool
+cat_4bf58dd8d48988d130941735       bool
+cat_4bf58dd8d48988d142941735       bool
+cat_4bf58dd8d48988d145941735       bool
+cat_4bf58dd8d48988d16a941735       bool
+cat_4bf58dd8d48988d16d941735       bool
+cat_4bf58dd8d48988d171941735       bool
+cat_4bf58dd8d48988d177941735       bool
+cat_4bf58dd8d48988d1a0941735       bool
+cat_4bf58dd8d48988d1d1941735       bool
+cat_4bf58dd8d48988d1e0931735       bool
+cat_4bf58dd8d48988d1e7941735       bool
+cat_4bf58dd8d48988d1f9931735       bool
+cat_4bf58dd8d48988d1fe931735       bool
+cat_4c38df4de52ce0d596b336e1       bool
+cat_4d954b06a243a5684965b473       bool
+cat_4f2a210c4b9023bd5841ed28       bool
+cat_Other                          bool
+latitude                        float64
+longitude                       float64
+fsq_place_id                     object
+dtype: object
+Null values per column:
+cat_4bf58dd8d48988d110951735    0
+cat_4bf58dd8d48988d111941735    0
+cat_4bf58dd8d48988d120951735    0
+cat_4bf58dd8d48988d124941735    0
+cat_4bf58dd8d48988d130941735    0
+cat_4bf58dd8d48988d142941735    0
+cat_4bf58dd8d48988d145941735    0
+cat_4bf58dd8d48988d16a941735    0
+cat_4bf58dd8d48988d16d941735    0
+cat_4bf58dd8d48988d171941735    0
+cat_4bf58dd8d48988d177941735    0
+cat_4bf58dd8d48988d1a0941735    0
+cat_4bf58dd8d48988d1d1941735    0
+cat_4bf58dd8d48988d1e0931735    0
+cat_4bf58dd8d48988d1e7941735    0
+cat_4bf58dd8d48988d1f9931735    0
+cat_4bf58dd8d48988d1fe931735    0
+cat_4c38df4de52ce0d596b336e1    0
+cat_4d954b06a243a5684965b473    0
+cat_4f2a210c4b9023bd5841ed28    0
+cat_Other                       0
+latitude                        0
+longitude                       0
+fsq_place_id                    0
+dtype: int64
+Category columns: ['cat_4bf58dd8d48988d110951735', 'cat_4bf58dd8d48988d111941735', 'cat_4bf58dd8d48988d120951735', 'cat_4bf58dd8d48988d124941735', 'cat_4bf58dd8d48988d130941735', 'cat_4bf58dd8d48988d142941735', 'cat_4bf58dd8d48988d145941735', 'cat_4bf58dd8d48988d16a941735', 'cat_4bf58dd8d48988d16d941735', 'cat_4bf58dd8d48988d171941735', 'cat_4bf58dd8d48988d177941735', 'cat_4bf58dd8d48988d1a0941735', 'cat_4bf58dd8d48988d1d1941735', 'cat_4bf58dd8d48988d1e0931735', 'cat_4bf58dd8d48988d1e7941735', 'cat_4bf58dd8d48988d1f9931735', 'cat_4bf58dd8d48988d1fe931735', 'cat_4c38df4de52ce0d596b336e1', 'cat_4d954b06a243a5684965b473', 'cat_4f2a210c4b9023bd5841ed28', 'cat_Other']
+POIs per top category (sum of one-hot columns):
+  cat_4bf58dd8d48988d110951735: 4806
+  cat_4bf58dd8d48988d111941735: 3078
+  cat_4bf58dd8d48988d120951735: 3646
+  cat_4bf58dd8d48988d124941735: 16990
+  cat_4bf58dd8d48988d130941735: 11436
+  cat_4bf58dd8d48988d142941735: 5273
+  cat_4bf58dd8d48988d145941735: 7191
+  cat_4bf58dd8d48988d16a941735: 3002
+  cat_4bf58dd8d48988d16d941735: 5650
+  cat_4bf58dd8d48988d171941735: 2884
+  cat_4bf58dd8d48988d177941735: 2993
+  cat_4bf58dd8d48988d1a0941735: 9989
+  cat_4bf58dd8d48988d1d1941735: 3054
+  cat_4bf58dd8d48988d1e0931735: 6678
+  cat_4bf58dd8d48988d1e7941735: 3185
+  cat_4bf58dd8d48988d1f9931735: 3663
+  cat_4bf58dd8d48988d1fe931735: 3574
+  cat_4c38df4de52ce0d596b336e1: 4831
+  cat_4d954b06a243a5684965b473: 14044
+  cat_4f2a210c4b9023bd5841ed28: 4078
+  cat_Other: 220052
+Latitude: min=0.938423354, max=1.480499075, mean=1.3366883422880413
+Longitude: min=103.59431, max=104.442999, mean=103.84170038850739

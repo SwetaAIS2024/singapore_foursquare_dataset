@@ -1,0 +1,160 @@
+--- Dataset Pre-Analysis ---
+Number of rows: 1245
+Columns: ['category_id', 'category_level', 'category_name', 'category_label', 'level1_category_id', 'level1_category_name', 'level2_category_id', 'level2_category_name', 'level3_category_id', 'level3_category_name', 'level4_category_id', 'level4_category_name', 'level5_category_id', 'level5_category_name', 'level6_category_id', 'level6_category_name']
+First 5 rows:
+                category_id  category_level  ... level6_category_id level6_category_name
+0  4bf58dd8d48988d1ba941735               4  ...                NaN                  NaN
+1  4bf58dd8d48988d1b8941735               4  ...                NaN                  NaN
+2  55a59bace4b013909087cb0c               5  ...                NaN                  NaN
+3  530e33ccbcbc57f1066bbff9               3  ...                NaN                  NaN
+4  56aa371be4b08b9a8d5734c3               2  ...                NaN                  NaN
+
+[5 rows x 16 columns]
+Column types:
+category_id             object
+category_level           int64
+category_name           object
+category_label          object
+level1_category_id      object
+level1_category_name    object
+level2_category_id      object
+level2_category_name    object
+level3_category_id      object
+level3_category_name    object
+level4_category_id      object
+level4_category_name    object
+level5_category_id      object
+level5_category_name    object
+level6_category_id      object
+level6_category_name    object
+dtype: object
+Null values per column:
+category_id                0
+category_level             0
+category_name              0
+category_label             0
+level1_category_id         0
+level1_category_name       0
+level2_category_id        11
+level2_category_name      11
+level3_category_id       445
+level3_category_name     445
+level4_category_id       910
+level4_category_name     910
+level5_category_id      1149
+level5_category_name    1149
+level6_category_id      1231
+level6_category_name    1231
+dtype: int64
+Unique level1_category_name: 11
+Top 10 level1_category_name:
+level1_category_name
+Dining and Drinking                   393
+Business and Professional Services    195
+Retail                                150
+Community and Government              127
+Sports and Recreation                  87
+Arts and Entertainment                 72
+Travel and Transportation              72
+Landmarks and Outdoors                 71
+Health and Medicine                    59
+Event                                  17
+Name: count, dtype: int64
+Unique level2_category_name: 434
+Top 10 level2_category_name:
+level2_category_name
+Restaurant                  335
+Education                    57
+Home Improvement Service     27
+Food and Beverage Retail     25
+Bar                          24
+Physician                    24
+Transport Hub                24
+Spiritual Center             15
+Government Building          14
+Fashion Retail               14
+Name: count, dtype: int64
+Unique level3_category_name: 465
+Top 10 level3_category_name:
+level3_category_name
+Asian Restaurant             89
+College and University       38
+Italian Restaurant           27
+Indian Restaurant            26
+Latin American Restaurant    25
+Turkish Restaurant           18
+French Restaurant            17
+Middle Eastern Restaurant    16
+Greek Restaurant             14
+Airport                      13
+Name: count, dtype: int64
+Unique level4_category_name: 239
+Top 10 level4_category_name:
+level4_category_name
+Chinese Restaurant                 34
+Japanese Restaurant                23
+South American Restaurant          20
+Indonesian Restaurant               9
+Korean Restaurant                   7
+Persian Restaurant                  7
+Malay Restaurant                    2
+Thai Restaurant                     2
+College Communications Building     1
+Ouzeri                              1
+Name: count, dtype: int64
+Unique level5_category_name: 82
+Top 10 level5_category_name:
+level5_category_name
+Brazilian Restaurant         14
+Peruvian Restaurant           2
+Mamak Restaurant              1
+Donburi Restaurant            1
+Zhejiang Restaurant           1
+Japanese Curry Restaurant     1
+Monjayaki Restaurant          1
+Cantonese Restaurant          1
+Hunan Restaurant              1
+Manchu Restaurant             1
+Name: count, dtype: int64
+Unique level6_category_name: 14
+Top 10 level6_category_name:
+level6_category_name
+Southern Brazilian Restaurant        1
+Northeastern Brazilian Restaurant    1
+Mineiro Restaurant                   1
+Peruvian Roast Chicken Joint         1
+Pastelaria                           1
+Central Brazilian Restaurant         1
+Northern Brazilian Restaurant        1
+Acai House                           1
+Baiano Restaurant                    1
+Churrascaria                         1
+Name: count, dtype: int64
+Unique category_name: 1244
+Top 10 category_name:
+category_name
+Restaurant                 2
+Peking Duck Restaurant     1
+Shabu-Shabu Restaurant     1
+Rental Car Location        1
+Art Museum                 1
+Kaiseki Restaurant         1
+Betting Shop               1
+Scandinavian Restaurant    1
+Loans Agency               1
+Beach                      1
+Name: count, dtype: int64
+Unique category_label: 1245
+Top 10 category_label:
+category_label
+Dining and Drinking > Restaurant > French Restaurant > Alsatian Restaurant                               1
+Community and Government > Education > College and University > College Basketball Court                 1
+Community and Government > Education > College and University > College Football Field                   1
+Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Donburi Restaurant           1
+Landmarks and Outdoors > States and Municipalities > Village                                             1
+Landmarks and Outdoors > Waterfront                                                                      1
+Dining and Drinking > Restaurant > Asian Restaurant > Malay Restaurant > Mamak Restaurant                1
+Dining and Drinking > Restaurant > Asian Restaurant > Japanese Restaurant > Japanese Curry Restaurant    1
+Community and Government > Education > College and University > College Rec Center                       1
+Retail > Fashion Retail > Batik Store                                                                    1
+Name: count, dtype: int64
