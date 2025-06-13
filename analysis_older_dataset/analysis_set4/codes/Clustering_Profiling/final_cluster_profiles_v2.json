@@ -1,0 +1,230 @@
+{
+  "3": {
+    "POI Preference": [
+      "Food",
+      "Shop & Service",
+      "Travel & Transport",
+      "Arts & Entertainment",
+      "Great Outdoors"
+    ],
+    "Time Profile": "Peaks during Early Morning (4AM-8AM)",
+    "Time-Wise Behavior": {
+      "Morning (8AM-12PM)": "Food",
+      "Noon (12PM-4PM)": "Food",
+      "Evening (4PM-8PM)": "Travel & Transport",
+      "Night (8PM-12AM)": "Food",
+      "Late Night (12AM-4AM)": "Food",
+      "Early Morning (4AM-8AM)": "Food"
+    },
+    "Label": "Foodies"
+  },
+  "2": {
+    "POI Preference": [
+      "College & University",
+      "Food",
+      "Shop & Service",
+      "Travel & Transport",
+      "Professional & Other Places"
+    ],
+    "Time Profile": "Peaks during Morning (8AM-12PM)",
+    "Time-Wise Behavior": {
+      "Morning (8AM-12PM)": "College & University",
+      "Noon (12PM-4PM)": "Food",
+      "Evening (4PM-8PM)": "Food",
+      "Night (8PM-12AM)": "College & University",
+      "Late Night (12AM-4AM)": "College & University",
+      "Early Morning (4AM-8AM)": "College & University"
+    },
+    "Label": "Students/Professionals"
+  },
+  "0": {
+    "POI Preference": [
+      "Professional & Other Places",
+      "Food",
+      "Shop & Service",
+      "Travel & Transport",
+      "Great Outdoors"
+    ],
+    "Time Profile": "Peaks during Morning (8AM-12PM)",
+    "Time-Wise Behavior": {
+      "Morning (8AM-12PM)": "Food",
+      "Noon (12PM-4PM)": "Food",
+      "Evening (4PM-8PM)": "Food",
+      "Night (8PM-12AM)": "Professional & Other Places",
+      "Late Night (12AM-4AM)": "Professional & Other Places",
+      "Early Morning (4AM-8AM)": "Professional & Other Places"
+    },
+    "Label": "General"
+  },
+  "9": {
+    "POI Preference": [
+      "Shop & Service",
+      "Food",
+      "Travel & Transport",
+      "Professional & Other Places",
+      "Arts & Entertainment"
+    ],
+    "Time Profile": "Peaks during Morning (8AM-12PM)",
+    "Time-Wise Behavior": {
+      "Morning (8AM-12PM)": "Shop & Service",
+      "Noon (12PM-4PM)": "Shop & Service",
+      "Evening (4PM-8PM)": "Nightlife Spot",
+      "Night (8PM-12AM)": "Travel & Transport",
+      "Late Night (12AM-4AM)": "Shop & Service",
+      "Early Morning (4AM-8AM)": "Shop & Service"
+    },
+    "Label": "Weekend Mall Visitors"
+  },
+  "5": {
+    "POI Preference": [
+      "Food",
+      "Shop & Service",
+      "Travel & Transport",
+      "Arts & Entertainment",
+      "Professional & Other Places"
+    ],
+    "Time Profile": "Peaks during Morning (8AM-12PM)",
+    "Time-Wise Behavior": {
+      "Morning (8AM-12PM)": "Food",
+      "Noon (12PM-4PM)": "Food",
+      "Evening (4PM-8PM)": "Food",
+      "Night (8PM-12AM)": "Travel & Transport",
+      "Late Night (12AM-4AM)": "Food",
+      "Early Morning (4AM-8AM)": "Food"
+    },
+    "Label": "Foodies"
+  },
+  "8": {
+    "POI Preference": [
+      "Food",
+      "Shop & Service",
+      "Professional & Other Places",
+      "Travel & Transport",
+      "Arts & Entertainment"
+    ],
+    "Time Profile": "Peaks during Morning (8AM-12PM)",
+    "Time-Wise Behavior": {
+      "Morning (8AM-12PM)": "Shop & Service",
+      "Noon (12PM-4PM)": "Travel & Transport",
+      "Evening (4PM-8PM)": "Travel & Transport",
+      "Night (8PM-12AM)": "Arts & Entertainment",
+      "Late Night (12AM-4AM)": "Travel & Transport",
+      "Early Morning (4AM-8AM)": "Travel & Transport"
+    },
+    "Label": "Foodies"
+  },
+  "10": {
+    "POI Preference": [
+      "Shop & Service",
+      "Food",
+      "Travel & Transport",
+      "Professional & Other Places",
+      "Arts & Entertainment"
+    ],
+    "Time Profile": "Peaks during Morning (8AM-12PM)",
+    "Time-Wise Behavior": {
+      "Morning (8AM-12PM)": "Shop & Service",
+      "Noon (12PM-4PM)": "Shop & Service",
+      "Evening (4PM-8PM)": "Food",
+      "Night (8PM-12AM)": "Travel & Transport",
+      "Late Night (12AM-4AM)": "Travel & Transport",
+      "Early Morning (4AM-8AM)": "Shop & Service"
+    },
+    "Label": "Weekend Mall Visitors"
+  },
+  "6": {
+    "POI Preference": [
+      "Travel & Transport",
+      "Shop & Service",
+      "Food",
+      "Professional & Other Places",
+      "Great Outdoors"
+    ],
+    "Time Profile": "Peaks during Morning (8AM-12PM)",
+    "Time-Wise Behavior": {
+      "Morning (8AM-12PM)": "Travel & Transport",
+      "Noon (12PM-4PM)": "Travel & Transport",
+      "Evening (4PM-8PM)": "Travel & Transport",
+      "Night (8PM-12AM)": "Travel & Transport",
+      "Late Night (12AM-4AM)": "Travel & Transport",
+      "Early Morning (4AM-8AM)": "Travel & Transport"
+    },
+    "Label": "General"
+  },
+  "11": {
+    "POI Preference": [
+      "Professional & Other Places",
+      "Shop & Service",
+      "Food",
+      "Travel & Transport",
+      "College & University"
+    ],
+    "Time Profile": "Peaks during Morning (8AM-12PM)",
+    "Time-Wise Behavior": {
+      "Morning (8AM-12PM)": "Shop & Service",
+      "Noon (12PM-4PM)": "Food",
+      "Evening (4PM-8PM)": "Food",
+      "Night (8PM-12AM)": "Professional & Other Places",
+      "Late Night (12AM-4AM)": "Professional & Other Places",
+      "Early Morning (4AM-8AM)": "Shop & Service"
+    },
+    "Label": "General"
+  },
+  "1": {
+    "POI Preference": [
+      "Shop & Service",
+      "Food",
+      "Nightlife Spot",
+      "Travel & Transport",
+      "Professional & Other Places"
+    ],
+    "Time Profile": "Peaks during Morning (8AM-12PM)",
+    "Time-Wise Behavior": {
+      "Morning (8AM-12PM)": "Shop & Service",
+      "Noon (12PM-4PM)": "Food",
+      "Evening (4PM-8PM)": "Nightlife Spot",
+      "Night (8PM-12AM)": "Food",
+      "Late Night (12AM-4AM)": "Professional & Other Places",
+      "Early Morning (4AM-8AM)": "Shop & Service"
+    },
+    "Label": "Weekend Mall Visitors"
+  },
+  "7": {
+    "POI Preference": [
+      "Professional & Other Places",
+      "Shop & Service",
+      "Food",
+      "Travel & Transport",
+      "Great Outdoors"
+    ],
+    "Time Profile": "Peaks during Night (8PM-12AM)",
+    "Time-Wise Behavior": {
+      "Morning (8AM-12PM)": "Shop & Service",
+      "Noon (12PM-4PM)": "Professional & Other Places",
+      "Evening (4PM-8PM)": "Professional & Other Places",
+      "Night (8PM-12AM)": "Professional & Other Places",
+      "Late Night (12AM-4AM)": "Professional & Other Places",
+      "Early Morning (4AM-8AM)": "Travel & Transport"
+    },
+    "Label": "General"
+  },
+  "4": {
+    "POI Preference": [
+      "Shop & Service",
+      "Food",
+      "Travel & Transport",
+      "Professional & Other Places",
+      "Arts & Entertainment"
+    ],
+    "Time Profile": "Peaks during Morning (8AM-12PM)",
+    "Time-Wise Behavior": {
+      "Morning (8AM-12PM)": "Shop & Service",
+      "Noon (12PM-4PM)": "Shop & Service",
+      "Evening (4PM-8PM)": "Food",
+      "Night (8PM-12AM)": "Travel & Transport",
+      "Late Night (12AM-4AM)": "Professional & Other Places",
+      "Early Morning (4AM-8AM)": "Shop & Service"
+    },
+    "Label": "Weekend Mall Visitors"
+  }
+}
