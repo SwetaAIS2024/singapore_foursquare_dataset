@@ -1,0 +1,3 @@
+Cluster 16
+Num users: 44
+Top POI categories: ['Mall', 'Food Court', 'Chinese Restaurant', 'Subway', 'Fast Food Restaurant']

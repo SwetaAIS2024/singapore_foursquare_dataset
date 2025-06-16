@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
 from sklearn.metrics.pairwise import cosine_similarity
 import networkx as nx
 import os
@@ -15,9 +16,13 @@ user_matrices = np.array([data[uid].flatten() for uid in user_ids])
 
 print(f'Loaded {len(user_ids)} users with feature vectors of length {user_matrices.shape[1]}')
 
+# Standardize features before PCA
+scaler = StandardScaler()
+user_matrices_scaled = scaler.fit_transform(user_matrices)
+
 # Dimensionality reduction (PCA to 50D)
 pca = PCA(n_components=50, random_state=42)
-user_embeds = pca.fit_transform(user_matrices)
+user_embeds = pca.fit_transform(user_matrices_scaled)
 print(f'PCA reduced to shape: {user_embeds.shape}')
 
 # Save embeddings

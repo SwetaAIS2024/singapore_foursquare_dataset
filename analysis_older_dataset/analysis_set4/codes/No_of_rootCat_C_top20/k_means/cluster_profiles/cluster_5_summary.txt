@@ -1,0 +1,4 @@
+Cluster 5
+Num users: 13
+Top POI categories: ['Church', 'Mall', 'Coffee Shop', 'Food Court', 'Fast Food Restaurant']
+Peak hour of week: 153 (activity=0.1212)

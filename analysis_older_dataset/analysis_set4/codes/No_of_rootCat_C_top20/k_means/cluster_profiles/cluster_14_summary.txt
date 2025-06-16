@@ -1,0 +1,4 @@
+Cluster 14
+Num users: 99
+Top POI categories: ['High School', 'Mall', 'Bus Station', 'Bus Line', 'Food Court']
+Peak hour of week: 47 (activity=0.0291)

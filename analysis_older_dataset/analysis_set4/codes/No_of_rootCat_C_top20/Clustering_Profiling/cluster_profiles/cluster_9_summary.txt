@@ -1,3 +1,3 @@
 Cluster 9
-Num users: 83
-Top POI categories: ['Mall', 'Church', 'Food Court', 'Chinese Restaurant', 'Coffee Shop']
+Num users: 31
+Top POI categories: ['Mall', 'Coffee Shop', 'Chinese Restaurant', 'Food Court', 'Multiplex']

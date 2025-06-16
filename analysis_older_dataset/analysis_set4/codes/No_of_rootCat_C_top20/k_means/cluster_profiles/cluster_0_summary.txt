@@ -1,0 +1,4 @@
+Cluster 0
+Num users: 173
+Top POI categories: ['Bus Station', 'Mall', 'Bus Line', 'Train Station', 'Subway']
+Peak hour of week: 10 (activity=0.0171)

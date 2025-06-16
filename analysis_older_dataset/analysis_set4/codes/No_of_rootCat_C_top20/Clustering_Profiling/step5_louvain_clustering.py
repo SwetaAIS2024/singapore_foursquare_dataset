@@ -11,7 +11,7 @@ with open(graph_path, 'rb') as f:
     G = pickle.load(f)
 
 # Louvain clustering
-partition = community_louvain.best_partition(G, weight='weight')
+partition = community_louvain.best_partition(G, weight='weight', resolution=2.0)
 
 # Save cluster assignments
 user_clusters = pd.DataFrame(list(partition.items()), columns=['user_id', 'cluster'])

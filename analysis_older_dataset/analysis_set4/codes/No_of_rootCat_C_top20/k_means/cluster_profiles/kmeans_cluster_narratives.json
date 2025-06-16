@@ -1,0 +1,142 @@
+[
+  {
+    "cluster": 0,
+    "users": 173,
+    "top_pois": ["Bus Station", "Mall", "Bus Line"],
+    "peak_time": "Mon 10:00",
+    "interpretation": "Medium-sized group, mainly using public transport and malls, peaking Monday late morning—likely commuters or shoppers."
+  },
+  {
+    "cluster": 1,
+    "users": 342,
+    "top_pois": ["Mall", "Food Court", "Coffee Shop"],
+    "peak_time": "Fri 11:00",
+    "interpretation": "Large group of users who frequent malls and food courts, with activity peaking late Friday morning—possibly office workers or students on break."
+  },
+  {
+    "cluster": 2,
+    "users": 22,
+    "top_pois": ["Mall", "Multiplex", "Fast Food Restaurant"],
+    "peak_time": "Sat 08:00",
+    "interpretation": "Small group, mall and multiplex visitors, peaking early Saturday—likely early weekend moviegoers or shoppers."
+  },
+  {
+    "cluster": 3,
+    "users": 1,
+    "top_pois": ["Fast Food Restaurant", "Gym", "General College & University"],
+    "peak_time": "Fri 09:00",
+    "interpretation": "Single user, active at fast food, gym, and university, peaking Friday morning—possibly a student or fitness enthusiast."
+  },
+  {
+    "cluster": 4,
+    "users": 150,
+    "top_pois": ["Mall", "Food Court", "Subway"],
+    "peak_time": "Fri 10:00",
+    "interpretation": "Medium group, mall and food court visitors, peaking Friday late morning—likely pre-weekend shoppers or lunch crowd."
+  },
+  {
+    "cluster": 5,
+    "users": 13,
+    "top_pois": ["Church", "Mall", "Coffee Shop"],
+    "peak_time": "Sun 09:00",
+    "interpretation": "Small group, church and mall goers, peaking Sunday morning—possibly families or regular church attendees."
+  },
+  {
+    "cluster": 6,
+    "users": 26,
+    "top_pois": ["Mall", "Food Court", "Chinese Restaurant"],
+    "peak_time": "Sat 11:00",
+    "interpretation": "Small group, mall and restaurant visitors, peaking late Saturday morning—likely weekend brunch or lunch crowd."
+  },
+  {
+    "cluster": 7,
+    "users": 43,
+    "top_pois": ["High School", "Mall", "Fast Food Restaurant"],
+    "peak_time": "Tue 23:00",
+    "interpretation": "Group of high schoolers and mall visitors, peaking late Tuesday night—possibly students with late activities."
+  },
+  {
+    "cluster": 8,
+    "users": 83,
+    "top_pois": ["Mall", "Food Court", "Subway"],
+    "peak_time": "Sat 07:00",
+    "interpretation": "Medium group, mall and food court visitors, peaking early Saturday—likely early risers or morning shoppers."
+  },
+  {
+    "cluster": 9,
+    "users": 114,
+    "top_pois": ["Nightclub", "Mall", "Food Court"],
+    "peak_time": "Fri 15:00",
+    "interpretation": "Group with nightlife and mall interests, peaking Friday afternoon—possibly people starting weekend activities early."
+  },
+  {
+    "cluster": 10,
+    "users": 7,
+    "top_pois": ["Mall", "Food Court", "Chinese Restaurant"],
+    "peak_time": "Sun 10:00",
+    "interpretation": "Small group, mall and restaurant visitors, peaking Sunday morning—likely families or brunch goers."
+  },
+  {
+    "cluster": 11,
+    "users": 1,
+    "top_pois": ["Mall", "Gym", "General College & University"],
+    "peak_time": "Sun 09:00",
+    "interpretation": "Single user, mall, gym, and university, peaking Sunday morning—possibly a student or fitness enthusiast."
+  },
+  {
+    "cluster": 12,
+    "users": 163,
+    "top_pois": ["Mall", "Food Court", "Chinese Restaurant"],
+    "peak_time": "Sun 10:00",
+    "interpretation": "Medium group, mall and restaurant visitors, peaking Sunday morning—likely families or brunch goers."
+  },
+  {
+    "cluster": 13,
+    "users": 351,
+    "top_pois": ["Mall", "Subway", "Train Station"],
+    "peak_time": "Mon 10:00",
+    "interpretation": "Large group, mall and public transport users, peaking Monday late morning—possibly commuters or shoppers."
+  },
+  {
+    "cluster": 14,
+    "users": 99,
+    "top_pois": ["High School", "Mall", "Bus Station"],
+    "peak_time": "Tue 23:00",
+    "interpretation": "Group of high schoolers and mall visitors, peaking late Tuesday night—possibly students with late activities."
+  },
+  {
+    "cluster": 15,
+    "users": 287,
+    "top_pois": ["Mall", "Food Court", "Coffee Shop"],
+    "peak_time": "Mon 11:00",
+    "interpretation": "Large group, mall and food court visitors, peaking Monday late morning—possibly office workers or students on break."
+  },
+  {
+    "cluster": 16,
+    "users": 20,
+    "top_pois": ["Trade School", "Mall", "Bus Station"],
+    "peak_time": "Mon 00:00",
+    "interpretation": "Small group, trade school and mall visitors, peaking early Monday—possibly students or early commuters."
+  },
+  {
+    "cluster": 17,
+    "users": 103,
+    "top_pois": ["Mall", "Food Court", "Chinese Restaurant"],
+    "peak_time": "Fri 12:00",
+    "interpretation": "Medium group, mall and restaurant visitors, peaking Friday noon—likely lunch crowd or pre-weekend shoppers."
+  },
+  {
+    "cluster": 18,
+    "users": 1,
+    "top_pois": ["Coffee Shop", "Chinese Restaurant", "Hotel"],
+    "peak_time": "Mon 05:00",
+    "interpretation": "Single user, coffee shop and hotel, peaking early Monday morning—possibly a traveler or early riser."
+  },
+  {
+    "cluster": 19,
+    "users": 1,
+    "top_pois": ["Mall", "Food Court", "Multiplex"],
+    "peak_time": "Mon 10:00",
+    "interpretation": "Single user, mall and multiplex, peaking Monday late morning—possibly a moviegoer or shopper."
+  }
+]

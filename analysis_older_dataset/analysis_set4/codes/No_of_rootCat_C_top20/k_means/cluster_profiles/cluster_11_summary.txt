@@ -1,0 +1,4 @@
+Cluster 11
+Num users: 1
+Top POI categories: ['Mall', 'Gym', 'General College & University', 'Trade School', 'Church']
+Peak hour of week: 153 (activity=1.0000)

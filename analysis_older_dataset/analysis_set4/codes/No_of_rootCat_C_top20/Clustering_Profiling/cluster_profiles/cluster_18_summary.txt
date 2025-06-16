@@ -1,0 +1,3 @@
+Cluster 18
+Num users: 50
+Top POI categories: ['Mall', 'Food Court', 'Coffee Shop', 'Caf\x1a\x1a', 'Fast Food Restaurant']

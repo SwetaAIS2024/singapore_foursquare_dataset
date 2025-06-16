@@ -1,0 +1,4 @@
+Cluster 10
+Num users: 7
+Top POI categories: ['Mall', 'Food Court', 'Chinese Restaurant', 'Nightclub', 'Coffee Shop']
+Peak hour of week: 154 (activity=0.1295)

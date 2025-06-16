@@ -1,3 +1,3 @@
 Cluster 1
-Num users: 164
-Top POI categories: ['Mall', 'Food Court', 'Coffee Shop', 'Subway', 'Chinese Restaurant']
+Num users: 55
+Top POI categories: ['Mall', 'Food Court', 'Coffee Shop', 'Chinese Restaurant', 'Nightclub']

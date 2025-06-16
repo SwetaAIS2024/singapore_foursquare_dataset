@@ -1,3 +1,3 @@
 Cluster 3
-Num users: 533
-Top POI categories: ['Mall', 'Food Court', 'Coffee Shop', 'Subway', 'Fast Food Restaurant']
+Num users: 25
+Top POI categories: ['General College & University', 'Mall', 'Train Station', 'Food Court', 'Bus Station']

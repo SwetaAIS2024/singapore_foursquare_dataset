@@ -1,0 +1,4 @@
+Cluster 4
+Num users: 150
+Top POI categories: ['Mall', 'Food Court', 'Subway', 'Fast Food Restaurant', 'Coffee Shop']
+Peak hour of week: 106 (activity=0.0419)

@@ -29,8 +29,8 @@ for fname in os.listdir(profile_dir):
     if fname.endswith('_mean_matrix.npy'):
         cluster_id = fname.split('_')[1]
         mean_mat = np.load(os.path.join(profile_dir, fname))
-        # POI Preference
-        cat_pref = mean_mat.sum(axis=1)
+        # POI Preference (most active hour per category)
+        cat_pref = mean_mat.max(axis=1)
         top_cats = [cat_labels[i] for i in np.argsort(cat_pref)[::-1][:5]]
         # Time Profile
         time_profile = mean_mat.sum(axis=0)
@@ -62,10 +62,14 @@ for fname in os.listdir(profile_dir):
         # Label
         if 'Nightlife' in top_cats[0]:
             label = 'Nightlife Lovers'
+        elif 'Trade School' in top_cats[0] or 'Professional' in top_cats[0]:
+            label = 'Professional'
         elif 'Education' in top_cats[0] or 'College' in top_cats[0]:
             label = 'Students/Professionals'
+        elif 'High School' in top_cats[0]:
+            label = 'High School Students'
         elif 'Mall' in top_cats[0] or 'Shopping' in top_cats[0] or 'Shop' in top_cats[0]:
-            label = 'Weekend Mall Visitors'
+            label = 'Mall Visitors'
         elif 'Food' in top_cats[0]:
             label = 'Foodies'
         else:

@@ -1,0 +1,4 @@
+Cluster 7
+Num users: 43
+Top POI categories: ['High School', 'Mall', 'Fast Food Restaurant', 'Bus Station', 'Food Court']
+Peak hour of week: 47 (activity=0.0709)
