@@ -45,7 +45,7 @@ for fname in os.listdir(profile_dir):
                 hours = list(range(start, start+4))
             bracket_sums[get_time_bracket(hours[0])] = time_profile[hours].sum()
         peak_bracket = max(bracket_sums, key=bracket_sums.get)
-        # Time-Wise Behavior (for each bracket, get top POI)
+        # Time-Wise Behavior (for each bracket, get the POI with the highest value summed over all hours in that bracket)
         bracket_map = {}
         bracket_hours = {
             'Morning (8AM-12PM)': range(8, 12),
@@ -56,24 +56,37 @@ for fname in os.listdir(profile_dir):
             'Early Morning (4AM-8AM)': range(4, 8)
         }
         for label, hours in bracket_hours.items():
-            bracket_sum = mean_mat[:, list(hours)].sum(axis=1)
+            # Sum over all 7 days for each hour in the bracket
+            hour_indices = []
+            for d in range(7):
+                for h in hours:
+                    hour_indices.append(d*24 + h)
+            bracket_sum = mean_mat[:, hour_indices].sum(axis=1)
             cat_idx = np.argmax(bracket_sum)
             bracket_map[label] = cat_labels[cat_idx]
-        # Label
-        if 'Nightlife' in top_cats[0]:
-            label = 'Nightlife Lovers'
-        elif 'Trade School' in top_cats[0] or 'Professional' in top_cats[0]:
-            label = 'Professional'
-        elif 'Education' in top_cats[0] or 'College' in top_cats[0]:
-            label = 'Students/Professionals'
-        elif 'High School' in top_cats[0]:
-            label = 'High School Students'
-        elif 'Mall' in top_cats[0] or 'Shopping' in top_cats[0] or 'Shop' in top_cats[0]:
-            label = 'Mall Visitors'
-        elif 'Food' in top_cats[0]:
-            label = 'Foodies'
+        # Label using the global peak in the mean matrix (most frequent POI at its most active time)
+        peak_val = np.max(mean_mat)
+        peak_cat_idx, peak_hour_global = np.unravel_index(np.argmax(mean_mat), mean_mat.shape)
+        peak_cat = cat_labels[peak_cat_idx]
+        peak_hour = peak_hour_global % 24  # hour in day
+        peak_bracket_for_peak_cat = get_time_bracket(peak_hour)
+
+        # POI-based label
+        if 'Nightlife' in peak_cat:
+            base_label = 'Nightlife Lovers'
+        elif 'Trade School' in peak_cat or 'Professional' in peak_cat:
+            base_label = 'Professional'
+        elif 'Education' in peak_cat or 'College' in peak_cat:
+            base_label = 'Students/Professionals'
+        elif 'High School' in peak_cat:
+            base_label = 'High School Students'
+        elif 'Mall' in peak_cat or 'Shopping' in peak_cat or 'Shop' in peak_cat:
+            base_label = 'Mall Visitors'
+        elif 'Food' in peak_cat:
+            base_label = 'Foodies'
         else:
-            label = 'General'
+            base_label = 'General'
+        label = f"{base_label} (Most frequent: {peak_bracket_for_peak_cat})"
         output[cluster_id] = {
             'POI Preference': top_cats,
             'Time Profile': f'Peaks during {peak_bracket}',

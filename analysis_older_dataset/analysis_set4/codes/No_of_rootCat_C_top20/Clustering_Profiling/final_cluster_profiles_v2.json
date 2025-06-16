@@ -10,13 +10,13 @@
     "Time Profile": "Peaks during Morning (8AM-12PM)",
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
-      "Noon (12PM-4PM)": "Hotel",
+      "Noon (12PM-4PM)": "Mall",
       "Evening (4PM-8PM)": "Nightclub",
       "Night (8PM-12AM)": "Hotel",
       "Late Night (12AM-4AM)": "Hotel",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Mall Visitors"
+    "Label": "Mall Visitors (Most frequent: Morning (8AM-12PM))"
   },
   "2": {
     "POI Preference": [
@@ -29,13 +29,13 @@
     "Time Profile": "Peaks during Morning (8AM-12PM)",
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
-      "Noon (12PM-4PM)": "Subway",
+      "Noon (12PM-4PM)": "Mall",
       "Evening (4PM-8PM)": "Nightclub",
       "Night (8PM-12AM)": "Subway",
       "Late Night (12AM-4AM)": "Subway",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Mall Visitors"
+    "Label": "Mall Visitors (Most frequent: Morning (8AM-12PM))"
   },
   "15": {
     "POI Preference": [
@@ -49,12 +49,12 @@
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
-      "Evening (4PM-8PM)": "Bus Line",
+      "Evening (4PM-8PM)": "Fast Food Restaurant",
       "Night (8PM-12AM)": "Bus Line",
       "Late Night (12AM-4AM)": "Bus Line",
-      "Early Morning (4AM-8AM)": "Bus Line"
+      "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "High School Students"
+    "Label": "High School Students (Most frequent: Night (8PM-12AM))"
   },
   "21": {
     "POI Preference": [
@@ -68,12 +68,12 @@
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
-      "Evening (4PM-8PM)": "Chinese Restaurant",
-      "Night (8PM-12AM)": "High School",
-      "Late Night (12AM-4AM)": "Food Court",
+      "Evening (4PM-8PM)": "Nightclub",
+      "Night (8PM-12AM)": "Trade School",
+      "Late Night (12AM-4AM)": "Mall",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Mall Visitors"
+    "Label": "Mall Visitors (Most frequent: Morning (8AM-12PM))"
   },
   "16": {
     "POI Preference": [
@@ -87,12 +87,12 @@
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
-      "Evening (4PM-8PM)": "Fast Food Restaurant",
+      "Evening (4PM-8PM)": "Nightclub",
       "Night (8PM-12AM)": "High School",
       "Late Night (12AM-4AM)": "High School",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "High School Students"
+    "Label": "High School Students (Most frequent: Night (8PM-12AM))"
   },
   "22": {
     "POI Preference": [
@@ -106,12 +106,12 @@
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
-      "Evening (4PM-8PM)": "Hotel",
-      "Night (8PM-12AM)": "Bus Station",
+      "Evening (4PM-8PM)": "Mall",
+      "Night (8PM-12AM)": "Food Court",
       "Late Night (12AM-4AM)": "Mall",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Mall Visitors"
+    "Label": "Mall Visitors (Most frequent: Morning (8AM-12PM))"
   },
   "26": {
     "POI Preference": [
@@ -125,12 +125,12 @@
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
-      "Evening (4PM-8PM)": "Fast Food Restaurant",
+      "Evening (4PM-8PM)": "Nightclub",
       "Night (8PM-12AM)": "High School",
       "Late Night (12AM-4AM)": "Mall",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Mall Visitors"
+    "Label": "Mall Visitors (Most frequent: Morning (8AM-12PM))"
   },
   "0": {
     "POI Preference": [
@@ -145,11 +145,11 @@
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
       "Evening (4PM-8PM)": "Nightclub",
-      "Night (8PM-12AM)": "Mall",
+      "Night (8PM-12AM)": "Nightclub",
       "Late Night (12AM-4AM)": "Mall",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "General"
+    "Label": "General (Most frequent: Noon (12PM-4PM))"
   },
   "13": {
     "POI Preference": [
@@ -163,12 +163,12 @@
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
-      "Evening (4PM-8PM)": "Fast Food Restaurant",
+      "Evening (4PM-8PM)": "Mall",
       "Night (8PM-12AM)": "Train Station",
       "Late Night (12AM-4AM)": "Train Station",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Mall Visitors"
+    "Label": "Mall Visitors (Most frequent: Morning (8AM-12PM))"
   },
   "24": {
     "POI Preference": [
@@ -182,12 +182,12 @@
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
-      "Evening (4PM-8PM)": "Japanese Restaurant",
+      "Evening (4PM-8PM)": "Food Court",
       "Night (8PM-12AM)": "Trade School",
       "Late Night (12AM-4AM)": "Trade School",
-      "Early Morning (4AM-8AM)": "Trade School"
+      "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Professional"
+    "Label": "Professional (Most frequent: Late Night (12AM-4AM))"
   },
   "9": {
     "POI Preference": [
@@ -199,14 +199,14 @@
     ],
     "Time Profile": "Peaks during Morning (8AM-12PM)",
     "Time-Wise Behavior": {
-      "Morning (8AM-12PM)": "Bus Station",
+      "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Bus Station",
       "Evening (4PM-8PM)": "Nightclub",
       "Night (8PM-12AM)": "Bus Station",
       "Late Night (12AM-4AM)": "Bus Station",
       "Early Morning (4AM-8AM)": "Bus Station"
     },
-    "Label": "Mall Visitors"
+    "Label": "Mall Visitors (Most frequent: Morning (8AM-12PM))"
   },
   "25": {
     "POI Preference": [
@@ -220,12 +220,12 @@
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
-      "Evening (4PM-8PM)": "Mall",
+      "Evening (4PM-8PM)": "Nightclub",
       "Night (8PM-12AM)": "High School",
       "Late Night (12AM-4AM)": "Mall",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Mall Visitors"
+    "Label": "Mall Visitors (Most frequent: Noon (12PM-4PM))"
   },
   "14": {
     "POI Preference": [
@@ -239,12 +239,12 @@
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
-      "Evening (4PM-8PM)": "Fast Food Restaurant",
-      "Night (8PM-12AM)": "Asian Restaurant",
+      "Evening (4PM-8PM)": "Nightclub",
+      "Night (8PM-12AM)": "Fast Food Restaurant",
       "Late Night (12AM-4AM)": "Mall",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Mall Visitors"
+    "Label": "Mall Visitors (Most frequent: Morning (8AM-12PM))"
   },
   "5": {
     "POI Preference": [
@@ -259,11 +259,11 @@
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Nightclub",
       "Evening (4PM-8PM)": "Nightclub",
-      "Night (8PM-12AM)": "Coffee Shop",
-      "Late Night (12AM-4AM)": "Asian Restaurant",
+      "Night (8PM-12AM)": "Asian Restaurant",
+      "Late Night (12AM-4AM)": "Food Court",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "General"
+    "Label": "General (Most frequent: Noon (12PM-4PM))"
   },
   "8": {
     "POI Preference": [
@@ -277,12 +277,12 @@
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
-      "Evening (4PM-8PM)": "Chinese Restaurant",
+      "Evening (4PM-8PM)": "Nightclub",
       "Night (8PM-12AM)": "Mall",
       "Late Night (12AM-4AM)": "Food Court",
-      "Early Morning (4AM-8AM)": "Food Court"
+      "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Mall Visitors"
+    "Label": "Mall Visitors (Most frequent: Morning (8AM-12PM))"
   },
   "20": {
     "POI Preference": [
@@ -296,12 +296,12 @@
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
-      "Evening (4PM-8PM)": "Mall",
-      "Night (8PM-12AM)": "Hotel",
+      "Evening (4PM-8PM)": "Hotel",
+      "Night (8PM-12AM)": "High School",
       "Late Night (12AM-4AM)": "Mall",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Mall Visitors"
+    "Label": "Mall Visitors (Most frequent: Early Morning (4AM-8AM))"
   },
   "23": {
     "POI Preference": [
@@ -315,12 +315,12 @@
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
-      "Evening (4PM-8PM)": "Mall",
-      "Night (8PM-12AM)": "Bus Station",
-      "Late Night (12AM-4AM)": "General College & University",
+      "Evening (4PM-8PM)": "Nightclub",
+      "Night (8PM-12AM)": "High School",
+      "Late Night (12AM-4AM)": "Mall",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Mall Visitors"
+    "Label": "Mall Visitors (Most frequent: Morning (8AM-12PM))"
   },
   "10": {
     "POI Preference": [
@@ -337,9 +337,9 @@
       "Evening (4PM-8PM)": "Nightclub",
       "Night (8PM-12AM)": "Trade School",
       "Late Night (12AM-4AM)": "Trade School",
-      "Early Morning (4AM-8AM)": "Trade School"
+      "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Professional"
+    "Label": "Professional (Most frequent: Late Night (12AM-4AM))"
   },
   "6": {
     "POI Preference": [
@@ -353,12 +353,12 @@
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
-      "Evening (4PM-8PM)": "Mall",
+      "Evening (4PM-8PM)": "Nightclub",
       "Night (8PM-12AM)": "Coffee Shop",
       "Late Night (12AM-4AM)": "Mall",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Mall Visitors"
+    "Label": "Mall Visitors (Most frequent: Noon (12PM-4PM))"
   },
   "18": {
     "POI Preference": [
@@ -370,14 +370,14 @@
     ],
     "Time Profile": "Peaks during Morning (8AM-12PM)",
     "Time-Wise Behavior": {
-      "Morning (8AM-12PM)": "Coffee Shop",
+      "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Coffee Shop",
-      "Evening (4PM-8PM)": "Fast Food Restaurant",
-      "Night (8PM-12AM)": "Caf\u001a\u001a",
+      "Evening (4PM-8PM)": "Nightclub",
+      "Night (8PM-12AM)": "Coffee Shop",
       "Late Night (12AM-4AM)": "Coffee Shop",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Mall Visitors"
+    "Label": "Mall Visitors (Most frequent: Morning (8AM-12PM))"
   },
   "12": {
     "POI Preference": [
@@ -391,12 +391,12 @@
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
-      "Evening (4PM-8PM)": "Bus Line",
-      "Night (8PM-12AM)": "Bus Station",
-      "Late Night (12AM-4AM)": "Mall",
+      "Evening (4PM-8PM)": "Nightclub",
+      "Night (8PM-12AM)": "Church",
+      "Late Night (12AM-4AM)": "Church",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "General"
+    "Label": "General (Most frequent: Morning (8AM-12PM))"
   },
   "17": {
     "POI Preference": [
@@ -411,11 +411,11 @@
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
       "Evening (4PM-8PM)": "Nightclub",
-      "Night (8PM-12AM)": "Coffee Shop",
-      "Late Night (12AM-4AM)": "Food Court",
+      "Night (8PM-12AM)": "Fast Food Restaurant",
+      "Late Night (12AM-4AM)": "Mall",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Mall Visitors"
+    "Label": "Mall Visitors (Most frequent: Morning (8AM-12PM))"
   },
   "19": {
     "POI Preference": [
@@ -430,11 +430,11 @@
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
       "Evening (4PM-8PM)": "Mall",
-      "Night (8PM-12AM)": "High School",
+      "Night (8PM-12AM)": "Mall",
       "Late Night (12AM-4AM)": "Mall",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Mall Visitors"
+    "Label": "Mall Visitors (Most frequent: Morning (8AM-12PM))"
   },
   "11": {
     "POI Preference": [
@@ -447,13 +447,13 @@
     "Time Profile": "Peaks during Night (8PM-12AM)",
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
-      "Noon (12PM-4PM)": "High School",
+      "Noon (12PM-4PM)": "Mall",
       "Evening (4PM-8PM)": "Caf\u001a\u001a",
       "Night (8PM-12AM)": "High School",
-      "Late Night (12AM-4AM)": "Mall",
+      "Late Night (12AM-4AM)": "High School",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "High School Students"
+    "Label": "High School Students (Most frequent: Night (8PM-12AM))"
   },
   "1": {
     "POI Preference": [
@@ -467,12 +467,12 @@
     "Time-Wise Behavior": {
       "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
-      "Evening (4PM-8PM)": "Fast Food Restaurant",
+      "Evening (4PM-8PM)": "Nightclub",
       "Night (8PM-12AM)": "Fast Food Restaurant",
       "Late Night (12AM-4AM)": "Mall",
       "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Mall Visitors"
+    "Label": "Mall Visitors (Most frequent: Morning (8AM-12PM))"
   },
   "7": {
     "POI Preference": [
@@ -484,14 +484,14 @@
     ],
     "Time Profile": "Peaks during Morning (8AM-12PM)",
     "Time-Wise Behavior": {
-      "Morning (8AM-12PM)": "Gym",
+      "Morning (8AM-12PM)": "Mall",
       "Noon (12PM-4PM)": "Mall",
       "Evening (4PM-8PM)": "Nightclub",
       "Night (8PM-12AM)": "High School",
       "Late Night (12AM-4AM)": "Gym",
-      "Early Morning (4AM-8AM)": "Gym"
+      "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "General"
+    "Label": "General (Most frequent: Morning (8AM-12PM))"
   },
   "4": {
     "POI Preference": [
@@ -508,8 +508,8 @@
       "Evening (4PM-8PM)": "Nightclub",
       "Night (8PM-12AM)": "General College & University",
       "Late Night (12AM-4AM)": "General College & University",
-      "Early Morning (4AM-8AM)": "General College & University"
+      "Early Morning (4AM-8AM)": "Mall"
     },
-    "Label": "Students/Professionals"
+    "Label": "Students/Professionals (Most frequent: Late Night (12AM-4AM))"
   }
 }
