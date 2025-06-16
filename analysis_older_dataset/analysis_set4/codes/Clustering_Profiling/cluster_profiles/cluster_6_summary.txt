@@ -1,3 +1,0 @@
-Cluster 6
-Num users: 362
-Top POI categories: ['Travel & Transport', 'Shop & Service', 'Food', 'Professional & Other Places', 'Great Outdoors']

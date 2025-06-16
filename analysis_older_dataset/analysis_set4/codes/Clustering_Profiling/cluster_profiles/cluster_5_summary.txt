@@ -1,3 +1,0 @@
-Cluster 5
-Num users: 428
-Top POI categories: ['Food', 'Shop & Service', 'Travel & Transport', 'Arts & Entertainment', 'Professional & Other Places']

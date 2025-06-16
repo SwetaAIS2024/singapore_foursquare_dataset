@@ -1,0 +1,3 @@
+Cluster 4
+Num users: 248
+Top POI categories: ['Bus Station', 'Mall', 'Subway', 'Train Station', 'Bus Line']

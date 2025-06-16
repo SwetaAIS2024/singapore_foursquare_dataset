@@ -1,3 +1,0 @@
-Cluster 2
-Num users: 120
-Top POI categories: ['College & University', 'Food', 'Shop & Service', 'Travel & Transport', 'Professional & Other Places']

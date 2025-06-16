@@ -1,0 +1,3 @@
+Cluster 3
+Num users: 98
+Top POI categories: ['Food', 'Shop & Service', 'Travel & Transport', 'Arts & Entertainment', 'Great Outdoors']
