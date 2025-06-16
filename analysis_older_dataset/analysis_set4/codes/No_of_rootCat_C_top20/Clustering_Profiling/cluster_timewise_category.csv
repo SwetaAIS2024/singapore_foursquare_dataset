@@ -1,0 +1,2017 @@
+cluster_id,hour,top_category
+3,0,High School
+3,1,Mall
+3,2,Mall
+3,3,Mall
+3,4,Mall
+3,5,Mall
+3,6,Mall
+3,7,Mall
+3,8,Mall
+3,9,Mall
+3,10,Mall
+3,11,Mall
+3,12,Mall
+3,13,Mall
+3,14,Mall
+3,15,Mall
+3,16,Nightclub
+3,17,Nightclub
+3,18,Mall
+3,19,Nightclub
+3,20,Asian Restaurant
+3,21,Fast Food Restaurant
+3,22,Bus Station
+3,23,High School
+3,24,High School
+3,25,Mall
+3,26,Mall
+3,27,Mall
+3,28,Mall
+3,29,Mall
+3,30,Mall
+3,31,Mall
+3,32,Mall
+3,33,Mall
+3,34,Mall
+3,35,Mall
+3,36,Mall
+3,37,Mall
+3,38,Mall
+3,39,Food Court
+3,40,Food Court
+3,41,Mall
+3,42,Coffee Shop
+3,43,Nightclub
+3,44,Hotel
+3,45,Fast Food Restaurant
+3,46,High School
+3,47,High School
+3,48,High School
+3,49,Mall
+3,50,Mall
+3,51,Mall
+3,52,Mall
+3,53,Mall
+3,54,Mall
+3,55,Mall
+3,56,Mall
+3,57,Mall
+3,58,Mall
+3,59,Mall
+3,60,Mall
+3,61,Mall
+3,62,Mall
+3,63,Nightclub
+3,64,Nightclub
+3,65,Nightclub
+3,66,Nightclub
+3,67,Mall
+3,68,Mall
+3,69,Bus Station
+3,70,High School
+3,71,High School
+3,72,General College & University
+3,73,Mall
+3,74,Mall
+3,75,Mall
+3,76,Mall
+3,77,Mall
+3,78,Mall
+3,79,Mall
+3,80,Mall
+3,81,Mall
+3,82,Mall
+3,83,Mall
+3,84,Mall
+3,85,Mall
+3,86,Mall
+3,87,Mall
+3,88,Mall
+3,89,Coffee Shop
+3,90,Nightclub
+3,91,Nightclub
+3,92,Nightclub
+3,93,Bus Station
+3,94,Mall
+3,95,High School
+3,96,High School
+3,97,Mall
+3,98,Mall
+3,99,Mall
+3,100,Mall
+3,101,Mall
+3,102,Mall
+3,103,Mall
+3,104,Mall
+3,105,Mall
+3,106,Mall
+3,107,Mall
+3,108,Mall
+3,109,Mall
+3,110,Mall
+3,111,Mall
+3,112,Nightclub
+3,113,Nightclub
+3,114,Nightclub
+3,115,Nightclub
+3,116,Fast Food Restaurant
+3,117,Bus Station
+3,118,Fast Food Restaurant
+3,119,Mall
+3,120,Mall
+3,121,Mall
+3,122,Mall
+3,123,Mall
+3,124,Mall
+3,125,Mall
+3,126,Mall
+3,127,Mall
+3,128,Mall
+3,129,Mall
+3,130,Mall
+3,131,Mall
+3,132,Mall
+3,133,Mall
+3,134,Mall
+3,135,Nightclub
+3,136,Nightclub
+3,137,Nightclub
+3,138,Nightclub
+3,139,Nightclub
+3,140,Nightclub
+3,141,Fast Food Restaurant
+3,142,Fast Food Restaurant
+3,143,Mall
+3,144,Mall
+3,145,Mall
+3,146,Mall
+3,147,Mall
+3,148,Mall
+3,149,Mall
+3,150,Mall
+3,151,Mall
+3,152,Mall
+3,153,Mall
+3,154,Mall
+3,155,Mall
+3,156,Mall
+3,157,Mall
+3,158,Mall
+3,159,Mall
+3,160,Nightclub
+3,161,Fast Food Restaurant
+3,162,Fast Food Restaurant
+3,163,Mall
+3,164,Fast Food Restaurant
+3,165,Mall
+3,166,Bus Station
+3,167,Mall
+2,0,Bus Station
+2,1,Subway
+2,2,Mall
+2,3,Mall
+2,4,Mall
+2,5,Mall
+2,6,Mall
+2,7,Mall
+2,8,Mall
+2,9,Mall
+2,10,Mall
+2,11,Mall
+2,12,Mall
+2,13,Mall
+2,14,Mall
+2,15,Mall
+2,16,Coffee Shop
+2,17,Nightclub
+2,18,Caf
+2,19,Multiplex
+2,20,Hotel
+2,21,Coffee Shop
+2,22,Chinese Restaurant
+2,23,High School
+2,24,Mall
+2,25,Subway
+2,26,Coffee Shop
+2,27,Mall
+2,28,Mall
+2,29,Mall
+2,30,Mall
+2,31,Mall
+2,32,Mall
+2,33,Mall
+2,34,Mall
+2,35,Mall
+2,36,Mall
+2,37,Mall
+2,38,Fast Food Restaurant
+2,39,Subway
+2,40,Nightclub
+2,41,Coffee Shop
+2,42,Coffee Shop
+2,43,Chinese Restaurant
+2,44,Coffee Shop
+2,45,Mall
+2,46,Bus Line
+2,47,Subway
+2,48,Bus Station
+2,49,Subway
+2,50,Mall
+2,51,General College & University
+2,52,Mall
+2,53,Mall
+2,54,Mall
+2,55,Mall
+2,56,Mall
+2,57,Mall
+2,58,Mall
+2,59,Mall
+2,60,Mall
+2,61,Mall
+2,62,Mall
+2,63,Subway
+2,64,Nightclub
+2,65,Nightclub
+2,66,Chinese Restaurant
+2,67,Nightclub
+2,68,Mall
+2,69,Caf
+2,70,Bus Station
+2,71,Mall
+2,72,General College & University
+2,73,General College & University
+2,74,Mall
+2,75,Mall
+2,76,Mall
+2,77,Mall
+2,78,Mall
+2,79,Mall
+2,80,Mall
+2,81,Mall
+2,82,Mall
+2,83,Mall
+2,84,Mall
+2,85,Mall
+2,86,Mall
+2,87,Mall
+2,88,Mall
+2,89,Coffee Shop
+2,90,Nightclub
+2,91,Fast Food Restaurant
+2,92,Mall
+2,93,Mall
+2,94,High School
+2,95,General College & University
+2,96,Fast Food Restaurant
+2,97,Mall
+2,98,Mall
+2,99,Chinese Restaurant
+2,100,Mall
+2,101,Mall
+2,102,Mall
+2,103,Mall
+2,104,Mall
+2,105,Mall
+2,106,Mall
+2,107,Mall
+2,108,Mall
+2,109,Mall
+2,110,Mall
+2,111,Nightclub
+2,112,Nightclub
+2,113,Nightclub
+2,114,Nightclub
+2,115,Nightclub
+2,116,Nightclub
+2,117,Coffee Shop
+2,118,Subway
+2,119,Mall
+2,120,Mall
+2,121,Mall
+2,122,Train Station
+2,123,Mall
+2,124,Mall
+2,125,Mall
+2,126,Mall
+2,127,Mall
+2,128,Mall
+2,129,Mall
+2,130,Mall
+2,131,Mall
+2,132,Mall
+2,133,Mall
+2,134,Mall
+2,135,Train Station
+2,136,Nightclub
+2,137,Nightclub
+2,138,Mall
+2,139,Nightclub
+2,140,Nightclub
+2,141,Nightclub
+2,142,Food Court
+2,143,Food Court
+2,144,Mall
+2,145,Mall
+2,146,Mall
+2,147,Mall
+2,148,Mall
+2,149,Mall
+2,150,Mall
+2,151,Mall
+2,152,Mall
+2,153,Mall
+2,154,Mall
+2,155,Mall
+2,156,Mall
+2,157,Mall
+2,158,Food Court
+2,159,Multiplex
+2,160,Mall
+2,161,Nightclub
+2,162,Coffee Shop
+2,163,Fast Food Restaurant
+2,164,Fast Food Restaurant
+2,165,Food Court
+2,166,High School
+2,167,High School
+0,0,Mall
+0,1,Caf
+0,2,Train Station
+0,3,Coffee Shop
+0,4,Food Court
+0,5,Mall
+0,6,Caf
+0,7,Coffee Shop
+0,8,Coffee Shop
+0,9,Caf
+0,10,Coffee Shop
+0,11,Chinese Restaurant
+0,12,Chinese Restaurant
+0,13,Multiplex
+0,14,Coffee Shop
+0,15,Multiplex
+0,16,Chinese Restaurant
+0,17,Asian Restaurant
+0,18,Fast Food Restaurant
+0,19,Coffee Shop
+0,20,Food Court
+0,21,Mall
+0,22,Hotel
+0,23,Mall
+0,24,Food Court
+0,25,Food Court
+0,26,Fast Food Restaurant
+0,27,Mall
+0,28,Chinese Restaurant
+0,29,Food Court
+0,30,Mall
+0,31,Coffee Shop
+0,32,Mall
+0,33,Mall
+0,34,Coffee Shop
+0,35,Chinese Restaurant
+0,36,Coffee Shop
+0,37,Food Court
+0,38,Coffee Shop
+0,39,Hotel
+0,40,Fast Food Restaurant
+0,41,Caf
+0,42,Chinese Restaurant
+0,43,Gym
+0,44,Nightclub
+0,45,Nightclub
+0,46,Subway
+0,47,Gym
+0,48,Food Court
+0,49,Train Station
+0,50,Coffee Shop
+0,51,Coffee Shop
+0,52,Food Court
+0,53,Food Court
+0,54,Mall
+0,55,Caf
+0,56,Mall
+0,57,Mall
+0,58,Mall
+0,59,Food Court
+0,60,Chinese Restaurant
+0,61,Coffee Shop
+0,62,Coffee Shop
+0,63,Nightclub
+0,64,Fast Food Restaurant
+0,65,General College & University
+0,66,Nightclub
+0,67,Nightclub
+0,68,Nightclub
+0,69,Nightclub
+0,70,High School
+0,71,Chinese Restaurant
+0,72,Food Court
+0,73,Mall
+0,74,Gym
+0,75,Mall
+0,76,Food Court
+0,77,Food Court
+0,78,Coffee Shop
+0,79,Coffee Shop
+0,80,Mall
+0,81,Mall
+0,82,Mall
+0,83,Mall
+0,84,Food Court
+0,85,Multiplex
+0,86,Caf
+0,87,Multiplex
+0,88,Coffee Shop
+0,89,Caf
+0,90,Fast Food Restaurant
+0,91,Nightclub
+0,92,Nightclub
+0,93,Nightclub
+0,94,Hotel
+0,95,Trade School
+0,96,Food Court
+0,97,Caf
+0,98,Mall
+0,99,Coffee Shop
+0,100,Chinese Restaurant
+0,101,Caf
+0,102,Food Court
+0,103,Mall
+0,104,Mall
+0,105,Fast Food Restaurant
+0,106,Mall
+0,107,Mall
+0,108,Coffee Shop
+0,109,Multiplex
+0,110,Coffee Shop
+0,111,Multiplex
+0,112,Nightclub
+0,113,Coffee Shop
+0,114,Nightclub
+0,115,Caf
+0,116,Coffee Shop
+0,117,Nightclub
+0,118,Nightclub
+0,119,Subway
+0,120,Coffee Shop
+0,121,Hotel
+0,122,Asian Restaurant
+0,123,Coffee Shop
+0,124,Mall
+0,125,Coffee Shop
+0,126,Mall
+0,127,Mall
+0,128,Mall
+0,129,Mall
+0,130,Chinese Restaurant
+0,131,Caf
+0,132,Chinese Restaurant
+0,133,Multiplex
+0,134,Mall
+0,135,Multiplex
+0,136,Nightclub
+0,137,Mall
+0,138,Nightclub
+0,139,Asian Restaurant
+0,140,Nightclub
+0,141,Mall
+0,142,Subway
+0,143,Mall
+0,144,Church
+0,145,Food Court
+0,146,Coffee Shop
+0,147,Church
+0,148,Japanese Restaurant
+0,149,Mall
+0,150,Mall
+0,151,Mall
+0,152,Mall
+0,153,Mall
+0,154,Mall
+0,155,Chinese Restaurant
+0,156,Chinese Restaurant
+0,157,Mall
+0,158,Mall
+0,159,Coffee Shop
+0,160,Hotel
+0,161,Hotel
+0,162,Nightclub
+0,163,High School
+0,164,Nightclub
+0,165,Bus Station
+0,166,Bus Station
+0,167,Gym
+9,0,High School
+9,1,Food Court
+9,2,Mall
+9,3,Mall
+9,4,Mall
+9,5,Mall
+9,6,Mall
+9,7,Mall
+9,8,Mall
+9,9,Mall
+9,10,Mall
+9,11,Mall
+9,12,Mall
+9,13,Mall
+9,14,Mall
+9,15,Mall
+9,16,Fast Food Restaurant
+9,17,Coffee Shop
+9,18,Hotel
+9,19,Fast Food Restaurant
+9,20,Mall
+9,21,Mall
+9,22,Train Station
+9,23,High School
+9,24,High School
+9,25,High School
+9,26,Mall
+9,27,Mall
+9,28,Mall
+9,29,Mall
+9,30,Mall
+9,31,Mall
+9,32,Mall
+9,33,Mall
+9,34,Mall
+9,35,Mall
+9,36,Mall
+9,37,Mall
+9,38,Coffee Shop
+9,39,Food Court
+9,40,Food Court
+9,41,Fast Food Restaurant
+9,42,Fast Food Restaurant
+9,43,Mall
+9,44,Mall
+9,45,Mall
+9,46,Train Station
+9,47,Mall
+9,48,High School
+9,49,Food Court
+9,50,Mall
+9,51,Mall
+9,52,Mall
+9,53,Mall
+9,54,Mall
+9,55,Mall
+9,56,Mall
+9,57,Mall
+9,58,Mall
+9,59,Mall
+9,60,Mall
+9,61,Mall
+9,62,Fast Food Restaurant
+9,63,Mall
+9,64,Nightclub
+9,65,Fast Food Restaurant
+9,66,Asian Restaurant
+9,67,Mall
+9,68,Mall
+9,69,Mall
+9,70,Train Station
+9,71,High School
+9,72,High School
+9,73,Mall
+9,74,Mall
+9,75,Mall
+9,76,Mall
+9,77,Mall
+9,78,Mall
+9,79,Mall
+9,80,Mall
+9,81,Mall
+9,82,Mall
+9,83,Mall
+9,84,Mall
+9,85,Mall
+9,86,Food Court
+9,87,Coffee Shop
+9,88,Mall
+9,89,Subway
+9,90,Caf
+9,91,Nightclub
+9,92,Coffee Shop
+9,93,Fast Food Restaurant
+9,94,Train Station
+9,95,Gym
+9,96,High School
+9,97,Mall
+9,98,Mall
+9,99,Mall
+9,100,Mall
+9,101,Mall
+9,102,Mall
+9,103,Mall
+9,104,Mall
+9,105,Mall
+9,106,Mall
+9,107,Mall
+9,108,Mall
+9,109,Mall
+9,110,Nightclub
+9,111,Multiplex
+9,112,Multiplex
+9,113,Fast Food Restaurant
+9,114,Nightclub
+9,115,Chinese Restaurant
+9,116,Hotel
+9,117,Fast Food Restaurant
+9,118,Fast Food Restaurant
+9,119,High School
+9,120,High School
+9,121,Mall
+9,122,Mall
+9,123,Mall
+9,124,Mall
+9,125,Mall
+9,126,Mall
+9,127,Mall
+9,128,Church
+9,129,Church
+9,130,Church
+9,131,Mall
+9,132,Mall
+9,133,Mall
+9,134,Mall
+9,135,Mall
+9,136,Nightclub
+9,137,Mall
+9,138,Coffee Shop
+9,139,Mall
+9,140,Nightclub
+9,141,Food Court
+9,142,Subway
+9,143,Church
+9,144,Church
+9,145,Church
+9,146,Mall
+9,147,Church
+9,148,Church
+9,149,Mall
+9,150,Mall
+9,151,Mall
+9,152,Church
+9,153,Church
+9,154,Mall
+9,155,Church
+9,156,Mall
+9,157,Mall
+9,158,Train Station
+9,159,Nightclub
+9,160,Nightclub
+9,161,Chinese Restaurant
+9,162,Nightclub
+9,163,Mall
+9,164,Nightclub
+9,165,Gym
+9,166,High School
+9,167,High School
+5,0,Trade School
+5,1,Trade School
+5,2,Trade School
+5,3,Trade School
+5,4,Trade School
+5,5,Trade School
+5,6,Trade School
+5,7,Mall
+5,8,Mall
+5,9,Mall
+5,10,Mall
+5,11,Mall
+5,12,Mall
+5,13,Mall
+5,14,Fast Food Restaurant
+5,15,Bus Station
+5,16,Japanese Restaurant
+5,17,Mall
+5,18,Mall
+5,19,Nightclub
+5,20,Mall
+5,21,Train Station
+5,22,Subway
+5,23,Trade School
+5,24,Trade School
+5,25,Trade School
+5,26,Trade School
+5,27,Trade School
+5,28,Trade School
+5,29,Trade School
+5,30,Trade School
+5,31,Mall
+5,32,Mall
+5,33,Mall
+5,34,Mall
+5,35,Mall
+5,36,Mall
+5,37,Mall
+5,38,Nightclub
+5,39,Train Station
+5,40,Nightclub
+5,41,Coffee Shop
+5,42,Fast Food Restaurant
+5,43,Mall
+5,44,Mall
+5,45,Train Station
+5,46,Subway
+5,47,Trade School
+5,48,Trade School
+5,49,Trade School
+5,50,Trade School
+5,51,Trade School
+5,52,Trade School
+5,53,Trade School
+5,54,Trade School
+5,55,Trade School
+5,56,Mall
+5,57,Mall
+5,58,Mall
+5,59,Mall
+5,60,Mall
+5,61,Coffee Shop
+5,62,Subway
+5,63,Nightclub
+5,64,Coffee Shop
+5,65,Mall
+5,66,Mall
+5,67,Mall
+5,68,Mall
+5,69,Train Station
+5,70,Subway
+5,71,Trade School
+5,72,Trade School
+5,73,Trade School
+5,74,Trade School
+5,75,Trade School
+5,76,Trade School
+5,77,Mall
+5,78,Trade School
+5,79,Mall
+5,80,Mall
+5,81,Mall
+5,82,Mall
+5,83,Mall
+5,84,Mall
+5,85,Bus Station
+5,86,Bus Station
+5,87,Mall
+5,88,Food Court
+5,89,Coffee Shop
+5,90,Coffee Shop
+5,91,Mall
+5,92,Mall
+5,93,Train Station
+5,94,Subway
+5,95,Trade School
+5,96,Trade School
+5,97,Trade School
+5,98,Trade School
+5,99,Trade School
+5,100,Mall
+5,101,Mall
+5,102,Mall
+5,103,Mall
+5,104,Mall
+5,105,Mall
+5,106,Mall
+5,107,Mall
+5,108,Mall
+5,109,Food Court
+5,110,Mall
+5,111,Coffee Shop
+5,112,Food Court
+5,113,Nightclub
+5,114,Fast Food Restaurant
+5,115,Food Court
+5,116,Fast Food Restaurant
+5,117,Mall
+5,118,Bus Station
+5,119,Food Court
+5,120,Subway
+5,121,Bus Station
+5,122,Mall
+5,123,Mall
+5,124,Mall
+5,125,Mall
+5,126,Mall
+5,127,Mall
+5,128,Mall
+5,129,Mall
+5,130,Mall
+5,131,Mall
+5,132,Mall
+5,133,Mall
+5,134,Mall
+5,135,Mall
+5,136,Food Court
+5,137,Mall
+5,138,Fast Food Restaurant
+5,139,Fast Food Restaurant
+5,140,Mall
+5,141,Food Court
+5,142,Food Court
+5,143,Mall
+5,144,Food Court
+5,145,Food Court
+5,146,Mall
+5,147,Mall
+5,148,Mall
+5,149,Mall
+5,150,Mall
+5,151,Mall
+5,152,Mall
+5,153,Mall
+5,154,Mall
+5,155,Mall
+5,156,Mall
+5,157,Mall
+5,158,Coffee Shop
+5,159,Food Court
+5,160,Fast Food Restaurant
+5,161,Coffee Shop
+5,162,Food Court
+5,163,Fast Food Restaurant
+5,164,Mall
+5,165,Train Station
+5,166,Subway
+5,167,Trade School
+8,0,High School
+8,1,General College & University
+8,2,Mall
+8,3,Asian Restaurant
+8,4,Mall
+8,5,Mall
+8,6,Mall
+8,7,Mall
+8,8,Mall
+8,9,Mall
+8,10,Mall
+8,11,Mall
+8,12,Mall
+8,13,Multiplex
+8,14,Mall
+8,15,Caf
+8,16,Nightclub
+8,17,Mall
+8,18,Nightclub
+8,19,Nightclub
+8,20,Caf
+8,21,Mall
+8,22,Subway
+8,23,Mall
+8,24,Fast Food Restaurant
+8,25,Hotel
+8,26,Mall
+8,27,Mall
+8,28,Mall
+8,29,Mall
+8,30,Mall
+8,31,Mall
+8,32,Mall
+8,33,Mall
+8,34,Mall
+8,35,Mall
+8,36,Mall
+8,37,Subway
+8,38,Coffee Shop
+8,39,Mall
+8,40,Asian Restaurant
+8,41,Food Court
+8,42,Caf
+8,43,Food Court
+8,44,Hotel
+8,45,Bus Station
+8,46,Subway
+8,47,High School
+8,48,High School
+8,49,Mall
+8,50,Mall
+8,51,Mall
+8,52,Food Court
+8,53,Food Court
+8,54,Mall
+8,55,Mall
+8,56,Mall
+8,57,Mall
+8,58,Mall
+8,59,Mall
+8,60,Mall
+8,61,Mall
+8,62,Nightclub
+8,63,Nightclub
+8,64,Nightclub
+8,65,Nightclub
+8,66,Food Court
+8,67,Nightclub
+8,68,Caf
+8,69,Caf
+8,70,Subway
+8,71,Mall
+8,72,High School
+8,73,Train Station
+8,74,Mall
+8,75,Mall
+8,76,Food Court
+8,77,Mall
+8,78,Mall
+8,79,Mall
+8,80,Mall
+8,81,Mall
+8,82,Mall
+8,83,Mall
+8,84,Mall
+8,85,Mall
+8,86,Food Court
+8,87,Coffee Shop
+8,88,Mall
+8,89,Fast Food Restaurant
+8,90,Fast Food Restaurant
+8,91,Mall
+8,92,Caf
+8,93,Fast Food Restaurant
+8,94,Subway
+8,95,High School
+8,96,Fast Food Restaurant
+8,97,High School
+8,98,Subway
+8,99,Mall
+8,100,Mall
+8,101,Mall
+8,102,Mall
+8,103,Mall
+8,104,Mall
+8,105,Mall
+8,106,Mall
+8,107,Mall
+8,108,Mall
+8,109,Mall
+8,110,Mall
+8,111,Mall
+8,112,Multiplex
+8,113,Nightclub
+8,114,Nightclub
+8,115,Nightclub
+8,116,Nightclub
+8,117,Caf
+8,118,Chinese Restaurant
+8,119,Food Court
+8,120,High School
+8,121,Mall
+8,122,Chinese Restaurant
+8,123,Mall
+8,124,Mall
+8,125,Mall
+8,126,Mall
+8,127,Mall
+8,128,Mall
+8,129,Mall
+8,130,Mall
+8,131,Mall
+8,132,Mall
+8,133,Mall
+8,134,Mall
+8,135,Nightclub
+8,136,Multiplex
+8,137,Multiplex
+8,138,Chinese Restaurant
+8,139,Fast Food Restaurant
+8,140,Caf
+8,141,Caf
+8,142,Hotel
+8,143,Fast Food Restaurant
+8,144,Mall
+8,145,Food Court
+8,146,Mall
+8,147,Mall
+8,148,Mall
+8,149,Mall
+8,150,Mall
+8,151,Mall
+8,152,Mall
+8,153,Mall
+8,154,Mall
+8,155,Mall
+8,156,Mall
+8,157,Mall
+8,158,Mall
+8,159,Fast Food Restaurant
+8,160,Asian Restaurant
+8,161,Chinese Restaurant
+8,162,Food Court
+8,163,Food Court
+8,164,Caf
+8,165,Hotel
+8,166,Mall
+8,167,Mall
+10,0,High School
+10,1,High School
+10,2,Mall
+10,3,Mall
+10,4,Mall
+10,5,Mall
+10,6,Mall
+10,7,Mall
+10,8,Mall
+10,9,Mall
+10,10,Bus Station
+10,11,Mall
+10,12,Coffee Shop
+10,13,Caf
+10,14,Bus Line
+10,15,High School
+10,16,Mall
+10,17,Caf
+10,18,Mall
+10,19,Mall
+10,20,Mall
+10,21,Bus Station
+10,22,High School
+10,23,High School
+10,24,High School
+10,25,High School
+10,26,High School
+10,27,Chinese Restaurant
+10,28,Mall
+10,29,Mall
+10,30,Mall
+10,31,Mall
+10,32,Mall
+10,33,Mall
+10,34,Bus Station
+10,35,Mall
+10,36,Hotel
+10,37,Mall
+10,38,Bus Station
+10,39,Mall
+10,40,Mall
+10,41,Mall
+10,42,Mall
+10,43,Mall
+10,44,Mall
+10,45,Bus Station
+10,46,High School
+10,47,High School
+10,48,High School
+10,49,Mall
+10,50,High School
+10,51,Bus Station
+10,52,Bus Station
+10,53,High School
+10,54,Bus Station
+10,55,Mall
+10,56,Mall
+10,57,Mall
+10,58,Mall
+10,59,Mall
+10,60,Bus Station
+10,61,Asian Restaurant
+10,62,Mall
+10,63,Mall
+10,64,Mall
+10,65,Mall
+10,66,Mall
+10,67,Mall
+10,68,Mall
+10,69,Bus Station
+10,70,High School
+10,71,High School
+10,72,High School
+10,73,High School
+10,74,High School
+10,75,High School
+10,76,High School
+10,77,Mall
+10,78,Bus Station
+10,79,Mall
+10,80,Mall
+10,81,Mall
+10,82,Mall
+10,83,Mall
+10,84,Mall
+10,85,Mall
+10,86,Bus Station
+10,87,Mall
+10,88,Mall
+10,89,Mall
+10,90,Mall
+10,91,Mall
+10,92,Mall
+10,93,Mall
+10,94,High School
+10,95,High School
+10,96,Trade School
+10,97,High School
+10,98,High School
+10,99,Mall
+10,100,Mall
+10,101,Bus Station
+10,102,Mall
+10,103,Mall
+10,104,Mall
+10,105,Mall
+10,106,Mall
+10,107,Mall
+10,108,Mall
+10,109,Fast Food Restaurant
+10,110,Bus Line
+10,111,Mall
+10,112,Coffee Shop
+10,113,Mall
+10,114,Caf
+10,115,Mall
+10,116,Mall
+10,117,Coffee Shop
+10,118,High School
+10,119,Fast Food Restaurant
+10,120,High School
+10,121,Fast Food Restaurant
+10,122,Coffee Shop
+10,123,Mall
+10,124,Mall
+10,125,Mall
+10,126,Mall
+10,127,Mall
+10,128,Church
+10,129,Mall
+10,130,Mall
+10,131,Mall
+10,132,Mall
+10,133,Subway
+10,134,Food Court
+10,135,Fast Food Restaurant
+10,136,Caf
+10,137,Caf
+10,138,Mall
+10,139,Mall
+10,140,Mall
+10,141,Mall
+10,142,Food Court
+10,143,Church
+10,144,Church
+10,145,Coffee Shop
+10,146,Church
+10,147,Church
+10,148,Mall
+10,149,Mall
+10,150,Mall
+10,151,Mall
+10,152,Mall
+10,153,Food Court
+10,154,Mall
+10,155,Mall
+10,156,Mall
+10,157,Bus Station
+10,158,Mall
+10,159,Mall
+10,160,Mall
+10,161,Bus Station
+10,162,Mall
+10,163,Mall
+10,164,Mall
+10,165,Mall
+10,166,High School
+10,167,High School
+6,0,Coffee Shop
+6,1,General College & University
+6,2,Trade School
+6,3,Mall
+6,4,Mall
+6,5,Mall
+6,6,Mall
+6,7,Mall
+6,8,Mall
+6,9,Mall
+6,10,Mall
+6,11,Mall
+6,12,Mall
+6,13,Mall
+6,14,Nightclub
+6,15,Nightclub
+6,16,Nightclub
+6,17,Nightclub
+6,18,Nightclub
+6,19,Nightclub
+6,20,Nightclub
+6,21,Fast Food Restaurant
+6,22,Coffee Shop
+6,23,Fast Food Restaurant
+6,24,Mall
+6,25,Trade School
+6,26,Trade School
+6,27,Mall
+6,28,Mall
+6,29,Mall
+6,30,Mall
+6,31,Mall
+6,32,Mall
+6,33,Mall
+6,34,Mall
+6,35,Mall
+6,36,Mall
+6,37,Food Court
+6,38,Mall
+6,39,Nightclub
+6,40,Nightclub
+6,41,Nightclub
+6,42,Nightclub
+6,43,Nightclub
+6,44,Nightclub
+6,45,Fast Food Restaurant
+6,46,High School
+6,47,Mall
+6,48,Train Station
+6,49,Train Station
+6,50,Trade School
+6,51,Mall
+6,52,Mall
+6,53,Mall
+6,54,Mall
+6,55,Mall
+6,56,Mall
+6,57,Mall
+6,58,Mall
+6,59,Mall
+6,60,Mall
+6,61,Mall
+6,62,Nightclub
+6,63,Nightclub
+6,64,Nightclub
+6,65,Nightclub
+6,66,Nightclub
+6,67,Nightclub
+6,68,Nightclub
+6,69,Nightclub
+6,70,Mall
+6,71,Train Station
+6,72,General College & University
+6,73,General College & University
+6,74,Trade School
+6,75,Hotel
+6,76,Mall
+6,77,Mall
+6,78,Mall
+6,79,Mall
+6,80,Mall
+6,81,Mall
+6,82,Mall
+6,83,Mall
+6,84,Mall
+6,85,Mall
+6,86,Mall
+6,87,Nightclub
+6,88,Nightclub
+6,89,Nightclub
+6,90,Nightclub
+6,91,Nightclub
+6,92,Nightclub
+6,93,Nightclub
+6,94,Chinese Restaurant
+6,95,Mall
+6,96,General College & University
+6,97,Mall
+6,98,General College & University
+6,99,General College & University
+6,100,Mall
+6,101,Mall
+6,102,Mall
+6,103,Mall
+6,104,Mall
+6,105,Mall
+6,106,Mall
+6,107,Mall
+6,108,Mall
+6,109,Mall
+6,110,Nightclub
+6,111,Nightclub
+6,112,Nightclub
+6,113,Nightclub
+6,114,Nightclub
+6,115,Nightclub
+6,116,Nightclub
+6,117,Nightclub
+6,118,Mall
+6,119,Asian Restaurant
+6,120,Fast Food Restaurant
+6,121,Mall
+6,122,Mall
+6,123,Mall
+6,124,Mall
+6,125,Mall
+6,126,Mall
+6,127,Mall
+6,128,Mall
+6,129,Mall
+6,130,Mall
+6,131,Mall
+6,132,Mall
+6,133,Mall
+6,134,Nightclub
+6,135,Nightclub
+6,136,Nightclub
+6,137,Nightclub
+6,138,Nightclub
+6,139,Nightclub
+6,140,Nightclub
+6,141,Nightclub
+6,142,Mall
+6,143,Church
+6,144,Fast Food Restaurant
+6,145,Mall
+6,146,Mall
+6,147,Mall
+6,148,Mall
+6,149,Mall
+6,150,Mall
+6,151,Mall
+6,152,Mall
+6,153,Mall
+6,154,Mall
+6,155,Mall
+6,156,Mall
+6,157,Mall
+6,158,Nightclub
+6,159,Nightclub
+6,160,Nightclub
+6,161,Nightclub
+6,162,Nightclub
+6,163,Nightclub
+6,164,Nightclub
+6,165,Asian Restaurant
+6,166,Mall
+6,167,Food Court
+11,0,General College & University
+11,1,General College & University
+11,2,General College & University
+11,3,General College & University
+11,4,Mall
+11,5,Mall
+11,6,Mall
+11,7,Mall
+11,8,Mall
+11,9,Mall
+11,10,Train Station
+11,11,Mall
+11,12,Mall
+11,13,Mall
+11,14,Food Court
+11,15,Food Court
+11,16,Hotel
+11,17,Mall
+11,18,Fast Food Restaurant
+11,19,Mall
+11,20,Mall
+11,21,Mall
+11,22,General College & University
+11,23,General College & University
+11,24,General College & University
+11,25,General College & University
+11,26,General College & University
+11,27,General College & University
+11,28,Mall
+11,29,Mall
+11,30,Mall
+11,31,General College & University
+11,32,Mall
+11,33,Mall
+11,34,Mall
+11,35,Mall
+11,36,Mall
+11,37,Mall
+11,38,Mall
+11,39,Bus Station
+11,40,Mall
+11,41,Fast Food Restaurant
+11,42,Mall
+11,43,Mall
+11,44,Mall
+11,45,Mall
+11,46,General College & University
+11,47,General College & University
+11,48,General College & University
+11,49,General College & University
+11,50,General College & University
+11,51,General College & University
+11,52,Mall
+11,53,Mall
+11,54,Mall
+11,55,Mall
+11,56,Mall
+11,57,Mall
+11,58,Mall
+11,59,Mall
+11,60,Mall
+11,61,Mall
+11,62,Fast Food Restaurant
+11,63,Nightclub
+11,64,Nightclub
+11,65,Bus Station
+11,66,Mall
+11,67,Mall
+11,68,Nightclub
+11,69,Food Court
+11,70,General College & University
+11,71,General College & University
+11,72,General College & University
+11,73,General College & University
+11,74,General College & University
+11,75,General College & University
+11,76,Mall
+11,77,Mall
+11,78,Mall
+11,79,Mall
+11,80,Mall
+11,81,Mall
+11,82,Mall
+11,83,Mall
+11,84,Mall
+11,85,Mall
+11,86,Food Court
+11,87,Chinese Restaurant
+11,88,Coffee Shop
+11,89,Nightclub
+11,90,Subway
+11,91,Mall
+11,92,Mall
+11,93,Mall
+11,94,General College & University
+11,95,General College & University
+11,96,General College & University
+11,97,General College & University
+11,98,Mall
+11,99,Mall
+11,100,Mall
+11,101,Mall
+11,102,Mall
+11,103,Mall
+11,104,Mall
+11,105,Mall
+11,106,Mall
+11,107,Mall
+11,108,Mall
+11,109,Mall
+11,110,Nightclub
+11,111,Multiplex
+11,112,Nightclub
+11,113,Mall
+11,114,Mall
+11,115,Nightclub
+11,116,Mall
+11,117,Train Station
+11,118,High School
+11,119,Mall
+11,120,Coffee Shop
+11,121,General College & University
+11,122,Mall
+11,123,Mall
+11,124,Mall
+11,125,Mall
+11,126,Mall
+11,127,Mall
+11,128,Mall
+11,129,Mall
+11,130,Mall
+11,131,Mall
+11,132,Mall
+11,133,Mall
+11,134,Mall
+11,135,Nightclub
+11,136,Nightclub
+11,137,Nightclub
+11,138,Coffee Shop
+11,139,Coffee Shop
+11,140,Nightclub
+11,141,Fast Food Restaurant
+11,142,Coffee Shop
+11,143,Church
+11,144,Church
+11,145,Food Court
+11,146,Food Court
+11,147,Mall
+11,148,Mall
+11,149,Mall
+11,150,Mall
+11,151,Mall
+11,152,Mall
+11,153,Mall
+11,154,Mall
+11,155,Mall
+11,156,Mall
+11,157,Mall
+11,158,Multiplex
+11,159,Food Court
+11,160,Food Court
+11,161,Nightclub
+11,162,Chinese Restaurant
+11,163,Mall
+11,164,Mall
+11,165,Mall
+11,166,General College & University
+11,167,General College & University
+1,0,Fast Food Restaurant
+1,1,Trade School
+1,2,Coffee Shop
+1,3,Mall
+1,4,Mall
+1,5,Mall
+1,6,Mall
+1,7,Mall
+1,8,Mall
+1,9,Mall
+1,10,Mall
+1,11,Mall
+1,12,Mall
+1,13,Mall
+1,14,Mall
+1,15,Mall
+1,16,Mall
+1,17,Nightclub
+1,18,Hotel
+1,19,Mall
+1,20,Mall
+1,21,Coffee Shop
+1,22,Subway
+1,23,High School
+1,24,High School
+1,25,High School
+1,26,Mall
+1,27,Mall
+1,28,Mall
+1,29,Mall
+1,30,Mall
+1,31,Mall
+1,32,Mall
+1,33,Mall
+1,34,Mall
+1,35,Mall
+1,36,Mall
+1,37,Mall
+1,38,Mall
+1,39,Mall
+1,40,Nightclub
+1,41,Mall
+1,42,Chinese Restaurant
+1,43,Food Court
+1,44,Coffee Shop
+1,45,Food Court
+1,46,Mall
+1,47,High School
+1,48,High School
+1,49,Subway
+1,50,Fast Food Restaurant
+1,51,Mall
+1,52,Mall
+1,53,Mall
+1,54,Mall
+1,55,Mall
+1,56,Mall
+1,57,Mall
+1,58,Mall
+1,59,Mall
+1,60,Mall
+1,61,Mall
+1,62,Mall
+1,63,Nightclub
+1,64,Nightclub
+1,65,Nightclub
+1,66,Nightclub
+1,67,Nightclub
+1,68,Hotel
+1,69,Coffee Shop
+1,70,Coffee Shop
+1,71,Bus Line
+1,72,Mall
+1,73,High School
+1,74,Mall
+1,75,Mall
+1,76,Mall
+1,77,Mall
+1,78,Mall
+1,79,Mall
+1,80,Mall
+1,81,Mall
+1,82,Mall
+1,83,Mall
+1,84,Mall
+1,85,Mall
+1,86,Food Court
+1,87,Nightclub
+1,88,Mall
+1,89,Nightclub
+1,90,Nightclub
+1,91,Mall
+1,92,Asian Restaurant
+1,93,Bus Line
+1,94,Hotel
+1,95,High School
+1,96,Food Court
+1,97,Hotel
+1,98,Mall
+1,99,Mall
+1,100,Mall
+1,101,Mall
+1,102,Mall
+1,103,Mall
+1,104,Mall
+1,105,Mall
+1,106,Mall
+1,107,Mall
+1,108,Mall
+1,109,Mall
+1,110,Mall
+1,111,Nightclub
+1,112,Nightclub
+1,113,Nightclub
+1,114,Nightclub
+1,115,Nightclub
+1,116,Fast Food Restaurant
+1,117,Coffee Shop
+1,118,Subway
+1,119,Mall
+1,120,Food Court
+1,121,Subway
+1,122,Mall
+1,123,Mall
+1,124,Mall
+1,125,Mall
+1,126,Mall
+1,127,Mall
+1,128,Mall
+1,129,Mall
+1,130,Mall
+1,131,Mall
+1,132,Mall
+1,133,Mall
+1,134,Mall
+1,135,Mall
+1,136,Nightclub
+1,137,Nightclub
+1,138,Nightclub
+1,139,Nightclub
+1,140,Nightclub
+1,141,Caf
+1,142,Subway
+1,143,Mall
+1,144,Mall
+1,145,Bus Station
+1,146,Mall
+1,147,Mall
+1,148,Mall
+1,149,Mall
+1,150,Mall
+1,151,Mall
+1,152,Mall
+1,153,Mall
+1,154,Mall
+1,155,Mall
+1,156,Mall
+1,157,Mall
+1,158,Mall
+1,159,Mall
+1,160,Food Court
+1,161,Coffee Shop
+1,162,Nightclub
+1,163,Nightclub
+1,164,Coffee Shop
+1,165,Food Court
+1,166,Subway
+1,167,High School
+7,0,High School
+7,1,High School
+7,2,High School
+7,3,High School
+7,4,High School
+7,5,Mall
+7,6,Mall
+7,7,Mall
+7,8,Mall
+7,9,Mall
+7,10,Mall
+7,11,Mall
+7,12,Mall
+7,13,Mall
+7,14,Mall
+7,15,Train Station
+7,16,Fast Food Restaurant
+7,17,Fast Food Restaurant
+7,18,Fast Food Restaurant
+7,19,Fast Food Restaurant
+7,20,Food Court
+7,21,Bus Station
+7,22,High School
+7,23,High School
+7,24,High School
+7,25,High School
+7,26,High School
+7,27,High School
+7,28,High School
+7,29,High School
+7,30,Mall
+7,31,Mall
+7,32,Mall
+7,33,Mall
+7,34,Mall
+7,35,Mall
+7,36,Mall
+7,37,Mall
+7,38,Fast Food Restaurant
+7,39,Train Station
+7,40,Mall
+7,41,Mall
+7,42,Mall
+7,43,Fast Food Restaurant
+7,44,Mall
+7,45,Asian Restaurant
+7,46,High School
+7,47,High School
+7,48,High School
+7,49,High School
+7,50,High School
+7,51,High School
+7,52,High School
+7,53,Mall
+7,54,Mall
+7,55,Mall
+7,56,Mall
+7,57,Mall
+7,58,Mall
+7,59,Mall
+7,60,Mall
+7,61,Mall
+7,62,Caf
+7,63,Mall
+7,64,Fast Food Restaurant
+7,65,Fast Food Restaurant
+7,66,Coffee Shop
+7,67,Mall
+7,68,Coffee Shop
+7,69,Fast Food Restaurant
+7,70,High School
+7,71,High School
+7,72,High School
+7,73,High School
+7,74,High School
+7,75,High School
+7,76,High School
+7,77,High School
+7,78,Mall
+7,79,Mall
+7,80,Mall
+7,81,Mall
+7,82,Mall
+7,83,Mall
+7,84,Mall
+7,85,Mall
+7,86,Nightclub
+7,87,Fast Food Restaurant
+7,88,Fast Food Restaurant
+7,89,High School
+7,90,Mall
+7,91,Nightclub
+7,92,Coffee Shop
+7,93,Caf
+7,94,High School
+7,95,High School
+7,96,High School
+7,97,High School
+7,98,High School
+7,99,High School
+7,100,Mall
+7,101,Mall
+7,102,Mall
+7,103,Mall
+7,104,Mall
+7,105,Mall
+7,106,Mall
+7,107,Mall
+7,108,Mall
+7,109,Mall
+7,110,Bus Station
+7,111,Nightclub
+7,112,Multiplex
+7,113,Fast Food Restaurant
+7,114,Hotel
+7,115,Fast Food Restaurant
+7,116,Mall
+7,117,Nightclub
+7,118,Fast Food Restaurant
+7,119,High School
+7,120,High School
+7,121,High School
+7,122,Mall
+7,123,Mall
+7,124,Mall
+7,125,Mall
+7,126,Mall
+7,127,Mall
+7,128,Mall
+7,129,Mall
+7,130,Mall
+7,131,Mall
+7,132,Mall
+7,133,Mall
+7,134,Mall
+7,135,Mall
+7,136,Train Station
+7,137,Coffee Shop
+7,138,Caf
+7,139,Fast Food Restaurant
+7,140,Nightclub
+7,141,Asian Restaurant
+7,142,Bus Station
+7,143,Train Station
+7,144,Church
+7,145,Church
+7,146,Food Court
+7,147,Church
+7,148,Mall
+7,149,Mall
+7,150,Mall
+7,151,Mall
+7,152,Mall
+7,153,Mall
+7,154,Mall
+7,155,Mall
+7,156,Mall
+7,157,Mall
+7,158,Mall
+7,159,Bus Station
+7,160,Mall
+7,161,Mall
+7,162,Hotel
+7,163,Chinese Restaurant
+7,164,Asian Restaurant
+7,165,Coffee Shop
+7,166,High School
+7,167,High School
+4,0,Bus Station
+4,1,Bus Station
+4,2,Bus Line
+4,3,Bus Station
+4,4,Bus Station
+4,5,Subway
+4,6,Mall
+4,7,Subway
+4,8,Mall
+4,9,Bus Station
+4,10,Bus Station
+4,11,Bus Station
+4,12,Subway
+4,13,Mall
+4,14,Bus Station
+4,15,Bus Station
+4,16,Fast Food Restaurant
+4,17,Subway
+4,18,Nightclub
+4,19,Chinese Restaurant
+4,20,Fast Food Restaurant
+4,21,Bus Line
+4,22,Bus Station
+4,23,Bus Station
+4,24,Bus Station
+4,25,Bus Station
+4,26,Subway
+4,27,Subway
+4,28,Mall
+4,29,Mall
+4,30,Mall
+4,31,Bus Station
+4,32,Bus Station
+4,33,Mall
+4,34,Mall
+4,35,Mall
+4,36,Mall
+4,37,Subway
+4,38,Subway
+4,39,Bus Station
+4,40,Mall
+4,41,Fast Food Restaurant
+4,42,Chinese Restaurant
+4,43,Hotel
+4,44,Mall
+4,45,Bus Line
+4,46,Bus Station
+4,47,Bus Station
+4,48,Bus Station
+4,49,Bus Station
+4,50,Subway
+4,51,Subway
+4,52,Mall
+4,53,Mall
+4,54,Bus Station
+4,55,Subway
+4,56,Mall
+4,57,Bus Station
+4,58,Bus Station
+4,59,Mall
+4,60,Mall
+4,61,Bus Station
+4,62,Bus Station
+4,63,Bus Station
+4,64,Bus Station
+4,65,Coffee Shop
+4,66,Coffee Shop
+4,67,High School
+4,68,Mall
+4,69,Bus Line
+4,70,Bus Station
+4,71,Bus Station
+4,72,Bus Station
+4,73,Bus Station
+4,74,Subway
+4,75,Bus Station
+4,76,Mall
+4,77,Mall
+4,78,Mall
+4,79,Bus Station
+4,80,Bus Station
+4,81,Subway
+4,82,Mall
+4,83,Mall
+4,84,Subway
+4,85,Bus Station
+4,86,Subway
+4,87,Bus Line
+4,88,Bus Station
+4,89,Fast Food Restaurant
+4,90,Mall
+4,91,Fast Food Restaurant
+4,92,Bus Line
+4,93,Bus Line
+4,94,Bus Station
+4,95,Bus Station
+4,96,Train Station
+4,97,Bus Station
+4,98,Mall
+4,99,Subway
+4,100,Mall
+4,101,Subway
+4,102,Mall
+4,103,Subway
+4,104,Mall
+4,105,Mall
+4,106,Mall
+4,107,Mall
+4,108,Mall
+4,109,Subway
+4,110,Bus Station
+4,111,Bus Station
+4,112,Nightclub
+4,113,Nightclub
+4,114,Nightclub
+4,115,Mall
+4,116,Fast Food Restaurant
+4,117,Nightclub
+4,118,Bus Station
+4,119,Bus Station
+4,120,Bus Station
+4,121,Bus Station
+4,122,Subway
+4,123,Mall
+4,124,Mall
+4,125,Mall
+4,126,Mall
+4,127,Mall
+4,128,Mall
+4,129,Subway
+4,130,Mall
+4,131,Mall
+4,132,Mall
+4,133,Mall
+4,134,Subway
+4,135,Subway
+4,136,Bus Station
+4,137,Nightclub
+4,138,Nightclub
+4,139,Mall
+4,140,Nightclub
+4,141,Coffee Shop
+4,142,Bus Station
+4,143,Bus Station
+4,144,Subway
+4,145,Bus Station
+4,146,Bus Station
+4,147,Mall
+4,148,Mall
+4,149,Mall
+4,150,Mall
+4,151,Mall
+4,152,Mall
+4,153,Mall
+4,154,Mall
+4,155,Mall
+4,156,Mall
+4,157,Mall
+4,158,Bus Station
+4,159,Subway
+4,160,Mall
+4,161,Fast Food Restaurant
+4,162,Fast Food Restaurant
+4,163,Mall
+4,164,Hotel
+4,165,Coffee Shop
+4,166,Bus Station
+4,167,Bus Station

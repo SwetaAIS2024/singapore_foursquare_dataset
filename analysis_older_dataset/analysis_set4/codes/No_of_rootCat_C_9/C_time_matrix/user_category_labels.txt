@@ -1,0 +1,9 @@
+0	Arts & Entertainment
+1	College & University
+2	Food
+3	Great Outdoors
+4	Nightlife Spot
+5	Professional & Other Places
+6	Residence
+7	Shop & Service
+8	Travel & Transport

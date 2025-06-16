@@ -1,0 +1,13 @@
+Cluster,Label,Top POI Preferences,Peak Time
+3,Weekend Mall Visitors,"Mall, Food Court, Coffee Shop, Subway, Fast Food Restaurant",Peaks during Morning (8AM-12PM)
+2,Weekend Mall Visitors,"Mall, Food Court, Subway, Coffee Shop, Chinese Restaurant",Peaks during Morning (8AM-12PM)
+0,Weekend Mall Visitors,"Mall, Coffee Shop, Food Court, Caf, Chinese Restaurant",Peaks during Morning (8AM-12PM)
+9,Weekend Mall Visitors,"Mall, Church, Food Court, Chinese Restaurant, Coffee Shop",Peaks during Morning (8AM-12PM)
+5,General,"Trade School, Mall, Bus Station, Subway, Train Station",Peaks during Late Night (12AM-4AM)
+8,Weekend Mall Visitors,"Mall, Food Court, Coffee Shop, Chinese Restaurant, Multiplex",Peaks during Morning (8AM-12PM)
+10,General,"High School, Mall, Bus Station, Bus Line, Food Court",Peaks during Night (8PM-12AM)
+6,General,"Nightclub, Mall, Food Court, Chinese Restaurant, Coffee Shop",Peaks during Morning (8AM-12PM)
+11,Weekend Mall Visitors,"Mall, General College & University, Food Court, Train Station, Coffee Shop",Peaks during Morning (8AM-12PM)
+1,Weekend Mall Visitors,"Mall, Food Court, Coffee Shop, Subway, Chinese Restaurant",Peaks during Morning (8AM-12PM)
+7,General,"High School, Mall, Bus Station, Fast Food Restaurant, Food Court",Peaks during Early Morning (4AM-8AM)
+4,General,"Bus Station, Mall, Subway, Train Station, Bus Line",Peaks during Morning (8AM-12PM)

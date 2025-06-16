@@ -1,0 +1,20 @@
+0	Mall
+1	Bus Station
+2	Subway
+3	Food Court
+4	Train Station
+5	Coffee Shop
+6	High School
+7	Fast Food Restaurant
+8	Nightclub
+9	Bus Line
+10	Chinese Restaurant
+11	Multiplex
+12	Caf
+13	Hotel
+14	Asian Restaurant
+15	Japanese Restaurant
+16	Church
+17	General College & University
+18	Trade School
+19	Gym
