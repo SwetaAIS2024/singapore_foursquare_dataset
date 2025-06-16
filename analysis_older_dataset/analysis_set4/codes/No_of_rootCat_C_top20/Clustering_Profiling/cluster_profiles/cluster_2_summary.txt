@@ -1,3 +1,3 @@
 Cluster 2
-Num users: 159
-Top POI categories: ['Coffee Shop', 'Caf\x1a\x1a', 'Mall', 'Food Court', 'Chinese Restaurant']
+Num users: 138
+Top POI categories: ['Mall', 'Subway', 'Food Court', 'Train Station', 'Bus Station']
