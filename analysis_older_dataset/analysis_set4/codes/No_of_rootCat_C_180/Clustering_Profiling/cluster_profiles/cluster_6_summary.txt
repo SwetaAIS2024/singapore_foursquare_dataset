@@ -1,0 +1,3 @@
+Cluster 6
+Num users: 15
+Top POI categories: ['Food Court', 'Japanese Restaurant', 'Coffee Shop', 'Fast Food Restaurant', 'Multiplex']

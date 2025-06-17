@@ -1,0 +1,3 @@
+Cluster 17
+Num users: 83
+Top POI categories: ['Church', 'Food Court', 'Fast Food Restaurant', 'Coffee Shop', 'Caf\x1a\x1a']

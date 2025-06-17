@@ -1,0 +1,3 @@
+Cluster 0
+Num users: 160
+Top POI categories: ['Nightclub', 'Food Court', 'Chinese Restaurant', 'Coffee Shop', 'Multiplex']

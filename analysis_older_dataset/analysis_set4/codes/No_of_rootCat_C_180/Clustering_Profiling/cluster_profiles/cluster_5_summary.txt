@@ -1,0 +1,3 @@
+Cluster 5
+Num users: 117
+Top POI categories: ['Multiplex', 'Coffee Shop', 'Food Court', 'Chinese Restaurant', 'Caf\x1a\x1a']

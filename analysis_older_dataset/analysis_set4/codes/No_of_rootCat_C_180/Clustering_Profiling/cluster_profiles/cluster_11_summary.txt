@@ -1,0 +1,3 @@
+Cluster 11
+Num users: 37
+Top POI categories: ['Nightclub', 'Chinese Restaurant', 'Coffee Shop', 'Multiplex', 'Caf\x1a\x1a']

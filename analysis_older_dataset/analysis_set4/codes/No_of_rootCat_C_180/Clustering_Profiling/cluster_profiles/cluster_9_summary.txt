@@ -1,0 +1,3 @@
+Cluster 9
+Num users: 181
+Top POI categories: ['Subway', 'Food Court', 'Fast Food Restaurant', 'Train Station', 'Coffee Shop']

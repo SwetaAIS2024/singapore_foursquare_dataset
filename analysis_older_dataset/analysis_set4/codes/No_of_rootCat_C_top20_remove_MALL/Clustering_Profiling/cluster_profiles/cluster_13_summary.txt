@@ -1,0 +1,3 @@
+Cluster 13
+Num users: 171
+Top POI categories: ['Food Court', 'Fast Food Restaurant', 'Coffee Shop', 'Chinese Restaurant', 'Asian Restaurant']

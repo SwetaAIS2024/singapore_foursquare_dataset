@@ -1,0 +1,3 @@
+Cluster 22
+Num users: 24
+Top POI categories: ['Mall', 'Food Court', 'Subway', 'Train Station', 'Coffee Shop']

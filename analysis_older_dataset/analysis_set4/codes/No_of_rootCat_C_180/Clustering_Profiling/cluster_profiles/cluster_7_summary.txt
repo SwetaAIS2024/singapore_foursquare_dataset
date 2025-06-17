@@ -1,0 +1,3 @@
+Cluster 7
+Num users: 94
+Top POI categories: ['Gym', 'Food Court', 'Coffee Shop', 'Caf\x1a\x1a', 'Chinese Restaurant']

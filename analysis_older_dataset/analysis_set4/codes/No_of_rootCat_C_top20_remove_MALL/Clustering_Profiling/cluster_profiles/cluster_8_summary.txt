@@ -1,0 +1,3 @@
+Cluster 8
+Num users: 85
+Top POI categories: ['Hotel', 'Chinese Restaurant', 'Food Court', 'Asian Restaurant', 'Coffee Shop']
