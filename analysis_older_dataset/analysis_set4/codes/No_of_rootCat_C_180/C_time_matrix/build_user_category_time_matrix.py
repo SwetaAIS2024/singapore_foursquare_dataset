@@ -23,7 +23,7 @@ checkins = checkins.dropna(subset=['datetime', 'category'])
 checkins['hour_of_week'] = checkins['datetime'].dt.dayofweek * 24 + checkins['datetime'].dt.hour
 
 # Restrict to top 2000 users by check-in count
-user_counts = checkins['user_id'].value_counts().head(2000)
+user_counts = checkins['user_id'].value_counts().head(2003) # plus 3 because of some users with no check-ins in the top 2000
 top_users = set(user_counts.index)
 checkins = checkins[checkins['user_id'].isin(top_users)]
 print(f'Using top {len(top_users)} users by check-in count.')
@@ -33,17 +33,32 @@ checkins['category'] = checkins['category'].astype(str).str.strip().str.lower()
 checkins = checkins[checkins['category'] != 'mall']
 print(f"Removed 'Mall' check-ins (case-insensitive, trimmed). Remaining check-ins: {len(checkins)}")
 
-# Get top 50 categories by user check-in counts (not global counts)
-user_cat_counts = checkins.groupby(['user_id', 'category']).size().reset_index(name='count')
-top_cats_by_user = user_cat_counts.groupby('category')['count'].sum().sort_values(ascending=False).head(20)
-top_categories = [cat.title() for cat in top_cats_by_user.index.tolist()]
-print(f'Using top 20 categories by user check-in counts: {top_categories}')
-cat2idx = {cat: i for i, cat in enumerate(top_categories)}
+# Load relevant POI categories from Excel
+relevant_cats_xlsx = 'analysis_older_dataset/analysis_set4/codes/No_of_rootCat_C_180/C_time_matrix/Relevant_POI_category.xlsx'
+relevant_cats_df = pd.read_excel(relevant_cats_xlsx)
+# Use correct column names from Excel
+cat_col = 'POI Category in Singapore'
+yes_col = 'Relevant to use case '
+# Only keep categories with 'Yes' in the yes_col
+relevant_categories = [cat for cat, flag in zip(relevant_cats_df[cat_col], relevant_cats_df[yes_col]) if str(flag).strip().lower() == 'yes']
+relevant_categories = [cat.strip().lower() for cat in relevant_categories if cat and str(cat).strip()]
+relevant_categories = list(dict.fromkeys(relevant_categories))  # Removes duplicates, keeps order
 
-# Build [C x 168] matrix for each user (C = 20)
+# Standardize check-in categories
+checkins['category'] = checkins['category'].astype(str).str.strip().str.lower()
+
+# Filter check-ins to only those in the relevant categories
+checkins = checkins[checkins['category'].isin(relevant_categories)]
+print(f"Filtered to relevant {len(relevant_categories)} POI categories (with 'Yes' flag). Remaining check-ins: {len(checkins)}")
+
+# Use the categories in the order from the Excel file (title case for output)
+ordered_categories = [cat.title() for cat in relevant_categories]
+cat2idx = {cat: i for i, cat in enumerate(ordered_categories)}
+
+# Build [C x 168] matrix for each user (C = 180)
 user_matrices = {}
 for user, group in checkins.groupby('user_id'):
-    mat = np.zeros((len(top_categories), 168))
+    mat = np.zeros((len(ordered_categories), 168))
     for _, row in group.iterrows():
         cat = row['category'].title()
         hidx = int(row['hour_of_week'])
@@ -59,9 +74,9 @@ for user, group in checkins.groupby('user_id'):
 # Save user matrices for next steps
 np.save('analysis_older_dataset/analysis_set4/codes/No_of_rootCat_C_180/C_time_matrix/user_category_time_matrices.npy', user_matrices)
 with open('analysis_older_dataset/analysis_set4/codes/No_of_rootCat_C_180/C_time_matrix/user_category_labels.txt', 'w') as f:
-    for i, cat in enumerate(top_categories):
+    for i, cat in enumerate(ordered_categories):
         f.write(f'{i}\t{cat}\n')
-print('Saved user [C x 168] matrices and category labels (Top 20 by user check-in counts).')
+print('Saved user [C x 168] matrices and category labels (Relevant 180 POI categories).')
 
 # Display the first three rows of the first user's matrix for inspection
 if user_matrices:
