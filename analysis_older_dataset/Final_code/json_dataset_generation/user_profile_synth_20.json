@@ -1,0 +1,1193 @@
+{
+  "user": {
+    "userId": "synth_20",
+    "age": null,
+    "gender": null,
+    "location": {
+      "city": "Singapore",
+      "country": "SG"
+    },
+    "device": {
+      "platform": null,
+      "appVersion": null
+    }
+  },
+  "interaction": {
+    "views": [
+      {
+        "timestamp": "2012-06-03T10:57:11+00:00",
+        "poiId": "4b528b62f964a520c28127e3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303603,
+          "longitude": 103.835753
+        }
+      },
+      {
+        "timestamp": "2012-06-04T10:48:34+00:00",
+        "poiId": "4c775cda93faa093a2c5f0fb",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301253,
+          "longitude": 103.837023
+        }
+      },
+      {
+        "timestamp": "2012-06-04T14:01:43+00:00",
+        "poiId": "4b058815f964a520aeb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303447,
+          "longitude": 103.835668
+        }
+      },
+      {
+        "timestamp": "2012-07-05T11:47:23+00:00",
+        "poiId": "4bd6b4925631c9b60239a630",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.283756,
+          "longitude": 103.858761
+        }
+      },
+      {
+        "timestamp": "2012-07-07T13:19:55+00:00",
+        "poiId": "4b35f15af964a520732f25e3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303355,
+          "longitude": 103.834791
+        }
+      },
+      {
+        "timestamp": "2012-07-28T08:08:41+00:00",
+        "poiId": "4c775cda93faa093a2c5f0fb",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301253,
+          "longitude": 103.837023
+        }
+      },
+      {
+        "timestamp": "2012-07-28T08:18:11+00:00",
+        "poiId": "4d19b4c9cc216ea879337fd3",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301497,
+          "longitude": 103.83658
+        }
+      },
+      {
+        "timestamp": "2012-07-29T10:35:51+00:00",
+        "poiId": "4b058814f964a52059b022e3",
+        "poiCategories": [
+          "Asian Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.289689,
+          "longitude": 103.835651
+        }
+      },
+      {
+        "timestamp": "2012-08-12T11:19:01+00:00",
+        "poiId": "4b35f15af964a520732f25e3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303355,
+          "longitude": 103.834791
+        }
+      },
+      {
+        "timestamp": "2012-08-18T11:31:32+00:00",
+        "poiId": "4b35f15af964a520732f25e3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303355,
+          "longitude": 103.834791
+        }
+      },
+      {
+        "timestamp": "2012-09-15T10:27:12+00:00",
+        "poiId": "4b058819f964a520deb122e3",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304256,
+          "longitude": 103.832517
+        }
+      },
+      {
+        "timestamp": "2012-10-12T05:58:27+00:00",
+        "poiId": "4b11fc01f964a520d68723e3",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300609,
+          "longitude": 103.838568
+        }
+      },
+      {
+        "timestamp": "2012-11-19T15:08:06+00:00",
+        "poiId": "4c775cda93faa093a2c5f0fb",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301253,
+          "longitude": 103.837023
+        }
+      },
+      {
+        "timestamp": "2012-11-24T11:31:23+00:00",
+        "poiId": "4b2c8c2ef964a520bbc724e3",
+        "poiCategories": [
+          "Monument / Landmark"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.286805,
+          "longitude": 103.854403
+        }
+      },
+      {
+        "timestamp": "2012-11-24T11:31:52+00:00",
+        "poiId": "4b16493af964a52000b823e3",
+        "poiCategories": [
+          "Seafood Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.286301,
+          "longitude": 103.854339
+        }
+      },
+      {
+        "timestamp": "2013-01-11T08:59:31+00:00",
+        "poiId": "4c775cda93faa093a2c5f0fb",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301253,
+          "longitude": 103.837023
+        }
+      },
+      {
+        "timestamp": "2013-01-11T09:09:10+00:00",
+        "poiId": "4dde09c652b155583df8ce22",
+        "poiCategories": [
+          "Caf\u001a\u001a"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301232,
+          "longitude": 103.836508
+        }
+      },
+      {
+        "timestamp": "2013-01-12T11:44:01+00:00",
+        "poiId": "4b058815f964a520a5b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303194,
+          "longitude": 103.834802
+        }
+      },
+      {
+        "timestamp": "2013-01-18T10:23:03+00:00",
+        "poiId": "4b05880bf964a520c8ad22e3",
+        "poiCategories": [
+          "Hotel"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293223,
+          "longitude": 103.853411
+        }
+      },
+      {
+        "timestamp": "2013-01-26T05:37:37+00:00",
+        "poiId": "4c00a065ad46c9b6f7e08f66",
+        "poiCategories": [
+          "Beach"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.253994,
+          "longitude": 103.813548
+        }
+      },
+      {
+        "timestamp": "2013-02-03T11:11:14+00:00",
+        "poiId": "4b245a6ef964a5205c6624e3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303895,
+          "longitude": 103.835928
+        }
+      },
+      {
+        "timestamp": "2013-02-11T10:58:09+00:00",
+        "poiId": "4f2a1ecde4b0ba9487b2fe52",
+        "poiCategories": [
+          "Hotel"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.290536,
+          "longitude": 103.858342
+        }
+      },
+      {
+        "timestamp": "2013-02-14T10:31:11+00:00",
+        "poiId": "4b058815f964a520a5b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303194,
+          "longitude": 103.834802
+        }
+      },
+      {
+        "timestamp": "2013-02-16T10:43:25+00:00",
+        "poiId": "4b058819f964a520deb122e3",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304256,
+          "longitude": 103.832517
+        }
+      },
+      {
+        "timestamp": "2013-02-16T10:45:51+00:00",
+        "poiId": "4b28514df964a520739224e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304793,
+          "longitude": 103.831218
+        }
+      },
+      {
+        "timestamp": "2013-02-16T10:58:21+00:00",
+        "poiId": "4bb9b8627421a5939df3c240",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304113,
+          "longitude": 103.833655
+        }
+      },
+      {
+        "timestamp": "2013-03-24T09:19:09+00:00",
+        "poiId": "4b5a8c6ef964a520d3ca28e3",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.351508,
+          "longitude": 103.864735
+        }
+      },
+      {
+        "timestamp": "2013-03-30T11:44:06+00:00",
+        "poiId": "4b05880bf964a520d2ad22e3",
+        "poiCategories": [
+          "Hotel"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.290497,
+          "longitude": 103.835232
+        }
+      },
+      {
+        "timestamp": "2013-05-04T12:02:37+00:00",
+        "poiId": "505ef917e4b0be434f3fada2",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.272744,
+          "longitude": 103.84211
+        }
+      },
+      {
+        "timestamp": "2013-05-18T07:16:02+00:00",
+        "poiId": "4b11fc01f964a520d68723e3",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300609,
+          "longitude": 103.838568
+        }
+      },
+      {
+        "timestamp": "2013-05-19T11:15:10+00:00",
+        "poiId": "4cb598a28db0a143ce4c6316",
+        "poiCategories": [
+          "Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.302386,
+          "longitude": 103.8362
+        }
+      },
+      {
+        "timestamp": "2013-05-22T09:57:25+00:00",
+        "poiId": "4e747ebea809582dd57e3001",
+        "poiCategories": [
+          "Japanese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.30091,
+          "longitude": 103.838375
+        }
+      },
+      {
+        "timestamp": "2013-05-30T10:23:29+00:00",
+        "poiId": "4cb1a274db32f04d73bdc94d",
+        "poiCategories": [
+          "Italian Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.318401,
+          "longitude": 103.842348
+        }
+      },
+      {
+        "timestamp": "2013-06-01T12:26:11+00:00",
+        "poiId": "4b107e74f964a520af7123e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.323207,
+          "longitude": 103.85473
+        }
+      },
+      {
+        "timestamp": "2013-06-05T11:04:55+00:00",
+        "poiId": "4b0bd124f964a520e03323e3",
+        "poiCategories": [
+          "Airport"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356685,
+          "longitude": 103.988471
+        }
+      },
+      {
+        "timestamp": "2013-06-17T03:36:45+00:00",
+        "poiId": "4b86050ef964a520b17d31e3",
+        "poiCategories": [
+          "Indian Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.302111,
+          "longitude": 103.85848
+        }
+      },
+      {
+        "timestamp": "2013-07-05T13:19:58+00:00",
+        "poiId": "4b107e74f964a520af7123e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.323207,
+          "longitude": 103.85473
+        }
+      },
+      {
+        "timestamp": "2013-07-13T11:09:09+00:00",
+        "poiId": "4b35f15af964a520732f25e3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303355,
+          "longitude": 103.834791
+        }
+      },
+      {
+        "timestamp": "2013-07-20T11:12:29+00:00",
+        "poiId": "4b35f15af964a520732f25e3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303355,
+          "longitude": 103.834791
+        }
+      },
+      {
+        "timestamp": "2013-08-01T09:45:19+00:00",
+        "poiId": "4d2534e1b9796dcbd9caa639",
+        "poiCategories": [
+          "Resort"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.25631,
+          "longitude": 103.820897
+        }
+      },
+      {
+        "timestamp": "2013-08-01T10:24:39+00:00",
+        "poiId": "4bc0671b920eb71363dc182c",
+        "poiCategories": [
+          "Caf\u001a\u001a"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.257657,
+          "longitude": 103.819427
+        }
+      },
+      {
+        "timestamp": "2013-08-08T08:00:14+00:00",
+        "poiId": "4b4969b1f964a520606f26e3",
+        "poiCategories": [
+          "Multiplex"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.305543,
+          "longitude": 103.831573
+        }
+      },
+      {
+        "timestamp": "2013-08-17T11:21:05+00:00",
+        "poiId": "4b35f15af964a520732f25e3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303355,
+          "longitude": 103.834791
+        }
+      },
+      {
+        "timestamp": "2013-08-18T11:11:12+00:00",
+        "poiId": "4b96c6fbf964a520dbe334e3",
+        "poiCategories": [
+          "Italian Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.308866,
+          "longitude": 103.911938
+        }
+      },
+      {
+        "timestamp": "2013-08-31T01:51:18+00:00",
+        "poiId": "4b599543f964a520818d28e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.349745,
+          "longitude": 103.935384
+        }
+      },
+      {
+        "timestamp": "2013-09-06T10:44:35+00:00",
+        "poiId": "4c775cda93faa093a2c5f0fb",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301253,
+          "longitude": 103.837023
+        }
+      }
+    ]
+  },
+  "pois": [
+    {
+      "poiId": "4b528b62f964a520c28127e3",
+      "name": null,
+      "categories": [
+        "Chinese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.303603,
+        "longitude": 103.835753,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c775cda93faa093a2c5f0fb",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301253,
+        "longitude": 103.837023,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058815f964a520aeb022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.303447,
+        "longitude": 103.835668,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bd6b4925631c9b60239a630",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.283756,
+        "longitude": 103.858761,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b35f15af964a520732f25e3",
+      "name": null,
+      "categories": [
+        "Chinese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.303355,
+        "longitude": 103.834791,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d19b4c9cc216ea879337fd3",
+      "name": null,
+      "categories": [
+        "Fast Food Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301497,
+        "longitude": 103.83658,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058814f964a52059b022e3",
+      "name": null,
+      "categories": [
+        "Asian Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.289689,
+        "longitude": 103.835651,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058819f964a520deb122e3",
+      "name": null,
+      "categories": [
+        "Subway"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.304256,
+        "longitude": 103.832517,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b11fc01f964a520d68723e3",
+      "name": null,
+      "categories": [
+        "Subway"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300609,
+        "longitude": 103.838568,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b2c8c2ef964a520bbc724e3",
+      "name": null,
+      "categories": [
+        "Monument / Landmark"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.286805,
+        "longitude": 103.854403,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b16493af964a52000b823e3",
+      "name": null,
+      "categories": [
+        "Seafood Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.286301,
+        "longitude": 103.854339,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4dde09c652b155583df8ce22",
+      "name": null,
+      "categories": [
+        "Caf\u001a\u001a"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301232,
+        "longitude": 103.836508,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058815f964a520a5b022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.303194,
+        "longitude": 103.834802,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b05880bf964a520c8ad22e3",
+      "name": null,
+      "categories": [
+        "Hotel"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.293223,
+        "longitude": 103.853411,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c00a065ad46c9b6f7e08f66",
+      "name": null,
+      "categories": [
+        "Beach"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.253994,
+        "longitude": 103.813548,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b245a6ef964a5205c6624e3",
+      "name": null,
+      "categories": [
+        "Chinese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.303895,
+        "longitude": 103.835928,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4f2a1ecde4b0ba9487b2fe52",
+      "name": null,
+      "categories": [
+        "Hotel"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.290536,
+        "longitude": 103.858342,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b28514df964a520739224e3",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.304793,
+        "longitude": 103.831218,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bb9b8627421a5939df3c240",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.304113,
+        "longitude": 103.833655,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b5a8c6ef964a520d3ca28e3",
+      "name": null,
+      "categories": [
+        "Subway"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.351508,
+        "longitude": 103.864735,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b05880bf964a520d2ad22e3",
+      "name": null,
+      "categories": [
+        "Hotel"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.290497,
+        "longitude": 103.835232,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "505ef917e4b0be434f3fada2",
+      "name": null,
+      "categories": [
+        "Chinese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.272744,
+        "longitude": 103.84211,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cb598a28db0a143ce4c6316",
+      "name": null,
+      "categories": [
+        "Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.302386,
+        "longitude": 103.8362,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4e747ebea809582dd57e3001",
+      "name": null,
+      "categories": [
+        "Japanese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.30091,
+        "longitude": 103.838375,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cb1a274db32f04d73bdc94d",
+      "name": null,
+      "categories": [
+        "Italian Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.318401,
+        "longitude": 103.842348,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b107e74f964a520af7123e3",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.323207,
+        "longitude": 103.85473,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0bd124f964a520e03323e3",
+      "name": null,
+      "categories": [
+        "Airport"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.356685,
+        "longitude": 103.988471,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b86050ef964a520b17d31e3",
+      "name": null,
+      "categories": [
+        "Indian Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.302111,
+        "longitude": 103.85848,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d2534e1b9796dcbd9caa639",
+      "name": null,
+      "categories": [
+        "Resort"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.25631,
+        "longitude": 103.820897,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bc0671b920eb71363dc182c",
+      "name": null,
+      "categories": [
+        "Caf\u001a\u001a"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.257657,
+        "longitude": 103.819427,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b4969b1f964a520606f26e3",
+      "name": null,
+      "categories": [
+        "Multiplex"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.305543,
+        "longitude": 103.831573,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b96c6fbf964a520dbe334e3",
+      "name": null,
+      "categories": [
+        "Italian Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.308866,
+        "longitude": 103.911938,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b599543f964a520818d28e3",
+      "name": null,
+      "categories": [
+        "Church"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.349745,
+        "longitude": 103.935384,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    }
+  ]
+}

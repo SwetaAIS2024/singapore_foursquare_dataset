@@ -1,0 +1,2223 @@
+{
+  "user": {
+    "userId": "synth_11",
+    "age": null,
+    "gender": null,
+    "location": {
+      "city": "Singapore",
+      "country": "SG"
+    },
+    "device": {
+      "platform": null,
+      "appVersion": null
+    }
+  },
+  "interaction": {
+    "views": [
+      {
+        "timestamp": "2012-10-17T12:36:58+00:00",
+        "poiId": "4cb6db7b589f236a324e3a3d",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.375905,
+          "longitude": 103.955598
+        }
+      },
+      {
+        "timestamp": "2012-10-17T12:55:31+00:00",
+        "poiId": "4ce8e172e888f04d0a2d456b",
+        "poiCategories": [
+          "Resort"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.380128,
+          "longitude": 103.961084
+        }
+      },
+      {
+        "timestamp": "2012-10-19T11:49:54+00:00",
+        "poiId": "4b058815f964a520afb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300304,
+          "longitude": 103.844887
+        }
+      },
+      {
+        "timestamp": "2012-10-19T13:25:05+00:00",
+        "poiId": "4b6432ecf964a520b4a32ae3",
+        "poiCategories": [
+          "Thai Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.309662,
+          "longitude": 103.87854
+        }
+      },
+      {
+        "timestamp": "2012-10-22T07:43:20+00:00",
+        "poiId": "4b89fd73f964a5206f5a32e3",
+        "poiCategories": [
+          "Park"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.287529,
+          "longitude": 103.824272
+        }
+      },
+      {
+        "timestamp": "2012-10-22T10:01:27+00:00",
+        "poiId": "4bd311cd046076b027107571",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.28629,
+          "longitude": 103.827341
+        }
+      },
+      {
+        "timestamp": "2012-10-23T08:40:34+00:00",
+        "poiId": "4bd311cd046076b027107571",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.28629,
+          "longitude": 103.827341
+        }
+      },
+      {
+        "timestamp": "2012-10-24T06:07:10+00:00",
+        "poiId": "4bd311cd046076b027107571",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.28629,
+          "longitude": 103.827341
+        }
+      },
+      {
+        "timestamp": "2012-10-24T09:21:07+00:00",
+        "poiId": "4bd311cd046076b027107571",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.28629,
+          "longitude": 103.827341
+        }
+      },
+      {
+        "timestamp": "2012-10-31T07:47:35+00:00",
+        "poiId": "4bb9b8627421a5939df3c240",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304113,
+          "longitude": 103.833655
+        }
+      },
+      {
+        "timestamp": "2012-10-31T07:53:08+00:00",
+        "poiId": "4b189466f964a52049d423e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301339,
+          "longitude": 103.8386
+        }
+      },
+      {
+        "timestamp": "2012-10-31T07:56:26+00:00",
+        "poiId": "4c775cda93faa093a2c5f0fb",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301253,
+          "longitude": 103.837023
+        }
+      },
+      {
+        "timestamp": "2012-10-31T10:21:47+00:00",
+        "poiId": "4b4e7e0ff964a520a7ef26e3",
+        "poiCategories": [
+          "General Entertainment"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300942,
+          "longitude": 103.835886
+        }
+      },
+      {
+        "timestamp": "2012-10-31T11:09:07+00:00",
+        "poiId": "4c775cda93faa093a2c5f0fb",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301253,
+          "longitude": 103.837023
+        }
+      },
+      {
+        "timestamp": "2012-11-01T05:27:00+00:00",
+        "poiId": "4d5b1acbe9b28cfa5029213f",
+        "poiCategories": [
+          "Medical Center"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.320774,
+          "longitude": 103.845177
+        }
+      },
+      {
+        "timestamp": "2012-11-01T07:22:17+00:00",
+        "poiId": "4bd311cd046076b027107571",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.28629,
+          "longitude": 103.827341
+        }
+      },
+      {
+        "timestamp": "2012-11-01T08:40:08+00:00",
+        "poiId": "4b058815f964a520afb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300304,
+          "longitude": 103.844887
+        }
+      },
+      {
+        "timestamp": "2012-11-02T08:54:43+00:00",
+        "poiId": "4cb6db7b589f236a324e3a3d",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.375905,
+          "longitude": 103.955598
+        }
+      },
+      {
+        "timestamp": "2012-11-06T07:50:55+00:00",
+        "poiId": "4c384f3e93db0f474f592192",
+        "poiCategories": [
+          "Flea Market"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300524,
+          "longitude": 103.854967
+        }
+      },
+      {
+        "timestamp": "2012-11-07T07:08:11+00:00",
+        "poiId": "4b058815f964a520afb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300304,
+          "longitude": 103.844887
+        }
+      },
+      {
+        "timestamp": "2012-11-07T08:32:26+00:00",
+        "poiId": "4c775cda93faa093a2c5f0fb",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301253,
+          "longitude": 103.837023
+        }
+      },
+      {
+        "timestamp": "2012-11-08T09:33:32+00:00",
+        "poiId": "4b5da988f964a520ae6529e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350678,
+          "longitude": 103.87275
+        }
+      },
+      {
+        "timestamp": "2012-11-16T07:29:38+00:00",
+        "poiId": "4b5da988f964a520ae6529e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350678,
+          "longitude": 103.87275
+        }
+      },
+      {
+        "timestamp": "2012-11-17T13:58:50+00:00",
+        "poiId": "4effc3df6d8642ac2d377904",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29117,
+          "longitude": 103.844125
+        }
+      },
+      {
+        "timestamp": "2012-11-20T01:31:46+00:00",
+        "poiId": "4d5b1acbe9b28cfa5029213f",
+        "poiCategories": [
+          "Medical Center"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.320774,
+          "longitude": 103.845177
+        }
+      },
+      {
+        "timestamp": "2012-11-22T08:00:44+00:00",
+        "poiId": "4d5b1acbe9b28cfa5029213f",
+        "poiCategories": [
+          "Medical Center"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.320774,
+          "longitude": 103.845177
+        }
+      },
+      {
+        "timestamp": "2012-11-22T08:00:58+00:00",
+        "poiId": "4baec35df964a520ecd53be3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.320764,
+          "longitude": 103.844136
+        }
+      },
+      {
+        "timestamp": "2012-11-22T08:01:15+00:00",
+        "poiId": "4b058814f964a5205fb022e3",
+        "poiCategories": [
+          "Asian Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.321161,
+          "longitude": 103.841895
+        }
+      },
+      {
+        "timestamp": "2012-11-25T06:52:43+00:00",
+        "poiId": "4b936481f964a520794234e3",
+        "poiCategories": [
+          "Temple"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.371014,
+          "longitude": 103.969674
+        }
+      },
+      {
+        "timestamp": "2012-11-25T08:03:33+00:00",
+        "poiId": "4b4e7e0ff964a520a7ef26e3",
+        "poiCategories": [
+          "General Entertainment"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300942,
+          "longitude": 103.835886
+        }
+      },
+      {
+        "timestamp": "2012-11-26T09:28:47+00:00",
+        "poiId": "4b058819f964a520d4b122e3",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.321418,
+          "longitude": 103.845949
+        }
+      },
+      {
+        "timestamp": "2012-12-01T05:55:37+00:00",
+        "poiId": "4b058814f964a52087b022e3",
+        "poiCategories": [
+          "Multiplex"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.298915,
+          "longitude": 103.847644
+        }
+      },
+      {
+        "timestamp": "2012-12-06T10:18:30+00:00",
+        "poiId": "4bf4fc7bff90c9b660d65528",
+        "poiCategories": [
+          "College Administrative Building"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.344038,
+          "longitude": 103.932144
+        }
+      },
+      {
+        "timestamp": "2012-12-07T01:47:43+00:00",
+        "poiId": "4db64ca84159ca03c9213c9f",
+        "poiCategories": [
+          "Coworking Space"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.342516,
+          "longitude": 103.944848
+        }
+      },
+      {
+        "timestamp": "2012-12-11T05:25:39+00:00",
+        "poiId": "4b38b30bf964a520844f25e3",
+        "poiCategories": [
+          "Event Space"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.344849,
+          "longitude": 103.941055
+        }
+      },
+      {
+        "timestamp": "2012-12-15T19:31:46+00:00",
+        "poiId": "4effc3df6d8642ac2d377904",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29117,
+          "longitude": 103.844125
+        }
+      },
+      {
+        "timestamp": "2012-12-16T08:39:26+00:00",
+        "poiId": "4b077a2cf964a520fdfd22e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.372495,
+          "longitude": 103.893714
+        }
+      },
+      {
+        "timestamp": "2012-12-17T02:15:06+00:00",
+        "poiId": "4db64ca84159ca03c9213c9f",
+        "poiCategories": [
+          "Coworking Space"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.342516,
+          "longitude": 103.944848
+        }
+      },
+      {
+        "timestamp": "2012-12-17T10:14:17+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2012-12-18T05:48:12+00:00",
+        "poiId": "4db64ca84159ca03c9213c9f",
+        "poiCategories": [
+          "Coworking Space"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.342516,
+          "longitude": 103.944848
+        }
+      },
+      {
+        "timestamp": "2012-12-31T06:25:03+00:00",
+        "poiId": "4b38b30bf964a520844f25e3",
+        "poiCategories": [
+          "Event Space"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.344849,
+          "longitude": 103.941055
+        }
+      },
+      {
+        "timestamp": "2013-01-05T21:15:56+00:00",
+        "poiId": "4be2d629b02ec9b63cc94dc0",
+        "poiCategories": [
+          "Dim Sum Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.314423,
+          "longitude": 103.878296
+        }
+      },
+      {
+        "timestamp": "2013-01-06T08:05:18+00:00",
+        "poiId": "4d5e1f185c39b1f7acffe749",
+        "poiCategories": [
+          "Boutique"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301811,
+          "longitude": 103.837559
+        }
+      },
+      {
+        "timestamp": "2013-01-06T08:37:18+00:00",
+        "poiId": "4c775cda93faa093a2c5f0fb",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301253,
+          "longitude": 103.837023
+        }
+      },
+      {
+        "timestamp": "2013-01-06T10:00:37+00:00",
+        "poiId": "4b4e7e0ff964a520a7ef26e3",
+        "poiCategories": [
+          "General Entertainment"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300942,
+          "longitude": 103.835886
+        }
+      },
+      {
+        "timestamp": "2013-01-06T10:54:07+00:00",
+        "poiId": "4b189466f964a52049d423e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301339,
+          "longitude": 103.8386
+        }
+      },
+      {
+        "timestamp": "2013-01-12T17:10:37+00:00",
+        "poiId": "4ff458a8e4b021ccc6685c68",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300187,
+          "longitude": 103.850008
+        }
+      },
+      {
+        "timestamp": "2013-01-13T09:48:56+00:00",
+        "poiId": "4c3719452c8020a127588800",
+        "poiCategories": [
+          "Steakhouse"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29899,
+          "longitude": 103.847677
+        }
+      },
+      {
+        "timestamp": "2013-01-13T10:55:37+00:00",
+        "poiId": "4b058815f964a520afb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300304,
+          "longitude": 103.844887
+        }
+      },
+      {
+        "timestamp": "2013-01-15T05:02:14+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-01-18T11:44:43+00:00",
+        "poiId": "4b08e700f964a520421323e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304783,
+          "longitude": 103.831938
+        }
+      },
+      {
+        "timestamp": "2013-01-18T12:31:54+00:00",
+        "poiId": "4b189466f964a52049d423e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301339,
+          "longitude": 103.8386
+        }
+      },
+      {
+        "timestamp": "2013-01-18T14:45:26+00:00",
+        "poiId": "4b0d53daf964a520664623e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.290859,
+          "longitude": 103.846008
+        }
+      },
+      {
+        "timestamp": "2013-01-22T06:48:05+00:00",
+        "poiId": "4db64ca84159ca03c9213c9f",
+        "poiCategories": [
+          "Coworking Space"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.342516,
+          "longitude": 103.944848
+        }
+      },
+      {
+        "timestamp": "2013-01-25T10:33:49+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-01-25T10:42:44+00:00",
+        "poiId": "4b058816f964a520f0b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352775,
+          "longitude": 103.944939
+        }
+      },
+      {
+        "timestamp": "2013-01-29T11:18:02+00:00",
+        "poiId": "4b077a2cf964a520fdfd22e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.372495,
+          "longitude": 103.893714
+        }
+      },
+      {
+        "timestamp": "2013-01-30T10:21:38+00:00",
+        "poiId": "4b058816f964a520f0b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352775,
+          "longitude": 103.944939
+        }
+      },
+      {
+        "timestamp": "2013-01-31T10:00:59+00:00",
+        "poiId": "4b08e700f964a520421323e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304783,
+          "longitude": 103.831938
+        }
+      },
+      {
+        "timestamp": "2013-01-31T11:17:59+00:00",
+        "poiId": "4b52d0def964a5208f8827e3",
+        "poiCategories": [
+          "Caf\u001a\u001a"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304072,
+          "longitude": 103.832967
+        }
+      },
+      {
+        "timestamp": "2013-02-05T05:31:11+00:00",
+        "poiId": "4b0bb878f964a520353323e3",
+        "poiCategories": [
+          "General College & University"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.345487,
+          "longitude": 103.931866
+        }
+      },
+      {
+        "timestamp": "2013-02-08T11:26:32+00:00",
+        "poiId": "4b08e700f964a520421323e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304783,
+          "longitude": 103.831938
+        }
+      },
+      {
+        "timestamp": "2013-02-08T11:26:56+00:00",
+        "poiId": "4b058814f964a5209bb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.307174,
+          "longitude": 103.833139
+        }
+      },
+      {
+        "timestamp": "2013-02-08T12:19:19+00:00",
+        "poiId": "4b058815f964a520aeb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303447,
+          "longitude": 103.835668
+        }
+      },
+      {
+        "timestamp": "2013-02-08T12:59:40+00:00",
+        "poiId": "4c775cda93faa093a2c5f0fb",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301253,
+          "longitude": 103.837023
+        }
+      },
+      {
+        "timestamp": "2013-02-13T05:17:19+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-02-13T06:10:17+00:00",
+        "poiId": "4db64ca84159ca03c9213c9f",
+        "poiCategories": [
+          "Coworking Space"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.342516,
+          "longitude": 103.944848
+        }
+      },
+      {
+        "timestamp": "2013-02-14T07:32:37+00:00",
+        "poiId": "4db64ca84159ca03c9213c9f",
+        "poiCategories": [
+          "Coworking Space"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.342516,
+          "longitude": 103.944848
+        }
+      },
+      {
+        "timestamp": "2013-02-18T10:21:05+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-02-19T10:54:39+00:00",
+        "poiId": "4c835f4551ada1cd53642510",
+        "poiCategories": [
+          "Candy Store"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.353293,
+          "longitude": 103.944872
+        }
+      },
+      {
+        "timestamp": "2013-02-21T10:30:36+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-02-21T12:23:22+00:00",
+        "poiId": "4b08e700f964a520421323e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304783,
+          "longitude": 103.831938
+        }
+      },
+      {
+        "timestamp": "2013-03-08T19:38:14+00:00",
+        "poiId": "4e8f1329dab454671ef8d0a6",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292022,
+          "longitude": 103.859208
+        }
+      },
+      {
+        "timestamp": "2013-03-16T14:38:09+00:00",
+        "poiId": "4b05880ef964a520d6ae22e3",
+        "poiCategories": [
+          "Plaza"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.28984,
+          "longitude": 103.845005
+        }
+      },
+      {
+        "timestamp": "2013-03-16T18:00:08+00:00",
+        "poiId": "4b05880cf964a52030ae22e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.28995,
+          "longitude": 103.84489
+        }
+      },
+      {
+        "timestamp": "2013-03-16T20:37:18+00:00",
+        "poiId": "4effc3df6d8642ac2d377904",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29117,
+          "longitude": 103.844125
+        }
+      },
+      {
+        "timestamp": "2013-03-22T07:49:41+00:00",
+        "poiId": "4db64ca84159ca03c9213c9f",
+        "poiCategories": [
+          "Coworking Space"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.342516,
+          "longitude": 103.944848
+        }
+      },
+      {
+        "timestamp": "2013-03-30T17:52:57+00:00",
+        "poiId": "4b05880cf964a52030ae22e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.28995,
+          "longitude": 103.84489
+        }
+      },
+      {
+        "timestamp": "2013-04-03T16:02:42+00:00",
+        "poiId": "4bb610c81344b71318e99c04",
+        "poiCategories": [
+          "Dim Sum Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.308016,
+          "longitude": 103.856927
+        }
+      },
+      {
+        "timestamp": "2013-04-07T09:40:56+00:00",
+        "poiId": "4db64ca84159ca03c9213c9f",
+        "poiCategories": [
+          "Coworking Space"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.342516,
+          "longitude": 103.944848
+        }
+      },
+      {
+        "timestamp": "2013-04-12T19:25:01+00:00",
+        "poiId": "50815727e4b0073ffa3dc5aa",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.290587,
+          "longitude": 103.84545
+        }
+      },
+      {
+        "timestamp": "2013-04-15T16:32:28+00:00",
+        "poiId": "4c0c507c009a0f474c87ecbf",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303218,
+          "longitude": 103.864633
+        }
+      },
+      {
+        "timestamp": "2013-04-18T18:59:08+00:00",
+        "poiId": "4eb3d8b59adf115272f4b334",
+        "poiCategories": [
+          "Bar"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.289549,
+          "longitude": 103.863557
+        }
+      },
+      {
+        "timestamp": "2013-04-19T18:43:47+00:00",
+        "poiId": "4e8f1329dab454671ef8d0a6",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292022,
+          "longitude": 103.859208
+        }
+      },
+      {
+        "timestamp": "2013-04-21T10:56:09+00:00",
+        "poiId": "4db64ca84159ca03c9213c9f",
+        "poiCategories": [
+          "Coworking Space"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.342516,
+          "longitude": 103.944848
+        }
+      },
+      {
+        "timestamp": "2013-04-24T17:25:58+00:00",
+        "poiId": "50815727e4b0073ffa3dc5aa",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.290587,
+          "longitude": 103.84545
+        }
+      },
+      {
+        "timestamp": "2013-04-27T19:05:26+00:00",
+        "poiId": "4d3866fcb9e5224b41a45390",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.302283,
+          "longitude": 103.862804
+        }
+      },
+      {
+        "timestamp": "2013-05-04T16:00:37+00:00",
+        "poiId": "4b59c37ef964a520c59628e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.288639,
+          "longitude": 103.842773
+        }
+      },
+      {
+        "timestamp": "2013-05-15T12:26:25+00:00",
+        "poiId": "4b05880ef964a520d6ae22e3",
+        "poiCategories": [
+          "Plaza"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.28984,
+          "longitude": 103.845005
+        }
+      },
+      {
+        "timestamp": "2013-05-15T20:37:45+00:00",
+        "poiId": "50815727e4b0073ffa3dc5aa",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.290587,
+          "longitude": 103.84545
+        }
+      },
+      {
+        "timestamp": "2013-05-16T18:34:41+00:00",
+        "poiId": "4b245182f964a520cf6524e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300417,
+          "longitude": 103.84981
+        }
+      },
+      {
+        "timestamp": "2013-05-16T18:49:56+00:00",
+        "poiId": "4f3cd073e4b0c1f2775615f9",
+        "poiCategories": [
+          "Pub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299645,
+          "longitude": 103.849521
+        }
+      },
+      {
+        "timestamp": "2013-05-18T15:11:57+00:00",
+        "poiId": "4afa194af964a520b71622e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.28897,
+          "longitude": 103.846958
+        }
+      },
+      {
+        "timestamp": "2013-05-18T16:38:28+00:00",
+        "poiId": "514341cbe4b0abca5d7d2250",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.290928,
+          "longitude": 103.845716
+        }
+      },
+      {
+        "timestamp": "2013-05-22T16:34:31+00:00",
+        "poiId": "4e8f1329dab454671ef8d0a6",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292022,
+          "longitude": 103.859208
+        }
+      },
+      {
+        "timestamp": "2013-05-22T19:59:16+00:00",
+        "poiId": "4b05880cf964a5200eae22e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291117,
+          "longitude": 103.834866
+        }
+      },
+      {
+        "timestamp": "2013-05-22T20:33:28+00:00",
+        "poiId": "4eb3d8b59adf115272f4b334",
+        "poiCategories": [
+          "Bar"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.289549,
+          "longitude": 103.863557
+        }
+      },
+      {
+        "timestamp": "2013-05-24T09:18:16+00:00",
+        "poiId": "4db64ca84159ca03c9213c9f",
+        "poiCategories": [
+          "Coworking Space"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.342516,
+          "longitude": 103.944848
+        }
+      },
+      {
+        "timestamp": "2013-06-05T18:26:49+00:00",
+        "poiId": "4c5e1dded25320a1ef28c87a",
+        "poiCategories": [
+          "Hotel"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.284735,
+          "longitude": 103.860798
+        }
+      }
+    ]
+  },
+  "pois": [
+    {
+      "poiId": "4cb6db7b589f236a324e3a3d",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.375905,
+        "longitude": 103.955598,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ce8e172e888f04d0a2d456b",
+      "name": null,
+      "categories": [
+        "Resort"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.380128,
+        "longitude": 103.961084,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058815f964a520afb022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300304,
+        "longitude": 103.844887,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b6432ecf964a520b4a32ae3",
+      "name": null,
+      "categories": [
+        "Thai Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.309662,
+        "longitude": 103.87854,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b89fd73f964a5206f5a32e3",
+      "name": null,
+      "categories": [
+        "Park"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.287529,
+        "longitude": 103.824272,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bd311cd046076b027107571",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.28629,
+        "longitude": 103.827341,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bb9b8627421a5939df3c240",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.304113,
+        "longitude": 103.833655,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b189466f964a52049d423e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301339,
+        "longitude": 103.8386,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c775cda93faa093a2c5f0fb",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301253,
+        "longitude": 103.837023,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b4e7e0ff964a520a7ef26e3",
+      "name": null,
+      "categories": [
+        "General Entertainment"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300942,
+        "longitude": 103.835886,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d5b1acbe9b28cfa5029213f",
+      "name": null,
+      "categories": [
+        "Medical Center"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.320774,
+        "longitude": 103.845177,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c384f3e93db0f474f592192",
+      "name": null,
+      "categories": [
+        "Flea Market"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300524,
+        "longitude": 103.854967,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b5da988f964a520ae6529e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.350678,
+        "longitude": 103.87275,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4effc3df6d8642ac2d377904",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.29117,
+        "longitude": 103.844125,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4baec35df964a520ecd53be3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.320764,
+        "longitude": 103.844136,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058814f964a5205fb022e3",
+      "name": null,
+      "categories": [
+        "Asian Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.321161,
+        "longitude": 103.841895,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b936481f964a520794234e3",
+      "name": null,
+      "categories": [
+        "Temple"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.371014,
+        "longitude": 103.969674,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058819f964a520d4b122e3",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.321418,
+        "longitude": 103.845949,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058814f964a52087b022e3",
+      "name": null,
+      "categories": [
+        "Multiplex"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.298915,
+        "longitude": 103.847644,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bf4fc7bff90c9b660d65528",
+      "name": null,
+      "categories": [
+        "College Administrative Building"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.344038,
+        "longitude": 103.932144,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4db64ca84159ca03c9213c9f",
+      "name": null,
+      "categories": [
+        "Coworking Space"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.342516,
+        "longitude": 103.944848,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b38b30bf964a520844f25e3",
+      "name": null,
+      "categories": [
+        "Event Space"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.344849,
+        "longitude": 103.941055,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b077a2cf964a520fdfd22e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.372495,
+        "longitude": 103.893714,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.354033,
+        "longitude": 103.945117,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4be2d629b02ec9b63cc94dc0",
+      "name": null,
+      "categories": [
+        "Dim Sum Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.314423,
+        "longitude": 103.878296,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d5e1f185c39b1f7acffe749",
+      "name": null,
+      "categories": [
+        "Boutique"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301811,
+        "longitude": 103.837559,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ff458a8e4b021ccc6685c68",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300187,
+        "longitude": 103.850008,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c3719452c8020a127588800",
+      "name": null,
+      "categories": [
+        "Steakhouse"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.29899,
+        "longitude": 103.847677,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b08e700f964a520421323e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.304783,
+        "longitude": 103.831938,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0d53daf964a520664623e3",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.290859,
+        "longitude": 103.846008,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058816f964a520f0b022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.352775,
+        "longitude": 103.944939,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b52d0def964a5208f8827e3",
+      "name": null,
+      "categories": [
+        "Caf\u001a\u001a"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.304072,
+        "longitude": 103.832967,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0bb878f964a520353323e3",
+      "name": null,
+      "categories": [
+        "General College & University"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.345487,
+        "longitude": 103.931866,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058814f964a5209bb022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.307174,
+        "longitude": 103.833139,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058815f964a520aeb022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.303447,
+        "longitude": 103.835668,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c835f4551ada1cd53642510",
+      "name": null,
+      "categories": [
+        "Candy Store"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.353293,
+        "longitude": 103.944872,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4e8f1329dab454671ef8d0a6",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.292022,
+        "longitude": 103.859208,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b05880ef964a520d6ae22e3",
+      "name": null,
+      "categories": [
+        "Plaza"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.28984,
+        "longitude": 103.845005,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b05880cf964a52030ae22e3",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.28995,
+        "longitude": 103.84489,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bb610c81344b71318e99c04",
+      "name": null,
+      "categories": [
+        "Dim Sum Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.308016,
+        "longitude": 103.856927,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "50815727e4b0073ffa3dc5aa",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.290587,
+        "longitude": 103.84545,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c0c507c009a0f474c87ecbf",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.303218,
+        "longitude": 103.864633,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4eb3d8b59adf115272f4b334",
+      "name": null,
+      "categories": [
+        "Bar"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.289549,
+        "longitude": 103.863557,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d3866fcb9e5224b41a45390",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.302283,
+        "longitude": 103.862804,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b59c37ef964a520c59628e3",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.288639,
+        "longitude": 103.842773,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b245182f964a520cf6524e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300417,
+        "longitude": 103.84981,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4f3cd073e4b0c1f2775615f9",
+      "name": null,
+      "categories": [
+        "Pub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.299645,
+        "longitude": 103.849521,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4afa194af964a520b71622e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.28897,
+        "longitude": 103.846958,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "514341cbe4b0abca5d7d2250",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.290928,
+        "longitude": 103.845716,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b05880cf964a5200eae22e3",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.291117,
+        "longitude": 103.834866,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c5e1dded25320a1ef28c87a",
+      "name": null,
+      "categories": [
+        "Hotel"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.284735,
+        "longitude": 103.860798,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    }
+  ]
+}

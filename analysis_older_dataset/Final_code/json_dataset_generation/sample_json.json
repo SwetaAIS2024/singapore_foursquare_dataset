@@ -1,0 +1,175 @@
+
+{
+
+  "user": {
+
+    "userId": "123456",
+
+    "age": 28,
+
+    "gender": "male",
+
+    "location": {
+
+      "city": "Singapore",
+
+      "country": "SG"
+
+    },
+
+    "device": {
+
+      "platform": "iOS",
+
+      "appVersion": "2.5.1"
+
+    }
+
+  },
+
+  "interaction": {
+
+    "views": [
+
+      {
+
+        "timestamp": "2025-04-02T14:30:10Z",
+
+        "poiId": "POI-789",
+
+        "poiCategories": ["restaurant", "coffee shop"],
+
+        "poiSubcategories": ["cafe", "bakery"],
+
+        "duration": 8,
+
+        "referrer": "journey_planner_recommendations",
+
+        "userLocation": {
+
+          "latitude": 1.3556,
+
+          "longitude": 103.8239
+
+        }
+
+      }
+
+    ],
+
+    "transactions": [
+
+      {
+
+        "timestamp": "2025-04-02T14:35:21Z",
+
+        "poiId": "POI-789",
+
+        "poiCategories": ["restaurant", "coffee shop"],
+
+        "poiSubcategories": ["cafe", "bakery"],
+
+        "transactionId": "TXN-987654",
+
+        "amount": 25.50,
+
+        "currency": "SGD",
+
+        "paymentMethod": "credit_card",
+
+        "userLocation": {
+
+          "latitude": 1.3540,
+
+          "longitude": 103.8205
+
+        }
+
+      }
+
+    ],
+
+    "reviews": [
+
+      {
+
+        "timestamp": "2025-04-02T14:40:00Z",
+
+        "poiId": "POI-789",
+
+        "poiCategories": ["restaurant", "coffee shop"],
+
+        "poiSubcategories": ["cafe", "bakery"],
+
+        "rating": 4.5,
+
+        "reviewText": "Great coffee and pastries! Will visit again.",
+
+        "userLocation": {
+
+          "latitude": 1.3530,
+
+          "longitude": 103.8210
+
+        }
+
+      }
+
+    ]
+
+  },
+
+"pois": [
+
+    {
+
+      "poiId": "POI-789",
+
+      "name": "Tasty Bites Café",
+
+      "categories": ["restaurant", "coffee shop"],
+
+      "subcategories": ["cafe", "bakery"],
+
+      "location": {
+
+        "latitude": 1.3521,
+
+        "longitude": 103.8198,
+
+        "address": "123 Orchard Road, Singapore"
+
+      },
+
+      "nearestStation": {
+
+        "stationName": "Somerset MRT",
+
+        "stationCode": "NS23",
+
+        "coordinates": {
+
+          "latitude": 1.3009,
+
+          "longitude": 103.8390
+
+        }
+
+      },
+
+      "rating": 4.5,
+
+      "deal": {
+
+        "dealId": "DEAL-456",
+
+        "discount": "20% off",
+
+        "validUntil": "2025-04-30"
+
+      }
+
+    }
+
+  ]
+}

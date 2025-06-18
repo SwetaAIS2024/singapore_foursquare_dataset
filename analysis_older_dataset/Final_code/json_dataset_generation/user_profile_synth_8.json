@@ -1,0 +1,1635 @@
+{
+  "user": {
+    "userId": "synth_8",
+    "age": null,
+    "gender": null,
+    "location": {
+      "city": "Singapore",
+      "country": "SG"
+    },
+    "device": {
+      "platform": null,
+      "appVersion": null
+    }
+  },
+  "interaction": {
+    "views": [
+      {
+        "timestamp": "2012-04-28T15:53:47+00:00",
+        "poiId": "4b1baa07f964a52084fc23e3",
+        "poiCategories": [
+          "Airport Terminal"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.35617,
+          "longitude": 103.987033
+        }
+      },
+      {
+        "timestamp": "2012-04-29T01:44:08+00:00",
+        "poiId": "4c5d5d6b9b28d13a90445970",
+        "poiCategories": [
+          "Airport Terminal"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.355569,
+          "longitude": 103.986797
+        }
+      },
+      {
+        "timestamp": "2012-04-29T01:49:11+00:00",
+        "poiId": "4c0900aa6071a593c215dd32",
+        "poiCategories": [
+          "Playground"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356715,
+          "longitude": 103.987469
+        }
+      },
+      {
+        "timestamp": "2012-04-29T02:09:26+00:00",
+        "poiId": "4b0e6213f964a5203e5723e3",
+        "poiCategories": [
+          "Train Station"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.327215,
+          "longitude": 103.946473
+        }
+      },
+      {
+        "timestamp": "2012-04-29T02:35:50+00:00",
+        "poiId": "4b058815f964a520a7b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293959,
+          "longitude": 103.853363
+        }
+      },
+      {
+        "timestamp": "2012-04-29T03:04:31+00:00",
+        "poiId": "4c5540e54623be9aace321f4",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.295675,
+          "longitude": 103.853898
+        }
+      },
+      {
+        "timestamp": "2012-04-29T03:19:08+00:00",
+        "poiId": "4b0d0c41f964a5206f4323e3",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.28452,
+          "longitude": 103.851335
+        }
+      },
+      {
+        "timestamp": "2012-04-29T03:29:31+00:00",
+        "poiId": "4b058819f964a520deb122e3",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304256,
+          "longitude": 103.832517
+        }
+      },
+      {
+        "timestamp": "2012-04-29T03:30:18+00:00",
+        "poiId": "4b08e700f964a520421323e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304783,
+          "longitude": 103.831938
+        }
+      },
+      {
+        "timestamp": "2012-04-29T03:42:33+00:00",
+        "poiId": "4c9b3ab4b8e9224b214e543d",
+        "poiCategories": [
+          "Tea Room"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304901,
+          "longitude": 103.831891
+        }
+      },
+      {
+        "timestamp": "2012-04-29T03:56:12+00:00",
+        "poiId": "4de244758877bcb6863f9e55",
+        "poiCategories": [
+          "Clothing Store"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304707,
+          "longitude": 103.83183
+        }
+      },
+      {
+        "timestamp": "2012-04-29T04:26:09+00:00",
+        "poiId": "4bcd5c4b8920b713a7ab9fdc",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.298582,
+          "longitude": 103.845938
+        }
+      },
+      {
+        "timestamp": "2012-04-29T04:39:37+00:00",
+        "poiId": "4bc9257968f976b031ef5c83",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293337,
+          "longitude": 103.861098
+        }
+      },
+      {
+        "timestamp": "2012-04-29T04:45:45+00:00",
+        "poiId": "4b26ec70f964a520158324e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294832,
+          "longitude": 103.859701
+        }
+      },
+      {
+        "timestamp": "2012-04-29T05:14:31+00:00",
+        "poiId": "4ba0d2daf964a520248037e3",
+        "poiCategories": [
+          "Monument / Landmark"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294745,
+          "longitude": 103.858891
+        }
+      },
+      {
+        "timestamp": "2012-04-29T06:58:03+00:00",
+        "poiId": "4d088e74143cb60cbcdf7ba6",
+        "poiCategories": [
+          "Spa / Massage"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291281,
+          "longitude": 103.859242
+        }
+      },
+      {
+        "timestamp": "2012-04-29T08:26:36+00:00",
+        "poiId": "4bc9257968f976b031ef5c83",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293337,
+          "longitude": 103.861098
+        }
+      },
+      {
+        "timestamp": "2012-04-29T08:46:58+00:00",
+        "poiId": "4b139fb0f964a5201b9823e3",
+        "poiCategories": [
+          "Train Station"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.31809,
+          "longitude": 103.892664
+        }
+      },
+      {
+        "timestamp": "2012-04-29T09:11:51+00:00",
+        "poiId": "4c5d5d6b9b28d13a90445970",
+        "poiCategories": [
+          "Airport Terminal"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.355569,
+          "longitude": 103.986797
+        }
+      },
+      {
+        "timestamp": "2012-04-29T10:56:32+00:00",
+        "poiId": "4bc90e00511f95214913adc7",
+        "poiCategories": [
+          "Airport Lounge"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.355542,
+          "longitude": 103.985462
+        }
+      },
+      {
+        "timestamp": "2012-04-29T14:13:58+00:00",
+        "poiId": "4bf1df43d39ad13a30c7aa0e",
+        "poiCategories": [
+          "Airport Gate"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.358615,
+          "longitude": 103.986797
+        }
+      },
+      {
+        "timestamp": "2012-05-03T22:34:23+00:00",
+        "poiId": "4b1baa07f964a52084fc23e3",
+        "poiCategories": [
+          "Airport Terminal"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.35617,
+          "longitude": 103.987033
+        }
+      },
+      {
+        "timestamp": "2012-05-04T00:39:35+00:00",
+        "poiId": "4b05880bf964a520c7ad22e3",
+        "poiCategories": [
+          "Hotel"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293339,
+          "longitude": 103.858818
+        }
+      },
+      {
+        "timestamp": "2012-05-04T04:30:44+00:00",
+        "poiId": "4bc9257968f976b031ef5c83",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293337,
+          "longitude": 103.861098
+        }
+      },
+      {
+        "timestamp": "2012-05-04T05:42:43+00:00",
+        "poiId": "4b058815f964a520a9b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.310145,
+          "longitude": 103.855216
+        }
+      },
+      {
+        "timestamp": "2012-05-04T05:51:59+00:00",
+        "poiId": "4b170fa2f964a520a7c123e3",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.312427,
+          "longitude": 103.85431
+        }
+      },
+      {
+        "timestamp": "2012-05-04T06:20:54+00:00",
+        "poiId": "4b058819f964a520deb122e3",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304256,
+          "longitude": 103.832517
+        }
+      },
+      {
+        "timestamp": "2012-05-04T06:44:00+00:00",
+        "poiId": "4b7152c1f964a5201e412de3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.30372,
+          "longitude": 103.835521
+        }
+      },
+      {
+        "timestamp": "2012-05-04T07:50:45+00:00",
+        "poiId": "4ca1a3da46978cfa29bfbd7f",
+        "poiCategories": [
+          "Hotel Bar"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293794,
+          "longitude": 103.858614
+        }
+      },
+      {
+        "timestamp": "2012-05-04T10:01:33+00:00",
+        "poiId": "4b05880bf964a520c7ad22e3",
+        "poiCategories": [
+          "Hotel"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293339,
+          "longitude": 103.858818
+        }
+      },
+      {
+        "timestamp": "2012-05-04T10:54:10+00:00",
+        "poiId": "4d326aa92c76a143d1df70c7",
+        "poiCategories": [
+          "Hotel Pool"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293033,
+          "longitude": 103.858659
+        }
+      },
+      {
+        "timestamp": "2012-05-04T12:50:01+00:00",
+        "poiId": "4b9288aff964a520d60134e3",
+        "poiCategories": [
+          "Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293155,
+          "longitude": 103.85848
+        }
+      },
+      {
+        "timestamp": "2012-05-04T13:51:24+00:00",
+        "poiId": "4ca1a3da46978cfa29bfbd7f",
+        "poiCategories": [
+          "Hotel Bar"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293794,
+          "longitude": 103.858614
+        }
+      },
+      {
+        "timestamp": "2012-05-04T20:41:10+00:00",
+        "poiId": "4b05880bf964a520c7ad22e3",
+        "poiCategories": [
+          "Hotel"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293339,
+          "longitude": 103.858818
+        }
+      },
+      {
+        "timestamp": "2012-05-04T21:28:33+00:00",
+        "poiId": "4b1baa07f964a52084fc23e3",
+        "poiCategories": [
+          "Airport Terminal"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.35617,
+          "longitude": 103.987033
+        }
+      },
+      {
+        "timestamp": "2012-05-04T22:14:47+00:00",
+        "poiId": "4bdc210c3904a5936feb4c9e",
+        "poiCategories": [
+          "Airport Tram"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.355612,
+          "longitude": 103.986797
+        }
+      },
+      {
+        "timestamp": "2012-05-04T22:22:47+00:00",
+        "poiId": "4bf54210cad2c92834cc9c99",
+        "poiCategories": [
+          "Airport Gate"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350163,
+          "longitude": 103.982463
+        }
+      },
+      {
+        "timestamp": "2012-12-30T00:09:09+00:00",
+        "poiId": "4bc9257968f976b031ef5c83",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293337,
+          "longitude": 103.861098
+        }
+      },
+      {
+        "timestamp": "2012-12-30T00:37:35+00:00",
+        "poiId": "4b05880bf964a520c7ad22e3",
+        "poiCategories": [
+          "Hotel"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293339,
+          "longitude": 103.858818
+        }
+      },
+      {
+        "timestamp": "2012-12-30T02:12:53+00:00",
+        "poiId": "4e3916c5b0fb2f7ee863396b",
+        "poiCategories": [
+          "Tea Room"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.302501,
+          "longitude": 103.836002
+        }
+      },
+      {
+        "timestamp": "2012-12-30T04:08:57+00:00",
+        "poiId": "4b7152c1f964a5201e412de3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.30372,
+          "longitude": 103.835521
+        }
+      },
+      {
+        "timestamp": "2012-12-30T04:55:05+00:00",
+        "poiId": "4b05880bf964a520bfad22e3",
+        "poiCategories": [
+          "Hotel"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294724,
+          "longitude": 103.853977
+        }
+      },
+      {
+        "timestamp": "2012-12-30T12:28:05+00:00",
+        "poiId": "4b9288aff964a520d60134e3",
+        "poiCategories": [
+          "Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293155,
+          "longitude": 103.85848
+        }
+      },
+      {
+        "timestamp": "2012-12-30T21:41:26+00:00",
+        "poiId": "4c9b47d080958cfa90e249d4",
+        "poiCategories": [
+          "Hotel Pool"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293063,
+          "longitude": 103.85862
+        }
+      },
+      {
+        "timestamp": "2012-12-30T21:43:58+00:00",
+        "poiId": "4cacfbad76d3a093546a366b",
+        "poiCategories": [
+          "Gym"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292752,
+          "longitude": 103.858937
+        }
+      },
+      {
+        "timestamp": "2012-12-31T00:53:16+00:00",
+        "poiId": "4c900a2a0b9e37045b73645e",
+        "poiCategories": [
+          "Hotel"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293026,
+          "longitude": 103.858574
+        }
+      },
+      {
+        "timestamp": "2012-12-31T02:06:45+00:00",
+        "poiId": "4b058814f964a52090b022e3",
+        "poiCategories": [
+          "Concert Hall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.289798,
+          "longitude": 103.855734
+        }
+      },
+      {
+        "timestamp": "2012-12-31T02:36:57+00:00",
+        "poiId": "4d2a9c8cf7a9224bd1d508a0",
+        "poiCategories": [
+          "Monument / Landmark"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.282224,
+          "longitude": 103.852754
+        }
+      },
+      {
+        "timestamp": "2012-12-31T02:57:09+00:00",
+        "poiId": "4bad8b21f964a520485a3be3",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.2761,
+          "longitude": 103.854682
+        }
+      },
+      {
+        "timestamp": "2012-12-31T05:30:38+00:00",
+        "poiId": "4b170fa2f964a520a7c123e3",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.312427,
+          "longitude": 103.85431
+        }
+      },
+      {
+        "timestamp": "2012-12-31T10:01:48+00:00",
+        "poiId": "4b058815f964a520acb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291128,
+          "longitude": 103.857708
+        }
+      },
+      {
+        "timestamp": "2012-12-31T10:07:00+00:00",
+        "poiId": "4e256c2045dd3b8cf8f871fa",
+        "poiCategories": [
+          "Soup Place"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.290201,
+          "longitude": 103.857159
+        }
+      },
+      {
+        "timestamp": "2013-01-01T03:17:51+00:00",
+        "poiId": "4bc9257968f976b031ef5c83",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293337,
+          "longitude": 103.861098
+        }
+      },
+      {
+        "timestamp": "2013-01-01T03:34:21+00:00",
+        "poiId": "4ec4dce730f8194515107d23",
+        "poiCategories": [
+          "Other Great Outdoors"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.28243,
+          "longitude": 103.862662
+        }
+      },
+      {
+        "timestamp": "2013-01-01T04:59:05+00:00",
+        "poiId": "4ebf36e87beb53400029dd0e",
+        "poiCategories": [
+          "Garden"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.283866,
+          "longitude": 103.865733
+        }
+      },
+      {
+        "timestamp": "2013-01-01T05:33:37+00:00",
+        "poiId": "50a0aebfe4b0912bf4213b21",
+        "poiCategories": [
+          "Sculpture Garden"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.283705,
+          "longitude": 103.866119
+        }
+      },
+      {
+        "timestamp": "2013-01-01T06:44:33+00:00",
+        "poiId": "4b05880bf964a520c7ad22e3",
+        "poiCategories": [
+          "Hotel"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293339,
+          "longitude": 103.858818
+        }
+      },
+      {
+        "timestamp": "2013-01-01T08:59:35+00:00",
+        "poiId": "4d088e74143cb60cbcdf7ba6",
+        "poiCategories": [
+          "Spa / Massage"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291281,
+          "longitude": 103.859242
+        }
+      },
+      {
+        "timestamp": "2013-01-01T11:31:52+00:00",
+        "poiId": "4e2e3d5d1495329632f8d49d",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291118,
+          "longitude": 103.857617
+        }
+      },
+      {
+        "timestamp": "2013-01-01T11:39:22+00:00",
+        "poiId": "4b25eec6f964a5209b7724e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29001,
+          "longitude": 103.856915
+        }
+      },
+      {
+        "timestamp": "2013-01-01T12:00:52+00:00",
+        "poiId": "4b05880bf964a520c7ad22e3",
+        "poiCategories": [
+          "Hotel"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293339,
+          "longitude": 103.858818
+        }
+      },
+      {
+        "timestamp": "2013-01-02T05:34:28+00:00",
+        "poiId": "4b05880bf964a520c7ad22e3",
+        "poiCategories": [
+          "Hotel"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293339,
+          "longitude": 103.858818
+        }
+      },
+      {
+        "timestamp": "2013-01-03T07:07:45+00:00",
+        "poiId": "4d088e74143cb60cbcdf7ba6",
+        "poiCategories": [
+          "Spa / Massage"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291281,
+          "longitude": 103.859242
+        }
+      },
+      {
+        "timestamp": "2013-01-03T09:52:21+00:00",
+        "poiId": "50dc2d9fe4b09ad28d3c0fab",
+        "poiCategories": [
+          "Airport Terminal"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.35627,
+          "longitude": 103.986845
+        }
+      },
+      {
+        "timestamp": "2013-01-03T10:05:07+00:00",
+        "poiId": "4b1baa07f964a52084fc23e3",
+        "poiCategories": [
+          "Airport Terminal"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.35617,
+          "longitude": 103.987033
+        }
+      }
+    ]
+  },
+  "pois": [
+    {
+      "poiId": "4b1baa07f964a52084fc23e3",
+      "name": null,
+      "categories": [
+        "Airport Terminal"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.35617,
+        "longitude": 103.987033,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c5d5d6b9b28d13a90445970",
+      "name": null,
+      "categories": [
+        "Airport Terminal"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.355569,
+        "longitude": 103.986797,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c0900aa6071a593c215dd32",
+      "name": null,
+      "categories": [
+        "Playground"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.356715,
+        "longitude": 103.987469,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0e6213f964a5203e5723e3",
+      "name": null,
+      "categories": [
+        "Train Station"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.327215,
+        "longitude": 103.946473,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058815f964a520a7b022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.293959,
+        "longitude": 103.853363,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c5540e54623be9aace321f4",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.295675,
+        "longitude": 103.853898,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0d0c41f964a5206f4323e3",
+      "name": null,
+      "categories": [
+        "Subway"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.28452,
+        "longitude": 103.851335,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058819f964a520deb122e3",
+      "name": null,
+      "categories": [
+        "Subway"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.304256,
+        "longitude": 103.832517,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b08e700f964a520421323e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.304783,
+        "longitude": 103.831938,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c9b3ab4b8e9224b214e543d",
+      "name": null,
+      "categories": [
+        "Tea Room"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.304901,
+        "longitude": 103.831891,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4de244758877bcb6863f9e55",
+      "name": null,
+      "categories": [
+        "Clothing Store"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.304707,
+        "longitude": 103.83183,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bcd5c4b8920b713a7ab9fdc",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.298582,
+        "longitude": 103.845938,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bc9257968f976b031ef5c83",
+      "name": null,
+      "categories": [
+        "Subway"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.293337,
+        "longitude": 103.861098,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b26ec70f964a520158324e3",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.294832,
+        "longitude": 103.859701,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ba0d2daf964a520248037e3",
+      "name": null,
+      "categories": [
+        "Monument / Landmark"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.294745,
+        "longitude": 103.858891,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d088e74143cb60cbcdf7ba6",
+      "name": null,
+      "categories": [
+        "Spa / Massage"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.291281,
+        "longitude": 103.859242,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b139fb0f964a5201b9823e3",
+      "name": null,
+      "categories": [
+        "Train Station"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.31809,
+        "longitude": 103.892664,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bc90e00511f95214913adc7",
+      "name": null,
+      "categories": [
+        "Airport Lounge"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.355542,
+        "longitude": 103.985462,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bf1df43d39ad13a30c7aa0e",
+      "name": null,
+      "categories": [
+        "Airport Gate"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.358615,
+        "longitude": 103.986797,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b05880bf964a520c7ad22e3",
+      "name": null,
+      "categories": [
+        "Hotel"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.293339,
+        "longitude": 103.858818,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058815f964a520a9b022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.310145,
+        "longitude": 103.855216,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b170fa2f964a520a7c123e3",
+      "name": null,
+      "categories": [
+        "Subway"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.312427,
+        "longitude": 103.85431,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b7152c1f964a5201e412de3",
+      "name": null,
+      "categories": [
+        "Chinese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.30372,
+        "longitude": 103.835521,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ca1a3da46978cfa29bfbd7f",
+      "name": null,
+      "categories": [
+        "Hotel Bar"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.293794,
+        "longitude": 103.858614,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d326aa92c76a143d1df70c7",
+      "name": null,
+      "categories": [
+        "Hotel Pool"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.293033,
+        "longitude": 103.858659,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b9288aff964a520d60134e3",
+      "name": null,
+      "categories": [
+        "Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.293155,
+        "longitude": 103.85848,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bdc210c3904a5936feb4c9e",
+      "name": null,
+      "categories": [
+        "Airport Tram"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.355612,
+        "longitude": 103.986797,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bf54210cad2c92834cc9c99",
+      "name": null,
+      "categories": [
+        "Airport Gate"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.350163,
+        "longitude": 103.982463,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4e3916c5b0fb2f7ee863396b",
+      "name": null,
+      "categories": [
+        "Tea Room"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.302501,
+        "longitude": 103.836002,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b05880bf964a520bfad22e3",
+      "name": null,
+      "categories": [
+        "Hotel"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.294724,
+        "longitude": 103.853977,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c9b47d080958cfa90e249d4",
+      "name": null,
+      "categories": [
+        "Hotel Pool"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.293063,
+        "longitude": 103.85862,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cacfbad76d3a093546a366b",
+      "name": null,
+      "categories": [
+        "Gym"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.292752,
+        "longitude": 103.858937,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c900a2a0b9e37045b73645e",
+      "name": null,
+      "categories": [
+        "Hotel"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.293026,
+        "longitude": 103.858574,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058814f964a52090b022e3",
+      "name": null,
+      "categories": [
+        "Concert Hall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.289798,
+        "longitude": 103.855734,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d2a9c8cf7a9224bd1d508a0",
+      "name": null,
+      "categories": [
+        "Monument / Landmark"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.282224,
+        "longitude": 103.852754,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bad8b21f964a520485a3be3",
+      "name": null,
+      "categories": [
+        "Subway"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.2761,
+        "longitude": 103.854682,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058815f964a520acb022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.291128,
+        "longitude": 103.857708,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4e256c2045dd3b8cf8f871fa",
+      "name": null,
+      "categories": [
+        "Soup Place"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.290201,
+        "longitude": 103.857159,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ec4dce730f8194515107d23",
+      "name": null,
+      "categories": [
+        "Other Great Outdoors"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.28243,
+        "longitude": 103.862662,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ebf36e87beb53400029dd0e",
+      "name": null,
+      "categories": [
+        "Garden"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.283866,
+        "longitude": 103.865733,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "50a0aebfe4b0912bf4213b21",
+      "name": null,
+      "categories": [
+        "Sculpture Garden"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.283705,
+        "longitude": 103.866119,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4e2e3d5d1495329632f8d49d",
+      "name": null,
+      "categories": [
+        "Chinese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.291118,
+        "longitude": 103.857617,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b25eec6f964a5209b7724e3",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.29001,
+        "longitude": 103.856915,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "50dc2d9fe4b09ad28d3c0fab",
+      "name": null,
+      "categories": [
+        "Airport Terminal"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.35627,
+        "longitude": 103.986845,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    }
+  ]
+}

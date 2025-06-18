@@ -1,0 +1,1643 @@
+{
+  "user": {
+    "userId": "synth_57",
+    "age": null,
+    "gender": null,
+    "location": {
+      "city": "Singapore",
+      "country": "SG"
+    },
+    "device": {
+      "platform": null,
+      "appVersion": null
+    }
+  },
+  "interaction": {
+    "views": [
+      {
+        "timestamp": "2012-04-21T06:56:56+00:00",
+        "poiId": "4b058816f964a520f0b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352775,
+          "longitude": 103.944939
+        }
+      },
+      {
+        "timestamp": "2012-04-22T11:24:55+00:00",
+        "poiId": "4ca49650f832a1cde23ea7e5",
+        "poiCategories": [
+          "Neighborhood"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.306659,
+          "longitude": 103.850799
+        }
+      },
+      {
+        "timestamp": "2012-04-24T06:23:56+00:00",
+        "poiId": "4eadcbbe77c8cdc66d7a8412",
+        "poiCategories": [
+          "Medical School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.282801,
+          "longitude": 103.831371
+        }
+      },
+      {
+        "timestamp": "2012-04-26T03:32:46+00:00",
+        "poiId": "4edc4198be7be28339f655f7",
+        "poiCategories": [
+          "College Lab"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.295724,
+          "longitude": 103.782017
+        }
+      },
+      {
+        "timestamp": "2012-05-02T00:28:03+00:00",
+        "poiId": "4f0be558e4b026639fa77ebf",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293445,
+          "longitude": 103.783839
+        }
+      },
+      {
+        "timestamp": "2012-05-19T13:15:57+00:00",
+        "poiId": "4b058814f964a5206bb022e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.266506,
+          "longitude": 103.819299
+        }
+      },
+      {
+        "timestamp": "2012-06-05T00:22:37+00:00",
+        "poiId": "4fcd5143e4b059df53cb0ed2",
+        "poiCategories": [
+          "Doctor's Office"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29344,
+          "longitude": 103.782408
+        }
+      },
+      {
+        "timestamp": "2012-07-14T11:47:10+00:00",
+        "poiId": "4c160cf377cea5934602d360",
+        "poiCategories": [
+          "Ramen /  Noodle House"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.302283,
+          "longitude": 103.836851
+        }
+      },
+      {
+        "timestamp": "2012-08-19T12:29:54+00:00",
+        "poiId": "4e6b0d2c7d8b143eb762a3b2",
+        "poiCategories": [
+          "Tea Room"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.325716,
+          "longitude": 103.930597
+        }
+      },
+      {
+        "timestamp": "2012-09-15T05:13:21+00:00",
+        "poiId": "4b058816f964a520f1b022e3",
+        "poiCategories": [
+          "Miscellaneous Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29654,
+          "longitude": 103.853637
+        }
+      },
+      {
+        "timestamp": "2012-10-26T11:54:18+00:00",
+        "poiId": "4b095021f964a520931523e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331806,
+          "longitude": 103.938636
+        }
+      },
+      {
+        "timestamp": "2012-10-27T04:49:16+00:00",
+        "poiId": "4b741621f964a52031c72de3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304479,
+          "longitude": 103.90193
+        }
+      },
+      {
+        "timestamp": "2012-10-27T12:26:12+00:00",
+        "poiId": "4e6b0d2c7d8b143eb762a3b2",
+        "poiCategories": [
+          "Tea Room"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.325716,
+          "longitude": 103.930597
+        }
+      },
+      {
+        "timestamp": "2012-11-13T03:54:05+00:00",
+        "poiId": "4bd704be6f6495214bbc71ec",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.280922,
+          "longitude": 103.786997
+        }
+      },
+      {
+        "timestamp": "2012-11-13T12:40:37+00:00",
+        "poiId": "4d1c7feb1356224b89c60fbe",
+        "poiCategories": [
+          "Japanese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.324549,
+          "longitude": 103.932455
+        }
+      },
+      {
+        "timestamp": "2012-11-17T12:02:36+00:00",
+        "poiId": "4cbefa4b020d4688769a5f38",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.289206,
+          "longitude": 103.856136
+        }
+      },
+      {
+        "timestamp": "2012-11-28T18:12:06+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2012-12-15T18:38:58+00:00",
+        "poiId": "4b058819f964a520d6b122e3",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294431,
+          "longitude": 103.782971
+        }
+      },
+      {
+        "timestamp": "2012-12-16T01:46:26+00:00",
+        "poiId": "4ca2f98b750ca093d8c91467",
+        "poiCategories": [
+          "Airport Terminal"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354711,
+          "longitude": 103.988128
+        }
+      },
+      {
+        "timestamp": "2012-12-28T19:04:40+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2012-12-31T22:48:29+00:00",
+        "poiId": "4b0955acf964a520d91523e3",
+        "poiCategories": [
+          "Neighborhood"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331275,
+          "longitude": 103.948103
+        }
+      },
+      {
+        "timestamp": "2013-01-02T22:58:49+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-01-05T11:36:58+00:00",
+        "poiId": "4b095021f964a520931523e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331806,
+          "longitude": 103.938636
+        }
+      },
+      {
+        "timestamp": "2013-01-06T07:05:14+00:00",
+        "poiId": "4b058816f964a520f0b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352775,
+          "longitude": 103.944939
+        }
+      },
+      {
+        "timestamp": "2013-01-12T10:00:38+00:00",
+        "poiId": "4ec776940e6158bafe84d124",
+        "poiCategories": [
+          "Garden"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.28451,
+          "longitude": 103.864725
+        }
+      },
+      {
+        "timestamp": "2013-01-16T22:57:39+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-01-22T11:42:10+00:00",
+        "poiId": "4bd70c3a7b1876b0fc798d86",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29368,
+          "longitude": 103.784645
+        }
+      },
+      {
+        "timestamp": "2013-01-24T12:21:14+00:00",
+        "poiId": "4b0955acf964a520d91523e3",
+        "poiCategories": [
+          "Neighborhood"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331275,
+          "longitude": 103.948103
+        }
+      },
+      {
+        "timestamp": "2013-01-24T23:09:31+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-01-26T22:36:01+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-01-27T11:49:37+00:00",
+        "poiId": "4d4651bb0bcd2c0f0bb32ca1",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.325805,
+          "longitude": 103.930272
+        }
+      },
+      {
+        "timestamp": "2013-01-27T12:03:41+00:00",
+        "poiId": "4e6b0d2c7d8b143eb762a3b2",
+        "poiCategories": [
+          "Tea Room"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.325716,
+          "longitude": 103.930597
+        }
+      },
+      {
+        "timestamp": "2013-01-31T06:26:48+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-01-31T23:08:10+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-02-02T12:53:29+00:00",
+        "poiId": "4ba0ddbaf964a5202e8337e3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.308205,
+          "longitude": 103.858252
+        }
+      },
+      {
+        "timestamp": "2013-02-03T13:09:31+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-02-04T17:24:30+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-02-06T17:01:55+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-02-07T01:50:05+00:00",
+        "poiId": "4bd70c3a7b1876b0fc798d86",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29368,
+          "longitude": 103.784645
+        }
+      },
+      {
+        "timestamp": "2013-02-08T00:44:16+00:00",
+        "poiId": "4bb2a3a34019a5934f2637b8",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.296298,
+          "longitude": 103.783057
+        }
+      },
+      {
+        "timestamp": "2013-02-11T07:06:44+00:00",
+        "poiId": "4b058814f964a52080b022e3",
+        "poiCategories": [
+          "Multiplex"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300642,
+          "longitude": 103.844898
+        }
+      },
+      {
+        "timestamp": "2013-02-11T10:15:44+00:00",
+        "poiId": "4b8a0d01f964a5209b5d32e3",
+        "poiCategories": [
+          "Asian Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29949,
+          "longitude": 103.854441
+        }
+      },
+      {
+        "timestamp": "2013-02-11T11:17:32+00:00",
+        "poiId": "4b164600f964a520efb723e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299666,
+          "longitude": 103.854446
+        }
+      },
+      {
+        "timestamp": "2013-02-16T03:37:31+00:00",
+        "poiId": "4b75d7e1f964a520d0282ee3",
+        "poiCategories": [
+          "Airport Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352597,
+          "longitude": 103.987491
+        }
+      },
+      {
+        "timestamp": "2013-02-16T11:22:53+00:00",
+        "poiId": "4b095021f964a520931523e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331806,
+          "longitude": 103.938636
+        }
+      },
+      {
+        "timestamp": "2013-02-24T22:48:35+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-03-05T22:48:29+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-03-11T22:59:13+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-03-14T22:42:04+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-03-16T10:02:15+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-03-17T22:35:14+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-03-23T22:43:42+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-04-03T23:05:34+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-04-06T12:21:59+00:00",
+        "poiId": "4b0955acf964a520d91523e3",
+        "poiCategories": [
+          "Neighborhood"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331275,
+          "longitude": 103.948103
+        }
+      },
+      {
+        "timestamp": "2013-04-06T22:20:06+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-04-11T22:35:38+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-04-18T02:51:59+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-04-20T05:42:04+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-04-20T12:01:07+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-04-21T10:24:50+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-04-23T01:40:03+00:00",
+        "poiId": "4b05880ef964a520b1ae22e3",
+        "poiCategories": [
+          "Other Great Outdoors"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.311085,
+          "longitude": 103.795248
+        }
+      },
+      {
+        "timestamp": "2013-04-23T12:05:12+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-04-24T12:12:48+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-04-26T02:31:09+00:00",
+        "poiId": "4b1f8e5bf964a520eb2624e3",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.279787,
+          "longitude": 103.834739
+        }
+      },
+      {
+        "timestamp": "2013-05-09T22:48:28+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-05-13T11:34:16+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-05-14T11:22:33+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-05-14T22:05:11+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-05-18T05:50:42+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-05-19T12:04:52+00:00",
+        "poiId": "4b9a54b0f964a520c4ac35e3",
+        "poiCategories": [
+          "Ramen /  Noodle House"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331293,
+          "longitude": 103.94829
+        }
+      },
+      {
+        "timestamp": "2013-05-21T22:24:16+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-05-26T09:28:39+00:00",
+        "poiId": "4b058819f964a520dfb122e3",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293123,
+          "longitude": 103.852376
+        }
+      },
+      {
+        "timestamp": "2013-05-26T22:33:11+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-06-16T22:48:21+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-06-18T22:51:18+00:00",
+        "poiId": "4ca541edb7106dcbbb3a53a5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294388,
+          "longitude": 103.783979
+        }
+      },
+      {
+        "timestamp": "2013-07-15T22:53:46+00:00",
+        "poiId": "4c6d0aae65eda0936b6f4dd0",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293745,
+          "longitude": 103.783722
+        }
+      },
+      {
+        "timestamp": "2013-07-16T22:52:57+00:00",
+        "poiId": "4c6d0aae65eda0936b6f4dd0",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293745,
+          "longitude": 103.783722
+        }
+      }
+    ]
+  },
+  "pois": [
+    {
+      "poiId": "4b058816f964a520f0b022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.352775,
+        "longitude": 103.944939,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ca49650f832a1cde23ea7e5",
+      "name": null,
+      "categories": [
+        "Neighborhood"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.306659,
+        "longitude": 103.850799,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4eadcbbe77c8cdc66d7a8412",
+      "name": null,
+      "categories": [
+        "Medical School"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.282801,
+        "longitude": 103.831371,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4edc4198be7be28339f655f7",
+      "name": null,
+      "categories": [
+        "College Lab"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.295724,
+        "longitude": 103.782017,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4f0be558e4b026639fa77ebf",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.293445,
+        "longitude": 103.783839,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058814f964a5206bb022e3",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.266506,
+        "longitude": 103.819299,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4fcd5143e4b059df53cb0ed2",
+      "name": null,
+      "categories": [
+        "Doctor's Office"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.29344,
+        "longitude": 103.782408,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c160cf377cea5934602d360",
+      "name": null,
+      "categories": [
+        "Ramen /  Noodle House"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.302283,
+        "longitude": 103.836851,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4e6b0d2c7d8b143eb762a3b2",
+      "name": null,
+      "categories": [
+        "Tea Room"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.325716,
+        "longitude": 103.930597,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058816f964a520f1b022e3",
+      "name": null,
+      "categories": [
+        "Miscellaneous Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.29654,
+        "longitude": 103.853637,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b095021f964a520931523e3",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.331806,
+        "longitude": 103.938636,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b741621f964a52031c72de3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.304479,
+        "longitude": 103.90193,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bd704be6f6495214bbc71ec",
+      "name": null,
+      "categories": [
+        "Chinese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.280922,
+        "longitude": 103.786997,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d1c7feb1356224b89c60fbe",
+      "name": null,
+      "categories": [
+        "Japanese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.324549,
+        "longitude": 103.932455,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cbefa4b020d4688769a5f38",
+      "name": null,
+      "categories": [
+        "Chinese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.289206,
+        "longitude": 103.856136,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ca541edb7106dcbbb3a53a5",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.294388,
+        "longitude": 103.783979,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058819f964a520d6b122e3",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.294431,
+        "longitude": 103.782971,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ca2f98b750ca093d8c91467",
+      "name": null,
+      "categories": [
+        "Airport Terminal"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.354711,
+        "longitude": 103.988128,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0955acf964a520d91523e3",
+      "name": null,
+      "categories": [
+        "Neighborhood"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.331275,
+        "longitude": 103.948103,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ec776940e6158bafe84d124",
+      "name": null,
+      "categories": [
+        "Garden"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.28451,
+        "longitude": 103.864725,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bd70c3a7b1876b0fc798d86",
+      "name": null,
+      "categories": [
+        "Subway"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.29368,
+        "longitude": 103.784645,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d4651bb0bcd2c0f0bb32ca1",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.325805,
+        "longitude": 103.930272,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ba0ddbaf964a5202e8337e3",
+      "name": null,
+      "categories": [
+        "Chinese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.308205,
+        "longitude": 103.858252,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bb2a3a34019a5934f2637b8",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.296298,
+        "longitude": 103.783057,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058814f964a52080b022e3",
+      "name": null,
+      "categories": [
+        "Multiplex"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300642,
+        "longitude": 103.844898,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b8a0d01f964a5209b5d32e3",
+      "name": null,
+      "categories": [
+        "Asian Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.29949,
+        "longitude": 103.854441,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b164600f964a520efb723e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.299666,
+        "longitude": 103.854446,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b75d7e1f964a520d0282ee3",
+      "name": null,
+      "categories": [
+        "Airport Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.352597,
+        "longitude": 103.987491,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.354033,
+        "longitude": 103.945117,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b05880ef964a520b1ae22e3",
+      "name": null,
+      "categories": [
+        "Other Great Outdoors"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.311085,
+        "longitude": 103.795248,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b1f8e5bf964a520eb2624e3",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.279787,
+        "longitude": 103.834739,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b9a54b0f964a520c4ac35e3",
+      "name": null,
+      "categories": [
+        "Ramen /  Noodle House"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.331293,
+        "longitude": 103.94829,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058819f964a520dfb122e3",
+      "name": null,
+      "categories": [
+        "Subway"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.293123,
+        "longitude": 103.852376,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c6d0aae65eda0936b6f4dd0",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.293745,
+        "longitude": 103.783722,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    }
+  ]
+}

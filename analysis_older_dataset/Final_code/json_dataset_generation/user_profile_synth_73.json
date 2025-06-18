@@ -1,0 +1,1241 @@
+{
+  "user": {
+    "userId": "synth_73",
+    "age": null,
+    "gender": null,
+    "location": {
+      "city": "Singapore",
+      "country": "SG"
+    },
+    "device": {
+      "platform": null,
+      "appVersion": null
+    }
+  },
+  "interaction": {
+    "views": [
+      {
+        "timestamp": "2012-04-22T07:52:48+00:00",
+        "poiId": "4b1baa07f964a52084fc23e3",
+        "poiCategories": [
+          "Airport Terminal"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.35617,
+          "longitude": 103.987033
+        }
+      },
+      {
+        "timestamp": "2012-05-05T08:42:57+00:00",
+        "poiId": "4da84e4793a021ab13c61abf",
+        "poiCategories": [
+          "Pool Hall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.329802,
+          "longitude": 103.681328
+        }
+      },
+      {
+        "timestamp": "2012-05-14T07:34:19+00:00",
+        "poiId": "4dad004d4b22ee6dec11f4ed",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.287193,
+          "longitude": 103.841759
+        }
+      },
+      {
+        "timestamp": "2012-05-25T10:25:16+00:00",
+        "poiId": "4c853176ee6fef3bd6893a5c",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.315068,
+          "longitude": 103.764753
+        }
+      },
+      {
+        "timestamp": "2012-05-25T10:25:47+00:00",
+        "poiId": "4dc67e67c65b89d3ca88c7c8",
+        "poiCategories": [
+          "Asian Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.315095,
+          "longitude": 103.765002
+        }
+      },
+      {
+        "timestamp": "2012-05-25T11:27:46+00:00",
+        "poiId": "4c99c3d4a004a1cde753426e",
+        "poiCategories": [
+          "Tea Room"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.31403,
+          "longitude": 103.764775
+        }
+      },
+      {
+        "timestamp": "2012-06-12T07:17:50+00:00",
+        "poiId": "4d8b2deb7139b1f7b55ad9d4",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.315229,
+          "longitude": 103.764657
+        }
+      },
+      {
+        "timestamp": "2012-07-05T11:36:18+00:00",
+        "poiId": "4b15e579f964a52066b523e3",
+        "poiCategories": [
+          "Tea Room"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.284343,
+          "longitude": 103.843058
+        }
+      },
+      {
+        "timestamp": "2012-07-28T10:45:23+00:00",
+        "poiId": "4f92910ce4b0599b4e3b3000",
+        "poiCategories": [
+          "Korean Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331669,
+          "longitude": 103.849713
+        }
+      },
+      {
+        "timestamp": "2012-10-19T14:08:43+00:00",
+        "poiId": "4b1a62d0f964a520a1e923e3",
+        "poiCategories": [
+          "Hotel"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.274046,
+          "longitude": 103.841855
+        }
+      },
+      {
+        "timestamp": "2012-10-29T10:57:15+00:00",
+        "poiId": "4bb9c1a6935e9521d3512790",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299129,
+          "longitude": 103.855391
+        }
+      },
+      {
+        "timestamp": "2012-11-20T09:04:55+00:00",
+        "poiId": "4bb9c1a6935e9521d3512790",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299129,
+          "longitude": 103.855391
+        }
+      },
+      {
+        "timestamp": "2012-12-01T07:48:09+00:00",
+        "poiId": "4e5a08e6d22dfba6f47c2ef3",
+        "poiCategories": [
+          "Tea Room"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.283062,
+          "longitude": 103.857794
+        }
+      },
+      {
+        "timestamp": "2012-12-01T08:50:08+00:00",
+        "poiId": "4b7a6059f964a520002b2fe3",
+        "poiCategories": [
+          "Bookstore"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303227,
+          "longitude": 103.834705
+        }
+      },
+      {
+        "timestamp": "2012-12-02T01:45:37+00:00",
+        "poiId": "4c11e63572caa59337555ea4",
+        "poiCategories": [
+          "Doctor's Office"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.355561,
+          "longitude": 103.986839
+        }
+      },
+      {
+        "timestamp": "2012-12-19T07:21:36+00:00",
+        "poiId": "4c0b60536071a5932d37e132",
+        "poiCategories": [
+          "Neighborhood"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.335447,
+          "longitude": 103.852344
+        }
+      },
+      {
+        "timestamp": "2012-12-19T07:29:04+00:00",
+        "poiId": "4b80c0cdf964a5202c8a30e3",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.332712,
+          "longitude": 103.847987
+        }
+      },
+      {
+        "timestamp": "2012-12-19T07:39:47+00:00",
+        "poiId": "4b6ecf36f964a5208ecb2ce3",
+        "poiCategories": [
+          "Tea Room"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.332931,
+          "longitude": 103.848742
+        }
+      },
+      {
+        "timestamp": "2012-12-19T08:38:08+00:00",
+        "poiId": "4b0725b5f964a52031f822e3",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331843,
+          "longitude": 103.848009
+        }
+      },
+      {
+        "timestamp": "2012-12-19T09:39:20+00:00",
+        "poiId": "4f92910ce4b0599b4e3b3000",
+        "poiCategories": [
+          "Korean Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331669,
+          "longitude": 103.849713
+        }
+      },
+      {
+        "timestamp": "2013-01-13T08:55:00+00:00",
+        "poiId": "4b058814f964a5209db022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.30385,
+          "longitude": 103.833103
+        }
+      },
+      {
+        "timestamp": "2013-01-13T10:32:27+00:00",
+        "poiId": "4ead307830f855f5b3342183",
+        "poiCategories": [
+          "Korean Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291017,
+          "longitude": 103.857493
+        }
+      },
+      {
+        "timestamp": "2013-01-18T12:14:58+00:00",
+        "poiId": "4db16295a86e63d21169719c",
+        "poiCategories": [
+          "American Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.315397,
+          "longitude": 103.764866
+        }
+      },
+      {
+        "timestamp": "2013-02-06T10:56:41+00:00",
+        "poiId": "4b6c1439f964a520ba222ce3",
+        "poiCategories": [
+          "Performing Arts Venue"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.288914,
+          "longitude": 103.856072
+        }
+      },
+      {
+        "timestamp": "2013-02-18T10:37:10+00:00",
+        "poiId": "4b0b76e3f964a520b63123e3",
+        "poiCategories": [
+          "Deli / Bodega"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.332665,
+          "longitude": 103.848355
+        }
+      },
+      {
+        "timestamp": "2013-02-18T11:41:25+00:00",
+        "poiId": "4f92910ce4b0599b4e3b3000",
+        "poiCategories": [
+          "Korean Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331669,
+          "longitude": 103.849713
+        }
+      },
+      {
+        "timestamp": "2013-04-03T09:28:15+00:00",
+        "poiId": "4b058818f964a520a7b122e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.264939,
+          "longitude": 103.821668
+        }
+      },
+      {
+        "timestamp": "2013-04-03T09:40:58+00:00",
+        "poiId": "4d2534e1b9796dcbd9caa639",
+        "poiCategories": [
+          "Resort"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.25631,
+          "longitude": 103.820897
+        }
+      },
+      {
+        "timestamp": "2013-04-03T09:45:47+00:00",
+        "poiId": "4f043df2d3e35fb2b752b0ad",
+        "poiCategories": [
+          "Korean Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.257788,
+          "longitude": 103.82211
+        }
+      },
+      {
+        "timestamp": "2013-04-13T04:33:56+00:00",
+        "poiId": "4b058816f964a520f0b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352775,
+          "longitude": 103.944939
+        }
+      },
+      {
+        "timestamp": "2013-04-19T11:48:34+00:00",
+        "poiId": "4cd0ea641ac7a1cdac751c92",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.313436,
+          "longitude": 103.764674
+        }
+      },
+      {
+        "timestamp": "2013-05-13T08:20:18+00:00",
+        "poiId": "4b8cb124f964a520a5da32e3",
+        "poiCategories": [
+          "Bakery"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.28629,
+          "longitude": 103.827646
+        }
+      },
+      {
+        "timestamp": "2013-05-13T10:25:28+00:00",
+        "poiId": "4ead307830f855f5b3342183",
+        "poiCategories": [
+          "Korean Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291017,
+          "longitude": 103.857493
+        }
+      },
+      {
+        "timestamp": "2013-05-17T11:05:04+00:00",
+        "poiId": "4c99c3d4a004a1cde753426e",
+        "poiCategories": [
+          "Tea Room"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.31403,
+          "longitude": 103.764775
+        }
+      },
+      {
+        "timestamp": "2013-05-17T11:16:16+00:00",
+        "poiId": "4cd0ea641ac7a1cdac751c92",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.313436,
+          "longitude": 103.764674
+        }
+      },
+      {
+        "timestamp": "2013-05-17T11:38:05+00:00",
+        "poiId": "4c853176ee6fef3bd6893a5c",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.315068,
+          "longitude": 103.764753
+        }
+      },
+      {
+        "timestamp": "2013-05-24T11:29:39+00:00",
+        "poiId": "4c853176ee6fef3bd6893a5c",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.315068,
+          "longitude": 103.764753
+        }
+      },
+      {
+        "timestamp": "2013-05-25T09:18:11+00:00",
+        "poiId": "4c384f3e93db0f474f592192",
+        "poiCategories": [
+          "Flea Market"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300524,
+          "longitude": 103.854967
+        }
+      },
+      {
+        "timestamp": "2013-07-03T09:10:25+00:00",
+        "poiId": "4b5706a6f964a5205e2328e3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.282611,
+          "longitude": 103.842264
+        }
+      },
+      {
+        "timestamp": "2013-07-11T10:16:16+00:00",
+        "poiId": "4baeee64f964a52089e23be3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294131,
+          "longitude": 103.858759
+        }
+      },
+      {
+        "timestamp": "2013-08-01T09:34:53+00:00",
+        "poiId": "4c99c3d4a004a1cde753426e",
+        "poiCategories": [
+          "Tea Room"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.31403,
+          "longitude": 103.764775
+        }
+      },
+      {
+        "timestamp": "2013-08-02T08:16:10+00:00",
+        "poiId": "4b62e805f964a5203d582ae3",
+        "poiCategories": [
+          "Fried Chicken Joint"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.286333,
+          "longitude": 103.826865
+        }
+      },
+      {
+        "timestamp": "2013-08-02T09:40:14+00:00",
+        "poiId": "4b058818f964a520a7b122e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.264939,
+          "longitude": 103.821668
+        }
+      },
+      {
+        "timestamp": "2013-08-02T09:45:57+00:00",
+        "poiId": "4e0718fdb0fbba5eee19dd48",
+        "poiCategories": [
+          "Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.263285,
+          "longitude": 103.82344
+        }
+      },
+      {
+        "timestamp": "2013-08-09T09:02:17+00:00",
+        "poiId": "50a1f2b6e4b091c0d49e4787",
+        "poiCategories": [
+          "Caf\u001a\u001a"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299465,
+          "longitude": 103.845037
+        }
+      },
+      {
+        "timestamp": "2013-08-28T09:12:25+00:00",
+        "poiId": "4f4470c1e4b03d068286dcc3",
+        "poiCategories": [
+          "Spa / Massage"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.312958,
+          "longitude": 103.765087
+        }
+      }
+    ]
+  },
+  "pois": [
+    {
+      "poiId": "4b1baa07f964a52084fc23e3",
+      "name": null,
+      "categories": [
+        "Airport Terminal"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.35617,
+        "longitude": 103.987033,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4da84e4793a021ab13c61abf",
+      "name": null,
+      "categories": [
+        "Pool Hall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.329802,
+        "longitude": 103.681328,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4dad004d4b22ee6dec11f4ed",
+      "name": null,
+      "categories": [
+        "Coffee Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.287193,
+        "longitude": 103.841759,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c853176ee6fef3bd6893a5c",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.315068,
+        "longitude": 103.764753,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4dc67e67c65b89d3ca88c7c8",
+      "name": null,
+      "categories": [
+        "Asian Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.315095,
+        "longitude": 103.765002,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c99c3d4a004a1cde753426e",
+      "name": null,
+      "categories": [
+        "Tea Room"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.31403,
+        "longitude": 103.764775,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d8b2deb7139b1f7b55ad9d4",
+      "name": null,
+      "categories": [
+        "Coffee Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.315229,
+        "longitude": 103.764657,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b15e579f964a52066b523e3",
+      "name": null,
+      "categories": [
+        "Tea Room"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.284343,
+        "longitude": 103.843058,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4f92910ce4b0599b4e3b3000",
+      "name": null,
+      "categories": [
+        "Korean Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.331669,
+        "longitude": 103.849713,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b1a62d0f964a520a1e923e3",
+      "name": null,
+      "categories": [
+        "Hotel"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.274046,
+        "longitude": 103.841855,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bb9c1a6935e9521d3512790",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.299129,
+        "longitude": 103.855391,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4e5a08e6d22dfba6f47c2ef3",
+      "name": null,
+      "categories": [
+        "Tea Room"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.283062,
+        "longitude": 103.857794,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b7a6059f964a520002b2fe3",
+      "name": null,
+      "categories": [
+        "Bookstore"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.303227,
+        "longitude": 103.834705,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c11e63572caa59337555ea4",
+      "name": null,
+      "categories": [
+        "Doctor's Office"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.355561,
+        "longitude": 103.986839,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c0b60536071a5932d37e132",
+      "name": null,
+      "categories": [
+        "Neighborhood"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.335447,
+        "longitude": 103.852344,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b80c0cdf964a5202c8a30e3",
+      "name": null,
+      "categories": [
+        "Fast Food Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.332712,
+        "longitude": 103.847987,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b6ecf36f964a5208ecb2ce3",
+      "name": null,
+      "categories": [
+        "Tea Room"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.332931,
+        "longitude": 103.848742,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0725b5f964a52031f822e3",
+      "name": null,
+      "categories": [
+        "Coffee Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.331843,
+        "longitude": 103.848009,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058814f964a5209db022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.30385,
+        "longitude": 103.833103,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ead307830f855f5b3342183",
+      "name": null,
+      "categories": [
+        "Korean Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.291017,
+        "longitude": 103.857493,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4db16295a86e63d21169719c",
+      "name": null,
+      "categories": [
+        "American Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.315397,
+        "longitude": 103.764866,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b6c1439f964a520ba222ce3",
+      "name": null,
+      "categories": [
+        "Performing Arts Venue"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.288914,
+        "longitude": 103.856072,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0b76e3f964a520b63123e3",
+      "name": null,
+      "categories": [
+        "Deli / Bodega"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.332665,
+        "longitude": 103.848355,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058818f964a520a7b122e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.264939,
+        "longitude": 103.821668,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d2534e1b9796dcbd9caa639",
+      "name": null,
+      "categories": [
+        "Resort"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.25631,
+        "longitude": 103.820897,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4f043df2d3e35fb2b752b0ad",
+      "name": null,
+      "categories": [
+        "Korean Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.257788,
+        "longitude": 103.82211,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058816f964a520f0b022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.352775,
+        "longitude": 103.944939,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cd0ea641ac7a1cdac751c92",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.313436,
+        "longitude": 103.764674,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b8cb124f964a520a5da32e3",
+      "name": null,
+      "categories": [
+        "Bakery"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.28629,
+        "longitude": 103.827646,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c384f3e93db0f474f592192",
+      "name": null,
+      "categories": [
+        "Flea Market"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300524,
+        "longitude": 103.854967,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b5706a6f964a5205e2328e3",
+      "name": null,
+      "categories": [
+        "Chinese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.282611,
+        "longitude": 103.842264,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4baeee64f964a52089e23be3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.294131,
+        "longitude": 103.858759,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b62e805f964a5203d582ae3",
+      "name": null,
+      "categories": [
+        "Fried Chicken Joint"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.286333,
+        "longitude": 103.826865,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4e0718fdb0fbba5eee19dd48",
+      "name": null,
+      "categories": [
+        "Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.263285,
+        "longitude": 103.82344,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "50a1f2b6e4b091c0d49e4787",
+      "name": null,
+      "categories": [
+        "Caf\u001a\u001a"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.299465,
+        "longitude": 103.845037,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4f4470c1e4b03d068286dcc3",
+      "name": null,
+      "categories": [
+        "Spa / Massage"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.312958,
+        "longitude": 103.765087,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    }
+  ]
+}

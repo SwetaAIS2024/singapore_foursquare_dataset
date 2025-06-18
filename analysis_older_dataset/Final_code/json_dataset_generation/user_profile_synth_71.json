@@ -1,0 +1,1427 @@
+{
+  "user": {
+    "userId": "synth_71",
+    "age": null,
+    "gender": null,
+    "location": {
+      "city": "Singapore",
+      "country": "SG"
+    },
+    "device": {
+      "platform": null,
+      "appVersion": null
+    }
+  },
+  "interaction": {
+    "views": [
+      {
+        "timestamp": "2012-04-04T23:41:32+00:00",
+        "poiId": "4bd348af9854d13aa963fd4d",
+        "poiCategories": [
+          "Stadium"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.296276,
+          "longitude": 103.802691
+        }
+      },
+      {
+        "timestamp": "2012-04-06T13:34:10+00:00",
+        "poiId": "4bbac615cf2fc9b639f4a102",
+        "poiCategories": [
+          "Bus Station"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.2822,
+          "longitude": 103.817192
+        }
+      },
+      {
+        "timestamp": "2012-04-08T04:34:18+00:00",
+        "poiId": "4bd311cd046076b027107571",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.28629,
+          "longitude": 103.827341
+        }
+      },
+      {
+        "timestamp": "2012-04-08T05:01:11+00:00",
+        "poiId": "4bbac615cf2fc9b639f4a102",
+        "poiCategories": [
+          "Bus Station"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.2822,
+          "longitude": 103.817192
+        }
+      },
+      {
+        "timestamp": "2012-04-09T22:35:10+00:00",
+        "poiId": "4b9b5ce8f964a520a90236e3",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292599,
+          "longitude": 103.812867
+        }
+      },
+      {
+        "timestamp": "2012-04-10T22:57:39+00:00",
+        "poiId": "4d425c848b88b1f7cfaaea33",
+        "poiCategories": [
+          "College Cafeteria"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293597,
+          "longitude": 103.812771
+        }
+      },
+      {
+        "timestamp": "2012-04-14T12:06:10+00:00",
+        "poiId": "4b6aaa76f964a5206cdb2be3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304776,
+          "longitude": 103.831705
+        }
+      },
+      {
+        "timestamp": "2012-04-18T01:46:30+00:00",
+        "poiId": "4b9b5ce8f964a520a90236e3",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292599,
+          "longitude": 103.812867
+        }
+      },
+      {
+        "timestamp": "2012-04-19T00:13:35+00:00",
+        "poiId": "4b9b5ce8f964a520a90236e3",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292599,
+          "longitude": 103.812867
+        }
+      },
+      {
+        "timestamp": "2012-04-19T03:44:42+00:00",
+        "poiId": "4f8f89cde4b04e174400ba1d",
+        "poiCategories": [
+          "College Auditorium"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.295145,
+          "longitude": 103.805616
+        }
+      },
+      {
+        "timestamp": "2012-04-19T08:58:02+00:00",
+        "poiId": "4b62e805f964a5203d582ae3",
+        "poiCategories": [
+          "Fried Chicken Joint"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.286333,
+          "longitude": 103.826865
+        }
+      },
+      {
+        "timestamp": "2012-04-19T10:45:43+00:00",
+        "poiId": "4b1e7356f964a5201f1a24e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.312151,
+          "longitude": 103.83949
+        }
+      },
+      {
+        "timestamp": "2012-04-20T03:55:51+00:00",
+        "poiId": "4d996622942ba093e1f29a8c",
+        "poiCategories": [
+          "Lake"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.33829,
+          "longitude": 103.932981
+        }
+      },
+      {
+        "timestamp": "2012-04-21T10:51:48+00:00",
+        "poiId": "4c8c884655fba09339a760ab",
+        "poiCategories": [
+          "Neighborhood"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.283062,
+          "longitude": 103.843718
+        }
+      },
+      {
+        "timestamp": "2012-04-22T11:13:21+00:00",
+        "poiId": "4b058815f964a520afb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300304,
+          "longitude": 103.844887
+        }
+      },
+      {
+        "timestamp": "2012-04-22T11:19:44+00:00",
+        "poiId": "4b84c044f964a520274331e3",
+        "poiCategories": [
+          "Sushi Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300283,
+          "longitude": 103.844929
+        }
+      },
+      {
+        "timestamp": "2012-04-23T02:16:01+00:00",
+        "poiId": "4b9b5ce8f964a520a90236e3",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292599,
+          "longitude": 103.812867
+        }
+      },
+      {
+        "timestamp": "2012-04-23T23:12:12+00:00",
+        "poiId": "4b9b5ce8f964a520a90236e3",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292599,
+          "longitude": 103.812867
+        }
+      },
+      {
+        "timestamp": "2012-04-26T04:32:44+00:00",
+        "poiId": "4f8f89cde4b04e174400ba1d",
+        "poiCategories": [
+          "College Auditorium"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.295145,
+          "longitude": 103.805616
+        }
+      },
+      {
+        "timestamp": "2012-04-28T11:18:44+00:00",
+        "poiId": "4b1e7356f964a5201f1a24e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.312151,
+          "longitude": 103.83949
+        }
+      },
+      {
+        "timestamp": "2012-04-29T03:44:05+00:00",
+        "poiId": "4bbac615cf2fc9b639f4a102",
+        "poiCategories": [
+          "Bus Station"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.2822,
+          "longitude": 103.817192
+        }
+      },
+      {
+        "timestamp": "2012-04-29T04:13:27+00:00",
+        "poiId": "4b6e3258f964a520ffb02ce3",
+        "poiCategories": [
+          "Library"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.284188,
+          "longitude": 103.81549
+        }
+      },
+      {
+        "timestamp": "2012-05-01T23:17:36+00:00",
+        "poiId": "4b9b5ce8f964a520a90236e3",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292599,
+          "longitude": 103.812867
+        }
+      },
+      {
+        "timestamp": "2012-05-02T06:00:09+00:00",
+        "poiId": "4b058814f964a5207eb022e3",
+        "poiCategories": [
+          "Multiplex"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.286419,
+          "longitude": 103.827056
+        }
+      },
+      {
+        "timestamp": "2012-05-07T13:22:42+00:00",
+        "poiId": "4bbac615cf2fc9b639f4a102",
+        "poiCategories": [
+          "Bus Station"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.2822,
+          "longitude": 103.817192
+        }
+      },
+      {
+        "timestamp": "2012-05-09T08:13:04+00:00",
+        "poiId": "4f2648c2e4b0085e4bcd93d6",
+        "poiCategories": [
+          "Food & Drink Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300009,
+          "longitude": 103.849702
+        }
+      },
+      {
+        "timestamp": "2012-05-10T23:12:57+00:00",
+        "poiId": "4b9b5ce8f964a520a90236e3",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292599,
+          "longitude": 103.812867
+        }
+      },
+      {
+        "timestamp": "2012-05-11T00:43:15+00:00",
+        "poiId": "4b2a027af964a520aca424e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.28739,
+          "longitude": 103.818242
+        }
+      },
+      {
+        "timestamp": "2012-05-11T01:17:23+00:00",
+        "poiId": "4bd311cd046076b027107571",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.28629,
+          "longitude": 103.827341
+        }
+      },
+      {
+        "timestamp": "2012-05-11T07:53:30+00:00",
+        "poiId": "4b84c044f964a520274331e3",
+        "poiCategories": [
+          "Sushi Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300283,
+          "longitude": 103.844929
+        }
+      },
+      {
+        "timestamp": "2012-05-13T10:39:37+00:00",
+        "poiId": "4b1e7356f964a5201f1a24e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.312151,
+          "longitude": 103.83949
+        }
+      },
+      {
+        "timestamp": "2012-05-19T12:04:43+00:00",
+        "poiId": "4b8a6ae3f964a520ff6b32e3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.289534,
+          "longitude": 103.827765
+        }
+      },
+      {
+        "timestamp": "2012-06-07T03:12:34+00:00",
+        "poiId": "4b0cc2b9f964a520ac4123e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293526,
+          "longitude": 103.831999
+        }
+      },
+      {
+        "timestamp": "2012-06-12T11:02:57+00:00",
+        "poiId": "4b058815f964a520afb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300304,
+          "longitude": 103.844887
+        }
+      },
+      {
+        "timestamp": "2012-06-13T04:53:38+00:00",
+        "poiId": "4b066e8df964a520c7eb22e3",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29912,
+          "longitude": 103.845371
+        }
+      },
+      {
+        "timestamp": "2012-06-13T11:08:01+00:00",
+        "poiId": "4b24679bf964a520276724e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.305618,
+          "longitude": 103.904982
+        }
+      },
+      {
+        "timestamp": "2012-06-21T10:10:31+00:00",
+        "poiId": "4b058815f964a520afb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300304,
+          "longitude": 103.844887
+        }
+      },
+      {
+        "timestamp": "2012-06-21T10:11:10+00:00",
+        "poiId": "4b84c044f964a520274331e3",
+        "poiCategories": [
+          "Sushi Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300283,
+          "longitude": 103.844929
+        }
+      },
+      {
+        "timestamp": "2012-07-03T02:38:26+00:00",
+        "poiId": "4b9b5ce8f964a520a90236e3",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292599,
+          "longitude": 103.812867
+        }
+      },
+      {
+        "timestamp": "2012-07-03T23:26:05+00:00",
+        "poiId": "4b9b5ce8f964a520a90236e3",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292599,
+          "longitude": 103.812867
+        }
+      },
+      {
+        "timestamp": "2012-07-04T11:16:37+00:00",
+        "poiId": "4c8c884655fba09339a760ab",
+        "poiCategories": [
+          "Neighborhood"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.283062,
+          "longitude": 103.843718
+        }
+      },
+      {
+        "timestamp": "2012-07-05T03:16:41+00:00",
+        "poiId": "4b9b5ce8f964a520a90236e3",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292599,
+          "longitude": 103.812867
+        }
+      },
+      {
+        "timestamp": "2012-07-05T08:42:15+00:00",
+        "poiId": "4b058815f964a520afb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300304,
+          "longitude": 103.844887
+        }
+      },
+      {
+        "timestamp": "2012-07-09T03:31:20+00:00",
+        "poiId": "4b9b5ce8f964a520a90236e3",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292599,
+          "longitude": 103.812867
+        }
+      },
+      {
+        "timestamp": "2012-07-14T11:09:25+00:00",
+        "poiId": "4b1e7356f964a5201f1a24e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.312151,
+          "longitude": 103.83949
+        }
+      },
+      {
+        "timestamp": "2012-07-15T12:49:55+00:00",
+        "poiId": "4bce72c9fb84c9b60cf3233e",
+        "poiCategories": [
+          "Police Station"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.298925,
+          "longitude": 103.839759
+        }
+      },
+      {
+        "timestamp": "2012-07-16T03:10:30+00:00",
+        "poiId": "4b9b5ce8f964a520a90236e3",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292599,
+          "longitude": 103.812867
+        }
+      },
+      {
+        "timestamp": "2012-07-16T03:11:30+00:00",
+        "poiId": "4d425c848b88b1f7cfaaea33",
+        "poiCategories": [
+          "College Cafeteria"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293597,
+          "longitude": 103.812771
+        }
+      },
+      {
+        "timestamp": "2012-07-16T23:30:53+00:00",
+        "poiId": "4b9b5ce8f964a520a90236e3",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292599,
+          "longitude": 103.812867
+        }
+      },
+      {
+        "timestamp": "2012-07-17T23:43:18+00:00",
+        "poiId": "4b9b5ce8f964a520a90236e3",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292599,
+          "longitude": 103.812867
+        }
+      },
+      {
+        "timestamp": "2012-07-19T00:29:48+00:00",
+        "poiId": "4b1b9e03f964a5203cfc23e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.324142,
+          "longitude": 103.814192
+        }
+      },
+      {
+        "timestamp": "2012-07-22T11:09:39+00:00",
+        "poiId": "4b058815f964a520afb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300304,
+          "longitude": 103.844887
+        }
+      },
+      {
+        "timestamp": "2012-07-22T11:10:03+00:00",
+        "poiId": "4b84c044f964a520274331e3",
+        "poiCategories": [
+          "Sushi Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300283,
+          "longitude": 103.844929
+        }
+      },
+      {
+        "timestamp": "2012-07-24T08:40:27+00:00",
+        "poiId": "4cf9b7eb20fe370465a348f8",
+        "poiCategories": [
+          "College Gym"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.289256,
+          "longitude": 103.820242
+        }
+      },
+      {
+        "timestamp": "2012-07-26T23:23:41+00:00",
+        "poiId": "4f073109e4b05dd3a1cc0f5c",
+        "poiCategories": [
+          "College Auditorium"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293597,
+          "longitude": 103.812765
+        }
+      },
+      {
+        "timestamp": "2012-07-28T11:33:04+00:00",
+        "poiId": "4b058815f964a520afb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300304,
+          "longitude": 103.844887
+        }
+      },
+      {
+        "timestamp": "2012-07-28T11:33:54+00:00",
+        "poiId": "4b84c044f964a520274331e3",
+        "poiCategories": [
+          "Sushi Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300283,
+          "longitude": 103.844929
+        }
+      },
+      {
+        "timestamp": "2012-07-29T23:35:47+00:00",
+        "poiId": "4b9b5ce8f964a520a90236e3",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292599,
+          "longitude": 103.812867
+        }
+      },
+      {
+        "timestamp": "2012-07-30T03:36:48+00:00",
+        "poiId": "4e49b202a80997a2dbe9d353",
+        "poiCategories": [
+          "School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294265,
+          "longitude": 103.812674
+        }
+      },
+      {
+        "timestamp": "2012-07-30T07:17:03+00:00",
+        "poiId": "4b1772e4f964a5209fc523e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299505,
+          "longitude": 103.847644
+        }
+      },
+      {
+        "timestamp": "2012-08-12T04:15:41+00:00",
+        "poiId": "4b0bb8b5f964a520363323e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300833,
+          "longitude": 103.839755
+        }
+      },
+      {
+        "timestamp": "2012-08-12T07:40:03+00:00",
+        "poiId": "4b6e3258f964a520ffb02ce3",
+        "poiCategories": [
+          "Library"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.284188,
+          "longitude": 103.81549
+        }
+      },
+      {
+        "timestamp": "2012-08-20T05:58:20+00:00",
+        "poiId": "4b058814f964a520a0b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.305747,
+          "longitude": 103.831519
+        }
+      },
+      {
+        "timestamp": "2012-10-13T06:36:47+00:00",
+        "poiId": "4c67de1d8e9120a1dc7cdb64",
+        "poiCategories": [
+          "Island"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.251537,
+          "longitude": 103.824685
+        }
+      },
+      {
+        "timestamp": "2012-10-13T10:44:29+00:00",
+        "poiId": "4b058818f964a520a7b122e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.264939,
+          "longitude": 103.821668
+        }
+      }
+    ]
+  },
+  "pois": [
+    {
+      "poiId": "4bd348af9854d13aa963fd4d",
+      "name": null,
+      "categories": [
+        "Stadium"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.296276,
+        "longitude": 103.802691,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bbac615cf2fc9b639f4a102",
+      "name": null,
+      "categories": [
+        "Bus Station"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.2822,
+        "longitude": 103.817192,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bd311cd046076b027107571",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.28629,
+        "longitude": 103.827341,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b9b5ce8f964a520a90236e3",
+      "name": null,
+      "categories": [
+        "High School"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.292599,
+        "longitude": 103.812867,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d425c848b88b1f7cfaaea33",
+      "name": null,
+      "categories": [
+        "College Cafeteria"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.293597,
+        "longitude": 103.812771,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b6aaa76f964a5206cdb2be3",
+      "name": null,
+      "categories": [
+        "Chinese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.304776,
+        "longitude": 103.831705,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4f8f89cde4b04e174400ba1d",
+      "name": null,
+      "categories": [
+        "College Auditorium"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.295145,
+        "longitude": 103.805616,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b62e805f964a5203d582ae3",
+      "name": null,
+      "categories": [
+        "Fried Chicken Joint"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.286333,
+        "longitude": 103.826865,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b1e7356f964a5201f1a24e3",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.312151,
+        "longitude": 103.83949,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d996622942ba093e1f29a8c",
+      "name": null,
+      "categories": [
+        "Lake"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.33829,
+        "longitude": 103.932981,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c8c884655fba09339a760ab",
+      "name": null,
+      "categories": [
+        "Neighborhood"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.283062,
+        "longitude": 103.843718,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058815f964a520afb022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300304,
+        "longitude": 103.844887,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b84c044f964a520274331e3",
+      "name": null,
+      "categories": [
+        "Sushi Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300283,
+        "longitude": 103.844929,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b6e3258f964a520ffb02ce3",
+      "name": null,
+      "categories": [
+        "Library"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.284188,
+        "longitude": 103.81549,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058814f964a5207eb022e3",
+      "name": null,
+      "categories": [
+        "Multiplex"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.286419,
+        "longitude": 103.827056,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4f2648c2e4b0085e4bcd93d6",
+      "name": null,
+      "categories": [
+        "Food & Drink Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300009,
+        "longitude": 103.849702,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b2a027af964a520aca424e3",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.28739,
+        "longitude": 103.818242,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b8a6ae3f964a520ff6b32e3",
+      "name": null,
+      "categories": [
+        "Chinese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.289534,
+        "longitude": 103.827765,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0cc2b9f964a520ac4123e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.293526,
+        "longitude": 103.831999,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b066e8df964a520c7eb22e3",
+      "name": null,
+      "categories": [
+        "Subway"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.29912,
+        "longitude": 103.845371,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b24679bf964a520276724e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.305618,
+        "longitude": 103.904982,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bce72c9fb84c9b60cf3233e",
+      "name": null,
+      "categories": [
+        "Police Station"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.298925,
+        "longitude": 103.839759,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b1b9e03f964a5203cfc23e3",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.324142,
+        "longitude": 103.814192,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cf9b7eb20fe370465a348f8",
+      "name": null,
+      "categories": [
+        "College Gym"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.289256,
+        "longitude": 103.820242,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4f073109e4b05dd3a1cc0f5c",
+      "name": null,
+      "categories": [
+        "College Auditorium"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.293597,
+        "longitude": 103.812765,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4e49b202a80997a2dbe9d353",
+      "name": null,
+      "categories": [
+        "School"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.294265,
+        "longitude": 103.812674,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b1772e4f964a5209fc523e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.299505,
+        "longitude": 103.847644,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0bb8b5f964a520363323e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300833,
+        "longitude": 103.839755,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058814f964a520a0b022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.305747,
+        "longitude": 103.831519,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c67de1d8e9120a1dc7cdb64",
+      "name": null,
+      "categories": [
+        "Island"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.251537,
+        "longitude": 103.824685,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058818f964a520a7b122e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.264939,
+        "longitude": 103.821668,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    }
+  ]
+}

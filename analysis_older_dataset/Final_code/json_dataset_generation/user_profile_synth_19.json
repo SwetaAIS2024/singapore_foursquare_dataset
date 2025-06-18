@@ -1,0 +1,1905 @@
+{
+  "user": {
+    "userId": "synth_19",
+    "age": null,
+    "gender": null,
+    "location": {
+      "city": "Singapore",
+      "country": "SG"
+    },
+    "device": {
+      "platform": null,
+      "appVersion": null
+    }
+  },
+  "interaction": {
+    "views": [
+      {
+        "timestamp": "2012-04-10T22:42:50+00:00",
+        "poiId": "4e769ac762e1263516f09fa5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294225,
+          "longitude": 103.782787
+        }
+      },
+      {
+        "timestamp": "2012-04-12T04:26:35+00:00",
+        "poiId": "4b058819f964a520d6b122e3",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294431,
+          "longitude": 103.782971
+        }
+      },
+      {
+        "timestamp": "2012-04-12T04:27:36+00:00",
+        "poiId": "4e769ac762e1263516f09fa5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294225,
+          "longitude": 103.782787
+        }
+      },
+      {
+        "timestamp": "2012-04-13T04:42:58+00:00",
+        "poiId": "4e769ac762e1263516f09fa5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294225,
+          "longitude": 103.782787
+        }
+      },
+      {
+        "timestamp": "2012-04-17T22:45:20+00:00",
+        "poiId": "4b058819f964a520d6b122e3",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294431,
+          "longitude": 103.782971
+        }
+      },
+      {
+        "timestamp": "2012-04-17T22:45:36+00:00",
+        "poiId": "4e769ac762e1263516f09fa5",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294225,
+          "longitude": 103.782787
+        }
+      },
+      {
+        "timestamp": "2012-04-19T03:23:32+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-04-22T10:27:22+00:00",
+        "poiId": "4c02034cf815a593103c0a96",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300867,
+          "longitude": 103.836282
+        }
+      },
+      {
+        "timestamp": "2012-04-22T11:02:35+00:00",
+        "poiId": "4c775cda93faa093a2c5f0fb",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301253,
+          "longitude": 103.837023
+        }
+      },
+      {
+        "timestamp": "2012-04-27T16:09:57+00:00",
+        "poiId": "4b058815f964a520a9b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.310145,
+          "longitude": 103.855216
+        }
+      },
+      {
+        "timestamp": "2012-04-29T10:34:30+00:00",
+        "poiId": "4cfb5c40ee9cb60ce0f48fad",
+        "poiCategories": [
+          "Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.307408,
+          "longitude": 103.833488
+        }
+      },
+      {
+        "timestamp": "2012-04-29T12:16:06+00:00",
+        "poiId": "4cf77ee466585481fa15cf98",
+        "poiCategories": [
+          "Clothing Store"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.302609,
+          "longitude": 103.836126
+        }
+      },
+      {
+        "timestamp": "2012-05-05T11:18:08+00:00",
+        "poiId": "4d19e62981cea35d855df8ec",
+        "poiCategories": [
+          "Ice Cream Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300781,
+          "longitude": 103.840059
+        }
+      },
+      {
+        "timestamp": "2012-05-07T12:16:31+00:00",
+        "poiId": "4b13fe99f964a520659b23e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.280684,
+          "longitude": 103.850345
+        }
+      },
+      {
+        "timestamp": "2012-05-10T22:39:42+00:00",
+        "poiId": "4b058819f964a520d6b122e3",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294431,
+          "longitude": 103.782971
+        }
+      },
+      {
+        "timestamp": "2012-05-10T22:40:20+00:00",
+        "poiId": "4cddfdf394c3b60c60a962ea",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294229,
+          "longitude": 103.782142
+        }
+      },
+      {
+        "timestamp": "2012-05-15T22:41:53+00:00",
+        "poiId": "4e76d6b2b993a71aa4942908",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.296387,
+          "longitude": 103.780665
+        }
+      },
+      {
+        "timestamp": "2012-05-17T04:28:01+00:00",
+        "poiId": "4e76d6b2b993a71aa4942908",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.296387,
+          "longitude": 103.780665
+        }
+      },
+      {
+        "timestamp": "2012-05-22T07:59:26+00:00",
+        "poiId": "4b4710b5f964a520002b26e3",
+        "poiCategories": [
+          "Pizza Place"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291254,
+          "longitude": 103.857685
+        }
+      },
+      {
+        "timestamp": "2012-05-24T04:26:57+00:00",
+        "poiId": "4b058819f964a520d6b122e3",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294431,
+          "longitude": 103.782971
+        }
+      },
+      {
+        "timestamp": "2012-05-27T10:32:24+00:00",
+        "poiId": "4b63e7e7f964a52086962ae3",
+        "poiCategories": [
+          "Soccer Stadium"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.310064,
+          "longitude": 103.860294
+        }
+      },
+      {
+        "timestamp": "2012-05-27T13:38:58+00:00",
+        "poiId": "4cf54f9499c6236ac9644a67",
+        "poiCategories": [
+          "Pizza Place"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.31111,
+          "longitude": 103.856839
+        }
+      },
+      {
+        "timestamp": "2012-05-29T13:43:17+00:00",
+        "poiId": "4c04f1b4187ec928c4a5b77b",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.326095,
+          "longitude": 103.885132
+        }
+      },
+      {
+        "timestamp": "2012-05-29T16:15:32+00:00",
+        "poiId": "4ccd5b1f063a721e083e949a",
+        "poiCategories": [
+          "Soccer Field"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.318157,
+          "longitude": 103.854039
+        }
+      },
+      {
+        "timestamp": "2012-06-05T11:16:51+00:00",
+        "poiId": "4c7ddbe010916dcb47d72a96",
+        "poiCategories": [
+          "Fried Chicken Joint"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.298961,
+          "longitude": 103.847687
+        }
+      },
+      {
+        "timestamp": "2012-06-07T12:46:47+00:00",
+        "poiId": "4b33877ef964a5205e1a25e3",
+        "poiCategories": [
+          "Ice Cream Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299009,
+          "longitude": 103.847824
+        }
+      },
+      {
+        "timestamp": "2012-06-09T14:08:52+00:00",
+        "poiId": "4b1e7356f964a5201f1a24e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.312151,
+          "longitude": 103.83949
+        }
+      },
+      {
+        "timestamp": "2012-06-10T10:35:32+00:00",
+        "poiId": "4c8049a8d34ca14389341880",
+        "poiCategories": [
+          "Breakfast Spot"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299718,
+          "longitude": 103.849617
+        }
+      },
+      {
+        "timestamp": "2012-06-11T04:32:36+00:00",
+        "poiId": "4b058819f964a520d6b122e3",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294431,
+          "longitude": 103.782971
+        }
+      },
+      {
+        "timestamp": "2012-06-12T04:34:39+00:00",
+        "poiId": "4b058819f964a520d6b122e3",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294431,
+          "longitude": 103.782971
+        }
+      },
+      {
+        "timestamp": "2012-06-17T12:55:42+00:00",
+        "poiId": "4d09c860e023224b89b75cd2",
+        "poiCategories": [
+          "Indian Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301865,
+          "longitude": 103.841046
+        }
+      },
+      {
+        "timestamp": "2012-06-18T18:47:01+00:00",
+        "poiId": "4b2bb203f964a52045b924e3",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.297606,
+          "longitude": 103.763337
+        }
+      },
+      {
+        "timestamp": "2012-06-21T11:55:32+00:00",
+        "poiId": "4b5adf39f964a5203ad828e3",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.298585,
+          "longitude": 103.855913
+        }
+      },
+      {
+        "timestamp": "2012-06-21T13:20:15+00:00",
+        "poiId": "4dc238557d8b686fa478e26d",
+        "poiCategories": [
+          "Dessert Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29894,
+          "longitude": 103.854843
+        }
+      },
+      {
+        "timestamp": "2012-10-29T02:20:28+00:00",
+        "poiId": "4f168bebe4b0865b0ca73334",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294051,
+          "longitude": 103.78226
+        }
+      },
+      {
+        "timestamp": "2012-11-17T15:06:47+00:00",
+        "poiId": "4d5a212b4d9a721e1493480e",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292418,
+          "longitude": 103.857232
+        }
+      },
+      {
+        "timestamp": "2012-12-08T15:09:30+00:00",
+        "poiId": "4c9b4767db10b60ccc96996d",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.283308,
+          "longitude": 103.857772
+        }
+      },
+      {
+        "timestamp": "2012-12-21T11:16:59+00:00",
+        "poiId": "4ea941b3f790328ae1ab6672",
+        "poiCategories": [
+          "Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.280521,
+          "longitude": 103.845462
+        }
+      },
+      {
+        "timestamp": "2012-12-21T12:38:36+00:00",
+        "poiId": "4cfb268634c1a093f1d0440e",
+        "poiCategories": [
+          "Dessert Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.280586,
+          "longitude": 103.84575
+        }
+      },
+      {
+        "timestamp": "2012-12-22T14:55:09+00:00",
+        "poiId": "4b573049f964a520302a28e3",
+        "poiCategories": [
+          "Dessert Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301939,
+          "longitude": 103.850284
+        }
+      },
+      {
+        "timestamp": "2012-12-23T08:51:21+00:00",
+        "poiId": "4ea941b3f790328ae1ab6672",
+        "poiCategories": [
+          "Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.280521,
+          "longitude": 103.845462
+        }
+      },
+      {
+        "timestamp": "2013-01-06T10:01:41+00:00",
+        "poiId": "4ea941b3f790328ae1ab6672",
+        "poiCategories": [
+          "Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.280521,
+          "longitude": 103.845462
+        }
+      },
+      {
+        "timestamp": "2013-01-07T11:01:15+00:00",
+        "poiId": "4ea941b3f790328ae1ab6672",
+        "poiCategories": [
+          "Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.280521,
+          "longitude": 103.845462
+        }
+      },
+      {
+        "timestamp": "2013-01-14T09:54:14+00:00",
+        "poiId": "4c109465a6c19521fd5636dd",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.353451,
+          "longitude": 103.943461
+        }
+      },
+      {
+        "timestamp": "2013-02-02T16:01:47+00:00",
+        "poiId": "4d221559756e8cfad1917b54",
+        "poiCategories": [
+          "Middle Eastern Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301132,
+          "longitude": 103.858336
+        }
+      },
+      {
+        "timestamp": "2013-02-03T13:51:08+00:00",
+        "poiId": "4b3758eff964a520974025e3",
+        "poiCategories": [
+          "Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331332,
+          "longitude": 103.948075
+        }
+      },
+      {
+        "timestamp": "2013-02-16T20:20:06+00:00",
+        "poiId": "4b05880cf964a5200eae22e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291117,
+          "longitude": 103.834866
+        }
+      },
+      {
+        "timestamp": "2013-02-26T09:53:33+00:00",
+        "poiId": "4ea941b3f790328ae1ab6672",
+        "poiCategories": [
+          "Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.280521,
+          "longitude": 103.845462
+        }
+      },
+      {
+        "timestamp": "2013-03-02T14:28:55+00:00",
+        "poiId": "4b6c1439f964a520ba222ce3",
+        "poiCategories": [
+          "Performing Arts Venue"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.288914,
+          "longitude": 103.856072
+        }
+      },
+      {
+        "timestamp": "2013-03-05T10:10:09+00:00",
+        "poiId": "4c457b9c36d6a593afdd6ba8",
+        "poiCategories": [
+          "Bar"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.280661,
+          "longitude": 103.845109
+        }
+      },
+      {
+        "timestamp": "2013-03-10T09:44:22+00:00",
+        "poiId": "4b1f21a6f964a520432424e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.280182,
+          "longitude": 103.844694
+        }
+      },
+      {
+        "timestamp": "2013-03-12T07:49:19+00:00",
+        "poiId": "4bb2eef7a32876b0bd3401fe",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.264956,
+          "longitude": 103.821702
+        }
+      },
+      {
+        "timestamp": "2013-03-12T13:29:59+00:00",
+        "poiId": "4f045db393ad64af7add3f4a",
+        "poiCategories": [
+          "Italian Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.278764,
+          "longitude": 103.813065
+        }
+      },
+      {
+        "timestamp": "2013-03-18T12:32:31+00:00",
+        "poiId": "4b5adf39f964a5203ad828e3",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.298585,
+          "longitude": 103.855913
+        }
+      },
+      {
+        "timestamp": "2013-03-18T13:52:05+00:00",
+        "poiId": "4fbe154ce4b08dd4671a5854",
+        "poiCategories": [
+          "Middle Eastern Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.30075,
+          "longitude": 103.859537
+        }
+      },
+      {
+        "timestamp": "2013-03-19T10:07:56+00:00",
+        "poiId": "4ea941b3f790328ae1ab6672",
+        "poiCategories": [
+          "Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.280521,
+          "longitude": 103.845462
+        }
+      },
+      {
+        "timestamp": "2013-03-19T10:44:58+00:00",
+        "poiId": "4b926da8f964a520d8f833e3",
+        "poiCategories": [
+          "Hotel Bar"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.280529,
+          "longitude": 103.845507
+        }
+      },
+      {
+        "timestamp": "2013-03-21T11:10:40+00:00",
+        "poiId": "4d5e1f185c39b1f7acffe749",
+        "poiCategories": [
+          "Boutique"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301811,
+          "longitude": 103.837559
+        }
+      },
+      {
+        "timestamp": "2013-03-25T10:26:48+00:00",
+        "poiId": "4b926da8f964a520d8f833e3",
+        "poiCategories": [
+          "Hotel Bar"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.280529,
+          "longitude": 103.845507
+        }
+      },
+      {
+        "timestamp": "2013-03-26T10:14:48+00:00",
+        "poiId": "4ea941b3f790328ae1ab6672",
+        "poiCategories": [
+          "Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.280521,
+          "longitude": 103.845462
+        }
+      },
+      {
+        "timestamp": "2013-03-30T09:58:37+00:00",
+        "poiId": "4b9c9235f964a520ca7036e3",
+        "poiCategories": [
+          "Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.273399,
+          "longitude": 103.807507
+        }
+      },
+      {
+        "timestamp": "2013-04-02T10:32:50+00:00",
+        "poiId": "4beb883d415e20a1da82e6bb",
+        "poiCategories": [
+          "Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291657,
+          "longitude": 103.849442
+        }
+      },
+      {
+        "timestamp": "2013-04-02T12:09:05+00:00",
+        "poiId": "4c73dbef9e706dcb6f7b4e62",
+        "poiCategories": [
+          "Monument / Landmark"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29028,
+          "longitude": 103.853835
+        }
+      },
+      {
+        "timestamp": "2013-04-10T14:29:57+00:00",
+        "poiId": "4b05880cf964a5200eae22e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291117,
+          "longitude": 103.834866
+        }
+      },
+      {
+        "timestamp": "2013-04-15T11:19:38+00:00",
+        "poiId": "4c92eec3f600236ae497c132",
+        "poiCategories": [
+          "Indonesian Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301531,
+          "longitude": 103.838543
+        }
+      },
+      {
+        "timestamp": "2013-04-15T14:11:44+00:00",
+        "poiId": "4c25fd04905a0f478e616260",
+        "poiCategories": [
+          "Pool Hall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.298832,
+          "longitude": 103.853784
+        }
+      },
+      {
+        "timestamp": "2013-04-25T08:44:06+00:00",
+        "poiId": "4b058818f964a520a7b122e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.264939,
+          "longitude": 103.821668
+        }
+      },
+      {
+        "timestamp": "2013-04-30T10:54:15+00:00",
+        "poiId": "4cd5134a122ba143dec729a1",
+        "poiCategories": [
+          "Caf\u001a\u001a"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299586,
+          "longitude": 103.85426
+        }
+      },
+      {
+        "timestamp": "2013-05-03T16:05:50+00:00",
+        "poiId": "4b05880cf964a5200eae22e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291117,
+          "longitude": 103.834866
+        }
+      },
+      {
+        "timestamp": "2013-05-11T08:05:24+00:00",
+        "poiId": "4d3f95f1255d8cfa9c255d05",
+        "poiCategories": [
+          "Department Store"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.287659,
+          "longitude": 103.804213
+        }
+      },
+      {
+        "timestamp": "2013-05-11T09:00:06+00:00",
+        "poiId": "4b0d53aaf964a520624623e3",
+        "poiCategories": [
+          "Caf\u001a\u001a"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.288123,
+          "longitude": 103.80509
+        }
+      },
+      {
+        "timestamp": "2013-05-29T11:16:11+00:00",
+        "poiId": "4d399e27039eb60c277de39c",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.293415,
+          "longitude": 103.78217
+        }
+      },
+      {
+        "timestamp": "2013-06-01T13:05:01+00:00",
+        "poiId": "4b2bb203f964a52045b924e3",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.297606,
+          "longitude": 103.763337
+        }
+      },
+      {
+        "timestamp": "2013-07-03T15:42:34+00:00",
+        "poiId": "4b05880cf964a5200eae22e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291117,
+          "longitude": 103.834866
+        }
+      }
+    ]
+  },
+  "pois": [
+    {
+      "poiId": "4e769ac762e1263516f09fa5",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.294225,
+        "longitude": 103.782787,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058819f964a520d6b122e3",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.294431,
+        "longitude": 103.782971,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b67e88ef964a520c2602be3",
+      "name": null,
+      "categories": [
+        "Trade School"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.334311,
+        "longitude": 103.954482,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c02034cf815a593103c0a96",
+      "name": null,
+      "categories": [
+        "Fast Food Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300867,
+        "longitude": 103.836282,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c775cda93faa093a2c5f0fb",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301253,
+        "longitude": 103.837023,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058815f964a520a9b022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.310145,
+        "longitude": 103.855216,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cfb5c40ee9cb60ce0f48fad",
+      "name": null,
+      "categories": [
+        "Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.307408,
+        "longitude": 103.833488,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cf77ee466585481fa15cf98",
+      "name": null,
+      "categories": [
+        "Clothing Store"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.302609,
+        "longitude": 103.836126,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d19e62981cea35d855df8ec",
+      "name": null,
+      "categories": [
+        "Ice Cream Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300781,
+        "longitude": 103.840059,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b13fe99f964a520659b23e3",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.280684,
+        "longitude": 103.850345,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cddfdf394c3b60c60a962ea",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.294229,
+        "longitude": 103.782142,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4e76d6b2b993a71aa4942908",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.296387,
+        "longitude": 103.780665,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b4710b5f964a520002b26e3",
+      "name": null,
+      "categories": [
+        "Pizza Place"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.291254,
+        "longitude": 103.857685,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b63e7e7f964a52086962ae3",
+      "name": null,
+      "categories": [
+        "Soccer Stadium"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.310064,
+        "longitude": 103.860294,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cf54f9499c6236ac9644a67",
+      "name": null,
+      "categories": [
+        "Pizza Place"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.31111,
+        "longitude": 103.856839,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c04f1b4187ec928c4a5b77b",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.326095,
+        "longitude": 103.885132,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ccd5b1f063a721e083e949a",
+      "name": null,
+      "categories": [
+        "Soccer Field"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.318157,
+        "longitude": 103.854039,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c7ddbe010916dcb47d72a96",
+      "name": null,
+      "categories": [
+        "Fried Chicken Joint"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.298961,
+        "longitude": 103.847687,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b33877ef964a5205e1a25e3",
+      "name": null,
+      "categories": [
+        "Ice Cream Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.299009,
+        "longitude": 103.847824,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b1e7356f964a5201f1a24e3",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.312151,
+        "longitude": 103.83949,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c8049a8d34ca14389341880",
+      "name": null,
+      "categories": [
+        "Breakfast Spot"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.299718,
+        "longitude": 103.849617,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d09c860e023224b89b75cd2",
+      "name": null,
+      "categories": [
+        "Indian Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301865,
+        "longitude": 103.841046,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b2bb203f964a52045b924e3",
+      "name": null,
+      "categories": [
+        "Fast Food Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.297606,
+        "longitude": 103.763337,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b5adf39f964a5203ad828e3",
+      "name": null,
+      "categories": [
+        "Coffee Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.298585,
+        "longitude": 103.855913,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4dc238557d8b686fa478e26d",
+      "name": null,
+      "categories": [
+        "Dessert Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.29894,
+        "longitude": 103.854843,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4f168bebe4b0865b0ca73334",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.294051,
+        "longitude": 103.78226,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d5a212b4d9a721e1493480e",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.292418,
+        "longitude": 103.857232,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c9b4767db10b60ccc96996d",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.283308,
+        "longitude": 103.857772,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ea941b3f790328ae1ab6672",
+      "name": null,
+      "categories": [
+        "Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.280521,
+        "longitude": 103.845462,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cfb268634c1a093f1d0440e",
+      "name": null,
+      "categories": [
+        "Dessert Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.280586,
+        "longitude": 103.84575,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b573049f964a520302a28e3",
+      "name": null,
+      "categories": [
+        "Dessert Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301939,
+        "longitude": 103.850284,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c109465a6c19521fd5636dd",
+      "name": null,
+      "categories": [
+        "Fast Food Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.353451,
+        "longitude": 103.943461,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d221559756e8cfad1917b54",
+      "name": null,
+      "categories": [
+        "Middle Eastern Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301132,
+        "longitude": 103.858336,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b3758eff964a520974025e3",
+      "name": null,
+      "categories": [
+        "Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.331332,
+        "longitude": 103.948075,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b05880cf964a5200eae22e3",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.291117,
+        "longitude": 103.834866,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b6c1439f964a520ba222ce3",
+      "name": null,
+      "categories": [
+        "Performing Arts Venue"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.288914,
+        "longitude": 103.856072,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c457b9c36d6a593afdd6ba8",
+      "name": null,
+      "categories": [
+        "Bar"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.280661,
+        "longitude": 103.845109,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b1f21a6f964a520432424e3",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.280182,
+        "longitude": 103.844694,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bb2eef7a32876b0bd3401fe",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.264956,
+        "longitude": 103.821702,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4f045db393ad64af7add3f4a",
+      "name": null,
+      "categories": [
+        "Italian Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.278764,
+        "longitude": 103.813065,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4fbe154ce4b08dd4671a5854",
+      "name": null,
+      "categories": [
+        "Middle Eastern Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.30075,
+        "longitude": 103.859537,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b926da8f964a520d8f833e3",
+      "name": null,
+      "categories": [
+        "Hotel Bar"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.280529,
+        "longitude": 103.845507,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d5e1f185c39b1f7acffe749",
+      "name": null,
+      "categories": [
+        "Boutique"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301811,
+        "longitude": 103.837559,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b9c9235f964a520ca7036e3",
+      "name": null,
+      "categories": [
+        "Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.273399,
+        "longitude": 103.807507,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4beb883d415e20a1da82e6bb",
+      "name": null,
+      "categories": [
+        "Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.291657,
+        "longitude": 103.849442,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c73dbef9e706dcb6f7b4e62",
+      "name": null,
+      "categories": [
+        "Monument / Landmark"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.29028,
+        "longitude": 103.853835,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c92eec3f600236ae497c132",
+      "name": null,
+      "categories": [
+        "Indonesian Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301531,
+        "longitude": 103.838543,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c25fd04905a0f478e616260",
+      "name": null,
+      "categories": [
+        "Pool Hall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.298832,
+        "longitude": 103.853784,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058818f964a520a7b122e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.264939,
+        "longitude": 103.821668,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cd5134a122ba143dec729a1",
+      "name": null,
+      "categories": [
+        "Caf\u001a\u001a"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.299586,
+        "longitude": 103.85426,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d3f95f1255d8cfa9c255d05",
+      "name": null,
+      "categories": [
+        "Department Store"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.287659,
+        "longitude": 103.804213,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0d53aaf964a520624623e3",
+      "name": null,
+      "categories": [
+        "Caf\u001a\u001a"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.288123,
+        "longitude": 103.80509,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d399e27039eb60c277de39c",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.293415,
+        "longitude": 103.78217,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    }
+  ]
+}

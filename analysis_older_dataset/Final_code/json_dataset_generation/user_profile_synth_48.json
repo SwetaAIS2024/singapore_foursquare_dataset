@@ -1,0 +1,1547 @@
+{
+  "user": {
+    "userId": "synth_48",
+    "age": null,
+    "gender": null,
+    "location": {
+      "city": "Singapore",
+      "country": "SG"
+    },
+    "device": {
+      "platform": null,
+      "appVersion": null
+    }
+  },
+  "interaction": {
+    "views": [
+      {
+        "timestamp": "2013-01-30T13:19:14+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-02-01T19:56:36+00:00",
+        "poiId": "4c15177c7f7f2d7f73dbe168",
+        "poiCategories": [
+          "Military Base"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.368148,
+          "longitude": 103.97686
+        }
+      },
+      {
+        "timestamp": "2013-02-02T12:03:51+00:00",
+        "poiId": "4c23368311de20a19d0286ce",
+        "poiCategories": [
+          "Burger Joint"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301011,
+          "longitude": 103.839342
+        }
+      },
+      {
+        "timestamp": "2013-02-02T14:18:14+00:00",
+        "poiId": "4b4e7e0ff964a520a7ef26e3",
+        "poiCategories": [
+          "General Entertainment"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300942,
+          "longitude": 103.835886
+        }
+      },
+      {
+        "timestamp": "2013-02-02T15:07:12+00:00",
+        "poiId": "50474fd7e4b0f61f46697a81",
+        "poiCategories": [
+          "Bar"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291264,
+          "longitude": 103.846011
+        }
+      },
+      {
+        "timestamp": "2013-02-03T15:17:44+00:00",
+        "poiId": "4c15177c7f7f2d7f73dbe168",
+        "poiCategories": [
+          "Military Base"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.368148,
+          "longitude": 103.97686
+        }
+      },
+      {
+        "timestamp": "2013-02-05T09:38:23+00:00",
+        "poiId": "4d3437c6f8c9224b7318c1d2",
+        "poiCategories": [
+          "Government Building"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.3179,
+          "longitude": 103.953109
+        }
+      },
+      {
+        "timestamp": "2013-02-05T17:41:31+00:00",
+        "poiId": "4c15177c7f7f2d7f73dbe168",
+        "poiCategories": [
+          "Military Base"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.368148,
+          "longitude": 103.97686
+        }
+      },
+      {
+        "timestamp": "2013-02-08T03:22:03+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-03-04T10:44:05+00:00",
+        "poiId": "4c15177c7f7f2d7f73dbe168",
+        "poiCategories": [
+          "Military Base"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.368148,
+          "longitude": 103.97686
+        }
+      },
+      {
+        "timestamp": "2013-03-06T10:03:57+00:00",
+        "poiId": "4c15177c7f7f2d7f73dbe168",
+        "poiCategories": [
+          "Military Base"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.368148,
+          "longitude": 103.97686
+        }
+      },
+      {
+        "timestamp": "2013-03-07T14:07:13+00:00",
+        "poiId": "4c15177c7f7f2d7f73dbe168",
+        "poiCategories": [
+          "Military Base"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.368148,
+          "longitude": 103.97686
+        }
+      },
+      {
+        "timestamp": "2013-03-08T15:20:33+00:00",
+        "poiId": "4e8f1329dab454671ef8d0a6",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292022,
+          "longitude": 103.859208
+        }
+      },
+      {
+        "timestamp": "2013-03-08T21:41:32+00:00",
+        "poiId": "4be2d629b02ec9b63cc94dc0",
+        "poiCategories": [
+          "Dim Sum Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.314423,
+          "longitude": 103.878296
+        }
+      },
+      {
+        "timestamp": "2013-03-14T07:37:51+00:00",
+        "poiId": "4c15177c7f7f2d7f73dbe168",
+        "poiCategories": [
+          "Military Base"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.368148,
+          "longitude": 103.97686
+        }
+      },
+      {
+        "timestamp": "2013-03-16T10:31:32+00:00",
+        "poiId": "4b91b457f964a52045d133e3",
+        "poiCategories": [
+          "Event Space"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.290913,
+          "longitude": 103.864145
+        }
+      },
+      {
+        "timestamp": "2013-03-16T12:27:48+00:00",
+        "poiId": "4bc8583192b376b0402b513a",
+        "poiCategories": [
+          "Japanese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.298808,
+          "longitude": 103.855358
+        }
+      },
+      {
+        "timestamp": "2013-03-16T18:34:19+00:00",
+        "poiId": "50815727e4b0073ffa3dc5aa",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.290587,
+          "longitude": 103.84545
+        }
+      },
+      {
+        "timestamp": "2013-03-17T14:18:00+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-03-21T12:15:09+00:00",
+        "poiId": "4c15177c7f7f2d7f73dbe168",
+        "poiCategories": [
+          "Military Base"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.368148,
+          "longitude": 103.97686
+        }
+      },
+      {
+        "timestamp": "2013-03-26T13:49:42+00:00",
+        "poiId": "4c15177c7f7f2d7f73dbe168",
+        "poiCategories": [
+          "Military Base"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.368148,
+          "longitude": 103.97686
+        }
+      },
+      {
+        "timestamp": "2013-03-27T03:49:14+00:00",
+        "poiId": "4c6aa182cff29521adb8275e",
+        "poiCategories": [
+          "Government Building"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.335147,
+          "longitude": 103.681197
+        }
+      },
+      {
+        "timestamp": "2013-03-29T19:15:32+00:00",
+        "poiId": "4e8f1329dab454671ef8d0a6",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292022,
+          "longitude": 103.859208
+        }
+      },
+      {
+        "timestamp": "2013-04-01T10:28:24+00:00",
+        "poiId": "4c15177c7f7f2d7f73dbe168",
+        "poiCategories": [
+          "Military Base"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.368148,
+          "longitude": 103.97686
+        }
+      },
+      {
+        "timestamp": "2013-04-03T13:01:29+00:00",
+        "poiId": "4b0955acf964a520d91523e3",
+        "poiCategories": [
+          "Neighborhood"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331275,
+          "longitude": 103.948103
+        }
+      },
+      {
+        "timestamp": "2013-04-03T17:11:13+00:00",
+        "poiId": "4c15177c7f7f2d7f73dbe168",
+        "poiCategories": [
+          "Military Base"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.368148,
+          "longitude": 103.97686
+        }
+      },
+      {
+        "timestamp": "2013-04-05T10:43:36+00:00",
+        "poiId": "4b05880bf964a520e8ad22e3",
+        "poiCategories": [
+          "Hotel"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.286279,
+          "longitude": 103.852837
+        }
+      },
+      {
+        "timestamp": "2013-04-12T14:25:03+00:00",
+        "poiId": "4e6081e81495676d54e3eefa",
+        "poiCategories": [
+          "Diner"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.289258,
+          "longitude": 103.846073
+        }
+      },
+      {
+        "timestamp": "2013-04-12T19:40:50+00:00",
+        "poiId": "4e8f1329dab454671ef8d0a6",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292022,
+          "longitude": 103.859208
+        }
+      },
+      {
+        "timestamp": "2013-04-21T15:34:14+00:00",
+        "poiId": "4ec3b8d246903b51c41a6bdd",
+        "poiCategories": [
+          "Pub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.279608,
+          "longitude": 103.842325
+        }
+      },
+      {
+        "timestamp": "2013-04-21T18:32:56+00:00",
+        "poiId": "4effc3df6d8642ac2d377904",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29117,
+          "longitude": 103.844125
+        }
+      },
+      {
+        "timestamp": "2013-04-27T19:55:56+00:00",
+        "poiId": "5040eb79e4b02607d0173b9d",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.282956,
+          "longitude": 103.857465
+        }
+      },
+      {
+        "timestamp": "2013-04-27T19:56:05+00:00",
+        "poiId": "4c9b4767db10b60ccc96996d",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.283308,
+          "longitude": 103.857772
+        }
+      },
+      {
+        "timestamp": "2013-04-30T00:48:09+00:00",
+        "poiId": "4d85ac0b40a7a35ddd4726be",
+        "poiCategories": [
+          "Beach"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.38736,
+          "longitude": 103.941994
+        }
+      },
+      {
+        "timestamp": "2013-05-01T15:52:51+00:00",
+        "poiId": "4c775cda93faa093a2c5f0fb",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301253,
+          "longitude": 103.837023
+        }
+      },
+      {
+        "timestamp": "2013-05-04T17:06:15+00:00",
+        "poiId": "4e8f1329dab454671ef8d0a6",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292022,
+          "longitude": 103.859208
+        }
+      },
+      {
+        "timestamp": "2013-05-10T15:58:43+00:00",
+        "poiId": "514341cbe4b0abca5d7d2250",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.290928,
+          "longitude": 103.845716
+        }
+      },
+      {
+        "timestamp": "2013-05-23T16:21:29+00:00",
+        "poiId": "4b05880cf964a5200eae22e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291117,
+          "longitude": 103.834866
+        }
+      },
+      {
+        "timestamp": "2013-05-27T14:33:49+00:00",
+        "poiId": "4b949b12f964a5208e7e34e3",
+        "poiCategories": [
+          "Park"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.282632,
+          "longitude": 103.865647
+        }
+      },
+      {
+        "timestamp": "2013-05-27T15:12:14+00:00",
+        "poiId": "4b058810f964a52040af22e3",
+        "poiCategories": [
+          "Water Park"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.280519,
+          "longitude": 103.870518
+        }
+      },
+      {
+        "timestamp": "2013-05-27T17:20:50+00:00",
+        "poiId": "4ea8c23c8231694b677e6470",
+        "poiCategories": [
+          "Government Building"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294242,
+          "longitude": 103.848089
+        }
+      },
+      {
+        "timestamp": "2013-05-27T18:03:24+00:00",
+        "poiId": "4b989892f964a520334835e3",
+        "poiCategories": [
+          "Museum"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.296791,
+          "longitude": 103.848588
+        }
+      },
+      {
+        "timestamp": "2013-05-27T20:51:51+00:00",
+        "poiId": "4bd1618d046076b096c07171",
+        "poiCategories": [
+          "Park"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.274266,
+          "longitude": 103.816295
+        }
+      },
+      {
+        "timestamp": "2013-05-27T21:30:16+00:00",
+        "poiId": "4b52ae54f964a520d68527e3",
+        "poiCategories": [
+          "Park"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.266114,
+          "longitude": 103.802776
+        }
+      },
+      {
+        "timestamp": "2013-05-29T08:11:52+00:00",
+        "poiId": "4c15177c7f7f2d7f73dbe168",
+        "poiCategories": [
+          "Military Base"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.368148,
+          "longitude": 103.97686
+        }
+      },
+      {
+        "timestamp": "2013-06-01T16:27:19+00:00",
+        "poiId": "4f3cd073e4b0c1f2775615f9",
+        "poiCategories": [
+          "Pub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299645,
+          "longitude": 103.849521
+        }
+      },
+      {
+        "timestamp": "2013-06-02T19:44:45+00:00",
+        "poiId": "4ba8dfb1f964a52002f639e3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.323991,
+          "longitude": 103.851769
+        }
+      },
+      {
+        "timestamp": "2013-06-08T11:59:02+00:00",
+        "poiId": "4b0bb8b5f964a520363323e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300833,
+          "longitude": 103.839755
+        }
+      },
+      {
+        "timestamp": "2013-07-09T09:47:47+00:00",
+        "poiId": "4f02f90d30f8992335329900",
+        "poiCategories": [
+          "Gym"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.35251,
+          "longitude": 103.941684
+        }
+      },
+      {
+        "timestamp": "2013-08-12T21:21:53+00:00",
+        "poiId": "4c15177c7f7f2d7f73dbe168",
+        "poiCategories": [
+          "Military Base"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.368148,
+          "longitude": 103.97686
+        }
+      },
+      {
+        "timestamp": "2013-08-17T15:43:30+00:00",
+        "poiId": "4df05ad6d22d433687173d02",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300457,
+          "longitude": 103.849923
+        }
+      },
+      {
+        "timestamp": "2013-08-17T21:08:57+00:00",
+        "poiId": "512600d2e4b0f6eb7c52201c",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.307223,
+          "longitude": 103.827873
+        }
+      },
+      {
+        "timestamp": "2013-08-22T13:32:32+00:00",
+        "poiId": "4b5da988f964a520ae6529e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350678,
+          "longitude": 103.87275
+        }
+      },
+      {
+        "timestamp": "2013-08-23T15:02:36+00:00",
+        "poiId": "4f3cd073e4b0c1f2775615f9",
+        "poiCategories": [
+          "Pub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299645,
+          "longitude": 103.849521
+        }
+      },
+      {
+        "timestamp": "2013-08-24T08:10:14+00:00",
+        "poiId": "506fbdff498ee7bb95fdd1f4",
+        "poiCategories": [
+          "Bar"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.254044,
+          "longitude": 103.814548
+        }
+      },
+      {
+        "timestamp": "2013-08-24T10:58:27+00:00",
+        "poiId": "4bd82d1ef645c9b6da44a7e0",
+        "poiCategories": [
+          "Gastropub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.243224,
+          "longitude": 103.82798
+        }
+      },
+      {
+        "timestamp": "2013-08-29T11:01:16+00:00",
+        "poiId": "4b058814f964a5207fb022e3",
+        "poiCategories": [
+          "Multiplex"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352502,
+          "longitude": 103.944901
+        }
+      },
+      {
+        "timestamp": "2013-09-06T12:14:30+00:00",
+        "poiId": "4b166771f964a520b8b823e3",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.34036,
+          "longitude": 103.949493
+        }
+      },
+      {
+        "timestamp": "2013-09-07T16:17:03+00:00",
+        "poiId": "4ff458a8e4b021ccc6685c68",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300187,
+          "longitude": 103.850008
+        }
+      },
+      {
+        "timestamp": "2013-09-13T07:13:46+00:00",
+        "poiId": "51bd0868498edfddeeec9e37",
+        "poiCategories": [
+          "Train Station"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.276087,
+          "longitude": 103.792198
+        }
+      },
+      {
+        "timestamp": "2013-09-16T12:15:40+00:00",
+        "poiId": "4b5da988f964a520ae6529e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350678,
+          "longitude": 103.87275
+        }
+      }
+    ]
+  },
+  "pois": [
+    {
+      "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.354033,
+        "longitude": 103.945117,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c15177c7f7f2d7f73dbe168",
+      "name": null,
+      "categories": [
+        "Military Base"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.368148,
+        "longitude": 103.97686,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c23368311de20a19d0286ce",
+      "name": null,
+      "categories": [
+        "Burger Joint"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301011,
+        "longitude": 103.839342,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b4e7e0ff964a520a7ef26e3",
+      "name": null,
+      "categories": [
+        "General Entertainment"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300942,
+        "longitude": 103.835886,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "50474fd7e4b0f61f46697a81",
+      "name": null,
+      "categories": [
+        "Bar"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.291264,
+        "longitude": 103.846011,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d3437c6f8c9224b7318c1d2",
+      "name": null,
+      "categories": [
+        "Government Building"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.3179,
+        "longitude": 103.953109,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4e8f1329dab454671ef8d0a6",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.292022,
+        "longitude": 103.859208,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4be2d629b02ec9b63cc94dc0",
+      "name": null,
+      "categories": [
+        "Dim Sum Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.314423,
+        "longitude": 103.878296,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b91b457f964a52045d133e3",
+      "name": null,
+      "categories": [
+        "Event Space"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.290913,
+        "longitude": 103.864145,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bc8583192b376b0402b513a",
+      "name": null,
+      "categories": [
+        "Japanese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.298808,
+        "longitude": 103.855358,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "50815727e4b0073ffa3dc5aa",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.290587,
+        "longitude": 103.84545,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c6aa182cff29521adb8275e",
+      "name": null,
+      "categories": [
+        "Government Building"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.335147,
+        "longitude": 103.681197,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0955acf964a520d91523e3",
+      "name": null,
+      "categories": [
+        "Neighborhood"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.331275,
+        "longitude": 103.948103,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b05880bf964a520e8ad22e3",
+      "name": null,
+      "categories": [
+        "Hotel"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.286279,
+        "longitude": 103.852837,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4e6081e81495676d54e3eefa",
+      "name": null,
+      "categories": [
+        "Diner"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.289258,
+        "longitude": 103.846073,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ec3b8d246903b51c41a6bdd",
+      "name": null,
+      "categories": [
+        "Pub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.279608,
+        "longitude": 103.842325,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4effc3df6d8642ac2d377904",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.29117,
+        "longitude": 103.844125,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "5040eb79e4b02607d0173b9d",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.282956,
+        "longitude": 103.857465,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c9b4767db10b60ccc96996d",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.283308,
+        "longitude": 103.857772,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d85ac0b40a7a35ddd4726be",
+      "name": null,
+      "categories": [
+        "Beach"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.38736,
+        "longitude": 103.941994,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c775cda93faa093a2c5f0fb",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301253,
+        "longitude": 103.837023,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "514341cbe4b0abca5d7d2250",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.290928,
+        "longitude": 103.845716,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b05880cf964a5200eae22e3",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.291117,
+        "longitude": 103.834866,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b949b12f964a5208e7e34e3",
+      "name": null,
+      "categories": [
+        "Park"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.282632,
+        "longitude": 103.865647,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058810f964a52040af22e3",
+      "name": null,
+      "categories": [
+        "Water Park"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.280519,
+        "longitude": 103.870518,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ea8c23c8231694b677e6470",
+      "name": null,
+      "categories": [
+        "Government Building"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.294242,
+        "longitude": 103.848089,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b989892f964a520334835e3",
+      "name": null,
+      "categories": [
+        "Museum"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.296791,
+        "longitude": 103.848588,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bd1618d046076b096c07171",
+      "name": null,
+      "categories": [
+        "Park"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.274266,
+        "longitude": 103.816295,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b52ae54f964a520d68527e3",
+      "name": null,
+      "categories": [
+        "Park"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.266114,
+        "longitude": 103.802776,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4f3cd073e4b0c1f2775615f9",
+      "name": null,
+      "categories": [
+        "Pub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.299645,
+        "longitude": 103.849521,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ba8dfb1f964a52002f639e3",
+      "name": null,
+      "categories": [
+        "Chinese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.323991,
+        "longitude": 103.851769,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0bb8b5f964a520363323e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300833,
+        "longitude": 103.839755,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4f02f90d30f8992335329900",
+      "name": null,
+      "categories": [
+        "Gym"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.35251,
+        "longitude": 103.941684,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4df05ad6d22d433687173d02",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300457,
+        "longitude": 103.849923,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "512600d2e4b0f6eb7c52201c",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.307223,
+        "longitude": 103.827873,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b5da988f964a520ae6529e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.350678,
+        "longitude": 103.87275,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "506fbdff498ee7bb95fdd1f4",
+      "name": null,
+      "categories": [
+        "Bar"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.254044,
+        "longitude": 103.814548,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bd82d1ef645c9b6da44a7e0",
+      "name": null,
+      "categories": [
+        "Gastropub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.243224,
+        "longitude": 103.82798,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058814f964a5207fb022e3",
+      "name": null,
+      "categories": [
+        "Multiplex"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.352502,
+        "longitude": 103.944901,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b166771f964a520b8b823e3",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.34036,
+        "longitude": 103.949493,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ff458a8e4b021ccc6685c68",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300187,
+        "longitude": 103.850008,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "51bd0868498edfddeeec9e37",
+      "name": null,
+      "categories": [
+        "Train Station"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.276087,
+        "longitude": 103.792198,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    }
+  ]
+}

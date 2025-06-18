@@ -1,0 +1,2337 @@
+{
+  "user": {
+    "userId": "synth_86",
+    "age": null,
+    "gender": null,
+    "location": {
+      "city": "Singapore",
+      "country": "SG"
+    },
+    "device": {
+      "platform": null,
+      "appVersion": null
+    }
+  },
+  "interaction": {
+    "views": [
+      {
+        "timestamp": "2012-04-11T02:33:31+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-04-12T10:29:21+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-04-12T23:11:23+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-04-13T00:23:12+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-04-13T07:16:50+00:00",
+        "poiId": "4cf7546a64e3721eb54526c8",
+        "poiCategories": [
+          "Clothing Store"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.351262,
+          "longitude": 103.87243
+        }
+      },
+      {
+        "timestamp": "2012-04-13T07:18:07+00:00",
+        "poiId": "4d9589bf9079b1f7eb8ee309",
+        "poiCategories": [
+          "Italian Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350142,
+          "longitude": 103.872621
+        }
+      },
+      {
+        "timestamp": "2012-04-13T07:51:09+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-04-14T00:58:17+00:00",
+        "poiId": "4b0c75fcf964a520b83d23e3",
+        "poiCategories": [
+          "Government Building"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.306723,
+          "longitude": 103.862616
+        }
+      },
+      {
+        "timestamp": "2012-04-14T03:28:03+00:00",
+        "poiId": "4cc7b330ee718cfa4089b33d",
+        "poiCategories": [
+          "Design Studio"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29187,
+          "longitude": 103.850344
+        }
+      },
+      {
+        "timestamp": "2012-04-14T05:22:57+00:00",
+        "poiId": "4b41f327f964a52099ca25e3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29124,
+          "longitude": 103.849936
+        }
+      },
+      {
+        "timestamp": "2012-04-14T12:13:01+00:00",
+        "poiId": "4b066e8df964a520c7eb22e3",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29912,
+          "longitude": 103.845371
+        }
+      },
+      {
+        "timestamp": "2012-04-19T01:33:20+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-04-19T01:35:21+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-04-19T23:35:28+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-04-20T08:17:39+00:00",
+        "poiId": "4bc336a8b492d13a0a64a860",
+        "poiCategories": [
+          "Soccer Field"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.30187,
+          "longitude": 103.879927
+        }
+      },
+      {
+        "timestamp": "2012-04-20T08:18:08+00:00",
+        "poiId": "4bc336a8b492d13a0a64a860",
+        "poiCategories": [
+          "Soccer Field"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.30187,
+          "longitude": 103.879927
+        }
+      },
+      {
+        "timestamp": "2012-04-21T06:50:09+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-04-22T23:17:54+00:00",
+        "poiId": "4c303fe77cc0c9b6ac25ed9a",
+        "poiCategories": [
+          "College Cafeteria"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346813,
+          "longitude": 103.875629
+        }
+      },
+      {
+        "timestamp": "2012-04-23T00:26:35+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-04-23T08:55:10+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-04-24T02:13:19+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-04-24T08:50:25+00:00",
+        "poiId": "4e8ae2b961afcc24d9832095",
+        "poiCategories": [
+          "Park"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356517,
+          "longitude": 103.889625
+        }
+      },
+      {
+        "timestamp": "2012-04-24T23:21:42+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-04-25T22:43:26+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-04-25T23:18:34+00:00",
+        "poiId": "4cebd72c0f196dcb1d165aae",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.351279,
+          "longitude": 103.872213
+        }
+      },
+      {
+        "timestamp": "2012-04-26T05:18:05+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-04-29T03:38:49+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-05-02T06:49:54+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-05-03T23:08:39+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-05-03T23:09:09+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-05-04T04:35:55+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-05-08T23:00:12+00:00",
+        "poiId": "4c303fe77cc0c9b6ac25ed9a",
+        "poiCategories": [
+          "College Cafeteria"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346813,
+          "longitude": 103.875629
+        }
+      },
+      {
+        "timestamp": "2012-05-09T02:52:48+00:00",
+        "poiId": "4ee9fb2caa1f7c7810a14c3c",
+        "poiCategories": [
+          "Ice Cream Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350743,
+          "longitude": 103.872645
+        }
+      },
+      {
+        "timestamp": "2012-05-09T23:12:05+00:00",
+        "poiId": "4c303fe77cc0c9b6ac25ed9a",
+        "poiCategories": [
+          "College Cafeteria"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346813,
+          "longitude": 103.875629
+        }
+      },
+      {
+        "timestamp": "2012-05-09T23:12:32+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-05-09T23:12:48+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-05-10T23:28:53+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-05-11T03:46:20+00:00",
+        "poiId": "4cf49a3a6195721e162853c1",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.349756,
+          "longitude": 103.872879
+        }
+      },
+      {
+        "timestamp": "2012-05-11T10:18:41+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-05-12T10:30:54+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-05-12T14:15:56+00:00",
+        "poiId": "4b170fa2f964a520a7c123e3",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.312427,
+          "longitude": 103.85431
+        }
+      },
+      {
+        "timestamp": "2012-05-13T01:27:11+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-05-13T09:56:19+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-05-14T03:53:49+00:00",
+        "poiId": "4b5da988f964a520ae6529e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350678,
+          "longitude": 103.87275
+        }
+      },
+      {
+        "timestamp": "2012-05-14T07:37:30+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-05-15T02:16:45+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-05-15T02:17:16+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-05-15T03:35:07+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-05-15T09:18:23+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-05-16T01:22:54+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-05-16T06:21:41+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-05-16T06:21:58+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-05-17T11:38:46+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-05-19T01:07:06+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-05-19T09:46:47+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-05-21T23:25:18+00:00",
+        "poiId": "4c303fe77cc0c9b6ac25ed9a",
+        "poiCategories": [
+          "College Cafeteria"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346813,
+          "longitude": 103.875629
+        }
+      },
+      {
+        "timestamp": "2012-05-22T06:17:21+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-05-22T07:36:02+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-05-23T23:21:04+00:00",
+        "poiId": "4b6cde84f964a5206f5a2ce3",
+        "poiCategories": [
+          "School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.349868,
+          "longitude": 103.861836
+        }
+      },
+      {
+        "timestamp": "2012-05-24T03:18:00+00:00",
+        "poiId": "4b6cde84f964a5206f5a2ce3",
+        "poiCategories": [
+          "School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.349868,
+          "longitude": 103.861836
+        }
+      },
+      {
+        "timestamp": "2012-05-24T04:09:18+00:00",
+        "poiId": "4ef17ad7f9abac413395f053",
+        "poiCategories": [
+          "Burger Joint"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.349756,
+          "longitude": 103.872557
+        }
+      },
+      {
+        "timestamp": "2012-05-27T00:46:24+00:00",
+        "poiId": "4bea834f415e20a17510e5bb",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.355462,
+          "longitude": 103.879488
+        }
+      },
+      {
+        "timestamp": "2012-05-27T04:53:06+00:00",
+        "poiId": "4b4db849f964a52046d626e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.359388,
+          "longitude": 103.885217
+        }
+      },
+      {
+        "timestamp": "2012-06-03T00:03:59+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-06-03T11:08:28+00:00",
+        "poiId": "4b1e7356f964a5201f1a24e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.312151,
+          "longitude": 103.83949
+        }
+      },
+      {
+        "timestamp": "2012-06-04T03:50:09+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-06-05T09:43:34+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-06-07T06:50:47+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-06-08T00:41:31+00:00",
+        "poiId": "4b0bb948f964a5203a3323e3",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.308929,
+          "longitude": 103.916339
+        }
+      },
+      {
+        "timestamp": "2012-06-09T12:24:37+00:00",
+        "poiId": "4bea834f415e20a17510e5bb",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.355462,
+          "longitude": 103.879488
+        }
+      },
+      {
+        "timestamp": "2012-06-11T05:19:22+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-06-12T08:48:47+00:00",
+        "poiId": "4dd378cd1f6e5374d6daa3ee",
+        "poiCategories": [
+          "Cosmetics Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.2658,
+          "longitude": 103.823599
+        }
+      },
+      {
+        "timestamp": "2012-06-12T09:14:32+00:00",
+        "poiId": "4b49db45f964a520ca7426e3",
+        "poiCategories": [
+          "Multiplex"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.263754,
+          "longitude": 103.823075
+        }
+      },
+      {
+        "timestamp": "2012-06-13T04:42:57+00:00",
+        "poiId": "4b5da988f964a520ae6529e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350678,
+          "longitude": 103.87275
+        }
+      },
+      {
+        "timestamp": "2012-06-15T11:36:19+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-06-17T09:56:35+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-06-18T02:15:32+00:00",
+        "poiId": "4b5da988f964a520ae6529e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350678,
+          "longitude": 103.87275
+        }
+      },
+      {
+        "timestamp": "2012-06-18T04:40:11+00:00",
+        "poiId": "4cf49a3a6195721e162853c1",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.349756,
+          "longitude": 103.872879
+        }
+      },
+      {
+        "timestamp": "2012-06-18T06:58:24+00:00",
+        "poiId": "4b9b05abf964a52084ec35e3",
+        "poiCategories": [
+          "College Academic Building"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.308844,
+          "longitude": 103.927833
+        }
+      },
+      {
+        "timestamp": "2012-06-20T23:51:14+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-06-25T10:23:57+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-06-26T23:15:43+00:00",
+        "poiId": "4c303fe77cc0c9b6ac25ed9a",
+        "poiCategories": [
+          "College Cafeteria"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346813,
+          "longitude": 103.875629
+        }
+      },
+      {
+        "timestamp": "2012-06-27T05:53:55+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-06-30T22:43:30+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-07-01T00:27:35+00:00",
+        "poiId": "4bea834f415e20a17510e5bb",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.355462,
+          "longitude": 103.879488
+        }
+      },
+      {
+        "timestamp": "2012-07-02T10:14:04+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-07-04T04:02:20+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-07-06T08:45:31+00:00",
+        "poiId": "4c303fe77cc0c9b6ac25ed9a",
+        "poiCategories": [
+          "College Cafeteria"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346813,
+          "longitude": 103.875629
+        }
+      },
+      {
+        "timestamp": "2012-07-07T06:02:32+00:00",
+        "poiId": "4b5da988f964a520ae6529e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350678,
+          "longitude": 103.87275
+        }
+      },
+      {
+        "timestamp": "2012-07-07T08:56:27+00:00",
+        "poiId": "4bea834f415e20a17510e5bb",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.355462,
+          "longitude": 103.879488
+        }
+      },
+      {
+        "timestamp": "2012-07-08T00:07:25+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-07-08T23:01:13+00:00",
+        "poiId": "4c303fe77cc0c9b6ac25ed9a",
+        "poiCategories": [
+          "College Cafeteria"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346813,
+          "longitude": 103.875629
+        }
+      },
+      {
+        "timestamp": "2012-07-11T07:18:45+00:00",
+        "poiId": "4ee9fb2caa1f7c7810a14c3c",
+        "poiCategories": [
+          "Ice Cream Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350743,
+          "longitude": 103.872645
+        }
+      },
+      {
+        "timestamp": "2012-07-13T00:33:31+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-07-13T06:25:10+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-07-15T23:00:20+00:00",
+        "poiId": "4c303fe77cc0c9b6ac25ed9a",
+        "poiCategories": [
+          "College Cafeteria"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346813,
+          "longitude": 103.875629
+        }
+      },
+      {
+        "timestamp": "2012-07-15T23:01:11+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-07-18T23:46:59+00:00",
+        "poiId": "4b5da988f964a520ae6529e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350678,
+          "longitude": 103.87275
+        }
+      },
+      {
+        "timestamp": "2012-07-28T09:46:09+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-07-28T09:46:22+00:00",
+        "poiId": "500b5a76e4b0b8de34fb6807",
+        "poiCategories": [
+          "Military Base"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356395,
+          "longitude": 103.877991
+        }
+      },
+      {
+        "timestamp": "2012-07-29T01:03:14+00:00",
+        "poiId": "500b5a76e4b0b8de34fb6807",
+        "poiCategories": [
+          "Military Base"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356395,
+          "longitude": 103.877991
+        }
+      },
+      {
+        "timestamp": "2012-07-30T01:58:05+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-07-30T01:58:19+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-08-06T01:37:41+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-08-06T01:37:55+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-08-12T00:12:01+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-08-13T22:49:43+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-08-14T11:27:03+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-08-20T09:14:38+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-08-18T08:23:50+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-09-10T02:11:20+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-09-15T23:45:55+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-10-22T08:00:19+00:00",
+        "poiId": "4b5da988f964a520ae6529e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350678,
+          "longitude": 103.87275
+        }
+      },
+      {
+        "timestamp": "2012-10-22T08:00:34+00:00",
+        "poiId": "4cf49a3a6195721e162853c1",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.349756,
+          "longitude": 103.872879
+        }
+      },
+      {
+        "timestamp": "2012-10-23T00:16:29+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-10-23T23:26:50+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-10-23T23:26:55+00:00",
+        "poiId": "4c303fe77cc0c9b6ac25ed9a",
+        "poiCategories": [
+          "College Cafeteria"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346813,
+          "longitude": 103.875629
+        }
+      },
+      {
+        "timestamp": "2012-10-24T23:17:30+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-10-26T06:08:20+00:00",
+        "poiId": "4c752dddd8948cfa2de366da",
+        "poiCategories": [
+          "Newsstand"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350509,
+          "longitude": 103.874672
+        }
+      },
+      {
+        "timestamp": "2012-10-28T05:51:25+00:00",
+        "poiId": "4f351dcce4b0b80eded88ef4",
+        "poiCategories": [
+          "Video Game Store"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.302698,
+          "longitude": 103.845484
+        }
+      },
+      {
+        "timestamp": "2012-10-28T07:10:39+00:00",
+        "poiId": "4b058815f964a520afb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300304,
+          "longitude": 103.844887
+        }
+      },
+      {
+        "timestamp": "2012-10-28T10:33:22+00:00",
+        "poiId": "4b4db849f964a52046d626e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.359388,
+          "longitude": 103.885217
+        }
+      },
+      {
+        "timestamp": "2012-10-29T00:32:30+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-10-29T05:42:55+00:00",
+        "poiId": "4e329624e4cd6025018d7454",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.357983,
+          "longitude": 103.883812
+        }
+      },
+      {
+        "timestamp": "2012-10-31T11:24:18+00:00",
+        "poiId": "4b52e628f964a520418a27e3",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356191,
+          "longitude": 103.877556
+        }
+      },
+      {
+        "timestamp": "2012-10-31T23:28:18+00:00",
+        "poiId": "4b5da988f964a520ae6529e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350678,
+          "longitude": 103.87275
+        }
+      },
+      {
+        "timestamp": "2012-11-02T00:57:55+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-11-02T05:37:12+00:00",
+        "poiId": "4cf49a3a6195721e162853c1",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.349756,
+          "longitude": 103.872879
+        }
+      },
+      {
+        "timestamp": "2012-11-06T06:21:26+00:00",
+        "poiId": "4c3cf7b57d00d13ad5aa3950",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.346731,
+          "longitude": 103.875432
+        }
+      },
+      {
+        "timestamp": "2012-11-06T22:09:02+00:00",
+        "poiId": "4b0bd124f964a520e03323e3",
+        "poiCategories": [
+          "Airport"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356685,
+          "longitude": 103.988471
+        }
+      }
+    ]
+  },
+  "pois": [
+    {
+      "poiId": "4c3cf7b57d00d13ad5aa3950",
+      "name": null,
+      "categories": [
+        "High School"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.346731,
+        "longitude": 103.875432,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c752dddd8948cfa2de366da",
+      "name": null,
+      "categories": [
+        "Newsstand"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.350509,
+        "longitude": 103.874672,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cf7546a64e3721eb54526c8",
+      "name": null,
+      "categories": [
+        "Clothing Store"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.351262,
+        "longitude": 103.87243,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d9589bf9079b1f7eb8ee309",
+      "name": null,
+      "categories": [
+        "Italian Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.350142,
+        "longitude": 103.872621,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0c75fcf964a520b83d23e3",
+      "name": null,
+      "categories": [
+        "Government Building"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.306723,
+        "longitude": 103.862616,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cc7b330ee718cfa4089b33d",
+      "name": null,
+      "categories": [
+        "Design Studio"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.29187,
+        "longitude": 103.850344,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b41f327f964a52099ca25e3",
+      "name": null,
+      "categories": [
+        "Chinese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.29124,
+        "longitude": 103.849936,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b066e8df964a520c7eb22e3",
+      "name": null,
+      "categories": [
+        "Subway"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.29912,
+        "longitude": 103.845371,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bc336a8b492d13a0a64a860",
+      "name": null,
+      "categories": [
+        "Soccer Field"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.30187,
+        "longitude": 103.879927,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b52e628f964a520418a27e3",
+      "name": null,
+      "categories": [
+        "Church"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.356191,
+        "longitude": 103.877556,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c303fe77cc0c9b6ac25ed9a",
+      "name": null,
+      "categories": [
+        "College Cafeteria"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.346813,
+        "longitude": 103.875629,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4e8ae2b961afcc24d9832095",
+      "name": null,
+      "categories": [
+        "Park"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.356517,
+        "longitude": 103.889625,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cebd72c0f196dcb1d165aae",
+      "name": null,
+      "categories": [
+        "Fast Food Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.351279,
+        "longitude": 103.872213,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ee9fb2caa1f7c7810a14c3c",
+      "name": null,
+      "categories": [
+        "Ice Cream Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.350743,
+        "longitude": 103.872645,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cf49a3a6195721e162853c1",
+      "name": null,
+      "categories": [
+        "Fast Food Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.349756,
+        "longitude": 103.872879,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b170fa2f964a520a7c123e3",
+      "name": null,
+      "categories": [
+        "Subway"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.312427,
+        "longitude": 103.85431,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b5da988f964a520ae6529e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.350678,
+        "longitude": 103.87275,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b6cde84f964a5206f5a2ce3",
+      "name": null,
+      "categories": [
+        "School"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.349868,
+        "longitude": 103.861836,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ef17ad7f9abac413395f053",
+      "name": null,
+      "categories": [
+        "Burger Joint"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.349756,
+        "longitude": 103.872557,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bea834f415e20a17510e5bb",
+      "name": null,
+      "categories": [
+        "Coffee Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.355462,
+        "longitude": 103.879488,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b4db849f964a52046d626e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.359388,
+        "longitude": 103.885217,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b1e7356f964a5201f1a24e3",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.312151,
+        "longitude": 103.83949,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0bb948f964a5203a3323e3",
+      "name": null,
+      "categories": [
+        "High School"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.308929,
+        "longitude": 103.916339,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4dd378cd1f6e5374d6daa3ee",
+      "name": null,
+      "categories": [
+        "Cosmetics Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.2658,
+        "longitude": 103.823599,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b49db45f964a520ca7426e3",
+      "name": null,
+      "categories": [
+        "Multiplex"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.263754,
+        "longitude": 103.823075,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b9b05abf964a52084ec35e3",
+      "name": null,
+      "categories": [
+        "College Academic Building"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.308844,
+        "longitude": 103.927833,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "500b5a76e4b0b8de34fb6807",
+      "name": null,
+      "categories": [
+        "Military Base"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.356395,
+        "longitude": 103.877991,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4f351dcce4b0b80eded88ef4",
+      "name": null,
+      "categories": [
+        "Video Game Store"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.302698,
+        "longitude": 103.845484,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058815f964a520afb022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300304,
+        "longitude": 103.844887,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4e329624e4cd6025018d7454",
+      "name": null,
+      "categories": [
+        "Fast Food Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.357983,
+        "longitude": 103.883812,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0bd124f964a520e03323e3",
+      "name": null,
+      "categories": [
+        "Airport"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.356685,
+        "longitude": 103.988471,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    }
+  ]
+}

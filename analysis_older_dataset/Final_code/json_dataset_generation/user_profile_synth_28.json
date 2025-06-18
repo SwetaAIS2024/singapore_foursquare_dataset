@@ -1,0 +1,1441 @@
+{
+  "user": {
+    "userId": "synth_28",
+    "age": null,
+    "gender": null,
+    "location": {
+      "city": "Singapore",
+      "country": "SG"
+    },
+    "device": {
+      "platform": null,
+      "appVersion": null
+    }
+  },
+  "interaction": {
+    "views": [
+      {
+        "timestamp": "2012-05-14T05:36:52+00:00",
+        "poiId": "4ede2da5be7be2833c2203e8",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.393649,
+          "longitude": 103.913263
+        }
+      },
+      {
+        "timestamp": "2012-05-15T05:34:19+00:00",
+        "poiId": "4ede2da5be7be2833c2203e8",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.393649,
+          "longitude": 103.913263
+        }
+      },
+      {
+        "timestamp": "2012-05-24T10:01:52+00:00",
+        "poiId": "4bcee055b6c49c746abe9791",
+        "poiCategories": [
+          "School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.387789,
+          "longitude": 103.903778
+        }
+      },
+      {
+        "timestamp": "2012-05-26T05:59:05+00:00",
+        "poiId": "4b6d9deaf964a520ac802ce3",
+        "poiCategories": [
+          "Grocery Store"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.385937,
+          "longitude": 103.902553
+        }
+      },
+      {
+        "timestamp": "2012-05-26T06:24:19+00:00",
+        "poiId": "4d3d3b28d2c8f04d8f526872",
+        "poiCategories": [
+          "Drugstore / Pharmacy"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.385435,
+          "longitude": 103.901457
+        }
+      },
+      {
+        "timestamp": "2012-05-26T06:36:09+00:00",
+        "poiId": "4bc68c6ebf29c9b64518fa2a",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.385139,
+          "longitude": 103.902235
+        }
+      },
+      {
+        "timestamp": "2012-05-29T05:01:58+00:00",
+        "poiId": "4cae9bc3cbab236a31f09173",
+        "poiCategories": [
+          "Medical Center"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.385351,
+          "longitude": 103.901346
+        }
+      },
+      {
+        "timestamp": "2012-05-29T07:00:40+00:00",
+        "poiId": "4ede2da5be7be2833c2203e8",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.393649,
+          "longitude": 103.913263
+        }
+      },
+      {
+        "timestamp": "2012-05-29T07:42:45+00:00",
+        "poiId": "4efd2b977ee5f14f3876d46b",
+        "poiCategories": [
+          "Miscellaneous Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.394791,
+          "longitude": 103.912974
+        }
+      },
+      {
+        "timestamp": "2012-06-09T06:19:11+00:00",
+        "poiId": "4b6d9deaf964a520ac802ce3",
+        "poiCategories": [
+          "Grocery Store"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.385937,
+          "longitude": 103.902553
+        }
+      },
+      {
+        "timestamp": "2012-06-09T06:48:27+00:00",
+        "poiId": "4b51a919f964a520ea5127e3",
+        "poiCategories": [
+          "Gas Station / Garage"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.35853,
+          "longitude": 103.882685
+        }
+      },
+      {
+        "timestamp": "2012-06-09T06:54:16+00:00",
+        "poiId": "4b4834b3f964a520154a26e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.359379,
+          "longitude": 103.885811
+        }
+      },
+      {
+        "timestamp": "2012-06-09T08:15:14+00:00",
+        "poiId": "4b058819f964a520dcb122e3",
+        "poiCategories": [
+          "Convention Center"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.333495,
+          "longitude": 103.959503
+        }
+      },
+      {
+        "timestamp": "2012-06-09T09:50:07+00:00",
+        "poiId": "4b0bd124f964a520e03323e3",
+        "poiCategories": [
+          "Airport"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.356685,
+          "longitude": 103.988471
+        }
+      },
+      {
+        "timestamp": "2012-06-14T06:04:08+00:00",
+        "poiId": "4b2a9de1f964a52067ac24e3",
+        "poiCategories": [
+          "Light Rail"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.387865,
+          "longitude": 103.90529
+        }
+      },
+      {
+        "timestamp": "2012-06-14T06:05:21+00:00",
+        "poiId": "4b6a5930f964a52004d32be3",
+        "poiCategories": [
+          "Light Rail"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.383878,
+          "longitude": 103.902246
+        }
+      },
+      {
+        "timestamp": "2012-06-14T06:13:11+00:00",
+        "poiId": "4b59a5f0f964a520ba9028e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.385572,
+          "longitude": 103.901482
+        }
+      },
+      {
+        "timestamp": "2012-06-14T06:13:49+00:00",
+        "poiId": "4bc68c6ebf29c9b64518fa2a",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.385139,
+          "longitude": 103.902235
+        }
+      },
+      {
+        "timestamp": "2012-07-08T06:33:53+00:00",
+        "poiId": "4bd1618d046076b096c07171",
+        "poiCategories": [
+          "Park"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.274266,
+          "longitude": 103.816295
+        }
+      },
+      {
+        "timestamp": "2012-07-08T07:21:55+00:00",
+        "poiId": "4c67de1d8e9120a1dc7cdb64",
+        "poiCategories": [
+          "Island"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.251537,
+          "longitude": 103.824685
+        }
+      },
+      {
+        "timestamp": "2012-07-08T07:24:07+00:00",
+        "poiId": "4bc977033740b7134ad15e65",
+        "poiCategories": [
+          "Monument / Landmark"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.254022,
+          "longitude": 103.819138
+        }
+      },
+      {
+        "timestamp": "2012-07-08T10:44:57+00:00",
+        "poiId": "4b067835f964a52019ec22e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.394141,
+          "longitude": 103.912799
+        }
+      },
+      {
+        "timestamp": "2012-07-24T11:35:50+00:00",
+        "poiId": "4b59a5f0f964a520ba9028e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.385572,
+          "longitude": 103.901482
+        }
+      },
+      {
+        "timestamp": "2012-07-24T11:36:34+00:00",
+        "poiId": "4b6d9deaf964a520ac802ce3",
+        "poiCategories": [
+          "Grocery Store"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.385937,
+          "longitude": 103.902553
+        }
+      },
+      {
+        "timestamp": "2012-07-29T06:13:13+00:00",
+        "poiId": "4b4834b3f964a520154a26e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.359379,
+          "longitude": 103.885811
+        }
+      },
+      {
+        "timestamp": "2012-08-11T09:34:50+00:00",
+        "poiId": "4b067835f964a52019ec22e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.394141,
+          "longitude": 103.912799
+        }
+      },
+      {
+        "timestamp": "2012-08-11T09:40:19+00:00",
+        "poiId": "4efd2b977ee5f14f3876d46b",
+        "poiCategories": [
+          "Miscellaneous Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.394791,
+          "longitude": 103.912974
+        }
+      },
+      {
+        "timestamp": "2012-08-11T09:58:34+00:00",
+        "poiId": "4b7e8814f964a52043f12fe3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.393957,
+          "longitude": 103.913155
+        }
+      },
+      {
+        "timestamp": "2012-08-11T10:51:16+00:00",
+        "poiId": "4cb95eeaf50e224b1b33edfb",
+        "poiCategories": [
+          "Temple"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.314849,
+          "longitude": 103.879639
+        }
+      },
+      {
+        "timestamp": "2012-08-11T13:16:22+00:00",
+        "poiId": "4b6d9deaf964a520ac802ce3",
+        "poiCategories": [
+          "Grocery Store"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.385937,
+          "longitude": 103.902553
+        }
+      },
+      {
+        "timestamp": "2012-08-13T23:29:24+00:00",
+        "poiId": "4cc7f96cfa03224b946e41ef",
+        "poiCategories": [
+          "Bus Station"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.389407,
+          "longitude": 103.904931
+        }
+      },
+      {
+        "timestamp": "2012-08-14T07:43:31+00:00",
+        "poiId": "4d182ee281cea35d190aecec",
+        "poiCategories": [
+          "Bus Line"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.367904,
+          "longitude": 103.893263
+        }
+      },
+      {
+        "timestamp": "2012-08-14T07:48:40+00:00",
+        "poiId": "4d38c1c09ca8236a4a1eaee8",
+        "poiCategories": [
+          "Bus Station"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.389302,
+          "longitude": 103.905033
+        }
+      },
+      {
+        "timestamp": "2012-08-20T05:29:00+00:00",
+        "poiId": "4b55e0aff964a52036f427e3",
+        "poiCategories": [
+          "Light Rail"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.3915,
+          "longitude": 103.905872
+        }
+      },
+      {
+        "timestamp": "2012-08-20T05:33:54+00:00",
+        "poiId": "4b2c4861f964a5202bc524e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.392208,
+          "longitude": 103.904464
+        }
+      },
+      {
+        "timestamp": "2012-08-20T05:34:25+00:00",
+        "poiId": "4b8ca901f964a520b3d932e3",
+        "poiCategories": [
+          "Miscellaneous Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.39238,
+          "longitude": 103.904454
+        }
+      },
+      {
+        "timestamp": "2012-08-20T06:02:06+00:00",
+        "poiId": "4c73b5a58efc3704c829167d",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.392369,
+          "longitude": 103.904411
+        }
+      },
+      {
+        "timestamp": "2012-08-20T06:42:12+00:00",
+        "poiId": "4b51a919f964a520ea5127e3",
+        "poiCategories": [
+          "Gas Station / Garage"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.35853,
+          "longitude": 103.882685
+        }
+      },
+      {
+        "timestamp": "2012-08-18T05:57:24+00:00",
+        "poiId": "4b2a9de1f964a52067ac24e3",
+        "poiCategories": [
+          "Light Rail"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.387865,
+          "longitude": 103.90529
+        }
+      },
+      {
+        "timestamp": "2012-08-18T06:09:38+00:00",
+        "poiId": "4c73b5a58efc3704c829167d",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.392369,
+          "longitude": 103.904411
+        }
+      },
+      {
+        "timestamp": "2012-08-18T08:02:43+00:00",
+        "poiId": "4b166771f964a520b8b823e3",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.34036,
+          "longitude": 103.949493
+        }
+      },
+      {
+        "timestamp": "2012-08-18T08:04:21+00:00",
+        "poiId": "4d7c424979c4b1f7b990f8f2",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.340531,
+          "longitude": 103.949214
+        }
+      },
+      {
+        "timestamp": "2012-08-19T04:39:40+00:00",
+        "poiId": "4bc68c6ebf29c9b64518fa2a",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.385139,
+          "longitude": 103.902235
+        }
+      },
+      {
+        "timestamp": "2012-10-12T10:00:00+00:00",
+        "poiId": "4bcee055b6c49c746abe9791",
+        "poiCategories": [
+          "School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.387789,
+          "longitude": 103.903778
+        }
+      },
+      {
+        "timestamp": "2012-10-27T06:11:48+00:00",
+        "poiId": "4b59a5f0f964a520ba9028e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.385572,
+          "longitude": 103.901482
+        }
+      },
+      {
+        "timestamp": "2012-10-27T06:12:28+00:00",
+        "poiId": "4bc68c6ebf29c9b64518fa2a",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.385139,
+          "longitude": 103.902235
+        }
+      },
+      {
+        "timestamp": "2012-10-28T04:01:18+00:00",
+        "poiId": "4b058819f964a520dcb122e3",
+        "poiCategories": [
+          "Convention Center"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.333495,
+          "longitude": 103.959503
+        }
+      },
+      {
+        "timestamp": "2012-10-28T04:01:44+00:00",
+        "poiId": "4ce8cbfdf1c6236a563862f0",
+        "poiCategories": [
+          "Event Space"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334436,
+          "longitude": 103.959492
+        }
+      },
+      {
+        "timestamp": "2012-11-02T10:02:18+00:00",
+        "poiId": "4bcee055b6c49c746abe9791",
+        "poiCategories": [
+          "School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.387789,
+          "longitude": 103.903778
+        }
+      },
+      {
+        "timestamp": "2012-11-16T05:18:25+00:00",
+        "poiId": "4b077a2cf964a520fdfd22e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.372495,
+          "longitude": 103.893714
+        }
+      },
+      {
+        "timestamp": "2012-11-16T05:19:27+00:00",
+        "poiId": "4b1dbdb7f964a520b01424e3",
+        "poiCategories": [
+          "Japanese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.372137,
+          "longitude": 103.8937
+        }
+      },
+      {
+        "timestamp": "2012-12-08T09:14:40+00:00",
+        "poiId": "4b9488f3f964a520b27c34e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.332773,
+          "longitude": 103.847624
+        }
+      },
+      {
+        "timestamp": "2012-12-15T13:47:14+00:00",
+        "poiId": "4b59a5f0f964a520ba9028e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.385572,
+          "longitude": 103.901482
+        }
+      },
+      {
+        "timestamp": "2012-12-15T13:47:36+00:00",
+        "poiId": "4bca2b30b6c49c7429f18f91",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.385432,
+          "longitude": 103.90108
+        }
+      },
+      {
+        "timestamp": "2013-01-27T08:28:35+00:00",
+        "poiId": "4b5da988f964a520ae6529e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350678,
+          "longitude": 103.87275
+        }
+      },
+      {
+        "timestamp": "2013-02-16T03:20:28+00:00",
+        "poiId": "4b555b91f964a5205fe227e3",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.2999,
+          "longitude": 103.844816
+        }
+      },
+      {
+        "timestamp": "2013-04-27T11:53:55+00:00",
+        "poiId": "4b56edb0f964a520901f28e3",
+        "poiCategories": [
+          "Seafood Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.311829,
+          "longitude": 103.855948
+        }
+      },
+      {
+        "timestamp": "2013-08-08T06:42:52+00:00",
+        "poiId": "4b949b12f964a5208e7e34e3",
+        "poiCategories": [
+          "Park"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.282632,
+          "longitude": 103.865647
+        }
+      }
+    ]
+  },
+  "pois": [
+    {
+      "poiId": "4ede2da5be7be2833c2203e8",
+      "name": null,
+      "categories": [
+        "Fast Food Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.393649,
+        "longitude": 103.913263,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bcee055b6c49c746abe9791",
+      "name": null,
+      "categories": [
+        "School"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.387789,
+        "longitude": 103.903778,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b6d9deaf964a520ac802ce3",
+      "name": null,
+      "categories": [
+        "Grocery Store"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.385937,
+        "longitude": 103.902553,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d3d3b28d2c8f04d8f526872",
+      "name": null,
+      "categories": [
+        "Drugstore / Pharmacy"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.385435,
+        "longitude": 103.901457,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bc68c6ebf29c9b64518fa2a",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.385139,
+        "longitude": 103.902235,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cae9bc3cbab236a31f09173",
+      "name": null,
+      "categories": [
+        "Medical Center"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.385351,
+        "longitude": 103.901346,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4efd2b977ee5f14f3876d46b",
+      "name": null,
+      "categories": [
+        "Miscellaneous Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.394791,
+        "longitude": 103.912974,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b51a919f964a520ea5127e3",
+      "name": null,
+      "categories": [
+        "Gas Station / Garage"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.35853,
+        "longitude": 103.882685,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b4834b3f964a520154a26e3",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.359379,
+        "longitude": 103.885811,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058819f964a520dcb122e3",
+      "name": null,
+      "categories": [
+        "Convention Center"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.333495,
+        "longitude": 103.959503,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0bd124f964a520e03323e3",
+      "name": null,
+      "categories": [
+        "Airport"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.356685,
+        "longitude": 103.988471,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b2a9de1f964a52067ac24e3",
+      "name": null,
+      "categories": [
+        "Light Rail"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.387865,
+        "longitude": 103.90529,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b6a5930f964a52004d32be3",
+      "name": null,
+      "categories": [
+        "Light Rail"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.383878,
+        "longitude": 103.902246,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b59a5f0f964a520ba9028e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.385572,
+        "longitude": 103.901482,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bd1618d046076b096c07171",
+      "name": null,
+      "categories": [
+        "Park"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.274266,
+        "longitude": 103.816295,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c67de1d8e9120a1dc7cdb64",
+      "name": null,
+      "categories": [
+        "Island"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.251537,
+        "longitude": 103.824685,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bc977033740b7134ad15e65",
+      "name": null,
+      "categories": [
+        "Monument / Landmark"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.254022,
+        "longitude": 103.819138,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b067835f964a52019ec22e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.394141,
+        "longitude": 103.912799,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b7e8814f964a52043f12fe3",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.393957,
+        "longitude": 103.913155,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cb95eeaf50e224b1b33edfb",
+      "name": null,
+      "categories": [
+        "Temple"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.314849,
+        "longitude": 103.879639,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cc7f96cfa03224b946e41ef",
+      "name": null,
+      "categories": [
+        "Bus Station"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.389407,
+        "longitude": 103.904931,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d182ee281cea35d190aecec",
+      "name": null,
+      "categories": [
+        "Bus Line"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.367904,
+        "longitude": 103.893263,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d38c1c09ca8236a4a1eaee8",
+      "name": null,
+      "categories": [
+        "Bus Station"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.389302,
+        "longitude": 103.905033,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b55e0aff964a52036f427e3",
+      "name": null,
+      "categories": [
+        "Light Rail"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.3915,
+        "longitude": 103.905872,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b2c4861f964a5202bc524e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.392208,
+        "longitude": 103.904464,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b8ca901f964a520b3d932e3",
+      "name": null,
+      "categories": [
+        "Miscellaneous Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.39238,
+        "longitude": 103.904454,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c73b5a58efc3704c829167d",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.392369,
+        "longitude": 103.904411,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b166771f964a520b8b823e3",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.34036,
+        "longitude": 103.949493,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d7c424979c4b1f7b990f8f2",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.340531,
+        "longitude": 103.949214,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ce8cbfdf1c6236a563862f0",
+      "name": null,
+      "categories": [
+        "Event Space"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.334436,
+        "longitude": 103.959492,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b077a2cf964a520fdfd22e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.372495,
+        "longitude": 103.893714,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b1dbdb7f964a520b01424e3",
+      "name": null,
+      "categories": [
+        "Japanese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.372137,
+        "longitude": 103.8937,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b9488f3f964a520b27c34e3",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.332773,
+        "longitude": 103.847624,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bca2b30b6c49c7429f18f91",
+      "name": null,
+      "categories": [
+        "Fast Food Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.385432,
+        "longitude": 103.90108,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b5da988f964a520ae6529e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.350678,
+        "longitude": 103.87275,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b555b91f964a5205fe227e3",
+      "name": null,
+      "categories": [
+        "Fast Food Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.2999,
+        "longitude": 103.844816,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b56edb0f964a520901f28e3",
+      "name": null,
+      "categories": [
+        "Seafood Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.311829,
+        "longitude": 103.855948,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b949b12f964a5208e7e34e3",
+      "name": null,
+      "categories": [
+        "Park"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.282632,
+        "longitude": 103.865647,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    }
+  ]
+}

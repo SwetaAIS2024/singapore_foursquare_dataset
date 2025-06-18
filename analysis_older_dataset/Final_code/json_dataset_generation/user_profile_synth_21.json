@@ -1,0 +1,1553 @@
+{
+  "user": {
+    "userId": "synth_21",
+    "age": null,
+    "gender": null,
+    "location": {
+      "city": "Singapore",
+      "country": "SG"
+    },
+    "device": {
+      "platform": null,
+      "appVersion": null
+    }
+  },
+  "interaction": {
+    "views": [
+      {
+        "timestamp": "2012-05-09T13:16:10+00:00",
+        "poiId": "4bdce4bdc79cc928509b88e9",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.323456,
+          "longitude": 103.828204
+        }
+      },
+      {
+        "timestamp": "2012-05-09T15:25:43+00:00",
+        "poiId": "4b32a70cf964a520f71025e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.290786,
+          "longitude": 103.845801
+        }
+      },
+      {
+        "timestamp": "2012-05-09T15:25:54+00:00",
+        "poiId": "4b0d53daf964a520664623e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.290859,
+          "longitude": 103.846008
+        }
+      },
+      {
+        "timestamp": "2012-05-11T12:02:49+00:00",
+        "poiId": "4b723a13f964a520b7742de3",
+        "poiCategories": [
+          "German Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.317145,
+          "longitude": 103.844278
+        }
+      },
+      {
+        "timestamp": "2012-05-13T04:50:41+00:00",
+        "poiId": "4db3de7e7abad708f24a7b83",
+        "poiCategories": [
+          "Church"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.284174,
+          "longitude": 103.816574
+        }
+      },
+      {
+        "timestamp": "2012-05-13T04:52:21+00:00",
+        "poiId": "4b769dc9f964a520a6542ee3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.287942,
+          "longitude": 103.813961
+        }
+      },
+      {
+        "timestamp": "2012-06-10T10:43:37+00:00",
+        "poiId": "4b8efe49f964a520474333e3",
+        "poiCategories": [
+          "Bus Station"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.332124,
+          "longitude": 103.848258
+        }
+      },
+      {
+        "timestamp": "2012-06-13T05:11:19+00:00",
+        "poiId": "4c775cda93faa093a2c5f0fb",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301253,
+          "longitude": 103.837023
+        }
+      },
+      {
+        "timestamp": "2012-06-13T06:10:22+00:00",
+        "poiId": "4bbdbc04a8cf76b0ae11b2fd",
+        "poiCategories": [
+          "Korean Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303055,
+          "longitude": 103.834748
+        }
+      },
+      {
+        "timestamp": "2012-06-25T10:17:11+00:00",
+        "poiId": "4bf2bdff7f2aef3b14d0392a",
+        "poiCategories": [
+          "Temple"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331779,
+          "longitude": 103.866473
+        }
+      },
+      {
+        "timestamp": "2012-07-04T07:17:50+00:00",
+        "poiId": "4c7ddbe010916dcb47d72a96",
+        "poiCategories": [
+          "Fried Chicken Joint"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.298961,
+          "longitude": 103.847687
+        }
+      },
+      {
+        "timestamp": "2012-07-05T07:05:34+00:00",
+        "poiId": "4dedcb2b7d8bb216742ca9bf",
+        "poiCategories": [
+          "Furniture / Home Store"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299052,
+          "longitude": 103.847811
+        }
+      },
+      {
+        "timestamp": "2012-07-05T07:28:09+00:00",
+        "poiId": "4c7ddbe010916dcb47d72a96",
+        "poiCategories": [
+          "Fried Chicken Joint"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.298961,
+          "longitude": 103.847687
+        }
+      },
+      {
+        "timestamp": "2012-07-06T10:37:01+00:00",
+        "poiId": "4cc7aa1f8c5b236a97ecfa6d",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.278482,
+          "longitude": 103.83629
+        }
+      },
+      {
+        "timestamp": "2012-07-07T05:55:28+00:00",
+        "poiId": "4cb598a28db0a143ce4c6316",
+        "poiCategories": [
+          "Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.302386,
+          "longitude": 103.8362
+        }
+      },
+      {
+        "timestamp": "2012-07-07T12:05:52+00:00",
+        "poiId": "4c3ab4fc17689c74d041aa08",
+        "poiCategories": [
+          "American Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300121,
+          "longitude": 103.844866
+        }
+      },
+      {
+        "timestamp": "2012-07-08T11:29:24+00:00",
+        "poiId": "4b1f8e5bf964a520eb2624e3",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.279787,
+          "longitude": 103.834739
+        }
+      },
+      {
+        "timestamp": "2012-07-08T12:05:50+00:00",
+        "poiId": "4b058811f964a5209daf22e3",
+        "poiCategories": [
+          "Mexican Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.320302,
+          "longitude": 103.756599
+        }
+      },
+      {
+        "timestamp": "2012-07-09T05:18:53+00:00",
+        "poiId": "4c23368311de20a19d0286ce",
+        "poiCategories": [
+          "Burger Joint"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301011,
+          "longitude": 103.839342
+        }
+      },
+      {
+        "timestamp": "2012-07-09T10:16:12+00:00",
+        "poiId": "4bb9783c7421a59315d6c240",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291128,
+          "longitude": 103.856893
+        }
+      },
+      {
+        "timestamp": "2012-07-12T05:45:18+00:00",
+        "poiId": "4dedcb2b7d8bb216742ca9bf",
+        "poiCategories": [
+          "Furniture / Home Store"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299052,
+          "longitude": 103.847811
+        }
+      },
+      {
+        "timestamp": "2012-07-12T07:04:59+00:00",
+        "poiId": "4c7ddbe010916dcb47d72a96",
+        "poiCategories": [
+          "Fried Chicken Joint"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.298961,
+          "longitude": 103.847687
+        }
+      },
+      {
+        "timestamp": "2012-07-12T08:57:29+00:00",
+        "poiId": "4dedcb2b7d8bb216742ca9bf",
+        "poiCategories": [
+          "Furniture / Home Store"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299052,
+          "longitude": 103.847811
+        }
+      },
+      {
+        "timestamp": "2012-07-14T06:14:51+00:00",
+        "poiId": "4d30e3c15b31a093295807de",
+        "poiCategories": [
+          "Airport Terminal"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.339661,
+          "longitude": 103.984692
+        }
+      },
+      {
+        "timestamp": "2012-09-15T11:16:06+00:00",
+        "poiId": "4b058813f964a5201db022e3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.295806,
+          "longitude": 103.85362
+        }
+      },
+      {
+        "timestamp": "2012-10-25T10:48:48+00:00",
+        "poiId": "4b44cd7af964a520a3fc25e3",
+        "poiCategories": [
+          "Bus Station"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354325,
+          "longitude": 103.943646
+        }
+      },
+      {
+        "timestamp": "2012-10-26T05:48:01+00:00",
+        "poiId": "4c775cda93faa093a2c5f0fb",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301253,
+          "longitude": 103.837023
+        }
+      },
+      {
+        "timestamp": "2012-10-28T10:08:13+00:00",
+        "poiId": "4b6bf5b5f964a520611d2ce3",
+        "poiCategories": [
+          "Sushi Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.288999,
+          "longitude": 103.837377
+        }
+      },
+      {
+        "timestamp": "2012-10-29T11:54:40+00:00",
+        "poiId": "4b0d59c8f964a520c94623e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.286258,
+          "longitude": 103.854125
+        }
+      },
+      {
+        "timestamp": "2012-10-31T10:17:10+00:00",
+        "poiId": "4cecb78328abb60c4018b409",
+        "poiCategories": [
+          "Government Building"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.286299,
+          "longitude": 103.810365
+        }
+      },
+      {
+        "timestamp": "2012-11-11T11:51:16+00:00",
+        "poiId": "4bf8e0c65efe2d7fa87f6b34",
+        "poiCategories": [
+          "Hotel"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.294087,
+          "longitude": 103.853796
+        }
+      },
+      {
+        "timestamp": "2012-11-12T09:49:53+00:00",
+        "poiId": "4bc83cdc8b7c9c74e2bf37cf",
+        "poiCategories": [
+          "Swiss Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301124,
+          "longitude": 103.838139
+        }
+      },
+      {
+        "timestamp": "2012-11-12T12:20:27+00:00",
+        "poiId": "4b0a71d7f964a5201a2423e3",
+        "poiCategories": [
+          "Multiplex"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301097,
+          "longitude": 103.836868
+        }
+      },
+      {
+        "timestamp": "2012-11-12T17:05:54+00:00",
+        "poiId": "504231c4e4b068ce7d22eed5",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.286447,
+          "longitude": 103.854379
+        }
+      },
+      {
+        "timestamp": "2012-11-18T09:08:25+00:00",
+        "poiId": "4b058814f964a5209ab022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301425,
+          "longitude": 103.839469
+        }
+      },
+      {
+        "timestamp": "2012-11-18T09:31:39+00:00",
+        "poiId": "4b6013b1f964a52012d529e3",
+        "poiCategories": [
+          "Vietnamese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300771,
+          "longitude": 103.839512
+        }
+      },
+      {
+        "timestamp": "2012-11-23T00:22:00+00:00",
+        "poiId": "4bdce4bdc79cc928509b88e9",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.323456,
+          "longitude": 103.828204
+        }
+      },
+      {
+        "timestamp": "2012-11-26T08:19:49+00:00",
+        "poiId": "4f423f6be4b0f4d09d55da64",
+        "poiCategories": [
+          "Pizza Place"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.307231,
+          "longitude": 103.832882
+        }
+      },
+      {
+        "timestamp": "2012-11-30T15:28:30+00:00",
+        "poiId": "4b05880cf964a5200eae22e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291117,
+          "longitude": 103.834866
+        }
+      },
+      {
+        "timestamp": "2012-12-08T12:40:09+00:00",
+        "poiId": "4b6d510ef964a520bb702ce3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.30594,
+          "longitude": 103.830805
+        }
+      },
+      {
+        "timestamp": "2012-12-14T15:19:00+00:00",
+        "poiId": "4b05880cf964a5200eae22e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291117,
+          "longitude": 103.834866
+        }
+      },
+      {
+        "timestamp": "2012-12-15T08:25:20+00:00",
+        "poiId": "4b058815f964a520acb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291128,
+          "longitude": 103.857708
+        }
+      },
+      {
+        "timestamp": "2012-12-15T09:07:31+00:00",
+        "poiId": "4def9a4d183822e7cf3cc62f",
+        "poiCategories": [
+          "Hotel"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.292039,
+          "longitude": 103.857214
+        }
+      },
+      {
+        "timestamp": "2012-12-15T11:40:08+00:00",
+        "poiId": "4ce661f2d99f721e2f75a373",
+        "poiCategories": [
+          "Dim Sum Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291311,
+          "longitude": 103.85738
+        }
+      },
+      {
+        "timestamp": "2012-12-15T14:52:40+00:00",
+        "poiId": "4b0a0deaf964a5205e2123e3",
+        "poiCategories": [
+          "Caf\u001a\u001a"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.317621,
+          "longitude": 103.843997
+        }
+      },
+      {
+        "timestamp": "2012-12-19T09:23:19+00:00",
+        "poiId": "4bdce4bdc79cc928509b88e9",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.323456,
+          "longitude": 103.828204
+        }
+      },
+      {
+        "timestamp": "2013-01-11T18:50:24+00:00",
+        "poiId": "4b05880cf964a5200eae22e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291117,
+          "longitude": 103.834866
+        }
+      },
+      {
+        "timestamp": "2013-01-13T09:28:02+00:00",
+        "poiId": "4b058815f964a520afb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300304,
+          "longitude": 103.844887
+        }
+      },
+      {
+        "timestamp": "2013-02-12T22:52:25+00:00",
+        "poiId": "4bdce4bdc79cc928509b88e9",
+        "poiCategories": [
+          "High School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.323456,
+          "longitude": 103.828204
+        }
+      },
+      {
+        "timestamp": "2013-04-28T11:46:37+00:00",
+        "poiId": "4d05ff2937036dcb378719fb",
+        "poiCategories": [
+          "Japanese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29186,
+          "longitude": 103.842535
+        }
+      },
+      {
+        "timestamp": "2013-05-01T10:33:36+00:00",
+        "poiId": "4b2b7cd6f964a520c1b624e3",
+        "poiCategories": [
+          "American Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.305285,
+          "longitude": 103.823763
+        }
+      },
+      {
+        "timestamp": "2013-05-24T09:41:56+00:00",
+        "poiId": "4c775cda93faa093a2c5f0fb",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301253,
+          "longitude": 103.837023
+        }
+      },
+      {
+        "timestamp": "2013-06-07T13:56:46+00:00",
+        "poiId": "4b937f4bf964a520064634e3",
+        "poiCategories": [
+          "Bar"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301627,
+          "longitude": 103.839127
+        }
+      },
+      {
+        "timestamp": "2013-07-05T17:02:31+00:00",
+        "poiId": "4b895722f964a520f22c32e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291157,
+          "longitude": 103.83496
+        }
+      },
+      {
+        "timestamp": "2013-07-12T11:16:04+00:00",
+        "poiId": "4b6d510ef964a520bb702ce3",
+        "poiCategories": [
+          "Chinese Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.30594,
+          "longitude": 103.830805
+        }
+      },
+      {
+        "timestamp": "2013-08-07T15:38:05+00:00",
+        "poiId": "4bcbea30cc8cd13ae540c0cf",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299666,
+          "longitude": 103.844919
+        }
+      },
+      {
+        "timestamp": "2013-08-18T11:45:16+00:00",
+        "poiId": "4b88ae7cf964a520680832e3",
+        "poiCategories": [
+          "General Entertainment"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.330714,
+          "longitude": 103.854283
+        }
+      },
+      {
+        "timestamp": "2013-08-23T19:44:51+00:00",
+        "poiId": "4b05880cf964a5200eae22e3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.291117,
+          "longitude": 103.834866
+        }
+      }
+    ]
+  },
+  "pois": [
+    {
+      "poiId": "4bdce4bdc79cc928509b88e9",
+      "name": null,
+      "categories": [
+        "High School"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.323456,
+        "longitude": 103.828204,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b32a70cf964a520f71025e3",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.290786,
+        "longitude": 103.845801,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0d53daf964a520664623e3",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.290859,
+        "longitude": 103.846008,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b723a13f964a520b7742de3",
+      "name": null,
+      "categories": [
+        "German Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.317145,
+        "longitude": 103.844278,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4db3de7e7abad708f24a7b83",
+      "name": null,
+      "categories": [
+        "Church"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.284174,
+        "longitude": 103.816574,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b769dc9f964a520a6542ee3",
+      "name": null,
+      "categories": [
+        "Chinese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.287942,
+        "longitude": 103.813961,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b8efe49f964a520474333e3",
+      "name": null,
+      "categories": [
+        "Bus Station"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.332124,
+        "longitude": 103.848258,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c775cda93faa093a2c5f0fb",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301253,
+        "longitude": 103.837023,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bbdbc04a8cf76b0ae11b2fd",
+      "name": null,
+      "categories": [
+        "Korean Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.303055,
+        "longitude": 103.834748,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bf2bdff7f2aef3b14d0392a",
+      "name": null,
+      "categories": [
+        "Temple"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.331779,
+        "longitude": 103.866473,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c7ddbe010916dcb47d72a96",
+      "name": null,
+      "categories": [
+        "Fried Chicken Joint"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.298961,
+        "longitude": 103.847687,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4dedcb2b7d8bb216742ca9bf",
+      "name": null,
+      "categories": [
+        "Furniture / Home Store"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.299052,
+        "longitude": 103.847811,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cc7aa1f8c5b236a97ecfa6d",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.278482,
+        "longitude": 103.83629,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cb598a28db0a143ce4c6316",
+      "name": null,
+      "categories": [
+        "Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.302386,
+        "longitude": 103.8362,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c3ab4fc17689c74d041aa08",
+      "name": null,
+      "categories": [
+        "American Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300121,
+        "longitude": 103.844866,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b1f8e5bf964a520eb2624e3",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.279787,
+        "longitude": 103.834739,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058811f964a5209daf22e3",
+      "name": null,
+      "categories": [
+        "Mexican Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.320302,
+        "longitude": 103.756599,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c23368311de20a19d0286ce",
+      "name": null,
+      "categories": [
+        "Burger Joint"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301011,
+        "longitude": 103.839342,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bb9783c7421a59315d6c240",
+      "name": null,
+      "categories": [
+        "Coffee Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.291128,
+        "longitude": 103.856893,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d30e3c15b31a093295807de",
+      "name": null,
+      "categories": [
+        "Airport Terminal"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.339661,
+        "longitude": 103.984692,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058813f964a5201db022e3",
+      "name": null,
+      "categories": [
+        "Chinese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.295806,
+        "longitude": 103.85362,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b44cd7af964a520a3fc25e3",
+      "name": null,
+      "categories": [
+        "Bus Station"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.354325,
+        "longitude": 103.943646,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b6bf5b5f964a520611d2ce3",
+      "name": null,
+      "categories": [
+        "Sushi Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.288999,
+        "longitude": 103.837377,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0d59c8f964a520c94623e3",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.286258,
+        "longitude": 103.854125,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cecb78328abb60c4018b409",
+      "name": null,
+      "categories": [
+        "Government Building"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.286299,
+        "longitude": 103.810365,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bf8e0c65efe2d7fa87f6b34",
+      "name": null,
+      "categories": [
+        "Hotel"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.294087,
+        "longitude": 103.853796,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bc83cdc8b7c9c74e2bf37cf",
+      "name": null,
+      "categories": [
+        "Swiss Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301124,
+        "longitude": 103.838139,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0a71d7f964a5201a2423e3",
+      "name": null,
+      "categories": [
+        "Multiplex"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301097,
+        "longitude": 103.836868,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "504231c4e4b068ce7d22eed5",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.286447,
+        "longitude": 103.854379,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058814f964a5209ab022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301425,
+        "longitude": 103.839469,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b6013b1f964a52012d529e3",
+      "name": null,
+      "categories": [
+        "Vietnamese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300771,
+        "longitude": 103.839512,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4f423f6be4b0f4d09d55da64",
+      "name": null,
+      "categories": [
+        "Pizza Place"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.307231,
+        "longitude": 103.832882,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b05880cf964a5200eae22e3",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.291117,
+        "longitude": 103.834866,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b6d510ef964a520bb702ce3",
+      "name": null,
+      "categories": [
+        "Chinese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.30594,
+        "longitude": 103.830805,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058815f964a520acb022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.291128,
+        "longitude": 103.857708,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4def9a4d183822e7cf3cc62f",
+      "name": null,
+      "categories": [
+        "Hotel"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.292039,
+        "longitude": 103.857214,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ce661f2d99f721e2f75a373",
+      "name": null,
+      "categories": [
+        "Dim Sum Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.291311,
+        "longitude": 103.85738,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b0a0deaf964a5205e2123e3",
+      "name": null,
+      "categories": [
+        "Caf\u001a\u001a"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.317621,
+        "longitude": 103.843997,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058815f964a520afb022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300304,
+        "longitude": 103.844887,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d05ff2937036dcb378719fb",
+      "name": null,
+      "categories": [
+        "Japanese Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.29186,
+        "longitude": 103.842535,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b2b7cd6f964a520c1b624e3",
+      "name": null,
+      "categories": [
+        "American Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.305285,
+        "longitude": 103.823763,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b937f4bf964a520064634e3",
+      "name": null,
+      "categories": [
+        "Bar"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301627,
+        "longitude": 103.839127,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b895722f964a520f22c32e3",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.291157,
+        "longitude": 103.83496,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bcbea30cc8cd13ae540c0cf",
+      "name": null,
+      "categories": [
+        "Coffee Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.299666,
+        "longitude": 103.844919,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b88ae7cf964a520680832e3",
+      "name": null,
+      "categories": [
+        "General Entertainment"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.330714,
+        "longitude": 103.854283,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    }
+  ]
+}

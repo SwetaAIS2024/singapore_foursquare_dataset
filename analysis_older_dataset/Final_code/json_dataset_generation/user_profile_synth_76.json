@@ -1,0 +1,3421 @@
+{
+  "user": {
+    "userId": "synth_76",
+    "age": null,
+    "gender": null,
+    "location": {
+      "city": "Singapore",
+      "country": "SG"
+    },
+    "device": {
+      "platform": null,
+      "appVersion": null
+    }
+  },
+  "interaction": {
+    "views": [
+      {
+        "timestamp": "2012-05-04T17:51:06+00:00",
+        "poiId": "4be6e7f9bcef2d7f239205e5",
+        "poiCategories": [
+          "Gaming Cafe"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331347,
+          "longitude": 103.947593
+        }
+      },
+      {
+        "timestamp": "2012-05-05T16:09:53+00:00",
+        "poiId": "4b24679bf964a520276724e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.305618,
+          "longitude": 103.904982
+        }
+      },
+      {
+        "timestamp": "2012-05-09T01:09:38+00:00",
+        "poiId": "4d5dc13b6c17721ee0d2fd21",
+        "poiCategories": [
+          "School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334824,
+          "longitude": 103.954207
+        }
+      },
+      {
+        "timestamp": "2012-05-11T09:44:23+00:00",
+        "poiId": "4c8d71655e38b1f71f613af9",
+        "poiCategories": [
+          "College Cafeteria"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334048,
+          "longitude": 103.954551
+        }
+      },
+      {
+        "timestamp": "2012-05-11T12:50:33+00:00",
+        "poiId": "4be6e7f9bcef2d7f239205e5",
+        "poiCategories": [
+          "Gaming Cafe"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331347,
+          "longitude": 103.947593
+        }
+      },
+      {
+        "timestamp": "2012-05-17T12:19:41+00:00",
+        "poiId": "4be6e7f9bcef2d7f239205e5",
+        "poiCategories": [
+          "Gaming Cafe"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331347,
+          "longitude": 103.947593
+        }
+      },
+      {
+        "timestamp": "2012-05-18T12:55:22+00:00",
+        "poiId": "4be6e7f9bcef2d7f239205e5",
+        "poiCategories": [
+          "Gaming Cafe"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331347,
+          "longitude": 103.947593
+        }
+      },
+      {
+        "timestamp": "2012-05-19T12:23:42+00:00",
+        "poiId": "4be6e7f9bcef2d7f239205e5",
+        "poiCategories": [
+          "Gaming Cafe"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331347,
+          "longitude": 103.947593
+        }
+      },
+      {
+        "timestamp": "2012-05-24T02:10:01+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-05-24T07:51:31+00:00",
+        "poiId": "4b932271f964a520073734e3",
+        "poiCategories": [
+          "Train Station"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.372859,
+          "longitude": 103.949332
+        }
+      },
+      {
+        "timestamp": "2012-05-27T13:41:22+00:00",
+        "poiId": "4b3758eff964a520974025e3",
+        "poiCategories": [
+          "Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331332,
+          "longitude": 103.948075
+        }
+      },
+      {
+        "timestamp": "2012-05-28T03:44:52+00:00",
+        "poiId": "4c8d71655e38b1f71f613af9",
+        "poiCategories": [
+          "College Cafeteria"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334048,
+          "longitude": 103.954551
+        }
+      },
+      {
+        "timestamp": "2012-05-29T02:24:19+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-05-30T00:41:29+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-06-03T09:38:13+00:00",
+        "poiId": "4b1e576df964a520ef1824e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.302359,
+          "longitude": 103.836715
+        }
+      },
+      {
+        "timestamp": "2012-06-03T11:32:14+00:00",
+        "poiId": "4b164600f964a520efb723e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299666,
+          "longitude": 103.854446
+        }
+      },
+      {
+        "timestamp": "2012-06-03T12:20:07+00:00",
+        "poiId": "4c2b33e98ef52d7fd1f030ba",
+        "poiCategories": [
+          "Bus Station"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.327001,
+          "longitude": 103.94643
+        }
+      },
+      {
+        "timestamp": "2012-06-04T08:28:38+00:00",
+        "poiId": "4b058816f964a520f0b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352775,
+          "longitude": 103.944939
+        }
+      },
+      {
+        "timestamp": "2012-06-05T06:48:19+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-06-08T11:29:27+00:00",
+        "poiId": "4c775cda93faa093a2c5f0fb",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301253,
+          "longitude": 103.837023
+        }
+      },
+      {
+        "timestamp": "2012-06-08T16:54:49+00:00",
+        "poiId": "4be2d629b02ec9b63cc94dc0",
+        "poiCategories": [
+          "Dim Sum Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.314423,
+          "longitude": 103.878296
+        }
+      },
+      {
+        "timestamp": "2012-06-11T11:58:33+00:00",
+        "poiId": "4b058816f964a520f0b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352775,
+          "longitude": 103.944939
+        }
+      },
+      {
+        "timestamp": "2012-06-11T14:57:59+00:00",
+        "poiId": "4b762527f964a520d93f2ee3",
+        "poiCategories": [
+          "Nightclub"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.264698,
+          "longitude": 103.824835
+        }
+      },
+      {
+        "timestamp": "2012-06-12T10:30:15+00:00",
+        "poiId": "4be6e7f9bcef2d7f239205e5",
+        "poiCategories": [
+          "Gaming Cafe"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331347,
+          "longitude": 103.947593
+        }
+      },
+      {
+        "timestamp": "2012-06-14T03:34:17+00:00",
+        "poiId": "4d92d4349213b1f70cc1ba46",
+        "poiCategories": [
+          "Subway"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.335733,
+          "longitude": 103.888128
+        }
+      },
+      {
+        "timestamp": "2012-06-14T07:12:49+00:00",
+        "poiId": "4bb9c1a6935e9521d3512790",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299129,
+          "longitude": 103.855391
+        }
+      },
+      {
+        "timestamp": "2012-06-25T12:13:58+00:00",
+        "poiId": "4be6e7f9bcef2d7f239205e5",
+        "poiCategories": [
+          "Gaming Cafe"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331347,
+          "longitude": 103.947593
+        }
+      },
+      {
+        "timestamp": "2012-06-27T15:04:54+00:00",
+        "poiId": "4be6e7f9bcef2d7f239205e5",
+        "poiCategories": [
+          "Gaming Cafe"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331347,
+          "longitude": 103.947593
+        }
+      },
+      {
+        "timestamp": "2012-07-02T09:46:24+00:00",
+        "poiId": "4b058816f964a520f0b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352775,
+          "longitude": 103.944939
+        }
+      },
+      {
+        "timestamp": "2012-07-03T13:55:12+00:00",
+        "poiId": "4b15e0b0f964a52041b523e3",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.342773,
+          "longitude": 103.953238
+        }
+      },
+      {
+        "timestamp": "2012-07-03T17:18:16+00:00",
+        "poiId": "4d61e259d7206ea83e8305f2",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.32425,
+          "longitude": 103.940794
+        }
+      },
+      {
+        "timestamp": "2012-07-05T13:15:07+00:00",
+        "poiId": "4b91eae0f964a5205adf33e3",
+        "poiCategories": [
+          "Asian Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.375508,
+          "longitude": 103.954409
+        }
+      },
+      {
+        "timestamp": "2012-07-06T16:20:08+00:00",
+        "poiId": "4d61e259d7206ea83e8305f2",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.32425,
+          "longitude": 103.940794
+        }
+      },
+      {
+        "timestamp": "2012-07-08T13:31:33+00:00",
+        "poiId": "4d36d39c1931224bdce10ecb",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.325682,
+          "longitude": 103.932291
+        }
+      },
+      {
+        "timestamp": "2012-07-09T01:53:57+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-07-11T05:12:36+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-07-13T01:41:44+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-07-14T09:55:30+00:00",
+        "poiId": "4b058816f964a520f0b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352775,
+          "longitude": 103.944939
+        }
+      },
+      {
+        "timestamp": "2012-07-14T11:23:01+00:00",
+        "poiId": "4be6e7f9bcef2d7f239205e5",
+        "poiCategories": [
+          "Gaming Cafe"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331347,
+          "longitude": 103.947593
+        }
+      },
+      {
+        "timestamp": "2012-07-14T11:46:53+00:00",
+        "poiId": "4b058818f964a520b9b122e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.342666,
+          "longitude": 103.953087
+        }
+      },
+      {
+        "timestamp": "2012-07-15T12:51:17+00:00",
+        "poiId": "4b44cd7af964a520a3fc25e3",
+        "poiCategories": [
+          "Bus Station"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354325,
+          "longitude": 103.943646
+        }
+      },
+      {
+        "timestamp": "2012-07-15T13:13:45+00:00",
+        "poiId": "4b058816f964a520f0b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352775,
+          "longitude": 103.944939
+        }
+      },
+      {
+        "timestamp": "2012-07-17T01:30:00+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-07-17T12:37:53+00:00",
+        "poiId": "4be6e7f9bcef2d7f239205e5",
+        "poiCategories": [
+          "Gaming Cafe"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331347,
+          "longitude": 103.947593
+        }
+      },
+      {
+        "timestamp": "2012-07-20T12:55:13+00:00",
+        "poiId": "4be6e7f9bcef2d7f239205e5",
+        "poiCategories": [
+          "Gaming Cafe"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331347,
+          "longitude": 103.947593
+        }
+      },
+      {
+        "timestamp": "2012-07-22T12:18:39+00:00",
+        "poiId": "4c898218557776b03a3c3591",
+        "poiCategories": [
+          "Bus Station"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.316192,
+          "longitude": 103.944306
+        }
+      },
+      {
+        "timestamp": "2012-07-22T12:38:59+00:00",
+        "poiId": "4be6e7f9bcef2d7f239205e5",
+        "poiCategories": [
+          "Gaming Cafe"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331347,
+          "longitude": 103.947593
+        }
+      },
+      {
+        "timestamp": "2012-07-22T13:20:19+00:00",
+        "poiId": "4b058816f964a520f0b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352775,
+          "longitude": 103.944939
+        }
+      },
+      {
+        "timestamp": "2012-07-24T12:53:26+00:00",
+        "poiId": "4be6e7f9bcef2d7f239205e5",
+        "poiCategories": [
+          "Gaming Cafe"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331347,
+          "longitude": 103.947593
+        }
+      },
+      {
+        "timestamp": "2012-07-28T12:47:29+00:00",
+        "poiId": "4be6e7f9bcef2d7f239205e5",
+        "poiCategories": [
+          "Gaming Cafe"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331347,
+          "longitude": 103.947593
+        }
+      },
+      {
+        "timestamp": "2012-07-30T13:15:24+00:00",
+        "poiId": "4b81217ff964a520cd9730e3",
+        "poiCategories": [
+          "Wine Bar"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.333406,
+          "longitude": 103.948347
+        }
+      },
+      {
+        "timestamp": "2012-08-06T02:48:18+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-08-10T18:01:23+00:00",
+        "poiId": "4d61e259d7206ea83e8305f2",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.32425,
+          "longitude": 103.940794
+        }
+      },
+      {
+        "timestamp": "2012-08-11T13:09:59+00:00",
+        "poiId": "4b058816f964a520f0b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352775,
+          "longitude": 103.944939
+        }
+      },
+      {
+        "timestamp": "2012-08-17T01:05:30+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-08-18T08:21:40+00:00",
+        "poiId": "4d00957df7b38cfa8d19d0c3",
+        "poiCategories": [
+          "Gaming Cafe"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.314503,
+          "longitude": 103.89169
+        }
+      },
+      {
+        "timestamp": "2012-08-18T09:26:26+00:00",
+        "poiId": "4b24679bf964a520276724e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.305618,
+          "longitude": 103.904982
+        }
+      },
+      {
+        "timestamp": "2012-08-18T18:59:01+00:00",
+        "poiId": "4b642f91f964a52019a32ae3",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.325665,
+          "longitude": 103.92972
+        }
+      },
+      {
+        "timestamp": "2012-09-06T01:37:42+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-09-10T02:33:22+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-09-15T01:51:08+00:00",
+        "poiId": "4cd294ecd5d7a1cdf5e37866",
+        "poiCategories": [
+          "Bus Station"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.323617,
+          "longitude": 103.929103
+        }
+      },
+      {
+        "timestamp": "2012-10-08T09:52:50+00:00",
+        "poiId": "4cb6db7b589f236a324e3a3d",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.375905,
+          "longitude": 103.955598
+        }
+      },
+      {
+        "timestamp": "2012-10-12T02:52:46+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-10-19T01:39:14+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-10-23T01:10:47+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-10-24T05:54:20+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-10-27T16:17:29+00:00",
+        "poiId": "4b642f91f964a52019a32ae3",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.325665,
+          "longitude": 103.92972
+        }
+      },
+      {
+        "timestamp": "2012-10-29T03:21:20+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-10-31T05:22:17+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-11-12T03:27:15+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-11-17T03:24:56+00:00",
+        "poiId": "4d3f7183c5eaa1cd1d759850",
+        "poiCategories": [
+          "Asian Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.337521,
+          "longitude": 103.922468
+        }
+      },
+      {
+        "timestamp": "2012-11-17T06:54:21+00:00",
+        "poiId": "4fbe2679e4b0d565a8871c64",
+        "poiCategories": [
+          "Beach"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.251389,
+          "longitude": 103.817791
+        }
+      },
+      {
+        "timestamp": "2012-11-18T07:07:28+00:00",
+        "poiId": "4ca82f4444a8224b246e1540",
+        "poiCategories": [
+          "Multiplex"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.376098,
+          "longitude": 103.955512
+        }
+      },
+      {
+        "timestamp": "2012-11-20T01:08:48+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-11-21T06:14:34+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-11-22T02:48:40+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-11-22T09:16:31+00:00",
+        "poiId": "4b058816f964a520f0b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352775,
+          "longitude": 103.944939
+        }
+      },
+      {
+        "timestamp": "2012-11-23T08:34:04+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-11-26T05:30:24+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-11-29T05:34:15+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2012-12-04T09:17:53+00:00",
+        "poiId": "4cb6db7b589f236a324e3a3d",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.375905,
+          "longitude": 103.955598
+        }
+      },
+      {
+        "timestamp": "2012-12-04T09:56:50+00:00",
+        "poiId": "4ba57475f964a520d30839e3",
+        "poiCategories": [
+          "Resort"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.379436,
+          "longitude": 103.95765
+        }
+      },
+      {
+        "timestamp": "2012-12-06T08:13:22+00:00",
+        "poiId": "4b058818f964a520a7b122e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.264939,
+          "longitude": 103.821668
+        }
+      },
+      {
+        "timestamp": "2012-12-06T09:39:17+00:00",
+        "poiId": "4b058815f964a520afb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300304,
+          "longitude": 103.844887
+        }
+      },
+      {
+        "timestamp": "2012-12-06T10:23:00+00:00",
+        "poiId": "4b058814f964a52087b022e3",
+        "poiCategories": [
+          "Multiplex"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.298915,
+          "longitude": 103.847644
+        }
+      },
+      {
+        "timestamp": "2012-12-06T16:32:53+00:00",
+        "poiId": "4b095021f964a520931523e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331806,
+          "longitude": 103.938636
+        }
+      },
+      {
+        "timestamp": "2012-12-15T06:13:11+00:00",
+        "poiId": "4b058816f964a520f1b022e3",
+        "poiCategories": [
+          "Miscellaneous Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.29654,
+          "longitude": 103.853637
+        }
+      },
+      {
+        "timestamp": "2012-12-17T10:22:49+00:00",
+        "poiId": "4de87f17e4cd157353f80e28",
+        "poiCategories": [
+          "Fried Chicken Joint"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304685,
+          "longitude": 103.832002
+        }
+      },
+      {
+        "timestamp": "2012-12-18T08:33:54+00:00",
+        "poiId": "4b058815f964a520afb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300304,
+          "longitude": 103.844887
+        }
+      },
+      {
+        "timestamp": "2012-12-19T07:32:45+00:00",
+        "poiId": "4b058815f964a520afb022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.300304,
+          "longitude": 103.844887
+        }
+      },
+      {
+        "timestamp": "2012-12-19T09:15:50+00:00",
+        "poiId": "4b058819f964a520d3b122e3",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.304857,
+          "longitude": 103.835392
+        }
+      },
+      {
+        "timestamp": "2012-12-20T02:33:32+00:00",
+        "poiId": "4b246e8cf964a520766724e3",
+        "poiCategories": [
+          "Department Store"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303792,
+          "longitude": 103.836007
+        }
+      },
+      {
+        "timestamp": "2012-12-22T09:38:29+00:00",
+        "poiId": "4be53c192468c928b9ceff42",
+        "poiCategories": [
+          "Neighborhood"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.298164,
+          "longitude": 103.816005
+        }
+      },
+      {
+        "timestamp": "2012-12-30T09:39:51+00:00",
+        "poiId": "4b058814f964a5209ab022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301425,
+          "longitude": 103.839469
+        }
+      },
+      {
+        "timestamp": "2012-12-31T13:55:45+00:00",
+        "poiId": "4b058818f964a520a7b122e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.264939,
+          "longitude": 103.821668
+        }
+      },
+      {
+        "timestamp": "2013-01-02T10:30:24+00:00",
+        "poiId": "4b9dcc3cf964a52033be36e3",
+        "poiCategories": [
+          "Department Store"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303184,
+          "longitude": 103.834877
+        }
+      },
+      {
+        "timestamp": "2013-01-04T19:06:16+00:00",
+        "poiId": "4b642f91f964a52019a32ae3",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.325665,
+          "longitude": 103.92972
+        }
+      },
+      {
+        "timestamp": "2013-01-05T13:49:34+00:00",
+        "poiId": "4cb6db7b589f236a324e3a3d",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.375905,
+          "longitude": 103.955598
+        }
+      },
+      {
+        "timestamp": "2013-01-05T16:41:20+00:00",
+        "poiId": "4b095021f964a520931523e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331806,
+          "longitude": 103.938636
+        }
+      },
+      {
+        "timestamp": "2013-01-11T15:42:55+00:00",
+        "poiId": "4b095021f964a520931523e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331806,
+          "longitude": 103.938636
+        }
+      },
+      {
+        "timestamp": "2013-01-12T11:46:15+00:00",
+        "poiId": "4b164600f964a520efb723e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.299666,
+          "longitude": 103.854446
+        }
+      },
+      {
+        "timestamp": "2013-01-15T02:31:07+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-01-25T06:38:32+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-01-26T11:43:57+00:00",
+        "poiId": "4c5ba6e299ff76b053a0a59e",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.324389,
+          "longitude": 103.941227
+        }
+      },
+      {
+        "timestamp": "2013-01-28T03:27:23+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-01-29T12:18:14+00:00",
+        "poiId": "4b6cc5c4f964a5205b532ce3",
+        "poiCategories": [
+          "Fried Chicken Joint"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352925,
+          "longitude": 103.94341
+        }
+      },
+      {
+        "timestamp": "2013-01-30T01:31:21+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-01-31T17:01:26+00:00",
+        "poiId": "4eca446c5c5ce271c0c99682",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.30495,
+          "longitude": 103.929515
+        }
+      },
+      {
+        "timestamp": "2013-02-01T09:22:07+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-02-01T12:09:04+00:00",
+        "poiId": "4c5ba6e299ff76b053a0a59e",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.324389,
+          "longitude": 103.941227
+        }
+      },
+      {
+        "timestamp": "2013-02-02T09:28:07+00:00",
+        "poiId": "4b166771f964a520b8b823e3",
+        "poiCategories": [
+          "Hospital"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.34036,
+          "longitude": 103.949493
+        }
+      },
+      {
+        "timestamp": "2013-02-07T05:13:41+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-02-08T08:01:19+00:00",
+        "poiId": "4d5e1f185c39b1f7acffe749",
+        "poiCategories": [
+          "Boutique"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.301811,
+          "longitude": 103.837559
+        }
+      },
+      {
+        "timestamp": "2013-02-08T09:31:20+00:00",
+        "poiId": "4b1e576df964a520ef1824e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.302359,
+          "longitude": 103.836715
+        }
+      },
+      {
+        "timestamp": "2013-02-13T01:22:42+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-02-14T02:38:36+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-02-16T11:22:36+00:00",
+        "poiId": "4b058816f964a520f0b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352775,
+          "longitude": 103.944939
+        }
+      },
+      {
+        "timestamp": "2013-02-18T00:14:55+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-02-18T10:22:34+00:00",
+        "poiId": "4b058816f964a520f0b022e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352775,
+          "longitude": 103.944939
+        }
+      },
+      {
+        "timestamp": "2013-02-28T02:17:06+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-02-28T11:05:31+00:00",
+        "poiId": "4c4feceb7537e21e1b620c89",
+        "poiCategories": [
+          "Gym"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354465,
+          "longitude": 103.939996
+        }
+      },
+      {
+        "timestamp": "2013-03-06T11:34:09+00:00",
+        "poiId": "4c4feceb7537e21e1b620c89",
+        "poiCategories": [
+          "Gym"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354465,
+          "longitude": 103.939996
+        }
+      },
+      {
+        "timestamp": "2013-03-07T02:14:09+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-03-07T16:35:50+00:00",
+        "poiId": "4d61e259d7206ea83e8305f2",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.32425,
+          "longitude": 103.940794
+        }
+      },
+      {
+        "timestamp": "2013-03-08T14:33:15+00:00",
+        "poiId": "4b642ddef964a520c0a22ae3",
+        "poiCategories": [
+          "Resort"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.378233,
+          "longitude": 103.955078
+        }
+      },
+      {
+        "timestamp": "2013-03-11T12:11:20+00:00",
+        "poiId": "4c4feceb7537e21e1b620c89",
+        "poiCategories": [
+          "Gym"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354465,
+          "longitude": 103.939996
+        }
+      },
+      {
+        "timestamp": "2013-03-12T02:10:45+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-03-12T08:45:12+00:00",
+        "poiId": "4b095021f964a520931523e3",
+        "poiCategories": [
+          "Food Court"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331806,
+          "longitude": 103.938636
+        }
+      },
+      {
+        "timestamp": "2013-03-17T02:11:40+00:00",
+        "poiId": "504aff8fe4b027ee7e6ad5c5",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.320013,
+          "longitude": 103.843474
+        }
+      },
+      {
+        "timestamp": "2013-03-26T09:10:29+00:00",
+        "poiId": "4b9dcc3cf964a52033be36e3",
+        "poiCategories": [
+          "Department Store"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.303184,
+          "longitude": 103.834877
+        }
+      },
+      {
+        "timestamp": "2013-03-27T09:19:55+00:00",
+        "poiId": "4ca1374a79d9b1f78cc6bd99",
+        "poiCategories": [
+          "Fried Chicken Joint"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.324638,
+          "longitude": 103.93145
+        }
+      },
+      {
+        "timestamp": "2013-03-29T09:52:00+00:00",
+        "poiId": "4b5da988f964a520ae6529e3",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.350678,
+          "longitude": 103.87275
+        }
+      },
+      {
+        "timestamp": "2013-03-30T14:25:42+00:00",
+        "poiId": "4b642f91f964a52019a32ae3",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.325665,
+          "longitude": 103.92972
+        }
+      },
+      {
+        "timestamp": "2013-04-04T18:03:07+00:00",
+        "poiId": "4d61e259d7206ea83e8305f2",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.32425,
+          "longitude": 103.940794
+        }
+      },
+      {
+        "timestamp": "2013-04-08T00:16:03+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-04-09T00:20:57+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-04-12T09:00:54+00:00",
+        "poiId": "4e925263e5fa72f70fba5010",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.33452,
+          "longitude": 103.9624
+        }
+      },
+      {
+        "timestamp": "2013-04-12T09:53:45+00:00",
+        "poiId": "4b1baa07f964a52084fc23e3",
+        "poiCategories": [
+          "Airport Terminal"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.35617,
+          "longitude": 103.987033
+        }
+      },
+      {
+        "timestamp": "2013-04-16T02:35:33+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-04-17T06:03:34+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-04-19T17:46:31+00:00",
+        "poiId": "4b642f91f964a52019a32ae3",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.325665,
+          "longitude": 103.92972
+        }
+      },
+      {
+        "timestamp": "2013-04-21T12:21:18+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-04-22T00:57:50+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-04-22T04:39:19+00:00",
+        "poiId": "4e9f88c393ad16f0cda640ff",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334636,
+          "longitude": 103.962506
+        }
+      },
+      {
+        "timestamp": "2013-04-23T03:47:19+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-04-29T05:31:53+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-04-30T02:38:57+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-04-30T08:37:15+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-05-01T06:31:55+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-05-14T02:57:49+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-05-14T15:31:13+00:00",
+        "poiId": "4d61e259d7206ea83e8305f2",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.32425,
+          "longitude": 103.940794
+        }
+      },
+      {
+        "timestamp": "2013-05-15T01:44:00+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-05-19T03:51:46+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-05-21T08:52:22+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-05-22T02:53:19+00:00",
+        "poiId": "4b67e88ef964a520c2602be3",
+        "poiCategories": [
+          "Trade School"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.334311,
+          "longitude": 103.954482
+        }
+      },
+      {
+        "timestamp": "2013-05-29T09:12:54+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-06-14T15:28:46+00:00",
+        "poiId": "50ebe571e4b0aaf3b73fdce4",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.324576,
+          "longitude": 103.932523
+        }
+      },
+      {
+        "timestamp": "2013-06-16T16:14:13+00:00",
+        "poiId": "4b642f91f964a52019a32ae3",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.325665,
+          "longitude": 103.92972
+        }
+      },
+      {
+        "timestamp": "2013-06-18T15:29:47+00:00",
+        "poiId": "4b642f91f964a52019a32ae3",
+        "poiCategories": [
+          "Fast Food Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.325665,
+          "longitude": 103.92972
+        }
+      },
+      {
+        "timestamp": "2013-06-26T16:26:47+00:00",
+        "poiId": "4cd02e88cc839521640a0a98",
+        "poiCategories": [
+          "Karaoke Bar"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.327804,
+          "longitude": 103.927051
+        }
+      },
+      {
+        "timestamp": "2013-07-12T08:59:28+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-07-14T08:05:40+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-07-20T04:06:47+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-07-23T08:57:02+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-07-24T09:05:11+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-07-24T09:39:24+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-07-24T15:41:42+00:00",
+        "poiId": "4c9a360f78fc236a688f3397",
+        "poiCategories": [
+          "Dim Sum Restaurant"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.331439,
+          "longitude": 103.947243
+        }
+      },
+      {
+        "timestamp": "2013-07-30T08:53:02+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-07-31T16:10:37+00:00",
+        "poiId": "4b7ac93bf964a520b33c2fe3",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.325129,
+          "longitude": 103.940792
+        }
+      },
+      {
+        "timestamp": "2013-08-07T14:36:00+00:00",
+        "poiId": "4b7ac93bf964a520b33c2fe3",
+        "poiCategories": [
+          "Coffee Shop"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.325129,
+          "longitude": 103.940792
+        }
+      },
+      {
+        "timestamp": "2013-08-13T09:54:49+00:00",
+        "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+        "poiCategories": [
+          "Mall"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.354033,
+          "longitude": 103.945117
+        }
+      },
+      {
+        "timestamp": "2013-09-03T12:12:22+00:00",
+        "poiId": "4ba38bc6f964a520294638e3",
+        "poiCategories": [
+          "Multiplex"
+        ],
+        "poiSubcategories": [],
+        "duration": null,
+        "referrer": null,
+        "userLocation": {
+          "latitude": 1.352249,
+          "longitude": 103.943939
+        }
+      }
+    ]
+  },
+  "pois": [
+    {
+      "poiId": "4be6e7f9bcef2d7f239205e5",
+      "name": null,
+      "categories": [
+        "Gaming Cafe"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.331347,
+        "longitude": 103.947593,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b24679bf964a520276724e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.305618,
+        "longitude": 103.904982,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d5dc13b6c17721ee0d2fd21",
+      "name": null,
+      "categories": [
+        "School"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.334824,
+        "longitude": 103.954207,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c8d71655e38b1f71f613af9",
+      "name": null,
+      "categories": [
+        "College Cafeteria"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.334048,
+        "longitude": 103.954551,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b67e88ef964a520c2602be3",
+      "name": null,
+      "categories": [
+        "Trade School"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.334311,
+        "longitude": 103.954482,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b932271f964a520073734e3",
+      "name": null,
+      "categories": [
+        "Train Station"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.372859,
+        "longitude": 103.949332,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b3758eff964a520974025e3",
+      "name": null,
+      "categories": [
+        "Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.331332,
+        "longitude": 103.948075,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b1e576df964a520ef1824e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.302359,
+        "longitude": 103.836715,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b164600f964a520efb723e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.299666,
+        "longitude": 103.854446,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c2b33e98ef52d7fd1f030ba",
+      "name": null,
+      "categories": [
+        "Bus Station"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.327001,
+        "longitude": 103.94643,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058816f964a520f0b022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.352775,
+        "longitude": 103.944939,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c775cda93faa093a2c5f0fb",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301253,
+        "longitude": 103.837023,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4be2d629b02ec9b63cc94dc0",
+      "name": null,
+      "categories": [
+        "Dim Sum Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.314423,
+        "longitude": 103.878296,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b762527f964a520d93f2ee3",
+      "name": null,
+      "categories": [
+        "Nightclub"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.264698,
+        "longitude": 103.824835,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d92d4349213b1f70cc1ba46",
+      "name": null,
+      "categories": [
+        "Subway"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.335733,
+        "longitude": 103.888128,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4bb9c1a6935e9521d3512790",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.299129,
+        "longitude": 103.855391,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b15e0b0f964a52041b523e3",
+      "name": null,
+      "categories": [
+        "Fast Food Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.342773,
+        "longitude": 103.953238,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d61e259d7206ea83e8305f2",
+      "name": null,
+      "categories": [
+        "Coffee Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.32425,
+        "longitude": 103.940794,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b91eae0f964a5205adf33e3",
+      "name": null,
+      "categories": [
+        "Asian Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.375508,
+        "longitude": 103.954409,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d36d39c1931224bdce10ecb",
+      "name": null,
+      "categories": [
+        "Coffee Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.325682,
+        "longitude": 103.932291,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058818f964a520b9b122e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.342666,
+        "longitude": 103.953087,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b44cd7af964a520a3fc25e3",
+      "name": null,
+      "categories": [
+        "Bus Station"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.354325,
+        "longitude": 103.943646,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c898218557776b03a3c3591",
+      "name": null,
+      "categories": [
+        "Bus Station"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.316192,
+        "longitude": 103.944306,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b81217ff964a520cd9730e3",
+      "name": null,
+      "categories": [
+        "Wine Bar"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.333406,
+        "longitude": 103.948347,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d00957df7b38cfa8d19d0c3",
+      "name": null,
+      "categories": [
+        "Gaming Cafe"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.314503,
+        "longitude": 103.89169,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b642f91f964a52019a32ae3",
+      "name": null,
+      "categories": [
+        "Fast Food Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.325665,
+        "longitude": 103.92972,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cd294ecd5d7a1cdf5e37866",
+      "name": null,
+      "categories": [
+        "Bus Station"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.323617,
+        "longitude": 103.929103,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cb6db7b589f236a324e3a3d",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.375905,
+        "longitude": 103.955598,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d3f7183c5eaa1cd1d759850",
+      "name": null,
+      "categories": [
+        "Asian Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.337521,
+        "longitude": 103.922468,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4fbe2679e4b0d565a8871c64",
+      "name": null,
+      "categories": [
+        "Beach"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.251389,
+        "longitude": 103.817791,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ca82f4444a8224b246e1540",
+      "name": null,
+      "categories": [
+        "Multiplex"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.376098,
+        "longitude": 103.955512,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ba57475f964a520d30839e3",
+      "name": null,
+      "categories": [
+        "Resort"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.379436,
+        "longitude": 103.95765,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058818f964a520a7b122e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.264939,
+        "longitude": 103.821668,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058815f964a520afb022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.300304,
+        "longitude": 103.844887,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058814f964a52087b022e3",
+      "name": null,
+      "categories": [
+        "Multiplex"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.298915,
+        "longitude": 103.847644,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b095021f964a520931523e3",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.331806,
+        "longitude": 103.938636,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058816f964a520f1b022e3",
+      "name": null,
+      "categories": [
+        "Miscellaneous Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.29654,
+        "longitude": 103.853637,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4de87f17e4cd157353f80e28",
+      "name": null,
+      "categories": [
+        "Fried Chicken Joint"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.304685,
+        "longitude": 103.832002,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058819f964a520d3b122e3",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.304857,
+        "longitude": 103.835392,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b246e8cf964a520766724e3",
+      "name": null,
+      "categories": [
+        "Department Store"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.303792,
+        "longitude": 103.836007,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4be53c192468c928b9ceff42",
+      "name": null,
+      "categories": [
+        "Neighborhood"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.298164,
+        "longitude": 103.816005,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b058814f964a5209ab022e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301425,
+        "longitude": 103.839469,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b9dcc3cf964a52033be36e3",
+      "name": null,
+      "categories": [
+        "Department Store"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.303184,
+        "longitude": 103.834877,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c5ba6e299ff76b053a0a59e",
+      "name": null,
+      "categories": [
+        "Food Court"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.324389,
+        "longitude": 103.941227,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b6cc5c4f964a5205b532ce3",
+      "name": null,
+      "categories": [
+        "Fried Chicken Joint"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.352925,
+        "longitude": 103.94341,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4eca446c5c5ce271c0c99682",
+      "name": null,
+      "categories": [
+        "Fast Food Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.30495,
+        "longitude": 103.929515,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b166771f964a520b8b823e3",
+      "name": null,
+      "categories": [
+        "Hospital"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.34036,
+        "longitude": 103.949493,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4d5e1f185c39b1f7acffe749",
+      "name": null,
+      "categories": [
+        "Boutique"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.301811,
+        "longitude": 103.837559,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c4feceb7537e21e1b620c89",
+      "name": null,
+      "categories": [
+        "Gym"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.354465,
+        "longitude": 103.939996,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b642ddef964a520c0a22ae3",
+      "name": null,
+      "categories": [
+        "Resort"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.378233,
+        "longitude": 103.955078,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "504aff8fe4b027ee7e6ad5c5",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.320013,
+        "longitude": 103.843474,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ca1374a79d9b1f78cc6bd99",
+      "name": null,
+      "categories": [
+        "Fried Chicken Joint"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.324638,
+        "longitude": 103.93145,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b5da988f964a520ae6529e3",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.350678,
+        "longitude": 103.87275,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4e925263e5fa72f70fba5010",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.33452,
+        "longitude": 103.9624,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b1baa07f964a52084fc23e3",
+      "name": null,
+      "categories": [
+        "Airport Terminal"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.35617,
+        "longitude": 103.987033,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c6b9ad51fb2a1431ebcf9e6",
+      "name": null,
+      "categories": [
+        "Mall"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.354033,
+        "longitude": 103.945117,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4e9f88c393ad16f0cda640ff",
+      "name": null,
+      "categories": [
+        "Fast Food Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.334636,
+        "longitude": 103.962506,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "50ebe571e4b0aaf3b73fdce4",
+      "name": null,
+      "categories": [
+        "Coffee Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.324576,
+        "longitude": 103.932523,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4cd02e88cc839521640a0a98",
+      "name": null,
+      "categories": [
+        "Karaoke Bar"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.327804,
+        "longitude": 103.927051,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4c9a360f78fc236a688f3397",
+      "name": null,
+      "categories": [
+        "Dim Sum Restaurant"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.331439,
+        "longitude": 103.947243,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4b7ac93bf964a520b33c2fe3",
+      "name": null,
+      "categories": [
+        "Coffee Shop"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.325129,
+        "longitude": 103.940792,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    },
+    {
+      "poiId": "4ba38bc6f964a520294638e3",
+      "name": null,
+      "categories": [
+        "Multiplex"
+      ],
+      "subcategories": [],
+      "location": {
+        "latitude": 1.352249,
+        "longitude": 103.943939,
+        "address": null
+      },
+      "nearestStation": null,
+      "rating": null,
+      "deal": null
+    }
+  ]
+}
