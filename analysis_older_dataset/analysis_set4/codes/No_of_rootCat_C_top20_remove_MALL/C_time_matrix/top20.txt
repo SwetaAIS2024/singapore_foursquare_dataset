@@ -1,9 +1,0 @@
-Removed 'Mall' check-ins. Remaining check-ins: 204201
-Using top 20 categories by user check-in counts: 
-['Bus Station', 'Subway', 'Food Court', 'Train Station', 'Coffee Shop',
- 'High School', 'Fast Food Restaurant', 'Nightclub', 'Bus Line', 
- 'Chinese Restaurant', 'Multiplex', 'Caf\x1a\x1a', 'Hotel', 'Asian Restaurant',
- 'Japanese Restaurant', 'Church', 'General College & University', 'Trade School', 
- 'Gym', 'Grocery Store']
-Saved user [C x 168] matrices and category labels (Top 20 by user check-in counts).
-First user: 16

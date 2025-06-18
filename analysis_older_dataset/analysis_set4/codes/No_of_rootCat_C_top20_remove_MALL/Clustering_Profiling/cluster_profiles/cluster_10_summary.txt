@@ -1,3 +1,0 @@
-Cluster 10
-Num users: 57
-Top POI categories: ['High School', 'Bus Station', 'Food Court', 'Fast Food Restaurant', 'Coffee Shop']
