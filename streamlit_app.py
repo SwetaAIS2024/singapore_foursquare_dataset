@@ -31,40 +31,33 @@ selected_clustering_file = st.sidebar.selectbox('Select clustering result file',
 st.sidebar.subheader('User Profile JSONs')
 selected_json_file = st.sidebar.selectbox('Select user profile JSON', json_files)
 
-st.sidebar.subheader('Syn/Org Eval Files (CSV/TXT)')
-selected_syn_org_eval_file = st.sidebar.selectbox('Select syn/org eval file', syn_org_eval_files)
-
 # --- Main: Display Results ---
 st.title('Foursquare Singapore Analysis Dashboard')
 st.header('Clustering Results')
 
-# Display selected clustering file (CSV or image)
-if selected_clustering_file.endswith('.csv'):
-    df = pd.read_csv(os.path.join(clustering_dir, selected_clustering_file))
-    st.dataframe(df)
-elif selected_clustering_file.endswith(('.png', '.jpg', '.jpeg')):
-    st.image(os.path.join(clustering_dir, selected_clustering_file))
+# Display clustering file selection as before
+if clustering_files:
+    selected_clustering_file = st.sidebar.selectbox('Select clustering result file', clustering_files)
+    if selected_clustering_file.endswith('.csv'):
+        df = pd.read_csv(os.path.join(clustering_dir, selected_clustering_file))
+        st.dataframe(df)
+    elif selected_clustering_file.endswith(('.png', '.jpg', '.jpeg')):
+        st.image(os.path.join(clustering_dir, selected_clustering_file))
+    else:
+        st.text('File preview not supported for this file type.')
 else:
-    st.text('File preview not supported for this file type.')
+    st.warning('No clustering result files found.')
 
-# --- Display JSON user profile ---
-st.header('User Profile JSON')
-json_path = os.path.join(json_dir, selected_json_file)
-with open(json_path, 'r') as f:
-    user_json = json.load(f)
-st.json(user_json)
-
-# --- Display Syn/Org Eval File ---
-st.header('Synthetic/Original Dataset Comparison Files')
-file_path = os.path.join(syn_org_eval_dir, selected_syn_org_eval_file)
-if selected_syn_org_eval_file.endswith('.csv'):
-    df = pd.read_csv(file_path)
-    st.dataframe(df)
-elif selected_syn_org_eval_file.endswith('.txt'):
-    with open(file_path, 'r') as f:
-        st.text(f.read()[:5000])  # Show first 5000 chars
+# Display JSON user profile selection as before
+if json_files:
+    selected_json_file = st.sidebar.selectbox('Select user profile JSON', json_files)
+    st.header('User Profile JSON')
+    json_path = os.path.join(json_dir, selected_json_file)
+    with open(json_path, 'r') as f:
+        user_json = json.load(f)
+    st.json(user_json)
 else:
-    st.text('File preview not supported for this file type.')
+    st.warning('No user profile JSON files found.')
 
 # --- Comparison Dashboard ---
 st.header('Original vs Synthetic Dataset Comparison')
