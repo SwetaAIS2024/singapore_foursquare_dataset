@@ -13,24 +13,25 @@ json_dir = 'analysis_older_dataset/Final_code/json_dataset_generation'
 syn_org_eval_dir = 'analysis_older_dataset/Final_code/syn_org_eval'
 
 # List files in clustering results
+
 def list_files(directory, exts=None):
     files = []
     for f in os.listdir(directory):
-        if exts is None or any(f.endswith(ext) for ext in exts):
+        if exts is None or any(f.lower().endswith(ext) for ext in exts):
             files.append(f)
     return sorted(files)
 
-clustering_files = list_files(clustering_dir)
+clustering_files = list_files(clustering_dir, exts=['.csv', '.png', '.jpg', '.jpeg'])
 json_files = list_files(json_dir, exts=['.json'])
-syn_org_eval_files = list_files(syn_org_eval_dir)
+syn_org_eval_files = list_files(syn_org_eval_dir, exts=['.csv', '.txt'])
 
-st.sidebar.subheader('Clustering Results')
+st.sidebar.subheader('Clustering Results (CSV/Image)')
 selected_clustering_file = st.sidebar.selectbox('Select clustering result file', clustering_files)
 
 st.sidebar.subheader('User Profile JSONs')
 selected_json_file = st.sidebar.selectbox('Select user profile JSON', json_files)
 
-st.sidebar.subheader('Syn/Org Eval Files')
+st.sidebar.subheader('Syn/Org Eval Files (CSV/TXT)')
 selected_syn_org_eval_file = st.sidebar.selectbox('Select syn/org eval file', syn_org_eval_files)
 
 # --- Main: Display Results ---
