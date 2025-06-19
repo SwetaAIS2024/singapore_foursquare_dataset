@@ -25,19 +25,27 @@ clustering_files = list_files(clustering_dir, exts=['.csv', '.png', '.jpg', '.jp
 json_files = list_files(json_dir, exts=['.json'])
 syn_org_eval_files = list_files(syn_org_eval_dir, exts=['.csv', '.txt'])
 
+# Clustering Results
 st.sidebar.subheader('Clustering Results (CSV/Image)')
-selected_clustering_file = st.sidebar.selectbox('Select clustering result file', clustering_files)
+if clustering_files:
+    selected_clustering_file = st.sidebar.selectbox('Select clustering result file', clustering_files)
+else:
+    selected_clustering_file = None
+    st.sidebar.info('No clustering result files found.')
 
+# User Profile JSONs
 st.sidebar.subheader('User Profile JSONs')
-selected_json_file = st.sidebar.selectbox('Select user profile JSON', json_files)
+if json_files:
+    selected_json_file = st.sidebar.selectbox('Select user profile JSON', json_files)
+else:
+    selected_json_file = None
+    st.sidebar.info('No user profile JSON files found.')
 
 # --- Main: Display Results ---
 st.title('Foursquare Singapore Analysis Dashboard')
 st.header('Clustering Results')
 
-# Display clustering file selection as before
-if clustering_files:
-    selected_clustering_file = st.sidebar.selectbox('Select clustering result file', clustering_files)
+if selected_clustering_file:
     if selected_clustering_file.endswith('.csv'):
         df = pd.read_csv(os.path.join(clustering_dir, selected_clustering_file))
         st.dataframe(df)
@@ -45,19 +53,14 @@ if clustering_files:
         st.image(os.path.join(clustering_dir, selected_clustering_file))
     else:
         st.text('File preview not supported for this file type.')
-else:
-    st.warning('No clustering result files found.')
 
 # Display JSON user profile selection as before
-if json_files:
-    selected_json_file = st.sidebar.selectbox('Select user profile JSON', json_files)
+if selected_json_file:
     st.header('User Profile JSON')
     json_path = os.path.join(json_dir, selected_json_file)
     with open(json_path, 'r') as f:
         user_json = json.load(f)
     st.json(user_json)
-else:
-    st.warning('No user profile JSON files found.')
 
 # --- Comparison Dashboard ---
 st.header('Original vs Synthetic Dataset Comparison')
