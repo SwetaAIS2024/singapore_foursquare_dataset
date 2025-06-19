@@ -1,0 +1,272 @@
+cluster,category,checkin_count
+0,Mall,15
+0,Chinese Restaurant,4
+0,Japanese Restaurant,3
+0,Caf,2
+0,Bar,2
+0,Hotel,2
+0,Music School,2
+0,Airport Terminal,1
+0,African Restaurant,1
+0,Bakery,1
+0,Australian Restaurant,1
+0,Dessert Shop,1
+0,Coffee Shop,1
+0,Furniture / Home Store,1
+0,Food Court,1
+0,Diner,1
+0,Korean Restaurant,1
+0,Mediterranean Restaurant,1
+0,Mexican Restaurant,1
+0,Pub,1
+0,Restaurant,1
+1,Mall,18
+1,Nightclub,16
+1,Thai Restaurant,3
+1,Hotel,2
+1,Hospital,2
+1,College Academic Building,2
+1,Event Space,2
+1,Airport,1
+1,Asian Restaurant,1
+1,Burger Joint,1
+1,Dim Sum Restaurant,1
+1,College Arts Building,1
+1,Coffee Shop,1
+1,Doctor's Office,1
+1,Food Court,1
+1,Bar,1
+1,Boutique,1
+1,Beer Garden,1
+1,Japanese Restaurant,1
+1,French Restaurant,1
+1,Fast Food Restaurant,1
+1,Movie Theater,1
+1,Multiplex,1
+1,Other Nightlife,1
+1,Park,1
+1,Medical Center,1
+1,Pizza Place,1
+1,Police Station,1
+1,Shop & Service,1
+1,Pub,1
+1,Skating Rink,1
+1,Sushi Restaurant,1
+1,Theme Park,1
+1,Trade School,1
+2,Coffee Shop,14
+2,Nightclub,10
+2,Mall,7
+2,Multiplex,4
+2,Government Building,4
+2,Chinese Restaurant,3
+2,Food Court,3
+2,Burger Joint,2
+2,Sushi Restaurant,2
+2,Military Base,2
+2,Hospital,2
+2,Emergency Room,1
+2,Furniture / Home Store,1
+2,Bar,1
+2,Asian Restaurant,1
+2,BBQ Joint,1
+2,Dessert Shop,1
+2,Karaoke Bar,1
+2,Movie Theater,1
+2,Korean Restaurant,1
+2,General Entertainment,1
+2,Other Great Outdoors,1
+2,Pizza Place,1
+2,Ramen /  Noodle House,1
+2,Resort,1
+2,Temple,1
+3,Mall,62
+3,High School,11
+3,Fast Food Restaurant,10
+3,Doctor's Office,5
+3,Flea Market,5
+3,Asian Restaurant,3
+3,Beach,3
+3,Coffee Shop,3
+3,Food Court,3
+3,Airport Terminal,2
+3,Chinese Restaurant,2
+3,Fried Chicken Joint,2
+3,Park,2
+3,Multiplex,2
+3,Tea Room,2
+3,Pool Hall,2
+3,General College & University,2
+3,College Stadium,1
+3,Dessert Shop,1
+3,Italian Restaurant,1
+3,Hotel,1
+3,Harbor / Marina,1
+3,Grocery Store,1
+3,Department Store,1
+3,Korean Restaurant,1
+3,Malaysian Restaurant,1
+3,Japanese Restaurant,1
+3,Medical Center,1
+3,Karaoke Bar,1
+3,Resort,1
+3,Pizza Place,1
+3,Restaurant,1
+3,Seafood Restaurant,1
+3,Tanning Salon,1
+3,Theme Park,1
+4,Nightclub,48
+4,Mall,19
+4,Karaoke Bar,8
+4,Pub,5
+4,Courthouse,2
+4,Bar,2
+4,Dim Sum Restaurant,2
+4,Other Nightlife,2
+4,Beach,1
+4,Coffee Shop,1
+4,Department Store,1
+5,Mall,27
+5,Grocery Store,3
+5,Japanese Restaurant,3
+5,Fast Food Restaurant,3
+5,Seafood Restaurant,3
+5,Asian Restaurant,2
+5,Bowling Alley,2
+5,Bus Station,2
+5,Airport,2
+5,Hospital,2
+5,Korean Restaurant,2
+5,Multiplex,2
+5,Dumpling Restaurant,1
+5,Airport Terminal,1
+5,Coffee Shop,1
+5,Chinese Restaurant,1
+5,Bus Line,1
+5,Italian Restaurant,1
+5,Government Building,1
+5,Fried Chicken Joint,1
+5,Frozen Yogurt,1
+5,Food Court,1
+5,Other Great Outdoors,1
+5,Resort,1
+5,Sushi Restaurant,1
+6,Mall,23
+6,University,6
+6,Chinese Restaurant,5
+6,Nightclub,3
+6,American Restaurant,3
+6,Hotel,2
+6,Fast Food Restaurant,2
+6,Asian Restaurant,2
+6,Coffee Shop,2
+6,Convention Center,2
+6,Resort,2
+6,Ice Cream Shop,2
+6,Neighborhood,2
+6,Dessert Shop,2
+6,African Restaurant,1
+6,Clothing Store,1
+6,Airport Terminal,1
+6,Food Court,1
+6,Flea Market,1
+6,Diner,1
+6,Dim Sum Restaurant,1
+6,BBQ Joint,1
+6,Bakery,1
+6,Beach,1
+6,Government Building,1
+6,Malaysian Restaurant,1
+6,Japanese Restaurant,1
+6,Indonesian Restaurant,1
+6,Hotel Bar,1
+6,General Entertainment,1
+6,Multiplex,1
+6,Plaza,1
+6,Steakhouse,1
+7,Government Building,9
+7,Food Court,9
+7,Mall,6
+7,Hotel,3
+7,Pet Store,3
+7,Bus Station,3
+7,Doctor's Office,3
+7,American Restaurant,2
+7,Coworking Space,2
+7,Bridge,2
+7,Event Space,2
+7,Convention Center,2
+7,Subway,2
+7,Airport,1
+7,College Auditorium,1
+7,Caf,1
+7,Bakery,1
+7,Art Gallery,1
+7,Food,1
+7,Dessert Shop,1
+7,Department Store,1
+7,Art Museum,1
+7,Bar,1
+7,Indian Restaurant,1
+7,Gym,1
+7,Grocery Store,1
+7,Neighborhood,1
+7,Multiplex,1
+7,Performing Arts Venue,1
+7,Parking,1
+7,Rental Car Location,1
+7,Snack Place,1
+7,Train Station,1
+7,Veterinarian,1
+8,Nightclub,37
+8,Mall,21
+8,Caf,7
+8,University,7
+8,Medical Center,6
+8,Burger Joint,4
+8,Multiplex,4
+8,Salon / Barbershop,4
+8,Food Court,3
+8,Karaoke Bar,3
+8,Dim Sum Restaurant,3
+8,Pool Hall,2
+8,Chinese Restaurant,2
+8,Convention Center,2
+8,Ramen /  Noodle House,2
+8,Bar,1
+8,Hotel,1
+8,Gym,1
+8,Government Building,1
+8,Fried Chicken Joint,1
+8,Fast Food Restaurant,1
+8,Dessert Shop,1
+8,Department Store,1
+8,Design Studio,1
+8,Coffee Shop,1
+8,Parking,1
+8,Italian Restaurant,1
+8,Korean Restaurant,1
+8,Pub,1
+8,Plaza,1
+8,Sandwich Place,1
+8,Tea Room,1
+9,High School,15
+9,Mall,14
+9,Food Court,6
+9,Sushi Restaurant,5
+9,Bus Station,4
+9,College Auditorium,3
+9,College Cafeteria,2
+9,Chinese Restaurant,2
+9,Library,2
+9,Neighborhood,2
+9,Fried Chicken Joint,1
+9,College Gym,1
+9,Lake,1
+9,Island,1
+9,Food & Drink Shop,1
+9,Multiplex,1
+9,Police Station,1
+9,School,1
+9,Stadium,1
+9,Subway,1
