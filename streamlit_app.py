@@ -3,6 +3,8 @@ import os
 import pandas as pd
 import json
 from glob import glob
+import matplotlib.pyplot as plt
+import numpy as np
 
 # --- Sidebar: File Browser ---
 st.sidebar.title('File Browser')
@@ -66,13 +68,19 @@ st.header('Original vs Synthetic Dataset Comparison')
 org_counts_path = os.path.join(syn_org_eval_dir, 'org_user_checkin_counts.csv')
 syn_counts_path = os.path.join(syn_org_eval_dir, 'syn_user_checkin_counts.csv')
 if os.path.exists(org_counts_path) and os.path.exists(syn_counts_path):
-    org_counts = pd.read_csv(org_counts_path, index_col=0, names=['user_id','org_checkins'])
-    syn_counts = pd.read_csv(syn_counts_path, index_col=0, names=['user_id','syn_checkins'])
+    org_counts = pd.read_csv(org_counts_path, index_col=0, header=None, names=['user_id','org_checkins'])
+    syn_counts = pd.read_csv(syn_counts_path, index_col=0, header=None, names=['user_id','syn_checkins'])
+    # Align on user_id
+    merged = org_counts.join(syn_counts, how='outer')
     st.subheader('Check-in Counts per User')
-    st.line_chart({
-        'Original': org_counts.iloc[:,0].sort_index().values,
-        'Synthetic': syn_counts.iloc[:,0].sort_index().values
-    })
+    # Use matplotlib for colored lines
+    fig, ax = plt.subplots(figsize=(10, 4))
+    ax.plot(merged.index, merged['org_checkins'].fillna(0), label='Original', color='tab:blue')
+    ax.plot(merged.index, merged['syn_checkins'].fillna(0), label='Synthetic', color='tab:orange')
+    ax.set_xlabel('User Index')
+    ax.set_ylabel('Check-in Count')
+    ax.legend()
+    st.pyplot(fig)
     st.write('Summary (Original):', org_counts.describe())
     st.write('Summary (Synthetic):', syn_counts.describe())
 else:
