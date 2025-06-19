@@ -6,7 +6,6 @@ from glob import glob
 import matplotlib.pyplot as plt
 import numpy as np
 
-# List files in clustering results
 
 def list_files(directory, exts=None):
     files = []
@@ -107,14 +106,20 @@ if __name__ == '__main__':
     json_files = list_files(json_dir, exts=['.json'])
     syn_org_eval_files = list_files(syn_org_eval_dir, exts=['.csv', '.txt'])
 
-    # --- Main: Display Results ---
-    st.set_page_config(layout="wide", initial_sidebar_state="expanded")
-    st.title('FSQ Clustering and Synthetic Dataset Dashboard')
-    # Add navigation to Streamlit app
-    page = st.sidebar.radio('Select Page', ['Main Dashboard', 'Cluster Analysis (Rep Users)'])
-    
-    if page == 'Main Dashboard':
-        main_page()
+    try:
+        # --- Main: Display Results ---
+        st.set_page_config(layout="wide", initial_sidebar_state="expanded")
+        st.title('FSQ Clustering and Synthetic Dataset Dashboard')
+        # Add navigation to Streamlit app
+        page = st.sidebar.radio('Select Page', ['Main Dashboard', 'Cluster Analysis (Rep Users)'])
+        
+        if page == 'Main Dashboard':
+            main_page()
+        elif page == 'Cluster Analysis (Rep Users)':
+            cluster_analysis_page()
 
-    elif page == 'Cluster Analysis (Rep Users)':
-        cluster_analysis_page()
+    except Exception as e:
+        st.error(f'An error occurred: {e}')
+        st.info("Reloading the page again.")
+        st.rerun()
+        # st.info("Rerun completed.") # This line wont work, rerun() restarts the script from the start again
