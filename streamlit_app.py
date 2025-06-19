@@ -16,7 +16,7 @@ def list_files(directory, exts=None):
     return sorted(files)
 
 def cluster_analysis_page():
-    st.title('Cluster Analysis on Representative Users')
+    st.title('Analysis on Representative Users from Clusters')
     st.write('Top POI categories per cluster (by check-in count) for 10 representative users from each cluster:')
     csv_path = 'analysis_older_dataset/Final_code/analysis_on_rep_users_clusters/top_poi_categories_per_cluster.csv'
     if not os.path.exists(csv_path):
@@ -32,6 +32,7 @@ def cluster_analysis_page():
 
 def main_page():
     
+    st.title('Foursquare Singapore Dataset Clustering Analysis Dashboard')
     
     # --- Sidebar: File Browser ---
     st.sidebar.title('File Browser')
@@ -49,19 +50,8 @@ def main_page():
     else:
         selected_json_file = None
         st.sidebar.info('No user profile JSON files found.')
-
-    if selected_clustering_file:
-        if selected_clustering_file.endswith('.csv'):
-            df = pd.read_csv(os.path.join(clustering_dir, selected_clustering_file))
-            st.dataframe(df)
-        elif selected_clustering_file.endswith(('.png', '.jpg', '.jpeg')):
-            st.image(os.path.join(clustering_dir, selected_clustering_file))
-        else:
-            st.text('File preview not supported for this file type.')
     
-    
-    # --- Main: Display Results ---
-    st.title('Foursquare Singapore Analysis Dashboard')
+    # --- Main: Display Results --
     
     st.header('Clustering Results')
     if selected_clustering_file:
@@ -118,10 +108,11 @@ if __name__ == '__main__':
     syn_org_eval_files = list_files(syn_org_eval_dir, exts=['.csv', '.txt'])
 
     # --- Main: Display Results ---
+    st.set_page_config(layout="wide", initial_sidebar_state="expanded")
     st.title('FSQ Clustering and Synthetic Dataset Dashboard')
     # Add navigation to Streamlit app
     page = st.sidebar.radio('Select Page', ['Main Dashboard', 'Cluster Analysis (Rep Users)'])
-
+    
     if page == 'Main Dashboard':
         main_page()
 
