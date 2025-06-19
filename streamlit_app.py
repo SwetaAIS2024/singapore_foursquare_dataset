@@ -116,6 +116,7 @@ def cluster_analysis_page():
 # Add navigation to Streamlit app
 page = st.sidebar.radio('Select Page', ['Main Dashboard', 'Cluster Analysis (Rep Users)'])
 if page == 'Main Dashboard':
+    # --- Main: Display Results ---
     st.title('Foursquare Singapore Analysis Dashboard')
     st.header('Clustering Results')
 
