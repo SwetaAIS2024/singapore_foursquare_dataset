@@ -49,7 +49,18 @@ def older_clustering_analysis():
     )
     if not summary_files:
         selected_summary_file = None
-        st.sidebar.info('No cluster heatmap files found.')    
+        st.sidebar.info('No summary text file found.')    
+
+    st.sidebar.subheader('Cluster time profile')
+    timeprofile_files = list_files(heatmap_dir_old, exts=['time_profile.png'])
+    selected_timeprofile_file = st.sidebar.selectbox(
+        'Select cluster timeprofile file',
+        timeprofile_files if timeprofile_files else ['No cluster timeprofile file found'],
+        disabled=not bool(timeprofile_files)
+    )
+    if not timeprofile_files:
+        selected_timeprofile_file = None
+        st.sidebar.info('No cluster timeprofile file found.')  
 
     # --- Main: Display Results ---
     st.markdown('---')
@@ -94,7 +105,17 @@ def older_clustering_analysis():
                 text_content = f.read()
             st.text_area('Summary Content', value=text_content, height=300)
         else:
-            st.warning(f'Summary file {selected_summary_file} not found.')      
+            st.warning(f'Summary file {selected_summary_file} not found.')   
+
+    if selected_timeprofile_file:
+        timeprofile_path = os.path.join(heatmap_dir_old, selected_timeprofile_file)
+        if os.path.exists(timeprofile_path):
+            st.subheader(f'Cluster Summary: {selected_timeprofile_file}')
+            st.image(timeprofile_path)
+        else:
+            st.warning(f'Timeprofile file {timeprofile_path} not found.')
+
+     
     
     # Cluster scatter plot
     if os.path.exists(cluster_scatter_plot_old):
