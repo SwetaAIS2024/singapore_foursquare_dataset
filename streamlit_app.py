@@ -41,7 +41,8 @@ def older_clustering_analysis():
         st.sidebar.info('No cluster heatmap files found.')
 
     # --- Main: Display Results ---
-    
+    st.markdown('---')
+    st.subheader('Original Dataset (CSV)')
     if selected_clustering_file:
         if selected_clustering_file.endswith('.csv'):
             try:
