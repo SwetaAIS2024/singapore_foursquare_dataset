@@ -21,13 +21,13 @@ def older_clustering_analysis():
     # --- Sidebar: File Browser ---
     st.sidebar.title('File Browser')
 
-    st.sidebar.subheader('Clustering Results (CSV/Image)')
+    st.sidebar.subheader('Original Dataset')
     clustering_files = list_files(clustering_dir_older, exts=['.csv', '.png', '.jpg', '.jpeg'])
     if clustering_files:
-        selected_clustering_file = st.sidebar.selectbox('Select clustering result file', clustering_files)
+        selected_clustering_file = st.sidebar.selectbox('Select original dataset csv file', clustering_files)
     else:
         selected_clustering_file = None
-        st.sidebar.info('No clustering result files found.')
+        st.sidebar.info('No csv files found.')
 
     st.sidebar.subheader('Cluster Heatmaps')
     heatmap_files = list_files(heatmap_dir_old, exts=['heatmap.png'])
@@ -40,24 +40,43 @@ def older_clustering_analysis():
         selected_heatmap_file = None
         st.sidebar.info('No cluster heatmap files found.')
 
+    st.sidebar.subheader('Cluster Summary text')
+    summary_files = list_files(heatmap_dir_old, exts=['summary.txt'])
+    selected_summary_file = st.sidebar.selectbox(
+        'Select cluster summary text file',
+        summary_files if summary_files else ['No summary text file found'],
+        disabled=not bool(summary_files)
+    )
+    if not summary_files:
+        selected_summary_file = None
+        st.sidebar.info('No cluster heatmap files found.')    
+
     # --- Main: Display Results ---
     st.markdown('---')
-    st.subheader('Original Dataset (CSV)')
-    if selected_clustering_file:
-        if selected_clustering_file.endswith('.csv'):
-            try:
-                df = pd.read_csv(os.path.join(clustering_dir_older, selected_clustering_file))
-                st.dataframe(df)
-            except Exception as e:
-                st.warning(f'Could not read CSV: {e}')
-        elif selected_clustering_file.endswith(('.png', '.jpg', '.jpeg')):
-            try:
-                st.image(os.path.join(clustering_dir_older, selected_clustering_file))
-            except Exception as e:
-                st.warning(f'Could not display image: {e}')
-        else:
-            st.text('File preview not supported for this file type.')
-    
+      # --- Enhanced: Filter, Sort, Drill Operations for Old Original Dataset ---
+    if selected_clustering_file and selected_clustering_file.endswith('.csv'):
+        try:
+            df = pd.read_csv(os.path.join(clustering_dir_older, selected_clustering_file))
+            st.subheader('Original Dataset (CSV) and Interactive Data Exploration (Filter, Sort, Drill)')
+            # Filter by user_id (if column exists)
+            if 'user_id' in df.columns:
+                user_ids = df['user_id'].unique()
+                selected_user = st.selectbox('Filter by user_id', options=['All'] + list(map(str, sorted(user_ids))))
+                if selected_user != 'All':
+                    df = df[df['user_id'].astype(str) == selected_user]
+            # Sort by column
+            sort_col = st.selectbox('Sort by column', options=df.columns)
+            sort_asc = st.radio('Sort order', options=['Ascending', 'Descending'], horizontal=True)
+            df = df.sort_values(by=sort_col, ascending=(sort_asc == 'Ascending'))
+            # Drill-down: Show details for a selected row
+            st.dataframe(df)
+            if not df.empty:
+                row_idx = st.number_input('Drill: Show details for row index', min_value=0, max_value=len(df)-1, value=0)
+                st.write('Row details:')
+                st.json(df.iloc[int(row_idx)].to_dict())
+        except Exception as e:
+            st.warning(f'Could not process interactive operations: {e}')
+
     if selected_heatmap_file:
         heatmap_path = os.path.join(heatmap_dir_old, selected_heatmap_file)
         if os.path.exists(heatmap_path):
@@ -65,6 +84,17 @@ def older_clustering_analysis():
             st.image(heatmap_path)
         else:
             st.warning(f'Heatmap file {selected_heatmap_file} not found.')
+
+    if selected_summary_file:
+        summary_path = os.path.join(heatmap_dir_old, selected_summary_file)
+        if os.path.exists(summary_path):
+            st.subheader(f'Cluster Summary: {selected_summary_file}')
+            # Read the actual text file content
+            with open(summary_path, 'r') as f:
+                text_content = f.read()
+            st.text_area('Summary Content', value=text_content, height=300)
+        else:
+            st.warning(f'Summary file {selected_summary_file} not found.')      
     
     # Cluster scatter plot
     if os.path.exists(cluster_scatter_plot_old):
@@ -94,6 +124,7 @@ def older_clustering_analysis():
             st.warning(f'Could not read centroid-nearest user CSV: {e}')
     else:
         st.info('Cluster centroid-nearest user CSV not found.')
+
 
 def cluster_analysis_page():
     st.title('Analysis on Representative Users from Clusters')
