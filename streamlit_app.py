@@ -14,6 +14,86 @@ def list_files(directory, exts=None):
             files.append(f)
     return sorted(files)
 
+def older_clustering_analysis():
+    st.title('Past Clustering Results Analysis')
+    st.write('This section displays clustering results from older datasets.')
+
+    # --- Sidebar: File Browser ---
+    st.sidebar.title('File Browser')
+
+    st.sidebar.subheader('Clustering Results (CSV/Image)')
+    clustering_files = list_files(clustering_dir_older, exts=['.csv', '.png', '.jpg', '.jpeg'])
+    if clustering_files:
+        selected_clustering_file = st.sidebar.selectbox('Select clustering result file', clustering_files)
+    else:
+        selected_clustering_file = None
+        st.sidebar.info('No clustering result files found.')
+
+    st.sidebar.subheader('Cluster Heatmaps')
+    heatmap_files = list_files(heatmap_dir_old, exts=['heatmap.png'])
+    selected_heatmap_file = st.sidebar.selectbox(
+        'Select cluster heatmap file',
+        heatmap_files if heatmap_files else ['No heatmap files found'],
+        disabled=not bool(heatmap_files)
+    )
+    if not heatmap_files:
+        selected_heatmap_file = None
+        st.sidebar.info('No cluster heatmap files found.')
+
+    # --- Main: Display Results ---
+    
+    if selected_clustering_file:
+        if selected_clustering_file.endswith('.csv'):
+            try:
+                df = pd.read_csv(os.path.join(clustering_dir_older, selected_clustering_file))
+                st.dataframe(df)
+            except Exception as e:
+                st.warning(f'Could not read CSV: {e}')
+        elif selected_clustering_file.endswith(('.png', '.jpg', '.jpeg')):
+            try:
+                st.image(os.path.join(clustering_dir_older, selected_clustering_file))
+            except Exception as e:
+                st.warning(f'Could not display image: {e}')
+        else:
+            st.text('File preview not supported for this file type.')
+    
+    if selected_heatmap_file:
+        heatmap_path = os.path.join(heatmap_dir_old, selected_heatmap_file)
+        if os.path.exists(heatmap_path):
+            st.subheader(f'Cluster Heatmap: {selected_heatmap_file}')
+            st.image(heatmap_path)
+        else:
+            st.warning(f'Heatmap file {selected_heatmap_file} not found.')
+    
+    # Cluster scatter plot
+    if os.path.exists(cluster_scatter_plot_old):
+        st.subheader('Cluster Scatter Plot')
+        st.image(cluster_scatter_plot_old, caption='Cluster Scatter Plot of Users')
+
+    # --- Additional: Cluster Heatmap Peak Summary ---
+    st.markdown('---')
+    st.subheader('Cluster Heatmap Peak Summary (CSV)')
+    if os.path.exists(cluster_heatmap_summary_old):
+        try:
+            df_summary = pd.read_csv(cluster_heatmap_summary_old)
+            st.dataframe(df_summary)
+        except Exception as e:
+            st.warning(f'Could not read heatmap summary CSV: {e}')
+    else:
+        st.info('Cluster heatmap peak summary CSV not found.')
+
+    # --- Additional: Cluster Centroid-Nearest User Mapping ---
+    st.markdown('---')
+    st.subheader('Cluster Centroid-Nearest User Mapping (CSV)')
+    if os.path.exists(cluster_centroid_nearest_user_old):
+        try:
+            df_centroid = pd.read_csv(cluster_centroid_nearest_user_old)
+            st.dataframe(df_centroid)
+        except Exception as e:
+            st.warning(f'Could not read centroid-nearest user CSV: {e}')
+    else:
+        st.info('Cluster centroid-nearest user CSV not found.')
+
 def cluster_analysis_page():
     st.title('Analysis on Representative Users from Clusters')
     st.write('Top POI categories per cluster (by check-in count) for 10 representative users from each cluster:')
@@ -97,7 +177,7 @@ def main_page():
 
 if __name__ == '__main__':
 
-    # Clustering results directory
+    # Clustering results directory - latest results
     clustering_dir = 'analysis_older_dataset/Final_code/clustering'
     json_dir = 'analysis_older_dataset/Final_code/json_dataset_generation'
     syn_org_eval_dir = 'analysis_older_dataset/Final_code/syn_org_eval'
@@ -106,17 +186,31 @@ if __name__ == '__main__':
     json_files = list_files(json_dir, exts=['.json'])
     syn_org_eval_files = list_files(syn_org_eval_dir, exts=['.csv', '.txt'])
 
+    
+    # Clustering results directory - older results
+    clustering_dir_older = 'analysis_older_dataset/old/analysis_set4/codes/No_of_rootCat_C_top20_remove_MALL'
+    heatmap_dir_old = 'analysis_older_dataset/old/analysis_set4/codes/No_of_rootCat_C_top20_remove_MALL/Clustering_Profiling/cluster_profiles'
+    # each file = '.../cluster_profiles/cluster_0_heatmap.png'
+    cluster_scatter_plot_old = 'analysis_older_dataset/old/analysis_set4/codes/No_of_rootCat_C_top20_remove_MALL/Clustering_Profiling/user_clusters_pca123_scatter.png'
+    cluster_heatmap_summary_old = 'analysis_older_dataset/old/analysis_set4/codes/No_of_rootCat_C_top20_remove_MALL/Clustering_Profiling/cluster_profiles/cluster_heatmap_peak_summary.csv'
+    cluster_centroid_nearest_user_old = 'analysis_older_dataset/old/analysis_set4/codes/No_of_rootCat_C_top20_remove_MALL/Clustering_Profiling/cluster_centroid_nearest_user.csv'
+
     try:
         # --- Main: Display Results ---
         st.set_page_config(layout="wide", initial_sidebar_state="expanded")
         st.title('FSQ Clustering and Synthetic Dataset Dashboard')
         # Add navigation to Streamlit app
-        page = st.sidebar.radio('Select Page', ['Main Dashboard', 'Cluster Analysis (Rep Users)'])
+        page = st.sidebar.radio('Select Page', 
+                                ['Main Dashboard', 
+                                 'Cluster Analysis (Rep Users)',
+                                 'Past Clustering Results',])
         
         if page == 'Main Dashboard':
             main_page()
         elif page == 'Cluster Analysis (Rep Users)':
             cluster_analysis_page()
+        elif page == 'Past Clustering Results':
+            older_clustering_analysis()
 
     except Exception as e:
         st.error(f'An error occurred: {e}')
