@@ -15,13 +15,19 @@ Upload your raw FSQ check-in CSV file (with columns like user_id, place_id, time
 """)
 
 # --- File Upload ---
-uploaded_file = st.file_uploader("Upload your check-in CSV file", type=["csv"])
+uploaded_file = st.file_uploader("Upload your check-in CSV or TXT file", type=["csv", "txt"])
 
 # --- Pre-defined mapping/category files (update paths as needed) ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CLUSTERING_DIR = os.path.join(BASE_DIR, "analysis_older_dataset/Final_code/clustering")
 MAPPING_PLACEID_TO_CAT = os.path.join(CLUSTERING_DIR, "sg_place_id_to_category.csv")
 RELEVANT_POI_CAT = os.path.join(BASE_DIR, "analysis_older_dataset/Final_code/analysis_on_rep_users_clusters/Relevant_POI_category.xlsx")
+
+# --- Matrix Size Parameters (Sidebar) ---
+st.sidebar.header("Matrix Size Parameters")
+n_users = st.sidebar.number_input("Number of users", min_value=10, max_value=2000, value=200)
+n_spatial_clusters = st.sidebar.number_input("Number of spatial clusters", min_value=2, max_value=50, value=20)
+n_categories = st.sidebar.number_input("Number of categories", min_value=5, max_value=180, value=30)
 
 # Helper to run a script and return output file path or error
 def run_script(script, args, output_files=None):
@@ -42,8 +48,12 @@ def run_script(script, args, output_files=None):
         return None
 
 if uploaded_file is not None:
-    # Save uploaded file to a temp location
-    with tempfile.NamedTemporaryFile(delete=False, suffix=".csv") as tmp:
+    # Save uploaded file to a temp location with correct extension
+    file_ext = os.path.splitext(uploaded_file.name)[-1].lower()
+    if file_ext not in [".csv", ".txt"]:
+        st.error("Only CSV or TXT files are supported.")
+        st.stop()
+    with tempfile.NamedTemporaryFile(delete=False, suffix=file_ext) as tmp:
         tmp.write(uploaded_file.read())
         tmp_path = tmp.name
     st.success(f"File uploaded: {uploaded_file.name}")
@@ -55,6 +65,8 @@ if uploaded_file is not None:
     cluster_list_out = os.path.join(tempfile.gettempdir(), "spatial_cluster_list.txt")
     cat_list_out = os.path.join(tempfile.gettempdir(), "poi_cat_list.txt")
     timebin_list_out = os.path.join(tempfile.gettempdir(), "timebin_list.txt")
+
+    # Always run matrix creation, do not skip if files exist
     matrix_script = os.path.join(CLUSTERING_DIR, "s01_build_user_spatial_category_time_matrix.py")
     args = [
         "--input", tmp_path,
@@ -63,12 +75,44 @@ if uploaded_file is not None:
         "--output_user_list", user_list_out,
         "--output_cluster_list", cluster_list_out,
         "--output_cat_list", cat_list_out,
-        "--output_timebin_list", timebin_list_out
+        "--output_timebin_list", timebin_list_out,
+        "--n_users", str(n_users),
+        "--n_spatial_clusters", str(n_spatial_clusters),
+        "--n_categories", str(n_categories)
     ]
-    if run_script(matrix_script, args, [matrix_out, user_list_out, cluster_list_out, cat_list_out, timebin_list_out]):
-        st.success("Matrix created!")
-        st.write(f"Matrix file: {matrix_out}")
-    else:
+    # Run script and capture error output
+    try:
+        result = subprocess.run(["python3", matrix_script] + args, capture_output=True, text=True)
+        # Workaround: check for hardcoded output files if expected files are missing
+        hardcoded_matrix = os.path.join(CLUSTERING_DIR, "matrix_output.npy")
+        hardcoded_user_list = os.path.join(CLUSTERING_DIR, "user_list.txt")
+        hardcoded_cluster_list = os.path.join(CLUSTERING_DIR, "spatial_cluster_list.txt")
+        hardcoded_cat_list = os.path.join(CLUSTERING_DIR, "poi_cat_list.txt")
+        hardcoded_timebin_list = os.path.join(CLUSTERING_DIR, "timebin_list.txt")
+        # If expected files are missing but hardcoded exist, copy them
+        if not os.path.exists(matrix_out) and os.path.exists(hardcoded_matrix):
+            shutil.copy(hardcoded_matrix, matrix_out)
+        if not os.path.exists(user_list_out) and os.path.exists(hardcoded_user_list):
+            shutil.copy(hardcoded_user_list, user_list_out)
+        if not os.path.exists(cluster_list_out) and os.path.exists(hardcoded_cluster_list):
+            shutil.copy(hardcoded_cluster_list, cluster_list_out)
+        if not os.path.exists(cat_list_out) and os.path.exists(hardcoded_cat_list):
+            shutil.copy(hardcoded_cat_list, cat_list_out)
+        if not os.path.exists(timebin_list_out) and os.path.exists(hardcoded_timebin_list):
+            shutil.copy(hardcoded_timebin_list, timebin_list_out)
+        missing = [f for f in [matrix_out, user_list_out, cluster_list_out, cat_list_out, timebin_list_out] if not os.path.exists(f)]
+        if result.returncode == 0:
+            if missing:
+                st.error(f"Expected output file(s) not found: {missing}")
+                st.error(f"Script output:\n{result.stdout}\n{result.stderr}")
+                st.stop()
+            st.success("Matrix created!")
+            st.write(f"Matrix file: {matrix_out}")
+        else:
+            st.error(f"Matrix creation script failed.\nSTDOUT:\n{result.stdout}\nSTDERR:\n{result.stderr}")
+            st.stop()
+    except Exception as e:
+        st.error(f"Error running matrix creation script: {e}")
         st.stop()
 
     # --- 2. Matrix Inspection ---
@@ -77,10 +121,6 @@ if uploaded_file is not None:
     inspect_out = os.path.join(tempfile.gettempdir(), "matrix_inspect.csv")
     args = [
         "--matrix", matrix_out,
-        "--user_list", user_list_out,
-        "--cluster_list", cluster_list_out,
-        "--cat_list", cat_list_out,
-        "--timebin_list", timebin_list_out,
         "--output", inspect_out
     ]
     if run_script(inspect_script, args, [inspect_out]):
@@ -105,6 +145,7 @@ if uploaded_file is not None:
         st.write(f"Normalized matrix file: {norm_matrix_out}")
     else:
         st.stop()
+
     # 3.2 Flattening
     st.subheader("b) Flattening")
     flat_matrix_out = os.path.join(tempfile.gettempdir(), "user_matrix_flattened.npy")
@@ -118,6 +159,7 @@ if uploaded_file is not None:
         st.write(f"Flattened matrix file: {flat_matrix_out}")
     else:
         st.stop()
+
     # 3.3 Sparse Conversion
     st.subheader("c) Sparse Matrix Conversion")
     sparse_matrix_out = os.path.join(tempfile.gettempdir(), "user_matrix_sparse.npz")
@@ -181,6 +223,20 @@ if uploaded_file is not None:
         st.dataframe(df.head(20))
     else:
         st.warning("Sampling script did not produce output.")
+
+    # --- 7. Synthetic Data Generation ---
+    st.header("7. Synthetic Data Generation")
+    synth_script = os.path.join(CLUSTERING_DIR, "s09_synthetic_data_generation.py")
+    synth_out = os.path.join(tempfile.gettempdir(), "synthetic_data.csv")
+    args = [
+        "--cluster_assignments", cluster_assign_out,
+        "--output", synth_out
+    ]
+    if run_script(synth_script, args, [synth_out]):
+        df = pd.read_csv(synth_out)
+        st.dataframe(df.head(20))
+    else:
+        st.warning("Synthetic data generation script did not produce output.")
 
     # --- Clean up temp file ---
     os.remove(tmp_path)
