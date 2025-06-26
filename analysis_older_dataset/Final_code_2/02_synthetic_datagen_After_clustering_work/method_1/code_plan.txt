@@ -1,0 +1,61 @@
+High level plan 1  for the code :
+--------------------------------------------
+--------------------------------------------
+
+1. After the clsutering, for each cluster, need to do the following analysis:
+    a. Archetype of the cluster
+    b. Geometric parameters of each cluster
+
+2. Using the above results, need to compute a funtion say G which is dependent on a. and b. 
+
+                    G = Funtion( Archetype, Geometric parameters)
+
+3. The result from this function G, will be used as the criteria for selecting base distribution.
+
+                    Base distribution = Selection from options based on G for each cluster
+
+4. Base distribution, possible options : Gaussian, Normal, Random, Beta, etc. 
+5. After selecting the appropriate base distribution using results from G function, we will fit the 
+distribution to each of the cluster.
+
+                    Current distribution for cluster j = Fitting Base Distribution (Cluster j)
+
+6. For clusters with very few points, say below a certain threshold K, skip the fitting approach and switch 
+to the old good random sampling.
+
+7. After getting the best possible current distribution for each clsuter, also need to evaluate he 
+goodness-of-fit checks, few statistical tests, for example: KS, AIC, BIC
+
+8. Then we do the sampling from each of the clusters using the current distribution. The no of sample points 
+to be user defined bounded by the max and min values possible.
+
+Evaluation tech:
+
+1. Goodness-of-Fit for Fitted Distributions
+Kolmogorov-Smirnov (KS) Test:
+Compare the empirical distribution of real cluster data to the fitted distribution.
+Anderson-Darling Test:
+Another test for distributional similarity, especially sensitive to tails.
+AIC/BIC:
+Compare AIC/BIC values for different candidate distributions to ensure the best fit was chosen.
+2. Distributional Comparison Between Real and Synthetic Data
+Histogram/KDE Plots:
+Overlay histograms or kernel density estimates for real and synthetic data for each cluster and feature.
+Earth Mover’s Distance (Wasserstein Distance):
+Quantifies the difference between two distributions.
+3. Summary Statistics
+Compare Means, Variances, Skewness, Kurtosis:
+For each cluster and feature, compare these statistics between real and synthetic data.
+4. Geometric Properties
+Centroid Distance:
+Compare the mean vectors of real and synthetic clusters.
+Covariance Matrix Comparison:
+Compare the spread and orientation (covariance) of real and synthetic clusters.
+5. Cluster Structure
+Silhouette Score:
+Compare the silhouette scores of real and synthetic clusters to assess compactness and separation.
+Re-clustering Consistency:
+Cluster the synthetic data and check if the structure matches the real data.
+6. Visualization
+PCA/t-SNE/UMAP Plots:
+Visualize real and synthetic data in reduced dimensions to check for structural similarity.
