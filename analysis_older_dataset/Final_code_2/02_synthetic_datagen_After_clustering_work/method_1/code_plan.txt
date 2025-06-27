@@ -1,3 +1,59 @@
+
+Updated method :
+--------------------------------------------
+--------------------------------------------
+Here’s a concise summary of **Method 1** for synthetic data generation based on your plan:
+
+---
+
+### **Method 1: Cluster-wise Distribution Fitting and Sampling**
+
+1. **Cluster Analysis**
+   - For each cluster, you may extract the archetype (centroid) and geometric parameters (spread, variance, etc.), but if you use principal component (PC) projections (e.g., PC1), you can skip explicit geometric analysis for distribution fitting.
+
+2. **Feature Extraction for Fitting**
+   - For each cluster, select a 1D feature (e.g., PC1 values, or distances from centroid) to represent the cluster’s main variation.
+
+3. **Distribution Fitting**
+   - For each candidate base distribution (e.g., Gaussian, Beta, Gamma, Lognormal, etc.), fit the distribution to the selected 1D data using a tool like `fitter` or `distfit`.
+
+4. **Model Selection**
+   - Evaluate the fit using statistical tests (KS, Anderson-Darling), and information criteria (AIC, BIC).
+   - Select the distribution with the best fit as the base distribution for that cluster.
+
+5. **Distribution Fitting and Sampling**
+   - Fit the selected base distribution to the cluster’s data.
+   - Generate synthetic samples from this fitted distribution, ensuring samples are within the observed value range.
+
+6. **Special Case: Small Clusters**
+   - If a cluster has too few points (below a threshold K), skip fitting and use random sampling.
+
+7. **Evaluation**
+   - Compare real and synthetic data using:
+     - Goodness-of-fit tests (KS, Anderson-Darling, AIC, BIC)
+     - Distributional similarity (histograms, KDE, Wasserstein distance)
+     - Summary statistics (mean, variance, skewness, kurtosis)
+     - Geometric properties (centroid, covariance)
+     - Cluster structure (silhouette score, re-clustering consistency)
+     - Visualization (PCA/t-SNE/UMAP plots)
+
+---
+
+**Key Points:**
+- Use 1D projections (like PC1) for fitting, which simplifies the process.
+- Automate distribution selection using statistical fit criteria.
+- Evaluate the realism of synthetic data with both statistical and visual methods.
+
+Let me know if you want a code template or further details for any step!
+
+
+
+
+
+
+
+
+
 High level plan 1  for the code :
 --------------------------------------------
 --------------------------------------------
@@ -21,7 +77,7 @@ distribution to each of the cluster.
                     Current distribution for cluster j = Fitting Base Distribution (Cluster j)
 
 6. For clusters with very few points, say below a certain threshold K, skip the fitting approach and switch 
-to the old good random sampling.
+to the good old random sampling.
 
 7. After getting the best possible current distribution for each clsuter, also need to evaluate he 
 goodness-of-fit checks, few statistical tests, for example: KS, AIC, BIC
@@ -59,3 +115,4 @@ Cluster the synthetic data and check if the structure matches the real data.
 6. Visualization
 PCA/t-SNE/UMAP Plots:
 Visualize real and synthetic data in reduced dimensions to check for structural similarity.
+
