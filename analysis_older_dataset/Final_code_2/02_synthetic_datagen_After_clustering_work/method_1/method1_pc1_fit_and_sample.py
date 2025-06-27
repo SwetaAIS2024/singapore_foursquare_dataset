@@ -84,15 +84,25 @@ for cl in np.unique(cluster_labels):
 # --- Combine and Save Results ---
 sampled_pc1_data = np.concatenate(sampled_pc1_data)
 pd.DataFrame(results).to_csv('synthetic_fit_results.csv', index=False)
-np.save('synthetic_data_method1_pc1.npy', sampled_pc1_data)
+np.save('analysis_older_dataset/Final_code_2/02_synthetic_datagen_After_clustering_work/method_1/synthetic_data_method1_pc1.npy', sampled_pc1_data)
 
 # --- Visualization Example ---
-plt.figure(figsize=(12, 6))
+plt.figure(figsize=(8, 4))
 sns.histplot(data_pc1, color='blue', label='Real PC1', kde=True, stat='density', bins=30)
+plt.legend()
+plt.title('Real PC1 Distribution')
+plt.xlabel('PC1')
+plt.ylabel('Density')
+plt.savefig('analysis_older_dataset/Final_code_2/02_synthetic_datagen_After_clustering_work/method_1/real_pc1_hist.png')
+plt.show()
+
+plt.figure(figsize=(8, 4))
 sns.histplot(sampled_pc1_data, color='orange', label='Sampled PC1', kde=True, stat='density', bins=30)
 plt.legend()
-plt.title('Real vs Sampled PC1 Distribution')
-plt.savefig('real_vs_synth_pc1_hist.png')
+plt.title('Sampled PC1 Distribution')
+plt.xlabel('PC1')
+plt.ylabel('Density')
+plt.savefig('analysis_older_dataset/Final_code_2/02_synthetic_datagen_After_clustering_work/method_1/sampled_pc1_hist.png')
 plt.show()
 
 print('PC1 data sampling and evaluation complete.')
