@@ -1,0 +1,16 @@
+{
+  "eps_km": 0.2,
+  "min_samples": 5,
+  "n_time_bins": 168,
+  "placeid_to_cat": "sg_place_id_to_category.csv",
+  "output_matrix": "matrix_output.npy",
+  "output_user_list": "user_list.txt",
+  "output_cluster_list": "spatial_cluster_list.txt",
+  "output_cat_list": "poi_cat_list.txt",
+  "output_timebin_list": "timebin_list.txt",
+  "n_users": 2000,
+  "n_spatial_clusters": 50,
+  "n_categories": 180,
+  "svd_components": 100,
+  "n_clusters": 10
+}

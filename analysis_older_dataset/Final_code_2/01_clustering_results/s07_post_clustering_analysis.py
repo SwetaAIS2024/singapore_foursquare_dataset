@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
-from s00_config_paths import MATRIX_PATH
+from s00_config_paths import MATRIX_PATH, CATEGORIES_XLSX
 import gc
 
 # Load cluster labels and user vectors
@@ -37,7 +37,7 @@ print('Saved cluster scatter plot.')
 # Load POI category names
 try:
     import openpyxl
-    cats_df = pd.read_excel('analysis_older_dataset/Final_code/Relevant_POI_category.xlsx')
+    cats_df = pd.read_excel(CATEGORIES_XLSX)
     cat_col = 'POI Category in Singapore'
     poi_categories = [c for c in cats_df[cat_col] if pd.notnull(c)]
 except Exception:
@@ -72,15 +72,14 @@ for cl in range(n_clusters):
     plt.tight_layout()
     plt.savefig(MATRIX_PATH.replace('.npy', f'_cluster{cl}_10randuser_cat_time_heatmap.png'))
     plt.close()
-    print(f'Saved 10-random-user heatmap for cluster {cl}')
-    print(f'Cluster {cl} random user indices: {rep_idxs}, user_ids: {[users[i] for i in rep_idxs]}')
+    # Removed print statements for cleaner output
     del rep_vectors, agg_vector, agg_3d, agg_cat_time
     gc.collect()
 
 # 4. (Optional) Save user-cluster mapping as CSV
 user_cluster_df = pd.DataFrame({'user_id': users, 'cluster': labels})
 user_cluster_df.to_csv(MATRIX_PATH.replace('.npy', '_user_cluster_mapping.csv'), index=False)
-print('Saved user-cluster mapping CSV.')
+# Removed print statement
 
 # 5. (Optional) Save top POI categories for the representative user of each cluster
 user_matrix = np.load(MATRIX_PATH.replace('.npy', '_normalized.npy'), mmap_mode='r')

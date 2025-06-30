@@ -1,9 +1,9 @@
 import pandas as pd
 import numpy as np
-from s00_config_paths import CHECKINS_PATH
+from s00_config_paths import CHECKINS_PATH, MATRIX_PATH
 
 # Load the 10 representative users per cluster
-rep_users_df = pd.read_csv("analysis_older_dataset/Final_code/matrix_output_cluster_top_poi_categories_with_10users.csv")
+rep_users_df = pd.read_csv(MATRIX_PATH.replace('.npy', '_cluster_top_poi_categories_with_10users.csv'))
 
 # Flatten user_ids column to get all unique user IDs
 all_user_ids = set()
@@ -28,6 +28,6 @@ df_rep['synthetic_user_id'] = df_rep['user_id'].map(user_id_map)
 # For now, keep original check-in structure but with synthetic user IDs
 
 # Save synthetic check-in data
-out_path = "analysis_older_dataset/Final_code/synthetic_checkins_from_10users.csv"
+out_path = MATRIX_PATH.replace('.npy', '_synthetic_checkins_from_10users.csv')
 df_rep.to_csv(out_path, index=False)
 print(f"Saved synthetic check-in data for 10 representative users per cluster to {out_path}")

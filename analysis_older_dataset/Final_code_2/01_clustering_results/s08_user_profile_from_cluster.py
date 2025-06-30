@@ -1,10 +1,11 @@
 import pandas as pd
 from s00_config_paths import CHECKINS_PATH
+from s00_config_paths import MATRIX_PATH
 import numpy as np
 
 # Load the representative users for each cluster
-rep_users_df = pd.read_csv("analysis_older_dataset/Final_code/matrix_output_cluster_top_poi_categories_with_user.csv")
-rep_user_ids = rep_users_df['user_id'].astype(str).tolist()
+rep_users_df = pd.read_csv(MATRIX_PATH.replace('.npy', '_cluster_top_poi_categories_with_10users.csv'))
+rep_user_ids = rep_users_df['user_ids'].astype(str).str.split(', ').explode().unique().tolist()
 
 # Load the original check-in dataset
 cols = ['user_id', 'place_id', 'datetime', 'timezone', 'lat', 'lon']
@@ -21,6 +22,6 @@ if df_rep.empty:
     print("Warning: No check-ins found for the representative users. Check user ID mapping and types.")
 
 # Save to CSV
-out_path = "analysis_older_dataset/Final_code/cluster_representative_users_checkins.csv"
+out_path = MATRIX_PATH.replace('.npy', '_cluster_representative_users_checkins.csv')
 df_rep.to_csv(out_path, index=False)
 print(f"Saved check-in details for representative users to {out_path}")

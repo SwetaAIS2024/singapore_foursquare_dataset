@@ -2,29 +2,18 @@ import pandas as pd
 import numpy as np
 from sklearn.cluster import DBSCAN
 from s00_config_paths import CHECKINS_PATH, CATEGORIES_XLSX, MATRIX_PATH, PLACE_ID_POI_CAT
-import argparse
-import csv
+import json
+import os
 
 # --- Parameters ---
 def main(eps_km=0.5, min_samples=10, n_time_bins=168,
-         input_path=None, placeid_to_cat=None, output_matrix=None,
+         placeid_to_cat=None, output_matrix=None,
          output_user_list=None, output_cluster_list=None, output_cat_list=None, output_timebin_list=None,
          n_users=2000, n_spatial_clusters=50, n_categories=180):
     try:
         cols = ['user_id', 'place_id', 'datetime', 'timezone', 'lat', 'lon']
-        if input_path:
-            # Try to auto-detect delimiter and header
-            with open(input_path, 'r') as f:
-                sample = f.read(2048)
-                f.seek(0)
-                dialect = csv.Sniffer().sniff(sample)
-                has_header = csv.Sniffer().has_header(sample)
-            if has_header:
-                df = pd.read_csv(input_path, sep=dialect.delimiter)
-            else:
-                df = pd.read_csv(input_path, sep=dialect.delimiter, names=cols)
-        else:
-            df = pd.read_csv(CHECKINS_PATH, sep='\t', names=cols)
+        # Remove input_path support: always use CHECKINS_PATH
+        df = pd.read_csv(CHECKINS_PATH, sep='\t', names=cols)
     except Exception as e:
         print(f"[ERROR] Failed to read input file: {e}")
         import traceback; traceback.print_exc()
@@ -154,25 +143,35 @@ def main(eps_km=0.5, min_samples=10, n_time_bins=168,
         return 2
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--input', type=str, default=None)
-    parser.add_argument('--placeid_to_cat', type=str, default=None)
-    parser.add_argument('--output_matrix', type=str, default=None)
-    parser.add_argument('--output_user_list', type=str, default=None)
-    parser.add_argument('--output_cluster_list', type=str, default=None)
-    parser.add_argument('--output_cat_list', type=str, default=None)
-    parser.add_argument('--output_timebin_list', type=str, default=None)
-    parser.add_argument('--eps_km', type=float, default=0.5)
-    parser.add_argument('--min_samples', type=int, default=10)
-    parser.add_argument('--n_users', type=int, default=2000)
-    parser.add_argument('--n_spatial_clusters', type=int, default=50)
-    parser.add_argument('--n_categories', type=int, default=180)
-    args = parser.parse_args()
-    main(eps_km=args.eps_km, min_samples=args.min_samples,
-         input_path=args.input, placeid_to_cat=args.placeid_to_cat,
-         output_matrix=args.output_matrix,
-         output_user_list=args.output_user_list,
-         output_cluster_list=args.output_cluster_list,
-         output_cat_list=args.output_cat_list,
-         output_timebin_list=args.output_timebin_list,
-         n_users=args.n_users, n_spatial_clusters=args.n_spatial_clusters, n_categories=args.n_categories)
+    import streamlit as st
+    # Try to load config from JSON or YAML if present
+    config = {}
+    config_path = 'config.json'  # You can change this to .yaml and use PyYAML if preferred
+    if os.path.exists(config_path):
+        with open(config_path, 'r') as f:
+            config = json.load(f)
+    else:
+        st.error('Config file not found! Please provide config.json in the working directory.')
+        st.stop()
+
+    st.title("User-Spatial-Category-Time Matrix Builder")
+    st.write("Parameters are loaded from config.json. To change them, edit the config file and rerun.")
+
+    st.json(config)  # Optionally display the loaded config for transparency
+
+    if st.button('Run Matrix Builder'):
+        main(
+            eps_km=float(config.get('eps_km', 0.5)),
+            min_samples=int(config.get('min_samples', 10)),
+            n_time_bins=int(config.get('n_time_bins', 168)),
+            placeid_to_cat=config.get('placeid_to_cat', None),
+            output_matrix=config.get('output_matrix', None),
+            output_user_list=config.get('output_user_list', None),
+            output_cluster_list=config.get('output_cluster_list', None),
+            output_cat_list=config.get('output_cat_list', None),
+            output_timebin_list=config.get('output_timebin_list', None),
+            n_users=int(config.get('n_users', 2000)),
+            n_spatial_clusters=int(config.get('n_spatial_clusters', 50)),
+            n_categories=int(config.get('n_categories', 180))
+        )
+        st.success('Matrix building complete!')
