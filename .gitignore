@@ -1,1 +1,12 @@
 *.npy
+*.npy.tmp
+*.txt
+*.csv
+*.pack
+*.idx
+
+# Keep specific CSV files that need to be tracked
+!requirements.txt
+!README.txt
+!pre_analysis_categories_sg.txt
+!pre_analysis_places_sg.txt
