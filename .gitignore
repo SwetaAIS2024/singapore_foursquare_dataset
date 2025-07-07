@@ -4,6 +4,7 @@
 *.csv
 *.pack
 *.idx
+*.npz
 
 # Keep specific CSV files that need to be tracked
 !requirements.txt
