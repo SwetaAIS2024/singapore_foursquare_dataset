@@ -1,3 +1,0 @@
-Cluster 17
-Num users: 121
-Top POI categories: ['Mall', 'Multiplex', 'Chinese Restaurant', 'Food Court', 'Japanese Restaurant']

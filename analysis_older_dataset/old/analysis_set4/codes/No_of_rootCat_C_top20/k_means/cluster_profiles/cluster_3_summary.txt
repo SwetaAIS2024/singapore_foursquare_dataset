@@ -1,4 +1,0 @@
-Cluster 3
-Num users: 1
-Top POI categories: ['Fast Food Restaurant', 'Gym', 'General College & University', 'Trade School', 'Church']
-Peak hour of week: 105 (activity=1.0000)

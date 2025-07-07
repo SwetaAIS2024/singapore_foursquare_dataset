@@ -1,3 +1,0 @@
-Cluster 16
-Num users: 149
-Top POI categories: ['Mall', 'High School', 'Food Court', 'Fast Food Restaurant', 'Coffee Shop']

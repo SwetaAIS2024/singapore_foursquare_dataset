@@ -1,4 +1,0 @@
-Cluster 16
-Num users: 20
-Top POI categories: ['Trade School', 'Mall', 'Bus Station', 'Subway', 'Fast Food Restaurant']
-Peak hour of week: 0 (activity=0.0577)

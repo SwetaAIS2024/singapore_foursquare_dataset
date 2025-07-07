@@ -1,3 +1,0 @@
-Cluster 24
-Num users: 57
-Top POI categories: ['Trade School', 'Mall', 'Bus Station', 'Subway', 'Train Station']

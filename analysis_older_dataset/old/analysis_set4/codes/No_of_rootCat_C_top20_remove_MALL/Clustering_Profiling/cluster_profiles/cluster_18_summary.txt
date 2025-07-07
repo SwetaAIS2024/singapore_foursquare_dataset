@@ -1,3 +1,0 @@
-Cluster 18
-Num users: 139
-Top POI categories: ['Coffee Shop', 'Caf\x1a\x1a', 'Chinese Restaurant', 'Food Court', 'Japanese Restaurant']

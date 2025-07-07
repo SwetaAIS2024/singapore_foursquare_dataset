@@ -1,4 +1,0 @@
-Cluster 19
-Num users: 1
-Top POI categories: ['Mall', 'Food Court', 'Multiplex', 'Gym', 'Church']
-Peak hour of week: 10 (activity=0.3333)

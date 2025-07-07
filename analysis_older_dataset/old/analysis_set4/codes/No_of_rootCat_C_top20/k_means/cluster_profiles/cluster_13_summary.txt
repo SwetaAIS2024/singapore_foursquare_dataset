@@ -1,4 +1,0 @@
-Cluster 13
-Num users: 351
-Top POI categories: ['Mall', 'Subway', 'Train Station', 'Food Court', 'Bus Station']
-Peak hour of week: 10 (activity=0.0143)

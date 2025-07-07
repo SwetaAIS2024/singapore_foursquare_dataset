@@ -1,3 +1,0 @@
-Cluster 3
-Num users: 62
-Top POI categories: ['Trade School', 'Food Court', 'Bus Station', 'Train Station', 'Fast Food Restaurant']

@@ -1,3 +1,0 @@
-Cluster 11
-Num users: 24
-Top POI categories: ['High School', 'Mall', 'Food Court', 'Bus Station', 'Church']

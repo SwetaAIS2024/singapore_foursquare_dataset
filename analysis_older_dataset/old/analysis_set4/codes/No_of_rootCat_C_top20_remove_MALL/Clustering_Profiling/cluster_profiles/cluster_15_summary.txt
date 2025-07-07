@@ -1,3 +1,0 @@
-Cluster 15
-Num users: 127
-Top POI categories: ['Bus Line', 'Bus Station', 'Subway', 'High School', 'Food Court']

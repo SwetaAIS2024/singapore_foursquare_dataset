@@ -1,3 +1,0 @@
-Cluster 5
-Num users: 14
-Top POI categories: ['Nightclub', 'Mall', 'Coffee Shop', 'Chinese Restaurant', 'Asian Restaurant']

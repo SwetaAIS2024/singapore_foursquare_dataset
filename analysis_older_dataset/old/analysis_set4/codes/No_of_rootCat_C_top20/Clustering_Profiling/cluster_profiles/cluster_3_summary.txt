@@ -1,3 +1,0 @@
-Cluster 3
-Num users: 64
-Top POI categories: ['Mall', 'Hotel', 'Chinese Restaurant', 'Food Court', 'Coffee Shop']

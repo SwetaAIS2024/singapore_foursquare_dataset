@@ -1,3 +1,0 @@
-Cluster 9
-Num users: 125
-Top POI categories: ['Bus Station', 'Mall', 'Train Station', 'Food Court', 'Subway']

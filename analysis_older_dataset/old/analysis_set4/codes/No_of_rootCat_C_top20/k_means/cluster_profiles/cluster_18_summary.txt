@@ -1,4 +1,0 @@
-Cluster 18
-Num users: 1
-Top POI categories: ['Coffee Shop', 'Chinese Restaurant', 'Hotel', 'Caf\x1a\x1a', 'Food Court']
-Peak hour of week: 5 (activity=0.2000)

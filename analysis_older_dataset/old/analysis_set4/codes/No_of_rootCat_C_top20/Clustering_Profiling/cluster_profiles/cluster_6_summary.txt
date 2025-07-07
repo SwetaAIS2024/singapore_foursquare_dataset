@@ -1,3 +1,0 @@
-Cluster 6
-Num users: 61
-Top POI categories: ['Mall', 'Food Court', 'Coffee Shop', 'Nightclub', 'Chinese Restaurant']
