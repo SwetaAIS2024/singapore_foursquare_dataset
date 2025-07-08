@@ -18,7 +18,13 @@ SCIPY_DISTRIBUTIONS = {
 }
 
 def load_cluster_analysis(analysis_dir):
-    """Load all cluster analysis results from a given directory."""
+    """Load all cluster analysis results from a single all_clusters_analysis.json file if present, else fallback to per-cluster files."""
+    all_clusters_path = os.path.join(analysis_dir, "all_clusters_analysis.json")
+    if os.path.exists(all_clusters_path):
+        with open(all_clusters_path, 'r') as f:
+            clusters = json.load(f)
+        return clusters
+    # Fallback to per-cluster files
     clusters = []
     for fname in os.listdir(analysis_dir):
         if fname.startswith('cluster_') and fname.endswith('analysis_results.json'):
@@ -63,7 +69,11 @@ def sample_from_distribution(distribution, params, n, random_state=None):
 def main():
     # User config
     algo = 'kmeans'  # Change as needed
-    analysis_dir = f"../../c2_clustering/c3_individual_cluster_analysis/cluster_analysis/{algo}"
+    analysis_dir = f"c2_clustering/c3_individual_cluster_analysis/cluster_analysis/{algo}"
+    # Ensure output directory exists (robust to working directory)
+    SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+    OUTPUT_DIR = os.path.normpath(os.path.join(SCRIPT_DIR, "../c1_sampling_outputs"))
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
     # Load cluster analysis
     clusters = load_cluster_analysis(analysis_dir)
     clusters = [c for c in clusters if c['method'] == 'distribution_fitting']
@@ -91,6 +101,7 @@ def main():
     user_vectors = user_vectors[:, nonzero_cols]
     # Load cluster labels
     labels = np.load(os.path.join(CLUSTER_OUTPUT_DIR, algo, "user_cluster_labels.npy"))
+    synthetic_users = []  # Collect synthetic user vectors here
     # For each cluster, sample users
     sampled_indices = []
     for c, n_samples in zip(clusters, alloc):
@@ -115,17 +126,30 @@ def main():
                 dim_samples.append(dim_sample)
             # Stack to shape (n_samples, n_dims)
             cluster_synth = np.column_stack(dim_samples)
+            synthetic_users.append(cluster_synth)
             # Find closest real users to synthetic samples (optional, else just keep synthetic)
             # Here, we just select random real users for now
             chosen = np.random.choice(cluster_indices, size=n_samples, replace=False) if len(cluster_indices) >= n_samples else np.random.choice(cluster_indices, size=n_samples, replace=True)
         else:
             # Fallback: random sampling from cluster
             chosen = np.random.choice(cluster_indices, size=n_samples, replace=False) if len(cluster_indices) >= n_samples else np.random.choice(cluster_indices, size=n_samples, replace=True)
-        sampled_indices.extend(chosen.tolist())
+            sampled_indices.extend(chosen.tolist())
     # Save sampled user indices
-    output_path = f"../c1_sampling_outputs/sampled_user_indices_{algo}.npy"
+    output_path = os.path.join(OUTPUT_DIR, f"sampled_user_indices_{algo}.npy")
     np.save(output_path, np.array(sampled_indices))
     print(f"Saved sampled user indices to {output_path}")
+    # Save synthetic users as CSV if any were generated
+    if synthetic_users:
+        all_synth = np.vstack(synthetic_users)
+        synth_csv_path = os.path.join(OUTPUT_DIR, f"sampled_synthetic_users_{algo}.csv")
+        # Add dummy user IDs as first column
+        n_samples = all_synth.shape[0]
+        user_ids = np.arange(1, n_samples + 1)
+        all_synth_with_ids = np.column_stack((user_ids, all_synth))
+        n_features = all_synth.shape[1]
+        header = 'UserID,' + ','.join([f'Feature_{i}' for i in range(n_features)])
+        np.savetxt(synth_csv_path, all_synth_with_ids, delimiter=",", fmt="%d" + ",%.6f" * n_features, header=header, comments='')
+        print(f"Saved synthetic user feature matrix to {synth_csv_path}")
 
 if __name__ == "__main__":
     main()

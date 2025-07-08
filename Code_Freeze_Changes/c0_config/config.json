@@ -13,6 +13,6 @@
   "n_categories": 180,
   "svd_components": 100,
   "n_clusters": 10,
-  "clustering_algo":"agg",
+  "clustering_algo":"all",
   "distfit_scaled_rss_threshold": 10
 }

@@ -31,7 +31,7 @@ def load_config():
 # Constants
 SMALL_CLUSTER_THRESHOLD = 50  # Clusters smaller than this will use random sampling
 DISTRIBUTIONS = ['norm', 'gamma', 'beta', 'lognorm']  # Base distributions to try
-N_COMPONENTS_PCA = 10  # Number of PCs to compute
+N_COMPONENTS_PCA = 60  # Number of PCs to compute
 
 def load_data(algo_name):
     """Load cluster labels from the selected algorithm and user vectors from batch .npz files"""
@@ -60,7 +60,17 @@ def load_data(algo_name):
         user_vectors = user_vectors[:, nonzero_cols]
         print(f"[INFO] Shape after removing zero features: {user_vectors.shape}")
         print("[INFO] Performing dimensionality reduction...")
-        svd = TruncatedSVD(n_components=min(100, user_vectors.shape[1]-1), random_state=42)
+        # Set SVD components based on clustering algorithm
+        svd_components = 60  # default
+        if algo_name == 'agg':
+            svd_components = 10
+        elif algo_name == 'kmeans':
+            svd_components = 60
+        elif algo_name == 'dbscan':
+            svd_components = 30
+        elif algo_name == 'gmm':
+            svd_components = 60
+        svd = TruncatedSVD(n_components=min(svd_components, user_vectors.shape[1]-1), random_state=42)
         vectors_reduced = svd.fit_transform(user_vectors)
         explained_var = svd.explained_variance_ratio_.sum()
         print(f"[INFO] Explained variance ratio: {explained_var:.4f}")
@@ -170,12 +180,27 @@ def process_cluster(cluster_id, processed_vectors, labels, output_dir, scaled_rs
             continue
         
         try:
-            # Initialize distfit with tuned distribution set and max bins=5
+            # Set distfit parameters based on clustering algorithm
+            distfit_params = {
+                'bins': 20,  # default
+                'smooth': 5,
+                'n_boots': 0,
+                'method': 'parametric'
+            }
+            if algo_name == 'agg':
+                distfit_params.update({'bins': 20, 'n_boots': 0, 'smooth': 5})
+            elif algo_name == 'kmeans':
+                distfit_params.update({'bins': 50, 'n_boots': 0, 'smooth': 5})
+            elif algo_name == 'dbscan':
+                distfit_params.update({'bins': 20, 'n_boots': 0, 'smooth': 5})
+            elif algo_name == 'gmm':
+                distfit_params.update({'bins': 20, 'n_boots': 0, 'smooth': 5})
+
             dfit = distfit(
-                bins=5,  # Further reduce number of bins
-                smooth=5,
-                n_boots=0,  # no bootstrapping, to speed up the fitting
-                method='parametric'  # Use parametric fit (supported by installed distfit)
+                bins=distfit_params['bins'],
+                smooth=distfit_params['smooth'],
+                n_boots=distfit_params['n_boots'],
+                method=distfit_params['method']
             )
             # Fit distributions
             results = dfit.fit_transform(dim_data)
