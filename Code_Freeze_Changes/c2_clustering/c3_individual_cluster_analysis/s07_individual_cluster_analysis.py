@@ -75,7 +75,7 @@ def load_data(algo_name):
     except Exception as e:
         raise RuntimeError(f"Failed to load data for {algo_name}: {e}")
 
-def process_cluster(cluster_id, processed_vectors, labels, output_dir, scaled_rss_threshold=5):
+def process_cluster(cluster_id, processed_vectors, labels, output_dir, scaled_rss_threshold=5, algo_name=None):
     """Process a single cluster's data"""
     print(f"\n[INFO] Processing Cluster {cluster_id}")
     
@@ -85,6 +85,15 @@ def process_cluster(cluster_id, processed_vectors, labels, output_dir, scaled_rs
     cluster_size = len(cluster_vectors)
     print(f"[INFO] Cluster size: {cluster_size}")
     
+    # Agglomerative: sample if cluster is too large
+    MAX_CLUSTER_SIZE_FOR_FIT_AGG = 50
+    if algo_name == 'agg' and cluster_vectors.shape[0] > MAX_CLUSTER_SIZE_FOR_FIT_AGG:
+        print(f"[INFO] Sampling {MAX_CLUSTER_SIZE_FOR_FIT_AGG} users from large AGG cluster of size {cluster_vectors.shape[0]}")
+        idx = np.random.choice(cluster_vectors.shape[0], MAX_CLUSTER_SIZE_FOR_FIT_AGG, replace=False)
+        cluster_vectors = cluster_vectors[idx]
+        cluster_size = cluster_vectors.shape[0]
+
+    print(f"[INFO] Fitting distributions on shape: {cluster_vectors.shape} (users x features)")
     # Create output directory for this cluster
     cluster_dir = os.path.join(output_dir, f"cluster_{cluster_id}")
     os.makedirs(cluster_dir, exist_ok=True)
@@ -118,7 +127,39 @@ def process_cluster(cluster_id, processed_vectors, labels, output_dir, scaled_rs
     for dim_idx, dim in enumerate(significant_dims):
         print(f"\n[INFO] Processing dimension {dim} (variance: {variances[dim]:.4f})...")
         dim_data = cluster_vectors[:, dim]
-        
+        # Debug: print shape and stats of dim_data
+        print(f"[DEBUG] dim_data shape: {dim_data.shape}, min: {np.min(dim_data)}, max: {np.max(dim_data)}, any NaN: {np.isnan(dim_data).any()}, any inf: {np.isinf(dim_data).any()}")
+        # Check for invalid/extreme values
+        if np.isnan(dim_data).any() or np.isinf(dim_data).any() or np.abs(dim_data).max() > 1e6:
+            print(f"[WARNING] Skipping dimension {dim} due to invalid/extreme values.")
+            continue
+
+        # Additional range and bin checks to prevent distfit OOM
+        data_range = np.max(dim_data) - np.min(dim_data)
+        # Stricter for AGG: skip if range > 30 or inter-percentile > 30
+        if algo_name == 'agg':
+            if data_range > 30:
+                print(f"[WARNING] [AGG] Skipping dimension {dim} due to excessive data range ({data_range:.2f}).")
+                continue
+            lower, upper = np.percentile(dim_data, [2, 98])
+            if upper - lower > 30:
+                print(f"[WARNING] [AGG] Skipping dimension {dim} due to excessive inter-percentile range ({upper - lower:.2f}).")
+                continue
+            # Clip data for AGG
+            dim_data = np.clip(dim_data, lower, upper)
+        else:
+            if data_range > 60 and len(dim_data) < 1000:
+                print(f"[WARNING] Skipping dimension {dim} due to excessive data range ({data_range:.2f}) for small sample size.")
+                continue
+            lower, upper = np.percentile(dim_data, [2, 98])
+            if upper - lower > 60:
+                print(f"[WARNING] Skipping dimension {dim} due to excessive inter-percentile range ({upper - lower:.2f}).")
+                continue
+        # Remove problematic distributions for AGG if data has negative values
+        distrs = ['norm', 'expon', 'uniform', 'cauchy', 'laplace', 'genextreme']
+        if np.all(dim_data > 0):
+            distrs += ['gamma', 'beta', 'lognorm', 'rayleigh']
+
         # Basic statistics for this dimension
         dim_mean = np.mean(dim_data)
         dim_std = np.std(dim_data)
@@ -129,14 +170,12 @@ def process_cluster(cluster_id, processed_vectors, labels, output_dir, scaled_rs
             continue
         
         try:
-            # Initialize distfit with expanded distribution set and relaxed parameters
+            # Initialize distfit with tuned distribution set and max bins=5
             dfit = distfit(
-                distr=['norm', 'gamma', 'expon', 'uniform', 'beta', 'cauchy', 
-                       'laplace', 'lognorm', 'rayleigh', 'genextreme'],
-                bins='auto',
-                smooth=5,  # Increased smoothing
-                n_boots=100,  # Reduced bootstrapping for faster processing
-                method='parametric'  # Use parametric method for more stable results
+                bins=5,  # Further reduce number of bins
+                smooth=5,
+                n_boots=0,  # no bootstrapping, to speed up the fitting
+                method='parametric'  # Use parametric fit (supported by installed distfit)
             )
             # Fit distributions
             results = dfit.fit_transform(dim_data)
@@ -228,10 +267,15 @@ def analyze_clusters():
     config = load_config()
     algo = config.get('clustering_algo', 'kmeans').lower()
     algos_to_analyze = [algo] if algo != 'all' else ['kmeans', 'dbscan', 'agg', 'gmm']
-    scaled_rss_threshold = config.get('distfit_scaled_rss_threshold', 100)
+    base_scaled_rss_threshold = config.get('distfit_scaled_rss_threshold', 100)
     all_results = {}
     for algo_name in algos_to_analyze:
         print(f"\n[INFO] Running individual cluster analysis for: {algo_name}")
+        # Use a higher threshold for agg
+        if algo_name == 'agg':
+            scaled_rss_threshold = 100
+        else:
+            scaled_rss_threshold = base_scaled_rss_threshold
         try:
             labels, user_vectors = load_data(algo_name)
             # Output dir for this algorithm
@@ -242,7 +286,7 @@ def analyze_clusters():
             algo_results = []
             for cluster_id in unique_labels:
                 try:
-                    results = process_cluster(cluster_id, user_vectors, labels, output_dir, scaled_rss_threshold=scaled_rss_threshold)
+                    results = process_cluster(cluster_id, user_vectors, labels, output_dir, scaled_rss_threshold=scaled_rss_threshold, algo_name=algo_name)
                     algo_results.append(results)
                 except Exception as e:
                     print(f"[ERROR] Failed to process cluster {cluster_id} for {algo_name}: {e}")
