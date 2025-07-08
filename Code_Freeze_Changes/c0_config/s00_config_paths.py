@@ -1,0 +1,10 @@
+# config_paths.py
+MATRIX_PATH = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/Code_Freeze_Changes/c2_clustering/c1_output/matrix_output.npy"
+CHECKINS_PATH = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/Code_Freeze_Changes/c1_data/c0_original/singapore_checkins_filtered_with_locations_coord.txt"
+CATEGORIES_XLSX = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/Code_Freeze_Changes/c1_data/c0_original/Relevant_POI_category.xlsx"
+PLACE_ID_POI_CAT = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/Code_Freeze_Changes/c1_data/c0_original/sg_place_id_to_category.csv"
+FINAL_INPUT_DATASET = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/Code_Freeze_Changes/c1_data/c2_output/"
+CLUSTER_OUTPUT_DIR = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/Code_Freeze_Changes/c2_clustering/c1_output"
+
+
+

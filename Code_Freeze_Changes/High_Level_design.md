@@ -20,30 +20,31 @@
 <pre>```
 project_root/
 │
-├── data/
-│   ├── original/                  # Raw/original dataset files
-│   ├── processed/                 # Processed/cleaned data, intermediate files
-│   └── samples/                   # Sampled data for analysis/testing
+├── c0_config/                      # Config files (YAML/JSON) for pipeline 
+├── c1_data/
+│   ├── c0_original/                  # Raw/original dataset files
+│   ├── c1_processing/                 # Processed/cleaned data, intermediate files
+│   └── c2_output/                   # Sampled data for analysis/testing
 │
-├── clustering/
-│   ├── algorithms/                # Scripts for different clustering algorithms (KMeans, DBSCAN, etc.)
-│   ├── results/                   # Cluster labels, metrics, plots for each algorithm
-│   └── analysis/                  # Cluster analysis scripts and outputs (e.g., cluster profiles, heatmaps)
+├── c2_clustering/
+│   ├── c0_clustering/                # Scripts for different clustering algorithms (KMeans, DBSCAN, etc.)
+│   ├── c1_output/                   # Cluster labels, metrics, plots for each algorithm
+│   └── c2_post_clustering_analysis/                  # Cluster analysis scripts and outputs (e.g., cluster profiles, heatmaps)
 │
-├── dashboard/
-│   ├── streamlit_app.py           # Main Streamlit dashboard app
-│   ├── components/                # Custom Streamlit components or helper scripts
-│   └── static/                    # Static assets (images, CSS, etc.)
+├── c3_dashboard/
+│   ├── c0_components/                # Custom Streamlit components or helper scripts
+│   └── c1_static/                    # Static assets (images, CSS, etc.)
+│   ├── c2_streamlit_app.py           # Main Streamlit dashboard app
+|
+├── c4_sampling/
+│   ├── c0_sampling_scripts/          # Scripts for user/data sampling
+│   └── c1_sampled_outputs/           # Sampled datasets/results
 │
-├── sampling/
-│   ├── sampling_scripts/          # Scripts for user/data sampling
-│   └── sampled_outputs/           # Sampled datasets/results
+├── c5_json_dataset_generation/
+│   ├── c0_scripts/                   # Scripts for generating JSON datasets
+│   └── c1_outputs/                   # Generated JSON files
 │
-├── json_dataset_generation/
-│   ├── scripts/                   # Scripts for generating JSON datasets
-│   └── outputs/                   # Generated JSON files
-│
-├── config/                        # Config files (YAML/JSON) for pipeline parameters
+parameters
 ├── README.md
 └── requirements.txt
 ```</pre>
