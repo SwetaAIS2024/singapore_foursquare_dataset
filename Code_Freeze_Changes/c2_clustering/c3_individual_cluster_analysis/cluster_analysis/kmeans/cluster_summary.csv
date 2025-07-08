@@ -1,0 +1,11 @@
+Cluster,Size,Method,Dimensions_Fitted,Average_RSS,Best_Distribution,Best_RSS,Size_Percentage,Fit_Success_Rate
+0,66,distribution_fitting,60,0.04797633426503389,norm,0.0011169173301500775,3.3,90.91
+1,117,distribution_fitting,60,0.32795273376145306,lognorm,0.0009762971549870853,5.85,51.28
+2,47,random_sampling,0,,N/A,,2.35,0.0
+3,48,random_sampling,0,,N/A,,2.4,0.0
+4,48,random_sampling,0,,N/A,,2.4,0.0
+5,24,random_sampling,0,,N/A,,1.2,0.0
+6,9,random_sampling,0,,N/A,,0.45,0.0
+7,1586,distribution_fitting,60,0.05160062215673375,rayleigh,0.002491264267858939,79.3,3.78
+8,43,random_sampling,0,,N/A,,2.15,0.0
+9,12,random_sampling,0,,N/A,,0.6,0.0
