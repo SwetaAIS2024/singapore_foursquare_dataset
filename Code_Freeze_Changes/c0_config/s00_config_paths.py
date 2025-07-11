@@ -5,6 +5,11 @@ CATEGORIES_XLSX = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/
 PLACE_ID_POI_CAT = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/Code_Freeze_Changes/c1_data/c0_original/sg_place_id_to_category.csv"
 FINAL_INPUT_DATASET = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/Code_Freeze_Changes/c1_data/c2_output/"
 CLUSTER_OUTPUT_DIR = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/Code_Freeze_Changes/c2_clustering/c1_output"
+SYNTHETIC_USERS_NPY_PATH = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/Code_Freeze_Changes/c4_sampling/c1_sampling_outputs/synthetic_users_kmeans.npy"
+SYNTHETIC_USERS_CSV_PATH = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/Code_Freeze_Changes/c4_sampling/c1_sampling_outputs/synthetic_users_kmeans.csv"
+REAL_USERS_NPY_PATH = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/Code_Freeze_Changes/c4_sampling/c1_sampling_outputs/real_users.npy"
+POST_SAMPLING_ANALYSIS_OUTPUT_DIR = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/Code_Freeze_Changes/c4_sampling/c3_output_analysis/post_sampling_analysis_outputs"
+DIMRED_MODEL_PATH = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/Code_Freeze_Changes/c2_clustering/c1_output/svd_model_kmeans.pkl"
 
 
 

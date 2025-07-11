@@ -10,6 +10,7 @@ import os
 import sys
 import traceback
 from c0_config.s00_config_paths import FINAL_INPUT_DATASET, CLUSTER_OUTPUT_DIR
+import joblib
 
 
 def load_config():
@@ -70,6 +71,10 @@ def main():
                 X_high_var = selector.transform(X_scaled)
             all_X.append(X_high_var)
         X_all = np.vstack(all_X)
+        # Save SVD, scaler, and selector for downstream use
+        dimred_model_path = os.path.join(CLUSTER_OUTPUT_DIR, 'svd_model_kmeans.pkl')
+        joblib.dump({'svd': svd, 'scaler': scaler, 'selector': selector}, dimred_model_path)
+        print(f"[INFO] Saved SVD, scaler, selector to {dimred_model_path}")
         # --- Clustering ---
         algos_to_run = [algo] if algo != 'all' else ['kmeans', 'dbscan', 'agg', 'gmm']
         for algo_name in algos_to_run:

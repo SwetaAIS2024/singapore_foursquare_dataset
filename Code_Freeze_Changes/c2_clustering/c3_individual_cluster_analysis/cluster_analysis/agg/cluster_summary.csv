@@ -1,6 +1,6 @@
 Cluster,Size,Method,Dimensions_Fitted,Average_RSS,Best_Distribution,Best_RSS,Size_Percentage,Fit_Success_Rate
 0,24,random_sampling,0,,N/A,,18.6,0.0
-1,50,distribution_fitting,2,5.938079912791004,beta,3.990586843223316,38.76,4.0
+1,50,distribution_fitting,0,,N/A,,38.76,0.0
 2,5,random_sampling,0,,N/A,,3.88,0.0
 3,21,random_sampling,0,,N/A,,16.28,0.0
 4,12,random_sampling,0,,N/A,,9.3,0.0
