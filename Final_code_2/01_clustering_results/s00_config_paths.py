@@ -1,8 +1,0 @@
-# config_paths.py
-MATRIX_PATH = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/analysis_older_dataset/Final_code_2/01_clustering_results/matrix_output.npy"
-CHECKINS_PATH = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/analysis_older_dataset/Final_code_2/01_clustering_results/singapore_checkins_filtered_with_locations_coord.txt"
-CATEGORIES_XLSX = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/analysis_older_dataset/Final_code_2/01_clustering_results/Relevant_POI_category.xlsx"
-PLACE_ID_POI_CAT = "/home/rubesh/Desktop/sweta/google_review_collection_POI_task/singapore_foursquare_dataset_analysis/analysis_older_dataset/Final_code_2/01_clustering_results/sg_place_id_to_category.csv"
-
-
-

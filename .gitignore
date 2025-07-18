@@ -1,7 +1,7 @@
 *.npy
 *.npy.tmp
 *.txt
-*.csv
+# *.csv
 *.pack
 *.idx
 *.npz
