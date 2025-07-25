@@ -10,9 +10,11 @@
   "output_timebin_list": "timebin_list.txt",
   "n_users": 2000,
   "n_spatial_clusters": 50,
-  "n_categories": 180,
+  "n_categories": 180, 
+  "n_categories_description": "To limit number of yes categories to 180, can be any number, granularity provided for the matrix",
   "svd_components": 100,
   "n_clusters": 10,
-  "clustering_algo":"all",
+  "clustering_algo":"kmeans",
+  "clustering_algo_description": "options for algo - kmeans, dbscan, agg, gmm, all",
   "distfit_scaled_rss_threshold": 10
 }

@@ -35,47 +35,75 @@ def main():
         svd_components = int(config.get('svd_components', 100))
         n_clusters = int(config.get('n_clusters', 10))
         batch_size = int(config.get('batch_size', 100))
-        algo = config.get('clustering_algo', 'kmeans').lower()  # 'kmeans', 'dbscan', 'agg', 'gmm', 'all'
-        # Load metadata to find all batch files
+        algo = config.get('clustering_algo', 'kmeans').lower()  # 'kmeans', 'dbscan', 'agg', 'gmm', 'all' are the options , default is "kmeans"
+
+        # Load metadata to find all batch files and list is created to store the batch files path
         meta_path = os.path.join(FINAL_INPUT_DATASET, "matrix_metadata.json")
         with open(meta_path, "r") as f:
             metadata = json.load(f)
+        # this list below 
         batch_files = [os.path.join(FINAL_INPUT_DATASET, os.path.basename(f)) for f in metadata.get("batch_files", [])]
         print(f"[INFO] Found {len(batch_files)} batch files for clustering.")
-        # --- First pass: Fit SVD, scaler, selector ---
+        
+
+        # --- First pass: Find union of nonzero columns across all batches ---
+        #Scans all batches to find which columns (features) have any nonzero value.
+        #Computes the union of all nonzero columns across batches.
+        #Stores the indices of these columns and prints the total count.
+        all_nonzero_cols = None
+        for batch_file in batch_files:
+            X_sparse = sparse.load_npz(batch_file)
+            nonzero_cols = X_sparse.getnnz(axis=0) > 0
+            if all_nonzero_cols is None:
+                all_nonzero_cols = nonzero_cols
+            else:
+                all_nonzero_cols = all_nonzero_cols | nonzero_cols  # union
+        feature_indices = np.where(all_nonzero_cols)[0]
+        n_features = len(feature_indices)
+        print(f"[INFO] Total features with nonzero values across all batches: {n_features}")
+
+        # --- Second pass: Fit SVD, scaler, selector --- 
+        # DIMENSIONALITY REDUCTION AND FEATURE SELECTION BEFORE CLUSTERING 
         svd = None
         scaler = None
         selector = None
         n_features = None
         all_X = []
         for i, batch_file in enumerate(batch_files):
+            # Loading the sparse matrix and converting to dense array 
             print(f"[INFO] [First pass] Processing batch {i+1}/{len(batch_files)}: {batch_file}")
             X_sparse = sparse.load_npz(batch_file)
+            X_sparse = X_sparse[:, feature_indices]
             X = X_sparse.toarray()
-            if n_features is None:
-                nonzero_cols = X_sparse.getnnz(axis=0) > 0
-                n_features = nonzero_cols.sum()
-            X_sparse = X_sparse[:, :n_features]
-            X = X[:, :n_features]
+            
+            # For the first batch (where n_features is not set and will be None),
+            # determine th number of features based on the non-zero columns
+            # if n_features is None:
+            #     nonzero_cols = X_sparse.getnnz(axis=0) > 0
+            #     n_features = nonzero_cols.sum()
+            # skipping this one, since this only takes the first batch into account
+
             if svd is None:
                 svd = TruncatedSVD(n_components=min(svd_components, X_sparse.shape[1]-1), random_state=42)
                 X_reduced = svd.fit_transform(X_sparse)
                 print(f"[INFO] SVD explained variance ratio: {svd.explained_variance_ratio_.sum():.4f}")
                 scaler = StandardScaler()
                 X_scaled = scaler.fit_transform(X_reduced)
-                selector = VarianceThreshold(threshold=0.01)
+                selector = VarianceThreshold(threshold=0.001)
                 X_high_var = selector.fit_transform(X_scaled)
             else:
                 X_reduced = svd.transform(X_sparse)
                 X_scaled = scaler.transform(X_reduced)
                 X_high_var = selector.transform(X_scaled)
-            all_X.append(X_high_var)
-        X_all = np.vstack(all_X)
-        # Save SVD, scaler, and selector for downstream use
+            all_X.append(X_high_var) #appending to the list 
+            
+        X_all = np.vstack(all_X) # finally stack them to a single array
+        # Saving the fitted SVD, scaler, and selector for downstream/future use
         dimred_model_path = os.path.join(CLUSTER_OUTPUT_DIR, 'svd_model_kmeans.pkl')
         joblib.dump({'svd': svd, 'scaler': scaler, 'selector': selector}, dimred_model_path)
         print(f"[INFO] Saved SVD, scaler, selector to {dimred_model_path}")
-        # --- Clustering ---
+
+        # --- CLUSTERING ---
         algos_to_run = [algo] if algo != 'all' else ['kmeans', 'dbscan', 'agg', 'gmm']
         for algo_name in algos_to_run:
             print(f"[INFO] Running clustering algorithm: {algo_name}")
@@ -97,6 +125,7 @@ def main():
                 all_labels = gmm.fit_predict(X_all)
             else:
                 raise ValueError(f"Unknown clustering algorithm: {algo_name}")
+            # Saving the cluster labels as .npy file
             print(f"[INFO] Saving cluster labels to {cluster_labels_path}...")
             np.save(cluster_labels_path, all_labels)
             # Save user-to-cluster mapping as JSON and TXT

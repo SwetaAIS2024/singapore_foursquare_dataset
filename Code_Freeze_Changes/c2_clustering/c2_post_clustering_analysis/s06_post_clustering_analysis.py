@@ -8,6 +8,9 @@ import json
 import csv
 import gc
 import traceback
+
+from sklearn.decomposition import PCA
+import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA, TruncatedSVD
 from sklearn.metrics import silhouette_score, calinski_harabasz_score, davies_bouldin_score
 from sklearn.preprocessing import StandardScaler
@@ -37,7 +40,7 @@ def load_config():
         print(f"[ERROR] Invalid JSON in config file: {e}", file=sys.stderr)
         return {}
 
-def load_data_batchwise():
+def load_data_batchwise(algo_name):
     """Load cluster labels, user vectors, and user IDs batch-wise, yielding batches."""
     # Load metadata for batch file info
     meta_path = os.path.join(FINAL_INPUT_DATASET, "matrix_metadata.json")
@@ -50,7 +53,7 @@ def load_data_batchwise():
     else:
         user_ids = None
     # Load cluster labels (should be in user order)
-    cluster_labels_path = os.path.join(CLUSTER_OUTPUT_DIR, "user_cluster_labels.npy")
+    cluster_labels_path = os.path.join(CLUSTER_OUTPUT_DIR,algo_name, "user_cluster_labels.npy")
     labels = np.load(cluster_labels_path)
     # Yield batches
     user_idx = 0
@@ -68,159 +71,159 @@ def load_data_batchwise():
         yield batch_vectors, batch_labels, batch_user_ids
         user_idx += batch_size
 
-def get_all_vectors_labels_users():
-    """Concatenate all batches into single arrays (if fits in memory)."""
-    batches = list(load_data_batchwise())
-    vectors = np.concatenate([b[0] for b in batches], axis=0)
-    labels = np.concatenate([b[1] for b in batches], axis=0)
-    users = np.concatenate([b[2] for b in batches], axis=0)
-    return vectors, labels, users
+# def get_all_vectors_labels_users():
+#     """Concatenate all batches into single arrays (if fits in memory)."""
+#     batches = list(load_data_batchwise())
+#     vectors = np.concatenate([b[0] for b in batches], axis=0)
+#     labels = np.concatenate([b[1] for b in batches], axis=0)
+#     users = np.concatenate([b[2] for b in batches], axis=0)
+#     return vectors, labels, users
 
-def load_poi_categories():
-    """Load POI category names from Excel file"""
-    try:
-        cats_df = pd.read_excel(CATEGORIES_XLSX)
-        cat_col = 'POI Category in Singapore'
-        return [c for c in cats_df[cat_col] if pd.notnull(c)]
-    except Exception as e:
-        print(f"[WARNING] Failed to load POI categories: {e}")
-        print("[INFO] Using generic category names")
-        return [f'Cat_{i}' for i in range(180)]  # Assuming 180 categories
+# def load_poi_categories():
+#     """Load POI category names from Excel file"""
+#     try:
+#         cats_df = pd.read_excel(CATEGORIES_XLSX)
+#         cat_col = 'POI Category in Singapore'
+#         return [c for c in cats_df[cat_col] if pd.notnull(c)]
+#     except Exception as e:
+#         print(f"[WARNING] Failed to load POI categories: {e}")
+#         print("[INFO] Using generic category names")
+#         return [f'Cat_{i}' for i in range(180)]  # Assuming 180 categories
 
-def create_cluster_scatter_plot(user_vectors, labels, output_path):
-    """Create and save 2D scatter plot of clusters using PCA"""
-    print("[INFO] Creating cluster scatter plot...")
+# def create_cluster_scatter_plot(user_vectors, labels, output_path):
+#     """Create and save 2D scatter plot of clusters using PCA"""
+#     print("[INFO] Creating cluster scatter plot...")
     
-    # Process in batches to reduce memory usage
-    total_samples = min(2000, user_vectors.shape[0])  # Limit total samples if dataset is very large
+#     # Process in batches to reduce memory usage
+#     total_samples = min(2000, user_vectors.shape[0])  # Limit total samples if dataset is very large
     
-    # Randomly sample if we have more than total_samples
-    if user_vectors.shape[0] > total_samples:
-        indices = np.random.choice(user_vectors.shape[0], total_samples, replace=False)
-        vectors_subset = user_vectors[indices]
-        labels_subset = labels[indices]
-    else:
-        vectors_subset = user_vectors
-        labels_subset = labels
+#     # Randomly sample if we have more than total_samples
+#     if user_vectors.shape[0] > total_samples:
+#         indices = np.random.choice(user_vectors.shape[0], total_samples, replace=False)
+#         vectors_subset = user_vectors[indices]
+#         labels_subset = labels[indices]
+#     else:
+#         vectors_subset = user_vectors
+#         labels_subset = labels
     
-    # Fit PCA on the subset
-    print("[INFO] Fitting PCA...")
-    pca = PCA(n_components=2)
-    user_vec_2d = pca.fit_transform(vectors_subset)
+#     # Fit PCA on the subset
+#     print("[INFO] Fitting PCA...")
+#     pca = PCA(n_components=2)
+#     user_vec_2d = pca.fit_transform(vectors_subset)
     
-    # Create plot
-    plt.figure(figsize=(10,7))
-    scatter = plt.scatter(user_vec_2d[:,0], user_vec_2d[:,1], 
-                         c=labels_subset, cmap='tab10', alpha=0.7)
-    plt.title('User Clusters (PCA 2D)')
-    plt.xlabel('PC1')
-    plt.ylabel('PC2')
-    cbar = plt.colorbar(scatter, ticks=np.unique(labels_subset))
-    cbar.set_label('Cluster')
-    plt.tight_layout()
-    plt.savefig(output_path)
-    plt.close()
+#     # Create plot
+#     plt.figure(figsize=(10,7))
+#     scatter = plt.scatter(user_vec_2d[:,0], user_vec_2d[:,1], 
+#                          c=labels_subset, cmap='tab10', alpha=0.7)
+#     plt.title('User Clusters (PCA 2D)')
+#     plt.xlabel('PC1')
+#     plt.ylabel('PC2')
+#     cbar = plt.colorbar(scatter, ticks=np.unique(labels_subset))
+#     cbar.set_label('Cluster')
+#     plt.tight_layout()
+#     plt.savefig(output_path)
+#     plt.close()
     
-    # Clean up
-    del user_vec_2d
-    gc.collect()
+#     # Clean up
+#     del user_vec_2d
+#     gc.collect()
     
-    print(f"[INFO] Saved cluster scatter plot to {output_path}")
+#     print(f"[INFO] Saved cluster scatter plot to {output_path}")
 
-def create_cluster_heatmaps(user_vectors, labels, poi_categories, output_prefix):
-    """Create heatmaps for each cluster showing POI category vs time patterns"""
-    print("[INFO] Creating cluster heatmaps...")
-    n_clusters = len(np.unique(labels))
-    n_spatial, n_cat, n_time = 50, 180, 168  # Standard dimensions
+# def create_cluster_heatmaps(user_vectors, labels, poi_categories, output_prefix):
+#     """Create heatmaps for each cluster showing POI category vs time patterns"""
+#     print("[INFO] Creating cluster heatmaps...")
+#     n_clusters = len(np.unique(labels))
+#     n_spatial, n_cat, n_time = 50, 180, 168  # Standard dimensions
     
-    for cl in range(n_clusters):
-        print(f"[INFO] Processing cluster {cl}...")
-        idxs = np.where(labels == cl)[0]
-        if len(idxs) == 0:
-            continue
+#     for cl in range(n_clusters):
+#         print(f"[INFO] Processing cluster {cl}...")
+#         idxs = np.where(labels == cl)[0]
+#         if len(idxs) == 0:
+#             continue
             
-        # Select representative users (up to 10)
-        rep_idxs = np.random.choice(idxs, min(10, len(idxs)), replace=False)
+#         # Select representative users (up to 10)
+#         rep_idxs = np.random.choice(idxs, min(10, len(idxs)), replace=False)
         
-        # Process representative users in batches
-        agg_vector = None
-        for batch_idx in range(0, len(rep_idxs), 2):  # Process 2 users at a time
-            end_idx = min(batch_idx + 2, len(rep_idxs))
-            curr_idxs = rep_idxs[batch_idx:end_idx]
+#         # Process representative users in batches
+#         agg_vector = None
+#         for batch_idx in range(0, len(rep_idxs), 2):  # Process 2 users at a time
+#             end_idx = min(batch_idx + 2, len(rep_idxs))
+#             curr_idxs = rep_idxs[batch_idx:end_idx]
             
-            # Load and process batch
-            batch_vectors = user_vectors[curr_idxs].astype(np.float32)
-            if agg_vector is None:
-                agg_vector = batch_vectors.mean(axis=0)
-            else:
-                agg_vector += batch_vectors.mean(axis=0)
+#             # Load and process batch
+#             batch_vectors = user_vectors[curr_idxs].astype(np.float32)
+#             if agg_vector is None:
+#                 agg_vector = batch_vectors.mean(axis=0)
+#             else:
+#                 agg_vector += batch_vectors.mean(axis=0)
             
-            # Clean up batch
-            del batch_vectors
-            gc.collect()
+#             # Clean up batch
+#             del batch_vectors
+#             gc.collect()
         
-        # Average the accumulated sum
-        agg_vector /= len(rep_idxs)
+#         # Average the accumulated sum
+#         agg_vector /= len(rep_idxs)
         
-        # Create and save heatmap
-        agg_3d = agg_vector.reshape((n_spatial, n_cat, n_time))
-        agg_cat_time = agg_3d.sum(axis=0)
+#         # Create and save heatmap
+#         agg_3d = agg_vector.reshape((n_spatial, n_cat, n_time))
+#         agg_cat_time = agg_3d.sum(axis=0)
         
-        plt.figure(figsize=(16,8))
-        sns.heatmap(agg_cat_time, cmap='viridis', cbar=True)
-        plt.title(f'Cluster {cl} Representative Users: POI Category vs Hour Heatmap')
-        plt.xlabel('Hour of Week')
-        plt.ylabel('POI Category')
-        plt.yticks(ticks=np.arange(n_cat)+0.5, labels=poi_categories[:n_cat], fontsize=6)
-        plt.tight_layout()
+#         plt.figure(figsize=(16,8))
+#         sns.heatmap(agg_cat_time, cmap='viridis', cbar=True)
+#         plt.title(f'Cluster {cl} Representative Users: POI Category vs Hour Heatmap')
+#         plt.xlabel('Hour of Week')
+#         plt.ylabel('POI Category')
+#         plt.yticks(ticks=np.arange(n_cat)+0.5, labels=poi_categories[:n_cat], fontsize=6)
+#         plt.tight_layout()
         
-        output_path = f"{output_prefix}_cluster{cl}_10randuser_cat_time_heatmap.png"
-        plt.savefig(output_path)
-        plt.close()
+#         output_path = f"{output_prefix}_cluster{cl}_10randuser_cat_time_heatmap.png"
+#         plt.savefig(output_path)
+#         plt.close()
         
-        # Clean up
-        del agg_vector, agg_3d, agg_cat_time
-        gc.collect()
+#         # Clean up
+#         del agg_vector, agg_3d, agg_cat_time
+#         gc.collect()
 
-def analyze_cluster_poi_categories(user_matrix, labels, users, poi_categories, output_path):
-    """Analyze and save top POI categories for representative users in each cluster"""
-    print("[INFO] Analyzing cluster POI categories...")
-    n_clusters = len(np.unique(labels))
-    output_rows = []
+# def analyze_cluster_poi_categories(user_matrix, labels, users, poi_categories, output_path):
+#     """Analyze and save top POI categories for representative users in each cluster"""
+#     print("[INFO] Analyzing cluster POI categories...")
+#     n_clusters = len(np.unique(labels))
+#     output_rows = []
     
-    for cl in range(n_clusters):
-        idxs = np.where(labels == cl)[0]
-        if len(idxs) == 0:
-            continue
+#     for cl in range(n_clusters):
+#         idxs = np.where(labels == cl)[0]
+#         if len(idxs) == 0:
+#             continue
             
-        # Select representative users
-        rep_idxs = np.random.choice(idxs, min(10, len(idxs)), replace=False)
-        rep_user_ids = [users[i] for i in rep_idxs]
-        rep_matrices = user_matrix[rep_idxs]
+#         # Select representative users
+#         rep_idxs = np.random.choice(idxs, min(10, len(idxs)), replace=False)
+#         rep_user_ids = [users[i] for i in rep_idxs]
+#         rep_matrices = user_matrix[rep_idxs]
         
-        # Find top categories
-        agg = rep_matrices.mean(axis=0)
-        top_cats = np.argsort(agg.sum(axis=1))[::-1][:10]
-        top_cats = np.array(top_cats).flatten().tolist()
-        top_cat_names = [poi_categories[int(i)] for i in top_cats]
+#         # Find top categories
+#         agg = rep_matrices.mean(axis=0)
+#         top_cats = np.argsort(agg.sum(axis=1))[::-1][:10]
+#         top_cats = np.array(top_cats).flatten().tolist()
+#         top_cat_names = [poi_categories[int(i)] for i in top_cats]
         
-        output_rows.append({
-            'cluster': cl,
-            'user_ids': ', '.join(map(str, rep_user_ids)),
-            'top_poi_categories': ', '.join(top_cat_names)
-        })
+#         output_rows.append({
+#             'cluster': cl,
+#             'user_ids': ', '.join(map(str, rep_user_ids)),
+#             'top_poi_categories': ', '.join(top_cat_names)
+#         })
         
-        # Clean up memory
-        del rep_matrices, agg, top_cats, top_cat_names
-        gc.collect()
+#         # Clean up memory
+#         del rep_matrices, agg, top_cats, top_cat_names
+#         gc.collect()
     
-    # Save results
-    with open(output_path, 'w', newline='') as csvfile:
-        fieldnames = ['cluster', 'user_ids', 'top_poi_categories']
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(output_rows)
-    print(f"[INFO] Saved cluster analysis to {output_path}")
+#     # Save results
+#     with open(output_path, 'w', newline='') as csvfile:
+#         fieldnames = ['cluster', 'user_ids', 'top_poi_categories']
+#         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+#         writer.writeheader()
+#         writer.writerows(output_rows)
+#     print(f"[INFO] Saved cluster analysis to {output_path}")
 
 def analyze_cluster_quality(user_vectors, labels, output_prefix):
     """Analyze clustering quality using multiple metrics and visualize results"""
@@ -319,15 +322,15 @@ def analyze_cluster_quality(user_vectors, labels, output_prefix):
         'size_ratio': cluster_sizes.max() / cluster_sizes.min()
     }
 
-def process_vectors_in_batches(vectors, batch_size=100):
-    """Process large vector arrays in batches to reduce memory usage"""
-    total_vectors = vectors.shape[0]
-    processed = np.zeros((total_vectors, 2))
+# def process_vectors_in_batches(vectors, batch_size=100):
+#     """Process large vector arrays in batches to reduce memory usage"""
+#     total_vectors = vectors.shape[0]
+#     processed = np.zeros((total_vectors, 2))
     
-    for i in range(0, total_vectors, batch_size):
-        end_idx = min(i + batch_size, total_vectors)
-        batch = vectors[i:end_idx].copy()  # Load only a batch into memory
-        yield batch, i, end_idx
+#     for i in range(0, total_vectors, batch_size):
+#         end_idx = min(i + batch_size, total_vectors)
+#         batch = vectors[i:end_idx].copy()  # Load only a batch into memory
+#         yield batch, i, end_idx
 
 def main():
     try:
@@ -362,9 +365,9 @@ def main():
             mapping_path = os.path.join(output_dir, "user_cluster_mapping.csv")
             user_cluster_df.to_csv(mapping_path, index=False)
             print(f"\n[INFO] Saved user-cluster mapping to {mapping_path}")
-            # --- Compute clustering quality metrics on a random sample of 100 users ---
+            # --- Compute clustering quality metrics on a random sample of 1000 users ---
             try:
-                sample_size = 100
+                sample_size = 1000
                 sampled_vectors = []
                 sampled_labels = []
                 rng = np.random.default_rng(42)
@@ -402,11 +405,9 @@ def main():
                 print(f"[WARNING] Could not compute clustering quality metrics for {algo_name}: {e}")
             # Optionally, add more batch-wise visualizations/analysis here
             try:
-                from sklearn.decomposition import PCA
-                import matplotlib.pyplot as plt
                 sample_vectors = []
                 sample_labels = []
-                for batch_vectors, batch_labels, _ in load_data_batchwise():
+                for batch_vectors, batch_labels, _ in load_data_batchwise(algo_name):
                     n = min(20, batch_vectors.shape[0])
                     idx = np.random.choice(batch_vectors.shape[0], n, replace=False)
                     sample_vectors.append(batch_vectors[idx])

@@ -1,7 +1,7 @@
 Metric,Value,Interpretation
-Silhouette Score,0.3464730077766545,"Range: [-1, 1], higher is better. Values > 0.5 indicate good separation"
-Calinski-Harabasz Score,2.2676639148292783,Higher values indicate better-defined clusters
-Davies-Bouldin Score,2.1338625650152196,Lower values indicate better cluster separation
-Largest Cluster Size,78.0,78.0% of total users
-Smallest Cluster Size,1.0,1.0% of total users
-Size Ratio,78.0,Ratio > 20 indicates high imbalance
+Silhouette Score,0.5591790563762682,"Range: [-1, 1], higher is better. Values > 0.5 indicate good separation"
+Calinski-Harabasz Score,5.487668524781052,Higher values indicate better-defined clusters
+Davies-Bouldin Score,5.008557960536011,Lower values indicate better cluster separation
+Largest Cluster Size,769.0,76.9% of total users
+Smallest Cluster Size,3.0,0.3% of total users
+Size Ratio,256.3333333333333,Ratio > 20 indicates high imbalance
