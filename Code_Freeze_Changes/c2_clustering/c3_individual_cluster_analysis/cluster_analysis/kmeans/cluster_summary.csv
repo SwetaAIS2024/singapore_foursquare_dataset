@@ -1,11 +1,6 @@
 Cluster,Size,Method,Dimensions_Fitted,Average_RSS,Best_Distribution,Best_RSS,Size_Percentage,Fit_Success_Rate
-0,115,distribution_fitting,36,0.09751222498146922,loggamma,0.022299696173030265,5.75,31.3
-1,8,random_sampling,0,,N/A,,0.4,0.0
-2,62,distribution_fitting,36,0.11942091333107663,dweibull,0.019642980819083597,3.1,58.06
-3,57,distribution_fitting,36,0.14297319588632854,dweibull,0.044148957193784095,2.85,63.16
-4,27,random_sampling,0,,N/A,,1.35,0.0
-5,88,distribution_fitting,36,0.15746456913125673,lognorm,0.02157818704275576,4.4,40.91
-6,38,random_sampling,0,,N/A,,1.9,0.0
-7,35,random_sampling,0,,N/A,,1.75,0.0
-8,22,random_sampling,0,,N/A,,1.1,0.0
-9,1548,distribution_fitting,28,0.17182705617719307,loggamma,0.01608590204012466,77.4,1.81
+0,100,distribution_fitting,36,0.11353520314369739,lognorm,0.010994693212753174,5.0,36.0
+1,114,distribution_fitting,36,0.061616079928722284,t,0.010597290668979206,5.7,31.58
+2,1585,distribution_fitting,36,0.17067043274128874,gamma,0.016428617245250406,79.25,2.27
+3,127,distribution_fitting,36,0.05318364982616863,t,0.005771866718642717,6.35,28.35
+4,74,distribution_fitting,36,0.4690301435510589,beta,0.026798047841635895,3.7,48.65
