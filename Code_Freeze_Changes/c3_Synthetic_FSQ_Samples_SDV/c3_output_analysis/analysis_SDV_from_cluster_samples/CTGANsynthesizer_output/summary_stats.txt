@@ -1,0 +1,77 @@
+=== KS Test & Wasserstein Distance for Numerical Features ===
+user_id: KS=0.2346 (p=0.0000), Wasserstein=36226.1538
+timezone: KS=0.0004 (p=1.0000), Wasserstein=0.0450
+lat: KS=0.1465 (p=0.0000), Wasserstein=0.0067
+lon: KS=0.2623 (p=0.0000), Wasserstein=0.0141
+
+=== SDV Overall Quality Report ===
+Overall Score: 0.6647916700589949
+Column Shapes:
+         Column        Metric     Score                                              Error
+0       user_id  KSComplement  0.765445                                               None
+1      place_id  KSComplement       NaN  TypeError: Expected numeric dtype, got object ...
+2      datetime  KSComplement       NaN  TypeError: Expected numeric dtype, got object ...
+3      timezone  KSComplement  0.999550                                               None
+4           lat  KSComplement  0.853468                                               None
+5           lon  KSComplement  0.737663                                               None
+6  POI category  TVComplement  0.655867                                               None
+Column Pair Trends:
+    Column 1      Column 2  ... Synthetic Correlation                                              Error
+0    user_id      place_id  ...                   NaN  AttributeError: 'numpy.dtypes.ObjectDType' obj...
+1    user_id      datetime  ...                   NaN  AttributeError: 'numpy.dtypes.ObjectDType' obj...
+2    user_id      timezone  ...                   NaN  ConstantInputError: The real data in column 't...
+3    user_id           lat  ...             -0.036415                                               None
+4    user_id           lon  ...             -0.017394                                               None
+5    user_id  POI category  ...                   NaN                                               None
+6   place_id      datetime  ...                   NaN  AttributeError: 'numpy.dtypes.ObjectDType' obj...
+7   place_id      timezone  ...                   NaN  ConstantInputError: The real data in column 't...
+8   place_id           lat  ...                   NaN  AttributeError: 'numpy.dtypes.ObjectDType' obj...
+9   place_id           lon  ...                   NaN  AttributeError: 'numpy.dtypes.ObjectDType' obj...
+10  place_id  POI category  ...                   NaN  TypeError: ufunc 'isfinite' not supported for ...
+11  datetime      timezone  ...                   NaN  ConstantInputError: The real data in column 't...
+12  datetime           lat  ...                   NaN  AttributeError: 'numpy.dtypes.ObjectDType' obj...
+13  datetime           lon  ...                   NaN  AttributeError: 'numpy.dtypes.ObjectDType' obj...
+14  datetime  POI category  ...                   NaN  TypeError: ufunc 'isfinite' not supported for ...
+15  timezone           lat  ...                   NaN  ConstantInputError: The real data in column 't...
+16  timezone           lon  ...                   NaN  ConstantInputError: The real data in column 't...
+17  timezone  POI category  ...                   NaN                                               None
+18       lat           lon  ...              0.686022                                               None
+19       lat  POI category  ...                   NaN                                               None
+20       lon  POI category  ...                   NaN                                               None
+
+[21 rows x 7 columns]
+
+=== POI Category Frequency Comparison ===
+                              real  synthetic
+POI category                                 
+accessories store         0.001770   0.000000
+afghan restaurant         0.000075   0.000000
+african restaurant        0.000506   0.000000
+american restaurant       0.011472   0.003021
+aquarium                  0.001751   0.000000
+arcade                    0.004439   0.001007
+arepa restaurant          0.000318   0.000000
+argentinian restaurant    0.000056   0.000000
+art gallery               0.002042   0.001007
+arts & crafts store       0.001461   0.000000
+asian restaurant          0.027280   0.034240
+australian restaurant     0.001798   0.002014
+automotive shop           0.002088   0.004028
+bagel shop                0.000075   0.000000
+bakery                    0.006134   0.004028
+bar                       0.012568   0.013092
+bbq joint                 0.002950   0.001007
+bed & breakfast           0.001826   0.000000
+beer garden               0.002463   0.002014
+bike rental / bike share  0.000056   0.000000
+KL divergence (lat): 0.3792
+KL divergence (lon): 0.4638
+
+=== Check-ins per User per POI Histogram Stats ===
+Real: mean=1.51, std=2.47, min=1, max=111
+Synthetic: mean=1.01, std=0.07, min=1, max=2
+
+=== Check-ins per User Statistics ===
+Real: count=2333.0, mean=45.77, std=52.13, min=1.0, max=1166.0
+Synthetic: count=283.0, mean=3.51, std=2.95, min=1.0, max=29.0
+KL divergence (user_id distribution): 7.7094

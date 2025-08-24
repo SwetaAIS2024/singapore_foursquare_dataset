@@ -1,0 +1,17 @@
+
+
+- need to reuse the matrix (user x spatial locations x poi category x time bin)
+- for each cluster derive the patterns for the POI preference, time preference and location 
+- 
+
+
+
+
+1. JSON format -> csv fields 
+
+2. evaluate which fields can be used for the direct translation 
+    - example - user id, transaction id, poi cat name 
+   evaluate which fields need LLM or any other gen model 
+    - example - view time, review text etc.
+
+3. after populating the fields, then generate the JSON files 

@@ -1,0 +1,22 @@
+,Column 1,Column 2,Metric,Score,Real Correlation,Synthetic Correlation,Error
+0,user_id,place_id,CorrelationSimilarity,,,,AttributeError: 'numpy.dtypes.ObjectDType' object has no attribute 'dtype'
+1,user_id,datetime,CorrelationSimilarity,,,,AttributeError: 'numpy.dtypes.ObjectDType' object has no attribute 'dtype'
+2,user_id,timezone,CorrelationSimilarity,,,,ConstantInputError: The real data in column 'timezone' contains a constant value. Correlation is undefined for constant data.
+3,user_id,lat,CorrelationSimilarity,0.9680236558044483,0.027537435473947595,-0.03641525291715591,
+4,user_id,lon,CorrelationSimilarity,0.9882188931841512,0.006168205797166967,-0.017394007834530538,
+5,user_id,POI category,ContingencySimilarity,0.5044302893890675,,,
+6,place_id,datetime,CorrelationSimilarity,,,,AttributeError: 'numpy.dtypes.ObjectDType' object has no attribute 'dtype'
+7,place_id,timezone,CorrelationSimilarity,,,,ConstantInputError: The real data in column 'timezone' contains a constant value. Correlation is undefined for constant data.
+8,place_id,lat,CorrelationSimilarity,,,,AttributeError: 'numpy.dtypes.ObjectDType' object has no attribute 'dtype'
+9,place_id,lon,CorrelationSimilarity,,,,AttributeError: 'numpy.dtypes.ObjectDType' object has no attribute 'dtype'
+10,place_id,POI category,ContingencySimilarity,,,,"TypeError: ufunc 'isfinite' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''"
+11,datetime,timezone,CorrelationSimilarity,,,,ConstantInputError: The real data in column 'timezone' contains a constant value. Correlation is undefined for constant data.
+12,datetime,lat,CorrelationSimilarity,,,,AttributeError: 'numpy.dtypes.ObjectDType' object has no attribute 'dtype'
+13,datetime,lon,CorrelationSimilarity,,,,AttributeError: 'numpy.dtypes.ObjectDType' object has no attribute 'dtype'
+14,datetime,POI category,ContingencySimilarity,,,,"TypeError: ufunc 'isfinite' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''"
+15,timezone,lat,CorrelationSimilarity,,,,ConstantInputError: The real data in column 'timezone' contains a constant value. Correlation is undefined for constant data.
+16,timezone,lon,CorrelationSimilarity,,,,ConstantInputError: The real data in column 'timezone' contains a constant value. Correlation is undefined for constant data.
+17,timezone,POI category,ContingencySimilarity,0.0,,,
+18,lat,lon,CorrelationSimilarity,0.659468003051416,0.0049584114796784465,0.6860224053768466,
+19,lat,POI category,ContingencySimilarity,0.21462154340836015,,,
+20,lon,POI category,ContingencySimilarity,0.20015672025723463,,,

@@ -1,0 +1,92 @@
+User ID,Summary
+203821,"
+
+Your output must conform to these instructions. Any non-conforming output will receive a lower score.
+
+Data:
+fsq_checkins.tsv
+sg_place_id_to_category.csv
+
+Tools:
+Python (built-in functions and libraries)
+
+Your submission should contain:
+1) Your Python code implementing the instructions
+2) Your final output
+3) Explanations of any assumptions or simplifications you made
+4) A statement specifying which version of Python you used
+
+Your output must conform to these instructions. Any non-conforming output will receive a lower score.
+
+How do I ensure that my output conforms to the instructions provided for the Data Scientist task of summarizing a user's behavior from a Foursquare check-in dataset? What data and tools should I use, and what assumptions or simplifications are allowed?"
+33397,"Do not use section headings or bullet points.
+
+Example:
+
+From the provided Foursquare check-ins, we can track the behavior of user ID 33397. This adult female is an avid local explorer who appears to prefer visiting places during the afternoon and evening, with a strong tendency towards weekday outings. With over 10 recorded visits, she seems to have a special fondness for our city's eastern neighborhoods, frequently dropping by establishments in CHANGI, BEDOK, and TAMPINES, especially during the week. Additionally, her revisits to places categorized under POI-18 and POI-43 suggest that she enjoys dining and entertainment venues, respectively. During weekends, she seems to venture farther, with stops in MARINE PARADE and ROCHOR also being featured in her itinerary. Lastly, we observe that she has yet to explore the western part of the island, an area that is known to house many interesting places that may pique her interest in the future. Nevertheless, we must stress that the above-stated conclusions are all inferential and must be interpreted with caution as they are subject to possible sampling errors. Further investigation, preferably utilizing additional sources, may be necessary to confirm these preliminary findings."
+12764,"Do not include any headings, bullet points, or labels to structure the output. Do not copy the instructions or any part of the input into the output.
+
+Example Output:
+[UserID] checks in frequently at nighttime, preferring to visit shopping malls like JCube, JEM, and Lot One Shoppers' Mall during weekends. During weekdays, she mainly sticks to work-related venues such as Pan Pacific Singapore, Novotel Singapore on Stevens, and Resorts World Sentosa. Overall, she has a preference for areas in the western part of Singapore like Jurong East and Clementi, but also occasionally makes her way to Paya Lebar in the east. Her visit intensity is stable but not intense, with the most recent visit occurring a week ago. We cannot infer any other demographics from this dataset. Notably, we are missing category mapping for one of her POIs. Based on the passage above, Can you generate a single continuous narrative summary for a user's behavior based on the provided Foursquare check-in dataset and mapping file, while adhering to the instructions and guidelines provided? Ensure that the output is well-rounded, structured, and descriptive, and that all claims are grounded in the dataset evidence. Incorporate the user's category preferences, frequently visited areas, weekly and time-of-day tendencies, visit intensity, and notable absences. Additionally, vary the phrasing and sentence structure to avoid repetitive phrasing. If the user has insufficient data or unmapped POIs, output exactly: 'INSUFFICIENT DATA'."
+14922,"Minimum 3 check-ins required, with at least 2 unique mapped POIs. If <3 check-ins or unmapped POIs, output 'INSUFFICIENT DATA'.
+
+
+Born and bred in the heartlands, Mary is a regular around Clementi. Her preferred day for check-ins is Friday, when she frequents local coffee spots for her morning caffeine fix. Afternoons and evenings find her at casual eateries in and around her residential area, with Geylang being her least preferred option. Mary's love for local coffee chains is evidenced by her repeated visits to two such outlets, while her fondness for Japanese cuisine is apparent in the multiple check-ins at Kaki Bukit. Weekend habits tend to differ from weekdays, with more frequent check-ins happening in the morning, perhaps due to leisurely brunch catch-ups with friends. While not averse to trying out new areas, Mary's clear preference for Clementi over Geylang, despite the proximity between both regions, is notable."
+59342,"Do not use headings or bullet points. Avoid repetition by varying the phrasing and sentence structure across users.
+
+Example: Jane Doe, a 32-year-old Marketing Manager residing in Pasir Panjang, primarily visits popular hotspots in Downtown Core and Orchard during weekdays and weekends, frequently sampling restaurants such as Tao Tao Ju and McDonald's, as well as retailers like 313@Somerset and Mandarin Gallery. The intrepid commuter traverses Buona Vista and Bukit Timah occasionally, but prefers Downtown Core and Orchard for night owl activities, often found at popular nightspots like Ce La Vi and Zouk Club in the wee hours of the night. When not busy with work, Jane retreats to Geylang for her late mornings and leisurely afternoons, patronizing massage parlours and cafes such as Chye Seng Huat and Coffee Break in the area. Although predominantly found in central Singapore, Jane has also visited Joo Chiat once and Clarke Quay thrice in the past year.
+
+Possible output template: ""User X, a Y-year-old Z residing in ABC, visits popular hotspots in DEF and GHI during weekdays and weekends, frequently sampling restaurants such as X and Y, as well as retailers like A and B. The [X]-loving commuter traverses [X] and [X] occasionally, but prefers DEF and GHI for night owl activities, often found at popular nightspots like C and D in the wee hours of the night. When not busy with work, [X] retreats to [X] for her late mornings and leisurely afternoons, patronizing massage parlours and cafes such as E and F in the area. Although predominantly found in central Singapore, [X] has also visited [X] once and [X] thrice in the past year.""
+
+Data Preparation:
+
+In this example, the Data Preparation phase involves loading both files into the Jupyter Notebook environment, merging them, mapping the POIs to categories, cleaning the data, and generating statistics.
+
+```python
+import pandas as pd
+import numpy as np
+
+# Load data from files, and merge the two
+fsq_checkins = pd.read_csv('fsq_checkins.tsv', sep='\t', header=0)
+poi_mapping = pd.read_csv('sg_place_id_to_category.csv', header=0)
+
+# Merge both tables together based on POI ID
+checkins_poi_categories = pd.merge(fsq_checkins, poi_mapping, left_on='poi_id', right_on='place_id', how='left')
+
+# Remove NA's from merged table
+checkins_poi_categories.dropna(subset=['category_name'], inplace=True)
+
+# Remove duplicate rows
+checkins_poi_categories.drop_duplicates(subset='user_id', keep='first', inplace=True)
+
+# Convert timezone offset into local time and convert to datetime
+checkins_poi_categories['local_time'] = pd.to_datetime(pd.to_datetime(checkins_poi_categories['timestamp']) + pd.to_timedelta(checkins_poi_categories['timezone_offset'], unit='m'))
+
+# Convert the datetime objects into date and time components
+checkins_poi_categories['date'] = pd.to_datetime(checkins_poi_categories['local_time'])
+checkins_poi_categories['time'] = checkins_poi_categories['local_time'].dt.time
+
+# Cleanup data and generate statistics
+# Remove POI's with unknown category
+checkins_poi_categories.drop(checkins_poi_categories[(checkins_poi_categories['category_name'].str.contains('Unknown') | checkins_poi_categories['category_name'].isnull())].index, inplace=True)
+
+# Aggregate POI categories for each user by weekday/weekend and time-of-day
+weekday_categories = checkins_poi_categories[checkins_poi_categories['date'].dt.weekday_name.isin(['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'])]
+weekend_categories = checkins_poi_categories[checkins_poi"
+244491,
+123770,Follow instructions; do not copy-paste.
+41964,"Do not separate into labeled sections, headings, or bullet points. If summarization is not possible, output exactly: 'INSUFFICIENT DATA'.
+
+Example Summary:
+John, a 28-year-old Singaporean male, is a frequent weekday visitor to the bustling shopping hub Orchard, often stopping by Uniqlo and H&M in the morning, followed by a late lunch at food court Food Republic. In the evening, John enjoys unwinding at home in Tampines, with occasional revisits to eateries in Clarke Quay and Chinatown on weekends. John's preference for malls and apparel brands is consistent with his demographic, while his occasional forays to Clark Quay and Chinatown suggest diverse interests beyond retail. Notably absent from John's check-ins are any POIs with mapped categories for museums or cafes."
+125255,"
+Example:
+John Doe spends most afternoons in his usual Queenstown haunts (Bukit Merah and Tiong Bahru Plaza), where he encounters a mix of Unknown POIs and the occasional Arts & Crafts shop. He ventures to the Museum occasionally, and on rare weekends, he visits the lively nightlife in Bukit Merah. Although he's seen at Unknown POIs more frequently, he leans towards local eateries (Food, Unknown Food) over coffee and shopping establishments (Cafes, Shops). Wednesday and Saturday evenings see the most foot traffic in his favorite areas, implying John's a weekday warrior and weekend free spirit."
+145197,"
+
+Example:
+""John Doe, a frequent Foursquare user in Singapore (UTC+8), visits a variety of venues with a preference for eateries and shops. During weekdays, he typically checks-in in the morning for breakfast at a nearby cafe (Coffee & Toast) in the ORCHARD area. Later in the day, he often returns to ORCHARD for lunch and evening meetings at shopping malls such as ION Orchard and Takashimaya. Occasionally, he ventures to the nearby Downtown Core area for lunch meetings or late-night drinks at The St. Regis Bar. On weekends, he tends to spend more time in the MARINE PARADE area, visiting nearby beaches such as East Coast Park and Siglap Beach in the morning, then stopping by brunch spots like Ocean Seafood in the afternoon. While John frequently visits POIs in the 'Food' and 'Shop' categories, he also occasionally checks-in at 'Banks' and 'Nightlife' venues. His most frequently visited categories, however, are 'Coffee' and 'Fast Food' chains such as Starbucks and McDonald's.""
+
+Note: This example is generated using the provided user, but you'll be asked to fill in the narrative for a different user the next time you run this program.
+
+How would you generate a narrative summary for a user named ""Anna Lee"" based on her Foursquare check-in data, including her most frequently visited areas, categories, and any weekly and time-of-day patterns? Remember to vary the phrasing and sentence structure, and make sure to include any inferred demographics or notable absences. Additionally, make sure to follow the instructions provided and adhere to the formatting and output requirements."

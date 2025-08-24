@@ -1,0 +1,24 @@
+
+{
+  "role": "Data Scientist",
+  "task": "Generate a user summary from the provided documents and context",
+  "context": "There are multiple files. There is a file named sampled_FSQ_dataset_after_clustering.txt which contains the sampled representative user's checkins from each cluster.",
+  "instructions": [
+    "From the sampled_FSQ_dataset_after_clustering.txt, extract the user's check-in history, POI preferences, and interactions.",
+    "For the POI preferences, refer to the poi mapping file named sg_place_id_to_category.csv.",
+    "After the extraction, summarize the user profile and preferences in a concise manner. Generate a user summary.",
+    "Each user summary should include user's preferences, frequent type of places visited, their interactions and also their weekly and time patterns.",
+    "Refer to the example user summary structure provided in the example_user_summary.json file."
+  ],
+  
+  "constraints": {
+    "output_format": "Generate the output in a JSON format with keys as 'user_id', 'user_summary', 'poi_preferences'.",
+    "validity": "Ensure the JSON is valid and well-formed.",
+    "structure": "Do not include duplicate keys, missing fields, or malformed JSON.",
+    "defaults": "Use default values for any missing information.",
+    "nesting": "Ensure all keys are properly nested and closed.",
+    "forbidden": "Do not generate a summary for users with no check-ins, invalid data, or randomly generated users. Avoid duplicate keys, missing fields, or malformed JSON."
+  },
+
+  "final_prompt": "You are Data Scientist. Your goal is to Generate a user summary from the provided documents and context.\n\nContext:\nThere are multiple files. There is a file named sampled_FSQ_dataset_after_clustering.txt which contains the sampled representative user's checkins from each cluster.\n\nInstructions:\n1. From the sampled_FSQ_dataset_after_clustering.txt, extract the user's check-in history, POI preferences, and interactions.\n2. For the POI preferences, refer to the poi mapping file named sg_place_id_to_category.csv.\n\nConstraints:\n- Output format: Generate the output in a JSON format with keys as 'user_id', 'user_summary', 'poi_preferences'.\n- Do not generate a summary for users with no check-ins or for randomly generated users.\n\nNow, based on the above, provide the output:"
+}

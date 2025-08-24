@@ -1,0 +1,19 @@
+{
+  "role": "Data Scientist",
+  "task": "Generate a user summary from the provided documents and context",
+  "context": "There are multiple files. There is a file named sampled_FSQ_dataset_after_clustering.txt which contains the sampled representative user's check-ins from each cluster.",
+  "instructions": [
+    "From the sampled_FSQ_dataset_after_clustering.txt, extract the user's check-in history, POI preferences, interactions and planning_area also can be said the areas visited.",
+    "For the POI preferences, refer to the poi mapping file named sg_place_id_to_category.csv.",
+    "After the extraction, summarize the user profile and preferences in a concise narrative format.",
+    "Each user summary should include the user's demographics, preferences, frequent type of places visited, frequent areas of Singapore visited, their interactions, weekly and time patterns, personality traits, and exclusions.",
+    "Refer to the example user summary structure provided in the example_user_summary.json file for inspiration.",
+    "Ensure the summary is varied and uses different templates for each section to avoid repetition."
+  ],
+  "constraints": {
+    "output_format": "Generate the output as a narrative text summary with sections for demographics, preferences, patterns, personality, exclusions, and an overall summary.",
+    "validity": "Ensure the summary is concise, coherent, and well-structured.",
+    "forbidden": "Do not generate a summary for users with no check-ins, invalid data, or randomly generated users."
+  },
+  "final_prompt": "You are a Data Scientist. Your goal is to generate a user summary from the provided documents and context.\n\nContext:\nThere are multiple files. There is a file named sampled_FSQ_dataset_after_clustering.txt which contains the sampled representative user's check-ins from each cluster.\n\nInstructions:\n1. From the sampled_FSQ_dataset_after_clustering.txt, extract the user's check-in history, POI preferences, and interactions.\n2. For the POI preferences, refer to the poi mapping file named sg_place_id_to_category.csv.\n3. Summarize the user profile and preferences in a concise narrative format.\n4. Include sections for demographics, preferences, patterns, personality, exclusions, and an overall summary.\n5. Use varied templates for each section to ensure diversity in the summaries.\n\nConstraints:\n- Output format: Generate the output as a narrative text summary with sections for demographics, preferences, patterns, personality, exclusions, and an overall summary.\n- Do not generate a summary for users with no check-ins, invalid data, or randomly generated users.\n\nNow, based on the above, provide the output:"
+}
