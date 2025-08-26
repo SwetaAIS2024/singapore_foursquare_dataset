@@ -103,6 +103,8 @@ def process_input_file(input_file, poi_mapping, cluster_summary, user_to_cluster
             "day_of_week": day_of_week,
             "time_of_day": time_of_day,
             "month_of_year": month_of_year,
+            "lat": row["lat"],
+            "lon": row["lon"],
         })
 
     # Generate user profiles
