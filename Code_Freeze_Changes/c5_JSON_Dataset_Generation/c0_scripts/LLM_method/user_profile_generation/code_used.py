@@ -62,6 +62,18 @@ def generate_unique_poi_id(lat, lon):
     hash_digest = hashlib.sha256(hash_input.encode()).hexdigest()[:8]
     return f"POI-ID-{hash_digest}"
 
+def build_poi_id_pool():
+    poi_id_pool = defaultdict(list)
+    for user in checkin_data:
+        visits = user.get("user_metadata", [])
+        for entry in visits:
+            if "lat" in entry and "lon" in entry:
+                lat, lon = float(entry["lat"]), float(entry["lon"])
+                poi_id = generate_unique_poi_id(lat, lon)
+                poi_id_pool[poi_id].append((lat, lon))
+    return poi_id_pool
+
+
 def generate_timestamp(day_of_week, time_of_day, month_of_year, year=2025, jitter_days=0, jitter_hours=0, jitter_minutes=0, jitter_seconds=0):
         # Map month name to number
     month_num = list(calendar.month_name).index(month_of_year)
