@@ -24,8 +24,8 @@ for user in data:
         views[idx]['duration'] = random.randint(1, 19)
 
     # Save back the modified views
-    user['views'] = views
+    user['interaction']['views'] = views
 
 # Save the corrected data back to a new JSON file
-with open("c5_JSON_Dataset_Generation/c0_scripts/LLM_method/user_profile_generation/app_profiles_all_users_file_with_changes.json", "w", encoding="utf-8") as f:
+with open("c5_JSON_Dataset_Generation/c0_scripts/LLM_method/user_profile_generation/app_profiles_all_users_version_1.json", "w", encoding="utf-8") as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
