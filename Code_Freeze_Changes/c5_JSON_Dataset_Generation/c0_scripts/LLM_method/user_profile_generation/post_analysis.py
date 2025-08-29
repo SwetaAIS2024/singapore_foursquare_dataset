@@ -1,7 +1,7 @@
 import json
 import csv
 
-with open("c5_JSON_Dataset_Generation/c0_scripts/LLM_method/user_profile_generation/app_profiles_all_users_file_with_changes.json", "r", encoding="utf-8") as f:
+with open("c5_JSON_Dataset_Generation/c0_scripts/LLM_method/user_profile_generation/app_profiles_all_users_version_4.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # Prepare CSV output

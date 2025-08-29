@@ -2,6 +2,7 @@ import json
 import csv
 import time
 import pandas as pd
+import hashlib
 from datetime import datetime
 from collections import defaultdict
 from statistics import mean
@@ -11,8 +12,10 @@ from c0_Configuration.s00_config_paths import (
     SAMPLED_FSQ_PLANNING_AREA,
     POI_CAT_MAPPING,
     FINAL_CHECKIN_FILE_TO_LLM,
-    CATEGORIES_XLSX
+    CATEGORIES_XLSX,
 )
+
+
 
 # Load POI category mapping using pandas
 def load_poi_mapping(poi_mapping_path):
@@ -86,6 +89,7 @@ def process_input_file(input_file, poi_mapping, cluster_summary, user_to_cluster
         place_id = row['place_id']
         datetime_str = row['datetime']
         planning_area = row['planning_area']
+     
 
         # Parse datetime and extract metadata
         dt = datetime.strptime(datetime_str, "%a %b %d %H:%M:%S %z %Y")
@@ -95,9 +99,11 @@ def process_input_file(input_file, poi_mapping, cluster_summary, user_to_cluster
 
         # Map place_id to POI category
         poi_category = poi_mapping.get(place_id, "Unknown Category")
+        hash_digest = hashlib.sha256(str(place_id).encode()).hexdigest()[:8]
 
         # Append check-in metadata
         user_data[user_id].append({
+            "poi_id": f"POI-ID-{hash_digest}",
             "poi_category": poi_category,
             "planning_area": planning_area,
             "day_of_week": day_of_week,

@@ -4,13 +4,16 @@ import hashlib
 from c0_Configuration.s00_config_paths import CHECKINS_PATH, PLACE_ID_POI_CAT
 
 # File paths
-checkin_file = CHECKINS_PATH
+# checkin_file = CHECKINS_PATH
+checkin_file = "c1_Data_Collection_and_Processing/c0_original/sampled_FSQ_dataset_with_planning_area.txt"
 place_cat_file = PLACE_ID_POI_CAT
 output_csv = "c1_Data_Collection_and_Processing/c0_original/master_poi_pool.csv"
 output_json = "c1_Data_Collection_and_Processing/c0_original/master_poi_pool.json"
 
 # 1. Load check-in data
-cols = ['user_id', 'place_id', 'datetime', 'timezone', 'lat', 'lon']
+# cols = ['user_id', 'place_id', 'datetime', 'timezone', 'lat', 'lon']
+
+cols = ['user_id', 'place_id', 'datetime', 'timezone', 'lat', 'lon', 'cluster_id', 'sampled_count', 'planning_area']
 checkins = pd.read_csv(checkin_file, sep='\t', names=cols, header=None)
 
 # 2. Load place_id to category mapping
@@ -36,7 +39,9 @@ for _, row in master_poi_pool.iterrows():
     
     poi_json_list.append({
         "poiId": f"POI-ID-{hash_digest}",
+        # "poiId": row['place_id'],
         "poiCategories": [row['category']],
+        "planningArea": None if pd.isna(row['planning_area']) else row['planning_area'],
         "userLocation": {
             "latitude": float(row['lat']),
             "longitude": float(row['lon'])

@@ -3,6 +3,7 @@ import os
 # Get the directory of the folder containing the script
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
+MASTER_POI = os.path.join(BASE_DIR, "c1_Data_Collection_and_Processing/c0_original/master_poi_pool.json")
 
 MATRIX_PATH = os.path.join(BASE_DIR, "./c2_Clustering_and_Analysis/c1_output/matrix_output.npy")
 CHECKINS_PATH = os.path.join(BASE_DIR, "./c1_Data_Collection_and_Processing/c0_original/singapore_checkins_filtered_with_locations_coord.txt")
