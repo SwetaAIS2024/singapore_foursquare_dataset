@@ -6,8 +6,7 @@ from sklearn.preprocessing import MaxAbsScaler
 import os
 from collections import Counter
 from scipy import sparse
-#from .c2_quantization import quantize_sparse_matrix
-#from .c3_utils import save_matrix_and_metadata
+
 
 from sklearn.preprocessing import KBinsDiscretizer, MaxAbsScaler
 from c0_Configuration.s00_config_paths import CHECKINS_PATH, CATEGORIES_XLSX, MATRIX_PATH, PLACE_ID_POI_CAT, FINAL_INPUT_DATASET
