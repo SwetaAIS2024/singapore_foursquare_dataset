@@ -12,7 +12,7 @@ tqdm
 transformers
 kernels
 torch
-triton-windows
+#triton-windows
 torchvision
 torchaudio
 accelerate
