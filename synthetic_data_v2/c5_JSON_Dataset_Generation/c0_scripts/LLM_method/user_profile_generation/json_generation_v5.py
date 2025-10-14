@@ -559,7 +559,7 @@ if __name__ == "__main__":
     print(f"\nGenerated profiles for {len(app_profiles)} users")
     
     # Save with cluster-based filename
-    output_filename = "c5_JSON_Dataset_Generation/c0_scripts/LLM_method/user_profile_generation/app_profiles_all_users_version_6_cluster_based.json"
+    output_filename = "c5_JSON_Dataset_Generation/c0_scripts/LLM_method/user_profile_generation/app_profiles_all_users_version_5_cluster_based.json"
     with open(output_filename, "w", encoding="utf-8") as f:
         json.dump(app_profiles, f, ensure_ascii=False, indent=2)
 
