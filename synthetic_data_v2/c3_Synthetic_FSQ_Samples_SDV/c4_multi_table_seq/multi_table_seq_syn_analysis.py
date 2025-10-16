@@ -7,7 +7,7 @@ from sdv.metadata import MultiTableMetadata, SingleTableMetadata
 from sdv.sequential import PARSynthesizer
 
 # --- CONFIG ---
-from c0_Configuration.s00_config_paths import (
+from synthetic_data_v2.c0_Configuration.config_paths import (
     CHECKINS_PATH,
     CATEGORIES_XLSX,
     PLACE_ID_POI_CAT,

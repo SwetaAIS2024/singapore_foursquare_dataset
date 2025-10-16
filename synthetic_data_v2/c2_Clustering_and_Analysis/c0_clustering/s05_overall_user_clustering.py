@@ -17,10 +17,10 @@ import json
 import os
 import sys
 import traceback
-from c0_Configuration.s00_config_paths import FINAL_INPUT_DATASET, CLUSTER_OUTPUT_DIR, DIMRED_MODEL_PATH
+from synthetic_data_v2.c0_Configuration.config_paths import FINAL_INPUT_DATASET, CLUSTER_OUTPUT_DIR, DIMRED_MODEL_PATH
 import joblib
 import gc
-from c1_Data_Collection_and_Processing.c1_Feature_Extraction.c2_utils import load_config
+from synthetic_data_v2.c1_Data_Collection_and_Processing.c1_Feature_Extraction.util import load_config
 
 
 def dimension_reduction(algo, batch_files, feature_indices, svd_components, encoding_dim=32, epochs=20, batch_size=250):

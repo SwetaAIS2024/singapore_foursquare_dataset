@@ -6,14 +6,14 @@ import os
 import glob
 from scipy import stats
 from scipy.stats import truncnorm
-from c0_Configuration.s00_config_paths import (
+from synthetic_data_v2.c0_Configuration.config_paths import (
     ORIGINAL_DATA_PATH,
     CLUSTER_LABELS_PATH,
     OUTPUT_SAMPLED_FSQ_PATH, 
     CLUSTER_DISTRIBUTION_SUMMARY_PATH,
     CLUSTER_DISTRIBUTION_PARAMS_PATH
 )
-from c1_Data_Collection_and_Processing.c1_Feature_Extraction.c2_utils import load_config
+from synthetic_data_v2.c1_Data_Collection_and_Processing.code.util import load_config
 TOTAL_USERS_FOR_SAMPLING = 1000 # Total number of users to consider for sampling
 
 def load_data():

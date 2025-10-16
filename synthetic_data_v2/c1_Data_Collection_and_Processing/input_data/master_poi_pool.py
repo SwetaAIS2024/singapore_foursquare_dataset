@@ -1,7 +1,7 @@
 import pandas as pd
 import json
 import hashlib
-from c0_Configuration.s00_config_paths import CHECKINS_PATH, PLACE_ID_POI_CAT
+from synthetic_data_v2.c0_Configuration.config_paths import CHECKINS_PATH, PLACE_ID_POI_CAT
 
 # File paths
 # checkin_file = CHECKINS_PATH

@@ -3,7 +3,7 @@ import json
 import csv
 from openai import OpenAI
 from pydantic import BaseModel, Field
-from c0_Configuration.s00_config_paths import POI_UNIQUE_ID_MAPPING, OUTPUT_SAMPLED_FSQ_PATH
+from synthetic_data_v2.c0_Configuration.config_paths import POI_UNIQUE_ID_MAPPING, OUTPUT_SAMPLED_FSQ_PATH
 
 PROMPT_TEMPLATE_PATH = "c5_JSON_Dataset_Generation/c0_scripts/LLM_method/user_summary_extraction/prompt_for_user_summary.json"
 CHECKIN_FILE = OUTPUT_SAMPLED_FSQ_PATH

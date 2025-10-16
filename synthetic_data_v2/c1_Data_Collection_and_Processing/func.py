@@ -1,6 +1,6 @@
 import gc
-from .c1_build_matrix import main_matrix_build
-from .c2_utils import load_config
+from .util import main_matrix_build
+from .util import load_config
 
 if __name__ == "__main__":
     print("[INFO] Starting matrix building process...")

@@ -3,13 +3,15 @@ import os
 # Get the directory of the folder containing the script
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
-MASTER_POI = os.path.join(BASE_DIR, "c1_Data_Collection_and_Processing/c0_original/master_poi_pool.json")
+CONFIG_PATH = os.path.join(BASE_DIR, "./c0_Configuration/config_params.json")
+
+MASTER_POI = os.path.join(BASE_DIR, "./c1_Data_Collection_and_Processing/input_data/master_poi_pool.json")
 
 MATRIX_PATH = os.path.join(BASE_DIR, "./c2_Clustering_and_Analysis/c1_output/matrix_output.npy")
-CHECKINS_PATH = os.path.join(BASE_DIR, "./c1_Data_Collection_and_Processing/c0_original/singapore_checkins_filtered_with_locations_coord.txt")
-CATEGORIES_XLSX = os.path.join(BASE_DIR, "./c1_Data_Collection_and_Processing/c0_original/Relevant_POI_category.xlsx")
-PLACE_ID_POI_CAT = os.path.join(BASE_DIR, "./c1_Data_Collection_and_Processing/c0_original/sg_place_id_to_category.csv")
-FINAL_INPUT_DATASET = os.path.join(BASE_DIR, "./c1_Data_Collection_and_Processing/c2_output/")
+CHECKINS_PATH = os.path.join(BASE_DIR, "./c1_Data_Collection_and_Processing/input_data/singapore_checkins_filtered_with_locations_coord.txt")
+CATEGORIES_XLSX = os.path.join(BASE_DIR, "./c1_Data_Collection_and_Processing/input_data/Relevant_POI_category.xlsx")
+PLACE_ID_POI_CAT = os.path.join(BASE_DIR, "./c1_Data_Collection_and_Processing/input_data/sg_place_id_to_category.csv")
+FINAL_INPUT_DATASET = os.path.join(BASE_DIR, "./c1_Data_Collection_and_Processing/output/")
 CLUSTER_OUTPUT_DIR = os.path.join(BASE_DIR, "./c2_Clustering_and_Analysis/c1_output")
 SYNTHETIC_USERS_NPY_PATH = os.path.join(BASE_DIR, "./c3_Synthetic_FSQ_Samples_SDV/c1_sampling_outputs/synthetic_users_kmeans.npy")
 SYNTHETIC_USERS_CSV_PATH = os.path.join(BASE_DIR, "./c3_Synthetic_FSQ_Samples_SDV/c1_sampling_outputs/synthetic_users_kmeans.csv")
@@ -48,7 +50,7 @@ POI_UNIQUE_ID_MAPPING = os.path.join(BASE_DIR, "./c5_JSON_Dataset_Generation/c0_
 # CLUSTER_SUMMARY = os.path.join(BASE_DIR, "c5_JSON_Dataset_Generation/c0_scripts/LLM_method/older/per_cluster_insights/all_clusters_summary.csv")
 CLUSTER_SUMMARY = os.path.join(BASE_DIR, "c5_JSON_Dataset_Generation/c0_scripts/LLM_method/older/per_cluster_insights/all_clusters_summary_with_area.csv")
 SAMPLED_FSQ_PLANNING_AREA = os.path.join(BASE_DIR,"c5_JSON_Dataset_Generation/c0_scripts/LLM_method/older/sampled_FSQ_dataset_with_planning_area.txt")
-POI_CAT_MAPPING = os.path.join(BASE_DIR, "./c1_Data_Collection_and_Processing/c0_original/sg_place_id_to_category.csv")
+POI_CAT_MAPPING = os.path.join(BASE_DIR, "./c1_Data_Collection_and_Processing/input_data/sg_place_id_to_category.csv")
 FINAL_CHECKIN_FILE_TO_LLM = os.path.join(BASE_DIR, "c5_JSON_Dataset_Generation/c0_scripts/LLM_method/input_dataset/final_checkin_file.json")
 
 # user summary extraction amd generation 

@@ -1,26 +1,79 @@
-import pandas as pd
-import numpy as np
+import os
+import json
 from scipy import sparse
+import numpy as np
+import sys
+import pandas as pd
 from sklearn.cluster import DBSCAN
 from sklearn.preprocessing import MaxAbsScaler
-import os
 from collections import Counter
-from scipy import sparse
-
-
 from sklearn.preprocessing import KBinsDiscretizer, MaxAbsScaler
-from c0_Configuration.s00_config_paths import CHECKINS_PATH, CATEGORIES_XLSX, MATRIX_PATH, PLACE_ID_POI_CAT, FINAL_INPUT_DATASET
-
+from c0_Configuration.config_paths import CHECKINS_PATH, CATEGORIES_XLSX, MATRIX_PATH, PLACE_ID_POI_CAT, FINAL_INPUT_DATASET, CONFIG_PATH 
 # Set the output directory for matrix batches and metadata
 OUTPUT_DIR = FINAL_INPUT_DATASET
 
-def build_user_spatial_category_time_matrix_batchwise( df, user_ids, spatial_clusters, categories, n_time_slots=168, batch_size=500, output_dir=None, n_quantization_bins=64):
+def save_matrix_and_metadata(matrix, metadata, base_path):
+    """Save the quantized matrix and its metadata."""
+    matrix_path = os.path.join(base_path, 'user_spatial_category_time_matrix.npz')
+    metadata_path = os.path.join(base_path, 'matrix_metadata.json')
+    sparse.save_npz(matrix_path, matrix)
+    with open(metadata_path, 'w') as f:
+        json.dump(metadata, f, indent=2)
+    # Write index files as plain text, one value per line
+    base_name = os.path.join(base_path, 'matrix')
+    user_list_path = f'{base_name}_user_list.txt'
+    cluster_list_path = f'{base_name}_spatial_cluster_list.txt'
+    category_list_path = f'{base_name}_poi_cat_list.txt'
+    timebin_list_path = f'{base_name}_timebin_list.txt'
+    with open(user_list_path, 'w') as f:
+        for u in metadata['user_ids']:
+            f.write(f"{u}\n")
+    with open(cluster_list_path, 'w') as f:
+        for c in metadata['spatial_clusters']:
+            f.write(f"{c}\n")
+    with open(category_list_path, 'w') as f:
+        for cat in metadata['categories']:
+            f.write(f"{cat}\n")
+    with open(timebin_list_path, 'w') as f:
+        for t in range(metadata['n_time_slots']):
+            f.write(f"{t}\n")
+
+def load_matrix_and_metadata(base_path):
+    matrix_path = os.path.join(base_path, 'user_spatial_category_time_matrix.npz')
+    metadata_path = os.path.join(base_path, 'matrix_metadata.json')
+    matrix = sparse.load_npz(matrix_path)
+    with open(metadata_path, 'r') as f:
+        metadata = json.load(f)
+    return matrix, metadata
+
+
+def load_config():
+    """Load configuration from c0_Configuration/config.json"""
+    config_path = CONFIG_PATH
+    try:
+        with open(config_path, 'r') as f:
+            config = json.load(f)
+        return config
+    except FileNotFoundError:
+        print(f"[ERROR] Config file not found: {config_path}", file=sys.stderr)
+        return {}
+    except json.JSONDecodeError as e:
+        print(f"[ERROR] Invalid JSON in config file: {e}", file=sys.stderr)
+        return {}
+
+
+def build_user_spatial_category_time_matrix_batchwise( df, user_ids, spatial_clusters, categories, poi_ids,n_time_slots=168, batch_size=500, output_dir=None, n_quantization_bins=64):
     n_users = len(user_ids)
     n_spatial_clusters = len(spatial_clusters)
     n_categories = len(categories)
-    matrix_shape = (n_users, n_spatial_clusters, n_categories, n_time_slots)
+    n_pois = len(poi_ids)
+    
+    matrix_shape = (n_users, n_spatial_clusters, n_categories, n_pois, n_time_slots)
+
+    #mapping from original ids to indices
     spatial_to_idx = {sc: idx for idx, sc in enumerate(spatial_clusters)}
     category_to_idx = {cat: idx for idx, cat in enumerate(categories)}
+    poi_to_idx = {poi: idx for idx, poi in enumerate(poi_ids)}
 
     if output_dir is None:
         output_dir = OUTPUT_DIR
@@ -48,27 +101,33 @@ def build_user_spatial_category_time_matrix_batchwise( df, user_ids, spatial_clu
             u = row['user_id']
             sc = row['spatial_cluster']
             cat = row['category'].title()
+            poi = row['place_id']
             t = int(row['hour_of_week'])
-            if u in batch_user_idx and sc in spatial_to_idx and cat in category_to_idx and 0 <= t < n_time_slots:
-                key = (batch_user_idx[u], spatial_to_idx[sc], category_to_idx[cat], t)
+            if (u in batch_user_idx and 
+                sc in spatial_to_idx and 
+                cat in category_to_idx and 
+                poi in poi_to_idx and
+                0 <= t < n_time_slots):
+                key = (batch_user_idx[u], spatial_to_idx[sc], category_to_idx[cat], poi_to_idx[poi], t)
                 key_counter[key] += 1
 
 
         rows, cols, data = [], [], []
-        for (u_idx, sc_idx, cat_idx, t), count in key_counter.items():
+        for (u_idx, sc_idx, cat_idx, poi_idx, t), count in key_counter.items():
             flat_idx = (
                 u_idx * (n_spatial_clusters * n_categories * n_time_slots) +
                 sc_idx * (n_categories * n_time_slots) +
-                cat_idx * n_time_slots +
+                cat_idx * (n_pois * n_time_slots) +
+                poi_idx * n_time_slots +
                 t
             )
             rows.append(flat_idx)
             cols.append(0)
             data.append(count)
 
-        total_size = batch_size * n_spatial_clusters * n_categories * n_time_slots
+        total_size = batch_size * n_spatial_clusters * n_categories * n_pois * n_time_slots
         batch_matrix = sparse.coo_matrix((data, (rows, cols)), shape=(total_size, 1), dtype=np.float32).tocsr()
-        batch_matrix = batch_matrix.reshape(batch_size, n_spatial_clusters * n_categories * n_time_slots).tocsr()
+        batch_matrix = batch_matrix.reshape(batch_size, n_spatial_clusters * n_categories * n_pois * n_time_slots).tocsr()
 
         # Collect nonzero data for global quantization
         all_nonzero_data.extend(batch_matrix.data.tolist())
@@ -108,6 +167,7 @@ def build_user_spatial_category_time_matrix_batchwise( df, user_ids, spatial_clu
         'user_ids': user_ids,
         'spatial_clusters': spatial_clusters,
         'categories': categories,
+        'poi_ids': poi_ids,
         'n_time_slots': n_time_slots,
         'batch_size': batch_size,
         'batch_files': batch_files,
@@ -259,12 +319,16 @@ def main_matrix_build(eps_km, min_samples, n_time_bins, n_users, n_spatial_clust
 
     ordered_categories = ordered_categories[:n_categories]
 
+    selected_poi_ids = df['place_id'].unique().tolist()  # Use all POIs in the filtered dataset
+    print(f"[INFO] Selected {len(selected_poi_ids)} POIs from the dataset")
+
     # BAUIDING THE BATCHWISE MATRIX USING THE USERS, SPATIAL CLUSTERS, CATEGORIES AND THE TIME SLOTS 
     batch_files, metadata = build_user_spatial_category_time_matrix_batchwise(
         df=df,
         user_ids=users,
         spatial_clusters=spatial_clusters,
         categories=ordered_categories,
+        poi_ids=selected_poi_ids,
         n_time_slots=n_time_bins,
         batch_size=batch_size, # if no batching is needed, then set the batch_size to n_users
         output_dir=OUTPUT_DIR,

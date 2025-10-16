@@ -15,8 +15,8 @@ import sys
 import json
 import gc
 import warnings
-from c0_Configuration.s00_config_paths import CLUSTER_OUTPUT_DIR, FINAL_INPUT_DATASET
-from c1_Data_Collection_and_Processing.c1_Feature_Extraction.c2_utils import load_config
+from synthetic_data_v2.c0_Configuration.config_paths import CLUSTER_OUTPUT_DIR, FINAL_INPUT_DATASET
+from synthetic_data_v2.c1_Data_Collection_and_Processing.c1_Feature_Extraction.util import load_config
 
 # Constants
 SMALL_CLUSTER_THRESHOLD = 50  # Clusters smaller than this will use random sampling

@@ -131,7 +131,7 @@ import time
 import json
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
-from c0_Configuration.s00_config_paths import ( 
+from synthetic_data_v2.c0_Configuration.config_paths import ( 
    SYSTEM_PROMPT_TEMPLATE_PATH,
    SUMMARY_OUTPUT_FILE,
    FINAL_JSON_INPUT_LLM

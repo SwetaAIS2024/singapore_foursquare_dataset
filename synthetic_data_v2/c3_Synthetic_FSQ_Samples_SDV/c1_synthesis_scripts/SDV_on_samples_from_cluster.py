@@ -7,7 +7,7 @@ from sdv.metadata import MultiTableMetadata  # Import for multi-table metadata i
 import numpy as np
 
 # Paths
-from c0_Configuration.s00_config_paths import (
+from synthetic_data_v2.c0_Configuration.config_paths import (
     CATEGORIES_XLSX,
     PLACE_ID_POI_CAT,
     SDV_OUTPUT_DIR,

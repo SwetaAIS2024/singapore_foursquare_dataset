@@ -15,8 +15,8 @@ from sklearn.decomposition import PCA, TruncatedSVD
 from sklearn.metrics import silhouette_score, calinski_harabasz_score, davies_bouldin_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.feature_selection import VarianceThreshold
-from c0_Configuration.s00_config_paths import CATEGORIES_XLSX, FINAL_INPUT_DATASET, CLUSTER_OUTPUT_DIR, PLACE_ID_POI_CAT, CHECKINS_PATH
-from c1_Data_Collection_and_Processing.c1_Feature_Extraction.c2_utils import load_config
+from synthetic_data_v2.c0_Configuration.config_paths import CATEGORIES_XLSX, FINAL_INPUT_DATASET, CLUSTER_OUTPUT_DIR, PLACE_ID_POI_CAT, CHECKINS_PATH
+from synthetic_data_v2.c1_Data_Collection_and_Processing.c1_Feature_Extraction.util import load_config
 
 
 POST_CLUSTER_ANALYSIS_OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "c1_output")

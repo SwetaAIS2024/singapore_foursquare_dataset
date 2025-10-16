@@ -7,7 +7,7 @@ from sdv.evaluation.single_table import evaluate_quality, run_diagnostic, get_co
 from sdv.metadata import SingleTableMetadata
 import matplotlib
 from sdmetrics.visualization import get_column_plot as sdmetrics_get_column_plot
-from c0_Configuration.s00_config_paths import (
+from synthetic_data_v2.c0_Configuration.config_paths import (
     CHECKINS_PATH,
     CATEGORIES_XLSX,
     PLACE_ID_POI_CAT,

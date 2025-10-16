@@ -24,9 +24,9 @@ if __name__ == '__main__':
     parser.add_argument("--max_hist_length", type=int, default=200, help="Max history record length for each user")
     parser.add_argument("--train_ratio", type=float, default=0.7, help="Portion of training set")
     parser.add_argument("--val_ratio", type=float, default=0.1, help="Portion of validation set")
-    parser.add_argument("--data_path", type=str, default="../data/SG_synthetic/app_profiles_all_users_version_4.json", help="Data path")
-    parser.add_argument("--poi_path", type=str, default="../data/SG_synthetic/all_poi_id_all_interactions.json", help="POI data path")
-    parser.add_argument("--model_path", type=str, default="../saved_model/model_ckpt.pth", help="Model path")
+    parser.add_argument("--data_path", type=str, default="./c4_Validation/STE-POI-synthetic-main/data/SG_synthetic/app_profiles_all_users_version_4.json", help="Data path")
+    parser.add_argument("--poi_path", type=str, default="./c4_Validation/STE-POI-synthetic-main/data/SG_synthetic/all_poi_id_all_interactions.json", help="POI data path")
+    parser.add_argument("--model_path", type=str, default="./c4_Validation/STE-POI-synthetic-main/data/SG_synthetic/all_poi_id_all_interactions.json", help="Model path")
 
     args = parser.parse_args()
     batch_size = args.batch_size

@@ -7,7 +7,7 @@ from datetime import datetime
 from collections import defaultdict
 from statistics import mean
 from geopy.geocoders import Nominatim
-from c0_Configuration.s00_config_paths import (
+from synthetic_data_v2.c0_Configuration.config_paths import (
     CLUSTER_SUMMARY,
     SAMPLED_FSQ_PLANNING_AREA,
     POI_CAT_MAPPING,

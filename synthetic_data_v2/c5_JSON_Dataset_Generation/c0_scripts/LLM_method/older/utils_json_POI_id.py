@@ -1,6 +1,6 @@
 import pandas as pd
 
-from c0_Configuration.s00_config_paths import PLACE_ID_POI_CAT, CATEGORIES_XLSX
+from synthetic_data_v2.c0_Configuration.config_paths import PLACE_ID_POI_CAT, CATEGORIES_XLSX
 
 def generate_category_poiid_map(categories_xlsx):
     cat_df = pd.read_excel(categories_xlsx)

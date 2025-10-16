@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import random
 from datetime import datetime, timedelta
-from c0_Configuration.s00_config_paths import JSON_OUTPUT_DIR, POI_UNIQUE_ID_MAPPING
+from synthetic_data_v2.c0_Configuration.config_paths import JSON_OUTPUT_DIR, POI_UNIQUE_ID_MAPPING
 
 # --- Load your mock JSON schema ---
 # For this template, we assume you have a Python dict called `json_schema`
