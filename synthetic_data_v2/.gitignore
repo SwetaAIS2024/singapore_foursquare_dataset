@@ -1,2 +1,15 @@
 /code_venv
 /c5_JSON_Dataset_Generation/c0_scripts/LLM_method/input_dataset/mean_lat_lon_area/malaysia-singapore-brunei-latest.osm.pbf
+#*.npy
+*.npy.tmp
+#*.txt
+# *.csv
+*.pack
+*.idx
+#*.npz
+
+# Keep specific CSV files that need to be tracked
+!requirements.txt
+!README.txt
+!pre_analysis_categories_sg.txt
+!pre_analysis_places_sg.txt

@@ -1,8 +1,0 @@
-,Column,Metric,Score,Error
-0,user_id,KSComplement,0.765445286890232,
-1,place_id,KSComplement,,"TypeError: Expected numeric dtype, got object instead."
-2,datetime,KSComplement,,"TypeError: Expected numeric dtype, got object instead."
-3,timezone,KSComplement,0.9995504776175314,
-4,lat,KSComplement,0.8534684069626173,
-5,lon,KSComplement,0.7376625892391147,
-6,POI category,TVComplement,0.6558667576934492,

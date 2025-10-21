@@ -394,7 +394,7 @@ def assign_funnel_interactions(visits, view_to_transaction_rate=0.2, transaction
 if __name__ == "__main__":
     
     # Load cluster preferences and calculate transaction multipliers
-    cluster_file_path = "c2_Clustering_and_Analysis/c2_post_clustering_analysis/c1_output/kmeans/poi_category_by_cluster.csv"
+    cluster_file_path = "c2_Clustering_and_Analysis/post_clustering_analysis/output/kmeans/poi_category_by_cluster.csv"
     
     try:
         cluster_preferences = load_cluster_patterns(cluster_file_path)

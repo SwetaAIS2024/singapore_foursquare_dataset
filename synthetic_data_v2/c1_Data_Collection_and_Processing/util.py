@@ -115,8 +115,8 @@ def build_user_spatial_category_time_matrix_batchwise( df, user_ids, spatial_clu
         rows, cols, data = [], [], []
         for (u_idx, sc_idx, cat_idx, poi_idx, t), count in key_counter.items():
             flat_idx = (
-                u_idx * (n_spatial_clusters * n_categories * n_time_slots) +
-                sc_idx * (n_categories * n_time_slots) +
+                u_idx * (n_spatial_clusters * n_categories * n_pois * n_time_slots) +
+                sc_idx * (n_categories * n_pois * n_time_slots) +
                 cat_idx * (n_pois * n_time_slots) +
                 poi_idx * n_time_slots +
                 t
@@ -187,8 +187,7 @@ def build_user_spatial_category_time_matrix_batchwise( df, user_ids, spatial_clu
     return batch_files, metadata
 
 
-
-def main_matrix_build(eps_km, min_samples, n_time_bins, n_users, n_spatial_clusters, n_categories, n_quantization_bins, batch_size):
+def main_matrix_build(eps_km, min_samples, n_time_bins, n_users, n_spatial_clusters, n_categories, n_pois, n_quantization_bins, batch_size):
     
     cols = ['user_id', 'place_id', 'datetime', 'timezone', 'lat', 'lon']
     df = pd.read_csv(CHECKINS_PATH, sep='\t', names=cols)
@@ -196,41 +195,29 @@ def main_matrix_build(eps_km, min_samples, n_time_bins, n_users, n_spatial_clust
     
     # SPATIAL CLUSTERING
     coords = df[['lat', 'lon']].to_numpy()
-    # coords_rad = np.radians(coords) #converting the degrees to radians
-    kms_per_radian = 6371.0088 #DBSCAN uses the haversine distance
-    # which is in radians, so we need to convert the km to radians
-    # by dividing by the kms_per_radian which is the radius of the Earth in km
-    epsilon = eps_km / kms_per_radian # this is a param for DBSCAN, it is the maximum distance 
+    kms_per_radian = 6371.0088
+    epsilon = eps_km / kms_per_radian
     print(f"[INFO] Using eps_km={eps_km} for DBSCAN clustering")
     print(f"[INFO] Using epsilon={epsilon} radians for DBSCAN clustering")
-    # between two samples for them to be considered as in the same neighborhood
-    # DBSCAN clustering on the coordinates in radians
-    #db = DBSCAN(eps=epsilon, min_samples=min_samples, algorithm='ball_tree', metric='haversine').fit(coords_rad)
-    # db = DBSCAN(eps=0.0001  , min_samples=min_samples).fit(coords_rad) #- OOM error
-    db = DBSCAN(eps=epsilon, min_samples=min_samples).fit(coords) #- OOM error
+    
+    db = DBSCAN(eps=epsilon, min_samples=min_samples).fit(coords)
     df['spatial_cluster'] = db.labels_
     print("Dataset with the spatial clustering labels : ", df.head())
-    # find the unique spatial cluster labels, excluding the -1 labels which represents the noise
+    
     valid_spatial_clusters = sorted([c for c in set(df['spatial_cluster']) if c != -1]) 
-    # mapping the original spatial cluster labels to a new set of consecutive labels starting from 0
     spatial_cluster_map = {old: new for new, old in enumerate(valid_spatial_clusters)}
-    # removing the rows with the noisy labels or -1 spatial labels 
     df = df[df['spatial_cluster'] != -1]
-    # relabeling the spatial clusters using the new mapping creted above - spatial_cluster_map
     df['spatial_cluster'] = df['spatial_cluster'].map(spatial_cluster_map)
 
-    # VALID SPATIAL CLUSTERS - checking the number of unique spatial clusters
     unique_spatial_clusters = df['spatial_cluster'].unique()
     print(f"[INFO] Number of unique spatial clusters: {len(unique_spatial_clusters)}")
     print(f"[INFO] Unique spatial clusters: {unique_spatial_clusters}")    
 
-    # Check number of check-ins per spatial cluster
     checkins_per_cluster = df['spatial_cluster'].value_counts().sort_index()
     print("\n[INFO] Check-ins per spatial cluster:")
     for cluster_id, count in checkins_per_cluster.items():
         print(f"Spatial Cluster {cluster_id}: {count} check-ins")
 
-    # Check number of unique users per spatial cluster
     users_per_cluster = df.groupby('spatial_cluster')['user_id'].nunique()
     print("\n[INFO] Unique users per spatial cluster:")
     for cluster_id, user_count in users_per_cluster.items():
@@ -240,18 +227,28 @@ def main_matrix_build(eps_km, min_samples, n_time_bins, n_users, n_spatial_clust
     relevant_cats_df = pd.read_excel(CATEGORIES_XLSX)
     cat_col = 'POI Category in Singapore'
     yes_col = 'Relevant to use case '
-    # Filtering the relevant categories based on the yes_col
     relevant_categories = [cat.strip().lower() for cat, flag in zip(relevant_cats_df[cat_col], relevant_cats_df[yes_col]) if str(flag).strip().lower() == 'yes' and cat and str(cat).strip()]
     relevant_categories = list(dict.fromkeys(relevant_categories))
     ordered_categories = [cat.title() for cat in relevant_categories]
-    # Print diagnostics for debugging
     print(f"[INFO] Number of relevant categories: {len(relevant_categories)}")
     print(f"[INFO] Example relevant categories: {relevant_categories[:10]}")
 
+
+    # CRITICAL FIX: limit the categories after initial filtering
+    if len(relevant_categories) > n_categories:
+        updated_relevant_categories = relevant_categories[:n_categories]  # Take only first n_categories
+        print(f"[INFO] Reduced categories from {len(relevant_categories)} to {len(updated_relevant_categories)}")
+    else:
+        updated_relevant_categories = relevant_categories
+        print(f"[INFO] Using all {len(updated_relevant_categories)} categories as they are within the limit")
+
+
+    ordered_categories = [cat.title() for cat in updated_relevant_categories]
+    print(f"[INFO] Number of categories to use: {len(ordered_categories)}")
+    print(f"[INFO] Categories: {ordered_categories}")
+
     # DATETIME PARSING 
-    #print('[DEBUG] Sample datetime before parsing:', df['datetime'].head().tolist())
     df['datetime'] = pd.to_datetime(df['datetime'], errors='coerce')
-    #print('[DEBUG] Sample datetime after parsing:', df['datetime'].head().tolist())
 
     # OTHER PREPROCESSING
     if 'category' not in df.columns:
@@ -261,76 +258,123 @@ def main_matrix_build(eps_km, min_samples, n_time_bins, n_users, n_spatial_clust
     df['hour_of_week'] = df['datetime'].dt.dayofweek * 24 + df['datetime'].dt.hour
     df['category'] = df['category'].astype(str).str.strip().str.lower()
     
-    # FINAL FEATURES FOR THE MATRIX 
+    # REDUCE DIMENSIONS TO AVOID MEMORY OVERFLOW
+    # Limit categories first
+    # ordered_categories = ordered_categories[:n_categories]  #redundant due to earlier limit
+    print(f"[INFO] Limited to {len(ordered_categories)} categories")
     
-    # THIS APPROACH IS SELECTING THE TOP N USERS AND SPATIAL CLUSTERS BASED ON THE NUMBER OF CHECK-INS
-    # bUT THE DATASET IS NOT BALANCED 
-    # df = df[df['category'].isin(relevant_categories)]
-    # user_counts = df['user_id'].value_counts().head(n_users) # select the top n_users with most no of checkins
-    # users = user_counts.index.tolist()
-    # #spatial_clusters = list(range(min(n_spatial_clusters, len(valid_spatial_clusters))))
-    # top_clusters = df['spatial_cluster'].value_counts().head(n_spatial_clusters).index.tolist()
-    # spatial_clusters = top_clusters
-    # print("\n[INFO] Check-ins per selected spatial cluster:")
-    # for cluster_id in spatial_clusters:
-    #     count = df[df['spatial_cluster'] == cluster_id].shape[0]
-    #     print(f"Spatial Cluster {cluster_id}: {count} check-ins")
-
-    # # TO MAKE THE DATASET BALANCED
-    # # Spatial Cluster filtering and stratified user sampling 
+    # Filter by relevant categories BEFORE user/cluster selection
+    df_filtered = df[df['category'].isin([cat.lower() for cat in ordered_categories])]
+    print(f"[INFO] Dataset size after category filtering: {len(df_filtered)}")
     
-# --- Cluster filtering and stratified user sampling ---
+    # LIMIT POIs TO MOST POPULAR ONES PER CATEGORY
+        # LIMIT POIs TO MOST POPULAR ONES PER CATEGORY
+    max_pois_per_category = 10  # REDUCE from 50 to 10
+    max_total_pois = n_pois        # ADD hard limit on total POIs
+    selected_poi_ids = []
+    
+    print(f"[INFO] Selecting max {max_pois_per_category} POIs per category")
+    
+    for category in ordered_categories:
+        cat_lower = category.lower()
+        cat_df = df_filtered[df_filtered['category'] == cat_lower]
+        if not cat_df.empty:
+            # Select top POIs by check-in frequency for this category
+            top_pois = cat_df['place_id'].value_counts().head(max_pois_per_category).index.tolist()
+            selected_poi_ids.extend(top_pois)
+            print(f"  {category}: {len(top_pois)} POIs selected")
+    
+    selected_poi_ids = list(dict.fromkeys(selected_poi_ids))  # Remove duplicates
+    
+    # Apply hard limit on total POIs
+    if len(selected_poi_ids) > max_total_pois:
+        print(f"[INFO] Too many POIs ({len(selected_poi_ids)}), limiting to {max_total_pois}")
+        selected_poi_ids = selected_poi_ids[:max_total_pois]
+    
+    print(f"[INFO] Limited to {len(selected_poi_ids)} POIs (max {max_pois_per_category} per category)")
+    
+    # Filter dataframe to only include selected POIs
+    df_filtered = df_filtered[df_filtered['place_id'].isin(selected_poi_ids)]
+    print(f"[INFO] Dataset size after POI filtering: {len(df_filtered)}")
 
-    min_cluster_size = 60    # Example: clusters must have at least 60 users
-    max_cluster_size = 500   # Example: clusters must have at most 300 users
-    max_users_per_cluster = 100  # Max users to sample per cluster
-    #n_users = 2000  # Or your config value
+    # CLUSTER FILTERING AND USER SAMPLING (on filtered data)
+    min_cluster_size = 20    # Reduced for better balance
+    max_cluster_size = 100   # Reduced to limit matrix size
+    max_users_per_cluster = 20  # Reduced to limit matrix size
 
-    # 1. Filter clusters by size
-    cluster_sizes = df['spatial_cluster'].value_counts()
+    # Filter clusters by size (on filtered data)
+    cluster_sizes = df_filtered['spatial_cluster'].value_counts()
     filtered_clusters = cluster_sizes[(cluster_sizes >= min_cluster_size) & (cluster_sizes <= max_cluster_size)]
     top_clusters = filtered_clusters.head(n_spatial_clusters).index.tolist()
     
-    # 2. Stratified user sampling
+    # Stratified user sampling
     users = []
     final_spatial_clusters = []
     for cluster in top_clusters:
-        cluster_user_counts = df[df['spatial_cluster'] == cluster]['user_id'].value_counts()
+        cluster_user_counts = df_filtered[df_filtered['spatial_cluster'] == cluster]['user_id'].value_counts()
         if len(cluster_user_counts) >= min_cluster_size:
             cluster_users = cluster_user_counts.head(max_users_per_cluster).index.tolist()
             users.extend(cluster_users)
             final_spatial_clusters.append(cluster)
+    
     users = list(dict.fromkeys(users))[:n_users]  # Deduplicate and cap total users
 
-    if len(users) < n_users:
-        print(f"[WARNING] Only {len(users)} users found after filtering, less than requested {n_users}.")
-        all_unique_users = df['user_id'].unique()
-        remaining_users = [u for u in all_unique_users if u not in users]
-        users.extend(remaining_users[:n_users - len(users)])  # Fill up to n_users if possible
+    # if len(users) < n_users:
+    #     print(f"[WARNING] Only {len(users)} users found after filtering, less than requested {n_users}.")
+    #     all_unique_users = df_filtered['user_id'].unique()
+    #     remaining_users = [u for u in all_unique_users if u not in users]
+    #     users.extend(remaining_users[:n_users - len(users)])
     
-    users = users[:n_users]  # Ensure we only take the first n_users
-    users = [int(u) for u in users[:n_users]] # FIX for the json serialization issue with the user ids
-    spatial_clusters = final_spatial_clusters     # Only clusters meeting criteria
+    # users = users[:n_users]
+    # users = [int(u) for u in users[:n_users]]
+    # spatial_clusters = final_spatial_clusters
 
-    print(f"[INFO] Selected {len(spatial_clusters)} clusters and {len(users)} users after balancing.")
+    if len(users) < n_users:
+        print(f"[INFO] Found {len(users)} quality users from cluster sampling (requested {n_users})")
+        print(f"[INFO] Using {len(users)} users to keep matrix manageable")
+    else:
+        users = users[:n_users]  # Cap at n_users if we have more than needed
+        print(f"[INFO] Capped to {n_users} users from {len(users)} available")
+    
+    users = [int(u) for u in users]
+    spatial_clusters = final_spatial_clusters
 
-    print(f"[INFO] Selected {len(users)} users: {users[:10]}...")  # Show first 10 users
-    print(f"[INFO] Selected {len(spatial_clusters)} spatial clusters: {spatial_clusters}")
+    # FINAL FILTERING - Keep only data for selected users, clusters, and POIs
+    df_final = df_filtered[
+        (df_filtered['user_id'].isin(users)) &
+        (df_filtered['spatial_cluster'].isin(spatial_clusters)) &
+        (df_filtered['place_id'].isin(selected_poi_ids))
+    ]
+    
+    print(f"\n[INFO] FINAL MATRIX DIMENSIONS:")
+    print(f"  Users: {len(users)}")
+    print(f"  Spatial Clusters: {len(spatial_clusters)}")
+    print(f"  Categories: {len(ordered_categories)}")
+    print(f"  POIs: {len(selected_poi_ids)}")
+    print(f"  Time slots: {n_time_bins}")
+    print(f"  Final dataset size: {len(df_final)}")
+    
+    # MEMORY CHECK
+    total_elements = len(users) * len(spatial_clusters) * len(ordered_categories) * len(selected_poi_ids) * n_time_bins
+    memory_gb = (total_elements * 4) / (1024**3)  # 4 bytes per float32
+    print(f"  Total matrix elements: {total_elements:,}")
+    print(f"  Estimated memory: {memory_gb:.2f} GB")
+    
+    if memory_gb > 500:  # REDUCE from 16 to 4 GB
+        print(f"[ERROR] Matrix too large ({memory_gb:.2f} GB). Reduce dimensions further.")
+        print(f"[SUGGESTION] Current: {len(users)}×{len(spatial_clusters)}×{len(ordered_categories)}×{len(selected_poi_ids)}×{n_time_bins}")
+        print(f"[SUGGESTION] Try: users={len(users)//2}, categories={len(ordered_categories)//2}, POIs={len(selected_poi_ids)//2}")
+        return 1
 
-    ordered_categories = ordered_categories[:n_categories]
-
-    selected_poi_ids = df['place_id'].unique().tolist()  # Use all POIs in the filtered dataset
-    print(f"[INFO] Selected {len(selected_poi_ids)} POIs from the dataset")
-
-    # BAUIDING THE BATCHWISE MATRIX USING THE USERS, SPATIAL CLUSTERS, CATEGORIES AND THE TIME SLOTS 
+    # BUILDING THE BATCHWISE MATRIX
     batch_files, metadata = build_user_spatial_category_time_matrix_batchwise(
-        df=df,
+        df=df_final,  # Use final filtered dataframe
         user_ids=users,
         spatial_clusters=spatial_clusters,
         categories=ordered_categories,
         poi_ids=selected_poi_ids,
         n_time_slots=n_time_bins,
-        batch_size=batch_size, # if no batching is needed, then set the batch_size to n_users
+        batch_size=batch_size,
         output_dir=OUTPUT_DIR,
         n_quantization_bins=n_quantization_bins
     )
@@ -339,13 +383,5 @@ def main_matrix_build(eps_km, min_samples, n_time_bins, n_users, n_spatial_clust
     print(f"[INFO] Matrix shape: {metadata['shape']}")
     print(f"[INFO] Number of batches: {len(batch_files)}")
     print(f"[INFO] Example batch file: {batch_files[0] if batch_files else None}")
-    print(f"[INFO] Metadata file: {os.path.join(os.path.dirname(MATRIX_PATH), 'matrix_metadata.json')}")
     
-    # # Save the metadata and index files - dummycode for saving the full matrix,
-    #  here also need to add the logic for converting the batches of matrices to a sngle matrix
-    # print("[INFO] Saving metadata and index files...")
-    # dummy_matrix = sparse.csr_matrix((0, 0))  # Empty matrix, won't be saved
-    # save_matrix_and_metadata(dummy_matrix, metadata, OUTPUT_DIR)
     return 0
-
-

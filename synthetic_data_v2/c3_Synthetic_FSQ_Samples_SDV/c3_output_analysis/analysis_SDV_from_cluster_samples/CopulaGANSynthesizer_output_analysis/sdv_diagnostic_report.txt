@@ -1,6 +1,0 @@
-Diagnostic Score: 1.0
-Available Diagnostic Properties:          Property  Score
-0   Data Validity    1.0
-1  Data Structure    1.0
-[ERROR] Could not get details for property 'Property': Invalid property name 'Property'. Valid property names are 'Data Validity', 'Data Structure'.
-[ERROR] Could not get details for property 'Score': Invalid property name 'Score'. Valid property names are 'Data Validity', 'Data Structure'.

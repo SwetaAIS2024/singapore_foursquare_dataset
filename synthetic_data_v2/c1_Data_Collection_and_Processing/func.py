@@ -12,10 +12,11 @@ if __name__ == "__main__":
     n_users= int(config.get('n_users'))
     n_spatial_clusters= int(config.get('n_spatial_clusters'))
     n_categories= int(config.get('n_categories'))
+    n_pois = int(config.get('n_pois'))
     n_quantization_bins= int(config.get('n_quantization_bins'))
     batch_size= int(config.get('batch_size'))
-    
-    result = main_matrix_build(eps_km, min_samples, n_time_bins, n_users, n_spatial_clusters, n_categories, n_quantization_bins, batch_size)
+
+    result = main_matrix_build(eps_km, min_samples, n_time_bins, n_users, n_spatial_clusters, n_categories, n_pois, n_quantization_bins, batch_size)
     if result != 0:
         print("[ERROR] Matrix building failed")
     else:
