@@ -1,6 +1,6 @@
 import pandas as pd
 
-from c0_Configuration.config_paths import PLACE_ID_POI_CAT, CATEGORIES_XLSX
+from c0_Configuration.config_paths import PLACE_ID_POI_CAT, CATEGORIES_XLSX, POI_UNIQUE_ID_MAPPING
 
 def generate_category_poiid_map(categories_xlsx):
     cat_df = pd.read_excel(categories_xlsx)
@@ -51,5 +51,5 @@ if __name__ == "__main__":
     mapping_df = pd.DataFrame.from_dict(mapping, orient='index')
     mapping_df.index.name = 'place_id'
     mapping_df.reset_index(inplace=True)
-    mapping_df.to_csv("c5_JSON_Dataset_Generation/c0_scripts/LLM_based_method_gpt_oss_20b/mapping.csv", index=False)
-    print("[INFO] Mapping saved to placeid_poi_mapping.csv")
+    mapping_df.to_csv(POI_UNIQUE_ID_MAPPING, index=False)
+    print("[INFO] Mapping saved to POI_UNIQUE_ID_MAPPING")

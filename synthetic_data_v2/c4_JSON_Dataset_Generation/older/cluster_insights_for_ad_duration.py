@@ -4,10 +4,11 @@ import seaborn as sns
 import os
 
 # --- CONFIG ---
-from synthetic_data_v2.c0_Configuration.config_paths import PLACE_ID_POI_CAT, CATEGORIES_XLSX
-SAMPLED_FILE = "c3_Synthetic_FSQ_Samples_SDV/c0_sampling_scripts/sampled_dataset_after_clustering/sampled_FSQ_dataset_after_clustering.txt"  # Tab-separated
-MAPPING_FILE = "c5_JSON_Dataset_Generation/c0_scripts/LLM_based_method_gpt_oss_20b/mapping.csv"  # place_id,poiId,category,subcategory
-OUTPUT_DIR = "c5_JSON_Dataset_Generation/c0_scripts/LLM_based_method_gpt_oss_20b/per_cluster_insights"
+from c0_Configuration.config_paths import PLACE_ID_POI_CAT, CATEGORIES_XLSX, OUTPUT_SAMPLED_FSQ_PATH, POI_UNIQUE_ID_MAPPING, CLUSTER_SUMMARY_DIR
+SAMPLED_FILE = OUTPUT_SAMPLED_FSQ_PATH
+MAPPING_FILE = POI_UNIQUE_ID_MAPPING  # place_id,poiId,category,subcategory
+OUTPUT_DIR = CLUSTER_SUMMARY_DIR
+
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # --- LOAD DATA ---

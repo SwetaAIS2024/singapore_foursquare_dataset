@@ -45,6 +45,7 @@ POI_UNIQUE_ID_MAPPING = os.path.join(BASE_DIR, "./c5_JSON_Dataset_Generation/c0_
 
 # DATA PROCESSING PIPELINE BEFORE GIVING TO MODEL PROMPT
 # CLUSTER_SUMMARY = os.path.join(BASE_DIR, "c5_JSON_Dataset_Generation/c0_scripts/LLM_method/older/per_cluster_insights/all_clusters_summary.csv")
+CLUSTER_SUMMARY_DIR = os.path.join(BASE_DIR, "c5_JSON_Dataset_Generation/older/per_cluster_insights")
 CLUSTER_SUMMARY = os.path.join(BASE_DIR, "c5_JSON_Dataset_Generation/c0_scripts/LLM_method/older/per_cluster_insights/all_clusters_summary_with_area.csv")
 SAMPLED_FSQ_PLANNING_AREA = os.path.join(BASE_DIR,"c3_Sampling_After_Clustering/sampled_dataset_after_clustering/sampled_FSQ_dataset_after_clustering.txt")
 POI_CAT_MAPPING = os.path.join(BASE_DIR, "c1_Data_Collection_and_Processing/input_data/sg_place_id_to_category.csv")
