@@ -20,34 +20,7 @@ def _load_geojson(cache_path: str) -> gpd.GeoDataFrame:
         return gpd.read_file(cache_path)
     else:
         raise RuntimeError(f"GeoJSON file not found at {cache_path}")
-
-try:
-    planning_gdf = _load_geojson(PLANNING_CACHE)
-    subzone_gdf = _load_geojson(SUBZONE_CACHE)
-except RuntimeError as e:
-    print(f"Error loading GeoJSON data: {e}")
-    planning_gdf = None
-    subzone_gdf = None
-
-# Debugging Block
-if planning_gdf is not None:
-    print("Planning CRS:", planning_gdf.crs)
-    print("Planning geometries valid:", planning_gdf.geometry.is_valid.all())
-    print("Planning bounds:", planning_gdf.total_bounds)
-    if planning_gdf.crs != "EPSG:4326":
-        planning_gdf = planning_gdf.to_crs("EPSG:4326")
-    if not planning_gdf.geometry.is_valid.all():
-        planning_gdf["geometry"] = planning_gdf["geometry"].buffer(0)
-
-if subzone_gdf is not None:
-    print("Subzone CRS:", subzone_gdf.crs)
-    print("Subzone geometries valid:", subzone_gdf.geometry.is_valid.all())
-    print("Subzone bounds:", subzone_gdf.total_bounds)
-    if subzone_gdf.crs != "EPSG:4326":
-        subzone_gdf = subzone_gdf.to_crs("EPSG:4326")
-    if not subzone_gdf.geometry.is_valid.all():
-        subzone_gdf["geometry"] = subzone_gdf["geometry"].buffer(0)
-
+    
 def _extract_pln_area_n(description: str) -> str:
     """
     Extract the PLN_AREA_N value from the Description field using BeautifulSoup.
@@ -117,6 +90,35 @@ def append_planning_area(input_file: str, output_file: str):
     # Save the updated dataset to the output file
     df.to_csv(output_file, sep="\t", index=False)
     print(f"Saved updated dataset with planning areas to {output_file}")
+
+
+try:
+    planning_gdf = _load_geojson(PLANNING_CACHE)
+    subzone_gdf = _load_geojson(SUBZONE_CACHE)
+except RuntimeError as e:
+    print(f"Error loading GeoJSON data: {e}")
+    planning_gdf = None
+    subzone_gdf = None
+
+# Debugging Block
+if planning_gdf is not None:
+    print("Planning CRS:", planning_gdf.crs)
+    print("Planning geometries valid:", planning_gdf.geometry.is_valid.all())
+    print("Planning bounds:", planning_gdf.total_bounds)
+    if planning_gdf.crs != "EPSG:4326":
+        planning_gdf = planning_gdf.to_crs("EPSG:4326")
+    if not planning_gdf.geometry.is_valid.all():
+        planning_gdf["geometry"] = planning_gdf["geometry"].buffer(0)
+
+if subzone_gdf is not None:
+    print("Subzone CRS:", subzone_gdf.crs)
+    print("Subzone geometries valid:", subzone_gdf.geometry.is_valid.all())
+    print("Subzone bounds:", subzone_gdf.total_bounds)
+    if subzone_gdf.crs != "EPSG:4326":
+        subzone_gdf = subzone_gdf.to_crs("EPSG:4326")
+    if not subzone_gdf.geometry.is_valid.all():
+        subzone_gdf["geometry"] = subzone_gdf["geometry"].buffer(0)
+
 
 # --- Append Planning Area ---
 append_planning_area(INPUT_FILE, OUTPUT_FILE)
