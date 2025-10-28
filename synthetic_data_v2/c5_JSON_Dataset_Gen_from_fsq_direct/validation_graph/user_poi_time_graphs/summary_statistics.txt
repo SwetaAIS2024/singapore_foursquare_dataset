@@ -1,0 +1,123 @@
+SYNTHETIC DATASET VALIDATION SUMMARY
+======================================================================
+
+Total Users: 100
+Total Interactions: 4073
+  - Views: 2275 (55.9%)
+  - Transactions: 1578 (38.7%)
+  - Reviews: 220 (5.4%)
+
+Conversion Rates:
+  - View → Transaction: 69.36%
+  - Transaction → Review: 13.94%
+  - View → Review (complete): 9.67%
+
+Complete Funnels: 386
+Average POIs per User: 15.44
+Average Interactions per User: 40.73
+Average Complete Funnels per User: 3.86
+
+======================================================================
+
+PER-USER DETAILS:
+----------------------------------------------------------------------
+User 73: 181 interactions (104V, 67T, 10R) across 65 POIs, 17 complete funnels
+User 848: 171 interactions (94V, 70T, 7R) across 36 POIs, 27 complete funnels
+User 377: 160 interactions (96V, 59T, 5R) across 57 POIs, 5 complete funnels
+User 4239: 109 interactions (61V, 41T, 7R) across 28 POIs, 11 complete funnels
+User 14355: 104 interactions (59V, 39T, 6R) across 26 POIs, 17 complete funnels
+User 6342: 84 interactions (46V, 33T, 5R) across 15 POIs, 13 complete funnels
+User 200811: 73 interactions (39V, 27T, 7R) across 30 POIs, 8 complete funnels
+User 2862: 72 interactions (41V, 28T, 3R) across 23 POIs, 4 complete funnels
+User 221: 70 interactions (40V, 26T, 4R) across 33 POIs, 6 complete funnels
+User 16: 69 interactions (40V, 26T, 3R) across 18 POIs, 6 complete funnels
+User 1304: 65 interactions (38V, 25T, 2R) across 32 POIs, 2 complete funnels
+User 13358: 64 interactions (35V, 26T, 3R) across 20 POIs, 7 complete funnels
+User 2371: 60 interactions (34V, 22T, 4R) across 24 POIs, 4 complete funnels
+User 1164: 60 interactions (31V, 21T, 8R) across 12 POIs, 12 complete funnels
+User 16073: 51 interactions (29V, 20T, 2R) across 18 POIs, 2 complete funnels
+User 49777: 50 interactions (26V, 20T, 4R) across 16 POIs, 5 complete funnels
+User 1256: 50 interactions (27V, 21T, 2R) across 18 POIs, 2 complete funnels
+User 296: 48 interactions (27V, 21T, 0R) across 25 POIs, 0 complete funnels
+User 8568: 48 interactions (28V, 19T, 1R) across 22 POIs, 1 complete funnels
+User 30892: 47 interactions (27V, 18T, 2R) across 7 POIs, 4 complete funnels
+User 143: 47 interactions (28V, 19T, 0R) across 20 POIs, 0 complete funnels
+User 5287: 46 interactions (28V, 17T, 1R) across 4 POIs, 10 complete funnels
+User 1470: 46 interactions (26V, 18T, 2R) across 18 POIs, 6 complete funnels
+User 322: 44 interactions (25V, 16T, 3R) across 18 POIs, 5 complete funnels
+User 60596: 43 interactions (22V, 17T, 4R) across 13 POIs, 9 complete funnels
+User 24864: 42 interactions (26V, 15T, 1R) across 13 POIs, 6 complete funnels
+User 16809: 42 interactions (23V, 17T, 2R) across 20 POIs, 2 complete funnels
+User 248: 40 interactions (26V, 13T, 1R) across 22 POIs, 1 complete funnels
+User 10032: 40 interactions (21V, 15T, 4R) across 20 POIs, 4 complete funnels
+User 5358: 40 interactions (22V, 15T, 3R) across 17 POIs, 3 complete funnels
+User 9234: 39 interactions (19V, 17T, 3R) across 18 POIs, 3 complete funnels
+User 4989: 39 interactions (21V, 16T, 2R) across 8 POIs, 10 complete funnels
+User 16581: 38 interactions (20V, 16T, 2R) across 14 POIs, 2 complete funnels
+User 39028: 38 interactions (22V, 16T, 0R) across 14 POIs, 0 complete funnels
+User 58552: 37 interactions (20V, 14T, 3R) across 11 POIs, 6 complete funnels
+User 30328: 37 interactions (19V, 16T, 2R) across 16 POIs, 3 complete funnels
+User 104774: 37 interactions (22V, 13T, 2R) across 22 POIs, 2 complete funnels
+User 52438: 37 interactions (20V, 14T, 3R) across 18 POIs, 3 complete funnels
+User 46639: 36 interactions (21V, 13T, 2R) across 8 POIs, 9 complete funnels
+User 8464: 36 interactions (21V, 14T, 1R) across 21 POIs, 1 complete funnels
+User 126: 35 interactions (20V, 14T, 1R) across 13 POIs, 1 complete funnels
+User 106936: 35 interactions (16V, 15T, 4R) across 12 POIs, 6 complete funnels
+User 32621: 35 interactions (18V, 13T, 4R) across 15 POIs, 6 complete funnels
+User 79052: 35 interactions (19V, 14T, 2R) across 18 POIs, 2 complete funnels
+User 76165: 35 interactions (18V, 15T, 2R) across 18 POIs, 2 complete funnels
+User 44557: 34 interactions (20V, 13T, 1R) across 18 POIs, 2 complete funnels
+User 178368: 34 interactions (17V, 14T, 3R) across 17 POIs, 3 complete funnels
+User 2391: 33 interactions (20V, 12T, 1R) across 4 POIs, 6 complete funnels
+User 22080: 33 interactions (19V, 12T, 2R) across 13 POIs, 2 complete funnels
+User 47349: 33 interactions (17V, 14T, 2R) across 9 POIs, 9 complete funnels
+User 128959: 33 interactions (19V, 11T, 3R) across 17 POIs, 4 complete funnels
+User 412: 32 interactions (16V, 12T, 4R) across 7 POIs, 6 complete funnels
+User 957: 31 interactions (18V, 13T, 0R) across 16 POIs, 0 complete funnels
+User 74568: 31 interactions (18V, 11T, 2R) across 8 POIs, 5 complete funnels
+User 103741: 31 interactions (17V, 12T, 2R) across 8 POIs, 5 complete funnels
+User 9111: 30 interactions (17V, 11T, 2R) across 15 POIs, 2 complete funnels
+User 221735: 30 interactions (18V, 11T, 1R) across 14 POIs, 1 complete funnels
+User 31672: 29 interactions (14V, 12T, 3R) across 4 POIs, 10 complete funnels
+User 34497: 28 interactions (13V, 12T, 3R) across 10 POIs, 4 complete funnels
+User 23686: 28 interactions (14V, 12T, 2R) across 12 POIs, 3 complete funnels
+User 16524: 28 interactions (16V, 10T, 2R) across 13 POIs, 2 complete funnels
+User 41692: 28 interactions (17V, 10T, 1R) across 17 POIs, 1 complete funnels
+User 19386: 28 interactions (14V, 12T, 2R) across 13 POIs, 2 complete funnels
+User 69290: 28 interactions (14V, 11T, 3R) across 14 POIs, 3 complete funnels
+User 310: 27 interactions (19V, 8T, 0R) across 16 POIs, 0 complete funnels
+User 7541: 27 interactions (15V, 10T, 2R) across 7 POIs, 3 complete funnels
+User 5276: 27 interactions (16V, 11T, 0R) across 16 POIs, 0 complete funnels
+User 54926: 26 interactions (14V, 9T, 3R) across 14 POIs, 3 complete funnels
+User 15783: 26 interactions (15V, 10T, 1R) across 13 POIs, 1 complete funnels
+User 105636: 26 interactions (13V, 10T, 3R) across 11 POIs, 5 complete funnels
+User 2978: 26 interactions (16V, 9T, 1R) across 13 POIs, 2 complete funnels
+User 6791: 26 interactions (15V, 10T, 1R) across 14 POIs, 1 complete funnels
+User 38133: 26 interactions (15V, 11T, 0R) across 15 POIs, 0 complete funnels
+User 13904: 25 interactions (12V, 10T, 3R) across 10 POIs, 3 complete funnels
+User 46019: 25 interactions (13V, 11T, 1R) across 10 POIs, 2 complete funnels
+User 13554: 25 interactions (13V, 11T, 1R) across 10 POIs, 1 complete funnels
+User 2400: 25 interactions (13V, 11T, 1R) across 13 POIs, 1 complete funnels
+User 55151: 25 interactions (15V, 10T, 0R) across 11 POIs, 0 complete funnels
+User 171635: 25 interactions (12V, 11T, 2R) across 6 POIs, 6 complete funnels
+User 151: 25 interactions (15V, 9T, 1R) across 15 POIs, 1 complete funnels
+User 45019: 24 interactions (12V, 11T, 1R) across 11 POIs, 1 complete funnels
+User 23237: 24 interactions (13V, 10T, 1R) across 13 POIs, 1 complete funnels
+User 6565: 24 interactions (15V, 9T, 0R) across 15 POIs, 0 complete funnels
+User 25812: 24 interactions (14V, 10T, 0R) across 12 POIs, 0 complete funnels
+User 12482: 24 interactions (16V, 8T, 0R) across 12 POIs, 0 complete funnels
+User 50623: 24 interactions (15V, 9T, 0R) across 12 POIs, 0 complete funnels
+User 117800: 24 interactions (14V, 8T, 2R) across 3 POIs, 8 complete funnels
+User 200522: 24 interactions (13V, 9T, 2R) across 13 POIs, 2 complete funnels
+User 118049: 24 interactions (11V, 10T, 3R) across 11 POIs, 3 complete funnels
+User 29651: 23 interactions (14V, 9T, 0R) across 12 POIs, 0 complete funnels
+User 55363: 23 interactions (11V, 9T, 3R) across 7 POIs, 5 complete funnels
+User 51305: 23 interactions (12V, 10T, 1R) across 11 POIs, 1 complete funnels
+User 75866: 23 interactions (12V, 8T, 3R) across 7 POIs, 4 complete funnels
+User 16273: 23 interactions (12V, 10T, 1R) across 12 POIs, 1 complete funnels
+User 183033: 23 interactions (12V, 9T, 2R) across 11 POIs, 2 complete funnels
+User 7179: 22 interactions (14V, 8T, 0R) across 13 POIs, 0 complete funnels
+User 20633: 22 interactions (11V, 9T, 2R) across 9 POIs, 3 complete funnels
+User 800: 22 interactions (13V, 9T, 0R) across 6 POIs, 0 complete funnels
+User 192258: 22 interactions (13V, 9T, 0R) across 9 POIs, 0 complete funnels
+User 104833: 22 interactions (14V, 7T, 1R) across 6 POIs, 1 complete funnels
