@@ -32,6 +32,36 @@ def jitter_location(lat, lon, distance_km=2):
     lon_jitter = random.uniform(-max_deg, max_deg) / math.cos(math.radians(lat))
     return round(lat + lat_jitter, 6), round(lon + lon_jitter, 6)
 
+def ensure_unique_timestamp(base_timestamp_str, used_timestamps):
+    """
+    Ensure timestamp is unique by adding seconds if duplicate exists.
+    Args:
+        base_timestamp_str: Original timestamp string (e.g., "2024-04-06T04:39:00Z")
+        used_timestamps: Set of already used timestamp strings
+    Returns:
+        Unique timestamp string
+    """
+    if base_timestamp_str not in used_timestamps:
+        used_timestamps.add(base_timestamp_str)
+        return base_timestamp_str
+    
+    # Parse the timestamp
+    base_dt = datetime.strptime(base_timestamp_str, "%Y-%m-%dT%H:%M:%SZ")
+    
+    # Try adding 1-60 seconds until we find a unique timestamp
+    for offset_seconds in range(1, 61):
+        new_dt = base_dt + timedelta(seconds=offset_seconds)
+        new_timestamp_str = new_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+        if new_timestamp_str not in used_timestamps:
+            used_timestamps.add(new_timestamp_str)
+            return new_timestamp_str
+    
+    # If still not unique after 60 attempts, use microseconds (should never happen)
+    new_dt = base_dt + timedelta(seconds=random.randint(61, 120))
+    new_timestamp_str = new_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+    used_timestamps.add(new_timestamp_str)
+    return new_timestamp_str
+
 def generate_user_home_location(planning_area_lat, planning_area_lon):
     """
     Generate a consistent 'home' location for a user within their planning area.
@@ -216,7 +246,7 @@ def validate_funnel_order(users_data, verbose=True):
                     })
                     continue
                 
-                # Find most recent view before transaction
+                # Find most recent view before transaction (must be strictly before)
                 valid_views = [v for v in poi_to_view[poi_id] if v['timestamp'] < txn_time]
                 if not valid_views:
                     stats['funnel_violations'].append({
@@ -269,7 +299,7 @@ def validate_funnel_order(users_data, verbose=True):
             txn_time = linked_txn['timestamp']
             txn_loc = linked_txn['location']
             
-            # Validate temporal order: review must come after transaction
+            # Validate temporal order: review must come after transaction (strictly after)
             if review_time <= txn_time:
                 stats['funnel_violations'].append({
                     'user': user_data['user']['userId'],
@@ -334,28 +364,153 @@ def validate_funnel_order(users_data, verbose=True):
     
     return summary, stats
 
-def assign_funnel_interactions(visits, view_to_transaction_rate=0.2, transaction_to_review_rate=0.4):
+def assign_funnel_interactions(visits, view_to_transaction_rate=0.4, transaction_to_review_rate=0.3):
     """
-    Assign funnel interactions: views → transactions → reviews
+    Assign funnel interactions in CYCLES per POI:
     
-    CRITICAL: Ensures strict funnel hierarchy:
-    - ALL visits generate views
-    - Transactions are subset of views (conversion)
-    - Reviews are subset of transactions
+    For EACH POI, repeat the funnel cycle: Views → Transactions → Reviews
+    
+    Ratios per cycle:
+    - 100% of visits start as Views
+    - 40% of those Views → Transactions
+    - 30% of those Transactions → Reviews
+    
+    Example: POI-A has 10 visits in a cycle
+      - 10 views (100%)
+      - 4 transactions (40% of 10)
+      - 1-2 reviews (30% of 4)
+    
+    Cycle size varies with randomness to create realistic patterns.
     """
     n_visits = len(visits)
-    all_visit_indices = set(range(n_visits))
     
-    n_transactions = int(n_visits * view_to_transaction_rate)
-    transaction_indices = set(random.sample(list(all_visit_indices), min(n_transactions, len(all_visit_indices))))
+    if n_visits == 0:
+        return {"views": set(), "transactions": set(), "reviews": set()}
     
-    n_reviews = int(len(transaction_indices) * transaction_to_review_rate)
-    review_indices = set(random.sample(list(transaction_indices), min(n_reviews, len(transaction_indices))))
+    # Group visits by POI
+    from collections import defaultdict
+    import random
+    poi_visit_indices = defaultdict(list)
+    for idx, visit in enumerate(visits):
+        poi_id = visit.get('poi_id', f'POI-{idx}')
+        poi_visit_indices[poi_id].append(idx)
+    
+    # Initialize sets
+    view_indices = set()
+    transaction_indices = set()
+    review_indices = set()
+    
+    # For each POI, apply cyclical funnel pattern
+    for poi_id, indices in poi_visit_indices.items():
+        # Sort indices chronologically by the visit timestamp
+        indices = sorted(indices, key=lambda idx: visits[idx].get('_parsed_timestamp', datetime(2024, 1, 1)))
+        n_poi_visits = len(indices)
+        
+        # Handle corner cases for POIs with few visits
+        if n_poi_visits == 1:
+            # Single visit: make it a view only
+            view_indices.add(indices[0])
+            continue
+        elif n_poi_visits == 2:
+            # Two visits: first = view, second = view + transaction
+            view_indices.add(indices[0])
+            view_indices.add(indices[1])
+            transaction_indices.add(indices[1])
+            continue
+        elif n_poi_visits == 3:
+            # Three visits: apply ratios directly (no cycles)
+            # view, view+transaction, view+transaction+review
+            view_indices.add(indices[0])
+            view_indices.add(indices[1])
+            view_indices.add(indices[2])
+            n_transactions = int(3 * view_to_transaction_rate)  # 40% of 3 = 1
+            n_reviews = int(n_transactions * transaction_to_review_rate)  # 30% of 1 = 0
+            if n_transactions >= 1:
+                transaction_indices.add(indices[1])
+            if n_transactions >= 2:
+                transaction_indices.add(indices[2])
+            if n_reviews >= 1:
+                review_indices.add(indices[2])
+            continue
+        
+        # For POIs with 4+ visits, use cyclical pattern
+        # Base cycle size (aim for multiple cycles, but adapt to visit count)
+        if n_poi_visits >= 10:
+            base_cycle_size = n_poi_visits // 4  # Aim for ~4 cycles
+        elif n_poi_visits >= 6:
+            base_cycle_size = n_poi_visits // 2  # 2-3 cycles
+        else:
+            base_cycle_size = n_poi_visits  # Single cycle for 4-5 visits
+        
+        current_idx = 0
+        cycle_num = 0
+        
+        while current_idx < n_poi_visits:
+            # Calculate cycle size with randomness
+            if cycle_num == 0:
+                cycle_size = base_cycle_size
+            else:
+                # Add randomness: ±20% variation
+                variation = random.randint(-20, 20) / 100.0
+                cycle_size = max(3, int(base_cycle_size * (1 + variation)))
+            
+            # Don't exceed remaining visits
+            cycle_size = min(cycle_size, n_poi_visits - current_idx)
+            
+            # Within this cycle, apply the ratios:
+            # Distribute checkins: some as view-only, some as transaction (which implies view), some as review (which implies transaction+view)
+            n_transactions = int(cycle_size * view_to_transaction_rate)  # 40% of cycle
+            n_reviews = int(n_transactions * transaction_to_review_rate)  # 30% of transactions
+            
+            # Ensure at least 1 transaction if cycle is large enough
+            if cycle_size >= 2:
+                n_transactions = max(1, n_transactions)
+            if n_transactions >= 2:
+                n_reviews = max(0, n_reviews)
+            
+            # Calculate how many are view-only
+            n_view_only = cycle_size - n_transactions
+            
+            # Store the indices for this cycle
+            cycle_indices = []
+            for i in range(cycle_size):
+                if current_idx < n_poi_visits:
+                    cycle_indices.append(indices[current_idx])
+                    current_idx += 1
+            
+            # Assign types sequentially to maintain temporal order:
+            # First n_view_only: View only
+            # Next (n_transactions - n_reviews): View + Transaction
+            # Last n_reviews: View + Transaction + Review
+            
+            idx_pos = 0
+            
+            # View-only checkins (first part of cycle)
+            for i in range(min(n_view_only, len(cycle_indices))):
+                view_indices.add(cycle_indices[idx_pos])
+                idx_pos += 1
+            
+            # Transaction checkins (middle part - these also have views)
+            n_txn_only = n_transactions - n_reviews
+            for i in range(n_txn_only):
+                if idx_pos < len(cycle_indices):
+                    view_indices.add(cycle_indices[idx_pos])
+                    transaction_indices.add(cycle_indices[idx_pos])
+                    idx_pos += 1
+            
+            # Review checkins (last part - these also have transactions and views)
+            for i in range(n_reviews):
+                if idx_pos < len(cycle_indices):
+                    view_indices.add(cycle_indices[idx_pos])
+                    transaction_indices.add(cycle_indices[idx_pos])
+                    review_indices.add(cycle_indices[idx_pos])
+                    idx_pos += 1            
+            cycle_num += 1
     
     return {
-        "views": all_visit_indices,  # ALL visits are views
-        "transactions": transaction_indices,  # Subset that converted
-        "reviews": review_indices  # Subset of transactions with reviews
+        "views": view_indices,
+        "transactions": transaction_indices,
+        "reviews": review_indices
     }
 
 # -----------------------------
@@ -420,10 +575,24 @@ if __name__ == "__main__":
         visits.sort(key=lambda v: v.get('_parsed_timestamp', datetime(2024, 1, 1)))
         
         # ✅ FUNNEL LOGIC: 
-        # - 100% of checkins → Views (all visits)
-        # - 70% of views → Transactions (increased from 40% for better model learning)
-        # - 35% of transactions → Reviews
-        assigns = assign_funnel_interactions(visits, view_to_transaction_rate=0.7, transaction_to_review_rate=0.35)
+        # - 100% of checkins → Views (all visits start as views)
+        # - 40% of views → Transactions (increased engagement)
+        # - 30% of transactions → Reviews
+        assigns = assign_funnel_interactions(visits, view_to_transaction_rate=0.4, transaction_to_review_rate=0.3)
+
+        # ✅ MODEL REQUIREMENT: Ensure every user has at least 1 review
+        # The model crashes if a user has zero reviews in their history
+        if len(assigns["reviews"]) == 0 and len(assigns["transactions"]) > 0:
+            # Pick the first transaction to also be a review (ensures temporal consistency)
+            first_txn_idx = min(assigns["transactions"])
+            assigns["reviews"].add(first_txn_idx)
+            print(f"  ⚠️  User {user_id}: Added minimum 1 review (had 0, has {len(assigns['transactions'])} transactions)")
+        elif len(assigns["reviews"]) == 0 and len(assigns["views"]) > 0:
+            # Edge case: User has views but no transactions - give them 1 transaction+review
+            first_view_idx = min(assigns["views"])
+            assigns["transactions"].add(first_view_idx)
+            assigns["reviews"].add(first_view_idx)
+            print(f"  ⚠️  User {user_id}: Added minimum 1 transaction+review (had 0)")
 
         user_block = {
             "userId": user_id,
@@ -450,15 +619,27 @@ if __name__ == "__main__":
         # Track objects for index-based funnel pairing
         view_index_to_object = {}
         txn_index_to_object = {}
+        
+        # Track which indices have been processed to avoid duplicates
+        processed_view_indices = set()
+        
+        # ✅ NEW: Track used timestamps to ensure uniqueness per user
+        used_timestamps = set()
 
         # Generate VIEWS (all visits)
         for idx in assigns["views"]:
+            # Skip if already processed (safeguard against duplicates)
+            if idx in processed_view_indices:
+                continue
+            processed_view_indices.add(idx)
+            
             entry = visits[idx]
             if "lat" not in entry or "lon" not in entry:
                 continue
             
-            # Use parsed FSQ timestamp
+            # Use parsed FSQ timestamp and ensure uniqueness
             base_timestamp = entry['_parsed_timestamp'].strftime("%Y-%m-%dT%H:%M:%SZ")
+            unique_timestamp = ensure_unique_timestamp(base_timestamp, used_timestamps)
             
             # View location from home
             if user_home_lat and user_home_lon:
@@ -472,7 +653,7 @@ if __name__ == "__main__":
             duration = random.randint(60, 180) if idx in assigns["transactions"] else random.randint(40, 120)
             
             view = {
-                "timestamp": base_timestamp,
+                "timestamp": unique_timestamp,
                 "poiId": poi_id,
                 "poiCategories": [entry.get("poi_category", "Unknown")],
                 "poiSubcategories": [],
@@ -483,28 +664,22 @@ if __name__ == "__main__":
             interaction["views"].append(view)
             view_index_to_object[idx] = view
 
-        # Generate TRANSACTIONS (subset of views, 20-90 min after view)
+        # Generate TRANSACTIONS (subset of views, SAME timestamp as original checkin)
         for idx in assigns["transactions"]:
             entry = visits[idx]
             if "lat" not in entry or "lon" not in entry:
                 continue
             
-            # Get view timestamp and add delay
+            # ✅ SEQUENTIAL FUNNEL: Use SAME timestamp as view (original FSQ checkin time)
             if idx in view_index_to_object:
                 base_view = view_index_to_object[idx]
-                view_dt = datetime.strptime(base_view["timestamp"], "%Y-%m-%dT%H:%M:%SZ")
-                
-                # Transaction happens 20-90 minutes after view
-                minutes_delay = random.choices(
-                    [random.randint(20, 30), random.randint(30, 60), random.randint(60, 90)],
-                    weights=[0.2, 0.5, 0.3],
-                    k=1
-                )[0]
-                txn_dt = view_dt + timedelta(minutes=minutes_delay)
-                txn_timestamp = txn_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+                base_timestamp = base_view["timestamp"]  # Same time as view
             else:
                 # Fallback: use parsed FSQ timestamp
-                txn_timestamp = entry['_parsed_timestamp'].strftime("%Y-%m-%dT%H:%M:%SZ")
+                base_timestamp = entry['_parsed_timestamp'].strftime("%Y-%m-%dT%H:%M:%SZ")
+            
+            # Ensure unique timestamp
+            txn_timestamp = ensure_unique_timestamp(base_timestamp, used_timestamps)
             
             lat, lon = float(entry["lat"]), float(entry["lon"])
             poi_id = entry.get("poi_id", f"POI-{idx}")
@@ -538,17 +713,13 @@ if __name__ == "__main__":
                 # Skip this review to maintain funnel integrity
                 continue
             
-            # ✅ FIXED: Get the transaction object for THIS specific visit index
-            base_txn = txn_index_to_object[idx]
-            txn_dt = datetime.strptime(base_txn["timestamp"], "%Y-%m-%dT%H:%M:%SZ")
+            # ✅ USE ORIGINAL FSQ CHECKIN TIMESTAMP (same as the original visit)
+            # Get timestamp from the original visit entry, not from transaction
+            base_timestamp = entry['_parsed_timestamp'].strftime("%Y-%m-%dT%H:%M:%SZ")
+            review_timestamp = ensure_unique_timestamp(base_timestamp, used_timestamps)
             
-            # Reviews happen 1-7 days later (realistic reflection time)
-            review_dt = txn_dt + timedelta(
-                days=random.randint(1, 7),
-                hours=random.randint(0, 23),
-                minutes=random.randint(0, 59)
-            )
-            review_timestamp = review_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+            # Get transaction object to link review to it
+            base_txn = txn_index_to_object[idx]
             
             # ✅ FIX: Review location from home (not random 50km jitter)
             if user_home_lat and user_home_lon:
@@ -585,6 +756,43 @@ if __name__ == "__main__":
         })
 
     print(f"\n✅ Generated profiles for {len(app_profiles)} users")
+    
+    # ✅ NEW: Validate timestamp uniqueness per user
+    print("\n=== Timestamp Uniqueness Validation ===")
+    users_with_duplicates = 0
+    total_duplicate_timestamps = 0
+    
+    for profile in app_profiles:
+        user_id = profile["user"]["userId"]
+        all_timestamps = []
+        
+        # Collect all timestamps from views, transactions, and reviews
+        for view in profile["interaction"]["views"]:
+            all_timestamps.append(view["timestamp"])
+        for txn in profile["interaction"]["transactions"]:
+            all_timestamps.append(txn["timestamp"])
+        for review in profile["interaction"]["reviews"]:
+            all_timestamps.append(review["timestamp"])
+        
+        # Check for duplicates
+        unique_timestamps = set(all_timestamps)
+        if len(all_timestamps) != len(unique_timestamps):
+            users_with_duplicates += 1
+            duplicate_count = len(all_timestamps) - len(unique_timestamps)
+            total_duplicate_timestamps += duplicate_count
+            
+            # Show first few duplicates for debugging
+            if users_with_duplicates <= 3:
+                timestamp_counts = defaultdict(int)
+                for ts in all_timestamps:
+                    timestamp_counts[ts] += 1
+                duplicates = {ts: count for ts, count in timestamp_counts.items() if count > 1}
+                print(f"  User {user_id}: {duplicate_count} duplicate timestamp(s) - {list(duplicates.items())[:3]}")
+    
+    if users_with_duplicates == 0:
+        print("✅ All timestamps are unique per user!")
+    else:
+        print(f"⚠️  Found {users_with_duplicates} users with duplicate timestamps ({total_duplicate_timestamps} total duplicates)")
     
     # ✅ NEW: Validate POI overlap and repetition
     print("\n=== POI Overlap & Repetition Analysis ===")
