@@ -7,13 +7,7 @@ from datetime import datetime
 from collections import defaultdict
 from statistics import mean
 from geopy.geocoders import Nominatim
-# from c0_Configuration.config_paths import (
-#     CLUSTER_SUMMARY,
-#     SAMPLED_FSQ_PLANNING_AREA,
-#     POI_CAT_MAPPING,
-#     JSON_INPUT,
-#     CATEGORIES_XLSX,
-# )
+
 
 CLUSTER_SUMMARY = "c4_JSON_Dataset_Generation/utils/u1_cluster_insights/per_cluster_insights/all_clusters_summary.csv"
 SAMPLED_FSQ_PLANNING_AREA = "c5_JSON_Dataset_Gen_from_fsq_direct/utils/u3_sampled_fsq_add_planning_area/sampled_FSQ_dataset_with_planning_area.txt"
@@ -44,22 +38,6 @@ def load_cluster_summary(cluster_summary_path):
     
     return cluster_summary
 
-# Map user_id to cluster_id - NOT NEEDED, REMOVED
-# def map_user_to_cluster(input_file):
-#     user_to_cluster = {}
-#     with open(input_file, newline='', encoding='utf-8') as f:
-#         reader = csv.DictReader(f, delimiter='\t')
-#         for row in reader:
-#             user_id = row['user_id']
-#             cluster_id = row['cluster_id']
-#             user_to_cluster[user_id] = cluster_id
-#     
-#     print(f"Mapped {len(user_to_cluster)} users to clusters")
-#     # Show sample of cluster IDs
-#     sample_clusters = list(set(user_to_cluster.values()))[:10]
-#     print(f"Sample cluster IDs from data: {sample_clusters}")
-#     
-#     return user_to_cluster
 
 def filter_cat_distribution(dataframe_user):
     # Load relevant categories from the Excel file
