@@ -89,6 +89,9 @@ def process_input_file(input_file, poi_mapping, cluster_summary):
         day_of_week = dt.strftime("%A")
         time_of_day = dt.strftime("%I:%M %p")
         month_of_year = dt.strftime("%B")
+        
+        # Convert to ISO 8601 format timestamp
+        timestamp_iso = dt.strftime("%Y-%m-%dT%H:%M:%S") + "Z"
 
         # Map place_id to POI category
         poi_category = poi_mapping.get(place_id, "Unknown Category")
@@ -102,6 +105,7 @@ def process_input_file(input_file, poi_mapping, cluster_summary):
             "day_of_week": day_of_week,
             "time_of_day": time_of_day,
             "month_of_year": month_of_year,
+            "timestamp": timestamp_iso,
             "lat": row["lat"],
             "lon": row["lon"],
         })

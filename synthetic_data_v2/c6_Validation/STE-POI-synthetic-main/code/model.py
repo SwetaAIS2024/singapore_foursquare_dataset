@@ -102,19 +102,19 @@ class UserTower(nn.Module):
         rep = torch.zeros(B, D, device=device)         # 预置输出
         if non_empty.any():
             idx = non_empty.nonzero(as_tuple=False).squeeze(1)      # [B1]
-        sub_hist = {k: v.index_select(0, idx) for k, v in hist.items()}  # 每个 [B1, T]
+            sub_hist = {k: v.index_select(0, idx) for k, v in hist.items()}  # 每个 [B1, T]
 
-        x = self.build_step_embed(
-            loc_ids=sub_hist['loc_ids'],
-            loc_cats=sub_hist['loc_cats'],
-            hour=sub_hist['hour'],
-            weekday=sub_hist['weekday'],
-        )                                                         # [B1, T, D]
-        enc = encoder(x, mask=sub_hist['loc_mask'])               # [B1, T, D]
-        rep_sub = enc[:, -1, :]                                   # 左 pad -> 最后一位是最后一个有效 token（或 pad=0）
-        rep.index_copy_(0, idx, rep_sub)                          # 写回
+            x = self.build_step_embed(
+                loc_ids=sub_hist['loc_ids'],
+                loc_cats=sub_hist['loc_cats'],
+                hour=sub_hist['hour'],
+                weekday=sub_hist['weekday'],
+            )                                                         # [B1, T, D]
+            enc = encoder(x, mask=sub_hist['loc_mask'])               # [B1, T, D]
+            rep_sub = enc[:, -1, :]                                   # 左 pad -> 最后一位是最后一个有效 token（或 pad=0）
+            rep.index_copy_(0, idx, rep_sub)                          # 写回
 
-        # 空样本保持 0 向量，避免 NaN
+            # 空样本保持 0 向量，避免 NaN
         return rep, non_empty  # rep: [B, D], non_empty: [B]
 
     def forward(self, user_cat, user_cont, trans_history, view_history, review_history, time, loc):

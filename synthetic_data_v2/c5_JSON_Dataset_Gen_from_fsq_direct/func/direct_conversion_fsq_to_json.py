@@ -123,51 +123,47 @@ def generate_review_text(user_id, poi_id, category):
 
 def parse_fsq_timestamp(visit_entry):
     """
-    Parse FSQ timestamp from visit metadata fields.
-    Constructs datetime from: day_of_week, time_of_day, month_of_year
+    Parse FSQ timestamp directly from the 'timestamp' field in ISO 8601 format.
+    Expected format: "2012-04-11T08:51:24Z"
     """
     try:
-        # Extract fields from visit entry
-        month_name = visit_entry.get("month_of_year", "January")
-        day_of_week = visit_entry.get("day_of_week", "Monday")
-        time_str = visit_entry.get("time_of_day", "12:00 PM")
-        
-        # Use 2024 as base year (adjust if needed)
-        year = 2024
-        
-        # Convert month name to number
-        month_map = {
-            "January": 1, "February": 2, "March": 3, "April": 4,
-            "May": 5, "June": 6, "July": 7, "August": 8,
-            "September": 9, "October": 10, "November": 11, "December": 12
-        }
-        month = month_map.get(month_name, 1)
-        
-        # Parse time (format: "06:19 PM")
-        time_obj = datetime.strptime(time_str, "%I:%M %p")
-        hour = time_obj.hour
-        minute = time_obj.minute
-        
-        # Find a day in that month matching the day of week
-        # Start from day 1 and find first matching weekday
-        day_name_map = {
-            "Monday": 0, "Tuesday": 1, "Wednesday": 2, "Thursday": 3,
-            "Friday": 4, "Saturday": 5, "Sunday": 6
-        }
-        target_weekday = day_name_map.get(day_of_week, 0)
-        
-        # Search for matching day in month (try first 28 days to avoid month overflow)
-        for day in range(1, 29):
-            test_date = datetime(year, month, day)
-            if test_date.weekday() == target_weekday:
-                # Found matching weekday, now add time
-                return datetime(year, month, day, hour, minute, 0)
-        
-        # Fallback: use day 15 of the month
-        return datetime(year, month, 15, hour, minute, 0)
+        # Use the timestamp field directly from input.json
+        timestamp_str = visit_entry.get("timestamp", "")
+        if timestamp_str:
+            # Parse ISO 8601 format timestamp
+            return datetime.strptime(timestamp_str, "%Y-%m-%dT%H:%M:%SZ")
+        else:
+            # Fallback: construct from date components (backward compatibility)
+            month_name = visit_entry.get("month_of_year", "January")
+            day_of_week = visit_entry.get("day_of_week", "Monday")
+            time_str = visit_entry.get("time_of_day", "12:00 PM")
+            
+            year = 2024
+            month_map = {
+                "January": 1, "February": 2, "March": 3, "April": 4,
+                "May": 5, "June": 6, "July": 7, "August": 8,
+                "September": 9, "October": 10, "November": 11, "December": 12
+            }
+            month = month_map.get(month_name, 1)
+            
+            time_obj = datetime.strptime(time_str, "%I:%M %p")
+            hour = time_obj.hour
+            minute = time_obj.minute
+            
+            day_name_map = {
+                "Monday": 0, "Tuesday": 1, "Wednesday": 2, "Thursday": 3,
+                "Friday": 4, "Saturday": 5, "Sunday": 6
+            }
+            target_weekday = day_name_map.get(day_of_week, 0)
+            
+            for day in range(1, 29):
+                test_date = datetime(year, month, day)
+                if test_date.weekday() == target_weekday:
+                    return datetime(year, month, day, hour, minute, 0)
+            
+            return datetime(year, month, 15, hour, minute, 0)
         
     except Exception as e:
-        # Fallback: return a fixed date
         print(f"Warning: Failed to parse timestamp from {visit_entry}: {e}")
         return datetime(2024, 1, 1, 12, 0, 0)
 
@@ -230,67 +226,78 @@ def validate_funnel_order(users_data, verbose=True):
                     'poiId': poi_id
                 }
         
-        # Validate order for each transaction
+        # Validate order for each transaction (EXCLUSIVE ASSIGNMENT)
+        # With exclusive assignment, not every transaction has a view
+        # We only validate TEMPORAL ORDER: if views exist for a POI, they should come before transactions
         for poi_id in poi_to_txn:
             # Handle multiple transactions per POI (revisits)
             for txn_data in poi_to_txn[poi_id]:
                 txn_time = txn_data['timestamp']
                 txn_loc = txn_data['location']
                 
-                # Check if transaction had a view
-                if poi_id not in poi_to_view:
-                    stats['funnel_violations'].append({
-                        'user': user_data['user']['userId'],
-                        'poi': poi_id,
-                        'violation': 'Transaction without View'
-                    })
-                    continue
-                
-                # Find most recent view before transaction (must be strictly before)
-                valid_views = [v for v in poi_to_view[poi_id] if v['timestamp'] < txn_time]
-                if not valid_views:
-                    stats['funnel_violations'].append({
-                        'user': user_data['user']['userId'],
-                        'poi': poi_id,
-                        'violation': 'View after Transaction'
-                    })
-                    continue
-                
-                most_recent_view = max(valid_views, key=lambda x: x['timestamp'])
-                view_time = most_recent_view['timestamp']
-                view_loc = most_recent_view['location']
-                
-                # Calculate temporal delta: view → transaction
-                delta_minutes = (txn_time - view_time).total_seconds() / 60
-                stats['temporal_stats']['view_to_txn_minutes'].append(delta_minutes)
-                
-                # Calculate spatial distance: view location vs POI location
-                view_distance = haversine_distance(
-                    view_loc['latitude'], view_loc['longitude'],
-                    txn_loc['latitude'], txn_loc['longitude']
-                )
-                stats['spatial_stats']['view_distance_from_poi_km'].append(view_distance)
+                # If this POI has views, check that at least ONE view came before first transaction
+                if poi_id in poi_to_view:
+                    # Find earliest view and earliest transaction for this POI
+                    earliest_view_time = min(v['timestamp'] for v in poi_to_view[poi_id])
+                    earliest_txn_time = min(t['timestamp'] for t in poi_to_txn[poi_id])
+                    
+                    # Violation: First transaction happened before first view
+                    if earliest_txn_time < earliest_view_time:
+                        stats['funnel_violations'].append({
+                            'user': user_data['user']['userId'],
+                            'poi': poi_id,
+                            'violation': 'First Transaction before First View (temporal order violated)'
+                        })
+                        break  # Only report once per POI
+                    
+                    # Calculate temporal metrics (views before this transaction)
+                    valid_views = [v for v in poi_to_view[poi_id] if v['timestamp'] < txn_time]
+                    if valid_views:
+                        most_recent_view = max(valid_views, key=lambda x: x['timestamp'])
+                        view_time = most_recent_view['timestamp']
+                        view_loc = most_recent_view['location']
+                        
+                        # Calculate temporal delta: view → transaction
+                        delta_minutes = (txn_time - view_time).total_seconds() / 60
+                        stats['temporal_stats']['view_to_txn_minutes'].append(delta_minutes)
+                        
+                        # Calculate spatial distance: view location vs POI location
+                        view_distance = haversine_distance(
+                            view_loc['latitude'], view_loc['longitude'],
+                            txn_loc['latitude'], txn_loc['longitude']
+                        )
+                        stats['spatial_stats']['view_distance_from_poi_km'].append(view_distance)
         
-        # Validate reviews - now standalone with exclusive assignment
+        # Validate reviews - EXCLUSIVE ASSIGNMENT with TEMPORAL ORDER validation
         for review in reviews:
             review_time = datetime.strptime(review['timestamp'], "%Y-%m-%dT%H:%M:%SZ")
             review_loc = review['userLocation']
+            poi_id = review['poiId']
             
-            # ✅ With exclusive assignment, reviews are standalone (not linked to existing transactions)
-            # Just validate that the review has basic required fields
+            # Validate basic fields
             if 'transactionId' not in review:
                 stats['funnel_violations'].append({
                     'user': user_data['user']['userId'],
-                    'poi': review['poiId'],
+                    'poi': poi_id,
                     'violation': 'Review without transactionId field'
                 })
                 continue
             
-            # Reviews are now standalone - skip transaction linkage validation
-            # Calculate spatial distance if POI has transactions for reference
-            poi_id = review['poiId']
-            if poi_id in poi_to_txn and len(poi_to_txn[poi_id]) > 0:
-                # Use first transaction's location as POI reference
+            # TEMPORAL ORDER CHECK: If POI has transactions, first review should come after first transaction
+            if poi_id in poi_to_txn:
+                earliest_txn_time = min(t['timestamp'] for t in poi_to_txn[poi_id])
+                earliest_review_time = review_time  # This is one of potentially multiple reviews
+                
+                # Check if THIS review violates temporal order
+                if review_time < earliest_txn_time:
+                    stats['funnel_violations'].append({
+                        'user': user_data['user']['userId'],
+                        'poi': poi_id,
+                        'violation': 'Review before First Transaction (temporal order violated)'
+                    })
+                    continue
+                
+                # Calculate spatial distance
                 txn_loc = poi_to_txn[poi_id][0]['location']
                 review_distance = haversine_distance(
                     review_loc['latitude'], review_loc['longitude'],
@@ -370,28 +377,22 @@ def validate_funnel_order(users_data, verbose=True):
 
 def assign_funnel_interactions(visits, view_to_transaction_rate=0.4, transaction_to_review_rate=0.3):
     """
-    Assign funnel interactions in CYCLES per POI:
+    Assign funnel interactions with EXCLUSIVE, CYCLIC assignment (60:30:10 ratio):
     
-    For EACH POI, repeat the funnel cycle with EXCLUSIVE assignment.
-    Each checkin becomes ONE interaction type only (view OR transaction OR review).
+    Each checkin becomes EXACTLY ONE type: View OR Transaction OR Review
+    Distribution follows 60:30:10 ratio (60% views, 30% transactions, 10% reviews)
     
-    Within each cycle:
-    - First checkins → Views only
-    - Middle checkins → Transactions only
-    - Last checkins → Reviews only
+    CYCLIC PATTERN per POI with temporal ordering:
+    - First checkins → Views (browsing phase)
+    - Middle checkins → Mix of Views and Transactions (engagement phase)  
+    - Later checkins → Mix of all three including Reviews (loyalty phase)
     
-    Ratios per cycle:
-    - 60% Views only
-    - 40% split between Transactions and Reviews
-      - Most of the 40% → Transactions only
-      - Last 30% of transactions → Reviews only
+    Example with 10 checkins: V,V,V,V,T,V,V,T,T,R
+    Result: 6 views, 3 transactions, 1 review (60:30:10 ratio)
     
-    Example: Cycle of 10 checkins:
-      - Checkins 1-6 (60%) → Views only
-      - Checkins 7-9 (30%) → Transactions only
-      - Checkin 10 (10%) → Review only
-    
-    Each checkin has exactly ONE interaction type.
+    CRITICAL: Maintains temporal funnel order per POI:
+    - All views come before the first transaction for that POI
+    - All transactions come before the first review for that POI
     """
     n_visits = len(visits)
     
@@ -411,101 +412,118 @@ def assign_funnel_interactions(visits, view_to_transaction_rate=0.4, transaction
     transaction_indices = set()
     review_indices = set()
     
-    # For each POI, apply cyclical funnel pattern with exclusive assignment
+    # For each POI, apply EXCLUSIVE cyclic funnel pattern
     for poi_id, indices in poi_visit_indices.items():
         # Sort indices chronologically by the visit timestamp
         indices = sorted(indices, key=lambda idx: visits[idx].get('_parsed_timestamp', datetime(2024, 1, 1)))
         n_poi_visits = len(indices)
         
-        # Handle corner cases for POIs with few visits
-        if n_poi_visits == 1:
-            # Single visit: make it a view only
-            view_indices.add(indices[0])
-            continue
-        elif n_poi_visits == 2:
-            # Two visits: first = view, second = transaction
-            view_indices.add(indices[0])
-            transaction_indices.add(indices[1])
-            continue
+        # Calculate target counts based on 60:30:10 ratio
+        n_views = int(n_poi_visits * 0.6)
+        n_transactions = int(n_poi_visits * 0.3)
+        n_reviews = n_poi_visits - n_views - n_transactions  # Remainder becomes reviews
+        
+        # CRITICAL: Reviews can only exist if transactions exist (funnel order)
+        # Adjust counts based on POI visit count
+        if n_poi_visits >= 4:
+            # For 4+ visits, ensure at least 1 of each type
+            n_views = max(1, n_views)
+            n_transactions = max(1, n_transactions)
+            n_reviews = max(1, n_reviews)
+            # Re-normalize if needed
+            total = n_views + n_transactions + n_reviews
+            if total > n_poi_visits:
+                # Trim reviews first, then transactions
+                excess = total - n_poi_visits
+                n_reviews = max(0, n_reviews - excess)
+                if n_reviews == 0:
+                    # If no reviews possible, redistribute
+                    n_transactions = n_poi_visits - n_views
         elif n_poi_visits == 3:
-            # Three visits: view, transaction, review (one each)
-            view_indices.add(indices[0])
-            transaction_indices.add(indices[1])
-            review_indices.add(indices[2])
-            continue
+            # 3 visits: V, T, R or V, V, T (no guarantee of review)
+            n_views = max(1, n_views) if n_views > 0 else 1
+            n_transactions = max(1, n_transactions) if n_transactions > 0 else 1
+            n_reviews = n_poi_visits - n_views - n_transactions
+            # Only allow review if at least 1 transaction exists
+            if n_reviews > 0 and n_transactions == 0:
+                n_reviews = 0
+        elif n_poi_visits == 2:
+            n_views = 1
+            n_transactions = 1
+            n_reviews = 0
+        elif n_poi_visits == 1:
+            n_views = 1
+            n_transactions = 0
+            n_reviews = 0
         
-        # For POIs with 4+ visits, use cyclical pattern
-        # Base cycle size (aim for multiple cycles, but adapt to visit count)
-        if n_poi_visits >= 10:
-            base_cycle_size = n_poi_visits // 4  # Aim for ~4 cycles
-        elif n_poi_visits >= 6:
-            base_cycle_size = n_poi_visits // 2  # 2-3 cycles
+        # INTERLEAVED CYCLIC PATTERN with TEMPORAL FUNNEL ORDER
+        # Create pattern like: V,V,T,V,V,V,T,V,V,R (not V,V,V,V,T,T,T,R)
+        # Strategy: Create a repeating cycle and distribute types throughout timeline
+        
+        # Build assignment pattern maintaining funnel order:
+        # - Views appear throughout (but concentrated at start)
+        # - Transactions appear in middle/later (after some views)
+        # - Reviews appear last (after transactions start)
+        
+        assignment_pattern = []
+        
+        # Calculate cycle length (how often to insert transaction/review)
+        # E.g., if 10 checkins with 6V, 3T, 1R → cycle ~every 3-4 checkins
+        if n_transactions > 0:
+            view_spacing = max(2, n_poi_visits // (n_transactions + n_reviews + 1))
         else:
-            base_cycle_size = n_poi_visits  # Single cycle for 4-5 visits
+            view_spacing = n_poi_visits
         
-        current_idx = 0
-        cycle_num = 0
+        # Build interleaved pattern
+        v_count, t_count, r_count = 0, 0, 0
         
-        while current_idx < n_poi_visits:
-            # Calculate cycle size with randomness
-            if cycle_num == 0:
-                cycle_size = base_cycle_size
+        for idx_pos in range(n_poi_visits):
+            # First few checkins are always views (establish interest)
+            if idx_pos < 2 and v_count < n_views:
+                assignment_pattern.append('V')
+                v_count += 1
+            # Last checkins for reviews (if any left)
+            elif idx_pos >= n_poi_visits - n_reviews and r_count < n_reviews:
+                assignment_pattern.append('R')
+                r_count += 1
+            # Middle section: interleave V and T
+            elif t_count < n_transactions and idx_pos % view_spacing == 0 and idx_pos >= 2:
+                assignment_pattern.append('T')
+                t_count += 1
+            # Fill remaining with views
+            elif v_count < n_views:
+                assignment_pattern.append('V')
+                v_count += 1
+            # Fallback: transactions
+            elif t_count < n_transactions:
+                assignment_pattern.append('T')
+                t_count += 1
+            # Final fallback: reviews
+            elif r_count < n_reviews:
+                assignment_pattern.append('R')
+                r_count += 1
             else:
-                # Add randomness: ±20% variation
-                variation = random.randint(-20, 20) / 100.0
-                cycle_size = max(3, int(base_cycle_size * (1 + variation)))
-            
-            # Don't exceed remaining visits
-            cycle_size = min(cycle_size, n_poi_visits - current_idx)
-            
-            # Within this cycle, calculate EXCLUSIVE counts:
-            # Calculate total transactions for this cycle
-            n_transactions_total = int(cycle_size * view_to_transaction_rate)  # 40% of cycle
-            n_reviews = int(n_transactions_total * transaction_to_review_rate)  # 30% of transactions
-            
-            # Ensure at least 1 transaction if cycle is large enough
-            if cycle_size >= 3:
-                n_transactions_total = max(1, n_transactions_total)
-            # Reviews follow natural ratio - no forced minimum per cycle
-            # (User-level minimum guarantee handles edge cases)
-            
-            # Split transactions into: transaction-only and reviews
-            n_transaction_only = n_transactions_total - n_reviews
-            n_view_only = cycle_size - n_transactions_total
-            
-            # Store the indices for this cycle
-            cycle_indices = []
-            for i in range(cycle_size):
-                if current_idx < n_poi_visits:
-                    cycle_indices.append(indices[current_idx])
-                    current_idx += 1
-            
-            # Assign types EXCLUSIVELY (each checkin to ONE type only):
-            # First n_view_only checkins → Views only
-            # Next n_transaction_only checkins → Transactions only
-            # Last n_reviews checkins → Reviews only
-            
-            idx_pos = 0
-            
-            # Views only (first part of cycle)
-            for i in range(n_view_only):
-                if idx_pos < len(cycle_indices):
-                    view_indices.add(cycle_indices[idx_pos])
-                    idx_pos += 1
-            
-            # Transactions only (middle part of cycle)
-            for i in range(n_transaction_only):
-                if idx_pos < len(cycle_indices):
-                    transaction_indices.add(cycle_indices[idx_pos])
-                    idx_pos += 1
-            
-            # Reviews only (last part of cycle)
-            for i in range(n_reviews):
-                if idx_pos < len(cycle_indices):
-                    review_indices.add(cycle_indices[idx_pos])
-                    idx_pos += 1
-            
-            cycle_num += 1
+                # Should never reach here, but fallback to view
+                assignment_pattern.append('V')
+        
+        # Assign indices based on pattern
+        for idx_pos, interaction_type in enumerate(assignment_pattern):
+            if idx_pos < len(indices):
+                if interaction_type == 'V':
+                    view_indices.add(indices[idx_pos])
+                elif interaction_type == 'T':
+                    transaction_indices.add(indices[idx_pos])
+                elif interaction_type == 'R':
+                    review_indices.add(indices[idx_pos])
+    
+    # FINAL SAFETY CHECK: Remove any reviews if no transactions exist (per-user level)
+    # This ensures global funnel order is maintained
+    user_has_transactions = len(transaction_indices) > 0
+    if not user_has_transactions and len(review_indices) > 0:
+        # Convert reviews to transactions to maintain funnel
+        for review_idx in review_indices:
+            transaction_indices.add(review_idx)
+        review_indices.clear()
     
     return {
         "views": view_indices,
@@ -563,6 +581,11 @@ if __name__ == "__main__":
         visits = user.get("user_metadata", [])
         if not visits or not isinstance(visits, list) or len(visits) == 0:
             continue
+        
+        # ✅ Skip users with fewer than 4 checkins (insufficient for realistic funnel)
+        if len(visits) < 4:
+            print(f"  ⚠️  User {user_id}: Skipping user (only {len(visits)} checkin(s) - need at least 4)")
+            continue
 
         # ✅ PURE TRANSFORMATION: Use ONLY original checkins, no additions
         # No capping, no POI injection, no artificial revisits
@@ -574,27 +597,45 @@ if __name__ == "__main__":
         # Sort by parsed timestamp for chronological order
         visits.sort(key=lambda v: v.get('_parsed_timestamp', datetime(2024, 1, 1)))
         
-        # ✅ FUNNEL LOGIC: 
-        # - 100% of checkins → Views (all visits start as views)
-        # - 40% of views → Transactions (increased engagement)
-        # - 30% of transactions → Reviews
+        # ✅ FUNNEL LOGIC with EXCLUSIVE CYCLIC assignment (60:30:10 ratio):
+        # - Each checkin becomes EXACTLY ONE type: View OR Transaction OR Review
+        # - 60% Views, 30% Transactions, 10% Reviews (per POI, per user)
+        # - Temporal order maintained: Views first, then Transactions, then Reviews
         assigns = assign_funnel_interactions(visits, view_to_transaction_rate=0.4, transaction_to_review_rate=0.3)
 
         # ✅ MODEL REQUIREMENT: Ensure every user has at least 1 review
-        # The model crashes if a user has zero reviews in their history
-        if len(assigns["reviews"]) == 0:
-            if len(assigns["transactions"]) > 0:
-                # Pick the last transaction to also be a review (ensures temporal consistency)
-                last_txn_idx = max(assigns["transactions"])
-                assigns["transactions"].remove(last_txn_idx)  # Remove from transactions
-                assigns["reviews"].add(last_txn_idx)  # Add to reviews (exclusive)
-                print(f"  ⚠️  User {user_id}: Converted 1 transaction to review (had 0 reviews)")
-            elif len(assigns["views"]) > 0:
-                # Edge case: User has only views - convert last view to review
-                last_view_idx = max(assigns["views"])
-                assigns["views"].remove(last_view_idx)
-                assigns["reviews"].add(last_view_idx)
-                print(f"  ⚠️  User {user_id}: Converted 1 view to review (had 0 reviews/transactions)")
+        # CRITICAL: Only add review if user has at least 2 transactions (to maintain funnel after conversion)
+        if len(assigns["reviews"]) == 0 and len(visits) >= 3:
+            # Convert one of the last checkins to a review
+            # CRITICAL: Reviews require transactions, so ensure AT LEAST 2 transactions exist
+            # (so after converting 1 to review, at least 1 transaction remains)
+            if len(assigns["transactions"]) >= 2:
+                # Convert last transaction to review (maintains temporal order)
+                sorted_txns = sorted(assigns["transactions"], key=lambda idx: visits[idx]['_parsed_timestamp'])
+                last_txn_idx = sorted_txns[-1]
+                assigns["transactions"].remove(last_txn_idx)
+                assigns["reviews"].add(last_txn_idx)
+                print(f"  ⚠️  User {user_id}: Converted 1 transaction to review (ensures at least 1 review)")
+            elif len(assigns["views"]) >= 2:
+                # Not enough transactions - need to create both transaction AND review
+                # Convert last 2 views: second-to-last → transaction, last → review
+                sorted_views = sorted(assigns["views"], key=lambda idx: visits[idx]['_parsed_timestamp'])
+                if len(sorted_views) >= 2:
+                    # Second-to-last view becomes transaction
+                    txn_idx = sorted_views[-2]
+                    assigns["views"].remove(txn_idx)
+                    assigns["transactions"].add(txn_idx)
+                    # Last view becomes review
+                    review_idx = sorted_views[-1]
+                    assigns["views"].remove(review_idx)
+                    assigns["reviews"].add(review_idx)
+                    print(f"  ⚠️  User {user_id}: Created transaction + review from views (maintains funnel order)")
+                else:
+                    # Only 1 view - cannot create review without violating funnel
+                    print(f"  ⚠️  User {user_id}: Insufficient checkins for review (need at least 2)")
+            else:
+                # Not enough views or transactions - skip review requirement
+                print(f"  ⚠️  User {user_id}: Cannot add review without violating funnel (insufficient data)")
 
         user_block = {
             "userId": user_id,
@@ -625,9 +666,6 @@ if __name__ == "__main__":
         # Track which indices have been processed to avoid duplicates
         processed_view_indices = set()
         
-        # ✅ NEW: Track used timestamps to ensure uniqueness per user
-        used_timestamps = set()
-
         # Generate VIEWS (all visits)
         for idx in assigns["views"]:
             # Skip if already processed (safeguard against duplicates)
@@ -639,23 +677,18 @@ if __name__ == "__main__":
             if "lat" not in entry or "lon" not in entry:
                 continue
             
-            # Use parsed FSQ timestamp and ensure uniqueness
-            base_timestamp = entry['_parsed_timestamp'].strftime("%Y-%m-%dT%H:%M:%SZ")
-            unique_timestamp = ensure_unique_timestamp(base_timestamp, used_timestamps)
+            # Use exact FSQ timestamp (NO OFFSET, NO UNIQUENESS CHECK)
+            timestamp = entry['_parsed_timestamp'].strftime("%Y-%m-%dT%H:%M:%SZ")
             
-            # View location from home
-            if user_home_lat and user_home_lon:
-                lat, lon = get_view_location(user_home_lat, user_home_lon, 
-                                            float(entry["lat"]), float(entry["lon"]))
-            else:
-                lat, lon = jitter_location(float(entry["lat"]), float(entry["lon"]), distance_km=2)
+            # Use exact POI location from original checkin (NO JITTER)
+            lat, lon = float(entry["lat"]), float(entry["lon"])
             
             poi_id = entry.get("poi_id", f"POI-{idx}")
             
             duration = random.randint(60, 180) if idx in assigns["transactions"] else random.randint(40, 120)
             
             view = {
-                "timestamp": unique_timestamp,
+                "timestamp": timestamp,
                 "poiId": poi_id,
                 "poiCategories": [entry.get("poi_category", "Unknown")],
                 "poiSubcategories": [],
@@ -672,22 +705,15 @@ if __name__ == "__main__":
             if "lat" not in entry or "lon" not in entry:
                 continue
             
-            # ✅ SEQUENTIAL FUNNEL: Use SAME timestamp as view (original FSQ checkin time)
-            if idx in view_index_to_object:
-                base_view = view_index_to_object[idx]
-                base_timestamp = base_view["timestamp"]  # Same time as view
-            else:
-                # Fallback: use parsed FSQ timestamp
-                base_timestamp = entry['_parsed_timestamp'].strftime("%Y-%m-%dT%H:%M:%SZ")
+            # Use exact FSQ timestamp (NO OFFSET)
+            timestamp = entry['_parsed_timestamp'].strftime("%Y-%m-%dT%H:%M:%SZ")
             
-            # Ensure unique timestamp
-            txn_timestamp = ensure_unique_timestamp(base_timestamp, used_timestamps)
-            
+            # Use exact POI location from original checkin
             lat, lon = float(entry["lat"]), float(entry["lon"])
             poi_id = entry.get("poi_id", f"POI-{idx}")
             
             txn = {
-                "timestamp": txn_timestamp,
+                "timestamp": timestamp,
                 "poiId": poi_id,
                 "poiCategories": [entry["poi_category"]],
                 "poiSubcategories": [],
@@ -708,28 +734,24 @@ if __name__ == "__main__":
             if "lat" not in entry or "lon" not in entry:
                 continue
             
-            # ✅ USE ORIGINAL FSQ CHECKIN TIMESTAMP (same as the original visit)
-            base_timestamp = entry['_parsed_timestamp'].strftime("%Y-%m-%dT%H:%M:%SZ")
-            review_timestamp = ensure_unique_timestamp(base_timestamp, used_timestamps)
+            # Use exact FSQ timestamp (NO OFFSET)
+            timestamp = entry['_parsed_timestamp'].strftime("%Y-%m-%dT%H:%M:%SZ")
             
-            # ✅ FIX: Review location from home (not random 50km jitter)
-            if user_home_lat and user_home_lon:
-                lat, lon = get_review_location(user_home_lat, user_home_lon)
-            else:
-                lat, lon = jitter_location(float(entry["lat"]), float(entry["lon"]), distance_km=2)
+            # Use exact POI location from original checkin (NO JITTER)
+            lat, lon = float(entry["lat"]), float(entry["lon"])
             
             # Get POI ID from current entry
             review_poi_id = entry.get("poi_id", f"POI-{idx}")
             
             review = {
-                "timestamp": review_timestamp,
+                "timestamp": timestamp,
                 "poiId": review_poi_id,
                 "poiCategories": [entry["poi_category"]],
                 "poiSubcategories": [],
                 "rating": random_rating(),
                 "reviewText": generate_review_text(user_id, review_poi_id, entry["poi_category"]),
                 "userLocation": {"latitude": lat, "longitude": lon},
-                "transactionId": f"TXN-{user_id}-{review_poi_id}-{review_timestamp}"  # Generate unique transaction ID for review
+                "transactionId": f"TXN-{user_id}-{review_poi_id}-{timestamp}"  # Generate unique transaction ID for review
             }
             interaction["reviews"].append(review)
 

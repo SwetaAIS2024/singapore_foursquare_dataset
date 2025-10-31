@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description="Training Script")
 
-    parser.add_argument("--epochs", "-e", type=int, default=30, help="Number of epochs (default: 30)")
+    parser.add_argument("--epochs", "-e", type=int, default=50, help="Number of epochs (default: 30)")
     parser.add_argument("--print", type=int, default=50, help="Number of iterations to print loss")
     parser.add_argument("--batch_size", "-b", type=int, default=16, help="Batch size (default: 256)")
     parser.add_argument("--hidden_size", type=int, default=64, help="Transformer hidden size")
