@@ -1,0 +1,67 @@
+# Virtual environments
+/code_venv
+code_venv/
+**/code_venv/
+venv/
+env/
+.venv/
+.env/
+
+/c5_JSON_Dataset_Generation/c0_scripts/LLM_method/input_dataset/mean_lat_lon_area/malaysia-singapore-brunei-latest.osm.pbf
+#*.npy
+*.npy.tmp
+#*.txt
+# *.csv
+*.pack
+*.idx
+#*.npz
+
+# Keep specific CSV files that need to be tracked
+!requirements.txt
+!README.txt
+!pre_analysis_categories_sg.txt
+!pre_analysis_places_sg.txt
+
+
+
+
+# Ignore large synthetic data files
+output_syn_json/*.json
+**/*synthetic*.json
+**/*_filtered.json
+**/*_all_categories.json
+
+# Ignore validation directory and large data files
+c6_Validation/
+**/data/SG_synthetic/*.json
+**/app_profiles_*.json
+**/all_poi_id_*.json
+
+# Ignore large files that exceed GitHub limits
+**/*.json
+!requirements.json
+!config*.json
+!package*.json
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
