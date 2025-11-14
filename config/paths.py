@@ -39,12 +39,3 @@ SYNTHETIC_ALL_CATEGORIES_JSON = (
 # GeoJSON files (in project root)
 PLANNING_AREA_GEOJSON = BASE_DIR / "planning_area.geojson"
 SUBZONE_GEOJSON = BASE_DIR / "subzone.geojson"
-
-# Legacy path aliases for backward compatibility
-# TODO: Remove these once all scripts are updated
-CHECKINS_PATH_CSV = str(FSQ_CHECKINS_CSV)
-POI_COORDINATES_CSV = str(FSQ_POI_CSV)
-CATEGORIES_XLSX = str(RELEVANT_CATEGORIES_XLSX)
-JSON_OUTPUT_DIR = str(DATA_SYNTHETIC)
-PLANNING_CACHE = str(PLANNING_AREA_GEOJSON)
-SUBZONE_CACHE = str(SUBZONE_GEOJSON)

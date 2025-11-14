@@ -47,7 +47,10 @@ python scripts/preprocess_fsq_data.py
 # 2. Generate synthetic datasets
 python scripts/generate_synthetic_data.py
 
-# 3. Validate outputs
+# 3. Postprocess synthetic data (5-core filtering)
+python scripts/postprocess_synthetic_data.py
+
+# 4. Validate outputs
 python scripts/validate_output.py
 ```
 
@@ -57,6 +60,7 @@ python scripts/validate_output.py
 make install      # Install dependencies
 make preprocess   # Preprocess raw FSQ data
 make generate     # Generate synthetic datasets
+make postprocess  # Apply 5-core filtering to synthetic data
 make validate     # Validate outputs
 make clean        # Remove generated files
 make test         # Run tests
@@ -65,9 +69,10 @@ make test         # Run tests
 ## Data Pipeline
 
 1. **Raw Data** (`data/raw/`) → Original FSQ datasets (never modify)
-2. **Interim Data** (`data/interim/`) → Temporary transformations
+2. **Interim Data** (`data/interim/`) → Temporary transformations (planning area enrichment)
 3. **Processed Data** (`data/processed/`) → Clean inputs for generation
-4. **Synthetic Data** (`data/synthetic/`) → Final outputs
+4. **Synthetic Data** (`data/synthetic/`) → Generated outputs
+5. **Postprocessed Data** (`data/synthetic/postprocessed/`) → 5-core filtered outputs
 
 ## Architecture
 
@@ -81,8 +86,10 @@ No ML temporal models needed - uses original FSQ timestamps directly.
 
 ## Key Files
 
-- `src/generation/transaction_generator.py` - Main synthetic data generation
+- `src/preprocessing/add_planning_area.py` - Add geographic region information to checkins
 - `src/preprocessing/fsq_to_input_json.py` - FSQ CSV → JSON conversion
+- `src/generation/transaction_generator.py` - Main synthetic data generation
+- `scripts/postprocess_synthetic_data.py` - Apply 5-core filtering to synthetic data
 - `src/validation/validate_transactions.py` - Transaction quality checks
 - `config/paths.py` - Centralized path definitions
 

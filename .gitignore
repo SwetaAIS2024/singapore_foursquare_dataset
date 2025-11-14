@@ -8,11 +8,11 @@ env/
 .env/
 
 # Data directories (keep structure, ignore large files)
-data/raw/*.csv
-data/interim/*.txt
-data/interim/*.json
-data/processed/*.json
-data/synthetic/*.json
+# data/raw/*.csv
+# data/interim/*.txt
+# data/interim/*.json
+# data/processed/*.json
+# data/synthetic/*.json
 
 # But keep directory structure
 !data/raw/README.md

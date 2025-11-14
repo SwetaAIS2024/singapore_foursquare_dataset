@@ -1,13 +1,14 @@
-.PHONY: install clean generate validate preprocess test help
+.PHONY: install clean generate validate preprocess postprocess test help
 
 help:
 	@echo "Available commands:"
-	@echo "  make install     - Install dependencies"
-	@echo "  make clean       - Remove generated files"
-	@echo "  make preprocess  - Preprocess raw FSQ data"
-	@echo "  make generate    - Generate synthetic datasets"
-	@echo "  make validate    - Validate synthetic outputs"
-	@echo "  make test        - Run tests"
+	@echo "  make install      - Install dependencies"
+	@echo "  make clean        - Remove generated files"
+	@echo "  make preprocess   - Preprocess raw FSQ data"
+	@echo "  make generate     - Generate synthetic datasets"
+	@echo "  make postprocess  - Apply 5-core filtering to synthetic data"
+	@echo "  make validate     - Validate synthetic outputs"
+	@echo "  make test         - Run tests"
 
 install:
 	pip install -r requirements.txt
@@ -25,6 +26,9 @@ preprocess:
 
 generate:
 	python scripts/generate_synthetic_data.py
+
+postprocess:
+	python scripts/postprocess_synthetic_data.py
 
 validate:
 	python scripts/validate_output.py

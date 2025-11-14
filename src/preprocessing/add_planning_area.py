@@ -4,11 +4,18 @@ import geopandas as gpd
 import pandas as pd
 from shapely.geometry import Point
 from bs4 import BeautifulSoup
-from c0_Configuration.config_paths import CHECKINS_PATH_CSV, POI_COORDINATES_CSV,  PLANNING_CACHE, SUBZONE_CACHE, FSQ_WITH_PLANNING_AREA
+from config.paths import (
+    FSQ_POI_CSV, 
+    PLANNING_AREA_GEOJSON, 
+    SUBZONE_GEOJSON, 
+    FSQ_CHECKINS_CSV, 
+    INPUT_TO_GENERATOR_INTERIM
+    )
+
 
 # Local cache paths
-INPUT_FILE = CHECKINS_PATH_CSV
-OUTPUT_FILE = FSQ_WITH_PLANNING_AREA
+INPUT_FILE = FSQ_CHECKINS_CSV
+OUTPUT_FILE = INPUT_TO_GENERATOR_INTERIM
 
 
 def _load_geojson(cache_path: str) -> gpd.GeoDataFrame:
@@ -95,10 +102,10 @@ def append_planning_area(input_file: str, output_file: str, gdf):
     print(f"Loaded {len(df_checkins)} checkin rows from {input_file}")
     
     # Load POI coordinates from separate file using configured path
-    print(f"Loading POI coordinates from: {POI_COORDINATES_CSV}")
-    df_poi = pd.read_csv(POI_COORDINATES_CSV, sep=",", header=None,
+    print(f"Loading POI coordinates from: {FSQ_POI_CSV}")
+    df_poi = pd.read_csv(FSQ_POI_CSV, sep=",", header=None,
                          names=['place_id', 'name', 'lat', 'lon', 'category', 'country'])
-    print(f"Loaded {len(df_poi)} POI rows from {POI_COORDINATES_CSV}")
+    print(f"Loaded {len(df_poi)} POI rows from {FSQ_POI_CSV}")
     
     # Merge checkins with POI coordinates by place_id
     print("Merging checkins with POI coordinates...")
@@ -209,78 +216,86 @@ def append_planning_area(input_file: str, output_file: str, gdf):
     print(f"   Rows without planning areas: {df_cleaned['planning_area'].isna().sum():,}")
 
 
-# ==========================================
-# MAIN EXECUTION
-# ==========================================
+def main():
+    """
+    Main execution function for adding planning areas to FSQ checkin data.
+    """
+    # ==========================================
+    # MAIN EXECUTION
+    # ==========================================
 
-print("="*60)
-print("LOADING GEOJSON FILES")
-print("="*60)
+    print("="*60)
+    print("LOADING GEOJSON FILES")
+    print("="*60)
 
-try:
-    planning_gdf = _load_geojson(PLANNING_CACHE)
-    subzone_gdf = _load_geojson(SUBZONE_CACHE)
-except RuntimeError as e:
-    print(f"❌ Error loading GeoJSON data: {e}")
-    planning_gdf = None
-    subzone_gdf = None
-    exit(1)
+    try:
+        planning_gdf = _load_geojson(PLANNING_AREA_GEOJSON)
+        subzone_gdf = _load_geojson(SUBZONE_GEOJSON)
+    except RuntimeError as e:
+        print(f"❌ Error loading GeoJSON data: {e}")
+        planning_gdf = None
+        subzone_gdf = None
+        exit(1)
 
-# Validate and fix planning GDF
-if planning_gdf is not None:
-    print(f"\n{'='*60}")
-    print("PLANNING AREA GDF INFO")
-    print(f"{'='*60}")
-    print(f"CRS: {planning_gdf.crs}")
-    print(f"Number of polygons: {len(planning_gdf)}")
-    print(f"Bounds: {planning_gdf.total_bounds}")
-    print(f"Columns: {list(planning_gdf.columns)}")
-    print(f"Geometries valid: {planning_gdf.geometry.is_valid.all()}")
-    
-    # Convert CRS if needed
-    if planning_gdf.crs != "EPSG:4326":
-        print("Converting to EPSG:4326...")
-        planning_gdf = planning_gdf.to_crs("EPSG:4326")
-    
-    # Fix invalid geometries
-    if not planning_gdf.geometry.is_valid.all():
-        print("Fixing invalid geometries...")
-        invalid_count = (~planning_gdf.geometry.is_valid).sum()
-        print(f"Found {invalid_count} invalid geometries")
-        planning_gdf["geometry"] = planning_gdf.geometry.buffer(0)
-        print(f"After fix - Geometries valid: {planning_gdf.geometry.is_valid.all()}")
-    
-    # Show sample description
-    if 'Description' in planning_gdf.columns:
-        sample_desc = planning_gdf['Description'].iloc[0]
-        print(f"\nSample Description field (first 200 chars):")
-        print(str(sample_desc)[:200])
+    # Validate and fix planning GDF
+    if planning_gdf is not None:
+        print(f"\n{'='*60}")
+        print("PLANNING AREA GDF INFO")
+        print(f"{'='*60}")
+        print(f"CRS: {planning_gdf.crs}")
+        print(f"Number of polygons: {len(planning_gdf)}")
+        print(f"Bounds: {planning_gdf.total_bounds}")
+        print(f"Columns: {list(planning_gdf.columns)}")
+        print(f"Geometries valid: {planning_gdf.geometry.is_valid.all()}")
         
-        # Try to extract area name from sample
-        sample_area = _extract_pln_area_n(sample_desc)
-        print(f"Extracted area name from sample: {sample_area}")
+        # Convert CRS if needed
+        if planning_gdf.crs != "EPSG:4326":
+            print("Converting to EPSG:4326...")
+            planning_gdf = planning_gdf.to_crs("EPSG:4326")
+        
+        # Fix invalid geometries
+        if not planning_gdf.geometry.is_valid.all():
+            print("Fixing invalid geometries...")
+            invalid_count = (~planning_gdf.geometry.is_valid).sum()
+            print(f"Found {invalid_count} invalid geometries")
+            planning_gdf["geometry"] = planning_gdf.geometry.buffer(0)
+            print(f"After fix - Geometries valid: {planning_gdf.geometry.is_valid.all()}")
+        
+        # Show sample description
+        if 'Description' in planning_gdf.columns:
+            sample_desc = planning_gdf['Description'].iloc[0]
+            print(f"\nSample Description field (first 200 chars):")
+            print(str(sample_desc)[:200])
+            
+            # Try to extract area name from sample
+            sample_area = _extract_pln_area_n(sample_desc)
+            print(f"Extracted area name from sample: {sample_area}")
 
-# Validate subzone GDF
-if subzone_gdf is not None:
+    # Validate subzone GDF
+    if subzone_gdf is not None:
+        print(f"\n{'='*60}")
+        print("SUBZONE GDF INFO")
+        print(f"{'='*60}")
+        print(f"CRS: {subzone_gdf.crs}")
+        print(f"Number of polygons: {len(subzone_gdf)}")
+        print(f"Bounds: {subzone_gdf.total_bounds}")
+        print(f"Geometries valid: {subzone_gdf.geometry.is_valid.all()}")
+        
+        if subzone_gdf.crs != "EPSG:4326":
+            subzone_gdf = subzone_gdf.to_crs("EPSG:4326")
+        if not subzone_gdf.geometry.is_valid.all():
+            subzone_gdf["geometry"] = subzone_gdf.geometry.buffer(0)
+
+    # Process the data
     print(f"\n{'='*60}")
-    print("SUBZONE GDF INFO")
+    print("PROCESSING DATA")
     print(f"{'='*60}")
-    print(f"CRS: {subzone_gdf.crs}")
-    print(f"Number of polygons: {len(subzone_gdf)}")
-    print(f"Bounds: {subzone_gdf.total_bounds}")
-    print(f"Geometries valid: {subzone_gdf.geometry.is_valid.all()}")
-    
-    if subzone_gdf.crs != "EPSG:4326":
-        subzone_gdf = subzone_gdf.to_crs("EPSG:4326")
-    if not subzone_gdf.geometry.is_valid.all():
-        subzone_gdf["geometry"] = subzone_gdf.geometry.buffer(0)
 
-# Process the data
-print(f"\n{'='*60}")
-print("PROCESSING DATA")
-print(f"{'='*60}")
+    if planning_gdf is not None and not planning_gdf.empty:
+        append_planning_area(INPUT_FILE, OUTPUT_FILE, planning_gdf)
+    else:
+        print("❌ Cannot proceed: Planning GeoDataFrame not loaded or empty")
 
-if planning_gdf is not None and not planning_gdf.empty:
-    append_planning_area(INPUT_FILE, OUTPUT_FILE, planning_gdf)
-else:
-    print("❌ Cannot proceed: Planning GeoDataFrame not loaded or empty")
+
+if __name__ == "__main__":
+    main()
