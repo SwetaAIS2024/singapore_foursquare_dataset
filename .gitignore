@@ -7,6 +7,11 @@ env/
 .venv/
 .env/
 
+# Environment variables
+.env
+.env.local
+.env.*.local
+
 # Data directories (keep structure, ignore large files)
 # data/raw/*.csv
 # data/interim/*.txt

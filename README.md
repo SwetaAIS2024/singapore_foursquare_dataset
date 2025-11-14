@@ -38,6 +38,36 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
+### Environment Configuration (Optional)
+
+If you need to configure environment-specific variables (e.g., API keys, custom paths), create a `.env` file in the project root:
+
+```powershell
+# Create .env file
+New-Item -Path .env -ItemType File
+```
+
+Example `.env` file contents:
+```bash
+# Python environment (if needed)
+PYTHON_ENV=production
+
+# Custom data paths (optional - overrides default config)
+# DATA_RAW_PATH=./data/raw
+# DATA_PROCESSED_PATH=./data/processed
+# DATA_SYNTHETIC_PATH=./data/synthetic
+
+# API keys (if needed for future features)
+# GEOPY_API_KEY=your_api_key_here
+# DATABRICKS_TOKEN=your_token_here
+
+# Processing parameters (optional)
+# MIN_INTERACTIONS=5
+# BATCH_SIZE=100
+```
+
+**Note:** The `.env` file is already included in `.gitignore` and will not be committed to the repository.
+
 ### Running the Pipeline
 
 ```powershell
