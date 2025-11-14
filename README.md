@@ -108,9 +108,51 @@ See `requirements.txt` for complete list.
 
 ### Running Tests
 
+The project includes comprehensive tests to verify data consistency between raw and synthetic datasets.
+
+**Install test dependencies:**
 ```powershell
-pytest tests/ -v
+pip install pytest pytest-cov
 ```
+
+**Run all tests:**
+```powershell
+# Using pytest
+pytest tests/ -v
+
+# Using Makefile
+make test
+```
+
+**Run specific test file:**
+```powershell
+pytest tests/test_user_consistency.py -v
+```
+
+**Run with detailed output:**
+```powershell
+pytest tests/ -v -s
+```
+
+**Run specific test class:**
+```powershell
+# Test only user consistency
+pytest tests/test_user_consistency.py::TestUserConsistency -v
+
+# Test only POI consistency
+pytest tests/test_user_consistency.py::TestPOIConsistency -v
+```
+
+**Run with coverage report:**
+```powershell
+pytest tests/ --cov=src --cov-report=html
+```
+
+**Available Test Suites:**
+- **TestUserConsistency** - Verifies all users in synthetic data exist in raw FSQ dataset
+- **TestPOIConsistency** - Verifies all POIs in synthetic transactions exist in raw data
+- **TestTransactionStructure** - Validates transaction-only structure (empty views/reviews)
+- **TestDataIntegrity** - Checks overall data quality and completeness
 
 ### Code Style
 
