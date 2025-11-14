@@ -30,6 +30,34 @@ singapore_foursquare_dataset/
 
 ## Quick Start
 
+### Python Environment Setup
+
+**1. Create a virtual environment:**
+
+```powershell
+# Using venv (Python 3.9+)
+python -m venv .env
+
+# Or using conda
+conda create -n fsq-env python=3.9
+```
+
+**2. Activate the environment:**
+
+```powershell
+# On Windows (PowerShell)
+.\.env\Scripts\Activate.ps1
+
+# On Windows (Command Prompt)
+.env\Scripts\activate.bat
+
+# On Linux/Mac
+source .env/bin/activate
+
+# Using conda
+conda activate fsq-env
+```
+
 ### Installation
 
 ```powershell
@@ -43,8 +71,11 @@ pip install -e .
 If you need to configure environment-specific variables (e.g., API keys, custom paths), create a `.env` file in the project root:
 
 ```powershell
-# Create .env file
-New-Item -Path .env -ItemType File
+# Copy the example template
+Copy-Item .env.example .env
+
+# Edit with your configuration
+notepad .env
 ```
 
 Example `.env` file contents:

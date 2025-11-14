@@ -1,4 +1,4 @@
-# Virtual environments
+# Virtual environments (Python venv/virtualenv folders)
 /code_venv
 code_venv/
 **/code_venv/
@@ -7,7 +7,7 @@ env/
 .venv/
 .env/
 
-# Environment variables
+# Environment configuration files
 .env
 .env.local
 .env.*.local
