@@ -111,7 +111,10 @@ python scripts/generate_synthetic_data.py
 # 3. Postprocess synthetic data (5-core filtering)
 python scripts/postprocess_synthetic_data.py
 
-# 4. Validate outputs
+# 4. Extract unique POIs from filtered data
+python src/utils/poi_extraction.py
+
+# 5. Validate outputs
 python scripts/validate_output.py
 ```
 
@@ -134,6 +137,36 @@ make test         # Run tests
 3. **Processed Data** (`data/processed/`) → Clean inputs for generation
 4. **Synthetic Data** (`data/synthetic/`) → Generated outputs
 5. **Postprocessed Data** (`data/synthetic/postprocessed/`) → 5-core filtered outputs
+6. **POI Extraction** → Unique POIs extracted from filtered data for validation/analysis
+
+### Pipeline Steps Explained
+
+**Step 1: Preprocess** - Enriches raw data with geographic information and converts to JSON
+- Adds planning area/subzone information to checkins via GeoJSON lookup
+- Converts FSQ CSV format to structured JSON for the generator
+- Output: `data/processed/input_filtered.json` and `input_all_categories.json`
+
+**Step 2: Generate** - Creates synthetic user interaction data
+- Generates synthetic transactions based on real FSQ checkin patterns
+- Preserves temporal patterns and user behavior
+- Output: `data/synthetic/fsq_to_synthetic_*.json`
+
+**Step 3: Postprocess** - Applies 5-core filtering for data quality
+- Ensures users have ≥5 interactions
+- Ensures POIs have ≥5 visits
+- Removes sparse data that could affect model training
+- Output: `data/synthetic/postprocessed/*_5core_filtered.json`
+
+**Step 4: Extract POIs** - Creates POI reference dataset
+- Extracts all unique POIs from filtered synthetic data
+- Includes POI metadata (name, categories, location, planning area)
+- Useful for validation, analysis, and downstream applications
+- Output: `src/utils/all_pois_just5_core_synthetic.json`
+
+**Step 5: Validate** - Checks data quality and consistency
+- Validates transaction structure
+- Verifies user/POI consistency with original data
+- Generates quality reports
 
 ## Architecture
 
@@ -151,6 +184,7 @@ No ML temporal models needed - uses original FSQ timestamps directly.
 - `src/preprocessing/fsq_to_input_json.py` - FSQ CSV → JSON conversion
 - `src/generation/transaction_generator.py` - Main synthetic data generation
 - `scripts/postprocess_synthetic_data.py` - Apply 5-core filtering to synthetic data
+- `src/utils/poi_extraction.py` - Extract unique POIs from filtered synthetic data
 - `src/validation/validate_transactions.py` - Transaction quality checks
 - `config/paths.py` - Centralized path definitions
 
