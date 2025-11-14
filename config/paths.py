@@ -17,7 +17,7 @@ DATA_RAW = BASE_DIR / "data" / "raw"
 DATA_INTERIM = BASE_DIR / "data" / "interim"
 DATA_PROCESSED = BASE_DIR / "data" / "processed"
 DATA_SYNTHETIC = BASE_DIR / "data" / "synthetic"
-
+DATA_SYNTHETIC_POST = BASE_DIR / "data" / "synthetic_postprocess"
 # Input files (raw data)
 FSQ_CHECKINS_CSV = DATA_RAW / "FSQ_SG_2013_Checkins.csv"
 FSQ_POI_CSV = DATA_RAW / "FSQ_SG_2013_POI.csv"

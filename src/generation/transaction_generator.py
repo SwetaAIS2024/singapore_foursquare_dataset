@@ -49,17 +49,12 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from config.paths import (
-    INPUT_FILTERED_JSON,
-    INPUT_ALL_CATEGORIES_JSON,
+    INPUT_TO_GENERATOR_FILTERED_JSON,
+    INPUT_TO_GENERATOR_ALL_CATEGORIES_JSON,
     SYNTHETIC_FILTERED_JSON,
     SYNTHETIC_ALL_CATEGORIES_JSON
 )
 
-# Legacy path variables for backward compatibility
-JSON_INPUT_FILTERED = str(INPUT_FILTERED_JSON)
-JSON_INPUT_ALL = str(INPUT_ALL_CATEGORIES_JSON)
-JSON_OUTPUT_FILTERED = str(SYNTHETIC_FILTERED_JSON)
-JSON_OUTPUT_ALL = str(SYNTHETIC_ALL_CATEGORIES_JSON)
 
 # -----------------------------
 # Helper Functions
@@ -505,23 +500,23 @@ if __name__ == "__main__":
     print("SYNTHETIC DATA GENERATION - DUAL OUTPUT VERSION")
     print("="*60)
     print("Generating synthetic datasets from both input files:")
-    print(f"1. Filtered categories: {JSON_INPUT_FILTERED}")
-    print(f"2. All categories: {JSON_INPUT_ALL}")
+    print(f"1. Filtered categories: {INPUT_TO_GENERATOR_FILTERED_JSON}")
+    print(f"2. All categories: {INPUT_TO_GENERATOR_ALL_CATEGORIES_JSON}")
     
     try:
         # Process filtered categories dataset
         print("\n" + "🎯" * 20)
         filtered_profiles = process_input_to_synthetic(
-            JSON_INPUT_FILTERED, 
-            JSON_OUTPUT_FILTERED, 
+            INPUT_TO_GENERATOR_FILTERED_JSON, 
+            SYNTHETIC_FILTERED_JSON, 
             "Filtered Categories Dataset"
         )
         
         # Process all categories dataset
         print("\n" + "📊" * 20)
         all_profiles = process_input_to_synthetic(
-            JSON_INPUT_ALL, 
-            JSON_OUTPUT_ALL, 
+            INPUT_TO_GENERATOR_ALL_CATEGORIES_JSON, 
+            SYNTHETIC_ALL_CATEGORIES_JSON, 
             "All Categories Dataset"
         )
         
@@ -530,10 +525,10 @@ if __name__ == "__main__":
         print("GENERATION COMPLETE - SUMMARY")
         print("="*60)
         print(f"📂 Output Files Generated:")
-        print(f"   1. Filtered dataset: {JSON_OUTPUT_FILTERED}")
+        print(f"   1. Filtered dataset: {SYNTHETIC_FILTERED_JSON}")
         print(f"      └── Users: {len(filtered_profiles)}")
         print(f"      └── Transactions: {sum(len(p['interaction']['transactions']) for p in filtered_profiles)}")
-        print(f"   2. All categories dataset: {JSON_OUTPUT_ALL}")
+        print(f"   2. All categories dataset: {SYNTHETIC_ALL_CATEGORIES_JSON}")
         print(f"      └── Users: {len(all_profiles)}")
         print(f"      └── Transactions: {sum(len(p['interaction']['transactions']) for p in all_profiles)}")
         
@@ -545,8 +540,8 @@ if __name__ == "__main__":
     except FileNotFoundError as e:
         print(f"\n❌ FATAL ERROR: Required input file not found")
         print(f"   Please check that input files exist:")
-        print(f"   - {JSON_INPUT_FILTERED}")
-        print(f"   - {JSON_INPUT_ALL}")
+        print(f"   - {INPUT_TO_GENERATOR_FILTERED_JSON}")
+        print(f"   - {INPUT_TO_GENERATOR_ALL_CATEGORIES_JSON}")
         exit(1)
     except json.JSONDecodeError as e:
         print(f"\n❌ FATAL ERROR: Invalid JSON format in input file")

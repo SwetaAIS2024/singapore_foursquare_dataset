@@ -21,7 +21,7 @@ import os
 from collections import defaultdict
 
 from config.paths import (
-    DATA_SYNTHETIC,
+    DATA_SYNTHETIC_POST,
     SYNTHETIC_FILTERED_JSON,
     SYNTHETIC_ALL_CATEGORIES_JSON
 )
@@ -299,7 +299,7 @@ def main():
     """Main execution function for postprocessing synthetic data."""
     
     # Define output directory for postprocessed files
-    output_dir = DATA_SYNTHETIC / "postprocessed"
+    output_dir = DATA_SYNTHETIC_POST
     output_dir.mkdir(exist_ok=True, parents=True)
     
     # Processing parameters

@@ -8,14 +8,11 @@ converting Foursquare check-in data to synthetic transaction datasets.
 """
 import sys
 from pathlib import Path
-
-# Add src to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
-
 from src.generation.transaction_generator import process_input_to_synthetic
 from config.paths import (
-    INPUT_FILTERED_JSON,
-    INPUT_ALL_CATEGORIES_JSON,
+    INPUT_TO_GENERATOR_FILTERED_JSON,
+    INPUT_TO_GENERATOR_ALL_CATEGORIES_JSON,
     SYNTHETIC_FILTERED_JSON,
     SYNTHETIC_ALL_CATEGORIES_JSON
 )
@@ -27,14 +24,14 @@ def main():
     print("SYNTHETIC DATA GENERATION - DUAL OUTPUT VERSION")
     print("=" * 60)
     print("Generating synthetic datasets from both input files:")
-    print(f"1. Filtered categories: {INPUT_FILTERED_JSON}")
-    print(f"2. All categories: {INPUT_ALL_CATEGORIES_JSON}")
+    print(f"1. Filtered categories: {INPUT_TO_GENERATOR_FILTERED_JSON}")
+    print(f"2. All categories: {INPUT_TO_GENERATOR_ALL_CATEGORIES_JSON}")
     
     try:
         # Process filtered categories dataset
         print("\n" + "🎯" * 20)
         filtered_profiles = process_input_to_synthetic(
-            str(INPUT_FILTERED_JSON), 
+            str(INPUT_TO_GENERATOR_FILTERED_JSON), 
             str(SYNTHETIC_FILTERED_JSON), 
             "Filtered Categories Dataset"
         )
@@ -42,7 +39,7 @@ def main():
         # Process all categories dataset
         print("\n" + "📊" * 20)
         all_profiles = process_input_to_synthetic(
-            str(INPUT_ALL_CATEGORIES_JSON), 
+            str(INPUT_TO_GENERATOR_ALL_CATEGORIES_JSON), 
             str(SYNTHETIC_ALL_CATEGORIES_JSON), 
             "All Categories Dataset"
         )
