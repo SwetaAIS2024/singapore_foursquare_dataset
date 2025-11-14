@@ -7,6 +7,22 @@ env/
 .venv/
 .env/
 
+# Data directories (keep structure, ignore large files)
+data/raw/*.csv
+data/interim/*.txt
+data/interim/*.json
+data/processed/*.json
+data/synthetic/*.json
+
+# But keep directory structure
+!data/raw/README.md
+!data/**/.gitkeep
+
+# Logs
+logs/*.log
+logs/*.txt
+!logs/.gitkeep
+
 /c5_JSON_Dataset_Generation/c0_scripts/LLM_method/input_dataset/mean_lat_lon_area/malaysia-singapore-brunei-latest.osm.pbf
 #*.npy
 *.npy.tmp
