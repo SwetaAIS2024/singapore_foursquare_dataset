@@ -7,6 +7,19 @@ from datetime import datetime
 from collections import defaultdict
 from statistics import mean
 from geopy.geocoders import Nominatim
+import sys
+from pathlib import Path
+
+# Add project root to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
+from config.paths import (
+    FSQ_POI_CSV,
+    RELEVANT_CATEGORIES_XLSX,
+    INPUT_TO_GENERATOR_INTERIM,
+    INPUT_TO_GENERATOR_FILTERED_JSON,
+    INPUT_TO_GENERATOR_ALL_CATEGORIES_JSON
+)
 
 
 def safe_string(val, default="Unknown"):
@@ -30,12 +43,6 @@ def safe_string(val, default="Unknown"):
     return str(val).strip() or default
 
 
-SAMPLED_FSQ_PLANNING_AREA = "json_gen/utils/u3_sampled_fsq_add_planning_area/sampled_FSQ_dataset_with_planning_area.txt"
-POI_CAT_MAPPING = "./Input_data/FSQ_SG_2013_POI.csv"
-JSON_INPUT_FILTERED = "json_gen/input_sampled_fsq_json/input_filtered.json"
-JSON_INPUT_ALL = "json_gen/input_sampled_fsq_json/input_all_categories.json"
-CATEGORIES_XLSX = "./Input_data/Relevant_POI_category.xlsx"
-
 # Load POI category and name mapping using pandas
 def load_poi_mapping(poi_mapping_path):
     # Read the CSV file assuming columns: place_id, name, lat, lon, category, country
@@ -53,7 +60,7 @@ def load_poi_mapping(poi_mapping_path):
 
 def filter_cat_distribution(dataframe_user):
     # Load relevant categories from the Excel file
-    relevant_cats_df = pd.read_excel(CATEGORIES_XLSX)
+    relevant_cats_df = pd.read_excel(RELEVANT_CATEGORIES_XLSX)
     cat_col = 'POI Category in Singapore'
     yes_col = 'Relevant to use case '
 
@@ -180,20 +187,20 @@ def process_and_save_both_versions(input_file, poi_category_mapping, poi_name_ma
     print("="*60)
     
     # Save filtered version
-    save_to_json(JSON_INPUT_FILTERED, user_profiles_filtered)
-    print(f"✅ Filtered version: {len(user_profiles_filtered)} user profiles saved to {JSON_INPUT_FILTERED}")
+    save_to_json(INPUT_TO_GENERATOR_FILTERED_JSON, user_profiles_filtered)
+    print(f"✅ Filtered version: {len(user_profiles_filtered)} user profiles saved to {INPUT_TO_GENERATOR_FILTERED_JSON}")
     
     # Save all categories version
-    save_to_json(JSON_INPUT_ALL, user_profiles_all)
-    print(f"✅ All categories version: {len(user_profiles_all)} user profiles saved to {JSON_INPUT_ALL}")
+    save_to_json(INPUT_TO_GENERATOR_ALL_CATEGORIES_JSON, user_profiles_all)
+    print(f"✅ All categories version: {len(user_profiles_all)} user profiles saved to {INPUT_TO_GENERATOR_ALL_CATEGORIES_JSON}")
     
     return user_profiles_filtered, user_profiles_all
 
 # Main function
 def main():
     # Paths
-    input_file = SAMPLED_FSQ_PLANNING_AREA
-    poi_mapping_path = POI_CAT_MAPPING
+    input_file = INPUT_TO_GENERATOR_INTERIM
+    poi_mapping_path = FSQ_POI_CSV
 
     print("="*60)
     print("LOADING DATA")
@@ -213,8 +220,8 @@ def main():
     print(f"📊 Filtered version (relevant categories): {len(user_profiles_filtered)} users")
     print(f"📊 All categories version: {len(user_profiles_all)} users")
     print(f"📂 Files created:")
-    print(f"   - Filtered: {JSON_INPUT_FILTERED}")
-    print(f"   - All categories: {JSON_INPUT_ALL}")
+    print(f"   - Filtered: {INPUT_TO_GENERATOR_FILTERED_JSON}")
+    print(f"   - All categories: {INPUT_TO_GENERATOR_ALL_CATEGORIES_JSON}")
 
 if __name__ == "__main__":
     main()

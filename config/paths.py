@@ -24,11 +24,14 @@ FSQ_POI_CSV = DATA_RAW / "FSQ_SG_2013_POI.csv"
 RELEVANT_CATEGORIES_XLSX = DATA_RAW / "Relevant_POI_category.xlsx"
 
 # Processed input files
-INPUT_FILTERED_JSON = DATA_PROCESSED / "input_filtered.json"
-INPUT_ALL_CATEGORIES_JSON = DATA_PROCESSED / "input_all_categories.json"
+INPUT_TO_GENERATOR_INTERIM = DATA_INTERIM / "checkins_interim.csv"
+
+# Processed input files
+INPUT_TO_GENERATOR_FILTERED_JSON = DATA_PROCESSED / "input_filtered.json"
+INPUT_TO_GENERATOR_ALL_CATEGORIES_JSON = DATA_PROCESSED / "input_all_categories.json"
 
 # Synthetic output files
-SYNTHETIC_FILTERED_JSON = DATA_SYNTHETIC / "fsq_to_synthetic_filtered.json"
+SYNTHETIC_FILTERED_JSON = DATA_SYNTHETIC / "fsq_to_synthetic_filtered_categories.json"
 SYNTHETIC_ALL_CATEGORIES_JSON = (
     DATA_SYNTHETIC / "fsq_to_synthetic_all_categories.json"
 )
