@@ -31,73 +31,25 @@ singapore_foursquare_dataset/
 ## Quick Start
 
 ### Python Environment Setup
-
 **1. Create a virtual environment:**
-
-```powershell
+```
 # Using venv (Python 3.9+)
 python -m venv .env
-
-# Or using conda
-conda create -n fsq-env python=3.9
 ```
-
 **2. Activate the environment:**
-
-```powershell
-# On Windows (PowerShell)
-.\.env\Scripts\Activate.ps1
-
+```
 # On Windows (Command Prompt)
 .env\Scripts\activate.bat
 
 # On Linux/Mac
 source .env/bin/activate
-
-# Using conda
-conda activate fsq-env
 ```
-
 ### Installation
-
 ```powershell
 # Install dependencies
 pip install -r requirements.txt
 pip install -e .
 ```
-
-### Environment Configuration (Optional)
-
-If you need to configure environment-specific variables (e.g., API keys, custom paths), create a `.env` file in the project root:
-
-```powershell
-# Copy the example template
-Copy-Item .env.example .env
-
-# Edit with your configuration
-notepad .env
-```
-
-Example `.env` file contents:
-```bash
-# Python environment (if needed)
-PYTHON_ENV=production
-
-# Custom data paths (optional - overrides default config)
-# DATA_RAW_PATH=./data/raw
-# DATA_PROCESSED_PATH=./data/processed
-# DATA_SYNTHETIC_PATH=./data/synthetic
-
-# API keys (if needed for future features)
-# GEOPY_API_KEY=your_api_key_here
-# DATABRICKS_TOKEN=your_token_here
-
-# Processing parameters (optional)
-# MIN_INTERACTIONS=5
-# BATCH_SIZE=100
-```
-
-**Note:** The `.env` file is already included in `.gitignore` and will not be committed to the repository.
 
 ### Running the Pipeline
 
@@ -116,18 +68,6 @@ python src/utils/poi_extraction.py
 
 # 5. Validate outputs
 python scripts/validate_output.py
-```
-
-### Using Makefile
-
-```bash
-make install      # Install dependencies
-make preprocess   # Preprocess raw FSQ data
-make generate     # Generate synthetic datasets
-make postprocess  # Apply 5-core filtering to synthetic data
-make validate     # Validate outputs
-make clean        # Remove generated files
-make test         # Run tests
 ```
 
 ## Data Pipeline
@@ -212,28 +152,9 @@ See `requirements.txt` for complete list.
 
 The project includes comprehensive tests to verify data consistency between raw and synthetic datasets.
 
-**Install test dependencies:**
-```powershell
-pip install pytest pytest-cov
-```
-
-**Run all tests:**
-```powershell
-# Using pytest
-pytest tests/ -v
-
-# Using Makefile
-make test
-```
-
 **Run specific test file:**
 ```powershell
 pytest tests/test_user_consistency.py -v
-```
-
-**Run with detailed output:**
-```powershell
-pytest tests/ -v -s
 ```
 
 **Run specific test class:**
@@ -245,47 +166,6 @@ pytest tests/test_user_consistency.py::TestUserConsistency -v
 pytest tests/test_user_consistency.py::TestPOIConsistency -v
 ```
 
-**Run with coverage report:**
-```powershell
-pytest tests/ --cov=src --cov-report=html
-```
-
-**Available Test Suites:**
-- **TestUserConsistency** - Verifies all users in synthetic data exist in raw FSQ dataset
-- **TestPOIConsistency** - Verifies all POIs in synthetic transactions exist in raw data
-- **TestTransactionStructure** - Validates transaction-only structure (empty views/reviews)
-- **TestDataIntegrity** - Checks overall data quality and completeness
-
-### Code Style
-
-- Follow PEP 8 standards
-- Use type hints (PEP 484)
-- Write PEP 257 docstrings
-- Maximum line length: 79 characters
-
-## Rollback
-
-If you need to rollback to the pre-refactor state:
-
-```powershell
-git reset --hard 28fa49d4
-```
-
-This will restore the project to the old structure (json_gen/, Input_data/, configuration/).
-
 ## Branch
+Current development branch: `transaction_json_generator`
 
-Current development branch: `databricks_integration_datapipeline`
-
-## License
-
-Research use only
-
-## Contributors
-
-Your Team
-
----
-
-**Last Updated:** November 14, 2025  
-**Version:** 1.0.0 (Post-refactor)
