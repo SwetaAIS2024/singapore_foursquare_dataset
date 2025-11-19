@@ -36,6 +36,14 @@ SYNTHETIC_ALL_CATEGORIES_JSON = (
     DATA_SYNTHETIC / "fsq_to_synthetic_all_categories.json"
 )
 
+# Synthetic post-processed output files
+SYNTHETIC_POST_FILTERED_JSON = (
+    DATA_SYNTHETIC_POST / "filtered_5core_filtered.json"
+)
+SYNTHETIC_POST_ALL_CATEGORIES_JSON = (
+    DATA_SYNTHETIC_POST / "all_categories_5core_filtered.json"
+)
+
 # GeoJSON files (in project root)
 PLANNING_AREA_GEOJSON = BASE_DIR / "planning_area.geojson"
 SUBZONE_GEOJSON = BASE_DIR / "subzone.geojson"
