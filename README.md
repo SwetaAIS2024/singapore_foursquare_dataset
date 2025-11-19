@@ -13,18 +13,17 @@ singapore_foursquare_dataset/
 ├── src/                    # Source code (modular by function)
 │   ├── preprocessing/      # Data preprocessing scripts
 │   ├── generation/         # Transaction generation
-│   ├── validation/         # Quality validation
 │   └── utils/              # Utility functions
 ├── config/                 # Configuration files
-│   ├── parameters.json
 │   └── paths.py
 ├── data/                   # All data (organized by stage)
 │   ├── raw/                # Original datasets (never modify)
-│   ├── interim/            # Temporary transformations
 │   ├── processed/          # Clean inputs
-│   └── synthetic/          # Generated outputs
+│   ├── synthetic/          # Generated synthetic output
+│   └── synthetic_postprocess/  # Generated post processed synthetic output 
 ├── scripts/                # Executable entry points
 ├── tests/                  # Unit tests
+│   ├── test_user_consistency.py
 └── .github/                # Documentation & CI/CD
 ```
 
@@ -66,8 +65,8 @@ python scripts/postprocess_synthetic_data.py
 # 4. Extract unique POIs from filtered data
 python src/utils/poi_extraction.py
 
-# 5. Validate outputs
-python scripts/validate_output.py
+# 5. Validate outputs by running the tests
+python tests/test_user_consistency.py
 ```
 
 ## Data Pipeline
@@ -104,9 +103,8 @@ python scripts/validate_output.py
 - Output: `src/utils/all_pois_just5_core_synthetic.json`
 
 **Step 5: Validate** - Checks data quality and consistency
-- Validates transaction structure
 - Verifies user/POI consistency with original data
-- Generates quality reports
+
 
 ## Architecture
 
@@ -125,7 +123,7 @@ No ML temporal models needed - uses original FSQ timestamps directly.
 - `src/generation/transaction_generator.py` - Main synthetic data generation
 - `scripts/postprocess_synthetic_data.py` - Apply 5-core filtering to synthetic data
 - `src/utils/poi_extraction.py` - Extract unique POIs from filtered synthetic data
-- `src/validation/validate_transactions.py` - Transaction quality checks
+- `tests/test_user_consistency.py` - user - transaction JSON quality check
 - `config/paths.py` - Centralized path definitions
 
 ## Requirements
@@ -139,15 +137,6 @@ No ML temporal models needed - uses original FSQ timestamps directly.
 
 See `requirements.txt` for complete list.
 
-## Documentation
-
-- `.github/copilot-instructions.md` - AI agent coding guidelines
-- `.github/REFACTOR_GUIDE.md` - Project migration guide
-- `.github/REFACTORING_SUMMARY.md` - Recent refactoring changes
-- `data/raw/README.md` - Raw data documentation
-
-## Development
-
 ### Running Tests
 
 The project includes comprehensive tests to verify data consistency between raw and synthetic datasets.
@@ -155,15 +144,6 @@ The project includes comprehensive tests to verify data consistency between raw 
 **Run specific test file:**
 ```powershell
 pytest tests/test_user_consistency.py -v
-```
-
-**Run specific test class:**
-```powershell
-# Test only user consistency
-pytest tests/test_user_consistency.py::TestUserConsistency -v
-
-# Test only POI consistency
-pytest tests/test_user_consistency.py::TestPOIConsistency -v
 ```
 
 ## Branch
