@@ -23,161 +23,8 @@ from collections import defaultdict
 from config.paths import (
     DATA_SYNTHETIC_POST,
     SYNTHETIC_FILTERED_JSON,
-    SYNTHETIC_ALL_CATEGORIES_JSON,
-    BASE_DIR
+    SYNTHETIC_ALL_CATEGORIES_JSON
 )
-
-def load_category_mapping(mapping_file=None):
-    """
-    Load category mapping from CSV/JSON file.
-    Maps 180 detailed POI categories to 50 group categories.
-    
-    Parameters:
-    - mapping_file: Path to mapping file (CSV or JSON format)
-                   Expected format: original_category -> group_category
-                   CSV: original_category,group_category
-                   JSON: {"original_category": "group_category", ...}
-    
-    Returns:
-    - dict: Mapping dictionary {original_category: group_category}
-    """
-    if mapping_file is None:
-        # Default path - look for mapping file in config or data directory
-        mapping_file = BASE_DIR / "config" / "category_mapping.json"
-        if not mapping_file.exists():
-            mapping_file = BASE_DIR / "config" / "category_mapping.csv"
-    
-    mapping_file = Path(mapping_file)
-    
-    if not mapping_file.exists():
-        print(f"⚠️  Warning: Category mapping file not found: {mapping_file}")
-        print(f"   Skipping category grouping. To enable, provide mapping file.")
-        return None
-    
-    print(f"Loading category mapping from: {mapping_file}")
-    
-    category_mapping = {}
-    
-    try:
-        if mapping_file.suffix == '.json':
-            # Load JSON format
-            with open(mapping_file, 'r', encoding='utf-8') as f:
-                category_mapping = json.load(f)
-        
-        elif mapping_file.suffix == '.csv':
-            # Load CSV format
-            df_mapping = pd.read_csv(mapping_file)
-            if 'original_category' in df_mapping.columns and 'group_category' in df_mapping.columns:
-                category_mapping = dict(zip(
-                    df_mapping['original_category'],
-                    df_mapping['group_category']
-                ))
-            else:
-                print(f"❌ Error: CSV must have columns 'original_category' and 'group_category'")
-                return None
-        
-        else:
-            print(f"❌ Error: Unsupported file format. Use .json or .csv")
-            return None
-        
-        print(f"✅ Loaded mapping for {len(category_mapping)} categories")
-        
-        # Show some examples
-        sample_mappings = list(category_mapping.items())[:5]
-        print(f"   Sample mappings:")
-        for orig, group in sample_mappings:
-            print(f"     '{orig}' → '{group}'")
-        
-        return category_mapping
-    
-    except Exception as e:
-        print(f"❌ Error loading category mapping: {e}")
-        return None
-
-
-def apply_category_grouping(data, category_mapping):
-    """
-    Apply category grouping to synthetic data.
-    Replaces detailed POI categories with group categories in all transactions.
-    
-    Parameters:
-    - data: List of user profiles (synthetic data JSON structure)
-    - category_mapping: Dictionary mapping original_category -> group_category
-    
-    Returns:
-    - List of user profiles with updated categories
-    - Statistics dictionary with mapping results
-    """
-    if category_mapping is None:
-        print("⚠️  No category mapping provided, skipping category grouping")
-        return data, None
-    
-    print(f"\n{'='*80}")
-    print("APPLYING CATEGORY GROUPING")
-    print(f"{'='*80}")
-    print(f"Mapping {len(category_mapping)} categories to group categories\n")
-    
-    # Statistics tracking
-    stats = {
-        'total_transactions': 0,
-        'categories_mapped': 0,
-        'categories_unmapped': 0,
-        'unmapped_categories': set(),
-        'group_category_distribution': defaultdict(int),
-        'original_category_distribution': defaultdict(int)
-    }
-    
-    # Process each user profile
-    for user_profile in data:
-        transactions = user_profile['interaction']['transactions']
-        
-        for txn in transactions:
-            stats['total_transactions'] += 1
-            
-            # Get original category (first in list)
-            if txn['poiCategories'] and len(txn['poiCategories']) > 0:
-                original_category = txn['poiCategories'][0]
-                stats['original_category_distribution'][original_category] += 1
-                
-                # Map to group category
-                if original_category in category_mapping:
-                    group_category = category_mapping[original_category]
-                    txn['poiCategories'] = [group_category]  # Replace with group category
-                    stats['categories_mapped'] += 1
-                    stats['group_category_distribution'][group_category] += 1
-                else:
-                    # Category not in mapping - keep original
-                    stats['categories_unmapped'] += 1
-                    stats['unmapped_categories'].add(original_category)
-                    stats['group_category_distribution'][original_category] += 1
-    
-    # Print statistics
-    print(f"Category Grouping Results:")
-    print(f"  Total transactions processed: {stats['total_transactions']:,}")
-    print(f"  Categories mapped: {stats['categories_mapped']:,} ({stats['categories_mapped']/stats['total_transactions']*100:.2f}%)")
-    print(f"  Categories unmapped: {stats['categories_unmapped']:,} ({stats['categories_unmapped']/stats['total_transactions']*100:.2f}%)")
-    
-    if stats['unmapped_categories']:
-        print(f"\n⚠️  Warning: {len(stats['unmapped_categories'])} categories not found in mapping:")
-        for cat in sorted(list(stats['unmapped_categories']))[:10]:
-            count = stats['original_category_distribution'][cat]
-            print(f"     - '{cat}' ({count} transactions)")
-        if len(stats['unmapped_categories']) > 10:
-            print(f"     ... and {len(stats['unmapped_categories']) - 10} more")
-    
-    print(f"\nGroup Category Distribution (Top 20):")
-    sorted_groups = sorted(stats['group_category_distribution'].items(), 
-                          key=lambda x: x[1], reverse=True)
-    for cat, count in sorted_groups[:20]:
-        pct = count / stats['total_transactions'] * 100
-        print(f"  {cat:<30}: {count:6,} ({pct:5.2f}%)")
-    
-    print(f"\n✅ Category grouping complete!")
-    print(f"   Original categories: {len(stats['original_category_distribution'])}")
-    print(f"   Group categories: {len(stats['group_category_distribution'])}")
-    
-    return data, stats
-
 
 def load_synthetic_data(json_file):
     """Load synthetic data from JSON file."""
@@ -403,53 +250,22 @@ def generate_basic_summary_report(df_original, df_filtered, poi_dict, user_dict,
     
     print(f"Generated 5-core filtering report: {report_file}")
 
-def process_dataset(input_file, output_dir, dataset_name, min_interactions=5, 
-                   category_mapping_file=None, apply_grouping=True):
+def process_dataset(input_file, output_dir, dataset_name, min_interactions=5):
     """
-    Main processing pipeline - 5-core filtering + optional category grouping.
+    Main processing pipeline - 5-core filtering only.
     
     Parameters:
     - input_file: Path to input JSON file
     - output_dir: Path to output directory
     - dataset_name: Name of the dataset (used in output filenames)
     - min_interactions: 5-core filtering threshold (users and POIs must have ≥5 interactions)
-    - category_mapping_file: Path to category mapping file (CSV or JSON)
-    - apply_grouping: Whether to apply category grouping (default: True)
     """
     
     print(f"Processing {dataset_name.upper()}")
-    print(f"Applying 5-core filtering with minimum {min_interactions} interactions per user/POI")
-    if apply_grouping:
-        print(f"Category grouping: ENABLED")
-    else:
-        print(f"Category grouping: DISABLED")
-    print()
+    print(f"Applying 5-core filtering with minimum {min_interactions} interactions per user/POI\n")
     
     # Load data
     synthetic_data = load_synthetic_data(input_file)
-    
-    # ==================================================
-    # STEP 1: APPLY CATEGORY GROUPING (OPTIONAL)
-    # ==================================================
-    grouping_stats = None
-    if apply_grouping:
-        category_mapping = load_category_mapping(category_mapping_file)
-        if category_mapping:
-            synthetic_data, grouping_stats = apply_category_grouping(synthetic_data, category_mapping)
-            
-            # Save grouped data before 5-core filtering
-            grouped_output = output_dir / f"{dataset_name}_grouped.json"
-            with open(grouped_output, 'w', encoding='utf-8') as f:
-                json.dump(synthetic_data, f, ensure_ascii=False, indent=2)
-            print(f"\n📄 Saved grouped data to: {grouped_output}")
-        else:
-            print("⏭️  Skipping category grouping (no mapping file found)")
-    else:
-        print("⏭️  Category grouping disabled")
-    
-    print(f"\n{'='*80}")
-    print("APPLYING 5-CORE FILTERING")
-    print(f"{'='*80}\n")
     
     # Extract interactions
     interactions = extract_interactions(synthetic_data)
@@ -479,14 +295,8 @@ def process_dataset(input_file, output_dir, dataset_name, min_interactions=5,
         'user_dict': user_dict
     }
 
-def main(category_mapping_file=None, apply_grouping=True):
-    """
-    Main execution function for postprocessing synthetic data.
-    
-    Parameters:
-    - category_mapping_file: Path to category mapping file (optional)
-    - apply_grouping: Whether to apply category grouping (default: True)
-    """
+def main():
+    """Main execution function for postprocessing synthetic data."""
     
     # Define output directory for postprocessed files
     output_dir = DATA_SYNTHETIC_POST
@@ -496,18 +306,14 @@ def main(category_mapping_file=None, apply_grouping=True):
     min_interactions = 5  # 5-core filtering threshold
     
     print("\n" + "="*80)
-    print("POSTPROCESSING PIPELINE FOR SYNTHETIC DATA")
+    print("5-CORE FILTERING PIPELINE FOR SYNTHETIC DATA")
     print("="*80)
     print(f"Input files:")
     print(f"  1. Filtered: {SYNTHETIC_FILTERED_JSON}")
     print(f"  2. All categories: {SYNTHETIC_ALL_CATEGORIES_JSON}")
     print(f"Output directory: {output_dir}")
-    print(f"Parameters:")
-    print(f"  - min_interactions: {min_interactions}")
-    print(f"  - category_grouping: {'ENABLED' if apply_grouping else 'DISABLED'}")
-    if category_mapping_file:
-        print(f"  - mapping_file: {category_mapping_file}")
-    print()
+    print(f"Parameters: min_interactions={min_interactions}")
+    print(f"Processing: 5-core filtering only\n")
     
     # Process filtered dataset
     if SYNTHETIC_FILTERED_JSON.exists():
@@ -518,9 +324,7 @@ def main(category_mapping_file=None, apply_grouping=True):
             SYNTHETIC_FILTERED_JSON, 
             output_dir, 
             "filtered",
-            min_interactions=min_interactions,
-            category_mapping_file=category_mapping_file,
-            apply_grouping=apply_grouping
+            min_interactions=min_interactions
         )
     else:
         print(f"❌ Filtered file not found: {SYNTHETIC_FILTERED_JSON}")
@@ -535,9 +339,7 @@ def main(category_mapping_file=None, apply_grouping=True):
             SYNTHETIC_ALL_CATEGORIES_JSON,
             output_dir,
             "all_categories", 
-            min_interactions=min_interactions,
-            category_mapping_file=category_mapping_file,
-            apply_grouping=apply_grouping
+            min_interactions=min_interactions
         )
     else:
         print(f"❌ All categories file not found: {SYNTHETIC_ALL_CATEGORIES_JSON}")
@@ -545,7 +347,7 @@ def main(category_mapping_file=None, apply_grouping=True):
     
     # Final summary
     print(f"\n{'='*80}")
-    print("✅ POSTPROCESSING PIPELINE COMPLETE")
+    print("✅ 5-CORE FILTERING PIPELINE COMPLETE")
     print(f"{'='*80}\n")
     
     if filtered_results:

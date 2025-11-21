@@ -1,0 +1,229 @@
+Result
+
+44: ['Video Game Store', 'Video Store'],
+ 
+ 
+ Group Category = "General Stores"
+{0: ['Arts & Crafts Store',
+  'Department Store',
+  'Accessories Store',
+  "Men's Store",
+  'Shoe Store',
+  'Jewelry Store',
+  "Women's Store",
+  'Grocery Store',
+  'Electronics Store',
+  'Candy Store',
+  'Pet Store',
+  'Convenience Store',
+  'Music Store',
+  'Kids Store',
+  'Liquor Store'],
+ 
+ 1: ['Nightclub',
+  'Ramen /  Noodle House',
+  'Multiplex',
+  'Boutique',
+
+ Group Category = "Bar"
+ 2: ['Wine Bar',
+  'Bar',
+  'Cocktail Bar',
+  'Karaoke Bar',
+  'Hookah Bar',
+  'Sports Bar',
+  'Dive Bar',
+  'Juice Bar',
+  'Piano Bar',
+  'Whisky Bar'],
+ 
+ 3: ['Coffee Shop',
+  'Sporting Goods Shop',
+  'Miscellaneous Shop',
+  
+  'Gourmet Shop',
+  'Gift Shop',
+  'Record Shop',
+  'Cupcake Shop',
+  'Flower Shop',
+  'Wine Shop',
+  'Board Shop',
+  'Optical Shop',
+  'Smoke Shop',
+  'Bagel Shop',
+  'Motorcycle Shop',
+  'Fish & Chips Shop',
+  'Tailor Shop'],
+  57: ['Mobile Phone Shop'],
+ 
+  
+ 
+ 30: ['Thrift / Vintage Store'],
+ 39: ['Clothing Store'],
+ 
+
+ Group Category = "Dessert & Bakery shops"
+ 38: ['Frozen Yogurt'],
+ 42: ['Dessert Shop'],
+ 24: ['Bakery'],
+ 3: 'Ice Cream Shop',
+  'Donut Shop',
+ 
+ 
+ Group Category = "Park"
+ 4: ['Park', 'Water Park', 'Skate Park'],
+ 
+ 
+ 5: ['Pizza Place',
+  'Sandwich Place',
+  'Snack Place',
+  'Soup Place',
+  'Salad Place',
+  'Taco Place',
+  'Burrito Place'],
+ 
+ 7: ['Burger Joint',
+  'Fried Chicken Joint',
+  'BBQ Joint',
+  'Wings Joint',
+  'Hot Dog Joint',
+  'Mac & Cheese Joint'],
+ 8: ['Fast Food Restaurant'],
+ 
+ 9: ['Salon / Barbershop', 'Tanning Salon', 'Nail Salon'],
+ 
+ Group Category = "Market"
+ 10: ['Market', 'Flea Market', 'Farmers Market', 'Fish Market'],
+ 
+ Group Category : 12 = "Gym"
+ 12: ['Gym', 'Gym / Fitness Center', 'Climbing Gym'],
+ 
+ Group Category : 18, 19 = "Arts & Theaters"
+ 18: ['Theater', 'Movie Theater', 'Indie Movie Theater', 'Indie Theater'],
+ 19: ['Art Gallery', 'Public Art'],
+ 
+ 21: ['Light Rail'],
+
+ 
+ Group Category : 3, 24 and 25 = "Food Courts"
+ 3: ['Coffee Shop',
+ 22: ['Breakfast Spot', 'Bed & Breakfast'],
+ 25: ['Food Court', 'Food', 'Food & Drink Shop', 'Food Truck'],
+ 
+ 59: ['Deli / Bodega']}
+ 
+   
+ 27: ['Tea Room'],
+ 28: ['Yoga Studio'],
+ 
+ 29: ['Steakhouse'],
+ 13: ['Diner'],
+ 
+ 
+
+
+ 
+ Group Category : 31, 56, 48, 17, 1, 36 = "Pubs & Clubs"
+ 31: ['Pub'],
+ 56: ['Gastropub'],
+ 48: ['Beer Garden'],
+ 17: ['Rock Club', 'Jazz Club']
+  1: ['Nightclub',
+ 20: ['Other Nightlife'],
+ 17: ['Comedy Club'],
+ 36: ['Speakeasy'],
+ 1: ['Nightclub',
+ 
+ Group Category : 34 and 37 = "Gaming"
+ 34: ['Arcade'],
+ 37: ['Bowling Alley'],
+  47: ['Gaming Cafe', 'Internet Cafe'],
+  
+ Group Category : 32 and 35 = "General"
+ 32: ['Laundry Service'],
+ 35: ['Furniture / Home Store'],
+ 
+ Group Category : 14, 33, 40 and 46 = "Automotives"
+ 14: ['Car Dealership', 'Car Wash', 'Rental Car Location'],
+ 33: ['Automotive Shop'],
+ 40: ['Bike Shop', 'Bike Rental / Bike Share'],
+ 46: ['Gas Station / Garage'],
+ 
+ 
+
+ 
+ 
+ 45: ['Zoo'],
+ 49: ['Aquarium'],
+ 
+ Group Category : 47, 50 and 54 = group "Cafes"
+ 50: ['Caf_x001A_'],
+ 54: ['Caf_x001A__x001A_'],
+ 
+ Group Category = "Travel"
+ 52: ['General Travel'],
+ 11: ['Lounge'],
+ 41: ['Ferry'],
+ 43: ['Train'],
+ 
+ 
+ Group Category = "Resorts"
+ 53: ['Plaza'],
+ 55: ['Motel'],
+ 15: ['Spa / Massage'],
+ 16: ['Resort'],
+ 
+ 
+ Group Category = "Restaurants"
+ 1:   'Afghan Restaurant'],
+ 6: ['American Restaurant',
+	 'South American Restaurant',
+	 'New American Restaurant',
+	 'Latin American Restaurant'],
+ 23: ['Middle Eastern Restaurant', 'Eastern European Restaurant'],
+ 26: ['Australian Restaurant',
+  'Chinese Restaurant',
+  'Indian Restaurant',
+  'French Restaurant',
+  'Spanish Restaurant',
+  'Malaysian Restaurant',
+  'Mexican Restaurant',
+  'Italian Restaurant',
+  'Mediterranean Restaurant',
+  'Asian Restaurant',
+  'Thai Restaurant',
+  'Restaurant',
+  'Seafood Restaurant',
+  'Vegetarian / Vegan Restaurant',
+  'Indonesian Restaurant',
+  'Japanese Restaurant',
+  'Korean Restaurant',
+  'Vietnamese Restaurant',
+  'Sushi Restaurant',
+  'Moroccan Restaurant',
+  'Swiss Restaurant',
+  'Tapas Restaurant',
+  'German Restaurant',
+  'Scandinavian Restaurant',
+  'Dumpling Restaurant',
+  'Brazilian Restaurant',
+  'Falafel Restaurant',
+  'Filipino Restaurant',
+  'Portuguese Restaurant',
+  'Cuban Restaurant',
+  'African Restaurant',
+  'Molecular Gastronomy Restaurant',
+  'Argentinian Restaurant',
+  'Arepa Restaurant',
+  'Paella Restaurant',
+  'Cajun / Creole Restaurant',
+  'Caribbean Restaurant',
+  'Turkish Restaurant'],
+   58: ['Dim Sum Restaurant'],
+   
+   
+ 
+
+ 
+
+ 
