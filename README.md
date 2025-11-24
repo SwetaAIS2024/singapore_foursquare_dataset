@@ -38,8 +38,7 @@ singapore_foursquare_dataset/
 
 #### Running the scripts
 ```bash
-# 1. Preprocess data - this step can be skipped if the planning area is not needed in the 
-# JSON dataset
+# 1. Preprocess data, this is for the fsq to json conversion
 python scripts/preprocess_fsq_data.py
 
 # 2. Generate synthetic datasets
@@ -48,10 +47,41 @@ python scripts/generate_synthetic_data.py
 # 3. Postprocess synthetic data (5-core filtering)
 python scripts/postprocess_synthetic_data.py
 
-# 4. Extract unique POIs from filtered data
+# Default: Replace categories only (with backup)
+python scripts/postprocess_synthetic_data.py
+
+# Create both versions (with backup) ->>> USE THIS TO HAVE BOTH THE VERSIONS
+python scripts/postprocess_synthetic_data.py --preserve-original
+
+# Custom mapping file
+python scripts/postprocess_synthetic_data.py --mapping-file path/to/mapping.csv
+
+# Disable category grouping
+python scripts/postprocess_synthetic_data.py --no-grouping
+
+# Skip backup (fast mode, use with caution)
+python scripts/postprocess_synthetic_data.py --no-backup
+
+# 4. Extract unique POIs from filtered data (synthetic postprocess)
 python src/utils/poi_extraction.py
 
-# 5. Validate outputs by running the tests
+# 5. Extrapolate views and reviews from transactions
+# This generates the final dataset with complete user interaction funnel
+python scripts/extrapolate_views_reviews.py
+
+# Default paths (reads filtered_5core_filtered.json, outputs to data/final_dataset/)
+python scripts/extrapolate_views_reviews.py
+
+# Custom paths
+python scripts/extrapolate_views_reviews.py \
+  --transaction-file data/synthetic_postprocess/all_categories_5core_filtered.json \
+  --output-dir data/final_dataset \
+  --log-level INFO
+
+# 6. Extract unique POIs from final dataset (with views/transactions/reviews)
+python src/utils/poi_extraction_final.py
+
+# 7. Validate outputs by running the tests
 python tests/test_user_consistency.py
 ```
 
@@ -80,15 +110,31 @@ python tests/test_user_consistency.py
 - Ensures users have ≥5 interactions
 - Ensures POIs have ≥5 visits
 - Removes sparse data that could affect model training
-- Output: `data/synthetic/postprocessed/*_5core_filtered.json`
+- Output: `data/synthetic_postprocess/*_5core_filtered.json`
 
-**Step 4: Extract POIs** - Creates POI reference dataset
-- Extracts all unique POIs from filtered synthetic data
+**Step 4: Extract POIs (Postprocess)** - Creates POI reference from filtered synthetic data
+- Extracts all unique POIs from 5-core filtered synthetic data
 - Includes POI metadata (name, categories, location, planning area)
 - Useful for validation, analysis, and downstream applications
 - Output: `src/utils/all_pois_filtered_synthetic.json` and `src/utils/all_pois_all_categories_synthetic.json`
 
-**Step 5: Validate** - Comprehensive automated testing
+**Step 5: Extrapolate Views & Reviews** - Completes user interaction funnel
+- Generates views (20-90 min before each transaction)
+- Generates reviews (1-7 days after 40% of transactions)
+- Applies realistic spatial-temporal patterns based on user behavior research
+- Maintains strict funnel order: View → Transaction → Review
+- Output: `data/final_dataset/final_dataset_with_views_reviews.json`
+- Statistics: `data/final_dataset/extrapolation_stats.json`
+- Documentation: `docs/VIEWS_REVIEWS_GENERATION_LOGIC.md`
+
+**Step 6: Extract POIs (Final)** - Creates comprehensive POI reference with interaction statistics
+- Extracts all unique POIs from final dataset (with views, transactions, reviews)
+- Includes POI metadata with full interaction statistics
+- 100% POI name coverage from reference data
+- Output: `src/utils/all_pois_final_dataset.json`
+- Statistics: `data/final_dataset/poi_extraction_stats.json`
+
+**Step 7: Validate** - Comprehensive automated testing
 - Validates both filtered and all-categories datasets
 - Verifies user/POI consistency with raw FSQ data
 - Tests transaction structure and required fields
@@ -98,23 +144,49 @@ python tests/test_user_consistency.py
 
 ## Architecture
 
+### Intermediate Dataset (Postprocess Output)
 **Core Principle:** ALL Foursquare check-ins → transactions only
 
 - ✅ Transactions: Real check-in data with original timestamps
 - ⚠️ Views: Empty placeholder (0 entries)
 - ⚠️ Reviews: Empty placeholder (0 entries)
 
-No ML temporal models needed - uses original FSQ timestamps directly.
+### Final Dataset (After Views/Reviews Extrapolation)
+**Complete User Interaction Funnel:**
+
+- ✅ **Views**: Generated from transactions (20-90 min before, from home/work locations)
+- ✅ **Transactions**: Original check-in data at POI locations
+- ✅ **Reviews**: Generated from transactions (1-7 days after, 40% rate, from home locations)
+
+**Funnel Guarantees:**
+- Every transaction has a preceding view (1:1 ratio)
+- 40% of transactions have reviews
+- Strict chronological order maintained
+- Realistic spatial-temporal patterns
+
+See `docs/VIEWS_REVIEWS_GENERATION_LOGIC.md` for detailed generation logic.
 
 ## Key Files
 
+### Core Pipeline
 - `src/preprocessing/add_planning_area.py` - Add geographic region information to checkins
 - `src/preprocessing/fsq_to_input_json.py` - FSQ CSV → JSON conversion
 - `src/generation/transaction_generator.py` - Main synthetic data generation
 - `scripts/postprocess_synthetic_data.py` - Apply 5-core filtering to synthetic data
 - `src/utils/poi_extraction.py` - Extract unique POIs from filtered synthetic data
-- `tests/test_user_consistency.py` - user - transaction JSON quality check
+
+### Final Dataset Generation
+- `scripts/extrapolate_views_reviews.py` - Generate views and reviews from transactions
+- `src/utils/poi_extraction_final.py` - Extract POIs from final dataset with statistics
+
+### Testing & Configuration
+- `tests/test_user_consistency.py` - User-transaction JSON quality check
 - `config/paths.py` - Centralized path definitions
+
+### Documentation
+- `docs/VIEWS_REVIEWS_GENERATION_LOGIC.md` - Detailed explanation of views/reviews generation
+- `docs/CATEGORY_GROUPING_IMPLEMENTATION.md` - Category mapping documentation
+- `data/final_dataset/README.md` - Final dataset structure and usage
 
 ## Requirements
 
@@ -126,31 +198,6 @@ No ML temporal models needed - uses original FSQ timestamps directly.
 - tqdm >= 4.64.0
 
 See `requirements.txt` for complete list. All dependencies are installed automatically when you install the package.
-
-### CLI Options Reference
-
-```bash
-fsq-pipeline [OPTIONS]
-
-Required Arguments:
-  --input PATH              Path to input CSV file (raw FSQ check-ins) or preprocessed JSON
-  --output PATH             Path to output JSON file (synthetic data)
-
-Optional Arguments:
-  --min-interactions INT    Minimum interactions for 5-core filtering (default: 5)
-  --dataset-name TEXT       Name for this dataset (default: custom_dataset)
-  --geojson-path PATH       Path to planning_area.geojson (uses package default if not provided)
-  
-Skip Options:
-  --skip-preprocessing      Skip preprocessing step (use if input is already preprocessed JSON)
-  --skip-postprocessing     Skip postprocessing step (no 5-core filtering)
-  
-Output Options:
-  --json-output             Output progress as JSON (for programmatic parsing)
-  --verbose                 Show detailed error messages and stack traces
-  --version                 Show version and exit
-  --help                    Show help message and exit
-```
 
 ### Running Tests
 
@@ -171,62 +218,4 @@ pytest tests/test_user_consistency.py -v
 python tests/test_user_consistency.py
 ```
 
-## Common Use Cases
 
-### Use Case 1: Quick Generation with Defaults
-```bash
-fsq-pipeline --input my_checkins.csv --output synthetic.json
-```
-
-### Use Case 2: Higher Quality Filtering
-```bash
-# Require at least 10 interactions per user/POI
-fsq-pipeline \
-  --input my_checkins.csv \
-  --output synthetic.json \
-  --min-interactions 10
-```
-
-### Use Case 3: Already Preprocessed Data
-```bash
-# Skip preprocessing if you already have JSON format
-fsq-pipeline \
-  --input preprocessed.json \
-  --output synthetic.json \
-  --skip-preprocessing
-```
-
-### Use Case 4: No Filtering (Keep All Data)
-```bash
-# Skip 5-core filtering to keep all generated transactions
-fsq-pipeline \
-  --input my_checkins.csv \
-  --output synthetic.json \
-  --skip-postprocessing
-```
-
-### Use Case 5: Programmatic Integration (.NET Example)
-```csharp
-public async Task<string> GenerateSyntheticData(string inputPath)
-{
-    var outputPath = Path.GetTempFileName() + ".json";
-    
-    var process = await Process.Start(new ProcessStartInfo
-    {
-        FileName = "fsq-pipeline",
-        Arguments = $"--input \"{inputPath}\" --output \"{outputPath}\" --json-output",
-        RedirectStandardOutput = true,
-        UseShellExecute = false
-    });
-    
-    await process.WaitForExitAsync();
-    
-    if (process.ExitCode == 0)
-    {
-        return outputPath;
-    }
-    throw new Exception("Pipeline failed");
-}
-```
-
----

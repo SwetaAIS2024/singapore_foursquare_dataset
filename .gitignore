@@ -64,6 +64,10 @@ c6_Validation/
 !config*.json
 !package*.json
 
+# Allow specific final dataset files to be tracked
+!data/final_dataset/final_dataset_with_views_reviews.json
+!src/utils/all_pois_final_dataset.json
+
 # Ignore Python cache files
 __pycache__/
 *.py[cod]

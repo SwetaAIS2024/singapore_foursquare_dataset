@@ -1,0 +1,52 @@
+5-CORE FILTERING REPORT FOR ALL_CATEGORIES
+============================================================
+
+ORIGINAL DATA:
+  Total interactions: 356,381
+  Unique users: 8,734
+  Unique POIs: 33,892
+  Unique categories: 262
+
+AFTER 5-CORE FILTERING:
+  Total interactions: 308,825
+  Unique users: 4,654
+  Unique POIs: 9,756
+  Data retention: 86.66%
+
+USER RETENTION:
+  Users retained: 4,654 / 8,734 (53.29%)
+
+POI RETENTION:
+  POIs retained: 9,756 / 33,892 (28.79%)
+
+POI CATEGORY DISTRIBUTION (AFTER 5-CORE):
+  Mall                          : 52737 (17.08%)
+  Home (private)                : 23244 ( 7.53%)
+  Restaurant                    : 15930 ( 5.16%)
+  Asian Restaurant              : 15476 ( 5.01%)
+  Retail                        : 14343 ( 4.64%)
+  Subway                        : 12754 ( 4.13%)
+  Arts and Entertainment        : 12715 ( 4.12%)
+  Bus Station                   : 11587 ( 3.75%)
+  Food Court
+Food Truck,Food Truck": 10576 ( 3.42%)
+  Train Station                 :  8527 ( 2.76%)
+  Cafe, Coffee, and Tea House   :  8177 ( 2.65%)
+  Residential Building (Apartment / Condo):  7461 ( 2.42%)
+  High School                   :  6494 ( 2.10%)
+  Hotel                         :  5407 ( 1.75%)
+  Office                        :  4810 ( 1.56%)
+
+  Total categories: 221
+
+USER INTERACTION DISTRIBUTION (AFTER 5-CORE):
+  Min interactions per user: 5
+  Max interactions per user: 2200
+  Avg interactions per user: 66.36
+  Median interactions per user: 34.00
+
+POI INTERACTION DISTRIBUTION (AFTER 5-CORE):
+  Min interactions per POI: 5
+  Max interactions per POI: 3990
+  Avg interactions per POI: 31.65
+  Median interactions per POI: 12.00

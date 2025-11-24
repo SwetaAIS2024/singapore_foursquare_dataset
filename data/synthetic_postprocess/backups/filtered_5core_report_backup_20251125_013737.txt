@@ -1,0 +1,52 @@
+5-CORE FILTERING REPORT FOR FILTERED
+============================================================
+
+ORIGINAL DATA:
+  Total interactions: 121,729
+  Unique users: 6,284
+  Unique POIs: 14,641
+  Unique categories: 42
+
+AFTER 5-CORE FILTERING:
+  Total interactions: 98,582
+  Unique users: 3,106
+  Unique POIs: 4,163
+  Data retention: 80.98%
+
+USER RETENTION:
+  Users retained: 3,106 / 6,284 (49.43%)
+
+POI RETENTION:
+  POIs retained: 4,163 / 14,641 (28.43%)
+
+POI CATEGORY DISTRIBUTION (AFTER 5-CORE):
+  Restaurant                    : 15465 (15.69%)
+  Asian Restaurant              : 14925 (15.14%)
+  Retail                        : 13570 (13.77%)
+  Arts and Entertainment        : 12488 (12.67%)
+  Food Court
+Food Truck,Food Truck": 10193 (10.34%)
+  Cafe, Coffee, and Tea House   :  7949 ( 8.06%)
+  Bar                           :  4104 ( 4.16%)
+  Dessert Shop                  :  2924 ( 2.97%)
+  Travel and Transportation     :  2892 ( 2.93%)
+  Sports and Recreation         :  2653 ( 2.69%)
+  Landmarks and Outdoors        :  2298 ( 2.33%)
+  Computers and Electronics Retail:  1296 ( 1.31%)
+  American Restaurant           :  1239 ( 1.26%)
+  Italian Restaurant            :  1104 ( 1.12%)
+  Indian Restaurant             :   746 ( 0.76%)
+
+  Total categories: 39
+
+USER INTERACTION DISTRIBUTION (AFTER 5-CORE):
+  Min interactions per user: 5
+  Max interactions per user: 838
+  Avg interactions per user: 31.74
+  Median interactions per user: 21.00
+
+POI INTERACTION DISTRIBUTION (AFTER 5-CORE):
+  Min interactions per POI: 5
+  Max interactions per POI: 1706
+  Avg interactions per POI: 23.68
+  Median interactions per POI: 11.00
