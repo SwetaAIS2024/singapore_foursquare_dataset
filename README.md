@@ -8,153 +8,6 @@ This project converts Foursquare Singapore check-in data (2013) into synthetic t
 
 ---
 
-## 🚀 Quick Start for Other Teams
-
-### Installation (Python 3.9+)
-
-```bash
-# Install directly from GitHub
-pip install git+https://github.com/SwetaAIS2024/singapore_foursquare_dataset.git
-```
-
-### Command Line Usage
-
-```bash
-# Basic usage - generate synthetic data from CSV
-fsq-pipeline --input your_data.csv --output synthetic_output.json
-
-# With custom parameters
-fsq-pipeline \
-  --input your_data.csv \
-  --output synthetic_output.json \
-  --min-interactions 10 \
-  --dataset-name my_dataset
-
-# Skip preprocessing (if input is already preprocessed JSON)
-fsq-pipeline \
-  --input preprocessed.json \
-  --output synthetic.json \
-  --skip-preprocessing
-
-# Get help
-fsq-pipeline --help
-```
-
-### Integration with Other Languages
-
-#### .NET (C#)
-```csharp
-using System.Diagnostics;
-
-var process = Process.Start(new ProcessStartInfo
-{
-    FileName = "fsq-pipeline",
-    Arguments = "--input data.csv --output result.json --min-interactions 5",
-    RedirectStandardOutput = true,
-    UseShellExecute = false
-});
-
-await process.WaitForExitAsync();
-
-// Read results
-var syntheticData = File.ReadAllText("result.json");
-var metadata = File.ReadAllText("result.meta.json");
-```
-
-#### Java
-```java
-ProcessBuilder pb = new ProcessBuilder(
-    "fsq-pipeline",
-    "--input", "data.csv",
-    "--output", "result.json"
-);
-Process process = pb.start();
-int exitCode = process.waitFor();
-```
-
-#### Node.js
-```javascript
-const { exec } = require('child_process');
-
-exec('fsq-pipeline --input data.csv --output result.json', (error, stdout, stderr) => {
-    if (error) {
-        console.error(`Error: ${error.message}`);
-        return;
-    }
-    console.log(`Output: ${stdout}`);
-});
-```
-
-#### Python (Library Mode)
-```python
-from singapore_fsq_synthetic import FSQPipeline
-
-pipeline = FSQPipeline(
-    input_path="data.csv",
-    output_path="result.json",
-    min_interactions=5
-)
-result = pipeline.run()
-print(f"Generated {result['num_users']} users")
-```
-
-### Output Format
-
-The pipeline generates two files:
-
-1. **`output.json`** - Synthetic transaction data in this format:
-```json
-[
-  {
-    "user": {
-      "userId": "USR001",
-      "age": 25,
-      "gender": "female",
-      "location": {"city": "Singapore", "country": "SG"},
-      "device": {"platform": "iOS", "appVersion": "3.2.1"}
-    },
-    "interaction": {
-      "views": [],
-      "transactions": [
-        {
-          "timestamp": "2013-05-15T14:30:00Z",
-          "poiId": "POI_123",
-          "poiCategories": ["Restaurant"],
-          "amount": 25.50,
-          "currency": "SGD",
-          "paymentMethod": "credit_card",
-          "userLocation": {"latitude": 1.2897, "longitude": 103.8501}
-        }
-      ],
-      "reviews": []
-    }
-  }
-]
-```
-
-2. **`output.meta.json`** - Metadata about the generation:
-```json
-{
-  "status": "success",
-  "input_file": "data.csv",
-  "output_file": "result.json",
-  "execution_time_seconds": 125.4,
-  "timestamp": "2025-11-20T10:30:00Z"
-}
-```
-
-### Requirements
-
-- **Python 3.9 or higher** ([Download](https://www.python.org/downloads/))
-- No additional setup required - all dependencies installed automatically
-
-### Support
-
-- **Issues**: [GitHub Issues](https://github.com/SwetaAIS2024/singapore_foursquare_dataset/issues)
-- **Documentation**: See sections below for detailed usage
-
----
-
 ## Project Structure
 
 ```
@@ -176,58 +29,17 @@ singapore_foursquare_dataset/
 └── .github/                # Documentation & CI/CD
 ```
 
-## Development Setup (For Contributors)
-
 ### Python Environment Setup
-**1. Create a virtual environment:**
+
+- python -m venv .env
+- source .env/bin/activate
+- pip install -r requirements.txt
+
+
+#### Running the scripts
 ```bash
-# Using venv (Python 3.9+)
-python -m venv .env
-```
-
-**2. Activate the environment:**
-```bash
-# On Windows (PowerShell)
-.env\Scripts\Activate.ps1
-
-# On Windows (Command Prompt)
-.env\Scripts\activate.bat
-
-# On Linux/Mac
-source .env/bin/activate
-```
-
-### Installation for Development
-```bash
-# Install dependencies
-pip install -r requirements.txt
-
-# Install package in editable mode
-pip install -e .
-```
-
-### Running the Pipeline (Development Mode)
-
-#### Option A: Using CLI (Recommended)
-```bash
-# Single command - runs entire pipeline
-fsq-pipeline \
-  --input data/raw/FSQ_SG_2013_Checkins.csv \
-  --output data/synthetic/output.json \
-  --min-interactions 5
-
-# With custom parameters
-fsq-pipeline \
-  --input data/raw/FSQ_SG_2013_Checkins.csv \
-  --output data/synthetic/custom_output.json \
-  --min-interactions 10 \
-  --dataset-name singapore_fsq \
-  --verbose
-```
-
-#### Option B: Step-by-Step (For Debugging)
-```bash
-# 1. Preprocess data
+# 1. Preprocess data - this step can be skipped if the planning area is not needed in the 
+# JSON dataset
 python scripts/preprocess_fsq_data.py
 
 # 2. Generate synthetic datasets
