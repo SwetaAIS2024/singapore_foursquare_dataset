@@ -1,10 +1,10 @@
 # Singapore Foursquare Synthetic Dataset Generation
 
-Transaction-only synthetic data generation pipeline for Singapore Foursquare check-in data.
+Transaction, Views and Reviews synthetic JSON data generation pipeline for Singapore Foursquare check-in data.
 
 ## Overview
 
-This project converts Foursquare Singapore check-in data (2013) into synthetic transaction datasets. All check-ins are converted to transactions - views and reviews are empty placeholders.
+This project converts Foursquare Singapore check-in data (2013) into synthetic transaction datasets. All check-ins are converted to transactions and then we extrapolate the views and the reviews from the transactions.
 
 ---
 
@@ -12,18 +12,25 @@ This project converts Foursquare Singapore check-in data (2013) into synthetic t
 
 ```
 singapore_foursquare_dataset/
+├── scripts/                           # Executable entry points in the pipeline
+│   ├── preprocess_fsq_data.py         # Data preprocessing scripts
+│   ├── generate_synthetic_data.py     # Transaction generation
+│   └── postprocess_synthetic_data.py  # Postprocess synthetic data
+│   └── extrapolate_views_reviews.py   # Extrapolate the views and the reviews 
 ├── src/                    # Source code (modular by function)
 │   ├── preprocessing/      # Data preprocessing scripts
 │   ├── generation/         # Transaction generation
 │   └── utils/              # Utility functions
 ├── config/                 # Configuration files
 │   └── paths.py
+│   └── category_mapping.csv # This is the mapping csv file storing the POI category to grouped higher level category mappings.
 ├── data/                   # All data (organized by stage)
 │   ├── raw/                # Original datasets (never modify)
-│   ├── processed/          # Clean inputs
-│   ├── synthetic/          # Generated synthetic output
-│   └── synthetic_postprocess/  # Generated post processed synthetic output 
-├── scripts/                # Executable entry points
+│   ├── interim/            # Planning area added to the original checkin dataset
+│   ├── processed/          # Interim checkin dataset converted to JSON 
+│   ├── synthetic/          # Generated synthetic output having transactions only
+│   └── synthetic_postprocess/  # Generated post processed synthetic output with transactions only, here filtering rules like 5 core filter are applied
+│   ├── final_dataset/          # Final dataset generated from postprocessed synthetic output having transactions, views and reviews
 ├── tests/                  # Unit tests
 │   ├── test_user_consistency.py
 └── .github/                # Documentation & CI/CD
@@ -44,7 +51,7 @@ python scripts/preprocess_fsq_data.py
 # 2. Generate synthetic datasets
 python scripts/generate_synthetic_data.py
 
-# 3. Postprocess synthetic data (5-core filtering)
+# 3. Postprocess synthetic data (5-core filtering, adding or replacing with the group category)
 python scripts/postprocess_synthetic_data.py
 
 # Default: Replace categories only (with backup)
@@ -62,14 +69,11 @@ python scripts/postprocess_synthetic_data.py --no-grouping
 # Skip backup (fast mode, use with caution)
 python scripts/postprocess_synthetic_data.py --no-backup
 
-# 4. Extract unique POIs from filtered data (synthetic postprocess)
+# 4. Extract unique POIs from filtered data (synthetic postprocess) This is needed if the user wants to use the legacy dataset.
 python src/utils/poi_extraction.py
 
 # 5. Extrapolate views and reviews from transactions
 # This generates the final dataset with complete user interaction funnel
-python scripts/extrapolate_views_reviews.py
-
-# Default paths (reads filtered_5core_filtered.json, outputs to data/final_dataset/)
 python scripts/extrapolate_views_reviews.py
 
 # Custom paths
@@ -78,10 +82,10 @@ python scripts/extrapolate_views_reviews.py \
   --output-dir data/final_dataset \
   --log-level INFO
 
-# 6. Extract unique POIs from final dataset (with views/transactions/reviews)
+# 6. Extract unique POIs from final dataset (with views/transactions/reviews) This is needed for the dataset having the grouped categories
 python src/utils/poi_extraction_final.py
 
-# 7. Validate outputs by running the tests
+# 7. Validate outputs by running the tests 
 python tests/test_user_consistency.py
 ```
 
@@ -92,7 +96,8 @@ python tests/test_user_consistency.py
 3. **Processed Data** (`data/processed/`) → Clean inputs for generation
 4. **Synthetic Data** (`data/synthetic/`) → Generated outputs
 5. **Postprocessed Data** (`data/synthetic/postprocessed/`) → 5-core filtered outputs
-6. **POI Extraction** → Unique POIs extracted from filtered data for validation/analysis
+6. **Final Dataset** (`data/final_dataset/`) → Final dataset having all three interactions(T, R, V) generated from postprocessed synthetic output having transactions 
+7. **POI Extraction** → Unique POIs extracted from final dataset
 
 ### Pipeline Steps Explained
 
